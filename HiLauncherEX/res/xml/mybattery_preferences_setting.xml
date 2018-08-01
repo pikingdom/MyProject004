@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 我的电池的设置界面 -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory android:title="@string/mybattery_power_setting_title">
+        <!--锁屏省电设置  -->
+		<Preference android:layout="@layout/preference_normal_layout"
+	   		android:key="settings_lockscreen_energysaving"
+	   	    android:title="@string/mybattery_power_setting_lock_title"
+	   	    android:widgetLayout="@layout/preferences_listpreferences_more_btn" 
+	   	    android:summary="@string/mybattery_power_setting_lock_desc"/>
+		<!-- 内存清理白名单 -->
+		<Preference android:layout="@layout/preference_normal_layout"
+	   		android:key="settings_storage_clean_whitelist"
+	   	    android:title="@string/mybattery_power_setting_memorylist_title"
+	   	    android:widgetLayout="@layout/preferences_listpreferences_more_btn"/>
+		<!-- 低电量提醒 -->
+		<Preference android:layout="@layout/preference_normal_layout"
+	   		android:key="settings_low_battery_remind"
+	   	    android:title="@string/mybattery_power_setting_lowhit_title"
+	   	    android:widgetLayout="@layout/preferences_listpreferences_more_btn" 
+	   	    android:summary="@string/mybattery_power_setting_lowhit_desc"/>
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory android:title="@string/mybattery_soft_setting_title"
+        android:key="settings_software_electri_notice">
+		<!-- 状态栏图标显示-->
+<!-- 		<CheckBoxPreference android:layout="@layout/preference_normal_layout"  -->
+<!-- 			android:defaultValue="false" -->
+<!-- 			android:key="settings_mybattery_statebar_icon"  -->
+<!-- 			android:title="@string/mybattery_soft_setting_notify_title" -->
+<!-- 			android:widgetLayout="@layout/preferences_checkbox"  -->
+<!-- 			android:summary="@string/mybattery_soft_setting_notify_desc"/> -->
+		<!-- 充电完成提醒  -->
+		<CheckBoxPreference android:layout="@layout/preference_normal_layout" 
+			android:defaultValue="false"
+			android:key="settings_electricize_complete_remind" 
+			android:title="@string/mybattery_soft_setting_full_notification_title"
+			android:widgetLayout="@layout/preferences_checkbox"
+			android:summary="@string/mybattery_soft_setting_full_notification_desc"/>
+		<!--充电完成铃声选择  -->
+		<Preference android:layout="@layout/preference_normal_layout"
+	   		android:key="settings_electricize_complete_ringtone_selection"
+	   	    android:title="@string/mybattery_soft_setting_lowhit_vibrateandring_select_title"
+	   	    android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+</PreferenceScreen>

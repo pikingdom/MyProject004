@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="theme_shop_v6_gray">#999</color>
+    <color name="theme_btn_title">#ffffff</color>
+    <color name="theme_head_title">#1e83de</color>
+
+    <drawable name="theme_v6_main_bg">#eef1f6</drawable>
+    <drawable name="theme_shop_v6_transparent">#00000000</drawable>
+    <drawable name="theme_shop_v8_white">#ffffff</drawable>
+
+    <color name="theme_shop_v6_detail_bg">#eef1f6</color>
+    <color name="theme_shop_v6_tab_bg">#eef1f6</color>
+    <color name="theme_shop_v6_list_item_title">#181818</color>
+    <color name="theme_shop_v8_price_common">#526173</color>
+    <color name="theme_shop_v6_price_common">#323232</color>
+<!--     <color name="theme_shop_v6_price_free">#a2a6f1</color> -->
+    <color name="theme_shop_v6_price_free">#323232</color>
+    <color name="theme_shop_v6_price_charge">#323232</color>
+<!--     <color name="theme_shop_v6_price_charge">#F5AC4D</color> -->
+    <color name="theme_shop_v6_price_old">#bdbdbd</color>
+<!--     <color name="theme_shop_v6_price_new">#ff7979</color> -->
+    <color name="theme_shop_v6_price_new">#323232</color>
+
+    <color name="theme_shop_v6_theme_title_text">#707070</color>
+    <color name="theme_shop_v6_headview_title">@color/title_main_color_light</color>
+    <color name="theme_shop_personal_title_color">#717171</color>
+    <color name="theme_shop_personal_content_color">#b2b2b2</color>
+    <color name="theme_shop_personal_content_count_color">#f6b773</color>
+
+    <color name="theme_shop_comment_txt_color1">#595959</color>
+    <color name="theme_shop_comment_txt_color2">#696969</color>
+    
+    <color name="theme_detail_item_bg_color">#F5F5F5</color>
+    
+    <color name="theme_cate_element_bg_color_0">#957ad9</color>
+    <color name="theme_cate_element_bg_color_1">#00b68d</color>
+    <color name="theme_cate_element_bg_color_2">#de596a</color>
+    <color name="theme_cate_element_bg_color_3">#00bcd5</color>
+    <color name="theme_cate_element_bg_color_4">#fe9619</color>
+    <color name="theme_cate_element_bg_color_5">#ed6c57</color>
+    <color name="theme_cate_element_bg_color_6">#00bcd5</color>
+    <color name="theme_cate_element_bg_color_7">#08a4dd</color>
+    <color name="theme_cate_element_bg_color_8">#957ad9</color>
+    <color name="theme_cate_element_bg_color_9">#de596a</color>
+    <color name="theme_cate_element_bg_color_10">#957ad9</color>
+
+    <color name="hour_theme_bg_color">#ea7177</color>
+    
+    <color name="notify_skip_color_title2">#33000000</color>
+    <color name="navi_card_item_text">#000000</color>
+    <color name="navi_card_item_text_pressed">#008395</color>
+    <color name="funny_card_item_text">#66000000</color>
+    <color name="game_card_white">#000000</color>
+    <color name="navi_card_more_text">#818089</color>
+    <color name="navi_card_more_text_pressed">#000000</color>
+    <color name="subscribe_loading_drawable_color">#cccccc</color>
+</resources>

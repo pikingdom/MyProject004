@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+
+<resources>
+	<!-- 推荐首页 -->
+	<dimen name="theme_shop_v6_recomment_text_size_12">12sp</dimen>
+	<dimen name="theme_shop_v6_recomment_text_size">13sp</dimen>
+	<dimen name="theme_shop_v6_recomment_taghot_img_width">159dip</dimen>
+	<dimen name="theme_shop_v6_recomment_taghot_img_height">114dip</dimen>
+	<dimen name="theme_shop_v6_recomment_new_img_width">105dip</dimen>
+	<dimen name="theme_shop_v6_recomment_new_img_height">173dip</dimen>
+	<dimen name="theme_shop_ranking_img_height">132dip</dimen>
+	<dimen name="theme_shop_v6_recomment_taghot_text_size">16sp</dimen>
+	<dimen name="theme_shop_v6_recomment_taghot_img_margin_4">4dip</dimen>
+	<dimen name="theme_shop_v6_recomment_taghot_img_margin_6">6dip</dimen>
+	<dimen name="theme_shop_v6_recomment_taghot_img_margin_8">8dip</dimen>
+	<dimen name="theme_shop_v6_recomment_taghot_img_margin_18">18dip</dimen>
+	<dimen name="theme_shop_v6_recomment_taghot_img_title_text_height">37dip</dimen>
+	<dimen name="theme_shop_v6_recomment_new_topbar_height">50dip</dimen>
+	
+	<dimen name="theme_shop_v6_ranking_img_margin_14">14dip</dimen>
+	<dimen name="theme_shop_v6_ranking_img_margin_verticalSpacing">14dip</dimen>
+	<dimen name="theme_shop_v6_ranking_img_margin_horizontalSpacing">4dip</dimen>
+	<dimen name="theme_shop_v6_personal_center_common_padding_h">9dip</dimen>
+	<dimen name="theme_shop_v6_personal_center_common_item_padding_vertical">0dip</dimen>
+	<dimen name="theme_shop_v6_personal_center_text_size">16sp</dimen>
+	<dimen name="theme_shop_v6_personal_center_hint_size">14sp</dimen>
+	<dimen name="theme_shop_v6_personal_center_citylist_height">400dp</dimen>
+	<dimen name="theme_shop_v6_personal_center_citylist_padding_right">10dp</dimen>
+	<dimen name="theme_shop_v6_personal_center_citylist_padding_left">15dp</dimen>
+	<dimen name="theme_shop_v6_personal_center_citylist_padding_top">10dp</dimen>
+	<dimen name="theme_shop_v6_personal_center_citylist_padding_bottom">10dp</dimen>
+
+	<dimen name="theme_shop_v6_list_item_title">12sp</dimen>
+	<dimen name="theme_shop_v6_list_item_price">10sp</dimen>
+	
+	<dimen name="theme_shop_v6_theme_list_padding_bottom">10dp</dimen>
+	<dimen name="theme_shop_v6_theme_detail_go_width">6dp</dimen>
+	<dimen name="theme_shop_v6_theme_detail_go_height">13dp</dimen>
+	<dimen name="theme_shop_v6_theme_detail_gallery_item_height">314dp</dimen>
+	<dimen name="theme_shop_v6_theme_detail_gallery_item_width">177dp</dimen>
+	<dimen name="theme_shop_v6_theme_detail_gallery_item_margin_left">6dp</dimen>
+	<dimen name="theme_shop_v6_theme_detail_gallery_item_margin_right">5dp</dimen>
+
+	<dimen name="theme_shop_v6_theme_category_second_class_item_size">12sp</dimen>
+	<dimen name="theme_shop_v6_theme_category_dropdown_item_size">16px</dimen>
+
+</resources>

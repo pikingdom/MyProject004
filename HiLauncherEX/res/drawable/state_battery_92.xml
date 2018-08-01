@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/battery_icon" />
+    <item android:drawable="@drawable/battery_digital_night" android:left="@dimen/two_dimens_first_left" android:top="@dimen/two_dimens_top" android:right="@dimen/two_dimens_first_right" android:bottom="@dimen/two_dimens_bottom" />
+    <item android:drawable="@drawable/battery_digital_two" android:left="@dimen/two_dimens_second_left" android:top="@dimen/two_dimens_top" android:right="@dimen/two_dimens_second_right" android:bottom="@dimen/two_dimens_bottom" />
+</layer-list>

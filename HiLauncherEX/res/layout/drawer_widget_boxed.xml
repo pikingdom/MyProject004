@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.drawer.view.WidgetPreviewView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:launcher="http://schemas.android.com/apk/res-auto"
+		
+    android:id="@+id/widget_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawer_widget_selector"	
+    launcher:titlePaddingTop="1dip"
+  	launcher:titlePaddingLeft="5dip"
+  	launcher:tipPaddingLeft="5dip"
+  	launcher:tipPaddingTop="0dip"
+  	launcher:sizePaddingRight="3dip"
+  	launcher:sizePaddingTop="1dip"
+  	launcher:bottomBarHeight="12dip"
+  	launcher:imagePaddingLeft="10dip"
+  	launcher:imagePaddingTop="5dip"
+  	launcher:imagePaddingRight="10dip"
+  	launcher:imagePaddingBottom="5dip"
+    launcher:textSize="12sp"
+    launcher:textColor="@android:color/white"
+    launcher:shadowColor="@android:color/black"/>

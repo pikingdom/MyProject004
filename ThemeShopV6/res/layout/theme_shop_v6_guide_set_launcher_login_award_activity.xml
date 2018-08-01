@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 设置默认桌面成功，但没登录，引导去登录界面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#66000000"
+    android:gravity="center">
+	<LinearLayout 
+	    android:layout_width="328dp"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:background="@drawable/theme_shop_v6_guide_set_launcher_login_award_activity_dialog_bg">
+	    <ImageView 
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+	        android:background="@drawable/theme_shop_v6_guide_set_launcher_login_award_activity_bg"/>
+	    <TextView 
+	        android:id="@+id/theme_shop_v6_guide_set_launcher_login_award_activity_content" 
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_margin="24dp"
+	        android:text="@string/theme_shop_v6_guide_set_launcher_login_award_activity_text"
+	        android:textColor="#ff181818"
+	        android:textSize="14sp"/>
+	    <LinearLayout
+	        android:id="@+id/theme_shop_v6_guide_set_launcher_login_award_activity_btn" 
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginBottom="16dp"
+	        android:orientation="vertical"
+	        android:gravity="center">
+		    <TextView
+		        android:layout_width="84dp"
+	    		android:layout_height="37dp"
+	    		android:gravity="center"
+		        android:text="@string/personal_center_login"
+		        android:textColor="#ffffffff"
+		        android:textSize="14sp"
+		        android:background="@drawable/common_btn_blue"/>
+	    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

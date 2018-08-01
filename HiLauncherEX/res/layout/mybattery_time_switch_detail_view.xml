@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 标题栏 -->
+
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/myphone_bg_color" >
+
+        <!-- 任务名称 -->
+
+        <RelativeLayout
+            android:id="@+id/time_switch_name_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/myphone_top_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingRight="10dip" >
+
+            <TextView
+                android:id="@+id/time_switch_name_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:gravity="center_vertical"
+                android:text="@string/mybattery_time_switch_task_name"
+                android:textColor="@color/myphone_common_dialog_text_color"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/time_switch_name"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="5dip"
+                android:layout_toRightOf="@+id/time_switch_name_tip"
+                android:background="@drawable/folder_name_input_edit_bg"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/dialog_title_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/clearbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:scaleType="center"
+                android:src="@drawable/folder_clear_name_selector" />
+        </RelativeLayout>
+
+        <!-- 详细信息 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/time_swtich_down"
+            android:layout_below="@+id/time_switch_name_layout"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/myphone_item_padding"
+                    android:paddingRight="@dimen/myphone_item_padding" >
+
+                    <!-- 分割线 -->
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/myphone_common_split"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" />
+                    <!-- 开启任务项的设置 -->
+
+                    <RelativeLayout
+                        android:id="@+id/start_task"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/mybattery_bottom_content"
+                        android:background="@drawable/myphone_common_line_press_selector"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:text="@string/mybattery_time_switch_start_name"
+                            android:textColor="@color/myphone_common_text_color"
+                            android:textSize="@dimen/myphone_item_text_size" />
+
+                        <ImageView
+                            android:id="@+id/start_task_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/checkbox_checked" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/myphone_common_split"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" />
+                    <!-- 切换模式 -->
+
+                    <RelativeLayout
+                        android:id="@+id/switch_mode"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/mybattery_bottom_content"
+                        android:background="@drawable/myphone_common_line_press_selector"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+
+                        <TextView
+                            android:id="@+id/switch_mode_name_tip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:text="@string/mybattery_time_switch_start_mode_name"
+                            android:textColor="@color/myphone_common_text_color"
+                            android:textSize="@dimen/myphone_item_text_size" />
+
+                        <TextView
+                            android:id="@+id/switch_mode_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:maxLines="2"
+                            android:maxWidth="200dip"
+                            android:text="@string/super_pattern"
+                            android:textColor="@color/myphone_common_little_text_color"
+                            android:textSize="@dimen/myphone_item_text_size" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/myphone_common_split"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" />
+
+                    <!-- 结束时切换回的模式 -->
+
+                    <RelativeLayout
+                        android:id="@+id/return_mode"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/mybattery_bottom_content"
+                        android:background="@drawable/myphone_common_line_press_selector"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+
+                        <TextView
+                            android:id="@+id/return_mode_name_tip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:text="@string/mybattery_time_switch_end_mode_name"
+                            android:textColor="@color/myphone_common_text_color"
+                            android:textSize="@dimen/myphone_item_text_size" />
+
+                        <TextView
+                            android:id="@+id/return_mode_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:maxLines="2"
+                            android:maxWidth="150dip"
+                            android:text="@string/super_pattern"
+                            android:textColor="@color/myphone_common_little_text_color"
+                            android:textSize="@dimen/myphone_item_text_size" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/myphone_common_split"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" />
+
+                    <!-- 开始时间 -->
+
+                    <RelativeLayout
+                        android:id="@+id/start_time"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/mybattery_bottom_content"
+                        android:background="@drawable/myphone_common_line_press_selector"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:text="@string/battery_begin_time"
+                            android:textColor="@color/myphone_common_text_color"
+                            android:textSize="@dimen/myphone_item_text_size" />
+
+                        <TextView
+                            android:id="@+id/start_time_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:text="23:00"
+                            android:textColor="@color/myphone_common_little_text_color"
+                            android:textSize="@dimen/myphone_item_text_size" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/myphone_common_split"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" />
+                    <!-- 结束时间 -->
+
+                    <RelativeLayout
+                        android:id="@+id/end_time"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/mybattery_bottom_content"
+                        android:background="@drawable/myphone_common_line_press_selector"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:text="@string/battery_end_time"
+                            android:textColor="@color/myphone_common_text_color"
+                            android:textSize="@dimen/myphone_item_text_size" />
+
+                        <TextView
+                            android:id="@+id/end_time_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:text="07:00"
+                            android:textColor="@color/myphone_common_little_text_color"
+                            android:textSize="@dimen/myphone_item_text_size" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/myphone_common_split"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" />
+                    <!-- 是否重复 -->
+
+                    <RelativeLayout
+                        android:id="@+id/repeat"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/mybattery_bottom_content"
+                        android:background="@drawable/myphone_common_line_press_selector"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+
+                        <TextView
+                            android:id="@+id/repeat_text_tip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:text="@string/battery_repeat"
+                            android:textColor="@color/myphone_common_text_color"
+                            android:textSize="@dimen/myphone_item_text_size" />
+
+                        <TextView
+                            android:id="@+id/repeat_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:maxLines="2"
+                            android:maxWidth="200dip"
+                            android:text="@string/battery_repeat_no"
+                            android:textColor="@color/myphone_common_little_text_color"
+                            android:textSize="@dimen/myphone_item_text_size" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dip"
+                        android:background="@drawable/myphone_common_split"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <!-- 详细信息end -->
+        <!-- 底部 -->
+
+        <com.nd.hilauncherdev.framework.view.commonview.FooterView
+            android:id="@+id/time_swtich_down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+</LinearLayout>

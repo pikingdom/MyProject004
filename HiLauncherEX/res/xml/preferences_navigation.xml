@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:settings="http://schemas.android.com/apk/res/com.nd.hilauncherdev"
+        android:key="settings_navigation_show">
+
+    <!-- 开启快速搜索屏 -->
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="settings_search_page_show"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_navigation_show"
+            android:widgetLayout="@layout/preferences_checkbox" />
+    <!-- 点击返回键可直达快速搜索屏 -->
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="settings_navigation_back_press"
+        android:layout="@layout/preference_normal_layout"
+        android:summary="@string/settings_navigation_back_press_summary"
+        android:title="@string/settings_navigation_back_press"
+        android:widgetLayout="@layout/preferences_checkbox" />
+    <!-- 开启搜索屏 和上面旧的一样，只是上面的不再显示了-->
+
+    <Preference
+            android:key="settings_open_page_switch"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_open_page"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+
+</PreferenceScreen>

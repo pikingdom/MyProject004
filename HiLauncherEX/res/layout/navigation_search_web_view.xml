@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 内置搜索主界面 -->
+<com.nd.hilauncherdev.launcher.search.searchwebtabview.NavigationSearchView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<!-- 内容展示界面 -->
+	<LinearLayout
+		android:id="@+id/content_linearlayout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"/>
+</com.nd.hilauncherdev.launcher.search.searchwebtabview.NavigationSearchView>

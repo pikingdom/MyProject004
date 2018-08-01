@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/myphone_bg_color"
+    android:orientation="vertical" >
+
+    <!-- 头部 标题条 -->
+
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- 反馈内容区 -->
+
+    <ScrollView
+        android:id="@+id/common_wrap"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head_view"
+        android:background="@drawable/myphone_bg_color"
+        android:paddingBottom="@dimen/myphone_item_icon"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_feedback_tip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dip"
+                android:text="@string/user_feedback_tip"
+                android:textColor="@color/myphone_common_text_color"
+                android:textSize="16dip" />
+
+            <TextView
+                android:id="@+id/tv_feedback_content_tip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/user_feedback_content_tip"
+                android:textColor="#635e79"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/et_feedback_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/folder_name_input_edit_bg"
+                android:cursorVisible="true"                
+				android:textCursorDrawable="@null"
+                android:lines="5"
+                android:textColor="@android:color/black"
+                android:textSize="16dip" 
+                android:gravity="top"/>
+
+            <TextView
+                android:id="@+id/tv_feedback_email_tip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/user_feedback_email_tip"
+                android:textColor="#635e79"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/et_feedback_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/folder_name_input_edit_bg"
+                android:cursorVisible="true"                
+				android:textCursorDrawable="@null"
+                android:inputType="textEmailAddress"
+                android:lines="1"
+                android:textColor="@android:color/black"
+                android:textSize="16dip" />
+            <TextView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dip"
+                android:text="@string/user_feedback_tip1"
+                android:textColor="#635e79"
+                android:textSize="16dip" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/myphone_item_icon"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/common_btn_layout_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_feedback_confirm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_weight="0.75"
+            android:background="@drawable/common_btn_blue_selector"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/user_feedback_button_submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/myphone_tv_btn_text_size" />
+    </LinearLayout>
+
+</RelativeLayout>

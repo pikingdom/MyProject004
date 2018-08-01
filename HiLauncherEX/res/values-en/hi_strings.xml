@@ -1,0 +1,365 @@
+<resources>
+	
+	<item type="id" name="system_switcher_holder"></item>
+	<!-- 打开程序选择框 -->
+	<string name="dockbar_which_app">"Complete action using"</string>
+	<string name="dockbar_always_use">"Use by default for this action"</string>
+	<string name="dockbar_tips_reset_default_app"><![CDATA[Reset default for this action through\"<font color="#1e83de">Preferences</font>\">\"<font color="#1e83de">Accessibility</font>\">\"Default Apps Manager\"]]></string>
+	
+	<string name="dockbar_no_permission">No permission</string>
+	<string name="alarmClock_not_find">No alarm clock found</string>
+	<string name="this_machine_not_support">Mount SD card failed</string>
+	<!-- Dock栏图标名称 -->
+	<string name="dockbar_dock_drawer">Apps</string>
+
+	<!-- 图标长按菜单 -->
+	<string name="popup_replace">Replace</string>
+    <string name="popup_rename">Rename</string>
+    <string name="popup_detail">Details</string>
+    <string name="popup_resize">Zoom</string>
+    <string name="popup_delete">Delete</string>
+	<string name="popup_change_style">Change style</string>    
+	<string name="popup_deep_clean">Manual clean</string>
+	<string name="popup_change_style2">Style</string>    
+
+	<!-- 菜单 -->
+	<string name="menu_fir_fir_text">Add</string>
+	<string name="menu_fir_five_text">Edit</string>
+	<string name="menu_fir_six_text">Settings</string>
+	<string name="menu_fir_seven_text">Preferences</string>
+	<string name="menu_sec_five_text">Share</string>
+	<string name="menu_sec_one_key_shutdown">Power off</string>
+	<string name="menu_sec_one_key_shutdown_sec">Your phone will shut down.</string>
+	<string name="menu_sec_one_key_reboot">Reboot</string>
+	<string name="menu_sec_one_key_reboot_sec">Your phone will reboot.</string>
+	<string name="menu_sec_one_key_screenshot">Screenshot</string>
+	<string name="menu_sec_one_key_screenshot_sec">Screenshot will be captured in 5 seconds.</string>
+	<string name="menu_sec_one_key_shutdown_tip">Failed to shut down the phone. This feature is only for rooted phone.</string>
+	<string name="menu_sec_one_key_restart_tip">Failed to reboot the phone. This feature is only for rooted phone.</string>
+	<string name="menu_sec_one_key_screenshot_tip">Failed to capture screenshot. This feature is only for rooted phone.</string>
+	<string name="menu_sec_one_key_screenshot_tip_success">Screenshot has been saved to album.</string>
+	<string name="menu_sec_one_key_screenshot_tip_success_notification_title">Screenshot has been saved to album.</string>
+	<string name="menu_sec_one_key_screenshot_tip_success_notification_summary">Tap Gallery to view screenshots.</string>
+	<string name="menu_sec_one_key_screenshot_tip_faile">This feature is unavailable for your phone.</string>
+	
+    <!-- 底部编辑视图  -->
+    <string name="launcher_edit_add_app">App</string>
+    <string name="launcher_edit_widget_top_add">%1$s Widgets</string>
+    <string name="launcher_edit_add_panda_shortcut">Shortcuts</string>
+    <string name="launcher_edit_add_system_shortcut">Shortcut</string>
+    <string name="launcher_edit_add_shortcut_widget">Widget_Shortcut</string>
+    <string name="launcher_edit_wallpaper">Wallpaper</string>
+    <string name="launcher_edit_wallpaper_gallery">Gallery</string>
+    <string name="launcher_edit_show_more">Show more</string>
+    <string name="launcher_edit_theme">Theme</string>
+    <string name="launcher_edit_wallpaper_filter">Filter</string>
+    <string name="launcher_edit_individal">Personality</string>
+    <string name="launcher_edit_quick_beautify">Quick Beautify</string>
+    <string name="launcher_edit_effect">Effects</string>
+    <string name="launcher_edit_slide_effect">Transition effect</string>
+    <string name="launcher_edit_particle_effect">Tap effect</string>
+    <string name="launcher_edit_effect_switch_tips">Transition effect: %1$s</string>
+
+	<!-- 快捷9宫格 -->
+  	<string name="shortcut_slot_loading">Loading...</string>
+  	
+  	<!-- 91快捷方式 -->
+  	<string name="main_dock_title_select_panda_shortcut">Select a %1$s shortcut</string>
+	<string name="main_dock_notification_name">StatusBar</string>
+	<string name="main_dock_transition_effect">Effect</string>
+	<string name="main_dock_icon_mask">Mask icon</string>
+	<string name="main_dock_home_settings">Preferences</string>
+	<string name="main_dock_screen_preview">Preview</string>
+	<string name="main_dock_wallpaper_move_success">Wallpaper slide to %1$s</string>
+	<string name="main_dock_notification_bar">Notification</string>
+
+	<string name="main_dock_notification_name_enabled">Notification enabled</string>
+	<string name="main_dock_notification_name_disabled">Notification disabled</string>
+	
+	<string name="main_dock_icon_mask_enabled">Icon mask enabled</string>
+	<string name="main_dock_icon_mask_disabled">Icon mask disabled</string>
+	<string name="main_dock_icon_mask_unsupport">The default theme does not support this feature</string>
+	<string name="main_dock_icon_mask_switch_success">%1$s icon mask</string>
+
+	<!-- 文件选择控件 -->
+	<string name="default_set_controller_select_pic">Select icon</string>
+	<string name="file_browser_dialog_file_select">Select file</string>
+	<string name="select_third_icons">Third-party icon</string>
+	
+	<!-- 默认桌面文件夹 -->
+	<string name="folder_recommend">Recommend</string>
+	<string name="folder_kitset">Tools</string>
+	<string name="folder_91shortcut">%1$s Shortcut</string>
+	<string name="folder_recent_installed">Recent install</string>
+	<string name="folder_recent_running">Recent apps</string>
+	<string name="folder_recent_running_empty">No records</string>
+	<string name="folder_name_suggestion">Suggested name:</string>
+	<string name="folder_encript_clear_pwd_msg">Password will be removed.</string>
+	
+	<string name="folder_encript_type_choose_title">Encryption</string>
+	<string name="folder_encript_type_choose_none">None</string>
+	<string name="folder_encript_type_choose_pwd">Password</string>
+	<string name="folder_encript_setting_pwd_null">Please fill out password field</string>
+	<string name="folder_encript_setting_pwd_diff">Passwords do not match</string>
+	<string name="folder_encript_setting_pwd_too_short">Password must be at least 4 characters</string>
+	<string name="folder_encript_setting_pwd_illegal">The password must include letters, numbers and underscore</string>
+	<string name="folder_encript_setting">Set password</string>
+	<string name="folder_encript_setting_pwd_success">Succeeded</string>
+	<string name="folder_encript_setting_pwd_failed">Failed</string>
+	
+	<string name="folder_encript_entrance_pwd_wrong">Incorrect password</string>
+	<string name="folder_encript_entrance_title">Enter password</string>
+	<string name="folder_encript_view_msg">Encrypted. Delete the file?</string>
+	
+	<!-- 删除提示 -->
+	<string name="delete_tip_4_dynamic_foler">Selected item will be deleted. Tap \Menu > Add >%1$s> %2$s\ to add it to home screen.</string>
+	
+	<!-- 屏幕编辑 -->
+	<string name="spring_add_app_from_drawer_fail">Insufficient space to add the app to desktop</string>
+	<string name="spring_add_app_from_drawer_success">Added to Home screen</string>
+	
+	<string name="hint_sdcard_unavailable">SD card is unavailable</string>
+	<string name="hint_sdcard_unavailable_msg">SD card is unavailable. Loading failed</string>
+	<string name="hint_install_screenoff">Install ScreenOff</string>
+	<string name="hint_install_flashlight">Install Flashlight</string>
+	<string name="hint_install_screenoff_msg">Install ScreenOff to save power.\nInstall now?</string>
+	<string name="hint_install_flashlight_msg">A handy widget that brings light to you!</string>
+	<string name="hint_download_widget_title">Tip</string>
+	<string name="hint_download_widget_msg">Download %1$s?</string>
+	
+	<string name="upgrade_install_screenoff">Hint</string>
+	<string name="upgrade_install_screenoff_msg">New version of ScreenOff is available. Update now?</string>
+	
+	<string name="upgrade_install_flashlight">Flashlight</string>
+	<string name="upgrade_install_flashlight_msg">New version of Flashlight is available. Update now?</string>
+	
+	<string name="application_old_name">91PandaHome</string>
+	
+	<string name="hint_install_zxing_scan">Install</string>
+	<string name="hint_install_zxing_scan_msg">Would you like to install QR code scanner now?</string>
+	<string name="upgrade_install_zxing_scan">Hint</string>
+	<string name="upgrade_install_zxing_scan_msg">New version of QR Code is available. Update now?</string>
+
+	
+	<!-- 桌面分享 -->
+	<string name="launcher_share_title">Share %1$s</string>
+    <string name="launcher_share_hint">Select the screenshots you want to share(Up to 3 shortcuts).</string>
+    <string name="launcher_share_max_count_hint">You can select 3 screenshots at most.</string>
+    <string name="launcher_share_centent">Hey, check out my stunning desktop. Do you like it? There are plenty of fancy themes and handy widgets in %1$s. Would you like to try it? Download link:%2$s</string>
+	<string name="launcher_share_barencode">Scan the QR Code for free installation!</string>
+	<string name="launcher_share_save_success">Screenshots saved in:%1$s</string>
+	<string name="launcher_share_save_fail">Failed to save screenshots. Please try again.</string>
+	<string name="launcher_share_generating_thumn">Previewing...</string>
+	<string name="launcher_share_share_fail">Error. Please try again.</string>
+	<string name="launcher_share_selected_hint">Select at least 1 picture.</string>
+	<string name="launcher_share_drawing">Creating pictures</string>
+	<string name="barencode_contents_contact">Contacts</string>
+    <string name="barencode_contents_email">Email</string>
+    <string name="barencode_contents_location">Location</string>
+    <string name="barencode_contents_phone">Phone number</string>
+    <string name="barencode_contents_sms">Text address</string>
+    <string name="barencode_contents_text">Text</string>
+	
+	<!-- 桌面快速搜索屏 -->
+	<string name="navigation_more">Website</string>
+	<string name="recommend_fail_showdetail_googleplay">Failed to attain details from Google Play.</string>
+	<string name="recommend_install_fail">Failed to download. Bad URL</string>
+	<string name="recommend_install_fail_googleplay">You must install Google Play to download this app.</string>
+	<string name="recommend_install_tip_title">Install</string>
+	<string name="recommend_install_tip_summary">Install %1$s now?</string>
+	
+	<!-- 壁纸编辑 -->
+	<string name="error_pick_contact">No contacts selected. Please reselect.</string>
+	
+	<string name="plugin_activated">Initialization</string>
+	<string name="plugin_transfer_error">An error occurred. Please try again later. </string>
+	
+	<!-- 编辑模式滤镜 -->
+	<string name="editor_disable_filter">None</string>
+	<string name="editor_more_filter">More</string>
+	
+	<!-- 图标管理 -->
+	<string name="small_icon_size">Small</string>
+	<string name="meduim_icon_size">Medium</string>
+	<string name="large_icon_size">Large</string>
+	
+	<string name="tip_particle_screen_effect_show">%1$s offers plenty of fancy transition effects. Would you like to set it now?</string>
+	<string name="tip_particle_screen_effect_show_ok">Settings</string>
+	<string name="tip_particle_screen_effect_show_cancel">Later</string>
+	
+    <!-- 5.7.2 screenshot -->
+    <string name="menu_sec_one_key_screenshot_tip_save1">Sreenshot saved in</string>
+    <string name="menu_sec_one_key_screenshot_tip_save2">Catalog</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot1">Use of this feature requires root privileges. Please acquire root permissions.</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot_button1">Continue trying</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot_button2">Close</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot_tips">If screenshot function has not been enabled by double-click screenshot, please root your phone</string>
+    <string name="menu_sec_one_key_screenshot_tip_root_fail_screenshot">Your phone has not been rooted or is incompletely rooted. Please root again!</string>
+    <string name="launcher_edit_wallpaper_individuation">Individualized wallpaper</string>
+    <string name="launcher_edit_tab_particle_effect">Fingertip</string>
+    <string name="launcher_edit_tab_screen_effect">Desktop</string>
+    <string name="launcher_edit_tab_drawer_effect">List</string>
+    <string name="launcher_edit_tab_drawer_inout_effect">List In/Out</string>
+	<string name="notification_bar_ketset">Tool Kit</string>
+	<string name="notification_bar_last_app">Last app</string>
+	
+	<!-- desktop folder by default -->
+    <string name="folder_recent">Fast Open</string>
+    <string name="folder_encript_setting_hint_enter_pwd">Please set a password with 4+ digits</string>
+	<string name="folder_encript_setting_hint_enter_pwd_for_low">Set 4+</string>
+    <string name="folder_encript_setting_hint_confirm_pwd">Enter again</string>
+    <string name="folder_encript_entrance_hint">Please enter password</string>
+	<string name="navigation_history">History</string>
+	<string name="plugin_desc_appmanager">App manager is for phone app management</string>
+	<string name="plugin_desc_file">My file helps organize files, media and pictures.</string>
+	<string name="plugin_desc_wallpaper">Pretty wallpaper makes pretty phone</string>
+	<string name="plugin_desc_safecenter">Security center helps you to monitor if you phone\'s apps autostart or pry about privacy</string>
+	<string name="plugin_down_wallpaper">Personalized - wallpaper</string>
+	<string name="plugin_transfer_desc1">Initial startup. Just a little preparation. \n No need to wait next time</string>
+	
+	<string name="editor_filter_ok">OK</string>
+	<string name="editor_filter_cancel">Cancel</string>
+	<string name="editor_filter_rotate">Rotate</string>
+	<string name="editor_filter_no_wallpaper">Wallpaper failed. Please try again later.</string>
+	<string name="editor_filter_htcone_no_roll">This phone does not support wallpaper roll</string>
+	<!-- desktop menu -->
+    <string name="menu_item_add_app">Add App</string>
+    <string name="menu_item_add_widget">Add Widget</string>
+    <string name="menu_item_change_effect">Effect</string>
+    <string name="menu_item_change_wallpaper">Wallpaper</string>
+    <string name="menu_item_change_theme">Theme</string>
+    
+    <string name="app_choose_title">Add App</string>
+    
+    <!-- bubble tip -->
+    <string name="theme_shop_v6_first_hint">Theme, wallpaper, and all that you want are here</string>
+    
+    <!-- select application -->
+    <string name="app_choose_tab_app">App</string>
+    <string name="app_choose_tab_shortcut">%1$s shortcut</string>
+    
+	<!--推荐mobo桌面 ，特殊需求  -->
+	<string name="readme_app_mobo_turn_label">I want it</string>
+	<string name="readme_app_test_instance">Install</string>
+	<string name="readme_agreement_me">Continued use indicates that you have accepted the </string>
+    <string name="readme_agreement_terms">Terms of Use</string>
+	<string name="launcher_icon_recommend_mobo_desc">Reduce data traffic by 80%1$s;Free up 26%1$s of memory;Save 20%1$s battery power;Install it immediately!</string>
+	
+	<string name="readme_app_aio_name">All-In-One Toolbox(Cleaner)</string>
+	<string name="readme_app_aio_desc">All-In-One Toolbox: Collection of useful tools to clean, boost, and optimize your Android.</string>
+	<string name="readme_app_touchpal_name">TouchPal Emoji Keyboard</string>
+	<string name="readme_app_touchpal_desc">TouchPal Emoji Keyboard is a free keyboard that helps you to type faster and more easily with curve and prediction. </string>
+	
+	<string name="readme_app_PP_name">Pixel Phone</string>
+	<string name="readme_app_PP_desc">PixelPhone (PP) is a powerful dialer and contact manager.</string>
+	<string name="readme_app_DC_name">Dorado Clean</string>
+	<string name="readme_app_DC_desc">Dorado Clean clears junk files, boosts speed and saves power for your Android phone.</string>
+	
+	<string name="launcher_settings_navigation">Quick Search Screen</string>
+	<string name="launcher_settings_navigation_open_title">Enable Quick Search Screen</string>
+	<string name="launcher_settings_navigation_backkey_change_title">Switch Back</string>
+	<string name="launcher_settings_navigation_backkey_change_summary">Tap to switch default screen with Quick Search Screen</string>
+	<!--mobo搜索  -->
+	<string name="launcher_search_popular_scan_record_dialog_msg">Are you sure you want to delete all records?</string> 
+	<string name="launcher_search_advance_local_app">Apps</string> 
+	<string name="launcher_search_advance_local_contact">Contacts</string> 
+	<string name="launcher_search_advance_local_sms">Messages</string> 
+	<string name="launcher_search_advance_local_image">Pictures</string> 
+	<string name="launcher_search_advance_local_audio">Audios</string> 
+	<string name="launcher_search_advance_local_vedio">Videos</string>
+	<string name="launcher_search_at_internet">Search online for %1$s</string> 
+	<string name="launcher_search_local_more">More local content</string>
+	<string name="launcher_search_at_market">Go to App Store to search for %1$s</string>  
+	<string name="launcher_search_check_network">Check network</string>  
+	<string name="launcher_search_editview_hint">Apps, Contacts, URLs, Texts</string>
+	<string name="launcher_search_web_pop_browser">Open with browser</string>
+	<string name="launcher_search_history_delete_item">Delete all</string>
+	<string name="launcher_search_history_delete_dialog_title">Search history</string>
+	<string name="launcher_search_local_more_label">See more</string>
+	<string name="launcher_search_topuse_title">Most used</string>
+	<string name="launcher_search_local_data_null">No local results. Go to online search~</string>
+	<string name="launcher_setting_score_go_text">Rating</string>
+	<string name="launcher_search_hotword_change">HOT</string>
+	<string name="myphone_ad_recommend">Bubble</string>
+	<string name="myphone_ad_load_failed">Failed to load. Please click to retry</string>
+	<string name="launcher_setting_charging_saver">Charging Saver</string>
+	<string name="launcher_setting_charging_saver_enable_title">Lock screen when charging</string>
+
+	<string name="launcher_about_upgrade_popwin_title_update">New version detected</string>
+	<string name="launcher_about_upgrade_popwin_title_product">Great Apps</string>
+	<string name="launcher_about_upgrade_popwin_enjoy">Use Now</string>
+	<string name="launcher_about_upgrade_popwin_check_update">Updates</string>
+	<string name="launcher_about_upgrade_popwin_intro_new">%1$s has been updated to %2$s. It is smoother and even more cool. Hurry and update!</string>
+
+	<string name="launcher_about_upgrade_popwin_intro">%1$s has released V%2$s. It\'s smoother and even more cool. Hurry and update!</string>
+    <string name="launcher_about_upgrade_popwin_btn_download">Download</string>
+    <string name="launcher_about_upgrade_network_error">Network unavailable. Please check connection and try to update again.</string>
+    <string name="launcher_about_upgrade_request_limit">Please try to update later.</string>
+    <string name="launcher_about_upgrade_error">Update error. Please try again later.</string>
+    <string name="launcher_about_upgrade_lastest">You are now using the latest version</string>
+    <string name="launcher_about_upgrade_loadingview_message">Checking for new version. Please wait...</string>
+    <string name="launcher_settings_score_intro">%1$s has accompanied you for some time. Please rate us. We will do better!</string>
+    <string name="menu_version_update_btn">Update</string>
+	<string name="launcher_readme_setdefault_launcher_tip">Set %1$s as default launcher. Explore rich themes and wallpapers.</string>
+	<string name="launcher_readme_setdefault_launcher_btn">Let\'s go!</string>
+    <string name="launcher_settings_score">Rate us</string>
+	
+	<!-- 一键换壁纸 -->
+    <string name="wallpaper_change_on2G3G_hint">You are not connected to a Wi-Fi network. Continue to download?</string>
+    <string name="onekey_cleaner_best_tip">Your phone is in an optimal state!</string>
+    <string name="onekey_cleaner_release_tip">Release memory %1$s</string>
+	<string name="onekey_cleaner_speed_tip">Sped up by %1$s. Your phone is in an optimal state!</string>
+	<string name="onekey_cleaner_dept_tip">Release the extra space</string>
+	 <!-- 充电锁屏 -->
+	<string name="charging_saver_close_dialog_tip">Disabling the Charging Lock Screen can extend standby time. Disable?</string>
+	<string name="charging_saver_type_fast">Speed</string>
+	<string name="charging_saver_type_average">Continuous</string>
+	<string name="charging_saver_type_slowly">Trickle</string>
+	<string name="charging_saver_under_charging">Under Charging Saver</string>
+	<string name="charging_saver_battery_info_remaining_charging_time">"Charging time left: "</string>
+    <string name="charging_saver_common_time_minute">m</string>
+	<string name="charging_saver_common_time_hour">h</string>
+	<string name="charging_saver_screen_slide_to_enter">Slide to unlock>>></string>
+	<string name="myh5game_title_name">Hot Games</string>
+	<string name="settings_about_privacy_title">Privacy Protocol</string>
+	<string name="top_menu_list_item_go_beauty_center">Check it out</string>
+	<string name="myphone_wallpaper_set_success">Wallpaper has been applied!</string>
+	<string name="top_menu_title">%1$s Know</string>
+	<string name ="top_menu_bazinga_dialog_content">When hidden, %3$s can be enabled under %1$s>%2$s</string>
+	<string name ="top_menu_bazinga_dialog_btn">Hide</string>
+	<string name="top_menu_list_item_go_beauty_center_title">Browse the Theme Store. You’re sure to find something to make your phone look even better!</string>
+	<string name="top_menu_list_item_go_set_launcher_title">Let %1$s become your default launcher!</string>
+	<string name="top_menu_list_item_go_wallpaper_center_title">Every wallpaper is a new story.</string>
+	<string name="top_menu_list_item_news_tip">Reading</string>
+	<string name="top_menu_list_item_theme_tip">Details</string>
+	<string name="top_menu_list_item_wallpaper_tip">Trial</string>
+	<string name="top_menu_list_item_wallpaper_loding">Loading wallpaper. Please wait.</string>
+	<string name="top_menu_list_item_wallpaper_final">Trial wallpaper failed!</string>
+	<string name="top_menu_list_item_ads_title">Recommended Apps</string>
+	<!-- 设置默认桌面 -->
+	<string name="resolver_click_default_button">Tap Clear Default</string>
+	<string name="resolver_click_callback_button">Back to desktop to set again</string>
+	<string name="resolver_click91_forhw">Tap [%1$s] first</string>
+	<string name="resolver_click91launcher1">Select "%1$s" first</string>
+	<string name="resolver_click91launcher2">Select "%1$s"</string>
+	<string name="resolver_clickAlawayButton">Tap</string>
+	<string name="resolver_clickCheck">Tap checkboxes</string>
+	<string name="resolver_clickChange">Change</string>
+	<string name="resolver_clickOk">OK</string>
+	<string name="alwaysUsePrompt">Set as default. Do not remind me again.</string>
+	<string name="settings_set_default_launcher_hint_mi">Select \"Default\" and tap \"%1$s\" to set.</string>
+	<string name="settings_set_default_launcher_hint_oppo_coloros200">Select \"Do not ask again\" and tap \"%1$s\" to set.</string>
+	<string name="settings_set_default_launcher_hint_mx4">Choose \"Default launcher\" and tap \"%1$s\" to set.</string>
+
+	<!-- 试试手气 -->
+	<string name="slot_name">Lucky</string>
+	<string name="slot_tip_1">Every pull costs 10 gold coins. Pull again?</string>
+	<string name="slot_tip_2">777 or three stars wins you the jackpot. Try your luck!</string>
+	<string name="slot_tip_3">Good luck! More gold coins are waiting for you.</string>
+	<string name="slot_tip_4">Almost a winner! Try again?</string>
+	<string name="slot_tip_5">What luck! You now have %1$s gold coins. Keep going!</string>
+
+	<string name="launcher_widget_weather_clock">Weather &amp; Clock</string>
+</resources>
+
+	

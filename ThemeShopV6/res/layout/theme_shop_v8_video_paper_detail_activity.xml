@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/series_detail_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_shop_v6_detail_bg">
+
+    <com.nd.hilauncherdev.shop.shop6.themedetail.MainScrollView
+        android:id="@+id/videoPaperDetailScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <FrameLayout
+                android:id="@+id/video_preview_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextureView
+                    android:id="@+id/surfaceview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:id="@+id/video_preview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/theme_shop_v6_theme_no_find_small"/>
+                <ImageView
+                    android:id="@+id/video_controll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/common_btn_play_video"
+                    android:layout_gravity="center"/>
+                <com.nd.hilauncherdev.framework.view.RotateImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/loadingImageView"
+                    android:visibility="gone"
+                    android:layout_gravity="center"/>
+                <include layout="@layout/theme_shop_v8_video_paper_detail_bottom_layout" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <!-- 淘宝广告 -->
+                <FrameLayout
+                    android:id="@+id/taobao_ads_layout"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:visibility="gone"
+                    android:layout_marginBottom="8dp">
+
+                    <com.nd.hilauncherdev.shop.shop6.AdImageView
+                        android:id="@+id/taobao_ads_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="fitXY" />
+                </FrameLayout>
+                <!-- 相关视频壁纸推荐 -->
+                <View android:id="@+id/view_split" android:layout_width="match_parent"
+                    android:layout_height="10dip" android:visibility="gone" />
+                <com.nd.hilauncherdev.shop.widget.adapter.RelateVideoPaperView
+                    android:id="@+id/relate_video_paper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:layout_marginTop="-10dip"
+                    android:background="@drawable/recommend_bg_card"
+                    android:paddingBottom="10dip"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.nd.hilauncherdev.shop.shop6.themedetail.MainScrollView>
+
+    <!-- Loading模块 -->
+    <com.nd.hilauncherdev.shop.widget.LoadingStateView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/myphone_bg_color" />
+
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

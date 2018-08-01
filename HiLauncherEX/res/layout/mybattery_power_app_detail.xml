@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/headerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.nd.hilauncherdev.framework.view.commonview.HeaderView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headerView"
+        android:background="@color/mybattert_bs_optimize_bottom_bg"
+        android:orientation="vertical" >
+        
+           
+        <ListView
+        android:id="@+id/bsAnalyseListview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/myphone_common_split"
+        android:listSelector="@drawable/myphone_click_item_blue"
+        android:layout_above="@+id/bottomLayout"
+         >
+        </ListView>
+        
+        <LinearLayout
+            android:id="@+id/bottomLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/myphone_bottom_content"
+            android:gravity="center"
+            android:background="@drawable/common_btn_layout_bg"
+            android:padding="6dip"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+                <LinearLayout
+                    android:id="@+id/layout_bottom_refresh"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/closeBn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/common_button_close"
+                        android:background="@drawable/common_btn_blue_selector"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/myphone_title_bottom_text_size"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dip"
+                        android:clickable="false"
+                        >
+                    </Button>
+                    
+                    <Button
+                        android:id="@+id/detailBn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/common_button_view_detail"
+                        android:background="@drawable/common_btn_blue_selector"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/myphone_title_bottom_text_size" 
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dip">
+                    </Button>
+                </LinearLayout>
+
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

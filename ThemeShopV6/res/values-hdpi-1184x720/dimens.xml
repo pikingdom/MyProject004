@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 我的手机 统一提示View MarginTop -->
+    <dimen name="text_size">14sp</dimen>
+</resources>

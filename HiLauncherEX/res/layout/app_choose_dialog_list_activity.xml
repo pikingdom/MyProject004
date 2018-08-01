@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:paddingTop="@dimen/status_bar_height" >
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/activity_app_choose_title"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/app_choose_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/title_main_color_light"
+            android:textSize="@dimen/folder_full_title_size" />
+
+        <LinearLayout
+            android:id="@+id/menu_replace_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:visibility="invisible"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="循环"
+                android:textColor="@color/title_main_color_light"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+            <CheckBox
+                android:id="@+id/checkbox_replace_mode"
+                android:layout_marginLeft="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/btn_checkbox"
+                android:checked="true"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/newfolder_rename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/app_choose_btn_rename"
+            android:clickable="true"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_layout" >
+
+        <LinearLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/cancel_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/folder_full_btn_cancel_selector"
+                android:gravity="center"
+                android:text="@string/common_button_cancel"
+                android:textColor="@color/standard_dialog_btn_cancel_text"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/confirm_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="17dp"
+                android:layout_weight="1"
+                android:background="@drawable/folder_full_btn_confirm_selector"
+                android:gravity="center"
+                android:text="@string/common_button_confirm"
+                android:textColor="@color/standard_dialog_btn_confirm_text"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/lightbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="8dip"
+            android:layout_above="@id/bottom_layout"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="10dip" >
+
+            <com.nd.hilauncherdev.framework.view.commonsliding.CommonLightbar
+                android:id="@+id/lightbar"
+                android:layout_width="match_parent"
+                android:layout_height="8dip"
+                android:gravity="center" />
+
+            <com.nd.hilauncherdev.framework.view.commonsliding.CommonLightbar
+                android:id="@+id/lightbar_91"
+                android:layout_width="match_parent"
+                android:layout_height="8dip"
+                android:gravity="center" />
+        </FrameLayout>
+
+        <com.nd.hilauncherdev.framework.view.commonview.MyphoneTabContainer
+            android:id="@+id/tab_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/lightbar_layout" />
+    </RelativeLayout>
+
+</RelativeLayout>

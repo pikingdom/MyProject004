@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 我的红包页面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/myphone_bg_color">
+    <com.nd.hilauncherdev.shop.shop3.customview.ThemeHeaderView
+        android:id="@+id/mHeadView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+		<com.nd.hilauncherdev.framework.view.MyPhoneViewPagerTab
+	            android:id="@+id/container_pagertab"
+	            android:layout_width="match_parent"
+	            android:layout_height="42dp"
+	            android:layout_alignParentTop="true" />
+	
+	    <com.nd.hilauncherdev.framework.view.MyPhoneViewPager
+	        android:id="@+id/container_pager"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_below="@id/container_pagertab"/>
+    </RelativeLayout>
+</LinearLayout>

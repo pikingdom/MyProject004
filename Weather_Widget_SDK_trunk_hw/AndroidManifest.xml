@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nd.weather.widget"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <!--<supports-screens-->
+        <!--android:anyDensity="true"-->
+        <!--android:largeScreens="true"-->
+        <!--android:normalScreens="true"-->
+        <!--android:resizeable="true"-->
+        <!--android:smallScreens="true" />-->
+
+    <!--<uses-sdk android:minSdkVersion="5" />-->
+
+    <!--<application-->
+        <!--android:icon="@drawable/weather_ico_days_1"-->
+        <!--android:label="@string/sdk_app_name"-->
+        <!--android:theme="@android:style/Theme.NoTitleBar" >-->
+        <!--<provider-->
+            <!--android:name="com.nd.calendar.provider.PandahomeProvider"-->
+            <!--android:authorities="com.nd.calendar.PandahomeProvider"-->
+            <!--android:process="@string/widget_process" />-->
+
+        <!--<activity-->
+            <!--android:name="com.nd.weather.widget.UI.weather.UIWeatherFragmentAty"-->
+            <!--android:configChanges="keyboardHidden|orientation"-->
+            <!--android:launchMode="singleTask"-->
+            <!--android:process="@string/widget_process"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@android:style/Theme.NoTitleBar" >-->
+            <!--<intent-filter>-->
+                <!--<category android:name="com.nd.android.pandahome.widget.CATCH_VERTICAL_GESTURE" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name="com.nd.weather.widget.UI.weather.UIWidgetCityMgrAty"-->
+            <!--android:configChanges="keyboardHidden|orientation"-->
+            <!--android:launchMode="singleTop"-->
+            <!--android:process="@string/widget_process"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:taskAffinity="com.nd.weather.widget.panda.ui"-->
+            <!--android:theme="@android:style/Theme.Translucent.NoTitleBar"-->
+            <!--android:windowSoftInputMode="stateHidden" >-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name="com.nd.weather.widget.UI.UICalendarGuideAty"-->
+            <!--android:configChanges="keyboardHidden|orientation"-->
+            <!--android:process="@string/widget_process"-->
+            <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+            <!--android:name="com.nd.weather.widget.UI.weather.UIWeatherSetAty"-->
+            <!--android:configChanges="keyboardHidden|orientation"-->
+            <!--android:launchMode="singleTask"-->
+            <!--android:process="@string/widget_process"-->
+            <!--android:screenOrientation="portrait" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
+
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name="com.nd.weather.widget.UI.setting.UISettingActivity"-->
+            <!--android:configChanges="keyboardHidden|orientation"-->
+            <!--android:launchMode="singleTask"-->
+            <!--android:process="@string/widget_process"-->
+            <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+            <!--android:name="com.nd.weather.widget.UI.setting.UISettingAboutAty"-->
+            <!--android:configChanges="keyboardHidden|orientation"-->
+            <!--android:launchMode="singleTask"-->
+            <!--android:process="@string/widget_process"-->
+            <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+            <!--android:name="com.nd.weather.widget.UI.setting.UISettingWeatherAty"-->
+            <!--android:configChanges="keyboardHidden|orientation"-->
+            <!--android:launchMode="singleTask"-->
+            <!--android:process="@string/widget_process"-->
+            <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+            <!--android:name="com.nd.weather.widget.UI.setting.UISettingPmSourceAty"-->
+            <!--android:configChanges="keyboardHidden|orientation"-->
+            <!--android:launchMode="singleTask"-->
+            <!--android:process="@string/widget_process"-->
+            <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+            <!--android:name="com.nd.weather.widget.UI.setting.UISubmitOpinionAty"-->
+            <!--android:configChanges="keyboardHidden|orientation"-->
+            <!--android:launchMode="singleTask"-->
+            <!--android:process="@string/widget_process"-->
+            <!--android:screenOrientation="portrait" />-->
+
+        <!--&lt;!&ndash; 插件服务 &ndash;&gt;-->
+        <!--<receiver-->
+            <!--android:name="com.nd.weather.widget.StartupReceiver"-->
+            <!--android:enabled="true"-->
+            <!--android:process="@string/widget_process" >-->
+            <!--<intent-filter android:priority="20" >-->
+                <!--<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />-->
+                <!--<action android:name="nd.pandahome.weather.request" />-->
+
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!---->
+        <!--<receiver-->
+            <!--android:name="com.nd.weather.widget.BootReceiver"-->
+            <!--android:enabled="true"-->
+            <!--android:process="@string/widget_process" >-->
+            <!--<intent-filter android:priority="20" >-->
+                <!--<action android:name="android.intent.action.USER_PRESENT" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!---->
+
+        <!--<service-->
+            <!--android:name="com.nd.weather.widget.TimeService"-->
+            <!--android:enabled="true"-->
+            <!--android:exported="true"-->
+            <!--android:process="@string/widget_process" >-->
+        <!--</service>-->
+
+        <!--&lt;!&ndash; 软件下载服务 &ndash;&gt;-->
+        <!--<service-->
+            <!--android:name="com.nd.android.update.DownloadService"-->
+            <!--android:enabled="true"-->
+            <!--android:process=":DownloadingService" />-->
+
+        <!--&lt;!&ndash; 熊猫插件 &ndash;&gt;-->
+        <!--<activity-->
+            <!--android:name="com.nd.weather.widget.PandaHome.CalendarWeatherChoose"-->
+            <!--android:exported="true"-->
+            <!--android:screenOrientation="portrait" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.nd.android.pandahome.widget.category" />-->
+
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+        <!--<receiver android:name="com.nd.weather.widget.PandaHome.Receiver.InstallReceiver" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.PACKAGE_ADDED" />-->
+                <!--<action android:name="android.intent.action.PACKAGE_REMOVED" />-->
+                <!--<action android:name="android.intent.action.PACKAGE_REPLACED" />-->
+
+                <!--<data android:scheme="package" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+    <!--</application>-->
+
+    <!--<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
+    <!--<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />-->
+    <!--<uses-permission android:name="android.permission.INTERNET" />-->
+    <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+    <!--<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />-->
+    <!--<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />-->
+    <!--<uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+    <!--<uses-permission android:name="android.permission.GET_TASKS" />-->
+    <!--<uses-permission android:name="android.permission.WRITE_SETTINGS" />-->
+    <!--<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />-->
+
+</manifest>

@@ -1,0 +1,126 @@
+package com.nd.hilauncherdev.launcher;
+
+import com.android.newline.launcher.BuildConfig;
+import com.nd.hilauncherdev.recommend.p8custom.CustomRecommendAppWrapper;
+
+/**
+ * Description: 定制版不同产商配置
+ * Author: guojianyun 
+ * Date: 2016年8月17日 上午10:42:23
+ */
+public class LauncherBranchController {
+
+	/** 力天  */
+	public final static String BRANCH_LITIAN = BuildConfig.CHANNEL_LITIAN;
+	/** 椒盐  */
+	public final static String BRANCH_JIAOYAN = BuildConfig.CHANNEL_JIAOYAN;
+	/** 天湃  */
+	public final static String BRANCH_TAINPAI = BuildConfig.CHANNEL_TIANPAI;
+	/** 帆悦  */
+	public final static String BRANCH_FANYUE = BuildConfig.CHANNEL_FANYUE;
+	/** 刷机精灵  */
+	public final static String BRANCH_SHUAJIJINGLING = BuildConfig.CHANNEL_SHUAJIJINGLING;
+	/** 猎鹰 */
+	public final static String BRANCH_LIEYING = BuildConfig.CHANNEL_LIEYING;
+
+	/** 版本分支配置：针对不同机型和厂商  */
+	public final static String phone = BuildConfig.PHONE_TYPE;
+	public final static String branch = BuildConfig.CHANNEL_TYPE;
+	
+	/**
+	 * Description: 是否力天定制版
+	 * Author: guojianyun 
+	 * Date: 2016年8月17日 上午10:44:13
+	 * @return
+	 */
+	public static boolean isLiTian(){
+		return branch != null && branch.equals(BRANCH_LITIAN);
+	}
+
+
+	/**
+	 * 是否猎鹰定制版
+	 * @return
+	 */
+	public static boolean isLieYing(){
+		return branch != null && branch.equals(BRANCH_LIEYING);
+	}
+	 
+	/**
+	 * Description:是否椒盐定制版
+	 * Author: guojianyun 
+	 * Date: 2016年8月17日 上午10:44:24
+	 * @return
+	 */
+	public static boolean isJiaoYan(){
+		return branch != null && branch.equals(BRANCH_JIAOYAN);
+	}
+	
+	/**
+	 * Description: 是否天湃定制版
+	 * Author: guojianyun 
+	 * Date: 2016年8月17日 上午10:51:01
+	 * @return
+	 */
+	public static boolean isTianPai(){
+		return branch != null && branch.equals(BRANCH_TAINPAI);
+	}
+	
+	/**
+	 * Description: 是否帆悦定制版
+	 * Author: guojianyun 
+	 * Date: 2016年8月17日 上午10:51:01
+	 * @return
+	 */
+	public static boolean isFanYue(){
+		return branch != null && branch.equals(BRANCH_FANYUE);
+	}
+
+	/**
+	 * Description: 是否刷机精灵
+	 * Author: guojianyun
+	 * Date: 2016年8月17日 上午10:51:01
+	 * @return
+	 */
+	public static boolean isShuaJiJingLing(){
+		return branch != null && branch.equals(BRANCH_SHUAJIJINGLING);
+	}
+	
+	
+	/**
+	 * Description: 获取桌面默认布局配置文件路径
+	 * Author: guojianyun 
+	 * Date: 2016年8月17日 下午4:07:22
+	 * @return
+	 */
+	public static String getDefaultWorkspaceConfigPath(){
+		if(isLiTian() || isJiaoYan() || isShuaJiJingLing() || isLieYing()){
+			return CustomRecommendAppWrapper.RECOMMEND_CUSTOM_PATH + "/info.xml";
+		}else if(isTianPai()){
+			if (isOppoPhone()) {
+				return CustomRecommendAppWrapper.RECOMMEND_CUSTOM_PATH + "/" + CustomRecommendAppWrapper.ASSEST_CUSTOM_NAME_OPPO;
+			} else if (isVivoPhone()) {
+				return CustomRecommendAppWrapper.RECOMMEND_CUSTOM_PATH + "/" + CustomRecommendAppWrapper.ASSEST_CUSTOM_NAME_VIVO;
+			}
+		} else if(isFanYue()){
+			return "sdcard/hw_launcher_default_workspace.xml";
+		}
+		return "";
+	}
+	
+	public static boolean isHwPhone(){
+		return phone != null && phone.equals(LauncherCustomConfig.PHONE_HW);
+	}
+
+	public static boolean isOppoPhone(){
+		return phone != null && phone.equals(LauncherCustomConfig.PHONE_OPPO);
+	}
+
+	public static boolean isVivoPhone(){
+		return phone != null && phone.equals(LauncherCustomConfig.PHONE_VIVO);
+	}
+
+	public static boolean isAllPhone(){
+		return phone != null && phone.equals(LauncherCustomConfig.PHONE_ALL);
+	}
+}

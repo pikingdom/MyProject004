@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+
+<resources>
+	<!-- 上滑菜单 -->
+    <dimen name="home_menu_top_margin">75dip</dimen>
+    <dimen name="home_menu_bottom_margin">50dip</dimen>
+    
+    <!-- 快捷开关 -->
+    <dimen name="system_switch_item_text">12dip</dimen>
+    
+    <dimen name="theme_shop_v6_recomment_new_img_width">105dip</dimen>
+	<dimen name="theme_shop_v6_recomment_new_img_height">173dip</dimen>
+	<dimen name="theme_shop_v6_list_item_title">13sp</dimen>
+	<dimen name="theme_shop_v6_list_item_price">11sp</dimen>
+	
+	<dimen name="readme_recommend_app_bg_size">185dip</dimen>
+	<dimen name="readme_recommend_app_icon_size">68dip</dimen>
+	
+	<!-- V7新手预览图上下margin -->
+	<dimen name="readme_v7_page2_title_margin_top">100dip</dimen>
+</resources>

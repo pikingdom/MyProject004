@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item name="weather_common_view_holder" type="id"></item>
+	
+    <string name="sdk_app_name">黄历天气</string>
+    <string name="finish_text">完成</string>
+    <string name="close">关闭</string>
+    <string name="back">返回</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    
+    <!-- 天气 -->
+    <string name="now_weather_info">当日天气</string>
+    <string name="city">城市</string>
+    <string name="cityset">城市管理</string>
+    <string name="citysetadd">添加</string>
+    <string name="citysetMgr">管理</string>
+    <string name="cityaddedithit">搜索全球城市(中文/拼音)</string>
+    <string name="cityaddtitle">添加城市</string>
+    <string name="cityseletitle">选择城市</string>
+    <string name="delete_city_hint">选择相应城市后点击</string>
+    <string name="sort_city_hint">点击相应城市拖动</string>
+    <string name="none_city_data_hint">请添加城市!</string>
+    <string name="tomorrow">明天</string>
+    <string name="weather_wrong_time_msg">系统时间错误，请修正后再更新</string>
+    <string name="waring_wrong_time_msg">系统时间错误，无法获取预警信息，请修正后重试</string>
+    <string name="index_wrong_time_msg">系统时间错误\n请修正后，再点击刷新</string>
+    <string name="text_warning">预警</string>
+    <string name="more_weather">查看更多天气详情 >></string>
+ 
+    <!-- UIMainActivity -->
+    <string name="tab_weather">天气</string>
+    <string name="tab_calendar">万年历</string>
+    <string name="tab_huli_info">黄历</string>
+    <string name="tab_more">设置</string>
+    <string name="loadingTxt">正在加载....</string>
+    <string name="about">　　91黄历天气是由博远无线研发，除了方便人们查询天气外，还提供了中国传统黄历现代文宜忌功能，例如结合男女生肖的结婚日查询。</string>
+
+    <string name="copyright">（C）1999-2013\n博远无线  版权所有</string>
+    
+    <string name="install">安装</string>
+    <string name="calendar_down_hint">使用完整功能，请安装 “91黄历天气” 完整版</string>
+
+	<string name="skin_path">#skin_path#</string>
+    
+	<!-- 插件主进程 -->
+    <string name="widget_process">"com.nd.weather.widget.WidgetService"</string>
+    
+    <!-- provider -->
+    <string name="provider_process">"com.nd.weather.widget.provider"</string>
+ 
+    <!-- 统计ID -->
+    <string name="flurry_id">"F7ZMVD7YPRWS5CDBFZNX"</string> <!-- 安卓桌面 9BHG554YCBQQ4K2FQBFY -->
+    
+    <!-- 主题询问广播 -->
+    <string name="thenme_ask_action">"com.nd.android.pandahome.ASK_THEME"</string> <!-- 安卓桌面 com.nd.android.smarthome.THEME_INFO -->
+    <!-- 主题接收广播 -->
+    <string name="thenme_change_action">"com.nd.android.pandahome.THEME_INFO"</string> 
+    
+    <string name="localing_text">定位中...</string> 
+    <string name="no_net_to_local_text">未连接网络，无法定位</string>
+    
+    <!-- 91天气点击分布功能统计ID（1-时间；2-日历；3-天气简版；4-天气通版；5-城市；6-点击下载天气通版；7-进入推荐黄历天气界面） -->
+    <string name="analytics_weather_click_distribute">62001213</string> 
+    <!-- 天气SDK内下载黄历天气客户端点击位置功能统计ID（1-关于界面；2-主界面天气指数；3-主界面宜忌；4-主界面农历；5-主界面多日天气图表；6-主界面主界面右下角更多图标；7-主界面多日温度图表；8-主界面右下角更多图标直接下载；9-主界面未来6小时天气图表） -->
+    <string name="analytics_weather_download_huangli">63001214</string>
+    <!-- 天气SDK内下载黄历天气客户端点击位置（1-关于界面；2-主界面天气指数；3-主界面左上角农历；4-主界面未来6小时天气图表；5-主界面多日天气图表） -->
+	<string name="analytics_weather_enter_recommend_huangli">70181223</string>
+    <!-- 天气SDK内下载黄历天气客户端安装成功打点 -->
+    <string name="analytics_weather_install_huangli">63101215</string>
+    <!-- 黄历天气客户端下载统计SP -->
+    <string name="sp_widget_recommend_app">12</string> 
+    <!-- 桌面天气插件默认皮肤在assets中的路径 -->
+    <string name="default_skin_path">"weather_skin2/"</string> 
+    <!-- 桌面天气插件所属产品ID 91桌面为6 -->
+    <string name="product_id">6</string> 
+    <!-- 桌面天气插件详情广告cv统计页面ID -->
+    <string name="weather_detail_ad_cv_page_id">96090001</string> 
+    <!-- 桌面天气插件详情广告cv统计悬浮图标位置ID -->
+    <string name="weather_detail_ad_cv_pos_id">96090101</string> 
+    <!-- 桌面天气插件详情广告cv统计底部banner位置ID -->
+    <string name="weather_detail_bottom_banner_cv_pos_id">96090201</string> 
+</resources>

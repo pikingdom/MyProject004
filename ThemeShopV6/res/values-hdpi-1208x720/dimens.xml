@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 图标尺寸 -->
+    <dimen name="app_icon_size">53dip</dimen>
+    <!-- 大图标尺寸 -->
+
+    <!-- 图标背景尺寸 -->
+</resources>

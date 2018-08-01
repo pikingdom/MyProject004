@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="readme_tabs">
+		<item>便捷</item>
+		<item>美化</item>
+		<item>丰富</item>
+		<item>贴心</item>
+	</string-array>
+	
+	<string-array name="readme_content">
+		<item>多样手势轻松玩转桌面</item>
+		<item>精美主题.炫酷特效</item>
+		<item>丰富多彩的实用小插件</item>
+		<item>"我的手机".最贴心的手机管家</item>
+	</string-array>
+
+    <string-array name="settings_common_effects_drawer_array">
+    	<item>默认</item>
+		<item>随机</item>				
+		<item>内缩放</item>
+		<item>外缩放</item>
+		<item>风车</item>
+		<item>电视机</item>
+	</string-array>
+	<string-array name="settings_common_effects_drawer_value">
+		<item>0</item>
+		<item>1</item>		
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+	
+	
+	<string-array name="settings_common_effects_screen_array">
+		<item>默认</item>
+		<item>随机</item>	
+		<item>卡片堆</item>
+		<item>翻滚</item>
+		<item>翻转</item>
+		<item>钟摆</item>
+		<item>立方体(内)</item>
+		<item>立方体(外)</item>
+		<item>百叶窗</item>
+		<item>弦</item>	
+		<item>兄弟连</item>
+		<item>风火轮</item>
+		<item>球</item>
+		<item>圆柱</item>
+		<item>龙卷风</item>
+		<item>双飞燕</item>
+		<item>太极</item>
+		<item>吃豆豆</item>
+		<item>时光隧道</item>
+		<item>开门</item>
+		<item>翻页</item>
+	</string-array>
+	<string-array name="settings_common_effects_screen_drawable">
+		<item>edit_mode_effect_default</item>
+		<item>edit_mode_effect_random</item>
+		<item>edit_mode_effect_cascading</item>
+		<item>edit_mode_effect_roll</item>
+		<item>edit_mode_effect_turn</item>
+		<item>edit_mode_effect_windower</item>
+		<item>edit_mode_effect_cubeinside</item>
+		<item>edit_mode_effect_cubeoutside</item>
+		<item>edit_mode_effect_shutter</item>
+		<item>edit_mode_effect_chord</item>
+		<item>edit_mode_effect_binarystar</item>
+		<item>edit_mode_effect_wheel</item>
+		<item>edit_mode_effect_global</item>
+		<item>edit_mode_effect_cylinder</item>
+		<item>edit_mode_effect_tornado</item>
+		<item>edit_mode_effect_doubleswallow</item>
+		<item>edit_mode_effect_taiji</item>
+		<item>edit_mode_effect_eatbean</item>
+		<item>edit_mode_effect_time_machine</item>
+		<item>edit_mode_effect_close_door</item>
+		<item>edit_mode_effect_cubeinside</item>
+	</string-array>
+	
+	<string-array name="settings_particle_effects_screen_array">
+		<item>默认(无)</item>	
+		<item>焰火</item>
+		<item>礼花</item>
+		<item>曝光</item>
+		<item>爱心气球</item>
+		<item>心花怒放</item>
+		<item>星光四射</item>
+		<item>撒钱</item>
+		<item>蝴蝶</item>
+	</string-array>
+	<string-array name="settings_particle_effects_screen_value">
+		<item>0</item>
+		<item>1</item>		
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	<string-array name="settings_particle_effects_screen_drawable">
+		<item>particle_effect_icon_none</item>
+		<item>fireworks</item>
+		<item>flower</item>
+		<item>exposure</item>
+		<item>heart_balloon</item>
+		<item>romantic_fireworks</item>
+		<item>romantic_star</item>
+		<item>money</item>
+		<item>butterfly</item>
+	</string-array>
+	
+	<string-array name="settings_common_effects_drawer_scroll_array">
+		<item>默认</item>
+		<item>随机</item>	
+		<item>卡片堆</item>
+		<item>翻滚</item>
+		<item>翻转</item>
+		<item>钟摆</item>
+		<item>立方体(内)</item>
+		<item>立方体(外)</item>
+		<item>百叶窗</item>
+		<item>弦</item>	
+		<item>兄弟连</item>
+		<item>风火轮</item>
+		<item>球</item>
+		<item>圆柱</item>
+		<item>龙卷风</item>
+		<item>双飞燕</item>
+		<item>太极</item>
+		<item>吃豆豆</item>
+		<item>时光隧道</item>
+		<item>开门</item>
+		<item>翻页</item>
+	</string-array>
+
+	<string-array name="settings_launcher_screen_countxy_array">
+		<item>4x4(原始)</item>
+		<item>5x4(适中)</item>
+		<item>5x5(密集)</item>
+		<item>自定义</item>
+	</string-array>	
+	
+	<string-array name="settings_launcher_screen_countxy_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	
+	<string-array name="settings_launcher_countxy_array">
+		<item>4x4(原始)</item>
+		<item>5x4(适中)</item>
+		<item>5x5(密集)</item>
+	</string-array>	
+	
+	<string-array name="settings_launcher_countxy_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	
+	<string-array name="myphone_battery_intelligent_week">
+		<item>周日</item>
+		<item>周一</item>
+		<item>周二</item>
+		<item>周三</item>
+		<item>周四</item>
+		<item>周五</item>
+		<item>周六</item>
+	</string-array>
+	
+	<string-array name="drawer_app_sort_rule">  
+        <item>按字母排序</item>
+        <item>按安装时间从近到远排序</item>
+        <item>按安装时间从远到近排序</item>
+        <item>按使用次数从多到少排序</item>
+        <item>按使用次数从少到多排序</item>
+    </string-array>	
+	
+	<!-- 文件夹命名建议 -->
+	<string-array name="suggestion_folder_name">
+		<item>游戏</item>
+		<item>社交</item>
+		<item>工具</item>
+		<item>网络</item>
+		<item>系统</item>
+		<item>工作</item>
+		<item>常用</item>
+		<item>不常用</item>
+	</string-array>
+	
+    <!-- 手势功能上滑 -->
+    <string-array name="settings_personal_gesture_menu_entities_up">
+    	<item>无响应</item>
+    	<item>应用程序</item>
+    	<item>桌面快捷方式</item>
+    	<item>系统快捷方式</item>
+    	<item>默认(桌面菜单)</item>
+    </string-array>
+    <!-- 手势功能下滑 -->
+    <string-array name="settings_personal_gesture_menu_entities_down">
+    	<item>无响应</item>
+    	<item>应用程序</item>
+    	<item>桌面快捷方式</item>
+    	<item>系统快捷方式</item>
+    	<item>快捷菜单</item>
+    	<item>默认(系统通知栏)</item>
+    </string-array>
+    <!-- 双指下滑 -->
+    <string-array name="settings_personal_double_gesture_menu_entities_down">
+    	<item>无响应</item>
+    	<item>应用程序</item>
+    	<item>桌面快捷方式</item>
+    	<item>系统快捷方式</item>
+    	<item>默认(情景桌面)</item>
+    </string-array>
+   	<string-array name="settings_personal_gesture_menu_keys">
+   		<item>0</item>
+    	<item>1</item>
+    	<item>2</item>
+    	<item>3</item>
+    	<item>4</item>
+    	<item>5</item>
+   	</string-array>
+    
+   	<string-array name="settings_personal_folder_style_array">
+   	    <item>iPhone风格</item>
+		<item>Android 4.0风格</item>		
+		<item>全屏风格</item>		
+	</string-array>	
+	
+	<string-array name="settings_personal_folder_style_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	
+	<string-array name="calendar_dynamic_icon_a_week">
+	    <item>星期日</item>
+	    <item>星期一</item>
+	    <item>星期二</item>
+	    <item>星期三</item>
+	    <item>星期四</item>
+	    <item>星期五</item>
+	    <item>星期六</item>
+	</string-array>
+	
+	
+	<string-array name="scene_select_dialog_operate_type_0">
+		<item>预览情景</item>
+		<item>应用情景</item>
+		<item>删除情景</item>
+	</string-array>
+	  
+	<string-array name="scene_select_dialog_operate_type_1">
+		<item>预览情景</item>
+		<item>应用情景</item>
+	</string-array>
+	
+	<string-array name="scene_select_dialog_operate_type_2">
+		<item>应用情景</item>
+		<item>删除情景</item>
+	  </string-array>
+	
+	<string-array name="scene_select_dialog_operate_type_3">
+		<item>应用情景</item>
+	</string-array>
+	
+	<string-array name="widget_shop_install">
+	    <item>放到桌面</item>
+		<item>卸载小部件</item>
+		<item>升级小部件</item>
+	</string-array>
+	
+	<string-array name="widget_shop_install_0">
+	    <item>卸载小部件</item>
+	</string-array>
+	  
+	<string-array name="widget_shop_install_1">
+		<item>卸载小部件</item>
+		<item>升级小部件</item>
+	</string-array>
+	
+	<string-array name="widget_variety_operate_custom_template">
+        <item>删除</item>
+    </string-array>
+    
+	<!-- 各个 分类类名-->
+    <string-array name="class_folder_name">
+        <item>社交聊天</item>
+        <item>电话短信</item>
+        <item>图片处理</item>
+        <item>电影音乐</item>
+        <item>看新闻</item>
+        <item>上网</item>
+        <item>游戏</item>
+        <item>购物</item>
+        <item>阅读教育</item>
+        <item>理财办公</item>
+        <item>生活</item>
+        <item>手机美化</item>
+        <item>手机安全</item>
+        <item>工具箱</item>
+    </string-array>
+    
+    <!-- 各个 分类对应的id-->
+    <integer-array name="class_folder_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </integer-array>
+
+	<string-array name="settings_common_effects_drawer_drawable">
+        <item>drawer_effect_default</item>
+        <item>edit_mode_effect_random</item>
+        <item>drawer_effect_zoom_out</item>
+        <item>drawer_effect_zoom_in</item>
+        <item>drawer_effect_windmill</item>
+        <item>drawer_effect_tv</item>
+        <item>drawer_effect_flip</item>
+    </string-array>
+    <string-array name="mibao_questions">
+        <item>您母亲的姓名?</item>
+        <item>您父亲的姓名?</item>
+        <item>您配偶的姓名?</item>
+        <item>您高中班主任的名字?</item>
+        <item>您初中班主任的名字?</item>
+        <item>您小学的校名?</item>
+        <item>您大学的校名?</item>
+        <item>您母亲的生日?</item>
+        <item>您父亲的生日?</item>
+        <item>您配偶的生日?</item>
+	</string-array>
+    <string-array name="settings_indicator_light_style_array">
+		<item>线条风格</item>
+		<item>圆点风格</item>
+		<item>跟随主题更换</item>
+	</string-array>	
+	<string-array name="settings_indicator_light_style_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+
+	<string-array name="week_full">
+		<item>周日</item>
+		<item>周一</item>
+		<item>周二</item>
+		<item>周三</item>
+		<item>周四</item>
+		<item>周五</item>
+		<item>周六</item>
+	</string-array>
+
+	<string-array name="month_full">
+		<item>January</item>
+		<item>February</item>
+		<item>March</item>
+		<item>April</item>
+		<item>May</item>
+		<item>June</item>
+		<item>July</item>
+		<item>Aguest</item>
+		<item>September</item>
+		<item>October</item>
+		<item>November</item>
+		<item>December</item>
+	</string-array>
+
+	<!-- 一键清理清理结果提示语 -->
+	<string-array name="cleaner_widget_clean_result_tip_array">
+		<item>提速%1$s，哇哦，手机速度已经超过光速了！</item>
+		<item>提速%1$s，手机又变得精神抖擞啦。</item>
+		<item>提速%1$s，缓存垃圾都已经消失啦。</item>
+		<item>提速%1$s，养成清理是个好习惯~</item>
+	</string-array>
+</resources>

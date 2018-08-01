@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/samsung_drawer_search_rl"
+	android:layout_width="match_parent"
+	android:layout_height="45dp"
+	android:layout_alignParentTop="true"
+	android:layout_marginLeft="10dp"
+	android:layout_marginRight="10dp"
+	android:background="@drawable/samsung_drawer_search_bg"
+	android:gravity="center_vertical">
+	<ImageView
+		android:id="@+id/samsung_drawer_search_search_img"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="15dp"
+		android:scaleType="fitXY"
+		android:src="@drawable/samsung_drawer_search_search_icon" />
+	<ImageView
+		android:id="@+id/samsung_drawer_search_more_img"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_centerVertical="true"
+		android:layout_alignParentRight="true"
+		android:paddingLeft="15dp"
+		android:paddingRight="18dp"
+		android:scaleType="centerInside"
+		android:src="@drawable/samsung_drawer_search_more" />
+	<ImageView
+		android:id="@+id/samsung_drawer_search_divide_img"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/samsung_drawer_search_more_img"
+		android:layout_centerVertical="true"
+		android:scaleType="fitXY"
+		android:src="@drawable/samsung_drawer_search_divide" />
+	<ImageView
+		android:id="@+id/samsung_drawer_search_voice_img"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_toLeftOf="@+id/samsung_drawer_search_divide_img"
+		android:layout_centerVertical="true"
+		android:paddingLeft="14dp"
+		android:paddingRight="14dp"
+		android:scaleType="centerInside"
+		android:src="@drawable/samsung_drawer_search_voice_icon" />
+	<TextView
+		android:id="@+id/samsung_drawer_search_input_tv"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/samsung_drawer_search_search_img"
+		android:layout_toLeftOf="@+id/samsung_drawer_search_voice_img"
+		android:gravity="left|center_vertical"
+		android:layout_marginLeft="5dp"
+		android:layout_centerVertical="true"
+		android:textColor="#ffffff"
+		android:text="@string/samsung_drawer_search_default_input"
+		android:textSize="14sp"/>
+</RelativeLayout>

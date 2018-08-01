@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- /* //device/apps/common/assets/res/any/colors.xml ** ** Copyright 2008, 
+	The Android Open Source Project ** ** Licensed under the Apache License, 
+	Version 2.0 (the "License"); ** you may not use this file except in compliance 
+	with the License. ** You may obtain a copy of the License at ** ** http://www.apache.org/licenses/LICENSE-2.0 
+	** ** Unless required by applicable law or agreed to in writing, software 
+	** distributed under the License is distributed on an "AS IS" BASIS, ** WITHOUT 
+	WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. ** See the 
+	License for the specific language governing permissions and ** limitations 
+	under the License. */ -->
+<resources>
+	<!--快捷9宫格半透明背景 -->
+	<color name="shortcut_slot_list_divider">#ffd0d5d9</color>
+
+	<!-- 文件夹重命名建议列表颜色值 -->
+	<color name="folder_rename_seggestion_text_color">#939393</color>
+
+    <!-- 电池插件 时间颜色 -->
+    <color name="widget_battery_time_text">#333333</color>
+    
+    <!-- 匣子右下方进度条 -->
+    <color name="drawer_widget_proccess_color">#3ab100</color>
+    
+    <!--省电优化-->
+    <color name="mybattery_bs_optimize_circle_green">#06a100</color>
+    <color name="mybattery_bs_optimize_circle_orange">#ff6600</color>
+    <color name="mybattery_bs_optimize_circle_red">#e70000</color>
+    <color name="mybattert_bs_optimize_bottom_bg">#f6f7f9</color>
+    <color name="mybattert_bs_optimize_typeface">#8f8f8f</color>
+    
+    <!--抢票插件1X1-->
+    <color name="ticket_text_color">#9d1d0d</color>
+    
+    <!-- 全屏文件夹 -->
+    <color name="folder_full_purple">#948df0</color>
+    
+    <!-- Dialog -->
+    <color name="standard_dialog_title">#545454</color>
+    <color name="standard_dialog_btn_confirm_text">#ffffff</color>
+    <color name="standard_dialog_btn_cancel_text">#707070</color>
+
+    <!-- LauncherEditView -->
+    <color name="edit_view_item_text_normal">#575757</color>
+    <color name="edit_view_item_text_selected">#e99d4c</color>
+    
+    <!-- 搜索界面的颜色 -->
+    <color name="navigation_search_bg">#ffeeeeee</color>
+    <color name="navigation_search_text_color">#ffED6C57</color>
+    <color name="navigation_search_group_text_color">#ff989898</color>
+    
+    <!-- 小部件 -->
+    <color name="widget_text_color">#ccffffff</color>
+    <color name="widget_text_shadow_color">#000000</color>
+
+    <!-- 深度清理 -->
+    <color name="clean_widget_text">#ff545454</color>
+
+    <color name="drawer_item_background_twinkle">#ff9683cf</color>
+
+    <color name="clean_widget_third_text_main">#635e79</color>
+    <color name="clean_widget_third_text_sub">#9683cf</color>
+
+    <color name="hongbao_h3">#928bf2</color>
+
+    <!-- 不能使用时的颜色值 -->
+    <color name="disable_color">#4cffffff</color>
+
+    <color name="download_color">#6053d6</color>
+
+    <color name="theme_shop_jump_btn">#424242</color>
+    
+    <color name="launcher_notification_item_btn_pressed">#23ffffff</color>
+    <color name="launcher_notification_item_btn_normal">#08ffffff</color>
+
+    <color name="youbao_text_color">#ffffc733</color>
+    <!-- launcher3匣子begain-->
+    <color name="all_apps_grid_section_text_color">#009688</color>
+    <color name="all_apps_search_market_button_focused_bg_color">#DDDDDD</color>
+    <color name="all_apps_launcher_accent_color">#ff009688</color>
+    <color name="all_apps_quantum_panel_bg_color">#FFF5F5F5</color>
+    <color name="all_apps_quantum_panel_text_color">#FF666666</color>
+    <!-- launcher3匣子end-->
+</resources>

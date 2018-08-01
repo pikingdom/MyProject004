@@ -1,0 +1,170 @@
+<resources>
+	<!-- 用户反馈 -->
+	<string name="user_feedback_title">Tanggapan</string>
+	<string name="user_feedback_tip"><![CDATA[<br/><font color="#948df0"><a href="http://%s/data/androidfaq.html"><i>Tanya Jawab</i></a></font>]]></string>
+	<string name="user_feedback_tip1">\n\u0020\u0020\u0020\u0020 Terima kasih atas dukungan dan perhatian Anda! Kami menerima laporan bug dan saran Anda. Kami akan segera membalasnya.</string>
+	<string name="user_feedback_content_tip">Bug dan saran (maksimum 250 karakter)</string>
+	<string name="user_feedback_email_tip">Info kontak</string>
+	<string name="user_feedback_button_submit">Kirim</string>
+	<string name="user_feedback_common_backMain">Kembali</string>
+	<string name="user_feedback_page_unvailable">Halaman ini tidak dapat ditampilkan</string>
+	<string name="user_feedback_submit_success">Tanggapan Anda telah terkirim</string>
+	<string name="user_feedback_submit_failed">Pengiriman gagal</string>
+	<string name="user_feedback_content_none">Apa pendapat Anda? Beri tahu kami.</string>
+	<string name="user_feedback_committing">Mengirim...</string>
+	<string name="user_feedback_loading">Memuat...</string>
+	<string name="user_feedback_no_internet">Jaringan tidak tersedia</string>
+	<string name="user_feedback_contact_none">Masukkan alamat email atau nomor telepon yang benar :)</string>
+
+	<string name="widgets_choose">Pilih widget</string>
+	<string name="widget_feedback">Tanggapan</string>
+	<string name="widget_iconapp">Ikon Aplikasi</string>
+	<string name="widget_memoryclean">Booster RAM</string>
+	<string name="widget_powerwidget">Hemat Daya</string>
+	<string name="widget_baidu">Cari</string>
+	<string name="widget_toggle">Kontrol daya</string>
+	<string name="widget_analogclock">Jam analog</string>
+	
+	<!-- 系统开关 -->
+	<string name="system_switch">Panel pengaturan cepat</string>
+	<string name="sys_wifi">Wi-Fi</string>
+	<string name="sys_bluetooth">Bluetooth</string>
+	<string name="sys_gps">GPS</string>
+	<string name="sys_data_connection">Data</string>
+	<string name="sys_brightness_dock">Lampu latar</string>
+	<string name="sys_mybattery_brightness">Lampu latar</string>
+	<string name="sys_auto_sync">Sinkronisasi otomatis</string>
+	<string name="sys_airplane_mode">Pesawat</string>
+	<string name="sys_ring_mode">Dering</string>
+	<string name="sys_autolockscreen">Kunci</string>
+	<string name="sys_autorotate">Putaran</string>
+	<string name="sys_sim_not_exist">SIM tidak ditemukan</string>
+	<string name="close_airplane_mode">Mode pesawat dinonaktifkan</string>
+	<string name="sys_wifi_enabled">Wi-Fi diaktifkan</string>
+	<string name="sys_wifi_disabled">Wi-Fi dinonaktifkan</string>
+	<string name="sys_bluetooth_enabled">Bluetooth diaktifkan</string>
+	<string name="sys_bluetooth_disabled">Bluetooth dinonaktifkan</string>
+	<string name="sys_data_connection_enabled">Data seluler diaktifkan</string>
+	<string name="sys_data_connection_disabled">Data seluler dinonaktifkan</string>
+	<string name="sys_brightness">Lampu latar</string>
+	<string name="sys_automatic_brightness">Kecerahan otomatis</string>
+	<string name="sys_auto_sync_enabled">Sinkronisasi otomatis diaktifkan</string>
+	<string name="sys_auto_sync_disabled">Sinkronisasi otomatis dinonaktifkan</string>
+	<string name="sys_airplane_mode_enabled">Mode pesawat diaktifkan</string>
+	<string name="sys_airplane_mode_disabled">Mode pesawat dinonaktifkan</string>
+	<string name="sys_virbation_mode_enabled">Mode getar diaktifkan</string>
+	<string name="sys_virbation_mode_disabled">Mode getar dinonaktifkan</string>
+	<string name="sys_slient_mode_disabled">Mode diam diaktifkan</string>
+	<string name="sys_ring_mode_disabled">Mode dering diaktifkan</string>
+	<string name="sys_autolockscreen_enabled">Kunci layar diaktifkan</string>
+	<string name="sys_autolockscreen_disabled">Kunci layar dinonaktifkan</string>
+	<string name="sys_autorotate_enabled">Putar otomatis layar diaktifkan</string>
+	<string name="sys_autorotate_disabled">Putar otomatis layar dinonaktifkan</string>
+	<string name="sys_battery">Jaringan</string>
+	<string name="sys_alarm">Alarm</string>
+	<string name="sys_clock">Jam</string>
+	<string name="sys_app_mgr">Aplikasi</string>
+	<string name="sys_ring">Nada dering</string>
+	<string name="sys_whitespot">Ketuk Cepat</string>
+	<string name="sys_others">Selengkapnya</string>
+	<string name="switcher_volume_ring">Nada dering</string>
+	<string name="switcher_volume_set_failed">Gagal mengatur volume suara</string>
+	<string name="switcher_setting_hint">Ketuk &quot;Edit&quot; untuk menambahkan atau menghapus tombol alih</string>
+	<string name="panda_widget_fetch_error">Gagal mendapatkan widget</string>
+	<string name="panda_widget_weather">Cuaca Hi</string>
+
+	<string name="sys_large_capacity">USB</string>
+	<string name="sys_tactility_reaction">Sentuh</string>
+	<string name="sys_mount_sdcard">Keluarkan kartu SD</string>
+	<string name="sys_screen_overtime">Waktu habis</string>
+
+	<string name="sys_flashlight_enabled">Aktifkan senter</string>
+	<string name="sys_tactityraction_enabled">Aktifkan tanggapan sentuh</string>
+	<string name="sys_tactityraction_disabled">Nonaktifkan tanggapan sentuh</string>
+	<string name="sys_switch_edit_hint">Ketuk &quot;Edit&quot; untuk menambahkan atau menghapus tombol</string>
+	
+	<string name="sys_switch_sdcard_removed">Kartu SD dikeluarkan</string>
+	<string name="sys_switch_usb_mass_storage_fail">Pengeluaran gagal</string>
+	<string name="sys_switch_enter_usb_mass_storage">Buka penyimpanan massal USB</string>
+	<string name="sys_switch_exit_usb_mass_storage">Tutup penyimpanan massal USB -</string>
+	<string name="sys_switch_usb_mass_storage_mode">USB tidak tersedia</string>
+	<string name="sys_switch_usb_mass_storage_mode_wait">Tunggu...</string>
+	
+	<!-- 系统设置   功能名，部分由上面的系统开关部分提供 -->
+	<string name="sys_settings_mobiledata">Jaringan</string>
+	<string name="sys_settings_wireless">Nirkabel</string>
+	<string name="sys_settings_screen_safe">Keamanan</string>
+	<string name="sys_settings_display">Tampilan</string>
+	<string name="sys_settings_sound">Suara</string>
+	<string name="sys_settings_input">Keyboard</string>
+	<string name="sys_settings_apps">Aplikasi</string>
+	<string name="sys_settings_storage">Penyimpanan</string>
+	<string name="sys_settings_battery">Baterai</string>
+	<string name="sys_settings_usb_debug">Debug USB</string>
+	<string name="sys_settings_more_settings">Selengkapnya</string>
+	<string name="sys_settings_machine_name">Model</string>	
+	<string name="sys_settings_firmware">Firmware</string>
+	<string name="sys_settings_root_option">Status</string>
+	<string name="sys_settings_root_fetching">Mengambil...</string>
+	<string name="sys_settings_screen_resolution">Resolusi</string>
+	<string name="sys_settings_root_yes">Di-root</string>
+	<string name="sys_settings_root_no">Batalkan root</string>
+	<string name="sys_settings_error_msg">Maaf! \"%1$s\" tidak ditemukan</string>
+
+	<!-- 一键清理widget -->
+	<string name="memory_cleaner">Booster RAM</string>
+	<string name="nomore_release">Tidak ada lagi sumber daya yang dapat dikosongkan</string>
+	<string name="quick_clean_released">%s memori dikosongkan</string>
+	
+	<!-- 百变桌面widget -->
+	<string name="widget_variety_title">Peluncur Bervariasi</string>
+	<string name="widget_variety_templates_activity_title">Pilih Template</string>
+	<string name="widget_variety_templates_custom_title">Gaya Kustom</string>
+	<string name="widget_variety_change_style_alert_title">Ubah Gaya</string>
+    <string name="widget_variety_change_style_alert_content">Gaya akan diganti sekarang. Penggantian mungkin akan menghapus sejumlah IKON, perlu ditambahkan kembali secara manual, konfirmasi penggantian?</string>
+    <string name="widget_variety_notify_generate_template">Gaya kustom telah dibuat, Anda dapat menggunakannya sekarang!</string>
+    <string name="widget_variety_notify_template_in_use">Gaya ini sedang digunakan dan tidak dapat dihapus!</string>
+	
+    <string name="widget_error_add_failed">Gagal menambahkan widget. Coba lagi setelah mengaktifkan ulang %1$s.</string>
+    <string name="widget_update_desktop_restart_hint">Upgrade widget \"%2$s\"%1$s selesai. Menjalankan reboot...</string>
+    
+    <!-- 更新版本时请注意更新此处的版本号versionCode caizp 2012-8-1 -->
+    <!-- 手电筒版本 V1.9.2-->
+    <string name="com.nd.android.widget.pandahome.flashlight">15</string>
+    <!-- 一键关屏版本 -->
+    <string name="com.nd.android.widget.pandahome.ionekeyoffscreen">1</string>
+    <!-- 快点版本 versioncode -->
+    <string name="com.nd.shortcut.shortcutslot">5</string>
+    <!-- 快传版本 -->
+	<string name="com_nd_android_anyshare_version">1</string>
+	    
+    <!-- 二维码扫描 -->
+    <string name="widget_baidu_scan_result">Hasil</string>
+    <string name="widget_baidu_scan_restart">Pindai ulang</string>
+    <string name="widget_baidu_scan_result_access">Link</string>
+    <string name="widget_baidu_scan_result_add_contact">Tambah kontak</string>
+    <string name="widget_baidu_scan_result_share_title">Bagikan</string>
+    <string name="widget_baidu_scan_result_share">Hasil pemindaian:\n%1$s\n</string>
+    <string name="widget_baidu_scan_download_outtime_hint">Waktu pemrosesan habis. Pindai ulang.</string>
+    <string name="widget_baidu_scan_download_hint">Memproses...</string>
+    
+    <!-- 小插件默认文字颜色 caizp 2013-4-10 -->
+    <string name="panda_widget_text_color">#333333</string>
+    
+    <!-- 系统开关  -->
+    <string name="twodimensioncode_scan">Kode QR</string>
+    
+    <!-- 插件详情 -->
+	<string name="sys_notification_bar">Panel Notifikasi Sistem</string>
+    
+	<!-- 换壁纸widget -->
+	<string name="widget_wallpaper_1x1_title">Acak</string>
+	<string name="widget_wallpaper_notify_23g_refresh">Anda kini menggunakan jaringan 2G/3G. Jaringan lambat. Harap sabar.</string>
+	<string name="widget_wallpaper_drawer_previous">Sebelumnya</string>
+    <string name="widget_wallpaper_drawer_save">Simpan</string>
+    <string name="widget_wallpaper_drawer_more">Selengkapnya</string>
+	<string name="widget_wallpaper_drawer_detail">Pustaka</string>
+    <string name="widget_wallpaper_drawer_previous_fail">Tidak tersedia wallpaper untuk dipulihkan</string>
+    <string name="widget_wallpaper_drawer_save_success">Wallpaper telah disimpan ke kartu memori di /%1$s/myphone/wallpaper/Gambar</string>
+    <string name="widget_wallpaper_drawer_list_title">Penelusuran Wallpaper</string>
+</resources>

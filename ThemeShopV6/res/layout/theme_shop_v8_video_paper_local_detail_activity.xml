@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/series_detail_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_shop_v6_detail_bg">
+
+    <FrameLayout
+        android:id="@+id/video_preview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextureView
+            android:id="@+id/surfaceview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/video_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/theme_shop_v6_theme_no_find_small"/>
+        <ImageView
+            android:id="@+id/video_controll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/common_btn_play_video"
+            android:layout_gravity="center"/>
+        <com.nd.hilauncherdev.framework.view.RotateImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/loadingImageView"
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+        <include layout="@layout/theme_shop_v8_video_paper_detail_bottom_layout" />
+    </FrameLayout>
+
+    <!-- Loading模块 -->
+    <com.nd.hilauncherdev.shop.widget.LoadingStateView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/myphone_bg_color" />
+
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+</FrameLayout>

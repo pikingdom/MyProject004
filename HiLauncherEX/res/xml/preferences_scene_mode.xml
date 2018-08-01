@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.nd.hilauncherdev" >
+
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory 
+        android:title="@string/settings_home_common" >
+
+        <!-- 设置默认桌面 -->
+        <Preference
+            android:key="settings_set_default_launcher"
+            android:layout="@layout/preference_set_default_launcher_layout"
+            android:title="@string/settings_set_default_launcher" />
+        <!-- 情景桌面 -->
+        <Preference
+            android:key="settings_home_scene_desktop"
+            android:layout="@layout/preference_set_scene_launcher_layout"
+            android:title="@string/settings_home_scene_desktop"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 重置当前情景 -->
+        <Preference
+            android:key="settings_home_reset_current_scene"
+            android:layout="@layout/preference_set_scene_reset_layout"
+            android:title="@string/settings_reset_current_scene" />
+        <!-- 返回华为桌面默认模式 -->
+        <Preference
+            android:key="settings_home_back_to_default_scene"
+            android:layout="@layout/preference_icon_and_folder_layout"
+            android:title="@string/settings_back_to_default_scene" />
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+
+</PreferenceScreen>

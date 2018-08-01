@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 桌面行列数设置 -->
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory
+        android:height="50dp"
+        android:key="settings_launcher_layout_settings_screen_setting"
+        android:title="@string/settings_launcher_layout_settings_screen_setting" >
+
+        <!-- 锁定桌面布局 -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="settings_lock_launcher_layout"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_lock_launcher_layout_summary"
+            android:title="@string/settings_lock_launcher_layout"
+            android:widgetLayout="@layout/preferences_checkbox" />
+        <!-- 循环滑动桌面 -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="settings_screen_rolling_cycle"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_screen_rolling_cycle_summary"
+            android:title="@string/settings_screen_rolling_cycle"
+            android:widgetLayout="@layout/preferences_checkbox" />
+        <!-- 壁纸锁定 -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="settings_draw_wallpaper_from_theme"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_screen_wallpaper_by_theme_summary"
+            android:title="@string/settings_screen_wallpaper_by_theme"
+            android:widgetLayout="@layout/preferences_checkbox" />
+        <!-- 选择桌面行列数 -->
+        <Preference
+            android:key="settings_screen_countxy"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_screen_countxy"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+         <!-- 快速搜索屏 -->
+        <Preference
+            android:defaultValue="true"
+            android:key="settings_screen_navigation_view"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_screen_navigation_view_summary"
+            android:title="@string/settings_screen_navigation_view"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+    <!-- 桌面指示灯相关设置 -->
+    <!--com.nd.hilauncherdev.settings.PromptPreferenceCategory
+            android:height="50dp"
+            android:key="settings_indicator_light"
+            android:title="@string/settings_indicator_light"-->
+
+       
+        <!--Preference
+                android:defaultValue="false"
+                android:key="settings_indicator_light_style"
+                android:layout="@layout/preference_normal_layout"
+                android:title="@string/settings_indicator_light_style"
+                android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory-->
+    
+    
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory
+        android:height="50dp"
+        android:key="settings_dockbar_text_show_category"
+        android:title="@string/settings_dockbar_text" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="settings_dockbar_text_show"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_dockbar_text_show_summary"
+            android:title="@string/settings_dockbar_text_show"
+            android:widgetLayout="@layout/preferences_checkbox" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="settings_dockbar_text_show_follow_theme"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_dockbar_text_show_follow_theme_summary"
+            android:title="@string/settings_dockbar_text_show_follow_theme"
+            android:widgetLayout="@layout/preferences_checkbox" />
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory
+        android:height="50dp"
+        android:key="settings_launcher_layout_settings_applist"
+        android:title="@string/settings_launcher_layout_settings_applist" >
+
+        <!-- 循环滑动应用列表 -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="settings_drawer_rolling_cycle"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_drawer_rolling_cycle_summary"
+            android:title="@string/settings_drawer_rolling_cycle"
+            android:widgetLayout="@layout/preferences_checkbox" />
+        <!-- 锁定应用列表选项卡 -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="settings_drawer_tabs_lock"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_drawer_tabs_lock_summary"
+            android:title="@string/settings_drawer_tabs_lock"
+            android:widgetLayout="@layout/preferences_checkbox" />
+        <!-- 背景不随主题更换 -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="settings_drawer_bg_transparent"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_drawer_bg_transparent_summary"
+            android:title="@string/settings_drawer_bg_transparent"
+            android:widgetLayout="@layout/preferences_checkbox" />
+
+        <!-- 选择应用列表行列数 -->
+        <Preference
+            android:key="settings_drawer_countxy"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_drawer_countxy"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+
+        <!-- 应用升级文件夹 -->
+        <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="settings_upgrade_folder"
+                android:layout="@layout/preference_normal_layout"
+                android:summary="@string/settings_drawer_upgrade_folder_summary"
+                android:title="@string/settings_drawer_upgrade_folder"
+                android:widgetLayout="@layout/preferences_checkbox" />
+
+
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+
+</PreferenceScreen>

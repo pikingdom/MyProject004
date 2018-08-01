@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<string name="theme_local_manage_title">我的主题</string>
+	<string name="theme_online">主题商城</string>
+	<string name="theme_default_name">默认</string>
+	<string name="theme_manage_menu_add_theme">添加本地主题(apt格式)</string>
+	<string name="theme_manage_select_theme">选择主题</string>
+	<string name="install_success">主题包安装成功</string>
+	<string name="install_fail">主题包安装失败</string>
+	<string name="unzip_theme">解压主题包</string>
+	<string name="unzip_theme_waiting">解压主题包请稍候...</string>
+	<string name="impor_exist_theme_dialog_title">导入主题</string>
+	<string name="import_exist_theme_dialog">检测到当前系统中存在原有的主题，是否导入？</string>
+	<string name="import_exist_theme_dialog_ing">主题导入中...</string>
+	<string name="import_exist_theme_completed">主题导入完毕</string>
+	<string name="delete_theme">删除主题</string>
+	<string name="delete_theme_series">删除主题系列</string>
+	<string name="delete_theme_msg">确认删除?</string>
+	<string name="delete_theme_name_msg">确认要删除“%1$s”吗？</string>
+	<string name="apply_theme">应用主题</string>
+	<string name="apply_theme_msg">正在应用主题，请不要退出程序</string>
+	<string name="title_delete_theme">删除主题</string>
+	<string name="message_delete_theme_waiting">正在删除主题，请稍候...</string>
+	<string name="message_no_other_theme">只有可怜的一套本地主题，无法更换，赶紧去主题商城逛逛吧</string>
+	<string name="theme_settings">美化设置</string>
+	<string name="edit_view_theme_individuation">个性化主题</string>	
+	<string name="theme_module_wallpaper">桌面壁纸</string>
+	<string name="theme_module_icons">图标</string>
+	<string name="theme_module_weather">时钟天气</string>
+	<string name="theme_module_lockscreen">锁屏</string>
+	<string name="theme_module_sms">91通讯录</string>
+	<string name="theme_module_baidu_input">百度输入法</string>
+	<string name="theme_module_other">其他</string>
+	<string name="theme_local_nodata_desc">还没有下载内容呢，去在线页面看看吧</string>
+	<string name="theme_apply_success">应用成功!</string>
+	<string name="upgrade_theme">主题升级提示</string>
+	<string name="upgrade_theme_msg">《%1$s》可升级，更新内容：\n</string>
+	<string name="btn_theme_upgrade">升级</string>
+	<string name="btn_theme_upgrade_now">马上升级</string>
+	<string name="hint_theme_res_cleaned">出了点小问题喵~个性化资源需要重新下载，可能是因为你更换了sd卡或清理了桌面文件夹</string>
+	<string name="hint_theme_redownload">此主题资源已被删除，是否要重新下载？</string>
+	<string name="message_theme_need_delete">无法找到该主题的下载资源，是否要删除此空主题？付费主题可到个人中心>购买记录中重新下载</string>
+	<string name="hint_theme_batch_redownload">此主题资源已被删除，是否要批量下载当前页面资源？</string>
+	<string name="btn_theme_cleaned_redirect">重新下载</string>
+	<string name="btn_theme_cleaned_cancel">暂时不去</string>
+	<string name="btn_theme_batch_download">批量下载</string>
+	<string name="btn_theme_single_download">下载单个</string>
+	<string name="btn_theme_redownload">下载主题</string>
+	<string name="btn_theme_redownload_cancel">暂不下载</string>
+	<string name="btn_theme_go_rightnow">马上去下载</string>
+	<string name="message_current_theme_cleaned">当前应用的主题被删除啦，所以我们启用了默认的图标插件皮肤，快去下载旧主题吧！</string>
+	
+	<string name="message_fetch_theme_detail">正在获取主题，请稍候...</string>
+	<string name="message_fetch_theme_charge_info">正在查询主题购买状态，请稍候...</string>
+	<string name="toast_theme_hidden">此主题已经下架啦，去推荐页面找找新主题吧！</string>
+	<string name="toast_theme_batch_download_login">当前页面存在收费主题，请先登录</string>
+	<string name="toast_fetch_theme_charge_info_fail">查询主题购买状态失败，请重试</string>
+	<string name="toast_theme_batch_download_need_charge">当前页面有此帐号未购买的主题，请购买后重新下载哦！</string>
+	
+	<!-- 外部调用主题包安装 -->
+	<string name="install_title">桌面主题包安装</string>
+	<string name="install_ticker">桌面主题包安装成功</string>
+	<string name="install_nosupport">文件不存在或格式不支持</string>
+
+	<!-- 换图标界面 -->
+	<string name="icon_repalce_left_title">更换图标</string>
+	<string name="icon_replace_default_icon">(默认图标)</string>
+	<string name="icon_keyword">关键词</string>
+	<string name="icon_keyword_eidt_title">编辑关键词</string>
+	<string name="icon_keyword_add_click_hint">添加关键词</string>
+	<string name="icon_keyword_add_hint">添加新关键词</string>
+	<string name="icon_keyword_empty_hint">请输入新关键词！</string>
+	<string name="icon_keyword_add_success">新关键词添加成功！</string>
+	<string name="icon_keyword_exist_hint">该关键词已被使用，请核对后再添加！</string>
+	<string name="icon_replace_btn_reset_default">恢复默认</string>
+	<string name="icon_repalce_select_theme_icon_title">主题图标</string>
+	<string name="icon_repalce_select_module_icon_title">本地图标</string>
+	<string name="icon_repalce_select_gallery_icon_title">手机图库</string>
+	<string name="icon_repalce_select_icon_list">图标列表</string>
+	<string name="icon_repalce_select_icon_title">选择图标</string>
+	<string name="icon_repalce_more_theme_icon">更多主题图标</string>
+	<string name="icon_repalce_more_module_icon">更多合辑图标</string>
+
+	<string name="coin_will_overdue">有猫爪券将要过期啦</string>
+    <string name="coin_overdue_tip">有猫爪券%1$d月%2$d日就要过期啦，还不来用么！</string>
+    <string name="download_theme">点击进入个性化商城下载主题</string>
+	<string name="theme_recommand_folder_name">主题推荐</string>
+	<!-- 推荐主题 -->
+	<string name="theme_recommend_name">逐梦新春</string>
+	
+	<!-- 主题系列 -->
+	<string name="theme_series_mark_day">第%1$s天</string>
+	<string name="theme_series_apply_success_title">主题应用成功!</string>
+	<string name="theme_series_apply_success_content">从现在开始每天会为您自动更换系列中的主题，感觉不一样的好心情!</string>
+	<string name="theme_series_delete_msg">【%1$s】包含%2$d套主题哦，删除后%2$d套主题均被删除，是否确定删除呢?</string>
+	<string name="btn_series_apply">全套应用</string>
+
+	<!--零屏ICON配置-->
+	<string name="zero_icon_edit_title">跳转地址配置</string>
+	<string name="zero_icon_edit_hint">点此输入包名、包名/类名、网址</string>
+</resources>

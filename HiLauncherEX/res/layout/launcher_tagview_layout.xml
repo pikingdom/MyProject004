@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/po_top_layer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone" >
+
+    <com.nd.hilauncherdev.launcher.po.MainView
+        android:id="@+id/po_content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/po_control_panel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_bar_height"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" >
+        <LinearLayout 
+            android:id="@+id/po_link"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:background="@drawable/launcher_tagview_edit_panel_bg_selector">
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:drawableTop="@drawable/launcher_tagview_link"
+            android:drawablePadding="5dp"
+            android:textColor="@android:color/white"
+            android:text="@string/launcher_tag_link"
+            />
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/po_add_tag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:background="@drawable/launcher_tagview_edit_panel_bg_selector">
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:drawableTop="@drawable/launcher_tagview_add"
+            android:drawablePadding="5dp"
+            android:textColor="@android:color/white"
+            android:text="@string/launcher_tag_add"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/po_content_link"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="@string/launcher_tag_select_link"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/launcher_tagview_linklist_line_title" />
+
+        <ListView
+            android:id="@+id/po_content_link_list"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:divider="@drawable/launcher_tagview_linklist_line_item" />
+    </LinearLayout>
+    
+</FrameLayout>

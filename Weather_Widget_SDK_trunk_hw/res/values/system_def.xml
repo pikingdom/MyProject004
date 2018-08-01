@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="clock_package_name">
+        <item>com.android.deskclock</item>
+        <item>com.lenovo.calendar</item>
+        <item>com.oppo.alarmclock</item>
+        <item>com.lenovo.deskclock</item>
+        <item>com.android.deskclock</item>
+        <item>com.android.alarmclock</item>
+        <item>com.google.android.deskclock</item>
+        <item>com.htc.android.worldclock</item>
+        <item>com.motorola.blur.alarmclock</item>
+        <item>com.sec.android.app.clockpackage</item>
+        <item>zte.com.cn.alarmclock</item>
+        <item>com.lenovomobile.deskclock</item>
+        <item>com.mstarsemi.clock.alarm.deskclock</item>
+        <item>com.sonyericsson.organizer</item>
+        <item>com.android.BBKClock</item>
+        <item >com.yulong.android.xtime</item>
+        <item>com.android.deskclock</item>
+        <item>com.asus.deskclock</item>
+        <item>cn.nubia.deskclock.preset</item>
+        <item>com.zui.deskclock</item>
+    </string-array>
+    
+    <string-array name="clock_class_name">
+        <item>com.android.deskclock.ClockActivity</item>
+        <item>com.lenovo.calendar.SplashActivity</item>
+        <item>com.oppo.alarmclock.AlarmClock</item>
+        <item>com.lenovo.clock.Clock</item>
+        <item>com.android.deskclock.AlarmClock</item>
+        <item>com.android.alarmclock.AlarmClock</item>
+        <item>com.android.deskclock.AlarmClock</item>
+        <item>com.htc.android.worldclock.WorldClockTabControl</item>
+        <item>com.motorola.blur.alarmclock.AlarmClock</item>
+        <item>com.sec.android.app.clockpackage.ClockPackage</item>
+        <item>zte.com.cn.alarmclock.AlarmClock</item>
+        <item>com.lenovomobile.clock.Clock</item>
+        <item>com.mstarsemi.clock.stopwatch.TimeClockActivity</item>
+        <item>com.sonyericsson.organizer.Organizer</item>
+        <item>com.android.BBKClock.Timer</item>
+        <item>yulong.xtime.ui.main.XTimeActivity</item>
+        <item>com.android.deskclock.AlarmsMainActivity</item>
+        <item>com.asus.deskclock.DeskClock</item>
+        <item>cn.nubia.deskclock.DeskClock</item>
+        <item>com.zui.deskclock.DeskClock</item>
+    </string-array>
+    
+    <string-array name="calendar_package_name">
+        <item>com.android.calendar</item>
+        <item>com.lenovo.app.Calendar</item>
+        <item>com.google.android.calendar</item>
+        <item>com.htc.calendar</item>
+        <item>com.htc.calendar</item>
+        <item>com.lenovo.app.Calendar</item>
+        <item>com.bbk.calendar</item>
+        <item>com.yulong.android.calendar</item>
+        <item>com.asus.calendar</item>
+        <item>com.lenovo.android.calendar</item>
+        <item>cn.nubia.calendar.preset</item>
+        <item>com.zui.calendar</item>
+    </string-array>
+    
+    <string-array name="calendar_class_name">
+        <item>com.android.calendar.LaunchActivity</item>
+        <item>com.lenovo.app.Calendar.MonthActivityNew</item>
+        <item>com.android.calendar.LaunchActivity</item>
+        <item>com.htc.calendar.MonthActivity</item>
+        <item>com.htc.calendar.CalendarActivityMain</item>
+        <item>com.lenovo.app.Calendar.MonthActivity</item>
+        <item>com.bbk.calendar.MainActivity</item>
+        <item>com.yulong.android.calendar.ui.base.LaunchActivity</item>
+        <item>com.android.calendar.AllInOneActivity</item>
+        <item>com.lenovo.android.calendar.SplashActivity</item>
+        <item>cn.nubia.calendar.AllInOneActivity</item>
+        <item>com.zui.calendar.MainActivity</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <string-array name="filter_name_array">
+        <item>原始</item>
+    	<item>慕斯</item>
+		<item>苏菲亚</item>				
+		<item>黑森林</item>
+		<item>波尔多</item>
+		<item>马蒂尼</item>
+		<item>穆赫兰道</item>
+		<item>日暮里</item>
+		<item>艾门多克</item>
+		<item>桑原</item>
+		<item>洛菲</item>
+	</string-array>
+    <string-array name="filter_type_array">
+    	<item>0</item>
+		<item>1</item>				
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>				
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array>
+    <string-array name="filter_drawable_array">
+    	<item>in_filter_ori</item>
+		<item>in_filter_contrast</item>				
+		<item>in_filter_speia</item>
+		<item>in_filter_grayscale</item>
+		<item>in_filter_saturation</item>
+		<item>in_filter_monochrome</item>
+		<item>in_filter_vignette</item>
+		<item>in_filter_tonecurve</item>				
+		<item>in_filter_amatorka</item>
+		<item>in_filter_kuwahara</item>
+		<item>in_filter_haze</item>
+	</string-array>
+	<string-array name="report_string">
+		<item>广告</item>
+		<item>欺诈</item>
+		<item>色情</item>
+		<item>辱骂</item>
+		<item>其它</item>
+	</string-array>
+</resources>

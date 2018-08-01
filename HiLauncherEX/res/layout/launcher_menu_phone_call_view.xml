@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- 标题栏 -->
+
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+            android:id="@+id/headerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+        </com.nd.hilauncherdev.framework.view.commonview.HeaderView>
+    </RelativeLayout>
+
+    <!-- 数据 -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headerLayout"
+        android:background="#eeeeed"
+        android:fillViewport="true"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip" >
+
+            <include
+                android:id="@+id/layout_ticket"
+                layout="@layout/phone_call_layout_for_ticket" />
+
+            <LinearLayout
+                android:id="@+id/layout_other"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <!-- 电话号码 -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+
+                    <TextView
+                        android:id="@+id/phone_call_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:gravity="center_vertical"
+                        android:text="@string/personal_assist_call_num"
+                        android:textColor="@color/myphone_common_title_color"
+                        android:textSize="@dimen/myphone_title_bottom_text_size" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dip"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/phone_call_name"
+                        android:background="@drawable/folder_name_input_edit_bg"
+                        android:gravity="center_vertical"
+                        android:padding="0dip" >
+
+                        <ImageView
+                            android:id="@+id/phone_call_choose_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/launcher_menu_phone_choose_num"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/phone_call_clean_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/phone_call_choose_num"
+                            android:src="@drawable/folder_clear_name_pressed"
+                            android:visibility="gone" />
+
+                        <EditText
+                            android:id="@+id/phone_num_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dip"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/phone_call_clean_img"
+                            android:background="@color/transparent"
+                            android:numeric="integer"
+                            android:paddingLeft="5dip"
+                            android:text="@string/personal_assist_call_def_num"
+                            android:textColor="@color/myphone_common_title_color"
+                            android:textSize="@dimen/myphone_title_bottom_text_size" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dip"
+                    android:paddingLeft="10dip"
+                    android:paddingTop="5dip"
+                    android:text="@string/personal_assist_call_style"
+                    android:textColor="@color/common_title_little_text_color"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dip"
+                    android:background="@color/common_title_little_text_color" />
+
+                <!-- 打通为止 -->
+
+                <RelativeLayout
+                    android:id="@+id/phone_call_style_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="55dip"
+                    android:background="@drawable/myphone_click_item_blue"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+
+                    <TextView
+                        android:id="@+id/phone_calling_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/personal_assist_call_tong"
+                        android:textColor="@color/myphone_common_title_color"
+                        android:textSize="@dimen/myphone_title_bottom_text_size" />
+
+                    <CheckBox
+                        android:id="@+id/phone_calling_checkbox"
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/common_checkbox_selector"
+                        android:button="@null"
+                        android:checked="true"
+                        android:clickable="false"
+                        android:focusable="false" />
+
+                    <TextView
+                        android:id="@+id/phone_calling_times_text"
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/personal_assist_call_num_bg"
+                        android:gravity="center_vertical"
+                        android:text="2"
+                        android:textColor="@color/myphone_common_title_color"
+                        android:textSize="@dimen/myphone_title_bottom_text_size"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <!-- 分割线 -->
+
+                <ImageView
+                    android:id="@+id/phone_call_style_view_split"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@drawable/myphone_common_split"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" />
+
+                <!-- 接通后打开免提 -->
+
+                <RelativeLayout
+                    android:id="@+id/phone_call_openhf_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="55dip"
+                    android:background="@drawable/myphone_click_item_blue"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+
+                    <TextView
+                        android:id="@+id/phone_call_openhf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:gravity="center_vertical"
+                        android:text="@string/personal_assist_call_openhf"
+                        android:textColor="@color/myphone_common_title_color"
+                        android:textSize="@dimen/myphone_title_bottom_text_size" />
+
+                    <CheckBox
+                        android:id="@+id/phone_call_openhf_checkbox"
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/common_checkbox_selector"
+                        android:button="@null"
+                        android:checked="true"
+                        android:clickable="false"
+                        android:focusable="false" />
+                </RelativeLayout>
+
+                <!-- 分割线 -->
+
+                <ImageView
+                    android:id="@+id/phone_call_openhf_view_split"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@drawable/myphone_common_split"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" />
+
+                <!-- 拨号抢票按钮 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dip"
+                    android:gravity="center"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+
+                    <Button
+                        android:id="@+id/phone_call_btn"
+                        android:layout_width="200dip"
+                        android:layout_height="40dip"
+                        android:background="@drawable/common_btn_blue_selector"
+                        android:gravity="center"
+                        android:text="@string/personal_assist_call_btn"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/myphone_title_bottom_text_size" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+
+</RelativeLayout>

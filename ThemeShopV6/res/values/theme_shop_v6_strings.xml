@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="theme_shop_v6_app_name">个性化</string>
+    <string name="theme_shop_v6_func_theme">主题</string>
+    <string name="theme_shop_v6_func_recommend">推荐</string>
+    <string name="theme_shop_v6_func_module">混搭</string>
+    <string name="theme_shop_v6_func_search">搜索</string>
+    <string name="theme_shop_v6_func_discovery">视频</string>
+    <string name="theme_shop_v6_func_owner">我的</string>
+    
+    <string name="theme_shop_v6_func_theme_tab_top">精选</string>
+    <string name="theme_shop_v6_func_theme_tab_new">最新</string>    
+    <string name="theme_shop_v6_func_theme_tab_ranking">排行</string>
+    <string name="theme_shop_v6_func_theme_tab_cate">分类</string>
+    <string name="theme_shop_v6_func_theme_tab_local">本地</string>
+    <string name="theme_shop_v6_func_theme_tab_store">收藏</string>
+    
+    <!-- 用于判断DIY主题分类，需修改请联系caizp 2015-12-02 -->
+    <string name="theme_shop_category_diy">主题DIY</string>
+    <string name="theme_shop_title_diy_square">主题广场</string>
+    
+    <string name="theme_shop_v6_func_theme_tab_ranking_popularity">人气</string>
+    <string name="theme_shop_v6_func_theme_tab_ranking_free">免费</string>
+    <string name="theme_shop_v6_func_theme_tab_ranking_sell">热卖</string>
+	<string name="theme_shop_v6_func_theme_tab_ranking_sszk">上升最快</string>
+	<string name="theme_shop_v6_func_theme_tab_ranking_week">每周排行</string>
+    
+    <string name="theme_shop_v6_detail_detail_info">主题详情</string>
+    <string name="theme_shop_v6_common_detail_info">详情</string>
+    <string name="theme_shop_v6_detail_related">猜你喜欢</string>
+    <string name="theme_shop_v6_detail_comment">评论</string>
+    
+    <string name="theme_shop_v6_theme_store_nologin_txt">需要登录后才能查看收藏记录!</string> 
+    <string name="theme_shop_v6_theme_store_nologin_login_txt">去登录>></string>
+    <string name="theme_shop_v6_theme_store_add_succ_txt">收藏成功</string>
+    <string name="theme_shop_v6_theme_store_add_fail_txt">收藏失败，请稍后再试</string>
+    <string name="theme_shop_v6_theme_store_remove_succ_txt">已取消收藏</string>
+    <string name="theme_shop_v6_theme_store_remove_fail_txt">取消收藏失败，请稍后再试</string>
+    
+    <string name="theme_shop_v6_theme_new_theme">最新</string> 
+    
+
+    <string name="theme_shop_v6_theme_module_tab_good_txt">推荐</string>
+    <string name="theme_shop_v6_theme_module_tab_new_txt">最新</string>
+	<string name="theme_shop_v6_theme_module_tab_hot_txt">最热</string>
+    <string name="theme_shop_v6_theme_module_tab_ranking_txt">排行</string> 
+    <string name="theme_shop_v6_theme_module_tab_local_txt">本地</string> 
+    <string name="theme_shop_v6_theme_module_tab_store_txt">收藏</string> 
+    
+    <string name="theme_shop_v6_theme_order_tab_pay_txt">购买记录</string>
+    <string name="theme_shop_v6_theme_order_tab_recharge_txt">充值记录</string>
+    <string name="theme_shop_v6_theme_order_catpad">猫爪</string>  
+    <string name="theme_shop_v6_theme_order_tab_recharge_deal_success">交易成功</string>
+    <string name="theme_shop_v6_theme_order_tab_recharge_deal_fail">交易失败</string>
+    <string name="theme_shop_v6_theme_order_already_buy">已购买</string> 
+    
+	<string name="theme_shop_v6_down_installed">已安装</string>
+	<string name="theme_shop_v6_down_pause_with_progress">暂停(%d%%)</string>
+	<string name="theme_shop_v6_down_wait">等待中</string>
+	<string name="theme_shop_v6_down_canceled">已取消</string>
+	
+	<string name="theme_shop_v6_event_startsoftdown">已加入下载队列</string>
+	<string name="theme_shop_v6_search_hint">大家都在搜：</string>
+	<string name="theme_shop_v6_tagtip_txt">精选合辑</string>
+	<string name="theme_shop_v6_more">更多>></string>
+	<string name="theme_shop_v6_91_popularity">91人气王</string>
+	<string name="theme_shop_v2_tip_back_exit">再按一次退出个性化</string>
+	<string name="theme_default_name">默认</string>
+	<string name="style_default_name">默认风格</string>
+	<string name="style_simple">单层模式</string>
+	<string name="theme_shop_enter_diy_theme">DIY主题</string>
+	<string name="theme_manage_menu_add_theme">添加本地主题(apt格式)</string>
+	<string name="theme_manage_select_theme">选择主题</string>
+	<string name="install_fail">主题包安装失败</string>
+	<string name="unzip_theme">解压主题包</string>
+	<string name="unzip_theme_waiting">解压主题包请稍候...</string>
+	<string name="apply_theme">应用主题</string>
+	<string name="apply_theme_msg">正在应用主题，请不要退出程序</string>
+	<string name="theme_apply_success">应用成功!</string>
+	<string name="title_delete_theme">删除主题</string>
+	<string name="message_delete_theme_waiting">正在删除主题，请稍候...</string>
+	<string name="delete_theme">删除主题</string>
+	<string name="delete_theme_series">删除主题系列</string>
+	<string name="apply_style">应用风格</string>
+	<string name="apply_style_msg">正在应用风格，请不要退出程序</string>
+	<string name="delete_style">删除风格</string>
+	<string name="message_delete_style_waiting">正在删除风格，请稍候...</string>
+	<string name="theme_series_delete_msg">【%1$s】包含%2$d套主题哦，删除后%2$d套主题均被删除，是否确定删除呢?</string>
+	<string name="delete_theme_msg">确认删除?</string>
+	<string name="theme_decoder_not_valiable">主题解析出错，无法应用该主题</string>
+	<string name="theme_not_supported">不支持该主题，请下载最新版本的91桌面</string>
+	
+	<string name="hint_theme_res_cleaned">出了点小问题喵~个性化资源需要重新下载，可能是因为你更换了sd卡或清理了91桌面文件夹</string>
+	<string name="hint_theme_redownload">此主题资源已被删除，是否要重新下载？</string>
+	<string name="message_theme_need_delete">无法找到该主题的下载资源，是否要删除此空主题？付费主题可到个人中心>购买记录中重新下载</string>
+	<string name="hint_theme_batch_redownload">此主题资源已被删除，是否要批量下载当前页面资源？</string>
+	<string name="btn_theme_cleaned_redirect">重新下载</string>
+	<string name="btn_theme_cleaned_cancel">暂时不去</string>
+	<string name="btn_theme_batch_download">批量下载</string>
+	<string name="btn_theme_single_download">下载单个</string>
+	<string name="btn_theme_redownload">下载主题</string>
+	<string name="btn_theme_redownload_cancel">暂不下载</string>
+
+	<string name="message_fetch_theme_detail">正在获取主题，请稍候...</string>
+	<string name="message_fetch_theme_charge_info">正在查询主题购买状态，请稍候...</string>
+	<string name="toast_theme_hidden">此主题已经下架啦，去推荐页面找找新主题吧！</string>
+	<string name="toast_theme_batch_download_login">当前页面存在收费主题，请先登录</string>
+	<string name="toast_fetch_theme_charge_info_fail">查询主题购买状态失败，请重试</string>
+	<string name="toast_theme_batch_download_need_charge">当前页面有此帐号未购买的主题，请购买后重新下载哦！</string>
+	
+	<string name="theme_module_wallpaper">桌面壁纸</string>
+	<string name="theme_module_icons">图标</string>
+	<string name="theme_module_weather">时钟天气</string>
+	<string name="theme_module_lockscreen">锁屏</string>
+	<string name="theme_module_sms">91通讯录</string>
+	<string name="theme_module_baidu_input">百度输入法</string>
+	<string name="theme_module_other">其他</string>
+	
+	<string name="theme_shop_v6_trial_expire_title">试用已到期</string>
+	<string name="theme_shop_v6_trial_use_old_theme">使用原主题</string>
+	<string name="theme_shop_v6_trial_maozhuas_to_pay">真的只要%1$s猫爪</string>
+	<string name="theme_shop_v6_trial_welcome_buy">《%1$s》的试用时间到啦，喜欢就花几猫爪，开开心心买回家~</string>
+	<string name="theme_shop_v6_trial_use_free">免费试用</string>
+	<string name="theme_shop_v6_trial_use_now">立即试用</string>	
+	<string name="theme_shop_v6_trial_statusbar_ing">正在试用《%1$s》</string>
+	<string name="theme_shop_v6_trial_statusbar_detail">点击进入当前主题详情</string>
+	<string name="theme_shop_v6_trial_jumping">正在跳转...</string>
+	
+	<string name="theme_shop_v6_module_soft_down_title">温馨提示</string>
+	<string name="theme_shop_v6_module_soft_down_desc_video_paper">体验更多个性化视频壁纸,您需要先下载安装视频壁纸</string>
+	<string name="theme_shop_v6_module_soft_down_desc_lock">体验更多个性化锁屏样式,您需要先下载安装91锁屏</string>
+	<string name="theme_shop_v6_module_soft_down_desc_sms">体验更多个性化通讯录样式,您需要先下载安装91通讯录</string>
+	<string name="theme_shop_v6_module_soft_down_desc_sms_dialer">体验更多个性化通讯录样式,您需要先下载安装触宝拨号</string>
+	<string name="theme_shop_v6_module_soft_down_desc_input">体验更多个性化输入法样式,您需要先下载安装百度输入法</string>
+	<string name="theme_shop_v6_module_soft_down_desc_input_iflytek">体验更多个性化输入法样式,您需要先下载安装讯飞输入法</string>
+	<string name="theme_shop_v6_gettheme_error">主题获取失败</string>
+	<string name="theme_shop_v6_getmodule_error">获取失败</string>
+	<string name="tip">提示</string>
+	<string name="txt_loading">加载中...</string>
+	<string name="txt_network_problem">网络连接异常，请稍后再试...</string>
+	<string name="theme_platform_logout_success">注销成功</string>
+	<string name="theme_menu_own">我的账号</string>
+	<string name="theme_shop_v6_gettheme_already_buy">该主题已经购买！您可以直接下载！</string>
+	
+
+	<string name="home_apps_share_title">选择发送方式</string>
+	<string name="txt_share_subject">向你推荐91桌面</string>
+	<string name="theme_shop_theme_apply">应用</string>
+	<string name="theme_shop_theme_select">选择</string>
+	<string name="theme_shop_theme_applied">已应用</string>
+	<string name="theme_shop_v2_buy_now">去购买</string>
+	<string name="theme_shop_v6_series_download">一键全套下载</string>
+	<string name="theme_shop_v6_series_buy">一键全套购买</string>
+	    
+
+	<string name="theme_shop_v2_search_category_title">热门形象</string>
+    <string name="theme_shop_v2_search_hot_title">热门搜索</string>
+	<string name="theme_shop_v2_search_edittext_hit">输入关键词</string>
+	<string name="theme_local_nodata_desc">暂时还没有内容噢，先去看看在线资源吧</string>
+		
+	<string name="theme_shop_v2_2g_tip">当前在2/3G网络下，图片加载速度较慢，请耐心等待</string>
+    <string name="frame_viewfacotry_net_refresh_btn">&#160;&#160;刷&#160;&#160;&#160;&#160;新&#160;&#160;</string>    
+    
+	<string name="theme_shop_v2_theme_price">%1$s猫爪</string>
+	<string name="theme_shop_v2_theme_series_discount_rate">%1$s折</string>
+    <string name="theme_shop_v2_daily_date_label">%1$s月%2$s日</string>
+    <string name="theme_shop_v2_daily_theme_today">今日热门</string>
+    <string name="theme_shop_v2_theme_nodata_desc">资源正在备货，先看看排行榜吧</string>
+	<string name="theme_shop_v2_theme_nodata_desc_feedback">资源正在备货，快来告诉我们你想要什么吧！</string>
+    <string name="theme_shop_v2_theme_store_nodata_desc">把感兴趣的内容都收藏进来吧</string>
+    <string name="theme_shop_v2_theme_nodata_orderpay">还没买过东西呢，快去看看在线资源</string>
+    <string name="theme_shop_v2_theme_nodata_recharge">你还没有充值记录~</string>
+ 
+	<string name="theme_shop_v2_theme_detail_comment_edit_hit">亲，喜欢这套%1$s吗？您的意见对其他伙伴有很大帮助哦！</string>
+    <string name="theme_shop_v2_theme_detail_author_text">作者:%1$s</string>
+    <string name="theme_shop_v2_theme_detail_author_title_text">的专区</string>
+ 	<string name="theme_shop_v2_theme_detail_installing_txt">正在安装......</string>
+ 	<string name="theme_shop_v2_theme_detail_comment_publish_txt">发布评论</string>
+	<string name="theme_shop_publish_comment_success_tip">评论发表成功</string>
+	<string name="theme_shop_publish_comment_no_login">您需要登录并使用该主题才能评论哦</string>
+	<string name="theme_shop_publish_comment_no_use">您需要应用过该%1$s才能评论哦</string>
+	<string name="theme_shop_comment_no">还没有评论内容，快来争当第一人吧</string>
+	<string name="txt_share_txt">"今天换了套新主题，妈妈问我为什么跪着玩手机……没错，就是这套，下载#91桌面#就能使用了！{0}#"</string>
+	<string name="text_for_free">免费</string>
+	<string name="theme_downloading_tip">下载中，请稍等...</string>
+	<string name="theme_download_fail_tip">下载失败</string>
+	<string name="theme_shop_theme_content_no">无</string>
+	<string name="theme_size">大小: %1$sMB</string>
+	<string name="tab1_apply_theme">主题应用中...</string>
+	<string name="theme_shop_theme_same_recomment_tip">您可能还会喜欢</string>
+	<string name="theme_more_comment">查看更多评论</string>
+	<string name="theme_shop_comment_detail_tip">请输入评论内容</string>	
+	<string name="theme_shop_theme_describe_tip">主题描述</string>
+	<string name="theme_shop_theme_downloading">下载</string>
+	<string name="theme_shop_theme_verifying">验证中</string>
+	<string name="theme_shop_theme_installing">解压中</string>
+	<string name="theme_shop_comment_rating_tip">点击星星评分</string>
+	<string name="theme_shop_comment_person_num">%1$s人参与</string>
+	<string name="theme_shop_comment_type_theme">主题</string>
+	<string name="theme_shop_comment_type_lock">锁屏</string>
+	<string name="theme_shop_comment_type_icon">图标</string>
+	<string name="theme_shop_comment_type_input">输入法</string>
+	<string name="theme_shop_comment_type_weather">时钟天气</string>
+	<string name="theme_shop_comment_type_sms">通讯录</string>
+	<string name="theme_shop_comment_rating1">太逊了，给1分</string>
+	<string name="theme_shop_comment_rating2">不喜欢，给2分</string>
+	<string name="theme_shop_comment_rating3">还可以，给3分</string>
+	<string name="theme_shop_comment_rating4">很不错，给4分</string>
+	<string name="theme_shop_comment_rating5">超给力，给5分</string>
+		
+	<string name="theme_shop_search_no_keyword">请输入关键字</string>
+	<string name="theme_search_result">搜索: %1$s （%2$s个结果）</string>
+		
+	<string name="theme_shop_v6_platform_login_fail_tip">登录失败，请检查输入的帐号和密码是否正确</string>
+	
+    <string name="theme_shop_v2_maozhua_pay_titile">主题购买</string>
+    <string name="theme_shop_v2_maozhua_pay_help_tele_1">若您充值遇到问题，请联系我们</string>
+    <string name="theme_shop_v2_maozhua_pay_help_tele_2">客服电话:</string>
+    <string name="theme_shop_v2_maozhua_pay_help_tele_num">0591-38129191</string>
+    <string name="theme_shop_v2_maozhua_pay_btn_buy">购买</string>
+    <string name="theme_shop_v2_maozhua_buytip">是否确认购买?</string>
+    <string name="theme_shop_v2_maozhua_buytip1">是否确认兑换?</string>
+
+    <string name="theme_shop_v2_themeapp_view_title">该主题同时支持以下应用换肤</string>
+    <string name="theme_shop_v2_themeapp_moduleskin_view_title">该皮肤资源需要下载以下应用支持</string>
+    <string name="theme_shop_v2_themeapp_plug_view_title">该主题同时支持以下小部件换肤</string>
+    <string name="theme_shop_v2_themeapp_rec_view_title">下载该主题的人还下载了</string>
+    <string name="theme_shop_v2_themeapp_btn_up_title">可升级</string>
+    
+	<string name="theme_shop_v2_themeapp_down_view_title">91主题提醒</string>
+    <string name="theme_shop_v2_themeapp_down_view_alert_desc">该主题同时支持以下应用换肤，下载应用后，能够体验更完美的主题换肤效果</string>
+	<string name="theme_shop_v6_mgr_no_notify">不再提醒</string>
+	
+	<string name="theme_shop_v6_themeapp_all_down">全部下载</string>
+	<string name="theme_shop_v6_exchange_theme">换一批</string>
+		
+	<string name="theme_shop_v6_module_tabtitle_theme">主题</string>
+	<string name="theme_shop_v6_module_tabtitle_lockscreen">锁屏</string>
+	<string name="theme_shop_v6_module_tabtitle_sms">通讯录</string>
+	<string name="theme_shop_v6_module_tabtitle_icons">图标</string>
+	<string name="theme_shop_v6_module_tabtitle_sort_hot">人气</string>
+	<string name="theme_shop_v6_module_tabtitle_sort_time">时间</string>
+	
+	<string name="theme_shop_v6_module_tabtitle_wwather">时钟天气</string>
+	<string name="theme_shop_v6_module_tabtitle_baiduinput">输入法</string>
+	
+	<string name="theme_shop_v6_theme_install_fail">安装失败</string>
+	<string name="theme_shop_v6_theme_orderpaylist_redown">确定重新下载</string>
+	
+	<string name="theme_shop_v6_theme_func_module_viewpager_tips_lock">体验更多锁屏皮肤，请先安装91锁屏</string>
+	<string name="theme_shop_v6_theme_func_module_viewpager_tips_old_lock">91智能锁新版本已发布，戳我马上升级噢~</string>
+	<string name="theme_shop_v6_theme_func_module_viewpager_tips_sms">体验更多通讯录皮肤，请先安装91通讯录</string>
+	<string name="theme_shop_v6_theme_func_module_viewpager_tips_input">百度输入法-91桌面定制版或讯飞输入法可支持更换以下皮肤,点击查看详情</string>
+	<string name="theme_shop_v8_video_paper_viewpager_tips">体验更多视频壁纸，请先安装视频壁纸</string>
+	<string name="theme_shop_v6_theme_func_module_viewpager_video_paper">视频壁纸</string>
+	<string name="theme_shop_v6_theme_func_module_viewpager_lock">91锁屏</string>
+	<string name="theme_shop_v6_theme_func_module_viewpager_sms">91通讯录</string>
+	<string name="theme_shop_v6_theme_func_module_viewpager_input_baidu">百度输入法</string>
+	<string name="theme_shop_v6_theme_func_module_viewpager_input_ifly">讯飞输入法</string>
+	<string name="theme_shop_v6_theme_func_module_viewpager_input_cootek_dialer">触宝拨号</string>
+	
+	<string name="theme_shop_v6_theme_pophit_modulemain">铃声、壁纸、字体都在这里哦</string>
+	<string name="theme_shop_v2_theme_request_code">服务请求失败(code:%1$s)</string>
+	
+	
+	
+	<string name="theme_shop_v2_module_detail_lockscreen_title">该锁屏皮肤相关主题</string>
+	<string name="theme_shop_v2_module_detail_wallpaper_title">该壁纸皮肤相关主题</string>
+	<string name="theme_shop_v2_module_detail_icon_title">该图标皮肤相关主题</string>
+	<string name="theme_shop_v2_module_detail_weather_title">该天气皮肤相关主题</string>
+	<string name="theme_shop_v2_module_detail_sms_title">该通讯录皮肤相关主题</string>
+	<string name="theme_shop_v2_module_detail_input_title">该输入法皮肤相关主题</string>
+	
+	
+	<!-- 个人中心 -->
+	<string name="personal_center">个人中心</string>
+	<string name="personal_center_welcome">您好，游客</string>
+	<string name="personal_center_welcome1">登录享受更多特权</string>
+	<string name="personal_center_login">登录</string>
+	<string name="personal_center_not_login">请先登录</string>
+	<string name="personal_center_re_login">会话超时，请重新登录</string>
+	<string name="personal_center_event_recharge">充值</string>
+	<string name="personal_center_assist">我的助理</string>
+	<string name="personal_lucky_title">幸运转盘</string>
+	<string name="personal_lucky_read_user_info">正在加载用户数据，请稍后再试</string>
+	<string name="personal_center_download_mgr">我的下载</string>
+	<string name="personal_center_my_theme">我的主题</string>
+	<string name="personal_center_my_video">我的视频</string>
+	<string name="personal_compaign">活动中心</string>
+	<string name="personal_center_my_account">我的账号</string>
+	<string name="personal_message_center">消息中心</string>
+	<string name="personal_my_suggest">我的建议</string>
+	<string name="personal_my_integral">我的积分</string>
+	<string name="personal_my_redpacket">我的红包</string>
+	<string name="personal_center_login_tip">登录后显示个人信息</string>
+	<string name="personal_center_member_validity">当前等级有效期剩余%s天</string>
+	<string name="personal_center_now_integral">当前积分</string>
+	<string name="personal_center_redpackage_and_maozhua">红包/猫爪券</string>
+	<string name="personal_center_member_expiration_time">到期时间:</string>
+	<string name="personal_center_member_privilege">会员特权</string>
+	<string name="personal_center_member_privilege_updata">升级新会员立享特权</string>
+	<string name="personal_center_member_infinite_theme">无限主题</string>
+	<string name="personal_center_member_infinite_theme_tips">每月1000张主题券，收费主题全免费</string>
+	<string name="personal_center_member_status">身份标识</string>
+	<string name="personal_center_member_status_tips">尊贵会员标识，彰显身份</string>
+	<string name="personal_center_member_grow">成长加速</string>
+	<string name="personal_center_member_grow_tips">成长值1.3倍加速</string>
+	<string name="personal_center_member_grow_tips1">会员专享，个人等级加速成长</string>
+	<string name="personal_center_member_buy_member">续费会员</string>
+	<string name="personal_center_member_buy_member1">马上开通会员</string>
+	<string name="personal_center_member_buy_member2">升级会员</string>
+
+	<string name="personal_setting_maozhua_recharge_record">充值记录</string>
+
+	<string name="pseronal_assist_v6_my_works">我的作品</string>
+	<string name="pseronal_assist_v6_my_theme_style">我的风格</string>
+	<string name="pseronal_assist_v6_my_collect">我的收藏</string>
+	<string name="pseronal_assist_v6_consumption_record">消费记录</string>
+	<string name="pseronal_assist_v6_integral_shop">积分商城</string>
+	<string name="pseronal_assist_v6_other_tools">其他工具</string>
+	<string name="pseronal_assist_v6_other_tools_tips">意见反馈/实用小工具</string>
+	<string name="pseronal_assist_v6_other_tools_feedback">意见反馈</string>
+	<string name="pseronal_assist_v6_other_tools_my_assistant">实用小工具</string>
+	<string name="pseronal_assist_v6_other_tools_message">消息中心</string>
+	<string name="pseronal_assist_v6_jifenqiang">下载有奖</string>
+	<string name="pseronal_assist_v6_launcher_theme_design_competition">我的作品</string>
+	<string name="pseronal_assist_v6_launcher_everyday_task">每日任务</string>
+	<string name="pseronal_assist_v6_launcher_theme_design_competition_more">更多>></string>
+	<string name="pseronal_assist_v6_launcher_theme_design_competition_tips">创造自我的个性主题，还有机会赢大奖哦!</string>
+	<string name="pseronal_assist_v6_launcher_theme_everyday_task_tips">参与每日任务，赚取海量积分，尊享会员特权!</string>
+	<string name="pseronal_assist_v6_launcher_theme_everyday_task_content">点我做任务赚积分</string>
+	<string name="pseronal_assist_v6_launcher_youbao">一元有宝</string>
+	<string name="pseronal_assist_v6_launcher_youbao_content">点我一起来夺宝</string>
+	<string name="pseronal_assist_v6_launcher_youbao_tips">91桌面唯一合作的夺宝平台，公平公正！</string>
+	
+	<string name="theme_shop_personal_center_security">账号安全</string>
+	<string name="personal_setting_maozhua">猫爪</string>
+	<string name="personal_setting_modify">修改资料</string>
+	<string name="personal_setting_recharge">我要充值</string>
+	<string name="personal_setting_upgrade">会员升级</string>
+	<string name="personal_setting_recharge_record">充值记录</string>
+	<string name="personal_setting_purchase_record">购买记录</string>
+	<string name="personal_setting_maozhua_coupon">我的猫爪券</string>
+	<string name="personal_setting_modify_psw">修改密码</string>
+	<string name="personal_setting_bind_phone">绑定手机</string>
+	<string name="personal_security_bind_thirdpart">绑定第三方账号</string>
+	<string name="personal_setting_bind_baidu">绑定百度账号</string>
+	<string name="personal_setting_hasbind_phone">已绑定，点击更换</string>
+	<string name="personal_setting_hasbind_baidu">已绑定</string>
+
+	
+	<string name="theme_shop_personal_info_center">个人信息</string>
+	
+	<string name="personal_setting_info_head">头像</string>
+	<string name="personal_setting_info_name">姓名</string>
+	<string name="personal_setting_info_nickname">昵称</string>
+	<string name="personal_setting_info_sex">性别</string>
+	<string name="personal_setting_info_birthday">生日</string>
+	<string name="personal_setting_info_address">居住地</string>
+	<string name="personal_setting_info_current_img">选择本地图片</string>
+	<string name="personal_setting_info_img_load_fail">图片加载失败</string>
+	<string name="personal_setting_info_take_photo">拍照</string>
+	<string name="personal_setting_info_cancel">取消</string>
+	<string name="personal_setting_info_ok">确定</string>
+	<string name="personal_setting_info_maozhua_front">现有</string>
+	<string name="personal_setting_info_maozhua_back">猫爪</string>
+	
+	<string name="personal_setting_info_boy">男</string>
+	<string name="personal_setting_info_girl">女</string>
+	
+	<string name="personal_setting_recharge_success">支付成功:</string>
+	<string name="personal_setting_recharge_cancel">取消支付</string>
+	<string name="personal_setting_recharge_failed">支付失败</string>
+	<string name="personal_setting_recharge_invalid">支付无效</string>
+	<string name="personal_setting_recharge_unknow">订单已经提交，支付结果未知</string>
+	<string name="state_no_space_error">未找到SD卡</string>
+	<string name="personal_center_exist">退出登录</string>
+	<string name="personal_center_update">正在更新数据</string>
+	<string name="personal_center_update_ok">更新完成</string>
+	<string name="personal_center_update_failed">更新失败</string>
+	<string name="personal_setting_toask_login_past">登录超时，请重新登录！</string>
+	<string name="personal_center_login_success">登录成功</string>
+	<string name="personal_center_login_failed">登录失败</string>
+	<string name="personal_center_login_cancel">登录取消</string>
+	<string name="theme_shop_v2_maozhua_pay_price_title">价格:</string>
+	<string name="theme_shop_v2_maozhua_pay_need_title">若需直接购买,您还需要充值:</string>
+	<string name="theme_shop_v2_maozhua_pay_open_member_tips1">开通会员可免费下载该主题</string>
+	<string name="theme_shop_v2_maozhua_pay_open_member_tips2">,可</string>
+	<string name="theme_shop_v2_maozhua_pay_open_member_tips3">节省%s</string>
+	<string name="theme_shop_v2_maozhua_pay_open_member_tips4">可使用一张主题券</string>
+	<string name="theme_shop_v2_maozhua_pay_open_member_tips5">免费兑换</string>
+	<string name="theme_shop_v2_maozhua_pay_open_member_tips6">该主题,</string>
+	<string name="theme_shop_v2_maozhua_pay_open_member">开通会员</string>
+	<string name="theme_shop_v2_maozhua_pay_exchange">立即兑换</string>
+	<string name="theme_shop_v2_maozhua_pay_get_theme_coupon">主题券不足,获取积分</string>
+	<string name="theme_shop_v2_maozhua_pay_get_theme_coupon_tips">啊哦，主人，主题券不够哇~先去赚点儿积分吧！</string>
+	<string name="theme_shop_v2_maozhua_pay_get_theme_coupon_tips_ok">赚积分</string>
+	
+	
+	<string name="coin_will_overdue">有猫爪券将要过期啦</string>
+    <string name="coin_overdue_tip">有猫爪券%1$d月%2$d日就要过期啦，还不来用么！</string>
+    <string name="download_theme">点击进入个性化商城下载主题</string>
+	
+	<string name="theme_shop_v6_themedetail_banner_title1">下应用赢猫爪</string>
+	<string name="theme_shop_v6_themedetail_banner_title2">最牛的赚猫爪方法</string>
+	<string name="theme_shop_v6_themedetail_desc_more">展示全文</string>
+	<string name="theme_shop_v6_themedetail_relate_apps_more">展示更多</string>
+	<string name="theme_shop_v6_themedetail_desc_collect">收起</string>
+	<string name="theme_shop_v6_themedetail_relate_author_theme_title">该作者的其他主题</string>
+	<string name="theme_shop_v6_themedetail_relate_theme_title">使用该主题的人还喜欢</string>
+	<string name="theme_shop_v6_themedetail_recomment_apps_title">喜欢该主题的用户最爱用</string>
+	<string name="theme_shop_v6_themedetail_comment_number_txt">人参与</string>
+	<string name="exit_positive_tip">好吧，告诉你</string>
+	<string name="exit_negative_tip">无情拒绝</string>
+	<string name="exit_toast_tip">已经收到了反馈，一定会努力改进的╰(￣ω￣ｏ)请期待哦！</string>
+	<string name="exit_send_message">发送</string>
+	<string name="exit_cancel">取消</string>
+	
+	<!-- 天天主题 系统 -->
+	<string name="theme_series_tips_title">天天主题系列</string>
+	<string name="theme_series_tips_des">精选一系列个性主题（具体套数见实际效果图），应用后可实现每天自动更换，给你带来不一样的好心情</string>
+	<string name="theme_series_detail_title">天天AI主题</string>
+	<string name="theme_series_mark_day">第%1$s天</string>
+	<string name="btn_series_apply">全套应用</string>
+	<string name="download_theme_serial_title">下载天天主题</string>
+    <string name="download_theme_serial_confirm_tip">现在没有WIFI哦，下载天天AI主题需要较多流量，仍要继续下载吗？</string>
+    <string name="theme_series_detail_diy_banner_title">找不到合适的天天主题？不妨自己来做>></string>
+    
+    <string name="sem_channel_wallpaper_themeshop_tip">高清壁纸就在这里！</string>
+    <string name="sem_channel_ring_themeshop_tip">酷炫铃声就在这里！</string>
+    <string name="sem_channel_lock_themeshop_tip">百变锁屏就在这里！</string>
+    
+    <string name="soft_update">版本更新</string>
+	<string name="soft_update_checking">正在检查更新...</string>
+	
+	<string name="recommend_bdsjzs">百度手机助手</string>
+
+	<string name="local_theme_batch_del_apktheme_warning">Apk类型主题需要到主题详情删除</string>
+	<string name="local_theme_batch_del_default_toast">默认主题，无法删除！</string>
+	<string name="local_theme_batch_del_using_toast">当前主题正在应用，无法删除！</string>
+	
+	<string name="recommend_male_theme_name">男生主题</string>
+	<string name="recommend_female_theme_name">女生主题</string>
+	<string name="recommend_new_year_theme_name">鸡年大吉</string>
+	
+	<string name="share_content_from_theme_a">妈妈问我为什么跪着玩手机，因为今天我下了套新主题……</string>
+	<string name="share_content_from_theme_b">丑的人还在沉睡，美的人已经换好主题了﹁_﹁</string>
+
+	<string name="share_content_from_diytheme_a">能靠长相吃饭，却偏偏要靠才华，真是被自己优秀得一塌糊涂啊(｡・`ω´･)</string>
+	<string name="share_content_from_diytheme_b">你们城里人真会玩，原来手机主题可以这样设计！</string>
+	<string name="category_popup_first_all" >全部</string>
+
+	<string name="pseronal_assist_v6_my_feed">我的美图</string>
+	
+	<string name="theme_campaign_desc_title">活动说明：</string>
+	<string name="theme_campaign_title">主题活动</string>
+	<string name="theme_campaign_title_prefix">[活动]</string>
+	<string name="theme_shop_v6_themedetail_campaign_theme_title">其它活动主题推荐</string>
+	<string name="theme_campaign_download_theme_first">亲，需要下载该款主题才能领取礼包~</string>
+	<string name="theme_campaign_hint">很遗憾，活动已结束~</string>
+	
+	<string name="no_last_to_apply">没有可以恢复的主题了</string>
+	
+	<string name="theme_shop_v8_func_local_tab_theme">主题</string>
+    <string name="theme_shop_v8_func_local_tab_wallpaper">壁纸</string>    
+    <string name="theme_shop_v8_func_local_tab_lock">锁屏</string>
+    <string name="theme_shop_v8_func_local_tab_icons">图标</string>
+    
+    <string name="search_history">搜索历史</string>
+    <string name="search_clear_history">清除搜索历史</string>
+    <string name="search_similar_keyword">相关:</string>
+    
+    <string name="discovery_entrance_theme">主题</string>
+    <string name="discovery_entrance_feed">美图</string>
+    <string name="discovery_entrance_comic">漫画</string>
+    <string name="discovery_entrance_subscribe">订阅</string>
+    <string name="discovery_entrance_paster">贴纸</string>
+    <string name="discovery_title_feed">美图达人</string>
+    <string name="discovery_title_comic">天天漫画</string>
+    <string name="discovery_title_diy_theme">DIY主题精选</string>
+    <string name="discovery_title_subscribe">我的订阅</string>
+    
+    <string name="recommend_entrance_icons">图标</string>
+    <string name="recommend_entrance_lock">锁屏</string>
+    <string name="recommend_entrance_wallpaper">壁纸</string>
+    <string name="recommend_entrance_font">字体</string>
+    
+    <string name="user_label_hint">没你喜欢的？设置个性标签推荐更精准</string>
+	
+	<string name="youbao_progress">进度</string>
+	<string name="youbao_num">期号：</string>
+	<string name="youbao_surplus">" / 剩余"</string>
+	<string name="youbao_add2list">立即夺宝</string>
+	<string name="youbao_soon_open">即将揭晓</string>
+	<string name="youbao_has_open">已揭晓</string>
+	<string name="youbao_view_detail">查看详情</string>
+
+	<!-- 用户等级 -->
+	<string name="user_level_growth_value_tips1">成长值%1$s，距%2$s还差%3$s</string>
+	<string name="user_level_growth_value_tips2">当前成长值%1$s</string>
+	<string name="user_level_award_title">升级奖励</string>
+	<string name="user_level_no_award_hint1">Sorry，当前没有奖励可领取</string>
+	<string name="user_level_no_award_hint2">下一等级奖励LV%1$s</string>
+	<string name="user_level_award_hint">下载主题/锁屏/壁纸等个性化资源可加快等级成长</string>
+	<string name="user_level_award_get">已获得</string>
+	<string name="user_level_award_vip_hint1">会员体验卡（%1$s个月）</string>
+	<string name="user_level_award_vip_hint2">会员体验卡已自动开通</string>
+	<string name="user_level_award_vip_hint3">如已是会员，会员时间会自动延长</string>
+	<string name="user_level_award_coupon_hint1">%1$s主题券</string>
+	<string name="user_level_award_coupon_hint2">主题券有效期至%1$s</string>
+	<string name="user_level_award_coupon_hint3">购买收费主题可直接付咯</string>
+	<string name="user_level_award_coupon_ponit1">%1$s积分</string>
+	<string name="user_level_award_coupon_ponit2">积分可在积分商城兑换礼品</string>
+	<string name="user_level_award_hint1">已达到LV%1$s</string>
+	<string name="user_level_award_hint2">每个等级奖励不可重复领取</string>
+	<string name="user_level_award_hint3">点击宝箱领取奖励吧</string>
+	<string name="user_level_download_theme_hint">下主题去咯</string>
+	<string name="user_level_get_next_level_award">继续领取下一等级奖励</string>
+	<string name="user_level_get_award_fail">领取等级奖励失败</string>
+	<string name="user_level_use_ponit_hint">兑换积分</string>
+	<string name="user_level_upgrade_alert_btn">领取升级奖励</string>
+	<string name="user_level_upgrade_alert_text">我的等级升到LV%1$s咯！</string>
+	
+	<string name="user_tag_count_none">请至少选择1个标签</string>
+	<string name="user_tag_count_exceed">最多只能选择%1$d个标签</string>
+	<string name="user_tag_saving">设置中...</string>
+	<string name="user_tag_save_success">标签保存成功</string>
+	<string name="user_tag_save_fail">标签保存失败，请稍候重试</string>
+	<string name="user_tag_setting_hint">后续也可在【猜你喜欢】-【更多】中修改标签</string>
+	
+	<string name="title_become_member">成为会员</string>
+	<string name="download_right_now">马上下载</string>
+	<string name="view_right_now">立即查看</string>
+
+	<string name="theme_shop_v8_style">风格</string>
+	<string name="theme_shop_v8_style_choose">选择你的风格</string>
+	<string name="theme_shop_v8_style_desc">风格描述</string>
+	<string name="theme_shop_v8_style_detail">风格详情</string>
+	<string name="theme_shop_v8_style_top_tips">根据不同的风格特点，显示不一样的桌面布局及主题元素，为你带来更美好的桌面体验~</string>
+	<string name="theme_shop_v8_style_detail_recomment">其他推荐风格</string>
+	<string name="theme_shop_v8_style_detail_tips">根据不同的风格特点，应用后会改变你的桌面布局及图标摆放哦~</string>
+	<string name="theme_shop_v8_style_footnote">(%1$s风格素材来自于网络)</string>
+	<string name="theme_shop_v8_style_nodata_tips">马上下载风格，发现新世界</string>
+	<string name="theme_shop_v8_style_apply_positive">确定应用</string>
+	<string name="theme_shop_v8_style_apply_negative">我再想想</string>
+	<string name="theme_shop_v8_style_apply_title">应用新风格</string>
+	<string name="theme_shop_v8_style_more">更多风格</string>
+	<string name="theme_shop_v8_style_manual">风格说明</string>
+
+	<string name="theme_shop_v8_video_paper_title">视频壁纸</string>
+	<string name="theme_shop_v8_video_paper_app_name">微视频壁纸</string>
+	<string name="theme_shop_v8_video_paper_size">大小：%s</string>
+	<string name="theme_shop_v8_video_paper_volumn">声音：%s</string>
+	<string name="theme_shop_v8_video_paper_audio">有</string>
+	<string name="theme_shop_v8_video_paper_no_audio">无</string>
+	<string name="theme_shop_v8_getvideopaper_error">视频壁纸获取失败</string>
+	<string name="theme_shop_v8_video_paper_relate_title">其他视频壁纸</string>
+	<string name="theme_shop_v8_video_paper_app_download_hint">想将视频设为壁纸，您需要先下载安装微视频壁纸APP(&lt;2M)哦~</string>
+	<string name="download_app_msg">确认下载?</string>
+	<string name="theme_shop_v6_themedetail_relate_video_paper_title">相关视频壁纸</string>
+	<string name="download_video_paper_no_wifi_tip">当前处于非wifi环境，确定使用移动数据下载高清视频吗？\n视频大小：%s</string>
+	<string name="theme_shop_v8_video_paper_nodata_desc">你还未下载视频壁纸，先看看“最新”吧</string>
+	<string name="title_delete_video_paper">删除视频壁纸</string>
+	<string name="message_delete_video_paper">正在删除视频壁纸，请稍候...</string>
+
+	<!--视频推荐-->
+	<string name="theme_shop_v8_video_paper_app_download_have_install">你已经安装了视频壁纸APP，请直接在视频页应用，无需下载~</string>
+	<string name="theme_shop_v8_video_paper_apply">设为壁纸</string>
+	<string name="theme_shop_v8_video_paper_download">下载高清</string>
+	<string name="theme_shop_v8_video_paper_download_app">下载微视频壁纸APP</string>
+	<string name="theme_shop_v8_video_paper_ask_download">当前处于非wifi环境，确定使用移动数据播放高清视频吗？</string>
+	<string name="theme_shop_v8_video_paper_video_size">%.2fM</string>
+	<string name="theme_shop_v8_video_paper_video_size1">%.2fMB</string>
+	<string name="theme_shop_v8_video_paper_video_loading">正在加载数据</string>
+	<string name="theme_shop_v8_video_paper_video_open">打开微视频壁纸</string>
+	<string name="theme_shop_v8_video_paper_voice_on">声音:有</string>
+	<string name="theme_shop_v8_video_paper_voice_off">声音:无</string>
+	<string name="video_app_recommend_desc">想体验其他有趣的视频壁纸吗？\n快来下载微视频壁纸APP(&lt;2M)，更多精彩\n等你发现</string>
+	
+
+	
+	
+</resources>

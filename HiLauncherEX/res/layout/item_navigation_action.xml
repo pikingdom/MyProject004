@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/et_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/container_op"
+        android:background="@drawable/in_font_input_bg"
+        android:hint="未填写（必填）"
+        android:padding="4dp"
+        android:textColor="#181818"
+        android:textSize="14sp" />
+
+    <FrameLayout
+        android:id="@+id/container_op"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/btn_op_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:padding="5dip"
+            android:src="@drawable/upgrade_dialog_btn_close" />
+
+        <TextView
+            android:id="@+id/btn_op_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/finish_text"
+            android:textColor="#26BCD0"
+            android:visibility="gone" />
+    </FrameLayout>
+
+
+</RelativeLayout>

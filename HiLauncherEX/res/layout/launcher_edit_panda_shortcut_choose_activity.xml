@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/container_layout"
+	android:layout_width="300dip"	
+	android:layout_height="455dip">
+	
+	<RelativeLayout android:id="@+id/top_layout"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/dialog_top_layout_height"
+		android:layout_alignParentTop="true"
+		android:orientation="horizontal"
+		android:gravity="center_vertical"
+		android:background="@drawable/app_choose_top_background">
+		
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_alignParentLeft="true"
+			android:paddingTop="2dip"
+			android:paddingLeft="10dip"
+			android:gravity="center" 
+			android:textSize="16sp" 
+			android:textColor="@color/dialog_title_color"
+			android:text="@string/main_dock_title_select_panda_shortcut" />
+			
+		<TextView android:id="@+id/app_choose_limit"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_alignParentRight="true"
+			android:paddingTop="2dip"
+			android:paddingRight="10dip"
+			android:gravity="center" 
+			android:textSize="16sp" 
+			android:textColor="@color/dialog_title_color" />
+			
+	</RelativeLayout>
+	
+	<com.nd.hilauncherdev.framework.choosedialog.AppChooseReleatlayout android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/top_layout"
+		android:background="@drawable/app_choose_bottom_background">
+	
+		<LinearLayout android:id="@+id/bottom_layout"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/dialog_bottom_layout_height" 
+			android:layout_alignParentBottom="true"
+			android:orientation="horizontal"
+			android:gravity="center">
+			
+			<Button	android:id="@+id/confirm_btn"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"				
+				android:layout_weight="1"
+				android:text="@string/common_button_confirm"
+				android:textColor="@color/app_choose_btn_color"
+				android:background="@drawable/app_choose_btn"
+	            android:paddingTop="3dip"
+	            android:gravity="center" />
+	            
+	        <ImageView android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:background="@drawable/app_choose_vertical_line" />
+	            
+			<Button	android:id="@+id/cancel_btn"				
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:textColor="@color/app_choose_btn_color"
+				android:text="@string/common_button_cancel"
+				android:background="@drawable/app_choose_btn"
+				android:paddingTop="3dip"		
+	            android:gravity="center" />
+	            				
+		</LinearLayout>
+	        
+	    <com.nd.hilauncherdev.framework.view.commonsliding.CommonLightbar
+			android:id="@+id/lightbar"
+			android:layout_width="match_parent" 
+			android:layout_height="8dip"
+			android:layout_below="@id/top_layout"
+			android:layout_marginTop="10dip"
+			android:layout_marginBottom="5dip"
+			android:gravity="center" />
+			
+		<com.nd.hilauncherdev.launcher.addboot.PandaShortcutChooseSlidingView
+			android:id="@+id/sliding_view"
+			android:layout_width="match_parent" 
+			android:layout_height="match_parent"
+			android:layout_above="@id/bottom_layout"
+			android:layout_below="@id/lightbar" />
+		
+	</com.nd.hilauncherdev.framework.choosedialog.AppChooseReleatlayout>
+		
+</RelativeLayout>

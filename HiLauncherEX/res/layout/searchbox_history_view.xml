@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hotword_info_item_btn_normal">
+     <!-- 历史记录条 -->
+   	<LinearLayout
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="57dp"
+   	    android:orientation="horizontal" 
+   	    android:gravity="center_vertical">
+   	    <ImageView
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="wrap_content"
+   	        android:layout_gravity="center_vertical"
+   	        android:paddingLeft="15dp"
+   	        android:src="@drawable/launcher_navigation_top_history" />
+
+   	    <TextView
+   	        android:layout_width="match_parent"
+   	        android:layout_height="wrap_content"
+   	        android:singleLine="true"
+   	        android:text="@string/navigation_history"
+   	        android:textColor="#7a7a7a"
+   	        android:layout_marginLeft="10dp"
+   	        android:textSize="18sp" />
+   	</LinearLayout>
+	<ImageView
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_gravity="center_vertical"
+	     android:background="@drawable/myphone_common_split" />
+    <ListView android:id="@+id/historyListView" 
+	    android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:cacheColorHint="#00000000"
+		android:listSelector="@drawable/myphone_click_item_blue"
+	    android:divider="@drawable/navigation_search_item_history_line" 
+	    android:dividerHeight="0dip"
+	 />
+	
+    <TextView
+        android:id="@+id/btnClearAll"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/navigation_search_text_color"
+        android:text="@string/searchbox_clear_history"
+        />  
+</LinearLayout>

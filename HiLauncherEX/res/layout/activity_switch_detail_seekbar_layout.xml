@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/seekbar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 铃声音量 -->
+
+    <RelativeLayout
+        android:id="@+id/switcher_ring_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iv_ring_vol_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/activity_switch_detail_ring_vol_min" />
+
+        <ImageView
+            android:id="@+id/iv_ring_vol_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/activity_switch_detail_ring_vol_max" />
+
+        <SeekBar
+            android:id="@+id/volume_ring_seekbar"
+            style="@style/SwitchSeekBar"
+            android:layout_toLeftOf="@id/iv_ring_vol_max"
+            android:layout_toRightOf="@id/iv_ring_vol_min" />
+    </RelativeLayout>
+
+    <!-- 媒体音量 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp" >
+
+        <ImageView
+            android:id="@+id/iv_media_vol_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/activity_switch_detail_media_vol_min" />
+
+        <ImageView
+            android:id="@+id/iv_media_vol_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/activity_switch_detail_media_vol_max" />
+
+        <SeekBar
+            android:id="@+id/volume_media_seekbar"
+            style="@style/SwitchSeekBar"
+            android:layout_toLeftOf="@id/iv_media_vol_max"
+            android:layout_toRightOf="@id/iv_media_vol_min" />
+    </RelativeLayout>
+
+    <!-- 警告音量 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp" >
+
+        <ImageView
+            android:id="@+id/iv_warn_vol_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/activity_switch_detail_warn_vol_min" />
+
+        <ImageView
+            android:id="@+id/iv_warn_vol_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/activity_switch_detail_warn_vol_max" />
+
+        <SeekBar
+            android:id="@+id/volume_alarm_seekbar"
+            style="@style/SwitchSeekBar"
+            android:layout_toLeftOf="@id/iv_warn_vol_max"
+            android:layout_toRightOf="@id/iv_warn_vol_min" />
+    </RelativeLayout>
+
+</LinearLayout>

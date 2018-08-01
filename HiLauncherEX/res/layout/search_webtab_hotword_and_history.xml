@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 热词列表展示界面 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hotword_box_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/hotword_box_and_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- 热词 -->
+        <LinearLayout
+            android:id="@+id/hotword_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8.5dp"
+            android:layout_marginRight="8.5dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/history_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/miui_cell_bg">
+            <!-- 历史记录条 -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:singleLine="true"
+                    android:text="@string/navigation_history"
+                    android:textColor="#73ffffff"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <ImageView 
+		        android:layout_width="match_parent"
+		        android:layout_height="0.5dp"
+		        android:layout_marginLeft="14dp"
+		        android:layout_marginRight="14dp"
+		        android:background="#14ffffff"/>
+            <!-- 历史记录 -->
+            <ListView
+                android:id="@+id/historyListView"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_weight="1"
+                android:cacheColorHint="#00000000"
+                android:divider="#00000000"
+                android:dividerHeight="0dip"
+                android:listSelector="@drawable/myphone_click_item_blue"/>
+        </LinearLayout>
+
+        <!-- banner广告-->
+        <FrameLayout
+            android:id="@+id/banner_ad_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/banner_ad_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:scaleType="fitXY"/>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

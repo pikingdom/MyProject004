@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dip"
+    android:background="@drawable/theme_shop_v6_main_fun_band" >
+
+    <RelativeLayout
+        android:id="@+id/downloadBnLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/collectBn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:src="@drawable/theme_shop_v6_detail_collect_selector" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dip"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/shareBn"
+            android:layout_toRightOf="@+id/collectBn"
+            android:gravity="center" >
+
+            <RelativeLayout
+                android:id="@+id/downprocess_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <RelativeLayout
+                    android:id="@+id/theme_shop_item_price_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/theme_shop_item_price_old"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/theme_shop_item_price_new"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/theme_shop_item_price_old"
+                        android:gravity="center"
+                        android:textColor="@color/theme_shop_v6_price_new"
+                        android:textSize="14sp" >
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/theme_shop_item_price_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/theme_shop_item_price_old"
+                        android:layout_alignLeft="@+id/theme_shop_item_price_old"
+                        android:layout_alignRight="@+id/theme_shop_item_price_old"
+                        android:layout_alignTop="@+id/theme_shop_item_price_old"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/theme_shop_item_detail_img"
+                        android:visibility="gone" />
+                </RelativeLayout>
+                <!-- 会员特权描述文字 -->
+
+                <TextView
+                    android:id="@+id/theme_shop_item_member_tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/theme_shop_item_price_layout"
+                    android:gravity="center"
+                    android:text="@string/theme_shop_item_member_tips"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_upgrade"
+                android:layout_width="fill_parent"
+                android:layout_height="37dip"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/common_btn_blue_selector"
+                android:gravity="center"
+                android:text="@string/btn_theme_upgrade"
+                android:textColor="@color/theme_btn_title"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_trial"
+                android:layout_width="fill_parent"
+                android:layout_height="37dip"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/theme_shop_v6_theme_trial_btn_selector"
+                android:gravity="center"
+                android:text="@string/theme_shop_v6_trial_use_free"
+                android:textColor="#ffffffff"
+                android:textSize="14sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/shareBn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:src="@drawable/theme_shop_v6_detail_btn_share_selector" >
+        </ImageView>
+    </RelativeLayout>
+
+    <!-- 下载进度 -->
+
+    <RelativeLayout
+        android:id="@+id/downloadProgressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="54dip"
+        android:layout_marginRight="54dip"
+        android:visibility="gone" >
+
+        <com.nd.hilauncherdev.shop.shop3.customview.ThemePercentBarView
+            android:id="@+id/downloading_progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="37dip"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/progressSize"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="0%"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

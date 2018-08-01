@@ -1,0 +1,16 @@
+com.calendar.CommData.BaseCityInfo.class
+com.calendar.CommData.CityInfo.class
+com.calendar.CommData.CityStruct.class
+com.calendar.CommData.CityWeatherInfo.class
+com.calendar.CommData.CityWeatherJson.class
+com.calendar.CommData.DateInfo.class
+com.calendar.CommData.DayWeatherInfo.class
+com.calendar.CommData.ICommData.class
+com.calendar.CommData.LunarInfo.class
+com.calendar.CommData.PMIndex.class
+com.calendar.CommData.RealTimeWeatherInfo.class
+com.calendar.CommData.SendSuggestInfo.class
+com.calendar.CommData.SuggestInfo.class
+com.calendar.CommData.SunInfo.class
+com.calendar.CommData.WarningInfo.class
+com.calendar.CommData.YjcInfo.class

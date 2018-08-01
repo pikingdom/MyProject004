@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+
+<resources>
+	<!-- 新手引导顶部文字 -->
+	<dimen name="readme_tv_height">60dip</dimen>
+	<!-- 新手引导文字与图标padding -->
+
+    <!-- 我的手机  统一提示View MarginTop -->
+	<dimen name="myphone_info_view_margin_top">30dip</dimen>
+	
+	<!-- 底部编辑视图高度 -->
+	<dimen name="launcher_edit_view_height">115dip</dimen>
+	<!-- 底部编辑视图顶部Tab栏高度 -->
+	<dimen name="launcher_edit_view_top_layout_height">38dip</dimen>
+	<!-- 正在运行内存条字体大小 -->
+	<dimen name="myphone_info_view_image_size">100dip</dimen>
+	
+	<!-- 热词下载详细信息 弹出窗参数 -->
+
+	<dimen name="theme_shop_v6_recomment_new_img_width">92dip</dimen>
+	<dimen name="theme_shop_v6_recomment_new_img_height">153dip</dimen>
+
+	<!-- 个人中心文字大小-->
+	<dimen name="personal_center_desc_text_size">14dip</dimen>
+</resources>

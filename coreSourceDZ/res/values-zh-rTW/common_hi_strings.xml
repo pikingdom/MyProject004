@@ -1,0 +1,144 @@
+﻿<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <item type="id" name="common_view_holder"></item>
+    <item type="id" name="drager_controller_on_drag_exit_in_action_move"></item>
+    
+	<string name="common_button_yes">是</string>
+	<string name="common_button_no">否</string>
+	
+    <!-- 通用按钮 -->
+    <string name="common_button_confirm">確定</string><!-- 14 -->
+    <string name="common_button_cancel">取消</string><!-- 14 -->
+    <string name="common_button_apply">套用</string><!-- 14 -->
+    <string name="common_button_return">返回</string><!-- 14 -->
+    <string name="common_button_preview">預覽</string><!-- 14 -->
+    <string name="common_button_download_more">下載更多</string><!-- 14 -->
+    <string name="common_button_download_skin">下載主題</string><!-- 14 -->
+    <string name="common_button_download">下載</string><!-- 14 -->
+    <string name="common_button_downloading">正在下載</string><!-- 14 -->
+    <string name="common_button_save">儲存</string><!-- 14 -->
+    <string name="common_button_discard">丟棄</string><!-- 14 -->
+    <string name="common_button_back_to_home">首頁</string><!-- 14 -->
+    <string name="common_button_default">預設</string><!-- 14 -->
+    <string name="common_button_share">分享</string><!-- 14 -->
+    <string name="common_button_search">搜尋</string><!-- 14 -->
+    <string name="common_button_view_detail">詳細資料</string><!-- 14 -->
+    <string name="common_button_commit">提交</string><!-- 14 -->
+    <string name="common_button_add">新增</string><!-- 14 -->
+    <string name="common_button_addto">增加</string><!-- 14 -->
+    <string name="common_button_edit">編輯</string><!-- 14 -->
+    <string name="common_button_delete">刪除</string><!-- 14 -->
+    <string name="common_button_modify">修改</string><!-- 14 -->
+    <string name="common_button_set">設定</string><!-- 14 -->
+    <string name="common_button_update">更新</string><!-- 14 -->
+    <string name="common_button_uninstall">解除安裝</string><!-- 14 -->
+    <string name="common_button_install">安裝</string><!-- 14 -->
+    <string name="common_button_redownload">重新下載</string><!-- 14 -->
+    <string name="common_button_refresh">重新整理</string><!-- 14 -->
+    <string name="common_button_manager">管理器</string><!-- 14 -->
+    <string name="common_button_enabled">啟用</string><!-- 14 -->
+    <string name="common_button_closed">停用</string><!-- 14 -->
+    <string name="common_button_close">關閉</string><!-- 14 -->
+    <string name="common_checkbox_not_alert">不要再顯示此訊息</string><!-- 14 -->
+    <string name="common_button_i_know">確定</string><!-- 14 -->
+    <string name="common_button_continue">繼續</string><!-- 14 -->
+    <string name="common_button_recover">復原</string><!-- 14 -->
+    <string name="common_button_complate">完成</string><!-- 14 -->
+    <string name="common_button_editable">編輯</string><!-- 14 -->
+    <string name="common_button_clear">清理</string><!-- 14 -->
+    <string name="common_tip">提示</string><!-- 14 -->
+    <string name="common_alert">注意</string><!-- 14 -->
+    <string name="common_download_success">下載成功</string><!-- 14 -->
+    <string name="common_download_ended">已下載</string><!-- 14 -->
+    <string name="common_download_failed">下載失敗</string><!-- 14 -->
+    <string name="common_uninstalled">尚未安裝</string><!-- 14 -->
+    <string name="common_downloading">正在下載...</string><!-- 14 -->
+    <string name="common_loading">正在載入...</string><!-- 14 -->
+    <string name="common_install_now">立刻安裝</string><!-- 14 -->
+    <string name="common_download_now">立刻下載</string><!-- 14 -->
+    <string name="common_refresh">重新整理</string><!-- 14 -->
+    <string name="common_installed">已安裝</string><!-- 14 -->
+    <string name="common_refresh_failed">重新整理失敗</string><!-- 14 -->
+	<string name="common_button_enter">啟動</string><!-- 14 -->
+	<string name="common_button_open_now">立刻啟用</string><!-- 14 -->
+	<string name="common_button_use_now">立刻使用</string><!-- 14 -->
+	<string name="common_button_restart_now">立刻重新啟動</string><!-- 14 -->
+	<string name="common_button_open">開啟</string><!-- 14 -->
+	<string name="common_button_use">啟用</string><!-- 14 -->
+	<string name="common_button_used">已啟用</string><!-- 14 -->
+	<string name="common_button_ignore">忽略</string><!-- 14 -->
+	
+	
+	<string name="main_dock_notification_disable_hint">通知工具列已關閉。請先開啟通知工具列。</string>
+	
+	<string name="out_of_space" msgid="8365249326091984698">畫面空間不足</string>
+	<string name="shortcut_installed" msgid="7071557296331322355">
+		<xliff:g id="NAME">%s</xliff:g> 捷徑已建立。
+	</string>
+	<string name="shortcut_uninstalled" msgid="2129499669449749995">
+		<xliff:g id="NAME">%s</xliff:g> 捷徑已刪除。
+	</string>
+	<string name="shortcut_duplicate" msgid="4757756326465060694">
+		<xliff:g id="NAME">%s</xliff:g> 捷徑已經存在。
+	</string>
+	<string name="activity_not_found" msgid="3571057450431950427">手機上未安裝任何應用程式。</string>
+	<string name="shortcut_toolong">無效的字元。無法新增捷徑。</string>
+	
+	<string name="spring_add_app_from_drawer_reset">無法移動到這個位置</string>
+	<string name="message_preview_delete_screen">刪除這個畫面及其所有內容？</string>
+	<string name="message_preview_delete_screen_not_allow">螢幕上已有應用程式清單圖示。無法刪除。</string>
+	<string name="settings_about_no_market_title">手機上未安裝 App Store。</string>
+	<string name="dockbar_null_intent">異常資料</string>
+	
+	<string name="folder_drag_out_error">這個畫面空間不足。請增加另一個畫面。</string>
+	
+	<!-- root提示 -->
+	<string name="myphone_root_fail_title">取得 ROOT 權限失敗</string><!-- 14 -->
+	<string name="myphone_root_fail_desc">主畫面無法取得 ROOT 權限。請在 SuperUser KingUser 等管理程式中允許 ROOT 權限。</string>
+	
+	<string name="frame_viewfacotry_err_info_text">發生錯誤！</string><!-- 14 -->
+    <string name="frame_viewfacotry_data_load_text">正在努力載入</string>
+    <string name="frame_viewfacotry_search_null">找不到相關的內容。請試著搜尋其他項目。</string>
+    <string name="frame_viewfacotry_download_null">這裡什麼都沒有。現在就加入一些內容吧！</string>
+    <string name="frame_viewfacotry_net_slowly_text">下載失敗。網路連線發生問題。</string>
+    <string name="frame_viewfacotry_net_break_text">下載失敗。未開啟網路連線。</string>
+    <string name="frame_viewfacotry_net_break_btn">開啟設定</string><!-- 14 -->
+    <string name="frame_viewfacotry_show_netsetting_err">開啟網路設定失敗</string><!-- 14 -->
+    <string name="frame_viewfacotry_net_slowly_reflesh_btn">重新整理</string><!-- 14 -->
+    <string name="frame_viewfactory_dialog_title">主畫面提示</string><!-- 14 -->
+    <string name="frame_viewfactory_err_title">發生錯誤！</string><!-- 14 -->
+    <string name="frame_viewfactory_err_content_text">很抱歉，發生錯誤！我們需要你的意見反應，以幫助我們儘快修正問題。請放心，我們只會收集錯誤資訊，不會收集你的任何個人資訊。</string>
+    <string name="frame_viewfactory_tell_us">告訴我們</string><!-- 14 -->
+    <string name="frame_viewfactory_cancle">取消</string><!-- 14 -->
+    <string name="frame_viewfactory_send_failed">你的手機沒有關聯的 Gmail 帳戶，無法傳送訊息。</string>
+    <string name="frame_viewfactory_del_error_widget_1">主畫面發生問題，可能會影響正常使用。造成任何不便，謹此致歉。你可以選擇重設，將設定初始化以修正這個問題。立刻恢復原始設定？</string>
+    <string name="frame_viewfactory_del_error_widget_2">重設後，主畫面上的小工具將被刪除，以確保你能夠正常使用主畫面。確定要重設？</string>
+    <string name="frame_viewfactory_restore">重設</string><!-- 14 -->
+    <string name="frame_viewfactory_err_content_text_widget">%1$s 小工具發生一點小問題。我們會將它從主畫面移除並重新啟動。如果你仍然需要使用這個小工具，可以在 [應用程式清單] -> [小工具] 中找到它。</string>
+    <string name="frame_viewfactory_err_content_downgrade">你的手機不支援將應用程式降級。請重設主畫面以修正問題。</string>
+    <string name="frame_viewfactory_upgrade_now">立刻更新</string><!-- 14 -->
+    <string name="frame_viewfactory_next_time">下次再詢問我</string><!-- 14 -->
+    <string name="frame_viewfactory_err_content_upgrade">糟糕！主畫面發生了一點小問題！從聰明的程式開發人員處得知，更新到最新版本可以修正這個問題。來吧，試試看！</string>
+    
+    <string name="uninstallapp_no_this_appinfo">找不到有關這個應用程式的資訊。解除安裝失敗。</string><!-- 14 -->
+    <string name="gadget_error_text" msgid="8359351016167075858">載入小工具時發生問題</string>
+    
+    <!-- 屏幕预览 -->
+    <string name="message_preview_cannot_delete_screen">無法刪除僅存的畫面</string>
+    <string name="message_preview_set_default_screen">設定為預設畫面</string>
+    <string name="message_preview_out_of_screen">這個畫面空間不足。請增加另一個畫面。</string>
+    <string name="message_preview_fail_drag_to_screen">無法移動圖示</string>
+    
+    <string name="edit_lock_toast_lock">編輯功能已被鎖定</string>
+    
+    <!-- Dock栏图标名称 -->
+    <string name="dockbar_dock_dial">撥號</string>
+	<string name="dockbar_dock_contacts">聯絡人</string>
+	<string name="dockbar_dock_browser">瀏覽器</string>
+	<string name="dockbar_dock_sms">訊息</string>
+	<string name="dockbar_allow">無法拖曳到快捷列</string>
+	
+	<string name="hint_sdcard_available">已載入 SD 卡，現在將重新整理主畫面圖示。</string>
+
+	<!-- ##################################以上部分2015/5/12已提供################################## -->
+	
+</resources>

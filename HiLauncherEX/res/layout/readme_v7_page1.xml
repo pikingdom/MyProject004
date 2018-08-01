@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 新手引导第一页 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/readme_activity_bg"
+    android:orientation="vertical">
+    <!-- 左上角蓝色圆 -->
+    <ImageView android:id="@+id/readme_circle_1"
+        android:layout_width="22dip" android:layout_height="22dip" 
+        android:src="@drawable/readme_round_blue"
+        android:layout_gravity="top|left"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="20dip" />
+    <!-- 右上角黄色圆 -->
+    <ImageView android:id="@+id/readme_circle_2"
+        android:layout_width="135dip" android:layout_height="135dip" 
+        android:src="@drawable/readme_round_yellow"
+        android:layout_gravity="top|right"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:layout_marginRight="-80dip"
+        android:layout_marginTop="-60dip" />
+    
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <!-- LOGO图片 -->
+	    <ImageView android:id="@+id/readme_logo"
+	        android:layout_width="wrap_content" android:layout_height="wrap_content" 
+	        android:src="@drawable/readme_logo"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:scaleType="center"
+	        android:visibility="invisible"
+	        android:background="@drawable/round_progress_bg"
+	        android:layout_marginBottom="27dip" />
+	    <!-- LOGO左边红色圆 -->
+	    <ImageView android:id="@+id/readme_circle_8"
+	        android:layout_width="10dip" android:layout_height="10dip" 
+	        android:src="@drawable/readme_round_red"
+	        android:scaleType="fitCenter"
+	        android:visibility="invisible"
+	        android:layout_alignParentBottom="true"
+	        android:layout_toLeftOf="@id/readme_logo"
+	        android:layout_marginBottom="60dip"
+	        android:layout_marginRight="25dip" />
+	    <!-- 屏幕指示器 -->
+	    <LinearLayout android:id="@+id/readme_1_indicate"
+	        android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_above="@id/readme_logo" android:orientation="horizontal"
+	        android:layout_centerHorizontal="true" android:layout_marginBottom="20dip"
+	        android:visibility="invisible" >
+	        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	            android:scaleType="fitCenter" android:src="@drawable/readme_v7_indicate_1_selected"
+	            android:layout_marginRight="5dip" />
+	        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	            android:scaleType="fitCenter" android:src="@drawable/readme_v7_indicate_2_normal"
+	            android:layout_marginLeft="5dip" android:layout_marginRight="5dip" />
+	        <ImageView android:id="@+id/readme_1_indicate3"  
+	            android:layout_width="wrap_content" android:layout_height="wrap_content"
+	            android:scaleType="fitCenter" android:src="@drawable/readme_v7_indicate_3_normal"
+	            android:layout_marginLeft="5dip" />
+	    </LinearLayout>
+	    <RelativeLayout android:id="@+id/readme_slogan_layout"
+	        android:layout_width="match_parent" android:layout_height="65dip"
+	        android:layout_above="@id/readme_1_indicate" android:layout_marginBottom="15dip"
+	        android:layout_centerHorizontal="true" >
+	        <!-- 标语Slogan -->
+	        <ImageView android:id="@+id/readme_slogan" android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" android:scaleType="fitCenter"
+	            android:src="@drawable/readme_v7_slogan" android:visibility="invisible"
+	            android:layout_centerHorizontal="true" />
+	        <!-- 标语Slogan左上角黑色圆 -->
+	        <ImageView android:id="@+id/readme_circle_5"
+		        android:layout_width="8dip" android:layout_height="8dip" 
+		        android:src="@drawable/readme_round_black"
+		        android:scaleType="fitCenter"
+		        android:visibility="invisible"
+		        android:layout_alignParentTop="true"
+		        android:layout_toLeftOf="@id/readme_slogan"
+		        android:layout_marginRight="15dip"
+		        android:layout_marginTop="10dip" />
+	        <!-- 英文标语Slogan -->
+	        <ImageView android:id="@+id/readme_slogan_en" android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" android:scaleType="fitCenter"
+	            android:layout_below="@id/readme_slogan" android:layout_centerHorizontal="true"
+	            android:src="@drawable/readme_v7_slogan_en" android:layout_marginTop="3dip"
+	            android:visibility="invisible" />
+	        <!-- 标语Slogan右下角蓝色圆 -->
+	        <ImageView android:id="@+id/readme_circle_6"
+		        android:layout_width="6dip" android:layout_height="6dip" 
+		        android:src="@drawable/readme_round_blue"
+		        android:scaleType="fitCenter"
+		        android:visibility="invisible"
+		        android:layout_toRightOf="@id/readme_slogan_en"
+		        android:layout_alignParentBottom="true"
+		        android:layout_marginLeft="15dip"
+		        android:layout_marginBottom="10dip" />
+	    </RelativeLayout>
+	    
+        <!-- 7.0标志 -->
+        <com.nd.hilauncherdev.readme.ImageView7 android:id="@+id/readme_v7_figure" 
+            android:layout_width="wrap_content" android:layout_height="wrap_content" 
+            android:layout_above="@id/readme_slogan_layout" 
+            android:layout_centerInParent="true" android:visibility="invisible"
+            android:layout_marginBottom="20dip" />
+        <!-- 7.0标志左上角黑色圆 -->
+        <ImageView android:id="@+id/readme_circle_3"
+	        android:layout_width="7dip" android:layout_height="7dip" 
+	        android:src="@drawable/readme_round_black"
+	        android:scaleType="fitCenter"
+	        android:visibility="invisible"
+	        android:layout_toRightOf="@id/readme_v7_figure"
+	        android:layout_alignTop="@id/readme_v7_figure"
+	        android:layout_marginTop="-20dip"
+	        android:layout_marginLeft="5dip" />
+        <!-- 7.0标志右下角蓝色圆 -->
+        <ImageView android:id="@+id/readme_circle_4"
+	        android:layout_width="10dip" android:layout_height="10dip" 
+	        android:src="@drawable/readme_round_blue"
+	        android:scaleType="fitCenter"
+	        android:visibility="invisible"
+	        android:layout_toRightOf="@id/readme_v7_figure"
+	        android:layout_alignBottom="@id/readme_v7_figure"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginBottom="25dip" />
+    </RelativeLayout>
+    
+    <!-- 左下角黄色圆 -->
+    <ImageView android:id="@+id/readme_circle_7"
+        android:layout_width="73dip" android:layout_height="73dip" 
+        android:src="@drawable/readme_round_yellow"
+        android:layout_gravity="bottom|left"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:layout_marginLeft="-50dip"
+        android:layout_marginBottom="50dip" />
+    <!-- 右下角红色圆 -->
+    <ImageView android:id="@+id/readme_circle_9"
+        android:layout_width="27dip" android:layout_height="27dip" 
+        android:src="@drawable/readme_round_red"
+        android:layout_gravity="bottom|right"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:layout_marginRight="20dip"
+        android:layout_marginBottom="20dip" />
+</FrameLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/white">
+
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!-- 预览图和指示灯 -->
+
+    <ScrollView
+        android:layout_above="@+id/widget_info_type_btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head_view"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp" >
+
+                <Gallery
+                    android:id="@+id/widget_info_viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:spacing="30dp" >
+                </Gallery>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget_info_pointzone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <!-- 按钮控制集合 -->
+
+    <LinearLayout
+        android:id="@+id/widget_info_type_btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentBottom="true">
+
+        <!-- 下载 -->
+
+        <RelativeLayout
+            android:id="@+id/widget_info_type_undownload"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/widget_info_download"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/common_btn_blue_selector"
+                android:text="@string/widget_info_down_download"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <!-- 安装 -->
+
+        <RelativeLayout
+            android:id="@+id/widget_info_type_uninstall"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/widget_info_install"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/folder_full_btn_confirm_selector"
+                android:text="@string/widget_info_down_install"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <!-- 升级和放到桌面 -->
+
+        <RelativeLayout
+            android:id="@+id/widget_info_type_installed"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/widget_info_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/common_btn_blue_selector"
+                android:text="@string/widget_info_down_apply_widget"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/widget_info_update"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/widget_info_delete"
+                android:background="@drawable/common_btn_blue_selector"
+                android:text="@string/widget_info_down_update"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <!-- 进度条 -->
+
+        <RelativeLayout
+            android:id="@+id/widget_info_type_downloading"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/widget_info_pause_ll"
+                android:gravity="center_vertical" >
+
+                <com.nd.hilauncherdev.widget.shop.view.WidgetInfoPercentView
+                    android:id="@+id/installed_widget_update_progress"
+                    style="@style/widget_info_progressbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget_info_pause_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/widget_info_stop_ll"
+                android:gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/widget_info_pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/widget_info_download_pause" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget_info_stop_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/widget_info_stop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/widget_info_download_stop" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- ******************************** 加载中页面 ******************************** -->
+
+    <RelativeLayout
+        android:id="@+id/widget_info_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head_view"
+        android:background="@drawable/theme_shop_v6_list_pre_image_bg_2" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/scene_common_loading"
+            android:visibility="visible" />
+    </RelativeLayout>
+    <!-- ******************************** 加载中页面 ******************************** -->
+
+</RelativeLayout>

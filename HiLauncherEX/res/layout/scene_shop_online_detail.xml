@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.scene.shop.SceneContentLayer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include 
+	    android:id="@+id/scene_content_layout_loading"
+	    layout="@layout/scene_common_loading"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:visibility="visible"/>
+	
+    <FrameLayout 
+        android:id="@+id/scene_shop_online_detail_layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+	    <com.nd.hilauncherdev.scene.shop.NetworkFailureView
+	        android:id="@+id/scene_shop_online_detail_layout_err"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:visibility="invisible" />
+	    <com.nd.hilauncherdev.scene.shop.ResultEmptyView
+	        android:id="@+id/scene_shop_online_detail_layout_not_found"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:visibility="invisible"/>
+		<include 
+			android:id="@+id/scene_shop_online_detail_gridview"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			layout="@layout/scene_common_grid"
+			android:visibility="invisible" />
+	</FrameLayout>
+</com.nd.hilauncherdev.scene.shop.SceneContentLayer>

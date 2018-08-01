@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.widget.cleaner.CleanerForThirdLauncher
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:background="@drawable/cleaner_widget_bg"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    <RelativeLayout android:id="@+id/left_containter"
+                    android:layout_height="fill_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:padding="0dp"
+                    android:gravity="center">
+
+
+        <ImageView android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/clean_widget_third_bg"
+                   android:layout_centerInParent="true"
+                   android:scaleType="center"
+                />
+        <ImageView
+                android:id="@+id/circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/clean_widget_third_content"
+                android:layout_centerInParent="true"
+                />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/clean_widget_third_percent_bg"
+                android:paddingLeft="-5dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="0dp"
+                android:layout_alignParentLeft="true"
+                android:scaleType="fitStart"
+                />
+        <TextView
+                android:id="@+id/percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/clean_widget_third_text_sub"
+                android:textSize="25sp"
+                android:text="50"
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@id/percent"
+                android:textColor="@color/clean_widget_third_text_sub"
+                android:textSize="12sp"
+                android:text="%"
+                android:layout_alignBaseline="@id/percent"
+                />
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:layout_marginRight="10dp"
+            >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/clean_widget_third_text_main"
+                android:textSize="15sp"
+                android:text="桌面为你释放了"
+                />
+        <RelativeLayout android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+            <TextView
+                    android:id="@+id/release_memory_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/clean_widget_third_text_sub"
+                    android:textSize="36sp"
+                    android:text="0"
+                    />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/clean_widget_third_text_sub"
+                    android:textSize="12sp"
+                    android:text="M"
+                    android:layout_toRightOf="@id/release_memory_num"
+                    android:layout_alignBaseline="@id/release_memory_num"
+                    />
+        </RelativeLayout>
+
+        <Button android:id="@+id/clean_advance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mycleaner_memory_depth_clean"
+                android:textSize="15sp"
+                android:background="@drawable/clean_widget_btn_selector"
+                android:textColor="@color/clean_widget_third_text_main"
+                android:paddingLeft="28dp"/>
+
+    </LinearLayout>
+
+</com.nd.hilauncherdev.widget.cleaner.CleanerForThirdLauncher>

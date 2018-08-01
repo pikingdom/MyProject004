@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.shop.shop6.v8recommend.ThemeShopV8VideoPaperView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recommend_bg_card"
+    android:paddingBottom="10dip"
+    android:orientation="vertical" >
+
+    <!-- 标题栏 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="@dimen/v8_gap1_10dp" >
+
+        <ImageView
+            android:id="@+id/tagtip_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_video_paper" />
+
+        <TextView
+            android:id="@+id/view_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="11dip"
+            android:layout_toRightOf="@+id/tagtip_img"
+            android:singleLine="true"
+            android:text="@string/shop_theme_v8_video_wallpaper"
+            android:textColor="#fb4146"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/volumn_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="11dip"
+            android:layout_toRightOf="@+id/view_title"
+            android:scaleType="fitCenter"
+            android:src="@drawable/common_btn_sound_off" />
+
+        <TextView
+            android:id="@+id/tv_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:singleLine="false"
+            android:text="@string/theme_shop_v6_more"
+            android:textColor="#181818"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/v7_gap1_15dp"
+        android:layout_marginLeft="@dimen/v7_gap1_15dp"
+        android:layout_marginRight="@dimen/v7_gap1_15dp"
+        android:layout_marginTop="@dimen/v8_gap3_5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/img_bg_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextureView
+                    android:id="@+id/surfaceview_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/img_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+                <com.nd.hilauncherdev.framework.view.RotateImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/loading_view_1"
+                    android:visibility="gone"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/video_item_title_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/v8_gap3_5dp"
+                android:layout_marginTop="@dimen/v7_gap3_8dp"
+                android:ellipsize="end"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:text="@string/theme_default_name"
+                android:textColor="@color/theme_shop_v6_list_item_title"
+                android:textSize="@dimen/theme_shop_v6_list_item_title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+            android:layout_marginRight="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/img_bg_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextureView
+                    android:id="@+id/surfaceview_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone" />
+                <ImageView
+                    android:id="@+id/img_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+                <com.nd.hilauncherdev.framework.view.RotateImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/loading_view_2"
+                    android:visibility="gone"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/video_item_title_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/v7_gap3_8dp"
+                android:layout_marginTop="@dimen/v7_gap3_8dp"
+                android:ellipsize="end"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="@color/theme_shop_v6_list_item_title"
+                android:textSize="@dimen/theme_shop_v6_list_item_title" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/video_wallpaper_row_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/v7_gap1_15dp"
+        android:layout_marginLeft="@dimen/v7_gap1_15dp"
+        android:layout_marginRight="@dimen/v7_gap1_15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/img_bg_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextureView
+                    android:id="@+id/surfaceview_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/img_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+                <com.nd.hilauncherdev.framework.view.RotateImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/loading_view_3"
+                    android:visibility="gone"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/video_item_title_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/v7_gap3_8dp"
+                android:layout_marginTop="@dimen/v7_gap3_8dp"
+                android:ellipsize="end"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="@color/theme_shop_v6_list_item_title"
+                android:textSize="@dimen/theme_shop_v6_list_item_title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+            android:layout_marginRight="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/img_bg_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextureView
+                    android:id="@+id/surfaceview_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:id="@+id/img_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+                <com.nd.hilauncherdev.framework.view.RotateImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/loading_view_4"
+                    android:visibility="gone"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/video_item_title_4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/v7_gap3_8dp"
+                android:layout_marginTop="@dimen/v7_gap3_8dp"
+                android:ellipsize="end"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="@color/theme_shop_v6_list_item_title"
+                android:textSize="@dimen/theme_shop_v6_list_item_title" />
+        </LinearLayout>
+    </LinearLayout>
+</com.nd.hilauncherdev.shop.shop6.v8recommend.ThemeShopV8VideoPaperView>

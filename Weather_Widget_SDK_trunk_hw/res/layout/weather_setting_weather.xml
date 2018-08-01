@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 天气设置 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setting_page"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 标题栏 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:background="@drawable/weather_shape_titlebk"
+        android:layout_height="@dimen/toolbarsize" >
+
+        <ImageView
+            android:id="@+id/setting_weather_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_centerVertical="true"
+            android:src="@drawable/common_back" />
+
+        <TextView
+            android:id="@+id/setToolTextid"
+            style="@style/titleText_w"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dip"
+            android:text="自动更新天气" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="7.5dp" >
+
+        <LinearLayout style="@style/setting_item_multiple_ll" >
+
+            <LinearLayout
+                android:id="@+id/setting_weather_update_ll"
+                style="@style/setting_item_sub_ll" >
+
+                <TextView
+                    style="@style/setting_item_title_textview"
+                    android:text="自动更新天气" />
+
+                <TextView
+                    android:id="@+id/setting_weather_update_state"
+                    style="@style/setting_item_state_textview"
+                    android:text="自动" />
+
+                <CheckBox
+                    android:id="@+id/setting_weather_update_check"
+                    android:layout_width="24dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="6dp"
+                    android:button="@drawable/weather_checkbox_selector"
+                    android:checked="true" />
+            </LinearLayout>
+
+            <View style="@style/setting_item_divider" android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/setting_weather_time_ll"
+                android:visibility="gone"
+                style="@style/setting_item_sub_ll" >
+
+                <TextView
+                    style="@style/setting_item_title_textview"
+                    android:text="起止时间" />
+
+                <TextView
+                    android:id="@+id/setting_weather_time_state"
+                    style="@style/setting_item_state_textview" />
+
+                <ImageView style="@style/setting_item_open_image" />
+            </LinearLayout>
+
+            <View style="@style/setting_item_divider" android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/setting_weather_4interval_ll"
+                android:visibility="gone"
+                style="@style/setting_item_sub_ll" >
+
+                <TextView
+                    style="@style/setting_item_title_textview"
+                    android:text="更新间隔--四天天气" />
+
+                <TextView
+                    android:id="@+id/setting_weather_4interval_state"
+                    style="@style/setting_item_state_textview" />
+
+                <ImageView style="@style/setting_item_open_image" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

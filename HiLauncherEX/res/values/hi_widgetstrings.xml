@@ -1,0 +1,239 @@
+<resources>
+	<!-- 用户反馈 -->
+	<string name="user_feedback_title">用户反馈</string>
+	<string name="user_feedback_tip"><![CDATA[<br/><font color="#00bcd5"><a href="http://zm.felink.com/appfaqs/91zm.shtml"><i>常见问题汇总</i></a></font>]]></string>
+  	<string name="user_feedback_tip1">\n\u0020\u0020\u0020\u0020 感谢您对桌面的关注与支持！欢迎您提交任何与桌面相关的BUG与建议，我们将会在第一时间通过您留下的联系方式回复处理结果。</string>
+  	<string name="user_feedback_content_tip"><![CDATA[BUG与建议<font color="#8f8f8f">(限250字)</font>]]></string>
+  	<string name="user_feedback_email_tip"><![CDATA[联系方式<font color="#8f8f8f">(邮箱或者电话)</font>]]></string>
+	<string name="user_feedback_button_submit">提交</string>
+	<string name="user_feedback_common_backMain">返回</string>
+	<string name="user_feedback_host_feedback">客服反馈</string>
+	<string name="user_feedback_page_unvailable">页面无法显示</string>
+	<string name="user_feedback_submit_success">反馈成功</string>
+	<string name="user_feedback_submit_failed">反馈失败</string>
+	<string name="user_feedback_content_none">反馈内容不能为空</string>
+	<string name="user_feedback_committing">正在提交反馈</string>
+	<string name="user_feedback_loading">正在加载...</string>
+	<string name="user_feedback_no_internet">无可用网络</string>
+	<string name="user_feedback_contact_none">请输入有效的电子邮箱或者电话号码:)</string>
+
+	<string name="widgets_choose">选择小部件</string>
+	<string name="widget_feedback">用户反馈</string>
+	<string name="widget_iconapp">应用图标</string>
+	<string name="widget_memoryclean">一键清理</string>
+	<string name="widget_powerwidget">省电</string>
+	<string name="widget_baidu">百度搜索</string>
+	<string name="widget_toggle">快捷开关</string>
+	<string name="widget_analogclock">模拟时钟</string>
+	<string name="widget_flow">流量详情</string>
+	<string name="widgets_online">更多小部件</string>
+
+	<string name="searchbox_google_input_hint">Google</string>
+	<string name="searchbox_taobao_input_hint">淘一下</string>
+	<string name="searchbox_easou_input_hint">宜搜</string>
+	
+
+	<!-- 系统开关 -->
+	<string name="sys_notification_bar">系统通知栏</string>
+	<string name="system_switch">快捷设置</string>
+	<string name="sys_wifi">WiFi</string>
+	<string name="sys_bluetooth">蓝牙</string>
+	<string name="sys_gps">GPS</string>
+	<string name="sys_data_connection">移动网络</string>
+	<string name="sys_brightness_dock">屏幕亮度</string>
+	<string name="sys_auto_sync">同步帐户</string>
+	<string name="sys_airplane_mode">飞行模式</string>
+	<string name="sys_ring_mode">响铃模式</string>
+	<string name="sys_autolockscreen">自动锁屏</string>
+	<string name="sys_autorotate">自动转屏</string>
+	<string name="sys_sim_not_exist">SIM卡不存在</string>
+	<string name="close_airplane_mode">请关闭飞行模式</string>
+	<string name="sys_wifi_enabled">开启WiFi</string>
+	<string name="sys_wifi_disabled">关闭WiFi</string>
+	<string name="sys_bluetooth_enabled">开启蓝牙</string>
+	<string name="sys_bluetooth_disabled">关闭蓝牙</string>
+	<string name="sys_data_connection_enabled">开启移动网络中...</string>
+	<string name="sys_data_connection_disabled">关闭移动网络中...</string>
+	<string name="sys_brightness">亮度</string>
+	<string name="sys_mybattery_brightness">亮度</string>
+	<string name="sys_automatic_brightness">自动亮度</string>
+	<string name="sys_auto_sync_enabled">开启自动同步</string>
+	<string name="sys_auto_sync_disabled">关闭自动同步</string>
+	<string name="sys_airplane_mode_enabled">开启飞行模式</string>
+	<string name="sys_airplane_mode_disabled">关闭飞行模式</string>
+	<string name="sys_virbation_mode_enabled">振动</string>
+	<string name="sys_virbation_mode_disabled">关闭振动</string>
+	<string name="sys_slient_mode_disabled">静音</string>
+	<string name="sys_ring_mode_disabled">响铃</string>
+	<string name="sys_autolockscreen_enabled">开启自动锁屏</string>
+	<string name="sys_autolockscreen_disabled">关闭自动锁屏</string>
+	<string name="sys_autorotate_enabled">开启自动转屏</string>
+	<string name="sys_autorotate_disabled">关闭自动转屏</string>
+	<string name="sys_battery">开网络</string>
+	<string name="sys_alarm">闹钟</string>
+	<string name="sys_clock">设时间</string>
+	<string name="sys_app_mgr">应用管理</string>
+	<string name="sys_ring">设铃声</string>
+	<string name="sys_whitespot">快点</string>
+	<string name="sys_others">更多</string>
+	<string name="switcher_volume_ring">响铃音量</string>
+	<string name="switcher_volume_set_failed">该系统不支持此方式调节音量</string>
+	<string name="switcher_setting_hint">长按拖拽可调节开关位置</string>
+	<string name="twodimensioncode_scan">二维码</string>
+	<string name="switcher_pet_float">魔力球</string>
+
+	<string name="panda_widget_fetch_error">获取91小部件失败</string>
+	<string name="panda_widget_weather">91黄历天气</string>
+	<string name="panda_widget_phone_manager">通讯统计</string>
+
+	<string name="sys_large_capacity">USB模式</string>
+	<string name="sys_tactility_reaction">触感反应</string>
+	<string name="sys_mount_sdcard">挂载SD卡</string>
+	<string name="sys_screen_overtime">屏幕超时</string>
+
+	<string name="sys_flashlight_enabled">开启手电筒</string>
+	<string name="sys_tactityraction_enabled">开启触感反应</string>
+	<string name="sys_tactityraction_disabled">关闭触感反应</string>
+	<string name="sys_switch_edit_hint">点击右上角的编辑按钮进入编辑模式,可拖动开关</string>
+	
+	<string name="sys_switch_sdcard_removed">sdcard已被移除</string>
+	<string name="sys_switch_usb_mass_storage_fail">挂载usb大容量存储失败</string>
+	<string name="sys_switch_enter_usb_mass_storage">进入USB大容量存储模式</string>
+	<string name="sys_switch_exit_usb_mass_storage">退出USB大容量存储模式</string>
+	<string name="sys_switch_usb_mass_storage_mode">USB未连接或系统不支持USB模式</string>
+	<string name="sys_switch_usb_mass_storage_mode_wait">请稍后再操作...</string>
+	
+	<!-- 系统设置   功能名，部分由上面的系统开关部分提供 -->
+	<string name="sys_settings_mobiledata">移动数据</string>
+	<string name="sys_settings_wireless">网络共享</string>
+	<string name="sys_settings_screen_safe">屏幕安全</string>
+	<string name="sys_settings_display">亮度</string>
+	<string name="sys_settings_sound">铃声</string>
+	<string name="sys_settings_input">语言输入</string>
+	<string name="sys_settings_apps">应用</string>
+	<string name="sys_settings_storage">存储</string>
+	<string name="sys_settings_battery">电池</string>
+	<string name="sys_settings_usb_debug">USB调试</string>
+	<string name="sys_settings_more_settings">更多系统设置</string>
+	<string name="sys_settings_machine_name">手机型号</string>	
+	<string name="sys_settings_firmware">固件版本</string>
+	<string name="sys_settings_root_option">root权限</string>
+	<string name="sys_settings_root_fetching">获取中...</string>
+	<string name="sys_settings_screen_resolution">分辨率</string>
+	<string name="sys_settings_root_yes">已root</string>
+	<string name="sys_settings_root_no">未root</string>
+	<string name="sys_settings_error_msg">出错！未找到\"%1$s\"</string>	
+	
+	<!-- 一键清理widget -->
+	<string name="memory_cleaner">一键清理</string>
+	<string name="nomore_release">无可清理资源</string>
+	<string name="quick_clean_released">桌面为您释放内存 %s</string>
+	
+	<!-- 换壁纸widget -->
+	<string name="widget_wallpaper_1x1_title">换壁纸</string>
+	<string name="widget_wallpaper_scroll_up_for_more">上滑获取更多</string>
+	<string name="widget_wallpaper_notify_23g_refresh">您现在正在使用2/3G网络，网速较慢，请耐心等待！</string>
+	
+	<!-- 抢票widget -->
+	<string name="widget_ticket_1x1_title">抢票</string>
+	<string name="widget_ticket_date_title">订%s日</string>
+	
+	<!-- 百变桌面widget -->
+	<string name="widget_variety_title">百变桌面</string>
+	<string name="widget_variety_templates_activity_title">选择模板</string>
+	<string name="widget_variety_templates_custom_title">自定义样式</string>
+	<string name="widget_variety_change_style_alert_title">换样式</string>
+	<string name="widget_variety_change_style_alert_content">即将替换样式，替换后可能会删除某些图标，需手动再次添加，确定替换吗？</string>
+	<string name="widget_variety_notify_generate_template">自定义样式已生成，您可以使用啦！</string>
+	<string name="widget_variety_notify_template_in_use">该样式正在使用中，无法被删除！</string>
+	
+	<!-- 插件名称 -->
+	<string name="panda_widget_zdclock">正点闹钟</string>
+	
+	<!-- 下载更多小部件 -->
+    <string name="widget_manage_panda_widget_installed">已安装</string>
+    <string name="widget_manage_panda_widget_pause">暂停</string>
+    <string name="widget_manage_panda_widget_details_pause">暂停(已下载%1$s%%)</string>
+    <string name="widget_manage_panda_widget_scalable">可升级</string>
+    <string name="widget_manage_panda_widget_upgrade">升级</string>
+    <string name="widget_manage_panda_widget_install_file_not_found_tips">%1$s安装包未找到，请重新下载</string>
+    <string name="widget_error_add_failed">小部件添加中发现错误，请重启桌面后重试。</string>
+    <string name="widget_update_desktop_restart_hint">桌面小部件\"%1$s\"升级完毕，正在为您重启桌面，请稍候...</string>
+
+	<string name="widget_shop_title">小部件</string>
+	<string name="widget_shop_installed_title">已安装</string>
+	<string name="widget_shop_installed_all_text2">火速补仓中！</string>
+	<string name="widget_shop_installed_all_text3">只给您更好的小部件</string>
+	<string name="widget_shop_no_network_text">网络链接不成功，请检查网络是否已经断开</string>
+	<string name="widget_shop_used_suc">插件启用成功</string>
+	<string name="widget_shop_used_failed">插件启用失败，请确认插件类型</string>
+	<string name="widget_shop_used_failed_redown">重新下载</string>
+	<string name="widget_shop_uninstall_suc">插件卸载成功</string>
+	<string name="widget_shop_no_find_name">未知插件</string>
+    
+	<string name="widget_shop_nonetwork_tab">优选</string>
+	<string name="widget_shop_Operate_dialog_title">小部件功能</string>
+
+	<!-- 更新版本时请注意更新此处的版本号versionCode caizp 2012-8-1 -->
+    <!-- 桌面V6.3.3，手电筒版本更新为V2.3-->
+    <!-- 桌面V7.1.1，手电筒版本更新为V2.5-->
+    <string name="com.nd.android.widget.pandahome.flashlight">20</string>
+    <!-- 一键关屏版本 -->
+    <string name="com.nd.android.widget.pandahome.ionekeyoffscreen">1</string>
+    <!-- 快点版本 versioncode -->
+    <string name="com.nd.shortcut.shortcutslot">5</string>
+    <!-- 快传版本 -->
+	<string name="com_nd_android_anyshare_version">1</string>
+
+    <!-- 淘宝widget or Activity -->
+    <string name="widget_taobao_name">淘宝</string>
+    <string name="widget_taobao_input_hint">淘一下</string>
+
+    <!-- 二维码扫描 -->
+    <string name="widget_baidu_scan_result">扫描结果</string>
+    <string name="widget_baidu_scan_restart">重新扫描</string>
+    <string name="widget_baidu_scan_result_access">访问链接</string>
+    <string name="widget_baidu_scan_result_add_contact">添加联系人</string>
+    <string name="widget_baidu_scan_result_share_title">分享扫描结果</string>
+    <string name="widget_baidu_scan_result_share">桌面二维码扫描结果:\n%1$s\n</string>
+    <string name="widget_baidu_scan_download_outtime_hint">处理扫描结果超时，请重新扫描</string>
+    <string name="widget_baidu_scan_download_hint">处理扫描结果...</string>
+
+    <!-- 小插件默认文字颜色 caizp 2013-4-10 -->
+    <string name="panda_widget_text_color">#ccffffff</string>
+    
+    <!-- H7N9 禽流感疫情插件 -->
+    <string name="widget_h7n9_title">禽流感疫情</string>
+    <string name="widget_h7n9_diagnostic">确诊</string>
+    <string name="widget_h7n9_death">死亡</string>
+    <string name="widget_h7n9_cure">治愈</string>
+    <string name="widget_h7n9_refresh">刷新</string>
+    <string name="widget_h7n9_pub">发布</string>    
+    <string name="widget_h7n9_refresh_err">更新失败</string>
+    <string name="widget_h7n9_refresh_ing">Data capturing</string>
+    
+    <!-- 高考查分 -->
+    <string name="widget_check_points">高考查分</string>
+    
+    <!-- 插件详情 -->
+    <string name="widget_info_desc">简介</string>
+    <string name="widget_info_size">大小:</string>
+    <string name="widget_info_update_toast">当前已是最新版本</string>
+    <string name="widget_info_down_update">升级</string>
+    <string name="widget_info_down_download">下载</string>
+    <string name="widget_info_down_install">安装</string>
+    <string name="widget_info_down_delete">卸载</string>
+    <string name="widget_info_down_apply_widget">放到桌面</string>
+    
+    <string name="widget_wallpaper_drawer_previous">换回去</string>
+    <string name="widget_wallpaper_drawer_save">换回主题壁纸</string>
+    <string name="widget_wallpaper_drawer_more">更多壁纸</string>
+    <string name="widget_wallpaper_drawer_detail">壁纸库</string>
+    <string name="widget_wallpaper_drawer_previous_fail">没有可以恢复的壁纸啦</string>
+    <string name="widget_wallpaper_drawer_save_success">壁纸已保存到存储卡/PandaHome2/myphone/wallpaper/Pictures中</string>
+    <string name="widget_wallpaper_drawer_ads_hint">广告</string>
+    <string name="widget_wallpaper_drawer_list_title">壁纸发现之旅</string>
+    <string name="widget_wallpaper_drawer_ads_title">啊哦，躲得这么深居然被你发现了</string>
+</resources>
+
+	

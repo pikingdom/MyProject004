@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:settings="http://schemas.android.com/apk/res/com.nd.hilauncherdev">
+	<!-- 手势控制 -->
+    <!-- 上滑手势功能 -->
+	<Preference android:key="settings_personal_gesture_up" 
+		android:widgetLayout="@layout/preferences_listpreferences_more_btn"
+		android:layout="@layout/preference_normal_layout"
+		android:title="@string/settings_personal_gesture_up"/>
+	<!-- 下滑手势功能 -->
+	<Preference android:key="settings_personal_gesture_down" 
+		android:widgetLayout="@layout/preferences_listpreferences_more_btn"
+		android:layout="@layout/preference_normal_layout"
+		android:title="@string/settings_personal_gesture_down"/>
+	<!-- 设置双指下滑手势 -->
+	<Preference android:key="settings_personal_double_gesture_down" 
+		android:widgetLayout="@layout/preferences_listpreferences_more_btn"
+		android:layout="@layout/preference_normal_layout"
+		android:title="@string/settings_personal_gesture_doublefingers_down"/>
+</PreferenceScreen> 

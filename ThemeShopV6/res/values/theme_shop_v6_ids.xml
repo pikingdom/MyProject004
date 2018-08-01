@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>	
+		<item type="id" name="shop_theme_quick_search_container">false</item>
+    <item type="id" name="shop_theme_category_1">false</item>
+    <item type="id" name="shop_theme_category_2">false</item>
+    <item type="id" name="shop_theme_category_3">false</item>
+    <item type="id" name="shop_theme_category_4">false</item>
+    <item type="id" name="shop_theme_category_5">false</item>
+    <item type="id" name="shop_theme_category_6">false</item>
+    <item type="id" name="shop_theme_category_7">false</item>
+    <item type="id" name="shop_theme_category_8">false</item>
+    <item type="id" name="shop_theme_category_9">false</item>
+    <item type="id" name="shop_theme_category_10">false</item>
+    <item type="id" name="shop_theme_category_11">false</item>
+    <item type="id" name="shop_theme_category_12">false</item>
+    <item type="id" name="shop_theme_hot_1">false</item>
+    <item type="id" name="shop_theme_hot_2">false</item>
+    <item type="id" name="shop_theme_hot_3">false</item>
+    <item type="id" name="shop_theme_hot_4">false</item>
+    <item type="id" name="shop_theme_hot_5">false</item>
+    <item type="id" name="shop_theme_hot_6">false</item>
+    <item type="id" name="shop_theme_hot_7">false</item>
+    <item type="id" name="shop_theme_hot_8">false</item>
+    <item type="id" name="large_image_load_success">false</item>
+        
+</resources>

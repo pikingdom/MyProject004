@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/theme_app_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp" >
+
+            <TextView
+                android:id="@+id/downloadAllApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:background="@drawable/theme_shop_v6_theme_detail_comment_btn"
+                android:text="@string/theme_shop_v6_themeapp_all_down"
+                android:textColor="#878787"
+                android:textSize="12sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/theme_app_down_view_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_alignBaseline="@+id/downloadAllApp"
+                android:layout_alignBottom="@+id/downloadAllApp"
+                android:layout_alignParentLeft="true"
+                android:text="@string/theme_shop_v2_themeapp_view_title"
+                android:textColor="#707070"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/theme_app_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/theme_shop_v6_grid_item_line"
+            android:dividerHeight="1dip"
+            android:fadingEdge="none"
+            android:gravity="center"
+            android:listSelector="@drawable/theme_shop_v6_listview_itembg"
+            android:transcriptMode="disabled" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/theme_app_plug_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip" >
+
+            <TextView
+                android:id="@+id/theme_app_plug_down_view_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dip"
+                android:paddingLeft="10dip"
+                android:text="@string/theme_shop_v2_themeapp_plug_view_title"
+                android:textColor="#938FEE"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/theme_app_plug_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/theme_shop_v6_grid_item_line"
+            android:dividerHeight="1dip"
+            android:fadingEdge="none"
+            android:gravity="center"
+            android:listSelector="@drawable/theme_shop_v6_listview_itembg"
+            android:transcriptMode="disabled" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/theme_app_theme_rec_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip" >
+
+            <TextView
+                android:id="@+id/theme_app_theme_rec_down_view_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dip"
+                android:paddingLeft="10dip"
+                android:text="@string/theme_shop_v2_themeapp_rec_view_title"
+                android:textColor="#938FEE"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/theme_app_theme_rec_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/theme_shop_v6_grid_item_line"
+            android:dividerHeight="1dip"
+            android:fadingEdge="none"
+            android:gravity="center"
+            android:listSelector="@drawable/theme_shop_v6_listview_itembg"
+            android:transcriptMode="disabled" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

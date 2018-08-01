@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:focusable="false">  
+	<EditText android:id="@+id/keyword" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" 
+	    android:paddingLeft="8dip" android:hint="@string/theme_shop_v2_search_edittext_hit" android:background="@drawable/theme_shop_v2_search_edittext_bg"></EditText>	    
+	  
+	<Button android:id="@+id/clearImgBtn"  
+	    android:background="@drawable/theme_shop_v2_search_clear_btn"
+	    android:visibility="gone"
+	    android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"   
+	    android:layout_alignRight="@+id/keyword" 
+	    android:layout_marginRight="5dip"
+		android:layout_centerVertical="true" />  
+</RelativeLayout>  
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;HiLauncherEX&apos;&#x0D;&#x0A;- Original project: &apos;HiLauncherEX&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     LauncherBranchController.java.mine&#x0D;&#x0A;     LauncherBranchController.java.r45512&#x0D;&#x0A;     LauncherBranchController.java.r45529" description="Delete elements" element1="src/com/nd/hilauncherdev/launcher/LauncherBranchController.java.mine" element2="src/com/nd/hilauncherdev/launcher/LauncherBranchController.java.r45512" element3="src/com/nd/hilauncherdev/launcher/LauncherBranchController.java.r45529" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1473736750361" subPackages="false" version="1.0"/>
+</session>

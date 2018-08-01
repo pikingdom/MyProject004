@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/headerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.nd.hilauncherdev.framework.view.commonview.HeaderView>
+
+    <LinearLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerView"
+        android:background="@color/mybattert_bs_optimize_bottom_bg"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:paddingBottom="@dimen/mybattery_bs_optimize_circle_margin"
+            android:paddingTop="@dimen/mybattery_bs_optimize_circle_margin" >
+
+            <FrameLayout
+                android:id="@+id/widget_cleaner_1x1_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+
+                <ImageView
+                    android:id="@+id/bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mybattery_bs_optimize_circle_bg_1" />
+
+                <ImageView
+                    android:id="@+id/circle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mybattery_bs_optimize_green_circle_1" />
+
+                <TextView
+                    android:id="@+id/percent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20sp" />
+            </FrameLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/mybattery_bs_optimize_circle_margin"
+            android:paddingTop="@dimen/mybattery_bs_optimize_circle_margin" >
+
+            <TextView
+                android:id="@+id/bsMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/bsBn"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginLeft="5dip"
+                android:gravity="left"
+                android:text="@string/mybattery_bs_extend_bs_time"
+                android:textColor="@color/mybattert_bs_optimize_typeface"
+                android:textSize="18sp"
+                android:lineSpacingExtra="4dip" />
+
+            <Button
+                android:id="@+id/bsBn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/bsMessage"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/mybattery_bs_optimize_selector"
+                android:text="@string/mybattery_power_setting_lowhit_change"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            
+            <Button
+                android:id="@+id/cancleBn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/bsMessage"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/mybattery_bs_optimize_selector"
+                android:text="@string/common_button_cancel"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView 
+        android:layout_width="fill_parent"
+        android:layout_height="6dip"
+         android:background="@drawable/mycleaner_top_base_line"
+         android:layout_above="@+id/available_bs_list"/>
+    <ListView
+        android:id="@+id/available_bs_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topLayout"
+        android:background="@color/white"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/myphone_common_split"
+        android:dividerHeight="1dip"
+        android:listSelector="@drawable/myphone_click_item_blue" />
+
+</RelativeLayout>

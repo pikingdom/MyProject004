@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 超人动画 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+	<RelativeLayout 
+	    android:id="@+id/superman_wait_layout"
+	    android:layout_width="100dp"
+    	android:layout_height="100dp">
+	    <ImageView 
+	        android:id="@+id/superman_wait_cloak"
+	        android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="32dp"
+    		android:layout_marginTop="43dp"
+	        android:src="@drawable/launcher_navigation_search_superman_wait_cloak"
+	        />
+	     <ImageView 
+	        android:id="@+id/superman_wait_tail"
+	        android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="68dp"
+    		android:layout_marginTop="35dp"
+	        android:src="@drawable/launcher_navigation_search_superman_wait_tail"
+	        />
+	    <ImageView 
+	        android:id="@+id/superman_wait_cat"
+	        android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+	        android:src="@drawable/launcher_navigation_search_superman_wait_cat"
+	        />
+	</RelativeLayout>
+   	
+</LinearLayout>    
+    

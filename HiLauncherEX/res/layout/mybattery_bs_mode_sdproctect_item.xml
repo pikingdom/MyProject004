@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:id="@+id/mybattery_index_text"
+		android:layout_alignParentTop="true" android:layout_width="fill_parent"
+		android:layout_height="25dip" android:background="@drawable/prompt_preference_category"
+		android:textColor="@color/common_title_little_text_color" android:paddingLeft="6dip"
+		android:gravity="center_vertical" android:visibility="gone"
+		android:textSize="@dimen/setting_category_title_size" />
+	<RelativeLayout android:layout_below="@+id/mybattery_index_text"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:paddingTop="@dimen/myphone_item_padding"
+		android:paddingBottom="@dimen/myphone_item_padding">
+		<RelativeLayout android:id="@+id/mybattery_sdpro_left_view"
+			android:layout_width="fill_parent" android:layout_height="50dip"
+			android:layout_alignParentLeft="true" android:layout_centerVertical="true"
+			android:background="@drawable/myphone_click_item_blue"
+			android:layout_toLeftOf="@+id/mybattery_ver_splite_line">
+			<RadioButton android:id="@+id/checkbox"
+				android:layout_width="40dip" android:layout_height="40dip"
+				android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+				android:button="@drawable/myphone_radiobtn_unselected"
+				android:layout_marginLeft="10dip" />
+			<LinearLayout android:id="@+id/mybattery_sdpro_mid_view"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:orientation="vertical" android:layout_toRightOf="@+id/checkbox"
+				android:layout_centerVertical="true">
+				<TextView android:id="@+id/mybattery_sdpro_text"
+					android:textColor="@color/myphone_common_text_color"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"
+					android:textSize="@dimen/setting_title_size"
+					android:singleLine="true" android:ellipsize="marquee"
+					android:gravity="center_vertical" android:layout_weight="1" />
+				<TextView android:id="@+id/mybattery_sdpro_text_desc"
+					android:textColor="@color/myphone_common_little_text_color"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"
+					android:textSize="@dimen/setting_summary_size"
+					android:singleLine="true" android:ellipsize="marquee"
+					android:gravity="center_vertical" android:layout_weight="1" />
+			</LinearLayout>
+		</RelativeLayout>
+		<ImageView android:id="@+id/mybattery_ver_splite_line"
+			android:layout_width="wrap_content" android:layout_height="40dip"
+			android:layout_toLeftOf="@+id/mybattery_sdpro_right_view"
+			android:layout_centerVertical="true" android:background="@drawable/myphone_ver_split_line" />
+		<RelativeLayout android:id="@+id/mybattery_sdpro_right_view"
+			android:layout_width="60dip" android:layout_height="50dip"
+			android:layout_alignParentRight="true" android:layout_centerVertical="true"
+			android:background="@drawable/myphone_click_item_blue">
+			<ImageView android:id="@+id/mybattery_sdpro_detail_btn"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_centerInParent="true" android:src="@drawable/searchbox_btn_detail" />
+		</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>
+

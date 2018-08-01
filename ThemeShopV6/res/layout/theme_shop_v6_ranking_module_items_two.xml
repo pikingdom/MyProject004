@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/theme_shop_v6_ranking_img_margin_horizontalSpacing"
+    android:paddingRight="@dimen/theme_shop_v6_ranking_img_margin_horizontalSpacing"
+    android:weightSum="2" >
+
+    <RelativeLayout
+        android:id="@+id/listItem1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <include
+            android:id="@+id/grid_item_one"
+            layout="@layout/theme_shop_v6_theme_module_list_grid_item_two" />
+
+        <RelativeLayout
+            android:id="@+id/top_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/theme_shop_v6_recomment_taghot_img_margin_8"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/top_first_img"
+                android:layout_width="47dp"
+                android:layout_height="53dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOP"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/top_first_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/listItem2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <include
+            android:id="@+id/grid_item_two"
+            layout="@layout/theme_shop_v6_theme_module_list_grid_item_two" />
+
+        <RelativeLayout
+            android:id="@+id/top_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/theme_shop_v6_recomment_taghot_img_margin_8"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/top_second_img"
+                android:layout_width="47dp"
+                android:layout_height="53dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOP"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/top_second_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

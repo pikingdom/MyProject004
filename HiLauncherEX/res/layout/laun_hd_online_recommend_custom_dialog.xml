@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dip">
+    <CheckBox 
+	      android:id="@+id/laun_hd_online_recommend_cust_dialog_cbox"
+	      android:layout_width="match_parent" 
+	      android:layout_height="wrap_content"
+	      android:checked="false"
+	      android:text="@string/common_checkbox_not_alert"
+	      android:textColor="#757675"
+	      android:textSize="14sp" />
+  </RelativeLayout>
+

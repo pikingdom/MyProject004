@@ -1,0 +1,12 @@
+<resources>
+    <integer name="workspace_cell_col">4</integer>
+    
+    <integer name="launcher_edit_cell_row">1</integer>
+    <integer name="launcher_edit_cell_col">4</integer>
+    
+    <integer name="app_choose_cell_row">4</integer>
+    <integer name="app_choose_cell_col">4</integer>
+    
+    <!-- animation duration for open folder(ms) -->
+    <integer name="animation_duration_folder">350</integer>
+</resources>

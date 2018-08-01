@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/theme_shop_v6_detail_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/local_theme_series_detail_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout style="@style/v7_common_header_layout" >
+
+            <LinearLayout
+                android:layout_width="60dip"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/v7_gap1_15dp" >
+
+                <ImageView
+                    android:id="@+id/back"
+                    style="@style/v7_common_header_goback" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/local_theme_series_detail_title"
+                style="@style/v7_common_header_title"
+                android:text="@string/theme_series_detail_title" />
+
+            <ImageView
+                android:id="@+id/help"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/v7_gap1_15dp"
+                android:src="@drawable/theme_shop_pay_help" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:id="@+id/theme_series_detail_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/theme_series_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginTop="8dip"
+                android:background="@drawable/theme_series_mark_bg"
+                android:gravity="center"
+                android:paddingBottom="5dip"
+                android:paddingLeft="8dip"
+                android:paddingRight="8dip"
+                android:paddingTop="5dip"
+                android:text="我的可爱第1天"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <com.nd.hilauncherdev.framework.view.commonview.ViewPageCascade
+                android:id="@+id/local_theme_gallery"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+
+            <TextView
+                android:id="@+id/theme_series_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dip"
+                android:padding="10dip"
+                android:text="为你精选七套个性主题，应用后可实现每天自动更换，给你的每天带来不一样的好心情"
+                android:textColor="#707070"
+                android:textSize="14sp" />
+            <!-- 设置默认桌面banner -->
+
+            <com.nd.hilauncherdev.shop.shop6.guidesetlauncher.GuideSetLauncherBannerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/local_theme_series_detail_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/myphone_bottom_content"
+        android:background="@drawable/common_btn_layout_bg"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/local_theme_detail_bottom_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/myphone_bottom_content"
+            android:background="@drawable/theme_shop_v6_main_fun_band"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/local_theme_series_detail_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip"
+                android:src="@drawable/theme_detail_btn_delete_selector" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <Button
+                    android:id="@+id/btn_apply"
+                    android:layout_width="fill_parent"
+                    android:layout_height="37dip"
+                    android:background="@drawable/common_btn_red_selector"
+                    android:gravity="center"
+                    android:text="@string/btn_series_apply"
+                    android:textColor="@color/theme_btn_title"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/shareBn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="15dip"
+            	android:paddingRight="15dip"
+            	android:visibility="invisible"
+                android:src="@drawable/theme_shop_v6_detail_btn_share_selector" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

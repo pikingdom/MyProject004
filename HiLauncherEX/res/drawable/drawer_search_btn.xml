@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true" android:drawable="@drawable/panda_box_quick_search_pressed_icon" />
+	<item android:drawable="@drawable/panda_box_quick_search_icon" />
+</selector>

@@ -1,0 +1,559 @@
+package com.nd.hilauncherdev.recommend.p8custom;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.List;
+import java.util.Vector;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
+
+import android.content.Context;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
+import android.content.res.Resources;
+import android.text.TextUtils;
+
+import com.nd.hilauncherdev.kitset.config.ConfigPreferences;
+import com.nd.hilauncherdev.kitset.util.FileUtil;
+import com.nd.hilauncherdev.kitset.xmlparser.ElementX;
+import com.nd.hilauncherdev.launcher.LauncherBranchController;
+import com.nd.hilauncherdev.launcher.config.BaseConfig;
+
+/**
+ * 获取文件内容,并复制到SD卡
+ * <p>Title: RecommendAppWrapper</p>
+ * <p>Description: </p>
+ * <p>Company: ND</p>
+ * @author    MaoLinnan
+ * @date       2016年7月5日
+ */
+public class CustomRecommendAppWrapper {
+	//自定义信息在SD卡中存放的位置
+	public static final String RECOMMEND_CUSTOM_PATH = BaseConfig.getBaseDir() + "/custominfo";
+	public static final String ASSEST_CUSTOM_NAME_VIVO = "vivo_launcher.xml";
+	public static final String ASSEST_CUSTOM_NAME_OPPO = "oppo_launcher.xml";
+	public static ArrayList<CustomRecommendAppBean> mCustomRecommendAppList = new ArrayList<CustomRecommendAppBean>();
+	public static ArrayList<String> mHideAppList = new ArrayList<String>();
+	public static ArrayList<CustomRecommendFolderBean> mCustomRecommendFolderList = new ArrayList<CustomRecommendFolderBean>();
+	public static List<CustomRecommendAppBean> replaceAppList = null;
+	public static List<CustomWidgetBean> mCustomWidgetBeanList = new ArrayList<CustomWidgetBean>();
+	
+	public static final String COMP_NAME_TAG = "package_name";
+	/**
+	 * 保存推荐信息到SD卡的RECOMMEND_CUSTOM_PATH目录
+	 * <p>Title: saveCustomInfoToSDCard</p>
+	 * <p>Description: </p>
+	 * @author maolinnan_350804
+	 */
+	public static void saveCustomInfoToSDCard(Context context){
+		//创建保存位置目录
+		File file = new File(RECOMMEND_CUSTOM_PATH);
+		if (!file.exists()){
+			file.mkdirs();
+		}else{//删除原有的内容
+			FileUtil.delAllFile(file.getPath());
+		}
+		
+		ApplicationInfo appinfo = context.getApplicationInfo();
+		String sourceDir = appinfo.sourceDir;
+		ZipFile zipfile = null;
+        try {  
+            zipfile = new ZipFile(sourceDir);  
+            Enumeration<?> entries = zipfile.entries();  
+            while (entries.hasMoreElements()) {  
+                ZipEntry entry = ((ZipEntry) entries.nextElement());  
+                String entryName = entry.getName();
+                if (entryName.startsWith("META-INF/custominfo/")){
+                	String name = entryName.substring(20, entryName.length());
+                	if (TextUtils.isEmpty(name)){
+                		continue;
+                	}
+                	OutputStream os = new FileOutputStream(RECOMMEND_CUSTOM_PATH + "/" + name);
+                	InputStream in = zipfile.getInputStream(entry);
+                    byte buffer[] = new byte[2048];
+                    int i = 0;
+                    long count = 0;
+                    while((i = in.read(buffer)) != -1){
+                    	if (count + i < entry.getSize()){
+                    		os.write(buffer, 0, i);
+                    	}else{
+                    		os.write(buffer, 0, (int)(entry.getSize() - count));
+                    	}
+                    	count += i;
+                    }
+                    os.flush();
+                    os.close();
+                }
+            }
+        } catch (IOException e) {  
+            e.printStackTrace();  
+        } finally {  
+            if (zipfile != null) {  
+                try {
+                    zipfile.close();  
+                } catch (IOException e) {  
+                    e.printStackTrace();
+                }
+            }
+        }
+	}
+
+	/**
+	 * 保存推荐信息到SD卡的RECOMMEND_CUSTOM_PATH目录
+	 * <p>Title: saveCustomInfoToSDCard</p>
+	 * <p>Description: </p>
+	 * @author maolinnan_350804
+	 */
+	public static void saveCustomInfoFromAssetsToSDCard(Context context) {
+		//创建保存位置目录
+		File file = new File(RECOMMEND_CUSTOM_PATH);
+		if (!file.exists()) {
+			file.mkdirs();
+		} else {//删除原有的内容
+			FileUtil.delAllFile(file.getPath());
+		}
+		OutputStream os = null;
+		InputStream in = null;
+		String name = null;
+		if (LauncherBranchController.isTianPai()) {
+			if (LauncherBranchController.isOppoPhone()) {
+				name = ASSEST_CUSTOM_NAME_OPPO;
+			} else if (LauncherBranchController.isVivoPhone()) {
+				name = ASSEST_CUSTOM_NAME_VIVO;
+			}
+		}
+		try {
+			if(name == null) return;
+			os = new FileOutputStream(RECOMMEND_CUSTOM_PATH + "/" + name);
+			in = context.getAssets().open(name);
+			byte buffer[] = new byte[2048];
+			int i = 0;
+			while ((i = in.read(buffer)) != -1) {
+				os.write(buffer, 0, i);
+			}
+			os.flush();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (os != null) {
+					os.close();
+				}
+				if (in != null) {
+					in.close();
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	/**
+	 * 读取配置信息
+	 * <p>Title: readCustomInfoAndDispense</p>
+	 * <p>Description: </p>
+	 * @author maolinnan_350804
+	 */
+	public static boolean readCustomInfo(Context context){
+		String sb = FileUtil.readFileContent(LauncherBranchController.getDefaultWorkspaceConfigPath());
+		if (TextUtils.isEmpty(sb)){
+			return false;
+		}
+		//开始解析xml文件
+		ElementX root = ElementX.parse(sb, null);
+		if (root == null || root.getChildren() == null){
+			return false;
+		}
+		//解析力天或椒盐初始化配置
+		if(null != root.getChild("custom")) {
+			Vector<ElementX> childrenElements =root.getChild("custom").getChildren();
+			for(ElementX elementX : childrenElements){
+				String tagStr = elementX.getTag();
+				if ("recommend_apps".equals(tagStr)){//是直接推荐应用
+					buildRecommendApps(elementX, context);
+				}else if ("recommend_folders".equals(tagStr)){//是推荐摆放文件夹
+					buildRecommendFolder(elementX, context);
+				}else if ("hide_apps".equals(tagStr)){//是替换应用名及图标
+					buildHideApps(elementX, context);
+				}else if ("replace_apps".equals(tagStr)){//是替换应用名及图标
+	//				getReplaceList(elementX, context);
+				}else if (("layout").equals(tagStr)){//是修改布局
+					buildLayout(elementX, context);
+				}else if (("navigation_screen").equals(tagStr)){//是否关闭0屏
+					buildNavigationScreen(elementX, context);
+				}else if (("baidu_channel_id").equals(tagStr)){//百度渠道id
+					buildBaiduChannelId(elementX, context);
+				}else if (("browser_url").equals(tagStr)){//浏览器首页地址
+					buildBrowserUrl(elementX, context);
+				}
+			}
+		}
+		
+		//解析帆悦初始化配置
+		if(null != root.getChild("favorites")) {
+			Vector<ElementX> fanYueChildrenElements = root.getChild("favorites").getChildren();
+			for(ElementX elementX : fanYueChildrenElements){
+				String tagStr = elementX.getTag();
+				if ("favorite".equals(tagStr) || "shortcut".equals(tagStr)){//图标
+					buildFanYueRecommendApp(elementX, context);
+				} else if ("folder".equals(tagStr)){//桌面文件夹
+					buildFanYueRecommendFolder(elementX, context);
+				} else if ("selfwidget".equals(tagStr)){//桌面插件
+					buildFanYueSelfWidget(elementX, context);
+				} else if ("uninstall_white_list".equals(tagStr)){//app卸载白名单
+					buildFanYueUnistallWhiteList(elementX, context);
+				} else if ("replace_apps".equals(tagStr)){//是替换应用名及图标
+					getReplaceList(context);
+				}
+			}
+		}
+		return true;
+	}
+	
+	/**
+	 * 构建帆悦推荐图标
+	 * @param elementX
+	 * @param context
+	 */
+	private static void buildFanYueRecommendApp(ElementX elementX, Context context) {
+		try {
+			CustomRecommendAppBean bean = new CustomRecommendAppBean();
+			String container = elementX.getAttr("launcher:container");//推荐图标所在区域
+			if("-101".equals(container)) {
+				bean.container = 1;//dock栏
+			} else {
+				bean.container = 0;//桌面
+			}
+			String packageName = elementX.getAttr("launcher:packageName");//推荐图标包名
+			String className = elementX.getAttr("launcher:className");//推荐图标入口类名
+			if(!"shortcut".equals(elementX.getTag()) && (TextUtils.isEmpty(packageName) || TextUtils.isEmpty(className))) return;
+			bean.packageName = packageName;
+			bean.className = className;
+			String screen = elementX.getAttr("launcher:screen");//所在屏
+			String x = elementX.getAttr("launcher:x");//所在屏幕的X坐标
+			String y = elementX.getAttr("launcher:y");//所在屏幕的Y坐标
+			bean.screen = Integer.parseInt(screen);
+			bean.x = Integer.parseInt(x);
+			bean.y = Integer.parseInt(y);
+			String tagStr = elementX.getTag();
+			if ("shortcut".equals(tagStr)){//快捷方式类型
+				bean.itemType = 1;
+				bean.appIcon = elementX.getAttr("launcher:app_icon");
+				String []iconSplit = bean.appIcon.split(":");
+				if(null == iconSplit || iconSplit.length < 2) {
+					bean.appIcon = RECOMMEND_CUSTOM_PATH + "/" + bean.appIcon;
+				}
+				bean.appName = elementX.getAttr("launcher:app_title");
+				String []split = bean.appName.split(":");
+				if(null != split && split.length > 1) {
+					PackageManager packageManager = context.getPackageManager();
+                    try {
+                        Resources resources = packageManager.getResourcesForApplication(split[0]);
+                        if (resources != null) {
+                            int id = resources.getIdentifier(bean.appName, null, null);
+                            bean.appName = resources.getString(id);
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+				}
+				bean.intentUri = elementX.getAttr("launcher:uri");
+			}
+			mCustomRecommendAppList.add(bean);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	/**
+	 * 构建帆悦桌面推荐文件夹
+	 * @param elementX
+	 * @param context
+	 */
+	private static void buildFanYueRecommendFolder(ElementX elementX, Context context) {
+		CustomRecommendFolderBean bean = new CustomRecommendFolderBean();
+		List<CustomRecommendAppBean> appList = new ArrayList<CustomRecommendAppBean>();
+		Vector<ElementX> appVector = elementX.getChildren();
+		for (ElementX e : appVector){
+			CustomRecommendAppBean appBean = new CustomRecommendAppBean();
+			String packageName = e.getAttr("launcher:packageName");//推荐图标包名
+			String className = e.getAttr("launcher:className");//推荐图标入口类名
+			if(TextUtils.isEmpty(packageName) || TextUtils.isEmpty(className)) continue;
+			appBean.packageName = packageName;
+			appBean.className = className;
+			appList.add(appBean);
+		}
+		String screen = elementX.getAttr("launcher:screen");//所在屏
+		String x = elementX.getAttr("launcher:x");//所在屏幕的X坐标
+		String y = elementX.getAttr("launcher:y");//所在屏幕的Y坐标
+		bean.screen = Integer.parseInt(screen);
+		bean.x = Integer.parseInt(x);
+		bean.y = Integer.parseInt(y);
+		bean.container = 0;//所在区域
+		bean.folderName = elementX.getAttr("launcher:app_title");
+		String []split = bean.folderName.split(":");
+		if(null != split && split.length > 1) {
+			PackageManager packageManager = context.getPackageManager();
+            try {
+                Resources resources = packageManager.getResourcesForApplication(split[0]);
+                if (resources != null) {
+                    int id = resources.getIdentifier(bean.folderName, null, null);
+                    bean.folderName = resources.getString(id);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+		}
+		
+		bean.appList = appList;
+		mCustomRecommendFolderList.add(bean);
+	}
+	
+	/**
+	 * 构建帆悦自定义插件
+	 * @param elementX
+	 * @param context
+	 */
+	private static void buildFanYueSelfWidget(ElementX elementX, Context context) {
+		String widgetType = elementX.getAttr("launcher:widgetType");//插件类型
+		CustomWidgetBean bean = new CustomWidgetBean();
+		String screen = elementX.getAttr("launcher:screen");//所在屏
+		String x = elementX.getAttr("launcher:x");//所在屏幕的X坐标
+		String y = elementX.getAttr("launcher:y");//所在屏幕的Y坐标
+		String spanX = elementX.getAttr("launcher:spanX");
+		String spanY = elementX.getAttr("launcher:spanY");
+		bean.screen = Integer.parseInt(screen);
+		bean.x = Integer.parseInt(x);
+		bean.y = Integer.parseInt(y);
+		bean.spanX = Integer.parseInt(spanX);
+		bean.spanY = Integer.parseInt(spanY);
+		if("weather_clock".equals(widgetType)) {// 天气时间插件
+			bean.widgetName = widgetType;
+		} else if("search".equals(widgetType)) {// 自定义搜索插件
+			bean.widgetName = widgetType;
+			bean.entrancePackageName = elementX.getAttr("launcher:packageName");
+			bean.entranceClassName = elementX.getAttr("launcher:className");
+		} else {
+			return;
+		}
+		mCustomWidgetBeanList.add(bean);
+	}
+	
+	/**
+	 * 构建帆悦应用卸载白名单
+	 * @param elementX
+	 * @param context
+	 */
+	private static void buildFanYueUnistallWhiteList(ElementX elementX, Context context) {
+		Vector<ElementX> appVector = elementX.getChildren();
+		String whiteList = "";
+		for (ElementX e : appVector){
+			String packageName = e.getChildText("package_name", null);
+			if(TextUtils.isEmpty(packageName)) continue;
+			if("".equals(whiteList)) {
+				whiteList+=packageName;
+			} else {
+				whiteList+= ";" + packageName;
+			}
+		}
+		ConfigPreferences.getInstance().getSP().edit().putString("fanyue_unistall_white_list", whiteList).commit();
+	}
+	
+	/**
+	 * 只解析替换名称资源
+	 * <p>Title: getReplaceList</p>
+	 * <p>Description: </p>
+	 * @param context
+	 * @return
+	 * @author maolinnan_350804
+	 */
+	public static List<CustomRecommendAppBean> getReplaceList(Context context){
+		if(replaceAppList != null)
+			return replaceAppList;
+		replaceAppList = new ArrayList<CustomRecommendAppBean>();
+		String sb = FileUtil.readFileContent(LauncherBranchController.getDefaultWorkspaceConfigPath());
+		if (TextUtils.isEmpty(sb)){
+			return replaceAppList;
+		}
+		//开始解析xml文件
+		ElementX root = ElementX.parse(sb.toString(), null);
+		if (root == null || root.getChildren() == null){
+			return replaceAppList;
+		}
+		Vector<ElementX> childrenElements = null;
+		if(LauncherBranchController.isLiTian() || LauncherBranchController.isJiaoYan()){
+			childrenElements =root.getChild("custom").getChildren();
+		}else if(LauncherBranchController.isFanYue()){
+			childrenElements =root.getChild("favorites").getChildren();
+		}
+		if(null == childrenElements) return replaceAppList;
+		for(ElementX elementX : childrenElements){
+			String tagStr = elementX.getTag();
+			if ("replace_apps".equals(tagStr)){//是替换应用名及图标
+				Vector<ElementX> childrenElements1 = elementX.getChildren();
+				for (ElementX ex : childrenElements1){
+					CustomRecommendAppBean appBean = new CustomRecommendAppBean();
+					String compName = ex.getChildText(COMP_NAME_TAG, null);//应用包名
+					if(TextUtils.isEmpty(compName))
+						continue;
+//					if(compName.contains("/")){
+//						String[] array = compName.split("/");
+//						appBean.packageName = array[0];
+//						appBean.className = array[1];
+//					}else{
+//						appBean.packageName = compName;
+//					}
+					appBean.packageName = compName;
+					appBean.appName = ex.getChildText("app_name", "");//应用名称
+					appBean.appEnName = ex.getChildText("app_enname", "");//应用英文名
+					appBean.appIcon = TextUtils.isEmpty(ex.getChildText("app_icon", "")) ? ex.getChildText("icon_id", "") : ex.getChildText("app_icon", "");//图标名称
+					if (!TextUtils.isEmpty(appBean.appIcon)){
+						if(!appBean.appIcon.contains(":")) {
+							appBean.appIcon = RECOMMEND_CUSTOM_PATH + "/" + appBean.appIcon;
+							File file1 = new File(appBean.appIcon);
+							if (!file1.exists()){
+								continue;
+							}
+						}
+					}
+					appBean.apkPath = ex.getChildText("apk_path", null);//应用安装包路径
+					replaceAppList.add(appBean);
+				}
+				return replaceAppList;
+			}
+		}
+		return replaceAppList;
+	}
+	
+	/**
+	 * 构建力天推荐应用
+	 * <p>Title: buildRecommend</p>
+	 * <p>Description: </p>
+	 * @param elementX
+	 * @param context
+	 * @author maolinnan_350804
+	 */
+	private static void buildRecommendApps(ElementX elementX,Context context){
+		Vector<ElementX> childrenElements = elementX.getChildren();
+		for (ElementX ex : childrenElements){
+			CustomRecommendAppBean bean = new CustomRecommendAppBean();
+			String compName = ex.getChildText(COMP_NAME_TAG, null);//应用包名
+			if(TextUtils.isEmpty(compName))
+				continue;
+			if(compName.contains("/")){
+				String[] array = compName.split("/");
+				bean.packageName = array[0];
+				bean.className = array[1];
+			}else{
+				bean.packageName = compName;
+			}
+			bean.container = Integer.parseInt(ex.getChildText("container", 0 + ""));//所在区域
+			bean.screen = Integer.parseInt(ex.getChildText("screen", CustomRecommendAppBean.NONE_COORDINATE_DATA + ""));//所在屏
+			bean.x = Integer.parseInt(ex.getChildText("x", CustomRecommendAppBean.NONE_COORDINATE_DATA + ""));//所在屏幕的X坐标
+			bean.y = Integer.parseInt(ex.getChildText("y", CustomRecommendAppBean.NONE_COORDINATE_DATA + ""));//所在屏幕的Y坐标
+			mCustomRecommendAppList.add(bean);
+		}
+		
+	}
+	/**
+	 * 构建力天推荐文件夹
+	 * <p>Title: buildFolder</p>
+	 * <p>Description: </p>
+	 * @param elementX
+	 * @param context
+	 * @author maolinnan_350804
+	 */
+	private static void buildRecommendFolder(ElementX elementX,Context context){
+		Vector<ElementX> childrenElements = elementX.getChildren();
+		for (ElementX ex : childrenElements){
+			List<CustomRecommendAppBean> appList = new ArrayList<CustomRecommendAppBean>();
+			CustomRecommendFolderBean bean = new CustomRecommendFolderBean();
+			ElementX apps = ex.getChild("apps");
+			Vector<ElementX> appVector = apps.getChildren();
+			for (ElementX e : appVector){
+				CustomRecommendAppBean appBean = new CustomRecommendAppBean();
+				String compName = e.getText();
+				if (TextUtils.isEmpty(compName)){
+					continue;
+				}
+				if(compName.contains("/")){
+					String[] array = compName.split("/");
+					appBean.packageName = array[0];
+					appBean.className = array[1];
+				}else{
+					appBean.packageName = compName;
+				}
+				appList.add(appBean);
+			}
+			bean.container = Integer.parseInt(ex.getChildText("container", 0 + ""));//所在区域
+			bean.screen = Integer.parseInt(ex.getChildText("screen", CustomRecommendAppBean.NONE_COORDINATE_DATA + ""));
+			bean.x = Integer.parseInt(ex.getChildText("x", CustomRecommendAppBean.NONE_COORDINATE_DATA + ""));
+			bean.y = Integer.parseInt(ex.getChildText("y", CustomRecommendAppBean.NONE_COORDINATE_DATA + ""));
+			bean.folderName = ex.getChildText("folder_name", "");
+			bean.appList = appList;
+			mCustomRecommendFolderList.add(bean);
+		}
+	}
+	
+	private static void buildHideApps(ElementX elementX,Context context){
+		Vector<ElementX> childrenElements = elementX.getChildren();
+		for (ElementX e : childrenElements){
+			String compName = e.getText();
+			if (TextUtils.isEmpty(compName)){
+				continue;
+			}
+			mHideAppList.add(compName);
+		}
+	}
+	
+	/**
+	 * 构建修改布局
+	 * <p>Title: buildLayout</p>
+	 * <p>Description: </p>
+	 * @param elementX
+	 * @param context
+	 * @author maolinnan_350804
+	 */
+	private static void buildLayout(ElementX elementX,Context context){
+		CustomRecommendFunctionDispense.recommendLayout(context, elementX.getText());
+	}
+	/**
+	 * 构建是否开启0屏
+	 * <p>Title: buildNavigationScreen</p>
+	 * <p>Description: </p>
+	 * @param elementX
+	 * @param context
+	 * @author maolinnan_350804
+	 */
+	private static void buildNavigationScreen(ElementX elementX,Context context){
+		boolean isOpenNavigationScreen = Boolean.parseBoolean(elementX.getText());
+		CustomRecommendFunctionDispense.recommendNavigationScreen(context,isOpenNavigationScreen);
+	}
+	/**
+	 * 构建百度渠道号
+	 * <p>Title: buildBaiduChannelId</p>
+	 * <p>Description: </p>
+	 * @param elementX
+	 * @param context
+	 * @author maolinnan_350804
+	 */
+	private static void buildBaiduChannelId(ElementX elementX,Context context){
+		CustomRecommendFunctionDispense.recommendBaiduChannelId(context,elementX.getText());
+	}
+	/**
+	 * 构建浏览器首页Url
+	 * <p>Title: buildBrowserUrl</p>
+	 * <p>Description: </p>
+	 * @param elementX
+	 * @param context
+	 * @author maolinnan_350804
+	 */
+	private static void buildBrowserUrl(ElementX elementX,Context context){
+		CustomRecommendFunctionDispense.recommendBrowserUrl(context,elementX.getText());
+	}
+}

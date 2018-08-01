@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 低电量提醒 -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<com.nd.hilauncherdev.settings.PromptPreferenceCategory android:title="@string/mybattery_soft_setting_lowhit_desc">
+	    <!-- 低电量提醒-->
+		<CheckBoxPreference android:layout="@layout/preference_normal_layout" 
+			android:defaultValue="true"
+			android:key="settings_low_battery_remind_switch" 
+			android:title="@string/mybattery_soft_setting_lowhit_title"
+			android:widgetLayout="@layout/preferences_checkbox" />
+	    <!--低电量触发值  -->
+		<Preference android:layout="@layout/preference_normal_layout"
+	   		android:key="settings_low_battery_trigger_value"
+	   	    android:title="@string/mybattery_soft_setting_lowhit_value"
+	   	    android:widgetLayout="@layout/preferences_listpreferences_more_btn" />   
+	</com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+	<com.nd.hilauncherdev.settings.PromptPreferenceCategory android:title="@string/mybattery_soft_setting_lowhit_auto_change">
+	    <!-- 低电量自动省电-->
+		<CheckBoxPreference android:layout="@layout/preference_normal_layout" 
+			android:defaultValue="false"
+			android:key="settings_low_battery_auto_energysaving" 
+			android:title="@string/mybattery_soft_setting_lowhit_auto_change"
+			android:widgetLayout="@layout/preferences_checkbox" />
+	    <!--当电量低于  -->
+		<Preference android:layout="@layout/preference_normal_layout"
+	   		android:key="settings_power_below"
+	   	    android:title="@string/mybattery_lowhit_setting_value"
+	   	    android:widgetLayout="@layout/preferences_listpreferences_more_btn" />   
+	   	<!--启用模式  -->
+		<Preference android:layout="@layout/preference_normal_layout"
+	   		android:key="settings_enable_mode"
+	   	    android:title="@string/mybattery_lowhit_setting_mode"
+	   	    android:widgetLayout="@layout/preferences_listpreferences_more_btn" />   
+	</com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+</PreferenceScreen>

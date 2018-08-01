@@ -1,0 +1,79 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="myphone_setting_name">设置</string>
+	<!-- 我的手机 我的壁纸 -->
+	<!-- end 我的手机 我的壁纸 -->
+	
+	<!-- 正在运行 -->
+	<string name="apprunning_used_text">已用</string>
+	<!-- 一键设置wifi-->
+	<string name="wifi_static">静态</string>
+    <string name="wifi_dynamics">动态</string>
+    <string name="wifi_passwd">密码</string>
+    <string name="wifi_ip_address">IP地址</string>
+    <string name="wifi_gateway_address">网关</string>
+    <string name="wifi_netmask_address">子网掩码</string>
+    <string name="wifi_prefix_length">网络前缀长度</string>
+    <string name="wifi_dns1_address">DNS1</string>
+    <string name="wifi_dns2_address">DNS2</string>
+    <string name="wifi_show_passwd">显示密码</string>
+    <string name="wifi_info_edit_suc">修改成功</string>
+    <string name="wifi_rssi_level_perfect">强</string>
+    <string name="wifi_rssi_level_good">较强</string>
+    <string name="wifi_rssi_level_normal">一般</string>
+    <string name="wifi_rssi_level_bad">弱</string>
+    <string name="wifi_rssi_level_nothing">无</string>
+    <string name="wifi_keymgmt_none">无加密</string>
+    <string name="wifi_keymgmt_wpa">通过WPA加密</string>
+    <string name="wifi_keymgmt_wep">通过WEP加密</string>
+    <string name="wifi_keymgmt_wpa2">通过WPA2加密</string>
+    <string name="wifi_keymgmt_wpa_wpa2">通过WPA2/WPA加密</string>
+    <string name="wifi_not_in_scape">不在范围中</string>
+    <string name="wifi_not_in_scape_tip">热点不在可用范围中</string>
+    <string name="wifi_disconnect">断开</string>
+    <string name="wifi_forget_point">不保存</string>
+    <string name="wifi_connect">连接</string>
+    <string name="wifi_point_type0">已保存，</string>
+    <string name="wifi_point_type1">已连接，连接速度：%1$s</string>
+    <string name="wifi_point_type2">%1$s，信号%2$s</string>
+    <string name="wifi_point_type3">状态：已连接\n%1$s\n连接速度：%2$s\n信号强度：%3$s\nIP地址：%4$s</string>
+    <string name="wifi_point_type4">状态：未连接\n%1$s\n信号强度：%2$s</string>
+    <string name="wifi_static_ip_text">静态IP</string>
+    <string name="wifi_dyn_ip_text">动态IP</string>
+    <string name="wifi_set_static_title">静态IP设置</string>
+    <string name="wifi_ip_faild">请输入有效的%1$s</string>
+    
+   	
+    
+    <!-- 一键换壁纸-->
+    <string name="swap_wallpaper_msg3">无网络，只能换本地壁纸哦</string>
+ 	<string name="swap_wallpaper_msg5">网络不好，若未找到壁纸，请稍候重试</string>
+    <string name="swap_wallpaper_msg6">只有一张壁纸了，快去下载美图扮靓你的手机哦</string>
+    <string name="swap_wallpaper_msg7">桌面正在为您寻找精美壁纸</string>
+    
+	<string name="swap_wallpaper_cache_message">保存的壁纸数上限</string>
+	<string name="swap_wallpaper_cache_message_size">%1$s张</string>
+	<string name="swap_wallpaper_type_random">随机</string>
+	<string name="swap_wallpaper_open_gprs_swap_wallpaper">无网络，您可以打开wifi网络后试试</string>
+	<string name="swap_wallpaper_request_wallpaper_type_fail">暂无壁纸类别信息</string>
+	<string name="swap_wallpaper_wallpaper_setting">设置</string>
+	<string name="swap_wallpaper_unlimited">无上限</string>
+	<string name="swap_wallpaper_style">壁纸风格</string>
+	<string name="settings_swap_wallpaper_type_detail">当前类别：%1$s</string>
+	<string name="settings_swap_wallpaper_type_default">未选择</string>
+    
+
+
+
+    <!-- 美化手机 -->
+	<!-- 快传 -->
+
+	<!-- 滤镜 -->
+
+   	<!-- SD检测 -->
+ <string name="netflow_start_listener_off">未开启监控</string>
+ <string name="netflow_meal_setting_none">未设置套餐</string>
+ <string name="netflow_spare">剩余</string>
+ <string name="netflow_exceed">超出</string>
+</resources>
+
+	

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources>
+   
+    <skip />
+    <!-- Default folder name -->
+    <string name="folder_name">Folder</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">Wallpaper</string>
+
+    <!-- Folders -->
+    <skip />
+
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <string name="group_applications">Aplikasi</string>
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">Pilih pintasan</string>
+    <skip />
+
+    <!-- Widgets: -->
+    <skip />    
+	
+	<string name="webview_no_page_tips">Tidak ada halaman progres</string>
+	
+	<string name="classify_autotidy_category_system_folder">Aplikasi Sistem</string>
+	<string name="classify_autotidy_category_other_folder">Lainnya</string>
+	<string name="classify_autotidy_category_shortcut_folder">Pintasan</string>
+	<string name="classify_autotidy_category_tool_folder">Alat bantu</string>
+	
+	<!-- 自动分类 -->
+	<string name="drawer_menu_auto_app_classify">Folder Otomatis</string>
+	<string name="drawer_menu_classify_wait">Memproses. Tunggu...</string>
+	<string name="app_assort_tip">Otomatis klasifikasikan aplikasi</string>
+	<string name="assort_now">Mulai</string>
+	<string name="restore_now">Kembalikan</string>
+	<string name="latest_classify_result">Tata letak aktif adalah yang terbaru.</string>
+	<string name="use_result_now">Terapkan</string>
+	<string name="restore_result_now">Kembalikan</string>
+	<string name="classify_rollback_ok">OK</string>
+	<string name="classify_rollback_cancel">Batal</string>
+	<string name="restore_tip">Kembalikan ke: %1$s</string>
+	<string name="restore_original">Kembalikan tata letak</string>
+	<string name="restore_original_tip">Kembalikan ke tata letak terakhir</string>
+	<string name="no_restore_tip">Data tidak tersedia.</string>
+	<string name="classify_app_in_app">Nikmati fitur Folder Otomatis di laci Aplikasi</string>
+	
+	
+	<!--插件升级-->
+	<string name="plugin_update_tip">Apakah Anda ingin memperbarui widget ke versi terbaru?</string>
+    <string name="toast_search">Cari cepat aplikasi di sudut kiri bawah</string>
+    <string name="recent_use">Paling sering digunakan</string>
+    <string name="folder_Favorites">Favorit</string>
+    <string name="folder_Productivity">Produktivitas</string>
+    <string name="folder_Media">Media</string>
+    
+    <string name="folder_recommend_hot_app_tip">Aplikasi terpopuler</string>
+	<string name="readme_v6_new_themechoose">Pilih gaya apa pun yang Anda suka!</string>
+	<!-- launcher3匣子begin-->
+	<string name="all_apps_search_bar_hint">"Telusuri Aplikasi..."</string>
+	<string name="all_apps_loading_message">"Memuat Aplikasi..."</string>
+	<string name="all_apps_no_search_results">"Tidak ditemukan Aplikasi yang cocok dengan \"%1$s\""</string>
+	<string name="all_apps_search_market_message">"Buka %1$s"</string>
+	<!-- launcher3匣子end-->
+</resources>

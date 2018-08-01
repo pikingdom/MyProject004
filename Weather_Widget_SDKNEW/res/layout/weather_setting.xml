@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewbkId"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/toolbarsize"
+        android:background="@drawable/weather_shape_titlebk" >
+
+        <Button
+            android:id="@+id/setting_back"
+            style="@style/backButton" />
+
+        <TextView
+            android:id="@+id/weatherToolTextid"
+            style="@style/titleText_w"
+            android:layout_centerInParent="true"
+            android:text="设置" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@android:color/white" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="7.5dp" >
+
+            <!-- ======== B、天气 ======= -->
+
+            <TextView
+                style="@style/setting_catalog_title"
+                android:text="天气" />
+
+            <LinearLayout style="@style/setting_item_multiple_ll" >
+
+                <!-- 城市管理 -->
+
+                <LinearLayout
+                    android:id="@+id/setting_weather_citys_ll"
+                    style="@style/setting_item_sub_ll" >
+
+                    <TextView
+                        style="@style/setting_item_title_textview"
+                        android:text="城市管理" />
+
+                    <ImageView style="@style/setting_item_open_image" />
+                </LinearLayout>
+
+                <View style="@style/setting_item_divider" />
+
+                <!-- 1、自动更新天气 -->
+
+                <LinearLayout
+                    android:id="@+id/setting_weather_refresh_ll"
+                    style="@style/setting_item_sub_ll" >
+
+                    <TextView
+                        style="@style/setting_item_title_textview"
+                        android:text="自动更新天气" />
+
+                    <TextView
+                        android:id="@+id/setting_weather_refresh_state"
+                        style="@style/setting_item_state_textview"
+                        android:text="自动" />
+
+                    <ImageView style="@style/setting_item_open_image" />
+                </LinearLayout>
+
+                <View style="@style/setting_item_divider" />
+
+                <!-- 2、默认空气指数 -->
+
+                <LinearLayout
+                    android:id="@+id/setting_pm_mgr_ll"
+                    style="@style/setting_item_sub_ll" >
+
+                    <TextView
+                        style="@style/setting_item_title_textview"
+                        android:text="默认空气指数" />
+
+                    <TextView
+                        android:id="@+id/setting_pm_source"
+                        style="@style/setting_item_state_textview"
+                        android:text="美使馆" />
+
+                    <ImageView style="@style/setting_item_open_image" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- ======== D、关于 ======== -->
+
+            <TextView
+                style="@style/setting_catalog_title"
+                android:visibility="gone"
+                android:text="关于" />
+
+            <LinearLayout style="@style/setting_item_multiple_ll" >
+
+                <LinearLayout
+                    android:id="@+id/btn_commit_suggestion"
+                    android:visibility="gone"
+                    style="@style/setting_item_sub_ll" >
+
+                    <FrameLayout
+                        android:layout_width="1dip"
+                        android:layout_height="47dip"
+                        android:layout_weight="1"
+                        android:minHeight="47dip" >
+
+                        <TextView
+                            style="@style/setting_item_title_textview"
+                            android:layout_gravity="center_vertical"
+                            android:text="提交意见" />
+
+                        <ImageView
+                            android:id="@+id/commit_suggestion_new_flag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|top"
+                            android:layout_marginLeft="5dip"
+                            android:src="@drawable/icon_new_flag"
+                            android:visibility="gone" />
+                    </FrameLayout>
+
+                    <ImageView style="@style/setting_item_open_image" />
+                </LinearLayout>
+
+                <View style="@style/setting_item_divider" android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/btn_about"
+                    style="@style/setting_item_sub_ll"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/setting_item_title_textview"
+                        android:text="关于..." />
+
+                    <TextView
+                        android:id="@+id/txt_version"
+                        style="@style/setting_item_state_textview"
+                        android:text="V1.0" />
+
+                    <ImageView style="@style/setting_item_open_image" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+	<LinearLayout
+	    android:id="@+id/banner" android:layout_width="match_parent"
+	    android:layout_height="115dip" android:visibility="gone" />
+</LinearLayout>

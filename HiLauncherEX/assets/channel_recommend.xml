@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recommend_list>
+
+  <!--   <recommend>
+      <apk>
+         <package_name>net.qihoo.launcher.app.whitespot</package_name>
+         <main_activity>net.qihoo.launcher.app.whitespot.WhiteSpotActivity</main_activity>
+         <app_name>小白点</app_name>
+         <app_enname>xiaobaidian</app_enname>
+         <app_icon>xiaobaidian.png</app_icon>
+         <apk_path src="local">xiaobaidian.mp3</apk_path>
+      </apk>
+      <launcher>
+         <screen>0</screen>
+         <x>1</x>
+         <y>1</y>
+         <span_x>1</span_x>
+         <span_y>1</span_y>
+      </launcher>
+   </recommend>
+   
+   <recommend>
+      <apk>
+         <package_name>com.mappn.gfan</package_name>
+         <main_activity>com.mappn.gfan.ui.SplashActivity</main_activity>
+         <app_name>机锋市场</app_name>
+         <app_enname>机锋市场</app_enname>
+         <app_icon>baidu.png</app_icon>
+         <apk_path src="http">http://da.91rb.com/android/soft/2012/tmp/GfanMobile_web783.apk</apk_path>
+      </apk>
+      <launcher>
+         <screen>0</screen>
+         <x>1</x>
+         <y>2</y>
+         <span_x>1</span_x>
+         <span_y>1</span_y>
+      </launcher>
+   </recommend>
+   
+   <recommend>
+      <apk>
+         <package_name>com.chinamobile.market</package_name>
+         <main_activity>com.chinamobile.market.MainActivity</main_activity>
+         <app_name>移动应用</app_name>
+         <app_enname>移动应用</app_enname>
+         <app_icon>baidu.png</app_icon>
+         <apk_path src="forward_http">http://a.10086.cn/pams2/mmj/mmTempDown.jsp?gId=300002560993&src=90.310008.00200004</apk_path>
+      </apk>
+      <launcher>
+         <screen>0</screen>
+         <x>1</x>
+         <y>3</y>
+         <span_x>1</span_x>
+         <span_y>1</span_y>
+      </launcher>
+   </recommend>-->
+   <!--<recommend>
+      <apk>
+         <package_name>net.qihoo.launcher.app.whitespot</package_name>
+         <main_activity>net.qihoo.launcher.app.whitespot.WhiteSpotActivity</main_activity>
+         <app_name>小白点</app_name>
+         <app_enname>xiaobaidian</app_enname>
+         <app_icon>xiaobaidian.png</app_icon>
+         <apk_path src="view_http">http://www.baidu.com</apk_path>
+      </apk>
+      <launcher>
+         <screen>0</screen>
+         <x>${align-left}</x>
+         <y>${align-bottom + 1}</y>
+         <span_x>1</span_x>
+         <span_y>1</span_y>
+      </launcher>
+   </recommend>-->
+</recommend_list>

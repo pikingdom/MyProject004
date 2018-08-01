@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_shop_v6_tab_bg"
+    android:orientation="vertical" >
+    
+    <GridView
+        android:id="@+id/local_theme_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/btn_enter_diy"
+        android:clipToPadding="false"
+        android:layout_marginLeft="@dimen/theme_shop_v6_ranking_img_margin_horizontalSpacing"
+        android:layout_marginRight="@dimen/theme_shop_v6_ranking_img_margin_horizontalSpacing"
+        android:paddingTop="11dip"
+        android:paddingBottom="60dip"
+        android:layout_weight="1.0"
+        android:cacheColorHint="#00000000"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/theme_shop_v6_ranking_img_margin_horizontalSpacing"
+        android:listSelector="@drawable/theme_shop_v6_transparent"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:transcriptMode="disabled"
+        android:verticalSpacing="@dimen/theme_shop_v6_ranking_img_margin_verticalSpacing" />
+
+    <LinearLayout
+        android:id="@+id/btn_entrance_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/theme_shop_v6_main_fun_band"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_enter_diy"
+            style="android:buttonStyle"
+            android:layout_width="0dp"
+            android:layout_height="37dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="8dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_btn_blue_selector"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="@string/theme_shop_enter_diy_theme"
+            android:textColor="@color/theme_btn_title"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_enter_series_diy"
+            style="android:buttonStyle"
+            android:layout_width="0dp"
+            android:layout_height="37dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="16dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_btn_blue_selector"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="@string/custom_theme_series"
+            android:textColor="@color/theme_btn_title"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/local_theme_batch_del"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/theme_shop_v6_main_fun_band"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/local_theme_batch_del_cancel"
+            style="android:buttonStyle"
+            android:layout_width="0dp"
+            android:layout_height="37dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="8dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_btn_cancel_selector"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="@string/common_button_cancel"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/local_theme_batch_del_ok"
+            style="android:buttonStyle"
+            android:layout_width="0dp"
+            android:layout_height="37dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="16dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_btn_blue_selector"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="@string/common_button_del"
+            android:textColor="@color/theme_btn_title"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <public id="0x7f070000" name="framework_viewfactory_no_data_img" type="id" />
+    <public id="0x7f070001" name="framework_viewfactory_no_data_title" type="id" />
+    <public id="0x7f070002" name="framework_viewfactory_no_data_textview" type="id" />
+    <public id="0x7f070003" name="hint_error" type="id" />
+    <public id="0x7f070004" name="frame_viewpager_tab_title_item_text" type="id" />
+    <!-- 
+    <public id="0x7f070005" name="framework_viewfactory_err_img" type="id" />
+    <public id="0x7f070006" name="framework_viewfactory_err_textview" type="id" />
+    <public id="0x7f070007" name="framework_viewfactory_err_btn" type="id" />
+    <public id="0x7f070008" name="common_dialog_layout" type="id" />
+    <public id="0x7f070009" name="common_dialog_top_icon" type="id" />
+    <public id="0x7f07000a" name="common_dialog_top_title" type="id" />
+    <public id="0x7f07000b" name="common_dialog_left_button" type="id" />
+    <public id="0x7f07000c" name="common_dialog_right_button" type="id" />
+    <public id="0x7f07000d" name="common_dialog_content" type="id" />
+    <public id="0x7f07000e" name="common_dialog_custom_view_layout" type="id" />
+	 -->
+    <public id="0x7f030000" name="framework_viewfactory_info_view" type="layout" />
+    <public id="0x7f030001" name="framework_viewfactory_data_error" type="layout" />
+    <public id="0x7f030002" name="framework_viewpager_tab_title_item" type="layout" />
+    <!-- 
+    <public id="0x7f030003" name="framework_viewfactory_err_info_view" type="layout" />
+    <public id="0x7f030004" name="common_dialog_layout" type="layout" />
+     -->
+    <public id="0x7f020000" name="myphone_common_no_data_bg" type="drawable" />
+    <public id="0x7f020001" name="frame_viewfacotry_net_break_img" type="drawable" />
+    <public id="0x7f020002" name="frame_viewfacotry_search_null_img" type="drawable" />
+    <public id="0x7f020003" name="framwork_viewfactory_err_info_img" type="drawable" />
+    <public id="0x7f020004" name="frame_viewfacotry_net_slowly_img" type="drawable" />
+    <!-- 助手应用商店通知栏图标,请勿修改 -->
+    <public id="0x7f020005" name="market_icon_notify" type="drawable" />
+    <!-- 助手应用商店通知栏图标,请勿修改 -->
+    <public id="0x7f020006" name="logo_magic_ball" type="drawable" />
+    <!-- 
+    <public id="0x7f020005" name="framwork_viewfactory_load_data_img" type="drawable" />
+	 -->
+</resources>

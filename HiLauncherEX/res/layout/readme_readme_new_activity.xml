@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/readme_activity_bg" >
+
+    <TextView
+        android:id="@+id/readme_apply_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="10dip"
+        android:paddingRight="20dip"
+        android:text="@string/readme_page_three_forward"
+        android:textColor="#fe898c"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <com.nd.hilauncherdev.readme.ReadMeSlidingView
+        android:id="@+id/readme_sliding_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lightbar"
+        android:layout_marginBottom="0dip" />
+
+</RelativeLayout>

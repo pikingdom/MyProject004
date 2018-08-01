@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 7 resources" deleteContents="true" description="Delete 7 resources" element1="/BDPlatformSDKHiLauncher_LibProject" element2="/CommonLibrary" element3="/HiLauncherEX" element4="/LauncherCore" element5="/MyPhone" element6="/ThemeShopV6" element7="/Weather_Widget_SDKNEW" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="7" stamp="1468468887902"/>
+</session>

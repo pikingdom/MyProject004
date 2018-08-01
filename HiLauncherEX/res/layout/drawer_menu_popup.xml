@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_margin="5dip"
+	android:orientation="vertical"
+	android:gravity="left|center_vertical">
+	
+    <LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="left|center_vertical"
+		android:background="@drawable/drawer_menu_background">
+	
+		<TextView android:id="@+id/drawer_menu_icon_sort"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center_vertical"
+			android:padding="10dip"
+			android:textColor="@android:color/black"
+			android:textSize="16sp"
+			android:text="@string/drawer_menu_icon_sort"
+			android:background="@drawable/drawer_menu_item_background" />
+			
+		<ImageView android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/classify_split"
+			android:background="@drawable/drawer_menu_seperator_line" />
+
+
+        <TextView android:id="@+id/drawer_menu_hide_app"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:gravity="center_vertical"
+                  android:padding="10dip"
+                  android:textColor="@android:color/black"
+                  android:textSize="16sp"
+                  android:text="@string/drawer_menu_hide_app"
+                  android:background="@drawable/drawer_menu_item_background" />
+			
+
+			
+		<ImageView android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/drawer_menu_seperator_line" />
+
+        <TextView android:id="@+id/drawer_menu_app_classify"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:gravity="center_vertical"
+                  android:padding="10dip"
+                  android:textColor="@android:color/black"
+                  android:textSize="16sp"
+                  android:text="@string/drawer_menu_auto_app_classify"
+                  android:background="@drawable/drawer_menu_item_background" />
+
+
+		<!-- 
+		<ImageView android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/drawer_menu_seperator_line" />
+			
+		<TextView android:id="@+id/drawer_menu_app_market"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center_vertical"
+			android:padding="10dip"
+			android:textColor="@android:color/black"
+			android:textSize="16sp"
+			android:text="@string/drawer_menu_app_market"
+			android:background="@drawable/drawer_menu_item_background" />
+		 -->	
+		<ImageView android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/drawer_menu_seperator_line" />
+
+        <TextView android:id="@+id/drawer_menu_new_folder"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:gravity="center_vertical"
+                  android:padding="10dip"
+                  android:textColor="@android:color/black"
+                  android:textSize="16sp"
+                  android:text="@string/drawer_menu_new_folder"
+                  android:background="@drawable/drawer_menu_item_background" />
+			
+
+		
+		 <ImageView android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/drawer_menu_seperator_line" />
+
+
+        <TextView android:id="@+id/drawer_menu_settings"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:gravity="center_vertical"
+                  android:padding="10dip"
+                  android:textColor="@android:color/black"
+                  android:textSize="16sp"
+                  android:text="@string/drawer_menu_settings"
+                  android:background="@drawable/drawer_menu_item_background" />
+		 
+		<!--<TextView android:id="@+id/drawer_menu_hide_widget_myphone"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center_vertical"
+			android:padding="10dip"
+			android:textColor="@android:color/black"
+			android:textSize="16sp"
+			android:text="@string/drawer_menu_hide_widget_myphone"
+			android:background="@drawable/drawer_menu_item_background" /> -->
+		
+	</LinearLayout>
+	
+    <ImageView android:layout_width="match_parent"
+		android:id="@+id/drawer_menu_angle_img"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drawer_menu_bottom_background" />
+	
+</LinearLayout>

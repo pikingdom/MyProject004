@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 引导小米去设置通知栏消息权限 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b21e1e1e"
+    android:gravity="center"
+    android:orientation="vertical">
+	<ImageView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	     />
+<!-- 	    android:src="@drawable/resolver_grid_mi_notification_message" -->
+	   
+    <TextView 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        android:text="@string/home_menu_guide_set_miui_tip3"/>
+</LinearLayout>

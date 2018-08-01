@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="common_view_holder" type="id"></item>
+    <item name="in_filter_item_id" type="id"></item>
+
+    <string name="theme_label">91主题</string>
+
+    <string name="frame_viewfacotry_data_load_text">正在很努力地很努力地加载中</string>
+    <string name="frame_viewfacotry_net_slowly_text">网络不给力,先休息下,稍后再试</string>
+    <string name="frame_viewfacotry_net_break_text">网络连接不成功,请检查网络是否已断开</string>
+    <string name="frame_viewfacotry_net_break_btn">网络设置</string>
+    <string name="frame_viewfacotry_show_netsetting_err">打开网络设置失败</string>
+    <string name="searchbox_hotword_detail_info_loading_content">正在加载应用详情</string>
+    <string name="searchbox_hotword_detail_info_loading_title">提示</string>
+    <string name="searchbox_hotword_detail_info_network_tips">您当前网络为2G/3G,查看应用缩略图将消耗流量</string>
+    <string name="searchbox_hotword_detail_info_network_tips_btn">继续查看</string>
+    <string name="searchbox_hotword_detail_info_products">应用简介</string>
+    <string name="searchbox_download">下　　载</string>
+    <string name="searchbox_waiting">等待下载</string>
+    <string name="searchbox_pause_with_progress">暂停(%d%%)</string>
+    <string name="searchbox_hotword_detail_info_app_version">版本:%s</string>
+    <string name="searchbox_downloading">下载中(%d%%)</string>
+    <string name="searchbox_download_completed">下载完成</string>
+    <string name="searchbox_canceled">已取消</string>
+    <string name="searchbox_hotword_detail_info_warn_qq">QQ</string>
+    <string name="searchbox_hotword_detail_info_warn_kingsoft">金山</string>
+    <string name="searchbox_hotword_detail_info_warn_lbe">安全管家</string>
+    <string name="searchbox_hotword_detail_info_warn_fruit">\u0020\u0020扫描结果</string>
+    <string name="searchbox_hotword_detail_info_warn_pass">通过</string>
+    <string name="searchbox_hotword_detail_info_warn_never_tested">未检测</string>
+    <string name="searchbox_hotword_detail_info">应用详情</string>
+    <string name="searchbox_hotword_detail_downnumber">下载次数:</string>
+    <string name="common_button_confirm">确定</string>
+    <string name="common_button_del">删除</string>
+    <string name="common_button_cancel">取消</string>
+    <string name="common_button_apply">应用</string>
+    <string name="common_button_open">打开</string>
+    <string name="common_button_use">启用</string>
+    <string name="common_button_used">已启用</string>
+    <string name="common_tip">提示</string>
+    <string name="common_button_i_know">我知道了</string>
+    <string name="common_button_install">安装</string>
+    <string name="common_download_failed">下载失败</string>
+    <string name="common_button_download">下载</string>
+    <string name="common_install_now">立即安装</string>
+    <string name="sd_clear_now">立即清理</string>
+    <string name="sd_dialog_title">温馨提示</string>
+    <string name="sd_sdisfull2">手机SD卡内存不足，可能无法下载使用，去清理一下吧！清理完成后将恢复下载。</string>
+    <string name="get_coin_free">免费得猫爪</string>
+    <string name="launcher_edit_individal">个性化</string>
+    <string name="user_feedback_content_none">反馈内容不能为空</string>
+    <string name="theme_shop_no_download_title">能不能告诉我 你喜欢什么嘛！</string>
+    <string name="theme_shop_no_download_message">你都没有下载资源！</string>
+    <string name="btn_theme_upgrade">升级</string>
+    <string name="upgrade_theme">主题升级提示</string>
+    <string name="upgrade_theme_msg">《%1$s》可升级，更新内容：\n</string>
+    <string name="btn_theme_upgrade_now">马上升级</string>
+    <string name="profile_paihang">排行</string>
+    <string name="profile_fenlei">分类</string>
+    <string name="profile_zhuanji">专辑</string>
+    <string name="profile_hunda">混搭</string>
+    <string name="profile_bendi">本地</string>
+    <string name="profile_owner">个人中心</string>
+
+    <!-- root提示 -->
+
+	<string name="diy">美图</string>
+	<string name="comic">天天漫画</string>
+	<string name="paster">桌面贴纸</string>
+	<string name="plugin_theme_diy">主题DIY</string>
+	<string name="author">作者： </string>
+    <string name="zp_not_find_tip">未能找到图片</string>
+    <string name="zp_save_tip">图片已保存到图库</string>
+    <string name="zp_exist_tip">图片已存在图库中</string>
+    <string name="save_zp_title">保存图片</string>
+    <string name="create_zp_title">我来创作</string>
+    <string name="custom_theme_series">制作天天主题</string>
+    <string name="save_and_apply">生成天天主题</string>
+    <string name="interval_time">切换间隔</string>
+    <string name="edit_error_tip1">请先退出编辑模式</string>
+    <string name="edit_error_tip2">请输入主题名称</string>
+    <string name="edit_error_tip3">请选择时间间隔</string>
+    <string name="edit_error_tip4">至少需要两个主题,请选择主题</string>
+    <string name="delete_confirm">确定删除</string>
+    <string name="create_series_theme_tip">制作自定义主题系列至少需要两个普通主题!</string>
+    <string name="custom_theme_series_drag_hint">长按拖动可更改排序</string>
+	<string name="custom_theme_series_name">主题名称</string>
+	<string name="custom_theme_series_interval">切换间隔</string>
+	<string name="custom_theme_series_recommend_hint">推荐到91桌面，将有机会展示在个性化首页“大家天天荐”栏目</string>
+	<string name="custom_theme_series_generating">天天主题生成中...</string>
+	<string name="custom_theme_series_recommend_success">天天主题推荐成功！</string>
+	<string name="custom_theme_series_recommend_fail">天天主题推荐失败！</string>
+	<string name="custom_theme_series_name_hint">主题名称</string>
+	<string name="custom_theme_series_desc_hint">主题描述</string>
+	<string name="custom_theme_series_desc_default">#天天主题# 每天不一样的好心情！</string>
+	<string name="custom_theme_series_tag_hint">主题标签，多个标签以分号区隔</string>
+	<string name="custom_theme_series_interval_hint">自动切换时间：</string>
+	<string name="custom_theme_series_interval_three_hour">约3小时</string>
+	<string name="custom_theme_series_interval_six_hour">约6小时</string>
+	<string name="custom_theme_series_interval_one_day">1天</string>
+	<string name="custom_theme_series_interval_two_day">2天</string>
+	<string name="custom_theme_series_interval_one_week">1周</string>
+	<string name="custom_theme_series_select_confirm">选好了</string>
+	<string name="custom_theme_series_select_hint">请选择至少2个主题</string>
+    
+    <!-- 会员积分 -->
+    <string name="redpacket_award_title">恭喜你获得1个红包</string>
+    <string name="redpacket_award_subhead">明天可能还会有哦！</string>
+    <string name="redpacket_award_tips">红包已放账户中，请在【我的】页面查看</string>
+    <string name="redpacket_award_theme_coupon_tips">主题券可用于购买付费主题</string>
+    <string name="redpacket_award_theme_coupon">主题券</string>
+    <string name="redpacket_award_maozhua_coupon">猫爪券</string>
+    <string name="redpacket_award_theme_coupon_pieces">剩余</string>
+    <string name="redpacket_award_theme_coupon_count">·\u0020%s张</string>
+    <string name="redpacket_award_theme_coupon_use_explain">·\u0020可兑换任意一款收费主题</string>
+    <string name="redpacket_award_maozhua_coupon_use_explain">·\u0020可在购买主题时抵扣相应猫爪</string>
+    <string name="redpacket_award_theme_coupon_use_explain1">·\u0020限当前账号使用</string>
+    <string name="redpacket_award_theme_coupon_deadline">%s过期</string>
+    
+    <string name="redpacket_my_redpacket_title">我的红包</string>
+    <string name="redpacket_my_redpacket_history_title">历史红包</string>
+    <string name="redpacket_my_redpacket_title_tab_theme_redpage">红包</string>
+    <string name="redpacket_my_redpacket_title_tab_maozhua_redpage">猫爪券</string>
+    
+    <string name="redpacket_my_redpacket_title_tab_available">可用红包</string>
+    <string name="redpacket_my_redpacket_title_tab_available_header1">有</string>
+    <string name="redpacket_my_redpacket_title_tab_available_header2">个红包即将过期</string>
+    <string name="redpacket_my_redpacket_title_tab_available_header3">红包说明</string>
+    <string name="redpacket_my_redpacket_title_tab_history">查看已过期红包</string>
+    <string name="redpacket_my_redpacket_tips">神马都没有，升级会员拿更多红包哦~</string>
+    <string name="redpacket_my_redpacket_convert">兑换红包</string>
+    <string name="redpacket_my_redpacket_convert_edittext_tips">请输入兑换码</string>
+    <string name="redpacket_my_redpacket_convert_btn_tips">兑换</string>
+    <string name="redpacket_my_redpacket_convert_tips1">请输入正确的兑换码！</string>
+    <string name="redpacket_my_redpacket_convert_tips2">兑换失败，请重试！</string>
+    <string name="redpacket_my_redpacket_convert_tips3">兑换码不正确！</string>
+    <string name="redpacket_my_redpacket_convert_tips4">兑换码已经被使用！</string>
+    
+    <string name= "personal_center_setting_level">当前等级</string>
+    <string name= "personal_center_setting_level1">P0用户</string>
+    <string name= "personal_center_setting_level2">P1会员</string>
+    <string name= "personal_center_setting_level3">P2会员</string>
+    <string name= "personal_center_setting_level4">P3会员</string>
+    <string name= "personal_center_setting_level5">P4会员</string>
+    <string name= "personal_center_setting_upgrade">升级</string>
+    <string name= "personal_center_setting_upgrade_tips1">本月还差%1$s新增积分即可升级至%2$s</string>
+    <string name= "personal_center_setting_upgrade_tips2">已经可以升级%s,可享更多权益!</string>
+    <string name= "personal_center_integral_detail">积分详情</string>
+    <string name= "personal_center_integral_detail_loading_more">点击加载更多</string>
+    <string name= "personal_center_integral_detail_count">积分总额</string>
+    <string name= "personal_center_integral_detail_month_added">本月新增</string>
+    <string name= "personal_center_integral_detail_getintegral">赚积分</string>
+    <string name= "personal_center_integral_detail_exchangeintegral">兑换积分</string>
+    <string name= "personal_center_integral_detail_now_integral">当前积分</string>
+    <string name= "personal_center_integral_detail_no_integral">没有更多积分数据了!</string>
+    <string name= "personal_center_integral_detail_hot_exchange_goods">热门兑换商品</string>
+    <string name= "personal_center_integral_detail_hot_exchange_tips1">想用积分兑换以上商品吗，</string>
+    <string name= "personal_center_integral_detail_hot_exchange_tips2">快戳我赚积分吧！</string>
+    <string name= "personal_center_integral_detail_hot_integral">积分</string>
+    <string name= "personal_center_integral_detail_now_month">本月</string>
+    <string name= "personal_center_integral_detail_month">月</string>
+    <string name= "personal_center_integral_detail_last_year">去年</string>
+    <string name= "personal_center_integral_detail_two_years_ago">前年</string>
+    
+    <string name= "theme_shop_item_member_tips">免费购买</string>
+    <string name= "theme_shop_item_member_tips1">兑换</string>
+    
+    <string name= "theme_shop_open_member_tips">会员有效期为30天,等级越高拥有越多特权奖励和积分加成奖励。</string>
+    <string name= "theme_shop_open_member_p1_tips">当月新增积分>100</string>
+    <string name= "theme_shop_open_member_p1_tips1">每天登录可免费下载一套付费主题</string>
+    <string name= "theme_shop_open_member_p2_tips">当月新增积分>500</string>
+    <string name= "theme_shop_open_member_p2_tips1">每天可随机免费下载N套付费主题,N>1</string>
+    <string name= "theme_shop_open_member_p3_tips">当月新增积分>3000</string>
+    <string name= "theme_shop_open_member_p3_tips1">可免费下载1000套付费主题</string>
+    <string name= "theme_shop_open_member_p4_tips">当月新增积分>20000</string>
+    <string name= "theme_shop_open_member_p4_tips1">可免费下载3000套付费主题</string>
+    <string name= "theme_shop_open_member_member_introduce">详细会员介绍请戳</string>
+    <string name= "theme_shop_open_member">开通会员</string>
+    <string name= "theme_shop_open_member_final">开通会员失败，请重试</string>
+    <string name= "theme_shop_open_member_member_introduce_link">91桌面会员等级规则</string>
+    <string name= "theme_shop_open_member_btn1">立即开通</string>
+    <string name= "theme_shop_open_member_btn2">积分不足,点击赚取积分</string>
+    <string name= "theme_shop_open_member_btn3">积分不足,点击99猫爪快速购买</string>
+    <string name= "theme_shop_open_member_btn4">积分不足,点击199猫爪快速购买</string>
+    <string name= "theme_shop_open_member_btn5">请选择开通更高级会员</string>
+    <string name= "theme_shop_open_member_btn6">您已是最高级会员</string>
+    <string name= "theme_shop_open_member_btn7">请登录</string>
+    <string name= "theme_shop_open_member_upgrade">会员开通成功!</string>
+    <string name= "theme_shop_open_member_upgrade_final">会员升级失败!</string>
+    <string name= "theme_shop_open_member_upgrade_final1">当前开通等级较低，请升级更高级的会员哦~</string>
+    
+    <string name= "theme_shop_open_member_from_pay">免费开通会员</string>
+    <string name= "theme_shop_open_member_from_pay_tips">您暂未达到会员开通资格，做任务可马上升级会员!</string>
+    <string name= "theme_shop_open_member_from_pay_tips1">您还可以直接购买高级会员，快速享受会员权益!</string>
+    <string name= "theme_shop_open_member_from_pay_tips3">您已满足开通%s会员的条件，是否马上开通？</string>
+    <string name= "theme_shop_open_member_from_pay_btn1">做任务开通会员</string>
+    <string name= "theme_shop_open_member_from_pay_btn2">立即开通</string>
+    <string name= "theme_shop_open_member_from_pay_p3_title">99猫爪/月</string>
+    <string name= "theme_shop_open_member_from_pay_p3_content">30天下载1000款付费主题，2倍积分加速</string>
+    <string name= "theme_shop_open_member_from_pay_buy">购买</string>
+    <string name= "theme_shop_open_member_from_pay_p4_title">199猫爪/月</string>
+    <string name= "theme_shop_open_member_from_pay_p4_content">30天下载3000款付费主题，3倍积分加速</string>
+    <string name= "theme_shop_open_member_from_pay_member_detail">会员等级说明详情</string>
+    <string name= "theme_shop_open_member_from_pay_buy_month">个月会员</string>
+    
+    <string name= "theme_shop_member_buy_theme_message1">您当前主题券不足，是否直接购买？</string>
+    <string name= "theme_shop_member_buy_theme_message2">此次兑换将消耗一张主题券，是否兑换？</string>
+    <string name= "theme_shop_member_buy_theme_message3">此次兑换将消耗一张夺宝主题券，是否兑换？</string>
+    <string name= "theme_shop_member_buy_theme_title">提醒</string>
+    <string name= "theme_shop_member_buy_theme_btn">直接购买</string>
+    
+    <string name = "member_integral_get_integral_webview_title">每日任务</string>
+    <string name = "member_integral_get_integral_webview_tips"><![CDATA[做任务赚积分，升级会员免费下载付费主题！<font color="#00BCD5">点击查看详情</font>]]></string>
+    <string name = "member_integral_member_level_rule_webview_title">会员等级规则</string>
+    <string name = "member_integral_member_integral_webview_title">积分说明</string>
+    <string name = "member_integral_redpacket_explain_webview_title">红包说明</string>
+    <string name="feed_collect_failed_tip">操作失败，请稍后再试</string>
+    <string name="feed_report_success_tip">举报成功</string>
+
+    <string name="duiba_enter_loading">正在跳转到积分商城...</string>
+    <string name="duiba_jump_login_title">跳转登录</string>
+    <string name="duiba_jump_login_message">跳转到登录页面？</string>
+    <string name="duiba_copycode_title">复制券码</string>
+    <string name="duiba_copycode_message">券码为：</string>
+
+    <string name= "theme_shop_my_member">我的会员</string>
+	<string name= "theme_shop_my_member_member_progress">会员进度</string>
+	<string name= "theme_shop_my_member_member_strategy">会员攻略></string>
+	<string name= "theme_shop_my_member_month_added">本月新增积分</string>
+	<string name= "theme_shop_my_member_my_privilege">我的特权</string>
+	<string name= "theme_shop_my_member_all_privilege">所有特权></string>
+	<string name= "theme_shop_my_member_all_privilege1">全部特权</string>
+    <string name= "theme_shop_my_member_get_integral">赚取积分快速升级</string>
+    <string name= "theme_shop_my_member_buy_member">直接购买高级会员</string>
+    <string name= "theme_shop_my_member_upgrade_animation_tips">恭喜成功升级至%s会员更多特权与奖励请查收</string>
+    <string name= "theme_shop_my_member_status">身份铭牌</string>
+    <string name= "theme_shop_my_member_status_tips">独特的会员标示，彰显您的身份，等级越高身份铭牌更高贵。</string>
+    <string name= "theme_shop_my_member_redpackage_p1">p1会员专属红包</string>
+ 	<string name= "theme_shop_my_member_redpackage_p1_tips">每天登陆都可获得红包，红包内包含一张主题兑换券，兑换券可免费下载付费主题。</string>
+ 	<string name= "theme_shop_my_member_redpackage_p2">p2会员专属红包</string>
+ 	<string name= "theme_shop_my_member_redpackage_p2_tips">每天登陆都可获得红包，红包内包含N张主题兑换券（N>1），兑换券可免费下载付费主题。</string>
+ 	<string name= "theme_shop_my_member_redpackage_p3">p3会员专属红包</string>
+ 	<string name= "theme_shop_my_member_redpackage_p3_tips">赠送包含1000张主题券的红包，30天内有效。</string>
+ 	<string name= "theme_shop_my_member_redpackage_p4">p4会员专属红包</string>
+ 	<string name= "theme_shop_my_member_redpackage_p4_tips">赠送包含3000张主题券的红包，30天内有效。</string>
+ 	<string name= "theme_shop_my_member_integral_speed">积分加速</string>
+    <string name= "theme_shop_my_member_integral_speed_tips">P3享有2倍积分加速，P4会员享有3倍积分加速</string>
+    <string name= "theme_shop_my_member_upgrade_member_get_privilege">升级会员畅想更多特权</string>
+    <string name= "theme_shop_my_member_login">登录领取特权</string>
+    <string name= "theme_shop_my_member_login_tips">(新注册用户送50积分)</string>
+    <string name= "theme_shop_my_member_upgrade">升级</string>
+    <string name= "theme_shop_my_member_buy_member_title">购买高级会员</string>
+    <string name= "theme_shop_my_member_buy_member_time">30天</string>
+ 	<string name= "theme_shop_my_member_buy_member_p3_price">￥9.9</string>
+ 	<string name= "theme_shop_my_member_buy_member_p3_interest">赠送包含1000张主题券的红包，一张主题券可免费下载一套付费主题;2倍积分加速，获得积分奖励都将X2。</string>
+ 	<string name= "theme_shop_my_member_buy_member_p4_price">￥19.9</string>
+ 	<string name= "theme_shop_my_member_buy_member_p4_interest">赠送包含3000张主题券的红包，一张主题券可免费下载一套付费主题;3倍积分加速，获得积分奖励都将X3。</string>
+ 	<string name= "theme_shop_member_encourage_title">任性送积分了！恭喜您获得91桌面随机赠送的50积分，还差50积分即可升级P1会员，免费下载付费主题了！</string>
+ 	<string name= "theme_shop_member_encourage_content">领取积分并查看详情</string>
+ 	<string name = "theme_shop_member_auto_login_error">自动登录失败</string>
+
+    <string name = "theme_shop_member_buy_member_choose_month">选择开通月份</string>
+    <string name = "theme_shop_member_buy_member_choose_month_common">个月</string>
+    <string name = "theme_shop_member_buy_member_choose_month_unit">元</string>
+    <string name = "theme_shop_member_buy_member_choose_month_1">1个月</string>
+    <string name = "theme_shop_member_buy_member_choose_month_6">6个月</string>
+    <string name = "theme_shop_member_buy_member_choose_month_12">12个月</string>
+    <string name = "theme_shop_member_buy_member_choose_month_18">18个月</string>
+    <string name = "theme_shop_member_buy_member_choose_month_tips1">开通大于半年，额外获</string>
+    <string name = "theme_shop_member_buy_member_choose_month_tips2">赠1个月会员</string>
+    <string name = "theme_shop_member_buy_member_choose_month_tips3">开通大于一年，额外获</string>
+    <string name = "theme_shop_member_buy_member_choose_month_tips4">赠3个月会员</string>
+    <string name = "theme_shop_member_buy_member_choose_month_affirm">确认</string>
+ 	
+    <string name="feed_pic_num">%s张图片</string>
+    <string name="feed_follow_num">%s关注</string>
+    <string name="feed_follow_tag_num">%s关注标签</string>
+    <string name="image_loading_tip">图片正在加载中..</string>
+    <string name="desc_shrinkup">收起</string>
+    <string name="desc_spread">显示更多</string>
+    <string name="show_all_text">展示全文</string>
+    <string name="collapse_text">收起</string>
+    <string name="feed_audit_desc">审核结果:%s</string>
+    <string name="sizeLimitSeven">最多显示前7套主题</string>
+    <string name="account_login">登录</string>
+
+    <string name="shop_theme_v7_hourtheme_hot">1小时人气主题</string>
+    <string name="shop_theme_v7_hourtheme_download">正在下载</string>
+
+    <string name="shop_theme_v7_recommend_series">天天主题</string>
+    <string name="shop_theme_v8_guess_you_like_theme">猜你喜欢的主题</string>
+    <string name="shop_theme_v8_guess_you_like_wallpaper">猜你喜欢的壁纸</string>
+    <string name="shop_theme_v8_member_recommend">会员优选</string>
+    <string name="shop_theme_v8_editor_recommend">编辑精选</string>
+    <string name="shop_theme_v8_more_entrance">看看其他美化资源</string>
+    <string name="shop_theme_v8_choose_style">选择你的风格</string>
+    <string name="shop_theme_v8_video_wallpaper">视频壁纸</string>
+
+    <!-- 主题商城设置默认桌面引导 -->
+    <string name="theme_shop_v6_guide_set_launcher_banner_view_strategy">如何免费下载付费主题?</string>
+    <string name="theme_shop_v6_guide_set_launcher_activity_btn_text1">设置默认桌面</string>
+    <string name="theme_shop_v6_guide_set_launcher_activity_btn_text2">登录领券</string>
+    <string name="theme_shop_v6_guide_set_launcher_activity_btn_text3">已领券</string>
+    <string name="theme_shop_v6_guide_set_launcher_activity_btn_text4">领券</string>
+    <string name="theme_shop_v6_guide_set_launcher_activity_tips1"><![CDATA[亲，你还没有把91桌面设置为默认桌面噢~设置91桌面为默认桌面每次点击HOME键就可以回到91桌面啦~现在设置还能额外获得<font color="#E7364E">100主题券</font>与<font color="#E7364E">50积分</font>的奖励哦]]></string>
+	<string name="theme_shop_v6_guide_set_launcher_activity_tips2">主题券请在个人中心-红包内查看</string> 
+	<string name="theme_shop_v6_guide_set_launcher_activity_final">设置默认桌面失败，请重试!</string> 
+	<string name="theme_shop_v6_guide_set_launcher_login_award_activity_text"><![CDATA[登录91桌面账号就能领取<font color="#E7364E">100主题券</font>与<font color="#E7364E">50积分</font>的奖励啦~！]]></string>
+	<string name="theme_shop_v6_guide_set_launcher_login_award_final">领券失败，请重试!</string>
+    <!-- 该值用于UriDeliveryActivity  UriParser -->
+    <string name="x5_launcher_action">#x5_launcher_action#</string>
+</resources>

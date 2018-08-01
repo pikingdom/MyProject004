@@ -1,0 +1,144 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <item type="id" name="common_view_holder"></item>
+    <item type="id" name="drager_controller_on_drag_exit_in_action_move"></item>
+    
+	<string name="common_button_yes">Ya</string>
+	<string name="common_button_no">Tidak</string>
+	
+    <!-- 通用按钮 -->
+    <string name="common_button_confirm">OK</string><!-- 14 -->
+    <string name="common_button_cancel">Batal</string><!-- 14 -->
+    <string name="common_button_apply">Terapkan</string><!-- 14 -->
+    <string name="common_button_return">Kembali</string><!-- 14 -->
+    <string name="common_button_preview">Pratinjau</string><!-- 14 -->
+    <string name="common_button_download_more">Download Lainnya</string><!-- 14 -->
+    <string name="common_button_download_skin">Download Skin</string><!-- 14 -->
+    <string name="common_button_download">Download</string><!-- 14 -->
+    <string name="common_button_downloading">Men-download</string><!-- 14 -->
+    <string name="common_button_save">Simpan</string><!-- 14 -->
+    <string name="common_button_discard">Buang</string><!-- 14 -->
+    <string name="common_button_back_to_home">Beranda</string><!-- 14 -->
+    <string name="common_button_default">Default</string><!-- 14 -->
+    <string name="common_button_share">Bagikan</string><!-- 14 -->
+    <string name="common_button_search">Cari</string><!-- 14 -->
+    <string name="common_button_view_detail">Detail</string><!-- 14 -->
+    <string name="common_button_commit">Kirim</string><!-- 14 -->
+    <string name="common_button_add">Baru</string><!-- 14 -->
+    <string name="common_button_addto">Tambah</string><!-- 14 -->
+    <string name="common_button_edit">Edit</string><!-- 14 -->
+    <string name="common_button_delete">Hapus</string><!-- 14 -->
+    <string name="common_button_modify">Ubah</string><!-- 14 -->
+    <string name="common_button_set">Setelan</string><!-- 14 -->
+    <string name="common_button_update">Perbarui</string><!-- 14 -->
+    <string name="common_button_uninstall">Uninstal</string><!-- 14 -->
+    <string name="common_button_install">Instal</string><!-- 14 -->
+    <string name="common_button_redownload">Download lagi</string><!-- 14 -->
+    <string name="common_button_refresh">Segarkan</string><!-- 14 -->
+    <string name="common_button_manager">Manajer</string><!-- 14 -->
+    <string name="common_button_enabled">Aktifkan</string><!-- 14 -->
+    <string name="common_button_closed">Nonaktifkan</string><!-- 14 -->
+    <string name="common_button_close">Tutup</string><!-- 14 -->
+    <string name="common_checkbox_not_alert">Jangan tampilkan lagi</string><!-- 14 -->
+    <string name="common_button_i_know">OK</string><!-- 14 -->
+    <string name="common_button_continue">Lanjut</string><!-- 14 -->
+    <string name="common_button_recover">Pulihkan</string><!-- 14 -->
+    <string name="common_button_complate">Selesaikan</string><!-- 14 -->
+    <string name="common_button_editable">Edit</string><!-- 14 -->
+    <string name="common_button_clear">Bersihkan</string><!-- 14 -->
+    <string name="common_tip">Kiat</string><!-- 14 -->
+    <string name="common_alert">Perhatikan</string><!-- 14 -->
+    <string name="common_download_success">Download berhasil</string><!-- 14 -->
+    <string name="common_download_ended">Di-download</string><!-- 14 -->
+    <string name="common_download_failed">Download gagal</string><!-- 14 -->
+    <string name="common_uninstalled">Belum diinstal</string><!-- 14 -->
+    <string name="common_downloading">Men-download...</string><!-- 14 -->
+    <string name="common_loading">Memuat...</string><!-- 14 -->
+    <string name="common_install_now">Instal Sekarang</string><!-- 14 -->
+    <string name="common_download_now">Download Sekarang</string><!-- 14 -->
+    <string name="common_refresh">Segarkan</string><!-- 14 -->
+    <string name="common_installed">Diinstal</string><!-- 14 -->
+    <string name="common_refresh_failed">Penyegaran gagal</string><!-- 14 -->
+	<string name="common_button_enter">Mulai</string><!-- 14 -->
+	<string name="common_button_open_now">Aktifkan sekarang</string><!-- 14 -->
+	<string name="common_button_use_now">Gunakan sekarang</string><!-- 14 -->
+	<string name="common_button_restart_now">Mulai ulang sekarang</string><!-- 14 -->
+	<string name="common_button_open">Buka</string><!-- 14 -->
+	<string name="common_button_use">Aktifkan</string><!-- 14 -->
+	<string name="common_button_used">Diaktifkan</string><!-- 14 -->
+	<string name="common_button_ignore">Abaikan</string><!-- 14 -->
+	
+	
+	<string name="main_dock_notification_disable_hint">Bilah Alat Notifikasi ditutup. Buka dulu Bilah Alat Notifikasi.</string>
+	
+	<string name="out_of_space" msgid="8365249326091984698">Ruang di layar tidak memadai</string>
+	<string name="shortcut_installed" msgid="7071557296331322355">
+		<xliff:g id="NAME">%s</xliff:g> pintasan dibuat.
+	</string>
+	<string name="shortcut_uninstalled" msgid="2129499669449749995">
+		<xliff:g id="NAME">%s</xliff:g> pintasan dihapus.
+	</string>
+	<string name="shortcut_duplicate" msgid="4757756326465060694">
+		<xliff:g id="NAME">%s</xliff:g> pintasan sudah ada.
+	</string>
+	<string name="activity_not_found" msgid="3571057450431950427">Tidak ada apl yang diinstal di ponsel Anda.</string>
+	<string name="shortcut_toolong">Karakter tidak valid. Tidak dapat ditambahkan.</string>
+	
+	<string name="spring_add_app_from_drawer_reset">Tidak dapat pindah ke lokasi ini</string>
+	<string name="message_preview_delete_screen">Hapus layar dan semua kontennya?</string>
+	<string name="message_preview_delete_screen_not_allow">Ikon Daftar Apl ada di layar. Tidak dapat dihapus.</string>
+	<string name="settings_about_no_market_title">App Store belum diinstal di ponsel Anda.</string>
+	<string name="dockbar_null_intent">Data abnormal</string>
+	
+	<string name="folder_drag_out_error">Ruang di layar ini tidak memadai. Tambahkan ke layar lain.</string>
+	
+	<!-- root提示 -->
+	<string name="myphone_root_fail_title">Akses hak istimewa ROOT gagal</string><!-- 14 -->
+	<string name="myphone_root_fail_desc">Beranda tidak dapat mengakses hak istimewa ROOT. Izinkan hak istimewa ROOT di apl manajemen seperti SuperUser KingUser.</string>
+	
+	<string name="frame_viewfacotry_err_info_text">Kesalahan!</string><!-- 14 -->
+    <string name="frame_viewfacotry_data_load_text">Pemuatan sangat lambat</string>
+    <string name="frame_viewfacotry_search_null">Tidak ada konten yang relevan. Coba yang lainnya.</string>
+    <string name="frame_viewfacotry_download_null">Tidak ada apa pun di sini. Tambahkan konten sekarang!</string>
+    <string name="frame_viewfacotry_net_slowly_text">Download gagal. Ada yang salah dengan koneksi jaringan.</string>
+    <string name="frame_viewfacotry_net_break_text">Download gagal. Sakelar jaringan tidak diaktifkan.</string>
+    <string name="frame_viewfacotry_net_break_btn">Buka Setelan</string><!-- 14 -->
+    <string name="frame_viewfacotry_show_netsetting_err">Buka Setelan Jaringan gagal</string><!-- 14 -->
+    <string name="frame_viewfacotry_net_slowly_reflesh_btn">Segarkan</string><!-- 14 -->
+    <string name="frame_viewfactory_dialog_title">Kiat beranda</string><!-- 14 -->
+    <string name="frame_viewfactory_err_title">Kesalahan!</string><!-- 14 -->
+    <string name="frame_viewfactory_err_content_text">Maaf. Kesalahan! Kami perlu tanggapan Anda untuk membantu kami memperbaiki masalah secepatnya. Yakinlah bahwa kami hanya mengumpulkan informasi kesalahan. Kami tidak akan mengumpulkan informasi pribadi Anda.</string>
+    <string name="frame_viewfactory_tell_us">Beri tahu kami</string><!-- 14 -->
+    <string name="frame_viewfactory_cancle">Batal</string><!-- 14 -->
+    <string name="frame_viewfactory_send_failed">Ponsel Anda tidak memiliki akun Gmail terikat. Pesan tidak dapat dikirim.</string>
+    <string name="frame_viewfactory_del_error_widget_1">Masalah Layar Beranda dapat mengganggu penggunaan normal. Maaf atas ketidaknyamanan ini. Anda dapat memilih Atur ulang pada setelan awal untuk memperbaiki masalah ini. Pulihkan setelan awal sekarang?</string>
+    <string name="frame_viewfactory_del_error_widget_2">Setelah diatur ulang, widget di Layar Beranda akan dihapus untuk memastikan Anda dapat menggunakan Layar Beranda secara normal. Apakah Anda ingin melanjutkan atur ulang?</string>
+    <string name="frame_viewfactory_restore">Atur ulang</string><!-- 14 -->
+    <string name="frame_viewfactory_err_content_text_widget">Widget %1$s mengalami sedikit masalah. Kami akan menghapusnya dari Layar Beranda dan memulai ulang. Jika perlu menggunakannya lagi, Anda bisa menemukannya di Daftar Widget -> Widget.</string>
+    <string name="frame_viewfactory_err_content_downgrade">Ponsel Anda tidak mendukung penurunan versi APL. Atur ulang Layar Beranda untuk memperbaiki masalah.</string>
+    <string name="frame_viewfactory_upgrade_now">Perbarui sekarang</string><!-- 14 -->
+    <string name="frame_viewfactory_next_time">Tanya saya lain kali</string><!-- 14 -->
+    <string name="frame_viewfactory_err_content_upgrade">Maaf! Layar Beranda mengalami sedikit masalah! Belajarlah dari pemrogram berpengalaman: pembaruan ke versi terbaru bisa memperbaikinya. Ayo, coba saja!</string>
+    
+    <string name="uninstallapp_no_this_appinfo">Tidak ada info tentang apl ini. Uninstal gagal.</string><!-- 14 -->
+    <string name="gadget_error_text" msgid="8359351016167075858">Ada masalah saat pemuatan widget</string>
+    
+    <!-- 屏幕预览 -->
+    <string name="message_preview_cannot_delete_screen">Tidak dapat menghapus layar terakhir</string>
+    <string name="message_preview_set_default_screen">Jadikan layar default</string>
+    <string name="message_preview_out_of_screen">Ruang di layar ini tidak memadai. Tambahkan ke layar lain.</string>
+    <string name="message_preview_fail_drag_to_screen">Gagal memindahkan ikon</string>
+    
+    <string name="edit_lock_toast_lock">Fitur edit dikunci</string>
+    
+    <!-- Dock栏图标名称 -->
+    <string name="dockbar_dock_dial">Panggil nomor</string>
+	<string name="dockbar_dock_contacts">Kontak</string>
+	<string name="dockbar_dock_browser">Browser</string>
+	<string name="dockbar_dock_sms">Pesan</string>
+	<string name="dockbar_allow">Tidak dapat menyeret Bilah Dok</string>
+	
+	<string name="hint_sdcard_available">Kartu SD dimuat. Ikon Layar Beranda akan disegarkan sekarang.</string>
+
+	<!-- ##################################以上部分2015/5/12已提供################################## -->
+	
+</resources>

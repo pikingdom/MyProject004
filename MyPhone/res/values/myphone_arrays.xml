@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 网上壁纸缓存数量 -->
+    <string-array name="online_wallpaper_cache_count">
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+        <item>无上限</item>
+    </string-array>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#77000000">
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:id="@+id/common_dialog_layout"
+                    android:layout_alignParentBottom="true"
+                    android:background="#ffffff"
+                    android:layout_height="wrap_content">
+         <FrameLayout 
+             android:id="@+id/common_dialog_top_layout"
+             android:layout_width="match_parent"
+	         android:layout_height="wrap_content">
+	         <LinearLayout 
+	           android:layout_width="match_parent"
+	           android:layout_height="117.5dp"
+	           android:orientation="vertical"
+	           android:background="@drawable/bg_card"
+	           android:gravity="center">
+	       		<TextView
+			        android:id="@+id/theme_campaign_banner"
+			        android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:text="@string/set_default_home_goodandcoming_tips1"
+		            android:textColor="#ff00BCD5"
+		            android:gravity="center"
+		            android:textSize="12sp"/>
+	       		<TextView
+			        android:id="@+id/theme_campaign_banner"
+			        android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="10dp"
+		            android:text="@string/set_default_home_goodandcoming_tips2"
+		            android:textColor="#ff00BCD5"
+		            android:gravity="center"
+		            android:textSize="18sp"/>
+       		</LinearLayout>
+	        <RelativeLayout
+	            android:id="@+id/common_dialog_top_relativelayout"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/set_default_home_mostbeautiful">
+        	</RelativeLayout>
+         </FrameLayout>
+
+        <com.nd.hilauncherdev.kitset.resolver.MaterialButton
+                android:id="@+id/common_dialog_button"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/common_dialog_top_layout"
+                android:layout_marginRight="10dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:textColor="#1c1c1c"
+                android:text="@string/set_default_home_goodandcoming"
+                android:textSize="15sp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

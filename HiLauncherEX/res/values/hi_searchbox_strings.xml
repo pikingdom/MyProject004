@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- 搜索盒子 -->
+    
+    <string name="searchbox_baidu_input_hint">快捷搜索网页、应用、视频</string>
+    <string name="searchbox_baidu_widget_input_hint">百度一下</string>
+    <string name="searchbox_searchwebtab_input_hint">本机搜索</string>
+	<string name="searchbox_input_hint">可搜索本地应用及网络</string>  
+    <string name="searchbox_search_for">百度手机助手搜索“%s”</string>
+    <string name="searchbox_search_for_recommend_bdsjzs">百度手机助手,实现高速下载、精准搜索,万千汇聚,一触即得。</string>
+    <string name="searchbox_search_in_appstore">去应用中心搜索“%s”</string>
+    <string name="searchbox_no_local_app">无本地应用</string>
+    <string name="searchbox_check_network">检查网络设置</string>
+    
+    <string name="searchbox_title_voice">请开始说话</string>
+    <string name="searchbox_title_voice_result">语音搜索结果</string>
+    <string name="searchbox_subtitle_result_stat">%d个语音结果</string>
+    <string name="searchbox_subtitle_no_result">未找到相关结果，试试去应用中心或百度搜索吧</string>
+    <string name="searchbox_subtitle_result_info">搜索“%1$s”，为您找到相关结果%2$d个</string>
+    <string name="searchbox_retry">重试</string>
+    <string name="searchbox_download">下　　载</string>
+    <string name="searchbox_downloading">下载中(%d%%)</string>
+    <string name="searchbox_waiting">等待下载</string>
+    <string name="searchbox_pause_with_progress">暂停(%d%%)</string>
+    <string name="searchbox_canceled">已取消</string>
+    <string name="searchbox_clear_history">清除搜索记录</string>
+    <string name="searchbox_download_completed">下载完成</string>
+    <string name="searchbox_network_not_available">无可用网络连接，请检查网络开关状态</string>
+    <string name="searchbox_speech_reco_not_available">您的手机（或固件版本）不支持语音识别功能</string>
+    <string name="searchbox_positioning_faild">要定位的项目不存在或已被删除</string>
+    
+    
+    <!-- 改版Navigation -->
+
+    <!-- 导航屏 搜索界面各个TAB 输入框提示 -->
+
+    <string name="navigation_search_item_app_type">应用程序</string>
+    <string name="navigation_search_item_type_photo">图像文件</string>
+    <string name="navigation_search_item_type_audio">音频文件</string>
+    <string name="navigation_search_item_type_video">视频文件</string>
+    
+    <string name="navigation_search_no_search_history">无搜索记录</string>
+    <string name="navigation_search_clear_search_history">清空搜索记录</string>
+    <string name="navigation_search_searching">正在搜索,请稍候...</string>
+
+
+
+    <!-- 搜索结果分组标题 -->
+    <string name="navigation_group_app">应用</string>
+    <string name="navigation_group_contact">联系人</string>
+    <string name="navigation_group_sms">信息</string>
+    <string name="navigation_group_image">图片文件</string>
+    <string name="navigation_group_audio">音频文件</string>
+    <string name="navigation_group_video">视频文件</string>
+    <string name="navigation_group_setting">桌面设置</string>
+    <string name="navigation_group_link">其它</string>
+    <string name="navigation_group_suggestion">百度的搜索建议</string>
+    <string name="navigation_more_local">查看更多本地内容</string>
+    <string name="navigation_group_nodata">无本地搜索结果</string>
+     
+    <!-- 无网络默认热词 -->
+    <string name="hw_default_launcher">设置默认桌面</string>
+    <string name="hw_search">本机搜索</string>
+    <string name="hw_help">帮助手册</string>
+    <string name="hw_personal">主题</string>
+    <string name="hw_personal_center">个人中心</string>
+    <string name="hw_setting">系统设置</string>
+    
+	<string name="searchbox_app_search_hint">搜索本地\\在线应用</string>
+	<string name="searchbox_app_search_guess_you_like">大家都在搜：</string>
+</resources>

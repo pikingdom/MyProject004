@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.widget.systemtoggler.view.SystemSwitchView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/switcher_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/status_bar_height"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_switch_detail_left_padding"
+    android:paddingRight="@dimen/activity_switch_detail_left_padding" >
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp" >
+
+        <TextView
+            android:id="@+id/switch_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/system_switch"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/folder_full_title_size" />
+
+        <TextView
+            android:id="@+id/switcher_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/system_switch_edit_selector"
+            android:gravity="center"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="@string/common_button_editable"
+            android:textColor="#1e82dc"
+            android:textSize="20sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <include layout="@layout/system_switch_all" />
+
+</com.nd.hilauncherdev.widget.systemtoggler.view.SystemSwitchView>

@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent"
+	android:layout_gravity="center" 
+    android:orientation="vertical"
+	android:gravity="center"
+	android:paddingLeft="10dip" 
+	android:paddingRight="10dip">
+	<ImageView 
+		android:layout_width="@dimen/myphone_info_view_image_size"
+		android:layout_height="@dimen/myphone_info_view_image_size" 
+		android:src="@drawable/frame_viewfacotry_search_null_img"/>
+	<com.nd.hilauncherdev.framework.view.WarningInfoTextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingTop="5dip" 
+		android:gravity="center"
+		android:textColor="#8d8d8d" 
+		android:textSize="14.7dip"
+		android:layout_marginBottom="20dip"
+		android:text="@string/frame_viewfacotry_search_null" />
+</LinearLayout>

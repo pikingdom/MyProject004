@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/myphone_bg_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/memory_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/common_remind_gray_bg"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:singleLine="true"
+        android:textColor="@color/common_remind_orange"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:id="@+id/data_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/memory_desc" >
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/myphone_common_split"
+            android:dividerHeight="1dip"
+            android:listSelector="@drawable/myphone_click_item_blue" />
+    </RelativeLayout>
+
+</RelativeLayout>

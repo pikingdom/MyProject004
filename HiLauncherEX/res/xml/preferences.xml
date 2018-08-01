@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.nd.hilauncherdev" >
+
+    <!-- 常规设置 -->
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory
+        android:height="45dp"
+        android:key = "settings_home_normal"
+        android:title="@string/settings_home_common">
+
+        <!-- 设置默认桌面 -->
+        <CheckBoxPreference
+            android:key="settings_set_default_launcher"
+            android:layout="@layout/preference_set_default_launcher_layout"
+            android:title="@string/settings_set_default_launcher"
+            android:widgetLayout="@layout/preferences_checkbox" />
+        <!-- 通知栏 -->
+        <Preference
+            android:defaultValue="true"
+            android:key="settings_personal_status_bar"
+            android:layout="@layout/preference_status_bar_switch_layout"
+            android:title="@string/settings_personal_status_bar"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn"/>
+        <!-- 壁纸滚动 -->
+        <Preference
+            android:defaultValue="true"
+            android:key="settings_screen_wallpaper_rolling"
+            android:layout="@layout/preference_screen_wallpaper_rolling_layout"
+            android:title="@string/settings_screen_wallpaper_rolling"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+    <!-- 个性化设置 -->
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory 
+        android:title="@string/settings_home_advanced" 
+        android:key = "settings_home_advanced">
+
+        <!-- 锁屏 -->
+        <Preference
+            android:key="settings_personal_screen_lock"
+            android:layout="@layout/preference_screen_lock_layout"
+            android:title="@string/settings_personal_screen_lock"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 桌面布局 -->
+        <Preference
+            android:key="settings_launcher_layout"
+            android:layout="@layout/preference_launcher_layout_layout"
+            android:title="@string/settings_launcher_layout"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 图标、文件夹 -->
+        <Preference
+            android:key="settings_icon_and_folder"
+            android:layout="@layout/preference_icon_and_folder_layout"
+            android:title="@string/settings_icon_and_folder"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 手势 -->
+        <Preference
+            android:key="settings_advanced_gesture_control"
+            android:layout="@layout/preference_set_gesture_layout"
+            android:title="@string/settings_advanced_gesture_control"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 情景桌面 -->
+        <Preference
+            android:key="settings_home_scene_desktop"
+            android:layout="@layout/preference_set_scene_launcher_layout"
+            android:title="@string/settings_home_scene_desktop"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 辅助功能 -->
+        <Preference
+            android:key="settings_advanced_assist"
+            android:layout="@layout/preference_set_additional_function_layout"
+            android:title="@string/settings_advanced_assist"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+    <!-- 其他设置 -->
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory 
+        android:title="@string/settings_home_other" 
+        android:key="settings_home_other">
+
+        <!-- 备份与重置 -->
+        <Preference
+            android:key="settings_backup"
+            android:layout="@layout/preference_backup_layout"
+            android:title="@string/settings_backup"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 帮助手册 -->
+        <Preference
+            android:key="settings_help_handbook"
+            android:layout="@layout/preference_help_layout"
+            android:title="@string/settings_help_handbook"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 用户反馈 -->
+        <Preference
+            android:key="settings_about_feedback"
+            android:layout="@layout/preference_about_feedback_layout"
+            android:title="@string/settings_about_feedback"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 关于华为桌面 -->
+        <Preference
+            android:key="settings_about"
+            android:layout="@layout/preference_aboutme_layout"
+            android:title="@string/settings_about"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+
+</PreferenceScreen>

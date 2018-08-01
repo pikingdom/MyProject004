@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="scene">Scene theme</string>
+	
+    <string name="scene_please_select_your_scene">Select a Scene Theme below</string>
+    	
+    <string name="scene_shop_top_banner">My Scene Themes</string>
+    
+    <string name="scene_shop_local_scenes">Downloaded</string>
+    <string name="scene_shop_online_scenes">Online</string>
+    
+    <string name="scene_shop_download_scene">%s is downloading</string>
+    
+    <string name="scene_shop_download">Download</string>
+    <string name="scene_shop_process">Downloading...</string>
+    <string name="scene_shop_installing">Applying...</string>
+    <string name="scene_shop_pause">Paused</string>
+    
+    <string name="scene_shop_apply">Apply</string>
+    
+    <string name="scene_shop_describe">Description</string>
+    <string name="scene_shop_more">More</string>
+    
+    <string name="scene_network_not_available">Failed to connect to network. Please try again later.</string>
+
+    <string name="scene_add_local_scene">Import Scene Theme (apt file)</string>
+    
+    <string name="scene_select_scene">Select Scene Theme</string>
+    
+    <string name="scene_loading">Loading...</string>
+    
+    <string name="scene_default_scene">Default</string>
+    
+	<string name="scene_apply_scene_now">Applying...</string>
+    <string name="scene_delete_scene_now">Deleting...</string>
+    <string name="scene_import_scene_now">Importing...</string>
+    
+    <string name="scene_please_wait">Please wait</string>
+    
+    <string name="scene_make_sure_to_apply">Would you like to apply %s?</string>
+    <string name="scene_make_sure_to_download_this_scene">Selected Scene Theme will be downloaded.</string>
+    <string name="scene_make_sure_to_download">%s will be downloaded.</string>
+    <string name="scene_make_sure_to_delete">%s will be deleted.</string>
+    
+    <string name="scene_this_scene">This scene theme</string>
+    
+    <string name="scene_processing">Processing...</string>
+    
+    <string name="scene_apt_file_invalid">Invalid Scene Theme</string>
+    
+    <string name="scene_download_and_install_failure">Download failed.</string>
+    
+    <string name="scene_external_storage_no_found_for_apply">Failed to apply Scene Theme. No external SD card in your phone.</string>
+    <string name="scene_external_storage_no_found_for_download">Failed to download Scene Theme. No external SD card in your phone.</string>
+    <string name="scene_external_storage_no_found_for_delete">Failed to delete Scene Theme. No external SD card in your phone.</string>
+    
+    <string name="scene_exit_scene">Exit</string>
+    
+    <string name="scene_cant_delete_scene_while_using">Unable to delete the Scene Theme being used.</string>
+    
+    <string name="scene_exit_scene_msg">Are you sure you want to exit Scene Theme?</string>
+    
+    <string name="scene_do_you_want_to_switch_to_default_scene">Are you sure you want to exit Scene Theme?</string>
+    
+    <string name="scene_download_task_remain">(%s task remaining)</string>
+    
+    <string name="scene_custom_redraw_text">Retry</string>
+    <string name="scene_custom_next_text">Continue</string>
+    <string name="scene_custom_create_text">Confirm</string>
+    <string name="scene_custom_desc_text_fir">Draw an icon layout below</string>
+    <string name="scene_custom_desc_text_sec">Tap Retry to redraw icon layout</string>
+    <string name="scene_custom_not_draw_info">Draw an icon layout</string>
+    <string name="scene_custom_desc_text_thi">Tap icon to edit it</string>
+    <string name="scene_custom_desc_no_icon">Failed to generate icon layout without icons. Please add an icon first.</string>
+    <string name="scene_custom_pop_info">Tap to add icons</string>
+    
+    <string name="scene_waiting_for_sd_load">Loading SD card. Please wait...</string>
+    
+    <string name="scene_select_layout">Icon layout</string>
+    <string name="scene_hole_apply_failed">Failed to load icon layout. Please try again later.</string>
+    <string name="scene_apply_failed">Failed to apply Scene Theme. Please try again later.</string>
+    <string name="scene_delete_hole_style_msg">Selected icon layout will be deleted.</string>
+    <string name="scene_no_style_choose_msg">Please select an icon layout.</string>
+    <string name="scene_apply_hole_style_msg">The icon layout will be applied.</string>
+    <string name="scene_msg_scene_not_exits">Corrupted Scene Theme. Please download it again.</string>
+    <string name="scene_msg_scene_file_invalid">Corrupted Scene Theme. Please download it again.</string>
+    <string name="scene_msg_can_not_edit">Unable to edit the %s pre-set screens.</string>
+    <string name="scene_msg_can_not_edit_for_new_screen">Unable to edit the pre-set screen.</string>
+    <string name="scene_msg_multip_apply">The Scene Theme has been applied.</string>
+</resources>

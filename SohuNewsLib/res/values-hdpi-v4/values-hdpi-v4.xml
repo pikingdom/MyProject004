@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_logo_height">58dip</dimen>
+    <dimen name="splash_logo_margin_bottom">14dip</dimen>
+    <dimen name="splash_logo_margin_left">13dip</dimen>
+    <dimen name="splash_logo_width">190dip</dimen>
+</resources>

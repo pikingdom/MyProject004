@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RadioGroup 
+        android:id="@+id/titleGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <RadioButton 
+            android:id="@+id/free"
+            android:layout_width="80dip"
+            android:layout_height="25dip"
+            android:gravity="center"
+            android:button="@null"
+            android:textSize="@dimen/frame_viewpager_tab_textsize"
+            android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+            android:textColor="@color/theme_shop_v6_rank_title_color"
+            android:background="@drawable/theme_shop_v6_rank_title_left_bj"
+            />
+        <RadioButton 
+            android:id="@+id/popularity"
+            android:layout_width="80dip"
+            android:layout_height="25dip"
+            android:gravity="center"
+            android:button="@null"
+            android:textSize="@dimen/frame_viewpager_tab_textsize"
+            android:text="@string/theme_shop_v6_func_theme_tab_ranking_popularity"
+            android:textColor="@color/theme_shop_v6_rank_title_color"
+            android:background="@drawable/theme_shop_v6_rank_title_middle_bj"
+            />
+        <RadioButton 
+            android:id="@+id/sell"
+            android:layout_width="80dip"
+            android:layout_height="25dip"
+            android:gravity="center"
+            android:button="@null"
+            android:textSize="@dimen/frame_viewpager_tab_textsize"
+            android:text="@string/theme_shop_v6_func_theme_tab_ranking_sell"
+            android:textColor="@color/theme_shop_v6_rank_title_color"
+            android:background="@drawable/theme_shop_v6_rank_title_right_bj"
+            />
+        
+    </RadioGroup>
+    <FrameLayout 
+        android:id="@+id/contentFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></FrameLayout>
+    
+
+</LinearLayout>

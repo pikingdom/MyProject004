@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    
+    <!-- 桌面设置 -->
+	<string name="settings_home">Preferences</string>
+	<string name="settings_more">Others</string>
+	
+	<string name="settings_set_default_launcher">Set as default launcher</string>
+	<string name="settings_set_default_launcher_hint">Please select\"use by default for this action \" and click\"%1$s\" to complete settings</string>
+	<string name="settings_set_default_launcher_hint2">Please select\"%1$s\" and tap\"always\" to complete settings</string>
+	<string name="settings_set_default_pandahome_success">Successfully set as default launcher</string>
+	
+	<string name="settings_personal_status_bar_switch">Show status bar</string>
+	<string name="settings_personal_update_check">Detect updates</string>
+	<string name="settings_personal_icon_mask_switch">Icon mask</string>
+	<string name="settings_personal_folder_style">Folder style</string>
+	<string name="settings_personal_gesture_up">Swipe up</string>
+	<string name="settings_personal_gesture_down">Swipe down</string>
+	<string name="settings_font_app_color">Label color</string>
+	<string name="settings_font_app_color_summary">Set the color for app label</string>
+	<string name="settings_font_app_name_size">Label size</string>
+	<string name="settings_app_icon_size">Icon Size</string>
+	
+	<string name="settings_screen_countxy">Grid size</string>
+	<string name="settings_screen_rolling_cycle">Infinite scrolling</string>
+	<string name="settings_screen_rolling_cycle_summary">Continuously scroll through all screens</string>
+	<string name="settings_screen_wallpaper_rolling">Wallpaper mode</string>
+	<string name="settings_screen_wallpaper_by_theme">Lock wallpaper</string>
+	<string name="settings_screen_wallpaper_by_theme_summary">Wallpaper will change with theme, and wallpaper settings will be disabled.</string>
+	<string name="settings_screen_icon_title_background">Show label background</string>
+	<string name="settings_screen_icon_title_background_summary">Highlight icon label background</string>
+	<string name="settings_dockbar_text_show">Show dock app labels</string>
+	<string name="settings_dockbar_text_show_summary">The dock apps labels will be shown once enabled</string>
+	<string name="settings_dockbar_text_show_follow_theme">Apply based on theme</string>
+	<string name="settings_dockbar_text_show_follow_theme_summary">When enabled, app labels will be displayed based on the current theme</string>
+	<string name="settings_dockbar_text">Dock settings</string>
+	
+	<string name="settings_drawer_countxy">Grid size</string>
+	<string name="settings_drawer_rolling_cycle">Infinite scrolling</string>
+	<string name="settings_drawer_rolling_cycle_summary">Continuously scroll through all screens</string>
+	<string name="settings_drawer_tabs_lock">Lock app drawer</string>
+	<string name="settings_drawer_tabs_lock_summary">Not able to scroll between Apps, Widgets and Manager</string>
+	<string name="settings_drawer_bg_transparent">Background transparency</string>
+	<string name="settings_drawer_bg_transparent_summary">Set drawer background transparency</string>
+	
+	<string name="settings_communicate_category_comm">General</string>
+	<string name="settings_communicate_category_battery">Charging notification</string>
+	<string name="settings_communicate_location">Incoming call location</string>
+	<string name="settings_communicate_boot_time">Boot time</string>
+	
+	<!-- <string name="settings_advanced">Assist</string> -->
+	<string name="settings_advanced_default_app">Default Apps Manager</string>
+	<string name="settings_advanced_default_app_dialog_title">Select default app</string>
+	
+	<string name="settings_advanced_move_home">Copy Home screen</string>
+	<string name="settings_advanced_move_home_icon_title">Copy icons</string>
+	<string name="settings_advanced_move_home_summary">Copy other launcher icon to %1$s</string>
+    <string name="settings_advanced_move_home_dialog_title">Please select a launcher</string>
+    <string name="settings_advanced_move_home_available">Detecting...</string>
+    <string name="settings_advanced_move_home_no_available">No icons available to be copied from other launcher</string>
+    <string name="settings_advanced_move_home_importing">Importing, please wait...</string>
+    <string name="settings_advanced_move_home_importing_end">Imported</string>
+    <string name="settings_advanced_move_home_importing_failed">Import failed</string>
+    <string name="settings_advanced_move_home_importing_ask_backup">Back up %1$s settings</string>
+    <string name="settings_advanced_move_home_notify">You can copy the icons to %1$s now. Please tap here</string>
+    
+    <string name="settings_advanced_move_home_move_end_preview">Screen Preview</string>
+    <string name="settings_advanced_move_home_move_end_preview_tip">Highlight screen is Home screen</string>
+    <string name="settings_advanced_move_home_will_begin">Tap \Start\ to copy Home screen</string>
+    <string name="settings_advanced_move_home_backup_tip">Note: You can restore %1$s settings in Preferences&gt; Backup &amp; restore.</string>
+    <string name="settings_advanced_move_home_success">Icons have been copied to %1$s!</string>
+    <string name="settings_advanced_move_home_success_tip">Please note that widgets can not be copied from other launcher. You can manually add widgets to home screen.\n\n Note: You can restore %1$s settings in Preferences &gt; Backup &amp; restore.</string>
+    <string name="settings_advanced_move_previous">Back</string>
+    <string name="settings_advanced_move_next">Next</string>
+    <string name="settings_advanced_move_begin_move">Start</string>
+    <string name="settings_advanced_move_home_no_data">No icons in other launchers\'s screens</string>
+    <string name="settings_advanced_move_home_del">Would you like to remove \"Copy icons\" shortcut from home screen?</string>
+    
+	<!-- 备份、恢复和 重置 设置 -->
+    <string name="settings_backup">Backup &amp; restore</string>
+    <string name="settings_backup_tobackup">Backup %1$s</string>
+    <string name="settings_backup_torestore">Restore settings</string>
+    <string name="settings_backup_reset">Reset defaults</string> 
+    <string name="settings_backup_sdcard_unavailable">SD Card is not available. Please check and try again</string>
+    <string name="settings_backup_success">Backup succeeded</string>
+    <string name="settings_backup_failed">Backup failed</string> 
+    <string name="settings_backup_not_found">Backup file not found. Please try again</string>
+    <string name="settings_backup_restore_success">Restore succeeded</string>
+    <string name="settings_backup_restore_failed">Restore failed</string> 
+    <string name="settings_backup_lastest_time">Latest backup:</string>
+    <string name="settings_backup_tobackup_message">%1$s settings will be backed up to SD card.</string>
+    <string name="settings_backup_tobackup_hint">No backup</string>
+    <string name="settings_backup_torestore_message">%1$s  settings will be restored from SD card.</string>
+    <string name="settings_backup_ing">Backing up %1$s</string>
+    <string name="settings_backup_restore_ing">Restoring %1$s</string>
+	<string name="settings_backup_reset_hint">Restore default settings</string>
+	<string name="settings_backup_reset_message">%1$s settings will be reset to default.</string>
+    <string name="settings_backup_reset_title">Notification</string>
+	
+	<string name="settings_about">About %1$s</string>
+	<string name="settings_about_version_upgrade">Check for update</string>
+	<string name="settings_about_current_version" translatable="false">v</string>
+	<string name="settings_about_app_share">Share apps</string>
+	<string name="settings_about_app_share_summary">Share %1$s with friends</string>
+	<string name="settings_about_feedback">Feedback</string>
+	<string name="settings_about_feedback_title">%1$s Feedback</string>
+	<string name="settings_about_copyright">Copyright info</string>
+	<string name="settings_about_copyright_summary">Moborobo.com All Rights Reserved</string>
+	
+	<string name="settings_about_contact_us">Contact us</string>
+	<string name="settings_about_contact_us_facebook_title" translate="false">Facebook</string>
+	<string name="settings_about_contact_us_instagram_title" translate="false">Instagram</string>
+	<string name="settings_about_contact_us_email_title">Email</string>
+	<string name="settings_about_contact_us_email_summary" translate="false">mobolauncher91@gmail.com</string>
+    <string name="settings_about_contact_us_google_plus_title" translate="false">Google+</string>
+    <string name="settings_about_contact_us_google_plus_summary" translate="false">%1$s Team</string>
+	
+	<!-- 推荐分享 -->
+	<!-- 分享与反馈 -->
+    <string name="settings_home_apps_share_title">Select sending mode</string>
+	<string name="settings_home_assistance_share_text">I want to share %1$s with you.\nYou can download the latest version from https://play.google.com/store/apps/details?id=%2$s</string>
+	<string name="settings_home_apps_share_subject">Share\"%1$s\"</string>
+	
+	<string name="settings_exit">Exit %1$s</string>
+	<string name="recommend_app_download_not_network">Download failed. Please check your network connection.</string>
+	
+	<!-- 自定义行列 -->
+	<string name="custom_rows_cols">Customize rows and cols</string>
+	<string name="setting_rows">Rows settings</string>
+	<string name="setting_cols">Cols settings</string>
+	
+	<!-- 蒙板选择 -->
+	<string name="mask_preview_title">Mask preview:%s</string>
+	<string name="mask_no_mask">No mask</string>
+	
+	<!-- 异常报错邮件标题 -->
+	<string name="settings_about_bug_feedback_title">%1$s Bug Feedback</string>
+	
+	<!-- V5桌面设置改版需要的文字 -->
+	<string name="settings_home_common">General</string>
+	<string name="settings_home_advanced">Advanced</string>
+	<string name="settings_home_other">Others</string>
+	<string name="settings_home_scene_desktop">Scene theme</string>
+	<string name="settings_advanced_assist">Accessibility</string>
+	<string name="settings_advanced_gesture_control">Gestures settings</string>
+	<string name="settings_back_to_default_scene">Exit</string>
+	<string name="settings_personal_gesture_doublefingers_down">Swipe down (2 fingers)</string>
+	
+	<string name="settings_reset_current_scene">Reset defaults</string>
+	<string name="settings_reset_current_scene_msg">The scene theme will be reset to default.</string>   
+	
+	<!-- 设置项搜索添加的文字 -->
+	<string name="settings_item_search">Search</string>
+	<string name="settings_search_item">Enter keywords</string>
+	<string name="settings_no_search_result">No Search Result</string>	
+	
+	<string name="settings_advanced_move_home_dialog_toast">Please make a selection</string>
+	<string name="settings_backup_tobackup_dialog_title">Notification</string>
+	<string name="settings_backup_restore_dialog_title">Notification</string>	
+	
+		<!-- 硬件信息 -->
+	<string name="system_hardware">硬件信息</string>
+	<string name="system_hardware_nt_1">USB网络</string>
+	<string name="system_hardware_nt_2">联通</string>
+	<string name="system_hardware_nt_3">电信</string>
+	<string name="system_hardware_nt_4">移动</string>
+	<string name="system_hardware_nt_5">未知</string>
+	
+	<string name="system_hardware_machine_name">手机型号：</string>
+	<string name="system_hardware_density">密度：</string>
+	<string name="system_hardware_density_dpi">dpi密度：</string>
+	<string name="system_hardware_current_screen_height">屏幕高度：</string>
+	<string name="system_hardware_current_screen_width">屏幕宽度：</string>
+	<string name="system_hardware_scaled_density">字体缩放比例：</string>
+	<string name="system_hardware_xdpi">x方向的像素密度xdpi：</string>
+	<string name="system_hardware_ydpi">y方向的像素密度ydpi：</string>
+	<string name="system_hardware_display">显示屏参数：</string>
+	<string name="system_hardware_board">主板：</string>
+	<string name="system_hardware_bootloader">引导程序：</string>
+	<string name="system_hardware_brand">系统定制商：</string>
+	<string name="system_hardware_cpu_abi">cpu指令集：</string>
+	<string name="system_hardware_device">设备参数：</string>
+	<string name="system_hardware_fingerprint">硬件名称：</string>
+	<string name="system_hardware_hardware">硬件标示：</string>
+	<string name="system_hardware_host">主机：</string>
+	<string name="system_hardware_id">修订版本列表：</string>
+	<string name="system_hardware_manufacturer">硬件制造商：</string>
+	<string name="system_hardware_product">产品内部编号：</string>
+	<string name="system_hardware_radio">无线设备：</string>
+	<string name="system_hardware_tags">标签：</string>
+	<string name="system_hardware_time">时间：</string>
+	<string name="system_hardware_type">类型：</string>
+	<string name="system_hardware_unknown">未知备注：</string>
+	<string name="system_hardware_user">用户：</string>
+	<string name="system_hardware_sdk_version">sdk版本：</string>
+	<string name="system_hardware_incremental">基带版本：</string>
+	<string name="system_hardware_release">固件版本：</string>
+	<string name="system_hardware_codename">编码器：</string>
+	<string name="system_hardware_imei">imei号：</string>
+	<string name="system_hardware_imsi">imsi号：</string>
+	<string name="system_hardware_mac">mac地址：</string>
+	<string name="system_hardware_ip">ip地址：</string>
+	<string name="system_hardware_language">当前语言：</string>
+	<string name="system_hardware_nt">网络类型：</string>
+	<string name="pandahome_check_title">桌面检测</string>
+	<string name="pandahome_check_log">检测日志</string>
+    <string name="pandahome_clean_default_theme">clean default theme</string>
+	<string name="pandahome_check_clean_config">clean desktop setting</string>
+	
+	<!-- V6 text added to setting up item -->
+	<string name="settings_launcher_layout">Desktop layout</string>
+	<string name="settings_icon_and_folder">Icon, folder</string>
+	<string name="settings_icon">Icon</string>
+	<string name="settings_launcher_layout_settings_screen_setting">Screen settings</string>
+	<string name="settings_lock_launcher_layout">Lock desktop layout</string>
+	<string name="settings_lock_launcher_layout_summary">Prevent misoperation from changing desktop layout</string>
+	<string name="settings_launcher_layout_settings_applist">App list</string>
+	<string name="settings_icon_and_folder_icon">Icon</string>
+	<string name="settings_icon_and_folder_folder">Folder</string>
+	<string name="settings_advanced_enhance_tool">Enhancement tool</string>
+	<string name="settings_message_tips">Message prompt</string>
+	<string name="settings_message_tips_summary">The icon will notify you of unread messages.</string>
+	<string name="settings_mms_tips">Unread messages</string>
+	<string name="settings_more_message_tips">More unread messages</string>
+	<string name="settings_more_message_tips_summary">Install 91 Message Reminder to enjoy all the features.</string>
+	<string name="settings_about_restart_launcher">Restart desktop</string>
+	<string name="settings_personal_status_bar">Notice board</string>
+	<string name="settings_about_privacy_summary">Felink All Rights Reserved</string>
+	<string name="settings_score_dialog_content">Rate us 5 stars if you like %1$s. We will do better!</string>
+</resources>

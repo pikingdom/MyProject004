@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+     <item type="id" name="launcher_edit_widget_down_item"></item>
+    
+    <string name="drawer_all_apps">Apps</string>
+    <string name="drawer_widgets">Widgets</string>
+    <string name="drawer_my_phone">Manager</string>
+    
+    <string name="drawer_common_download">Download</string>
+    <string name="drawer_show_app_details">Details</string>
+    <string name="drawer_backup_app">Backup</string>
+    <string name="drawer_not_found_app_tips">App not found</string>
+    <string name="drawer_backup_app_not_support">Supports only app backup</string>
+    <string name="drawer_show_app_details_not_support">Unable to view folder details</string>
+    <string name="drawer_delete_folder_tips_title">Delete folder</string>
+    <string name="drawer_delete_folder_tips">After deletion, put app in folder back in list</string>
+    <string name="drawer_delete_encript_folder_tips">All apps will return to App drawer when the folder is deleted.</string>
+    <string name="drawer_delete_dialog_message">Deleting...</string>
+    <string name="drawer_delete_not_found_app_tips_title">Deletion alert</string>
+    <string name="drawer_delete_not_found_app_tips">The app was not found. Delete it now?</string>
+    <string name="drawer_tools_btn_click_tips">Long press and drag the icon here</string>
+    <string name="drawer_apps_not_init_tips">Initialization incomplete. Please try again later</string>
+    <string name="drawer_widget_click_tips">Long press widget to add it to Home screen</string>
+    <string name="drawer_widget_click_ready_tips">Widget enabled</string>
+    <string name="drawer_new_folder_failed_tips">Failed to create a new folder</string>
+    <string name="drawer_not_found_widget_tips">The widget was not found. Please install first</string>
+    <string name="drawer_multi_choose_reached_limit_tips">The number of multiple-choice has reached the maximum limit</string>
+    <string name="drawer_multi_choose_folder_unavailable_tips">The folder is unavailable in multiple-choice mode</string>
+    
+    <string name="drawer_menu_icon_sort">Sorting</string>
+    <string name="drawer_menu_new_folder">New folder</string>
+    <string name="drawer_menu_hide_app">Hide apps</string>
+    <string name="drawer_menu_settings">Settings</string>
+    <string name="drawer_menu_sort_mode">Sorting mode</string>
+    
+    <!-- 匣子小部件中更多类型 -->
+    <string name="drawer_widget_system_widget">System widget</string>
+    
+    <string name="drawer_shortcut_contact">Contact</string>
+    
+    <string name="drawer_download_widget_tip">Downloading now %1$s？</string>
+    <string name="drawer_before_download_widget_tip">%1$s downloading. Check progress in status bar</string>
+    
+    <string name="drawer_not_found_focused_item_tips">Sorry, widget was not found. Search again?</string>
+
+    <string name="samsung_drawer_search_default_input">Search Apps</string>
+</resources>

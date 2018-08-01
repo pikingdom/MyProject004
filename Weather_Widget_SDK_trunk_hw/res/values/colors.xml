@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 预设 -->
+    <drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+    <drawable name="yellow">#77ffff00</drawable>
+    <drawable name="black">#ff000000</drawable>
+    <drawable name="screen_background_black">#ff000000</drawable>
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+    <drawable name="widget_city_item_bg">#e1f5f6</drawable>
+
+    <!-- general color -->
+    <color name="solid_red">#f00</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="tool_text">#ff4b4b4b</color>
+    <color name="tool_text_w">#00bcd5</color>
+    <color name="button_text">#00bcd5</color> <!-- 按钮颜色 -->
+    <color name="button_text_b">#ff5c5c5c</color> <!-- 按钮颜色 -->
+    <color name="button_text_w">#ffffffff</color> <!-- 按钮颜色 白色 -->
+    <color name="tool_text_r">#ffcc3a3a</color>
+    <color name="default_text">#ff4b4b4b</color> <!-- 默认字体颜色 -->
+    <color name="default_note_text">#ff838383</color> <!-- 默认提示性字体颜色 -->
+    <color name="default_note_text_old">#437293</color>
+    <color name="t_wearef_ref_good">#7eb711</color>
+    <color name="t_wearef_ref_bad">#d54646</color>
+    <color name="default_note_explain_detail">#eeeeee</color>
+    <color name="new_style_bk_color">#B2000000</color>
+    <color name="old_style_bk_color">#B2FFFFFF</color>
+    <color name="default_text_main">#454545</color>
+<!--     <color name="default_text_main_help">#aaaaaa</color> -->
+
+    <!-- 天气 -->
+    <color name="week_name">#3c3c3c</color>
+<!--     <color name="week_name_old">#316387</color> -->
+    <color name="weekcolor">#CCCCCC</color>
+    <color name="tempinfosize">#CCCCCC</color>
+    <color name="tempsize">#3c3c3c</color>
+    <color name="citytmpe">#f09609</color>
+    <color name="citytmpe1">#fff4f4f1</color>
+    <color name="timeresh">#ff71edf8</color>
+    <color name="listItemColor">#ff323232</color>
+    <color name="bright_yellow">#ffef9400</color>
+    <color name="navy">#333333</color>
+    <color name="index_ext_text">#ff7eb811</color>
+    <color name="index_ext_title">#ffaaaaaa</color>
+    <color name="wearef_name">#cccccc</color>
+<!--     <color name="weather_info_old">#cccccc</color> -->
+    <color name="date_info_old">#316387</color>
+    <color name="t_wea_upd_time">#A5A6A8</color>
+    
+    <color name="gray">#ffd4d4d4</color>
+    <color name="city_list_city">#ff000000</color> <!-- 城市列表 城市名 -->
+    <color name="city_list_note">#ff6e6e6e</color> <!-- 城市列表注释(省名) -->
+
+    <color name="blue_text">#ffCCCCCC</color> <!-- 四天天气蓝色文字 -->
+
+    <color name="dark_gray">#ff494949</color>
+    
+    <color name="city_mgr_color">#656565</color><!-- 城市选择界面城市文字颜色 -->
+    <color name="city_hot_color">#00bcd5</color><!-- 城市选择界面热门城市文字颜色 -->
+
+    <!-- 关于 -->
+    <color name="t_listmsg_main">#ffeeeeee</color>
+    
+    <!-- 微博 -->
+    <color name="t_subpage_title">#ffffffff</color>
+    <color name="t_listmsg_highlight">#ff7eb811</color>
+    <color name="t_switch">#ffaaaaaa</color>
+    <color name="t_edit_main">#ff000000</color>
+    <color name="t_btn_bottom">#fff0f0f0</color>
+    <color name="split_color">#33707070</color>
+    <color name="t_v2_almanac_remark">#707070</color>
+    <color name="t_btn_bottom_2">#707070</color>
+
+    <!-- 曲线图 -->
+    <color name="day_temp_color">#FF8C00</color>
+    <color name="night_temp_color">#0096E0</color>
+    <color name="temp_color">#666666</color>
+    <color name="temp_line_color">#ebebeb</color>
+    <color name="temp_timeout_color">#ababab</color>
+    
+    <!-- 设置界面 -->
+	<color name="setting_sync_text_color">#ff4B4B4B</color>
+	
+	<!-- 建议反馈 -->
+	<color name="setbackColor">#B2000000</color>
+	<color name="t_alert_info">#00bcd5</color>
+    <color name="t_alert_title">#ff888888</color>
+    
+    <!-- 24小时天气折线图 -->
+	<color name="paint_weather_color">#ffffff</color>
+	<color name="weather_curve_line">#7fffffff</color>
+	<color name="paint_later_bg">#19ffffff</color>
+	<color name="paint_before_bg">#0dffffff</color>
+	<color name="weather_text_color">#ffffff</color>
+	<color name="line_time_before">#4cffffff</color>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.launcher.menu.shortcutmenu.LauncherShortcutMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/launcher_shortcut_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone" >
+
+</com.nd.hilauncherdev.launcher.menu.shortcutmenu.LauncherShortcutMenu>

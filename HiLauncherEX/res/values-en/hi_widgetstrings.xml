@@ -1,0 +1,172 @@
+<resources>
+	<!-- 用户反馈 -->
+	<string name="user_feedback_title">Feedback</string>
+	<string name="user_feedback_tip"><![CDATA[<br/><font color="#948df0"><a href="http://%s/data/androidfaq.html"><i>FAQ</i></a></font>]]></string>
+	<string name="user_feedback_tip1">\n\u0020\u0020\u0020\u0020 Thank you for your support and attention! We welcome your bug reports and suggestions. We will reply as soon as possible.</string>
+	<string name="user_feedback_content_tip">Bugs and suggestions (250 characters maximum)</string>
+	<string name="user_feedback_email_tip">Contact info</string>
+	<string name="user_feedback_button_submit">Submit</string>
+	<string name="user_feedback_common_backMain">Back</string>
+	<string name="user_feedback_page_unvailable">This page cannot be displayed</string>
+	<string name="user_feedback_submit_success">Your feedback has been submitted</string>
+	<string name="user_feedback_submit_failed">Submit failed</string>
+	<string name="user_feedback_content_none">What is in your mind? Why not tell us?</string>
+	<string name="user_feedback_committing">Submitting...</string>
+	<string name="user_feedback_loading">Loading...</string>
+	<string name="user_feedback_no_internet">No available network</string>
+	<string name="user_feedback_contact_none">Please enter the correct email address or phone number :)</string>
+
+	<string name="widgets_choose">Choose the widget</string>
+	<string name="widget_feedback">Feedback</string>
+	<string name="widget_iconapp">App icons</string>
+	<string name="widget_memoryclean">Ram booster</string>
+	<string name="widget_powerwidget">Power saving</string>
+	<string name="widget_baidu">Search</string>
+	<string name="widget_toggle">Power control</string>
+	<string name="widget_analogclock">Analog clock</string>
+	
+	<!-- 系统开关 -->
+	<string name="system_switch">Quick settings panel</string>
+	<string name="sys_wifi">Wi-Fi</string>
+	<string name="sys_bluetooth">Bluetooth</string>
+	<string name="sys_gps">GPS</string>
+	<string name="sys_data_connection">Data</string>
+	<string name="sys_brightness_dock">Backlight</string>
+	<string name="sys_mybattery_brightness">Backlight</string>
+	<string name="sys_auto_sync">Auto-sync</string>
+	<string name="sys_airplane_mode">Airplane</string>
+	<string name="sys_ring_mode">Ring</string>
+	<string name="sys_autolockscreen">Lock</string>
+	<string name="sys_autorotate">Rotation</string>
+	<string name="sys_sim_not_exist">SIM not found</string>
+	<string name="close_airplane_mode">Airplane mode disabled</string>
+	<string name="sys_wifi_enabled">Wi-Fi enabled</string>
+	<string name="sys_wifi_disabled">Wi-Fi disabled</string>
+	<string name="sys_bluetooth_enabled">Bluetooth enabled</string>
+	<string name="sys_bluetooth_disabled">Bluetooth disabled</string>
+	<string name="sys_data_connection_enabled">Mobile data enabled</string>
+	<string name="sys_data_connection_disabled">Mobile data disabled</string>
+	<string name="sys_brightness">Backlight</string>
+	<string name="sys_automatic_brightness">Automatic brightness</string>
+	<string name="sys_auto_sync_enabled">Auto-sync enabled</string>
+	<string name="sys_auto_sync_disabled">Auto-sync disabled</string>
+	<string name="sys_airplane_mode_enabled">Airplane mode enabled</string>
+	<string name="sys_airplane_mode_disabled">Airplane mode disabled</string>
+	<string name="sys_virbation_mode_enabled">Vibration mode enabled</string>
+	<string name="sys_virbation_mode_disabled">Vibration mode disabled</string>
+	<string name="sys_slient_mode_disabled">Silent mode enabled</string>
+	<string name="sys_ring_mode_disabled">Ring mode enabled</string>
+	<string name="sys_autolockscreen_enabled">Lock screen enabled</string>
+	<string name="sys_autolockscreen_disabled">Lock screen disabled</string>
+	<string name="sys_autorotate_enabled">Auto-rotate screen enabled</string>
+	<string name="sys_autorotate_disabled">Auto-rotate screen disabled</string>
+	<string name="sys_battery">Network</string>
+	<string name="sys_alarm">Alarm</string>
+	<string name="sys_clock">Clock</string>
+	<string name="sys_app_mgr">Apps</string>
+	<string name="sys_ring">Ringtone</string>
+	<string name="sys_whitespot">Quick Tap</string>
+	<string name="sys_others">More</string>
+	<string name="switcher_volume_ring">Ringtone</string>
+	<string name="switcher_volume_set_failed">Failed to set volume</string>
+	<string name="switcher_setting_hint">Tap &quot;Edit&quot; to add or remove toggles</string>
+	<string name="panda_widget_fetch_error">Failed to get widget</string>
+	<string name="panda_widget_weather">Hi Weather</string>
+
+	<string name="sys_large_capacity">USB</string>
+	<string name="sys_tactility_reaction">Haptic</string>
+	<string name="sys_mount_sdcard">Unmount SD card</string>
+	<string name="sys_screen_overtime">Timeout</string>
+
+	<string name="sys_flashlight_enabled">Enable flashlight</string>
+	<string name="sys_tactityraction_enabled">Enable haptic feedback</string>
+	<string name="sys_tactityraction_disabled">Disable haptic feedback</string>
+	<string name="sys_switch_edit_hint">Tap &quot;Edit&quot; to add or remove buttons</string>
+	
+	<string name="sys_switch_sdcard_removed">SD card removed</string>
+	<string name="sys_switch_usb_mass_storage_fail">Unmount failed</string>
+	<string name="sys_switch_enter_usb_mass_storage">Enter USB mass storage</string>
+	<string name="sys_switch_exit_usb_mass_storage">Exit USB mass storage -</string>
+	<string name="sys_switch_usb_mass_storage_mode">USB is not available</string>
+	<string name="sys_switch_usb_mass_storage_mode_wait">Please wait...</string>
+	
+	<!-- 系统设置   功能名，部分由上面的系统开关部分提供 -->
+	<string name="sys_settings_mobiledata">Network</string>
+	<string name="sys_settings_wireless">Wireless</string>
+	<string name="sys_settings_screen_safe">Security</string>
+	<string name="sys_settings_display">Display</string>
+	<string name="sys_settings_sound">Sound</string>
+	<string name="sys_settings_input">Keyboard</string>
+	<string name="sys_settings_apps">Apps</string>
+	<string name="sys_settings_storage">Storage</string>
+	<string name="sys_settings_battery">Battery</string>
+	<string name="sys_settings_usb_debug">USB debug</string>
+	<string name="sys_settings_more_settings">More</string>
+	<string name="sys_settings_machine_name">Model</string>	
+	<string name="sys_settings_firmware">Firmware</string>
+	<string name="sys_settings_root_option">Status</string>
+	<string name="sys_settings_root_fetching">Fetching...</string>
+	<string name="sys_settings_screen_resolution">Resolution</string>
+	<string name="sys_settings_root_yes">Rooted</string>
+	<string name="sys_settings_root_no">Unroot</string>
+	<string name="sys_settings_error_msg">Sorry! \"%1$s\" not found</string>
+
+	<!-- 一键清理widget -->
+	<string name="memory_cleaner">Ram booster</string>
+	<string name="nomore_release">No more resources can be released</string>
+	<string name="quick_clean_released">%s memory released</string>
+	
+	<!-- 百变桌面widget -->
+	<string name="widget_variety_title">Variety Launcher</string>
+	<string name="widget_variety_templates_activity_title">Choose Template</string>
+	<string name="widget_variety_templates_custom_title">Custom Style</string>
+	<string name="widget_variety_change_style_alert_title">Change Style</string>
+    <string name="widget_variety_change_style_alert_content">Will replace style now, which may delete some icons. Deleted icons must be manually added again. Replace style?</string>
+    <string name="widget_variety_notify_generate_template">Custom style is generated. You can use it now!</string>
+    <string name="widget_variety_notify_template_in_use">This style is in use and can not be deleled!</string>
+	
+    <string name="widget_error_add_failed">Failed to add widget. Please try again after restart %1$s.</string>
+    <string name="widget_update_desktop_restart_hint">%1$s widget \"%2$s\" upgrade completed. Rebooting ...</string>
+    
+    <!-- 更新版本时请注意更新此处的版本号versionCode caizp 2012-8-1 -->
+    <!-- 手电筒版本 V1.9.2-->
+    <string name="com.nd.android.widget.pandahome.flashlight">15</string>
+    <!-- 一键关屏版本 -->
+    <string name="com.nd.android.widget.pandahome.ionekeyoffscreen">1</string>
+    <!-- 快点版本 versioncode -->
+    <string name="com.nd.shortcut.shortcutslot">5</string>
+    <!-- 快传版本 -->
+	<string name="com_nd_android_anyshare_version">1</string>
+	    
+    <!-- 二维码扫描 -->
+    <string name="widget_baidu_scan_result">Result</string>
+    <string name="widget_baidu_scan_restart">Rescan</string>
+    <string name="widget_baidu_scan_result_access">Link</string>
+    <string name="widget_baidu_scan_result_add_contact">Add contacts</string>
+    <string name="widget_baidu_scan_result_share_title">Share</string>
+    <string name="widget_baidu_scan_result_share">Scanning result:\n%1$s\n</string>
+    <string name="widget_baidu_scan_download_outtime_hint">Processing time out. Please rescan.</string>
+    <string name="widget_baidu_scan_download_hint">Processing...</string>
+    
+    <!-- 小插件默认文字颜色 caizp 2013-4-10 -->
+    <string name="panda_widget_text_color">#333333</string>
+    
+    <!-- 系统开关  -->
+    <string name="twodimensioncode_scan">QR Code</string>
+    
+    <!-- 插件详情 -->
+	<string name="sys_notification_bar">System Notification Bar</string>
+    
+	<!-- 换壁纸widget -->
+	<string name="widget_wallpaper_1x1_title">Shuffle</string>
+	<string name="widget_wallpaper_notify_23g_refresh">You are now using a 2G/3G network. Network is slow. Please be patient.</string>
+	<string name="widget_wallpaper_drawer_previous">Previous</string>
+    <string name="widget_wallpaper_drawer_save">Save</string>
+    <string name="widget_wallpaper_drawer_more">More</string>
+	<string name="widget_wallpaper_drawer_detail">Library</string>
+    <string name="widget_wallpaper_drawer_previous_fail">No wallpaper available to recover</string>
+    <string name="widget_wallpaper_drawer_save_success">Wallpaper has been saved to memory card in/%1$s/myphone/wallpaper/Pictures</string>
+    <string name="widget_wallpaper_drawer_list_title">Wallpaper Discovery Tour</string>
+</resources>
+
+	

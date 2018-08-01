@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/drawer_edit_tools_layout"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content">
+		
+    <LinearLayout android:id="@+id/drawer_edit_tools_container"
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent"
+      android:gravity="center"
+	  android:background="@drawable/drawer_tab_bar_background">
+	  
+			<com.nd.hilauncherdev.drawer.view.ShowAppDetailsZone 
+			    android:id="@+id/drawer_details_btn"
+			    android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:gravity="center"
+				android:text="@string/drawer_show_app_details"
+				android:textColor="@android:color/white"
+				android:shadowColor="@android:color/black"
+				android:shadowDx="1"
+				android:shadowDy="1"
+				android:shadowRadius="1" />
+				
+	
+		
+			<!-- 移动到桌面栏
+			<com.nd.hilauncherdev.drawer.view.MoveToLauncherZone
+				android:id="@+id/drawer_move_to_launcher_zone"
+				android:layout_height="match_parent" 
+				android:layout_width="match_parent"
+				android:layout_toLeftOf="@id/drawer_backup_btn"
+				android:layout_toRightOf="@id/drawer_details_btn"
+				android:gravity="center"
+				android:text="@string/drawer_move_to_launcher"
+				android:textColor="@android:color/white"
+				android:shadowColor="@android:color/black"
+				android:shadowDx="1"
+				android:shadowDy="1"
+				android:shadowRadius="1" /> -->
+			</LinearLayout>	
+		</RelativeLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="@dimen/theme_shop_v6_recomment_taghot_img_margin_8"
+    android:layout_marginRight="@dimen/theme_shop_v6_recomment_taghot_img_margin_8"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:id="@+id/imgThemeBg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.nd.hilauncherdev.shop.widget.RoundCornerImageView
+                android:id="@+id/imgTheme"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/theme_shop_ranking_img_height"
+                android:scaleType="fitXY" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/theme_shop_item_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#a0000000"
+            android:gravity="center"
+            android:paddingBottom="2dip"
+            android:paddingTop="2dip"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/theme_shop_v6_recomment_taghot_img_title_text_height"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/downrl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/splitimg"
+            android:background="@drawable/theme_shop_v6_theme_list_down_btn"
+            android:clickable="true"
+            android:focusable="true" >
+
+            <TextView
+                android:id="@+id/tv_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/common_button_download"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:drawablePadding="3dip"
+                android:drawableLeft="@drawable/theme_shop_v8_mdoule_list_download_icon"
+                android:layout_marginRight="@dimen/theme_shop_v6_recomment_taghot_img_margin_6"
+                android:background="@drawable/theme_shop_v8_mdoule_list_download_bg" />
+
+            <TextView
+                android:id="@+id/tv_downloaded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:drawablePadding="3dip"
+                android:layout_marginRight="@dimen/theme_shop_v6_recomment_taghot_img_margin_6"
+                android:background="@drawable/theme_shop_v8_mdoule_list_apply_bg"
+                android:text="@string/common_button_apply"
+                android:drawableLeft="@drawable/theme_shop_v8_mdoule_list_apply_icon"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/theme_shop_item_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/v8_gap3_6dp"
+                android:layout_marginTop="@dimen/v8_gap3_5dp" >
+
+                <TextView
+                    android:id="@+id/theme_shop_item_price_old"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+                    android:textColor="@color/theme_shop_v6_list_item_title"
+                    android:textSize="@dimen/theme_shop_v6_recomment_text_size_12" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/theme_shop_item_price_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/theme_shop_item_price_old"
+                    android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+                    android:textColor="@color/theme_shop_v6_price_new"
+                    android:textSize="@dimen/theme_shop_v6_recomment_text_size" >
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/theme_shop_item_price_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@+id/theme_shop_item_price_old"
+                    android:layout_alignLeft="@+id/theme_shop_item_price_old"
+                    android:layout_alignRight="@+id/theme_shop_item_price_old"
+                    android:layout_alignTop="@+id/theme_shop_item_price_old"
+                    android:src="@drawable/theme_shop_item_price_img"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/splitimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/tab_split"
+            android:visibility="gone" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/store_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/theme_shop_v6_detail_collect_selector"
+            android:visibility="gone" >
+        </ImageView>
+    </RelativeLayout>
+
+</LinearLayout>

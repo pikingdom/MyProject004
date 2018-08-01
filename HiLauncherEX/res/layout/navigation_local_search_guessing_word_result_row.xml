@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="57dp"
+	android:minHeight="57dp"
+	android:orientation="vertical"
+	android:descendantFocusability="blocksDescendants" >
+	<LinearLayout 
+	    android:id="@+id/navigation_local_search_guessing_word_linearlayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="56dp"
+	    android:orientation="vertical">
+		<LinearLayout
+		    android:id="@+id/btnResultItem"
+		    android:layout_width="fill_parent"
+		    android:layout_height="match_parent"
+		    android:gravity="center_vertical"
+		    android:orientation="horizontal"
+		    android:paddingLeft="10dp" >
+		    
+			<ImageView android:id="@+id/icon"
+			  android:layout_width="32dp"
+			  android:layout_height="32dp"
+			  android:src="@drawable/logo_mini"
+		  	  android:layout_gravity="center_vertical"/>
+		  			  <LinearLayout  
+			      android:layout_width="0dip"
+			      android:layout_weight="1"
+			      android:layout_height="fill_parent"
+			      android:layout_gravity="center_vertical"
+			      android:layout_marginLeft="12dp"
+			      android:gravity="center_vertical"
+			      android:orientation="vertical">
+			      
+				  <TextView
+				      android:id="@+id/label"
+				      android:layout_width="match_parent"
+				      android:layout_height="wrap_content"
+				      android:singleLine="true"
+				      android:textColor="#67696d"
+				      android:text="安全中心"
+				      android:gravity="center_vertical"
+				      android:ellipsize="middle" 
+				      android:textSize="15sp" />
+				  <TextView
+				      android:id="@+id/labelSmall"
+				      android:layout_width="match_parent"
+				      android:layout_height="wrap_content"
+				      android:singleLine="true"
+				      android:textColor="#7a7a7a"
+				      android:gravity="center_vertical"
+				      android:text="应用程序"
+				      android:textSize="10sp" />
+				  
+			  </LinearLayout>
+			  
+			  
+			  <LinearLayout
+			      android:id="@+id/leftDivideLayout"
+			      android:layout_width="wrap_content"
+			      android:layout_height="fill_parent" 
+			      android:paddingLeft="12dip"
+			      android:orientation="horizontal"
+			      android:focusable="false"
+			      android:visibility="gone"
+			      android:layout_gravity="right|center_vertical">
+			      <ImageView
+				      android:id="@+id/leftImg"
+				      android:layout_width="wrap_content"
+				      android:layout_height="wrap_content"
+				      android:layout_gravity="center_vertical"
+				      android:layout_marginLeft="5dp"
+				      android:layout_marginRight="15dp"
+				      android:focusable="false"
+				      android:src="@drawable/navigation_search_position_icon"
+				      android:scaleType="center"/>
+			  </LinearLayout>
+			  
+			  <!-- 分割线 -->
+		<!-- 		  <ImageView -->
+		<!-- 		      android:id="@+id/divideImg" -->
+		<!-- 		      android:layout_width="1dip" -->
+		<!-- 		      android:layout_height="20dip"  -->
+		<!-- 		      android:layout_gravity="center_vertical" -->
+		<!-- 		      android:background="#DFDFDF" -->
+		<!-- 		      android:scaleType="fitXY" -->
+		<!-- 		      /> -->
+			 
+			  <LinearLayout
+			      android:id="@+id/rightDivideLayout"
+			      android:layout_width="wrap_content"
+			      android:layout_height="fill_parent" 
+			      android:paddingLeft="12dip"
+			      android:orientation="horizontal"
+			      android:focusable="false"
+			      android:layout_gravity="right|center_vertical">
+			      <ImageView
+				      android:id="@+id/rightImg"
+				      android:layout_width="wrap_content"
+				      android:layout_height="wrap_content"
+				      android:layout_gravity="center_vertical"
+				      android:layout_marginLeft="5dp"
+				      android:layout_marginRight="15dp"
+				      android:focusable="false"
+				      android:src="@drawable/navigation_search_position_icon"
+				      android:scaleType="center"/>
+			  </LinearLayout>
+		</LinearLayout>  
+		
+		 <!-- 分割线 -->
+		<!-- 	<ImageView android:layout_width="fill_parent" -->
+		<!-- 	    android:layout_height="1dip"  -->
+		<!-- 	    android:layout_alignParentBottom="true" -->
+		<!-- 	    android:background="#DFDFDF" -->
+		<!-- 	    android:scaleType="fitXY" -->
+		<!-- 	    /> -->
+		<LinearLayout 
+		    android:id="@+id/btnMoreLocalAll"
+		    android:layout_width="match_parent"
+		   	android:layout_height="match_parent"
+		    android:gravity="center"
+		    android:visibility="gone">
+		    <TextView
+		       android:layout_width="match_parent"
+		       android:layout_height="35dip"
+		       android:layout_marginLeft="10dp"
+		       android:layout_marginRight="10dp"
+		       android:gravity="center"
+		       android:textSize="13sp"
+		       android:textColor="@color/white"
+		       android:text="@string/navigation_more_local" 
+		       android:background="@drawable/miui_cell_bg"/> 
+		</LinearLayout>
+	</LinearLayout>
+	<ImageView 
+	    android:id="@+id/search_guessing_word_line"
+	    android:layout_width="match_parent"
+	    android:layout_height="0.5dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:background="#55ffffff"
+	    android:layout_alignParentBottom="true"
+	    />
+</RelativeLayout>

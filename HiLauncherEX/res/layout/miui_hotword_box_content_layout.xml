@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 热词内容显示布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:layout_margin="10dp"
+    android:orientation="vertical" 
+    android:visibility="gone"
+    android:background="@drawable/miui_cell_bg">
+    <!-- 换一批按钮 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="39.5dp"
+        android:paddingRight="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="@string/theme_shop_v2_search_hot_title"
+            android:textColor="#73ffffff"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/refresh_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/miui_recommend_refresh" />
+    </RelativeLayout>
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:background="#14ffffff"/>
+	<!-- 热词 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+        <LinearLayout 
+            android:layout_width="match_parent"
+        	android:layout_height="38dp"
+        	android:orientation="horizontal">
+            <TextView
+                android:id="@+id/miui_custom_hotword1"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical"
+	            android:layout_marginLeft="15dp"
+	            android:text="@string/theme_shop_v2_search_hot_title"
+	            android:textColor="#b2ffffff"
+	            android:textSize="14sp" />
+            <TextView
+                android:id="@+id/miui_custom_hotword2"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical"
+	            android:text="@string/theme_shop_v2_search_hot_title"
+	            android:textColor="#b2ffffff"
+	            android:textSize="14sp" />
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="match_parent"
+        	android:layout_height="38dp"
+        	android:orientation="horizontal">
+            <TextView
+                android:id="@+id/miui_custom_hotword3"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical"
+	            android:layout_marginLeft="15dp"
+	            android:text="@string/theme_shop_v2_search_hot_title"
+	            android:textColor="#b2ffffff"
+	            android:textSize="14sp" />
+            <TextView
+                android:id="@+id/miui_custom_hotword4"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical"
+	            android:text="@string/theme_shop_v2_search_hot_title"
+	            android:textColor="#b2ffffff"
+	            android:textSize="14sp" />
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="match_parent"
+        	android:layout_height="38dp"
+        	android:orientation="horizontal">
+            <TextView
+                android:id="@+id/miui_custom_hotword5"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical"
+	            android:layout_marginLeft="15dp"
+	            android:text="@string/theme_shop_v2_search_hot_title"
+	            android:textColor="#b2ffffff"
+	            android:textSize="14sp" />
+            <TextView
+                android:id="@+id/miui_custom_hotword6"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:gravity="center_vertical"
+	            android:text="@string/theme_shop_v2_search_hot_title"
+	            android:textColor="#b2ffffff"
+	            android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

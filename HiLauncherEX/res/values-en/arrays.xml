@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string-array name="settings_common_effects_drawer_array">
+    	<item>Default</item>
+		<item>Random</item>				
+		<item>Zoom(Out)</item>
+		<item>Zoom(In)</item>
+		<item>Windmill</item>
+		<item>TV</item>
+	</string-array>
+	<string-array name="settings_common_effects_drawer_value">
+		<item>0</item>
+		<item>1</item>		
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+	
+	
+	<string-array name="settings_common_effects_screen_array">
+		<item>Default</item>
+		<item>Random</item>	
+		<item>Stack</item>
+		<item>Roll</item>
+		<item>Flip</item>
+		<item>Pendulum</item>
+		<item>Cube (Inside)</item>
+		<item>Cube (Outside)</item>
+		<item>Shutter</item>
+		<item>Chord</item>	
+		<item>Binary star</item>
+		<item>Chariot</item>
+		<item>Sphere</item>
+		<item>Cylinder</item>
+		<item>Tornado</item>
+		<item>Roll scatter</item>
+		<item>Tai Ji</item>
+		<item>Snake</item>
+		<item>Time tunnel</item>
+		<item>Door open</item>
+		<item>Tilt</item>
+	</string-array>
+	<string-array name="settings_common_effects_screen_drawable">
+		<item>edit_mode_effect_default</item>
+		<item>edit_mode_effect_random</item>
+		<item>edit_mode_effect_cascading</item>
+		<item>edit_mode_effect_roll</item>
+		<item>edit_mode_effect_turn</item>
+		<item>edit_mode_effect_windower</item>
+		<item>edit_mode_effect_cubeinside</item>
+		<item>edit_mode_effect_cubeoutside</item>
+		<item>edit_mode_effect_shutter</item>
+		<item>edit_mode_effect_chord</item>
+		<item>edit_mode_effect_binarystar</item>
+		<item>edit_mode_effect_wheel</item>
+		<item>edit_mode_effect_global</item>
+		<item>edit_mode_effect_cylinder</item>
+		<item>edit_mode_effect_tornado</item>
+		<item>edit_mode_effect_doubleswallow</item>
+		<item>edit_mode_effect_taiji</item>
+		<item>edit_mode_effect_eatbean</item>
+		<item>edit_mode_effect_time_machine</item>
+		<item>edit_mode_effect_close_door</item>
+		<item>edit_mode_effect_cubeinside</item>
+	</string-array>
+
+	<string-array name="settings_common_effects_drawer_scroll_array">
+		<item>Default</item>
+		<item>Random</item>	
+		<item>Stack</item>
+		<item>Roll</item>
+		<item>Flip</item>
+		<item>Pendulum</item>
+		<item>Cube(Inside)</item>
+		<item>Cube(Outside)</item>
+		<item>Shutter</item>
+		<item>Chord</item>	
+		<item>Binary star</item>
+		<item>Chariot</item>
+		<item>Sphere</item>
+		<item>Cylinder</item>
+		<item>Tornado</item>
+		<item>Roll scatter</item>
+		<item>Tai Ji</item>
+		<item>Snake</item>
+		<item>Time tunnel</item>
+		<item>Door open</item>
+		<item>Tilt</item>
+	</string-array>
+	
+	<string-array name="settings_launcher_screen_countxy_array">
+		<item>4x4(Standard)</item>
+		<item>5x4(Tighter)</item>
+		<item>5x5(Tightest)</item>
+		<item>Custom grids</item>
+	</string-array>	
+	
+	<string-array name="settings_launcher_screen_countxy_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	
+	<string-array name="settings_launcher_countxy_array">
+		<item>4x4(Standard)</item>
+		<item>5x4(Tighter)</item>
+		<item>5x5(Tightest)</item>
+	</string-array>	
+	
+	<string-array name="settings_launcher_countxy_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	
+	<string-array name="myphone_battery_intelligent_week">
+		<item>Sun</item>
+		<item>Mon</item>
+		<item>Tue</item>
+		<item>Wen</item>
+		<item>Thu</item>
+		<item>Fri</item>
+		<item>Sat</item>
+	</string-array>
+	
+	<string-array name="drawer_app_sort_rule">  
+        <item>Alphabetical</item>
+        <item>Latest installed first</item>
+        <item>Earliest installed first</item>
+        <item>Most used first</item>
+        <item>Least used first</item>
+    </string-array>	
+	
+	<!-- 文件夹命名建议 -->
+	<string-array name="suggestion_folder_name">
+		<item>Game</item>
+		<item>Social</item>
+		<item>Tool</item>
+		<item>Network</item>
+		<item>System</item>
+		<item>Work</item>
+		<item>Daily</item>
+		<item>Rarely</item>
+	</string-array>
+    
+    <!-- 手势功能上滑 -->
+    <string-array name="settings_personal_gesture_menu_entities_up">
+    		<item>Disable</item>
+    	<item>Apps</item>
+    	<item>%1$s shortcut</item>
+    	<item>Shortcut</item>
+    	<item>Search (Default)</item>
+    </string-array>
+    <!-- 手势功能下滑 -->
+    <string-array name="settings_personal_gesture_menu_entities_down">
+    	<item>Disable</item>
+    	<item>Apps</item>
+    	<item>%1$s shortcut</item>
+    	<item>Shortcut</item>
+    	<item>%1$s Know (Default)</item>
+    </string-array>
+    <!-- 双指下滑 -->
+    <string-array name="settings_personal_double_gesture_menu_entities_down">
+    	<item>Disable</item>
+    	<item>Apps</item>
+    	<item>91 shortcut</item>
+    	<item>Shortcut</item>
+    	<item>Scene theme (Default)</item>
+    </string-array>
+   	<string-array name="settings_personal_gesture_menu_keys">
+   		<item>0</item>
+    	<item>1</item>
+    	<item>2</item>
+    	<item>3</item>
+    	<item>4</item>
+   	</string-array>
+    
+   	<string-array name="settings_personal_folder_style_array">
+   	    <item>iPhone style</item>
+		<item>Android 4.0 style</item>
+		<item>FullScreen style</item>	
+	</string-array>	
+	
+	<string-array name="settings_personal_folder_style_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	
+	<string-array name="calendar_dynamic_icon_a_week">
+	    <item>Sun.</item>
+	    <item>Mon.</item>
+	    <item>Tues.</item>
+	    <item>Wed.</item>
+	    <item>Thur.</item>
+	    <item>Fri.</item>
+	    <item>Sat.</item>
+	</string-array>
+	
+	<string-array name="scene_select_dialog_operate_type_0">
+		<item>Preview</item>
+		<item>Apply</item>
+		<item>Delete</item>
+	  </string-array>
+	  
+	<string-array name="scene_select_dialog_operate_type_1">
+		<item>Preview</item>
+		<item>Apply</item>
+	</string-array>
+	
+	<string-array name="scene_select_dialog_operate_type_2">
+		<item>Apply</item>
+		<item>Delete</item>
+	  </string-array>
+	
+	<string-array name="scene_select_dialog_operate_type_3">
+		<item>Apply</item>
+	</string-array>
+	<string-array name="settings_particle_effects_screen_array">
+	    <item>None</item>	
+		<item>Fireworks 1</item>
+		<item>Fireworks 2</item>
+		<item>Burst</item>
+		<item>Balloon</item>
+		<item>Love shape</item>
+		<item>Starlight</item>
+		<item>Coins</item>
+		<item>Butterfly</item>
+	</string-array>
+	<string-array name="settings_particle_effects_screen_value">
+		<item>0</item>
+		<item>1</item>		
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	<string-array name="settings_particle_effects_screen_drawable">
+		<item>particle_effect_icon_none</item>
+		<item>fireworks</item>
+		<item>flower</item>
+		<item>exposure</item>
+		<item>heart_balloon</item>
+		<item>romantic_fireworks</item>
+		<item>romantic_star</item>
+		<item>money</item>
+		<item>butterfly</item>
+	</string-array>
+	
+    <string-array name="widget_variety_operate_custom_template">
+        <item>Delete</item>
+    </string-array>
+    
+     <!-- 智能 分类类名 -->
+    <string-array name="class_folder_name">
+        <item>Games</item>
+        <item>Player</item>
+        <item>Glamorize</item>
+        <item>IM</item>
+        <item>Travel</item>
+        <item>Reading</item>
+        <item>Shopping</item>
+        <item>Lifestyle</item>
+        <item>Productivity</item>
+        <item>Beautify</item>
+    </string-array>
+
+    <!-- 各个 分类对应的id -->
+    <integer-array name="class_folder_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+    
+    <string-array name="settings_common_effects_drawer_drawable">
+        <item>drawer_effect_default</item>
+        <item>edit_mode_effect_random</item>
+        <item>drawer_effect_zoom_out</item>
+        <item>drawer_effect_zoom_in</item>
+        <item>drawer_effect_windmill</item>
+        <item>drawer_effect_tv</item>
+        <item>drawer_effect_flip</item>
+    </string-array>
+
+	<!-- 一键清理冒泡提示语 -->
+	<string-array name="cleaner_widget_bubble_tip_array">
+		<item>Poke here to do a trick together~</item>
+		<item>Phone is tired. Clean it up~~</item>
+		<item>Hey, tap me. Flex your fingers.</item>
+		<item>It\'s time to clean up the phone memory!</item>
+	</string-array>
+	<!-- 一键清理清理结果提示语 -->
+	<string-array name="cleaner_widget_clean_result_tip_array">
+		<item>Boosted %1$s. Your phone runs faster than light!</item>
+		<item>Boosted %1$s. Your phone is feeling refreshed.</item>
+		<item>Boosted %1$s. Trash and cache both cleared.</item>
+		<item>Boosted %1$s. Cleaning up is a good habit~</item>
+	</string-array>
+
+	<string-array name="week_full">
+		<item>Sunday</item>
+		<item>Monday</item>
+		<item>Tuesday</item>
+		<item>Wednesday</item>
+		<item>Thursday</item>
+		<item>Friday</item>
+		<item>Saturday</item>
+	</string-array>
+
+	<string-array name="month_full">
+		<item>January</item>
+		<item>February</item>
+		<item>March</item>
+		<item>April</item>
+		<item>May</item>
+		<item>June</item>
+		<item>July</item>
+		<item>Aguest</item>
+		<item>September</item>
+		<item>October</item>
+		<item>November</item>
+		<item>December</item>
+	</string-array>
+</resources>

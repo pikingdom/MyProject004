@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="addboot_top_layout_height">50dip</dimen>
+	<dimen name="addboot_bottom_layout_height">160dip</dimen> 
+	<dimen name="addboot_light_height">8dip</dimen>
+</resources>

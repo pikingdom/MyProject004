@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="commentRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/theme_shop_v6_theme_detail_comment_rating</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+
+    <style name="commentRatingBarLittle" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/theme_shop_v6_theme_detail_comment_rating_little</item>
+        <item name="android:minHeight">28dip</item>
+        <item name="android:maxHeight">28dip</item>
+    </style>
+    <style name="commentRatingBarSmaller" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/theme_shop_v6_theme_detail_comment_rating_smaller</item>
+        <item name="android:minHeight">14dip</item>
+        <item name="android:maxHeight">14dip</item>
+    </style>
+
+    <style name="new_year_theme_progressBarHorizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/new_year_theme_progressbar_drawable</item>
+        <item name="android:indeterminateDrawable">@drawable/new_year_theme_progressbar_indeterminate</item>
+        <item name="android:minHeight">5dip</item>
+        <item name="android:maxHeight">5dip</item>
+    </style>
+
+    <style name="FullScreen_Dialog">
+        <item name="android:windowFrame">@null</item>
+<!--         <item name="android:windowIsFloating">true</item> -->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+<!--         <item name="android:windowFullscreen">true</item> -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+</resources>

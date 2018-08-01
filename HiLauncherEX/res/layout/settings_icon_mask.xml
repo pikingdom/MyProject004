@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/myphone_bg_color" android:orientation="vertical">
+	<!-- 头部 -->
+	<LinearLayout android:layout_width="fill_parent"
+		android:background="@drawable/common_middler_bg"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="@dimen/myphone_top_content"
+			android:orientation="horizontal" android:gravity="center_vertical">
+			<TextView android:layout_width="wrap_content"
+				android:layout_marginLeft="@dimen/myphone_margin_left"
+				android:textColor="@color/myphone_common_title_color1"
+				android:layout_height="wrap_content" android:textSize="@dimen/myphone_title_text_size"
+				android:text="@string/settings_personal_icon_mask_switch"
+				android:layout_weight="1.0" />
+		</LinearLayout>
+	</LinearLayout>
+	<!-- 当前蒙板名称 -->
+	<TextView android:id="@+id/mask_preview_title"
+		android:layout_width="fill_parent" android:gravity="left"
+		android:layout_height="wrap_content" android:paddingLeft="10dip"
+		android:textSize="14sp"
+		android:textColor="@color/myphone_common_text_color"
+		android:background="@drawable/app_running_process_tab_bg" />
+	<!-- 当前蒙板效果 -->
+	<LinearLayout android:layout_height="wrap_content" android:gravity="center_vertical"
+		android:layout_width="fill_parent" android:layout_margin="3dip">
+		<com.nd.hilauncherdev.settings.IconMask.IconMaskItemView
+			android:id="@+id/mask_preview" android:layout_height="wrap_content" 
+			android:layout_width="0dip" android:layout_weight="1"/>
+		<LinearLayout android:gravity="center" 
+			android:layout_height="fill_parent" android:layout_width="0dip" android:layout_weight="1">
+			<ImageView android:layout_width="1dip" android:layout_height="50dip" 
+				android:layout_toLeftOf="@id/icon_reset"
+				android:layout_centerVertical="true" android:layout_marginRight="5dip"
+				android:background="@drawable/myphone_ver_split_line" />
+			<Button android:background="@drawable/myphone_click_item_blue"
+				android:id="@+id/mask_apply" android:layout_width="0dip" android:layout_weight="1"
+				android:layout_height="50dip" android:text="@string/common_button_apply"
+				android:textColor="@color/black" />
+			<ImageView android:layout_width="1dip" android:layout_height="50dip" 
+				android:layout_toLeftOf="@id/icon_reset"
+				android:layout_centerVertical="true" android:layout_marginRight="5dip"
+				android:background="@drawable/myphone_ver_split_line" />
+			<Button android:background="@drawable/myphone_click_item_blue"
+				android:id="@+id/mask_concel" android:layout_width="0dip" android:layout_weight="1"
+				android:layout_height="50dip" android:text="@string/common_button_cancel"
+				android:textColor="@color/black" />
+		</LinearLayout>
+	</LinearLayout>
+	<!-- 选择蒙板标题 -->
+	<ImageView android:src="@drawable/myphone_common_split" android:layout_width="fill_parent" 
+		android:layout_height="1dip" android:scaleType="fitXY"/>
+	<TextView
+		android:text="@string/settings_personal_icon_mask_switch"
+		android:gravity="left" android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:paddingLeft="10dip"
+		android:textSize="14sp"
+		android:textColor="@color/myphone_common_text_color"
+		android:background="@drawable/app_running_process_tab_bg" />
+	<!-- 蒙板列表 -->
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/shortcut_selector">
+		<!-- 指示灯 -->
+		<com.nd.hilauncherdev.framework.view.commonsliding.CommonLightbar
+			android:id="@+id/lightbar" android:layout_width="match_parent"
+			android:layout_height="8dip" android:layout_marginBottom="15dip" 
+			android:gravity="center" android:layout_alignParentBottom="true"/>
+		<com.nd.hilauncherdev.settings.IconMask.IconMaskListSlidingView
+			android:id="@+id/mask_list_view" android:layout_above="@id/lightbar"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+	</RelativeLayout>
+</LinearLayout>

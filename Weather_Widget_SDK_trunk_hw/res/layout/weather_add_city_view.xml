@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_add_city_dlg"
+    android:layout_width="306dip"
+    android:layout_height="424dip"
+    android:background="@drawable/weather_add_city_bk"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cityAddBackId"
+            style="@style/backButton"
+            android:layout_gravity="center_vertical"
+            android:text="返回" />
+
+        <EditText
+            android:id="@+id/editText_prompt"
+            android:layout_width="fill_parent"
+            android:layout_height="28.5dip"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dip"
+            android:autoText="false"
+            android:background="@drawable/weather_widget_edit_bk"
+            android:capitalize="none"
+            android:drawableRight="@drawable/icon_search_02"
+            android:gravity="center_vertical"
+            android:hint="@string/cityaddedithit"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColorHint="@color/gray"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="3.3dp"
+        android:layout_marginRight="3.3dp"
+        android:layout_marginTop="6.66dp"
+        android:background="#00bcd5"
+        android:visibility="invisible" />
+
+    <RadioGroup
+        android:id="@+id/rg_city_group"
+        android:layout_width="fill_parent"
+        android:layout_height="41dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:weightSum="3" >
+
+        <RadioButton
+            android:id="@+id/rbtn_prov"
+            style="@style/city_radio_group_style"
+            android:checked="true"
+            android:text="省份" />
+
+        <RadioButton
+            android:id="@+id/rbtn_travel"
+            style="@style/city_radio_group_style"
+            android:text="旅游地" />
+
+        <RadioButton
+            android:id="@+id/rbtn_foreign"
+            style="@style/city_radio_group_style"
+            android:text="国外" />
+    </RadioGroup>
+
+    <!-- 主体(多种显示) -->
+    <!-- 全国省选择(*1) -->
+
+    <LinearLayout
+        android:id="@+id/cityselect_ll_all_city"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="3.3dp"
+        android:layout_marginRight="3.3dp"
+        android:layout_marginBottom="3.3dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_gravity="bottom"
+            android:background="#00bcd5" />
+
+        <GridView
+            android:id="@+id/cityselect_gv_hot"
+            android:layout_width="fill_parent"
+            android:layout_height="99dip"
+            android:gravity="left"
+            android:horizontalSpacing="5dp"
+            android:numColumns="4"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="@dimen/gird_view_vertical_spacing" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="3dip"
+            android:layout_marginTop="3dip"
+            android:background="#00bcd5" />
+
+        <GridView
+            android:id="@+id/cityselect_gv_all"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:horizontalSpacing="5dp"
+            android:numColumns="4"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="@dimen/gird_view_vertical_spacing" />
+
+        <include layout="@layout/weather_foreign_country_view" />
+    </LinearLayout>
+
+    <!-- 搜索选择(*2) -->
+
+    <ListView
+        android:id="@+id/cityselect_lv_search_city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="6dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="6dip"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/weather_shape_list_line"
+        android:dividerHeight="1px"
+        android:visibility="gone" />
+
+    <!-- 城市导航选择(*3) -->
+
+    <LinearLayout
+        android:id="@+id/cityselect_ll_navigate"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="6dip"
+        android:layout_marginTop="6dip"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/cityselect_ll_navigate_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:orientation="horizontal"
+            android:paddingLeft="2dip"
+            android:paddingRight="2dip" >
+
+            <TextView
+                android:id="@+id/cityselect_tv_navIco1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="5dip"
+                android:text=">"
+                android:textColor="@color/bright_yellow"
+                android:textSize="@dimen/city_nav_size" />
+
+            <TextView
+                android:id="@+id/cityselect_tv_navItem1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="全国"
+                android:textColor="@color/navy"
+                android:textSize="@dimen/city_nav_size" />
+
+            <TextView
+                android:id="@+id/cityselect_tv_navIco2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="5dip"
+                android:text=">"
+                android:textColor="@color/bright_yellow"
+                android:textSize="@dimen/city_nav_size" />
+
+            <TextView
+                android:id="@+id/cityselect_tv_navItem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/navy"
+                android:textSize="@dimen/city_nav_size" />
+
+            <TextView
+                android:id="@+id/cityselect_tv_navIco3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="5dip"
+                android:text=">"
+                android:textColor="@color/bright_yellow"
+                android:textSize="@dimen/city_nav_size" />
+
+            <TextView
+                android:id="@+id/cityselect_tv_navItem3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/navy"
+                android:textSize="@dimen/city_nav_size" />
+        </LinearLayout>
+
+        <!-- 选择栏 -->
+
+        <GridView
+            android:id="@+id/cityselect_gv_city"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="@dimen/gird_view_vertical_spacing" />
+    </LinearLayout>
+
+</LinearLayout>

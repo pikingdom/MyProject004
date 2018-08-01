@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- 桌面设置 -->
+	<string name="settings_home">桌面设置</string>
+	<string name="settings_cancel">取消</string>
+	
+	<string name="settings_set_default_launcher">设置为默认桌面</string>
+	<string name="settings_set_default_launcher_hint">请勾选\"默认使用此方式发送\",并点击\"桌面\"完成设置</string>
+	<string name="settings_set_default_launcher_hint2">请选择\"桌面\",并点击\"始终\"完成设置</string>
+	<string name="settings_set_default_launcher_hint_mi">请勾选\"默认\",并点击\"桌面\"完成设置</string>
+	<string name="settings_set_default_launcher_hint_oppo_coloros200">请勾选\"不再询问\",并点击\"桌面\"完成设置</string>
+	<string name="settings_set_default_launcher_hint_mx4">请选择\"默认打开方式\",再点击\"桌面\"完成设置</string>
+	<string name="settings_set_default_pandahome_success">已设置桌面为默认桌面</string>
+	<string name="settings_set_default_launcher_dialog_title">温馨提示</string>
+	<string name="settings_set_default_launcher_dialog_content">你愿意将\"桌面\"设为默认桌面吗？</string>
+	<string name="settings_set_default_launcher_dialog_title2">想要更彻底地美化手机？</string>
+	<string name="settings_set_default_launcher_dialog_content2">设为默认后，即可一键回到桌面。</string>
+	<string name="settings_set_default_launcher_dialog_right_btn2">设为默认桌面</string>
+	<string name="settings_set_default_launcher_dialog_right_btn">设为默认</string>
+	<string name="settings_set_default_cancel_default">可在桌面设置>辅助功能>默认软件设置中取消设置为默认桌面</string>
+	
+	<string name="settings_personal_screen_lock">锁屏</string>
+	<string name="settings_personal_status_bar_switch">通知栏开关</string>
+	<string name="settings_personal_icon_mask_switch">选择图标蒙板</string>
+	<string name="settings_personal_folder_style">选择文件夹样式</string>
+	<string name="settings_personal_gesture_up">上滑手势</string>
+	<string name="settings_personal_gesture_down">下滑手势</string>
+	<string name="settings_font_app_color">程序名颜色设置</string>
+	<string name="settings_font_app_color_summary">设置程序名颜色</string>
+	<string name="settings_font_app_name_size">程序名大小</string>
+	<string name="settings_app_icon_size">程序图标大小</string>
+	<string name="settings_icon_and_fonlder_notfication_message_count">显示消息条数</string>
+	<string name="settings_icon_and_fonlder_notfication_message_count_summary">设置是否在图标右上角显示消息条数</string>
+	<string name="settings_font_style">字体设置</string>
+	<string name="settings_font_style_name">字体名称：%s</string>
+	<string name="settings_font_style_summary">正在使用：%s \n（如果您要使用第三方字体，请把字体文件放到SD卡的/PandaHome2/fonts目录下）</string>
+	<string name="settings_font_style_default">系统默认字体</string>
+	<string name="settings_font_style_reset">恢复默认</string>
+	
+	<string name="settings_screen_countxy">选择桌面行列数</string>
+	<string name="settings_screen_rolling_cycle">循环滑动桌面</string>
+	<string name="settings_screen_rolling_cycle_summary">可在第一屏和最后一屏间循环滑动</string>
+	<string name="settings_screen_wallpaper_rolling">壁纸滚动</string>
+	<string name="settings_screen_wallpaper_by_theme">壁纸锁定</string>
+	<string name="settings_screen_wallpaper_by_theme_summary">壁纸仅跟随主题变换，设置壁纸功能将失效</string>
+	<string name="settings_screen_icon_title_background">图标名称背景</string>
+	<string name="settings_screen_icon_title_background_summary">桌面图标名称可增加黑色背景</string>
+	<string name="settings_screen_navigation_view">快速搜索屏</string>
+	<string name="settings_screen_navigation_view_summary">在最左侧屏幕实现快速搜索及上网</string>
+	<string name="settings_dockbar_text_show">桌面底部栏的应用名称</string>
+	<string name="settings_dockbar_text_show_summary">显示或隐藏桌面底部栏的应用名称</string>
+	<string name="settings_dockbar_text_show_follow_theme">跟随主题显示</string>
+	<string name="settings_dockbar_text_show_follow_theme_summary">开启后应用名称将跟随主题显示或隐藏</string>
+	<string name="settings_dockbar_text">桌面底部栏</string>
+	
+	<string name="settings_drawer_countxy">选择应用列表行列数</string>
+	<string name="settings_drawer_rolling_cycle">循环滑动应用列表</string>
+	<string name="settings_drawer_rolling_cycle_summary">可在第一屏和最后一屏间循环滑动</string>
+	<string name="settings_drawer_tabs_lock">锁定应用列表选项卡</string>
+	<string name="settings_drawer_tabs_lock_summary">无法滑动切换选项卡</string>
+	<string name="settings_drawer_bg_transparent">应用列表背景不随主题更换</string>
+	<string name="settings_drawer_bg_transparent_summary">背景保持透明,不随主题更换</string>
+    <string name="settings_drawer_upgrade_folder">应用升级文件夹</string>
+    <string name="settings_drawer_upgrade_folder_summary">显示或隐藏应用升级文件夹</string>
+	
+	<string name="settings_communicate_category_comm">通讯统计</string>
+	<string name="settings_communicate_category_battery">电量提醒</string>
+	<string name="settings_communicate_location">显示来去电归属地</string>
+	<string name="settings_communicate_boot_time">开机时间小贴士</string>
+	<string name="settings_open_launcher_notification">开启桌面菜单通知中心</string>
+	<string name="settings_hottest_app">最Hot应用</string>
+	
+	<!-- <string name="settings_advanced">辅助功能</string> -->
+	<string name="settings_advanced_default_app">默认软件设置</string>
+	<string name="settings_advanced_default_app_dialog_title">请选择默认打开软件</string>
+	<string name="settings_advanced_shortcutlog">魔力球设置</string>
+	<string name="settings_advanced_shortcutlog_summary">桌面悬浮球，随时随地快捷操作</string>
+	
+	<!-- 桌面搬家 -->
+	<string name="settings_advanced_move_home">桌面搬家</string>
+	<string name="settings_advanced_move_home_icon_title">桌面搬家</string>
+	<string name="settings_advanced_move_home_summary">将其他桌面的图标复制到桌面</string>
+    <string name="settings_advanced_move_home_dialog_title">请选择要搬家的桌面</string>
+    <string name="settings_advanced_move_home_available">正在检测可搬家的桌面...</string>
+    <string name="settings_advanced_move_home_no_available">无可搬家的桌面</string>
+    <string name="settings_advanced_move_home_importing">正在导入...</string>
+    <string name="settings_advanced_move_home_importing_end">导入完成</string>
+    <string name="settings_advanced_move_home_importing_failed">导入失败</string>
+    <string name="settings_advanced_move_home_importing_ask_backup">备份导入之前的桌面数据</string>
+    <string name="settings_advanced_move_home_notify">桌面支持复制其他桌面的图标，点击开始桌面搬家</string>
+    
+    <string name="settings_advanced_move_home_move_end_preview">搬家之后的桌面布局预览</string>
+    <string name="settings_advanced_move_home_move_end_preview_tip">高亮显示的为默认主屏幕</string>
+    <string name="settings_advanced_move_home_will_begin">即将为您开始搬家!</string>
+    <string name="settings_advanced_move_home_backup_tip">小贴士：备份当前桌面布局后，当你想恢复可在\"桌面设置-备份与重置\"中还原</string>
+    <string name="settings_advanced_move_home_success">桌面搬家成功!</string>
+    <string name="settings_advanced_move_home_success_tip">由于暂时无法复制小部件，搬家后需要您重新添加小部件到桌面上</string>
+    <string name="settings_advanced_move_previous">上一步</string>
+    <string name="settings_advanced_move_next">下一步</string>
+    <string name="settings_advanced_move_begin_move">开始搬家</string>
+    <string name="settings_advanced_move_home_no_data">该桌面无可搬迁的数据</string>
+    <string name="settings_advanced_move_home_del">退出后，是否删除桌面上的“桌面搬家”快捷方式？</string>
+    
+    <string name="settings_advanced_silent_install_no_root">您的手机尚未获取root权限，无法使用该功能</string>
+	
+	<!-- 备份、恢复和 重置 设置 -->
+    <string name="settings_backup">备份与重置</string>
+    <string name="settings_backup_tobackup">备份桌面</string> 
+    <string name="settings_backup_torestore">恢复备份</string>
+    <string name="settings_backup_reset">重置桌面</string> 
+    <string name="settings_backup_sdcard_unavailable">SDCard异常，请检查后重试</string>
+    <string name="settings_backup_success">备份成功</string>
+    <string name="settings_backup_failed">备份失败</string> 
+    <string name="settings_backup_not_found">未找到备份文件，请检查后重试</string>
+    <string name="settings_backup_restore_success">恢复成功</string>
+    <string name="settings_backup_restore_failed">恢复失败</string> 
+    <string name="settings_backup_lastest_time">最近备份时间：</string>
+    <string name="settings_backup_tobackup_message">将桌面的设置备份到SD卡</string> 
+    <string name="settings_backup_tobackup_hint">没有备份</string>
+    <string name="settings_backup_torestore_message">从SD卡还原桌面设置</string>
+    <string name="settings_backup_ing">正在备份桌面</string>
+    <string name="settings_backup_restore_ing">正在从备份中恢复桌面</string>  
+	<string name="settings_backup_reset_hint">恢复初始桌面</string>
+	<string name="settings_backup_reset_message">是否将桌面恢复到初次安装的状态</string>    
+    <string name="settings_backup_reset_title">重置桌面</string>
+	
+	<string name="settings_about">关于桌面</string>
+	<string name="settings_about_version_upgrade">版本更新</string>
+	<string name="settings_about_app_share">推荐分享</string>
+	<string name="settings_about_app_share_summary">将桌面分享给朋友</string>
+	<string name="settings_about_support">软件评分</string>
+	<string name="settings_about_support_summary">在电子市场上为桌面评分</string>
+	<string name="settings_about_feedback">用户反馈</string>
+	<string name="settings_about_copyright">版权信息</string>
+	<string name="settings_about_copyright_summary">博远无线 版权所有</string>
+	
+	<string name="settings_about_feedback_title">MoboLive(%1$s) Feedback</string>
+	
+	<!-- 推荐分享 -->
+	<!-- 分享与反馈 -->
+    <string name="settings_home_apps_share_title">选择发送方式</string>
+	<string name="settings_home_assistance_share_text">"桌面最新版本已更新,可以从market上下载安装咯:http://zm.ifjing.com"</string>
+	<string name="settings_home_apps_share_subject">分享\"桌面\"</string>
+	
+	<!-- 检查更新 -->
+	<string name="soft_update_notify_content">桌面发现最新版本%1$s版本！</string>
+	<string name="soft_update_dialog_title">提示</string>
+	<string name="soft_update_setting_title">版本更新</string>
+	<string name="soft_update_checking">正在检查更新...</string>
+	<string name="soft_update_http_exception">网络连接失败，无法检查更新</string>
+	<string name="soft_update_http_busy">网络繁忙，请稍后重试</string>
+	<string name="soft_update_not_found_new_version">当前版本为最新版本！</string>
+	<string name="soft_update_cant_connect">无法获取更新信息，请检查网络连接。</string>
+	<string name="soft_update_btn_normal_upgrade">普通升级</string>
+	<string name="soft_update_btn_smart_upgrade">智能升级</string>
+	<string name="soft_update_btn_smart_tip">(省%1$s)</string>
+	<string name="soft_update_rsa_check_fail_tip">当前网络存在异常，建议更换安全的网络环境后重新下载</string>
+	
+	<string name="recommend_app_download_not_network">无法下载推荐应用，请检查网络连接。</string>
+	<!-- 自定义行列 -->
+	<string name="custom_rows_cols">自定义行列</string>
+	<string name="setting_rows">设置行数</string>
+	<string name="setting_cols">设置列数</string>
+	
+	<!-- 蒙板选择 -->
+	<string name="mask_preview_title">效果预览:%s</string>
+	<string name="mask_no_mask">无蒙板</string>
+	
+	<!-- 异常报错邮件标题 -->
+	<string name="settings_about_bug_feedback_title">桌面(%1$s) 错误反馈</string>
+	
+	<!-- 第0屏快速搜索屏设置 -->
+	<string name="settings_navigation_lebal">快速搜索屏设置 </string>
+	<string name="settings_navigation_back_press">返回键切换</string>
+	<string name="settings_navigation_back_press_summary">按返回键切换默认屏与快速搜索屏</string>
+	<string name="settings_navigation_show">开启快速搜索屏</string>
+	<string name="settings_news_page_show">资讯</string>
+	<string name="settings_taobao_page_show">购物</string>
+	<string name="settings_navigation_hide_note">确定关闭快速搜索屏？关闭后可以在\"菜单->桌面设置->桌面布局\"里，重新开启快速搜索屏</string>
+	<string name="settings_navigation_browse_history_clean_hint">确认清除网页浏览历史?</string>
+	<!-- V5桌面设置改版需要的文字 -->
+	<string name="settings_home_common">常规设置</string>
+	<string name="settings_home_advanced">个性化设置</string>
+	<string name="settings_home_other">其他设置</string>
+	<string name="settings_home_scene_desktop">情景桌面</string>
+	<string name="settings_advanced_assist">辅助功能</string>
+	<string name="settings_advanced_gesture_control">手势</string>
+	<string name="settings_back_to_default_scene">返回桌面默认模式</string>
+	<string name="settings_reset_current_scene">重置当前情景</string>
+	<string name="settings_reset_current_scene_msg">是否恢复当前情景的初始状态?</string>   
+	
+	<!-- 摇一摇，换主题设置 -->
+	<string name="settings_theme_shake">摇一摇换主题</string>
+	<string name="settings_theme_shake_summary">回到桌面后，摇一摇随机换本地主题</string>
+	
+	<!-- 桌面设置需要添加的文字 -->
+	<string name="settings_personal_gesture_doublefingers_down">双指下滑手势</string>
+	
+
+	<string name="settings_advanced_move_home_dialog_toast">请选择要搬家的桌面</string>
+	
+	
+	<!-- 硬件信息 -->
+	<string name="system_hardware">硬件信息</string>
+	<string name="system_hardware_nt_1">USB网络</string>
+	<string name="system_hardware_nt_2">联通</string>
+	<string name="system_hardware_nt_3">电信</string>
+	<string name="system_hardware_nt_4">移动</string>
+	<string name="system_hardware_nt_5">未知</string>
+	
+	<string name="system_hardware_machine_name">手机型号：</string>
+	<string name="system_hardware_density">密度：</string>
+	<string name="system_hardware_density_dpi">dpi密度：</string>
+	<string name="system_hardware_current_screen_height">屏幕高度：</string>
+	<string name="system_hardware_current_screen_width">屏幕宽度：</string>
+	<string name="system_hardware_scaled_density">字体缩放比例：</string>
+	<string name="system_hardware_xdpi">x方向的像素密度xdpi：</string>
+	<string name="system_hardware_ydpi">y方向的像素密度ydpi：</string>
+	<string name="system_hardware_display">显示屏参数：</string>
+	<string name="system_hardware_board">主板：</string>
+	<string name="system_hardware_bootloader">引导程序：</string>
+	<string name="system_hardware_brand">系统定制商：</string>
+	<string name="system_hardware_cpu_abi">cpu指令集：</string>
+	<string name="system_hardware_device">设备参数：</string>
+	<string name="system_hardware_fingerprint">硬件名称：</string>
+	<string name="system_hardware_hardware">硬件标示：</string>
+	<string name="system_hardware_host">主机：</string>
+	<string name="system_hardware_id">修订版本列表：</string>
+	<string name="system_hardware_manufacturer">硬件制造商：</string>
+	<string name="system_hardware_product">产品内部编号：</string>
+	<string name="system_hardware_radio">无线设备：</string>
+	<string name="system_hardware_tags">标签：</string>
+	<string name="system_hardware_time">时间：</string>
+	<string name="system_hardware_type">类型：</string>
+	<string name="system_hardware_unknown">未知备注：</string>
+	<string name="system_hardware_user">用户：</string>
+	<string name="system_hardware_sdk_version">sdk版本：</string>
+	<string name="system_hardware_incremental">基带版本：</string>
+	<string name="system_hardware_release">固件版本：</string>
+	<string name="system_hardware_codename">编码器：</string>
+	<string name="system_hardware_imei">imei号：</string>
+	<string name="system_hardware_imsi">imsi号：</string>
+	<string name="system_hardware_mac">mac地址：</string>
+	<string name="system_hardware_ip">ip地址：</string>
+	<string name="system_hardware_language">当前语言：</string>
+	<string name="system_hardware_nt">网络类型：</string>
+	<string name="pandahome_check_title">桌面检测</string>
+	<string name="pandahome_check_log">检测日志</string>
+    <string name="pandahome_clean_default_theme">清除主题缓存</string>
+	<string name="pandahome_clean_caches">清除应用缓存</string>
+	<!-- V6设置项改版添加的文字 -->
+	<string name="settings_launcher_layout">桌面布局</string>
+	<string name="settings_icon_and_folder">图标</string>
+	<string name="settings_launcher_layout_settings_screen_setting">屏幕设置</string>
+	<string name="settings_lock_launcher_layout">锁定桌面布局</string>
+	<string name="settings_lock_launcher_layout_summary">防止误操作改变桌面布局</string>
+	<string name="settings_launcher_layout_settings_applist">应用列表</string>
+	<string name="settings_icon_and_folder_icon">图标</string>
+	<string name="settings_icon_and_folder_folder">文件夹</string>
+	<string name="settings_advanced_enhance_tool">增强工具</string>
+	<string name="settings_message_tips">消息提示</string>
+	<string name="settings_message_tips_summary">有未接来电或未读短信时，会显示提示</string>
+	<string name="settings_about_restart_launcher">重启桌面</string>
+	<string name="settings_help_handbook">帮助手册</string>
+	<string name="settings_advanced_browser_default_home">浏览器默认主页</string>
+	<string name="settings_choose_browser_default_home">请选择浏览器的默认主页</string>
+	<string name="settings_advanced_browser_default_home_navigation">网址导航</string>
+	<string name="settings_advanced_browser_default_home_baidu">百度</string>
+	<string name="settings_advanced_browser_default_home_initial_value">初始值</string>
+	<string name="settings_advanced_browser_default_home_custom">自定义</string>
+	<string name="settings_advanced_browser_default_home_custom_hit">请输入网址</string>
+	<string name="settings_advanced_browser_default_home_custom_empty">网址不能为空</string>
+	<string name="settings_advanced_browser_default_home_custom_erroe">请输入正确的网址</string>
+	<string name="settings_advanced_notification_bar_control">通知栏控制中心</string>
+	<string name="settings_advanced_notification_bar_control_summary">通知栏上显示桌面迷你控制中心</string>
+	<string name="settings_personal_status_bar">通知栏</string>
+	<string name="settings_mybattery_statebar_icon">通知栏电量百分比显示</string>
+	<string name="settings_notification_bar_transparent">通知栏透明</string>
+	<string name="settings_open_page">开放屏设定</string>
+	
+	<!--  指示灯设置-->
+	<string name="settings_indicator_light_style">指示灯风格</string>
+
+    <string name="settings_advanced_shortcut_icon_intercept_detail">对应用私自在桌面上创建快捷图标进行拦截</string>
+    <string name="settings_advanced_shortcut_icon_intercept">图标拦截</string>
+	<string name="settings_advanced_clear_apk">安装包清理</string>
+	<string name="settings_advanced_clear_apk_tips">应用下载安装完成后自动删除安装包</string>
+	<string name="settings_advanced_bazinga">开启桌面"逗你玩"功能</string>
+</resources>

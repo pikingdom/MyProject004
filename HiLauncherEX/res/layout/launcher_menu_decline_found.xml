@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 下滑发现拉绳 -->
+<com.nd.hilauncherdev.menu.topmenu.view.TopMenuDrawstringView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/launcher_meun_drawstring"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:gravity="right">
+	<FrameLayout
+	    android:id="@+id/launcher_meun_drawstring_layout"
+	    android:layout_width="180dp"
+		android:background="#00ff0000"
+	    android:layout_height="wrap_content"
+	    android:layout_marginRight="0dp"
+	    android:orientation="vertical">
+	</FrameLayout>
+</com.nd.hilauncherdev.menu.topmenu.view.TopMenuDrawstringView>

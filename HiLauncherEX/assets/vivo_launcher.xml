@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom>
+    <!-- 放置app -->
+    <recommend_apps>
+        <!-- 首页 -->
+        <!-- 第一行 -->
+        <app>
+            <!-- 应用商店（天湃自有） -->
+            <package_name>com.huohou.apps/com.huohou.apps.ui.activities.OpenADActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>0</x>
+            <y>2</y>
+        </app>
+
+        <app>
+            <!-- i音乐（VIVO） -->
+            <package_name>com.android.bbkmusic/com.android.bbkmusic.WidgetToTrackActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>1</x>
+            <y>2</y>
+        </app>
+
+        <app>
+            <!-- 日历 -->
+            <package_name>com.bbk.calendar/com.bbk.calendar.MainActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>2</x>
+            <y>2</y>
+        </app>
+
+        <app>
+            <!-- i主题（VIVO） -->
+            <package_name>#pkg_name#.themeshop</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>3</x>
+            <y>2</y>
+        </app>
+        <!-- 第一行 END -->
+
+        <!-- 第二行 -->
+        <app>
+            <!-- 闹钟时钟（VIVO） -->
+            <package_name>com.android.BBKClock/com.android.BBKClock.Timer</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>0</x>
+            <y>3</y>
+        </app>
+
+        <app>
+            <!-- 设置 -->
+            <package_name>com.android.settings/com.android.settings.Settings</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>1</x>
+            <y>3</y>
+        </app>
+
+        <app>
+            <!-- 一键锁屏（VIVO） -->
+            <package_name>com.android.bbk.lockscreen3/com.android.bbk.lockscreen3.LockScreenActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>2</x>
+            <y>3</y>
+        </app>
+
+        <!-- 此处为工具文件夹，在下方文件夹列表节点设置 -->
+        <!-- 第二行 END -->
+
+        <!-- 第三行 -->
+        <app>
+            <!-- 腾讯手机管家 -->
+            <package_name>com.tencent.qqpimsecure/com.tencent.server.fore.QuickLoadActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>0</x>
+            <y>4</y>
+        </app>
+
+        <app>
+            <!-- 今日头条（天湃） -->
+            <package_name>com.ss.android.article.news/com.ss.android.article.news.activity.SplashActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>1</x>
+            <y>4</y>
+        </app>
+
+        <!-- 美团/腾讯视频 -->
+        <app>
+            <!-- 美团 -->
+            <package_name>com.sankuai.meituan/com.sankuai.meituan.activity.Welcome</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>2</x>
+            <y>4</y>
+        </app>
+
+        <app>
+            <!-- 腾讯视频 -->
+            <package_name>com.tencent.qqlive/com.tencent.qqlive.ona.activity.WelcomeActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>2</x>
+            <y>4</y>
+        </app>
+
+        <app>
+            <!-- 相册 -->
+            <package_name>com.vivo.gallery/com.android.gallery3d.vivo.GalleryTabActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>3</x>
+            <y>4</y>
+        </app>
+
+        <app>
+            <!-- 相册(替换) -->
+            <package_name>com.android.gallery3d/com.android.gallery3d.app.Gallery</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>3</x>
+            <y>4</y>
+        </app>
+        <!-- 第三行 END -->
+
+        <!-- DOCKER配置 -->
+        <app>
+            <!-- 浏览器 -->
+            <package_name>com.android.browser/com.android.browser.BrowserActivity</package_name>
+            <container>1</container>
+            <screen>0</screen>
+            <x>2</x>
+        </app>
+
+        <app>
+            <!-- 相机 -->
+            <package_name>com.android.camera/com.android.camera.CameraActivity</package_name>
+            <container>1</container>
+            <screen>0</screen>
+            <x>3</x>
+        </app>
+
+        <app>
+            <!-- 相机(替换的相机) -->
+            <package_name>com.android.gallery3d/com.android.camera.CameraActivity</package_name>
+            <container>1</container>
+            <screen>0</screen>
+            <x>3</x>
+        </app>
+
+        <!-- ===============第二屏============ -->
+        <!-- 第一行 -->
+        <app>
+            <!-- 电子邮件 -->
+            <package_name>com.android.email/com.android.email.Email</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>0</x>
+            <y>0</y>
+        </app>
+
+        <app>
+            <!-- 视频 -->
+            <package_name>com.android.VideoPlayer/com.android.VideoPlayer.VideoPlayer</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>1</x>
+            <y>0</y>
+        </app>
+
+        <app>
+            <!-- 天气 -->
+            <package_name>com.vivo.weather/com.vivo.weather.WeatherMain</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>2</x>
+            <y>0</y>
+        </app>
+
+        <app>
+            <!-- 文件管理 -->
+            <package_name>com.android.filemanager/com.android.filemanager.FileManagerActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>3</x>
+            <y>0</y>
+        </app>
+        <!-- 第一行 END -->
+
+        <!-- 第二行 -->
+        <app>
+            <!-- 联系人 -->
+            <package_name>com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>0</x>
+            <y>1</y>
+        </app>
+
+        <app>
+            <!-- 云服务 -->
+            <package_name>com.bbk.cloud/com.bbk.cloud.activities.BBKCloudHomeScreen</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>1</x>
+            <y>1</y>
+        </app>
+
+        <app>
+            <!-- 互传 -->
+            <package_name>com.vivo.easyshare/com.vivo.easyshare.activity.SplashScreenActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>2</x>
+            <y>1</y>
+        </app>
+
+        <app>
+            <!-- 游戏中心 -->
+            <package_name>com.vivo.game/com.vivo.game.ui.LogoActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>3</x>
+            <y>1</y>
+        </app>
+        <!-- 第二行 END -->
+
+        <!-- 第三行 -->
+        <app>
+            <!-- VIVO乐园 -->
+            <package_name>com.vivo.space/com.vivo.space.ui.LogoActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>0</x>
+            <y>2</y>
+        </app>
+
+        <app>
+            <!-- 应用宝 -->
+            <package_name>com.tencent.android.qqdownloader/com.tencent.assistant.activity.SplashActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>1</x>
+            <y>2</y>
+        </app>
+
+        <app>
+            <!-- 搜狗搜索/腾讯新闻 -->
+            <package_name>com.sogou.activity.src/com.sogou.activity.src.SplashActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>2</x>
+            <y>2</y>
+        </app>
+
+        <app>
+            <!-- 搜狗搜索/腾讯新闻 -->
+            <package_name>com.tencent.news/com.tencent.news.activity.SplashActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>2</x>
+            <y>2</y>
+        </app>
+
+        <app>
+            <!-- 百度搜索 -->
+            <package_name>com.baidu.searchbox/com.baidu.searchbox.SplashActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>3</x>
+            <y>2</y>
+        </app>
+        <!-- 第三行 END -->
+
+        <!-- 第四行 -->
+        <app>
+            <!-- 高德地图 -->
+            <package_name>com.autonavi.minimap/com.autonavi.map.activity.SplashActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>0</x>
+            <y>3</y>
+        </app>
+
+        <!-- 第四行 END -->
+
+    </recommend_apps>
+
+    <!-- 放置文件夹 -->
+    <recommend_folders>
+        <!-- 放置文件夹到图标区 -->
+        <folder>
+            <apps>
+                <package_name>com.bbk.appstore/com.bbk.appstore.ui.AppStore</package_name>
+                <package_name>com.android.bbkcalculator/com.android.bbkcalculator.Calculator</package_name>
+                <package_name>com.nineton.weatherforecast</package_name>
+                <package_name>com.iqoo.secure/com.iqoo.secure.MainGuideActivity</package_name>
+            </apps>
+            <container>0</container>
+            <screen>0</screen>
+            <x>3</x>
+            <y>3</y>
+            <folder_name>工具</folder_name>
+        </folder>
+
+        <folder>
+            <apps>
+                <package_name>com.tencent.news/com.tencent.news.activity.SplashActivity</package_name>
+                <package_name>cn.jj/cn.jj.mobile.lobby.view.Main</package_name>
+                <package_name>com.tencent.qqlive/com.tencent.qqlive.ona.activity.WelcomeActivity</package_name>
+                <package_name>com.storm.smart/com.storm.smart.LogoActivity</package_name>
+                <package_name>com.letv.android.client/com.letv.android.client.activity.SplashActivity</package_name>
+                <package_name>cn.kuwo.player/cn.kuwo.player.activities.EntryActivity</package_name>
+            </apps>
+            <container>0</container>
+            <screen>1</screen>
+            <x>1</x>
+            <y>3</y>
+            <folder_name>娱乐</folder_name>
+        </folder>
+
+        <folder>
+            <apps>
+                <package_name>com.baidu.browser.apps/com.baidu.browser.framework.BdBrowserActivity</package_name>
+                <package_name>com.tmall.wireless/com.tmall.wireless.splash.TMSplashActivity</package_name>
+                <package_name>com.iflytek.inputmethod/com.iflytek.inputmethod.LauncherActivity</package_name>
+                <package_name>com.cainiao.wireless/com.cainiao.commonsharelibrary.navigation.navtest.NewMainActivity</package_name>
+                <package_name>com.zhongcai500/com.zhongcai500.ui.InitActivity</package_name>
+            </apps>
+            <container>0</container>
+            <screen>1</screen>
+            <x>2</x>
+            <y>3</y>
+            <folder_name>推荐</folder_name>
+        </folder>
+
+        <folder>
+            <apps>
+                <package_name>com.tencent.mtt/com.tencent.mtt.SplashActivity</package_name>
+                <package_name>com.UCMobile/com.UCMobile.main.UCMobile</package_name>
+                <package_name>com.androidmarket.dingzhi/com.market2345.navigation.NavigationActivity</package_name>
+                <package_name>com.dianxinos.optimizer.channel/cn.com.opda.android.mainui.MainActivity</package_name>
+                <package_name>com.baidu.appsearch/com.baidu.appsearch.LauncherActivity</package_name>
+                <package_name>com.jingdong.app.mall/com.jingdong.app.mall.MainActivity</package_name>
+                <package_name>com.taobao.taobao/com.taobao.tao.welcome.Welcome</package_name>
+            </apps>
+            <container>0</container>
+            <screen>1</screen>
+            <x>3</x>
+            <y>3</y>
+            <folder_name>常用</folder_name>
+        </folder>
+    </recommend_folders>
+
+    <hide_apps>
+        <package_name>com.bbk.theme/com.bbk.theme.Theme</package_name>
+    </hide_apps>
+
+    <!-- 布局，4表示5x4，5表示5x5 -->
+    <layout>4</layout>
+    <!-- 是否有0屏 -->
+    <navigation_screen>false</navigation_screen>
+    <!-- 百度渠道id -->
+    <baidu_channel_id></baidu_channel_id>
+    <!-- 浏览器首页URL -->
+    <browser_url></browser_url>
+</custom>

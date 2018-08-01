@@ -1,0 +1,178 @@
+package com.nd.hilauncherdev.launcher.search.browser.tool;
+
+import android.content.ComponentName;
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import android.text.TextUtils;
+
+import com.baidu.android.common.logging.Log;
+import com.nd.hilauncherdev.kitset.util.AndroidPackageUtils;
+import com.nd.hilauncherdev.kitset.util.SystemUtil;
+import com.nd.hilauncherdev.url.URLs;
+import java.util.HashMap;
+
+/**
+ * QQx5浏览器工具
+ * Created by chenxuyu_dian91 on 2015/10/12.
+ */
+public class QQX5Tool {
+    /**
+     * QB完整版 应用包名
+     */
+    private static final String QQ_BROWSER_PKG = "com.tencent.mtt";
+
+    /**
+     * UC浏览器适配
+     */
+    private static final String[] UC_PKGS= new String[]{"com.UCMobile","com.UCMobile.cmcc","com.uc.browser"};
+    private static final String[] UC_ACTS = new String[]{"com.UCMobile.main.UCMobile","com.uc.browser.InnerUCMobile","com.uc.browser.ActivityUpdate"};
+
+    /**
+     * 百度浏览器适配
+     */
+    private static final String[] BB_PKGS = new String[]{"com.baidu.browser.apps","com.baidu.browser.apps.lite","com.baidu.searchbox"};
+    private static final String[] BB_ACTS = new String[]{"com.baidu.browser.framework.BdBrowserActivity","com.baidu.browser.framework.BdBrowserActivity","com.baidu.searchbox.MainActivity"};
+
+    //缺省的打开链接
+    private static final String DEFAULT_URL = URLs.BROWSER_BAIDU_URL;
+
+    /**
+     * X5相应浏览器打开打点位置
+     */
+    public static final int POS_BAIDU_HOT_WORD = 1; //百度热词
+    public static final int POS_NAV = 2; //导航屏
+
+    /**
+     * 打开的第三方浏览器类型
+     */
+    public static final int BROWSER_QB = 1;
+    public static final int BROWSER_UC = 2;
+    public static final int BROWSER_BAIDU = 3;
+
+    /**
+     * 支持桌面的简版QB的最低版本
+     */
+    private static final int BASE_CORE_VERSION = 25482;
+
+    /**
+     * 调起MiniQB打点
+     */
+    private static final String ANALYSIS_MQB_HOT_WORD_INVOKE = "BDTJ91";
+    private static final String ANALYSIS_MQB_NAV_INVOKE = "BDTJ92";
+    /**
+     * 调起QB打点
+     */
+    private static final int ANALYSIS_QB_HOT_WORD_INVOKE = 91001;
+    private static final int ANALYSIS_QB_NAV_INVOKE = 91002;
+
+    /**
+     * 是否初始化成功
+     */
+    private boolean isInited = false;
+
+    private static QQX5Tool obj;
+    private Context ctx;
+    private int posId;
+
+    private QQX5Tool() {
+    }
+
+    public static QQX5Tool getInstance(Context ctx) {
+        if (obj == null) {
+            obj = new QQX5Tool();
+        }
+        obj.ctx = ctx;
+        return obj;
+    }
+
+    /**
+     * 打开MiniQB回调
+     */
+    public interface StartMiniQBCallback {
+        /**
+         * 打开浏览器应用成功，回调
+         * @param bType 打开的浏览器类型
+         */
+        void startBrowserFinish(int bType);
+
+        /**
+         * 打开MiniQB成功回调
+         */
+        void startMiniQBFinish();
+
+        /**
+         * 打开MiniQB失败，回调
+         */
+        void startFailure();
+    }
+
+    /**
+     * 初始化X5浏览器
+     *
+     * @param callback
+     */
+    public void initX5(final QbSdk.PreInitCallback callback) {
+        if (ctx == null) {
+            return;
+        }
+        Log.i("cxydebug","X5 tbs ver : " + QbSdk.getTbsVersion(ctx) + " ,  isinited : " + isInited);
+        //初始化
+        if (!QbSdk.isTbsCoreInited() || !isInited) {
+            isInited = false;
+            Log.i("cxydebug","init x5 ....");
+            QbSdk.preInit(ctx, new QbSdk.PreInitCallback() {
+                @Override
+                public void onCoreInitFinished() {
+                }
+
+                @Override
+                public void onViewInitFinished() {
+                    isInited = true;
+                    if (callback != null) {
+                        callback.onViewInitFinished();
+                    }
+                }
+            });
+        }
+
+    }
+
+
+    /**
+     * 打开X5逻辑（简版QB / QB完整版，由SDK自行判断）
+     * @param url
+     * @param replaceUrl 作为可能的替换URL
+     * @param startCallback
+     * @param pos 调起X5QB的打点位置
+     */
+    public void startX5ToLoadUrl(final String url, final String replaceUrl, StartMiniQBCallback startCallback ,int pos) {
+    	if (ctx == null) {
+            return;
+        }
+
+        initX5(null);
+        String tmpUrl = TextUtils.isEmpty(url) ? DEFAULT_URL : url.trim();
+        posId = (pos == POS_BAIDU_HOT_WORD ? ANALYSIS_QB_HOT_WORD_INVOKE : (pos == POS_NAV ? ANALYSIS_QB_NAV_INVOKE  : 0));
+
+        HashMap<String,String> params = new HashMap<String, String>();
+        params.put("StatKey", pos == POS_BAIDU_HOT_WORD ? ANALYSIS_MQB_HOT_WORD_INVOKE : (pos == POS_NAV ? ANALYSIS_MQB_NAV_INVOKE : ""));
+
+        //1、优先打开完整版QB
+        if (QbSdk.getTbsVersion(ctx) >= BASE_CORE_VERSION && QbSdk.startMiniQBToLoadUrl(ctx, tmpUrl, params)) {
+            //2、当前内核版本是否大于25482
+            if (startCallback != null) {
+                startCallback.startMiniQBFinish();
+            }
+        } else {
+            //调不起简版QB时，判断是否替换为候补的URL
+            if(!TextUtils.isEmpty(replaceUrl)){
+                tmpUrl = replaceUrl;
+            }
+            if(startCallback != null){
+                startCallback.startFailure();
+            }
+        }
+    }
+}
+

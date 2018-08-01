@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- 桌面设置 -->
+	<string name="settings_home">Preferensi</string>
+	<string name="settings_more">Lainnya</string>
+	
+	<string name="settings_set_default_launcher">Jadikan peluncur default</string>
+	<string name="settings_set_default_launcher_hint">Pilih\"gunakan secara default untuk tindakan ini \", lalu klik\"%1$s\" untuk menyelesaikan setelan</string>
+	<string name="settings_set_default_launcher_hint2">Pilih\"%1$s\", lalu ketuk\"selalu\" untuk menyelesaikan setelan</string>
+	<string name="settings_set_default_pandahome_success">Berhasil ditetapkan sebagai peluncur default</string>
+	
+	<string name="settings_personal_status_bar_switch">Tampilkan panel status</string>
+	<string name="settings_personal_update_check">Deteksi pembaruan</string>
+	<string name="settings_personal_icon_mask_switch">Mask ikon</string>
+	<string name="settings_personal_folder_style">Gaya folder</string>
+	<string name="settings_personal_gesture_up">Geser naik</string>
+	<string name="settings_personal_gesture_down">Geser turun</string>
+	<string name="settings_font_app_color">Warna label</string>
+	<string name="settings_font_app_color_summary">Atur warna untuk label aplikasi</string>
+	<string name="settings_font_app_name_size">Ukuran label</string>
+	<string name="settings_app_icon_size">Ukuran Ikon</string>
+	
+	<string name="settings_screen_countxy">Ukuran kisi</string>
+	<string name="settings_screen_rolling_cycle">Gulir terus</string>
+	<string name="settings_screen_rolling_cycle_summary">Terus menggulir semua layar</string>
+	<string name="settings_screen_wallpaper_rolling">Mode wallpaper</string>
+	<string name="settings_screen_wallpaper_by_theme">Wallpaper layar terkunci</string>
+	<string name="settings_screen_wallpaper_by_theme_summary">Wallpaper akan berubah sesuai tema, dan setelan wallpaper akan dinonaktifkan.</string>
+	<string name="settings_screen_icon_title_background">Tampilkan latar belakang label</string>
+	<string name="settings_screen_icon_title_background_summary">Sorot latar belakang label ikon</string>
+	<string name="settings_dockbar_text_show">Tampilkan label aplikasi dok</string>
+	<string name="settings_dockbar_text_show_summary">Label aplikasi dok akan ditampilkan setelah diaktifkan</string>
+	<string name="settings_dockbar_text_show_follow_theme">Terapkan berdasarkan tema</string>
+	<string name="settings_dockbar_text_show_follow_theme_summary">Bila diaktifkan, label aplikasi akan ditampilkan berdasarkan tema aktif</string>
+	<string name="settings_dockbar_text">Setelan dok</string>
+	
+	<string name="settings_drawer_countxy">Ukuran kisi</string>
+	<string name="settings_drawer_rolling_cycle">Gulir terus</string>
+	<string name="settings_drawer_rolling_cycle_summary">Terus menggulir semua layar</string>
+	<string name="settings_drawer_tabs_lock">Kunci laci aplikasi</string>
+	<string name="settings_drawer_tabs_lock_summary">Tidak dapat menggulir antara Aplikasi, Widget, dan Manajer</string>
+	<string name="settings_drawer_bg_transparent">Transparansi latar belakang</string>
+	<string name="settings_drawer_bg_transparent_summary">Mengatur transparansi latar belakang laci</string>
+	
+	<string name="settings_communicate_category_comm">Umum</string>
+	<string name="settings_communicate_category_battery">Notifikasi pengisian daya</string>
+	<string name="settings_communicate_location">Lokasi panggilan masuk</string>
+	<string name="settings_communicate_boot_time">Waktu boot</string>
+	
+	<!-- <string name="settings_advanced">Assist</string> -->
+	<string name="settings_advanced_default_app">Manajer Aplikasi Default</string>
+	<string name="settings_advanced_default_app_dialog_title">Pilih aplikasi default</string>
+	
+	<string name="settings_advanced_move_home">Salin layar Beranda</string>
+	<string name="settings_advanced_move_home_icon_title">Salin ikon</string>
+	<string name="settings_advanced_move_home_summary">Menyalin ikon peluncur lainnya ke %1$s</string>
+    <string name="settings_advanced_move_home_dialog_title">Pilih peluncur</string>
+    <string name="settings_advanced_move_home_available">Mendeteksi...</string>
+    <string name="settings_advanced_move_home_no_available">Tidak ada ikon yang dapat disalin dari peluncur lainnya</string>
+    <string name="settings_advanced_move_home_importing">Mengimpor, harap tunggu...</string>
+    <string name="settings_advanced_move_home_importing_end">Diimpor</string>
+    <string name="settings_advanced_move_home_importing_failed">Impor gagal</string>
+    <string name="settings_advanced_move_home_importing_ask_backup">Cadangkan setelan %1$s</string>
+    <string name="settings_advanced_move_home_notify">Anda dapat menyalin ikon ke %1$s sekarang. Ketuk di sini</string>
+    
+    <string name="settings_advanced_move_home_move_end_preview">Pratinjau Layar</string>
+    <string name="settings_advanced_move_home_move_end_preview_tip">Layar sorotan adalah layar Beranda</string>
+    <string name="settings_advanced_move_home_will_begin">Ketuk \Mulai\ untuk menyalin layar Beranda</string>
+    <string name="settings_advanced_move_home_backup_tip">Catatan: Anda dapat mengembalikan setelan %1$s dalam Preferensi&gt; Cadangkan &amp; kembalikan.</string>
+    <string name="settings_advanced_move_home_success">Ikon telah disalin ke %1$s!</string>
+    <string name="settings_advanced_move_home_success_tip">Perlu diketahui bahwa widget tidak dapat disalin dari peluncur lainnya. Anda dapat secara manual menambahkan widget ke layar beranda.\n\n Catatan: Anda dapat mengembalikan setelan %1$s dalam Preferensi &gt; Cadangkan &amp; kembalikan.</string>
+    <string name="settings_advanced_move_previous">Kembali</string>
+    <string name="settings_advanced_move_next">Berikut</string>
+    <string name="settings_advanced_move_begin_move">Mulai</string>
+    <string name="settings_advanced_move_home_no_data">Tidak ada ikon di layar peluncur lainnya</string>
+    <string name="settings_advanced_move_home_del">Apakah Anda ingin menghapus pintasan \"Salin ikon\" dari layar beranda?</string>
+    
+	<!-- 备份、恢复和 重置 设置 -->
+    <string name="settings_backup">Cadangkan &amp; kembalikan</string>
+    <string name="settings_backup_tobackup">Cadangkan %1$s</string>
+    <string name="settings_backup_torestore">Kembalikan setelan</string>
+    <string name="settings_backup_reset">Atur ulang default</string> 
+    <string name="settings_backup_sdcard_unavailable">Kartu SD tidak tersedia, periksa dan coba lagi</string>
+    <string name="settings_backup_success">Pencadangan berhasil</string>
+    <string name="settings_backup_failed">Pencadangan gagal</string> 
+    <string name="settings_backup_not_found">File cadangan tidak ditemukan, coba lagi nanti</string>
+    <string name="settings_backup_restore_success">Berhasil dikembalikan</string>
+    <string name="settings_backup_restore_failed">Gagal dikembalikan</string> 
+    <string name="settings_backup_lastest_time">Terakhir dicadangkan : </string>
+    <string name="settings_backup_tobackup_message">Setelan %1$s akan dicadangkan ke kartu SD.</string>
+    <string name="settings_backup_tobackup_hint">Tidak ada cadangan</string>
+    <string name="settings_backup_torestore_message">Setelan %1$s  akan dikembalikan dari kartu SD.</string>
+    <string name="settings_backup_ing">Mencadangkan %1$s</string>
+    <string name="settings_backup_restore_ing">Mengembalikan %1$s</string>
+	<string name="settings_backup_reset_hint">Kembalikan setelan default</string>
+	<string name="settings_backup_reset_message">Setelan %1$s akan dikembalikan ke default.</string>
+    <string name="settings_backup_reset_title">Notifikasi</string>
+	
+	<string name="settings_about">Tentang %1$s</string>
+	<string name="settings_about_version_upgrade">Periksa pembaruan</string>
+	<string name="settings_about_app_share">Bagi aplikasi</string>
+	<string name="settings_about_app_share_summary">Bagi %1$s kepada teman</string>
+	<string name="settings_about_feedback">Tanggapan</string>
+	<string name="settings_about_feedback_title">Masukan %1$s</string>
+	<string name="settings_about_copyright">Info hak cipta</string>
+	<string name="settings_about_copyright_summary">Moborobo.com Semua Hak Dilindungi Undang-Undang</string>
+	
+	<string name="settings_about_contact_us">Hubungi kami</string>
+	<string name="settings_about_contact_us_facebook_title" translate="false">Facebook</string>
+	<string name="settings_about_contact_us_instagram_title" translate="false">Instagram</string>
+	<string name="settings_about_contact_us_email_title">Email</string>
+	<string name="settings_about_contact_us_email_summary" translate="false">mobolauncher91@gmail.com</string>
+    <string name="settings_about_contact_us_google_plus_title" translate="false">Google+</string>
+    <string name="settings_about_contact_us_google_plus_summary" translate="false">Tim %1$s</string>
+	
+	<!-- 推荐分享 -->
+	<!-- 分享与反馈 -->
+    <string name="settings_home_apps_share_title">Pilih mode pengiriman</string>
+	<string name="settings_home_assistance_share_text">Saya ingin membagi %1$s dengan Anda.\nAnda dapat men-download versi  dari https://play.google.com/store/apps/details?id=%2$s</string>
+	<string name="settings_home_apps_share_subject">Bagi\"%1$s\"</string>
+	
+	<string name="settings_exit">Tutup %1$s</string>
+	<string name="recommend_app_download_not_network">Download gagal. Periksa sambungan jaringan Anda.</string>
+	
+	<!-- 自定义行列 -->
+	<string name="custom_rows_cols">Sesuaikan baris dan kolom</string>
+	<string name="setting_rows">Setelan baris</string>
+	<string name="setting_cols">Setelan kolom</string>
+	
+	<!-- 蒙板选择 -->
+	<string name="mask_preview_title">Pratinjau Mask:%s</string>
+	<string name="mask_no_mask">Tidak Ada Mask</string>
+	
+	<!-- 异常报错邮件标题 -->
+	<string name="settings_about_bug_feedback_title">Masukan Bug %1$s</string>
+	
+	<!-- V5桌面设置改版需要的文字 -->
+	<string name="settings_home_common">Umum</string>
+	<string name="settings_home_advanced">Lanjutan</string>
+	<string name="settings_home_other">Lainnya</string>
+	<string name="settings_home_scene_desktop">Tema pemandangan</string>
+	<string name="settings_advanced_assist">Aksesibilitas</string>
+	<string name="settings_advanced_gesture_control">Setelan gerakan</string>
+	<string name="settings_back_to_default_scene">Keluar</string>
+	<string name="settings_personal_gesture_doublefingers_down">Geser turun (2 jari)</string>
+	
+	<string name="settings_reset_current_scene">Atur ulang default</string>
+	<string name="settings_reset_current_scene_msg">Tema pemandangan akan dikembalikan ke default.</string>   
+	
+	<!-- 设置项搜索添加的文字 -->
+	<string name="settings_item_search">Cari</string>
+	<string name="settings_search_item">Masukkan kata kunci</string>
+	<string name="settings_no_search_result">Tidak Ada Hasil Pencarian</string>	
+	
+	<string name="settings_advanced_move_home_dialog_toast">Tentukan pilihan</string>
+	<string name="settings_backup_tobackup_dialog_title">Notifikasi</string>
+	<string name="settings_backup_restore_dialog_title">Notifikasi</string>	
+	
+	<!-- V6 text added to setting up item -->
+	<string name="settings_launcher_layout">tata letak desktop</string>
+	<string name="settings_icon_and_folder">ikon, folder</string>
+	<string name="settings_icon">ikon</string>
+	<string name="settings_launcher_layout_settings_screen_setting">setelan layar</string>
+	<string name="settings_lock_launcher_layout">kunci tata letak desktop</string>
+	<string name="settings_lock_launcher_layout_summary">mencegah kesalahan pengoperasian akibat perubahan tata letak desktop</string>
+	<string name="settings_launcher_layout_settings_applist">daftar aplikasi</string>
+	<string name="settings_icon_and_folder_icon">ikon</string>
+	<string name="settings_icon_and_folder_folder">folder</string>
+	<string name="settings_advanced_enhance_tool">alat bantu penyempurnaan</string>
+	<string name="settings_message_tips">pertanyaan pesan</string>
+	<string name="settings_message_tips_summary">Ikon akan memberi tahu Anda pesan yang belum dibaca.</string>
+	<string name="settings_mms_tips">Pesan belum dibaca</string>
+	<string name="settings_more_message_tips">Pesan belum dibaca lainnya</string>
+	<string name="settings_more_message_tips_summary">Instal 91 Message Reminder untuk menikmati semua fitur.</string>
+	<string name="settings_about_restart_launcher">aktifkan ulang desktop</string>
+	<string name="settings_personal_status_bar">papan pengumuman</string>
+	<string name="settings_score_dialog_content">Jika Anda suka %1$s, beri kami 5 bintang. Kami akan berusaha lebih baik!</string>
+</resources>

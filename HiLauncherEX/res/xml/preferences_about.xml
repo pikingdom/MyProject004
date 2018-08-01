@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 版本更新 -->
+    <Preference
+        android:key="settings_about_version_upgrade"
+        android:layout="@layout/preference_normal_layout"
+        android:title="@string/settings_about_version_upgrade" />
+    <!-- 分享软件 -->
+    <Preference
+        android:key="settings_about_app_share"
+        android:layout="@layout/preference_normal_layout"
+        android:summary="@string/settings_about_app_share_summary"
+        android:title="@string/settings_about_app_share" />
+    <!-- 软件评分 -->
+    <Preference
+        android:key="settings_about_support"
+        android:layout="@layout/preference_normal_layout"
+        android:summary="@string/settings_about_support_summary"
+        android:title="@string/settings_about_support" />
+    <!-- 版权信息 -->
+    <Preference
+        android:key="settings_about_copyright"
+        android:layout="@layout/preference_normal_layout"
+        android:summary="@string/settings_about_copyright_summary"
+        android:title="@string/settings_about_copyright" />
+    <!-- 备份与重置 -->
+    <Preference
+        android:key="settings_backup_reset"
+	 	android:layout="@layout/preference_normal_layout"
+		android:summary="@string/settings_backup_reset_hint"
+		android:title="@string/settings_backup_reset" 
+		/>
+    <!-- 重启桌面 -->
+    <Preference
+        android:key="settings_about_restart_launcher"
+        android:layout="@layout/preference_normal_layout"
+        android:title="@string/settings_about_restart_launcher" />
+
+</PreferenceScreen>

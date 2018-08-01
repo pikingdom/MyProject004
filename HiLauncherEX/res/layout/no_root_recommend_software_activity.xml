@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 没Root的推荐下载Root软件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@drawable/common_title_bg" >
+
+        <TextView
+            android:id="@+id/no_root_recommend_software_activity_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myphone_top_content"
+            android:gravity="center"
+            android:text="123"
+            android:textColor="@color/myphone_common_title_color1"
+            android:textSize="@dimen/myphone_title_text_size" />
+
+        <LinearLayout
+            android:id="@+id/no_root_recommend_software_activity_title_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/common_back" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/no_root_recommend_software_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/no_root_recommend_software_activity_tips"
+            android:textColor="#ff707070"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/no_root_recommend_software_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="#00000000"
+        android:divider="@null"
+        android:dividerHeight="0dip"
+        android:background="#00000000"
+        android:cacheColorHint="#00000000" />
+
+</LinearLayout>

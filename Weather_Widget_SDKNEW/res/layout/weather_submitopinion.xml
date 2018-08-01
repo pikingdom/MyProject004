@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/toolbarsize"
+        android:background="@drawable/weather_shape_titlebk"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <Button
+            android:id="@+id/submintInfobackId"
+            style="@style/backButton" />
+
+        <TextView
+            android:id="@+id/weatherToolTextid"
+            style="@style/titleText_w"
+            android:text="提交意见" />
+
+        <Button
+            android:id="@+id/idSubmit"
+            style="@style/rightButton"
+            android:gravity="center"
+            android:text="提 交" >
+        </Button>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewHit"
+                style="@style/setting_catalog_title" />
+
+            <EditText
+                android:id="@+id/edtBlogId"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/weather_widget_edit_bk"
+                android:gravity="top"
+                android:lines="5"
+                android:text=""
+                android:textColor="#454545"
+                android:textSize="16sp" />
+
+            <!-- <TextView -->
+            <!-- android:id="@+id/textView1" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_marginLeft="10dip" -->
+            <!-- android:layout_marginRight="10dip" -->
+            <!-- android:layout_marginTop="10dip" -->
+            <!-- android:text="留下您的联系方式" -->
+            <!-- android:textColor="@color/t_alert_info_memo" -->
+            <!-- android:textSize="17sp" -->
+            <!-- android:visibility="gone" /> -->
+
+
+            <!-- <EditText -->
+            <!-- android:id="@+id/contactId" -->
+            <!-- android:layout_width="fill_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_marginBottom="12dip" -->
+            <!-- android:layout_marginLeft="10dip" -->
+            <!-- android:layout_marginRight="10dip" -->
+            <!-- android:background="@drawable/edit" -->
+            <!-- android:gravity="top" -->
+            <!-- android:lines="1" -->
+            <!-- android:text="" -->
+            <!-- android:textSize="24sp" -->
+            <!-- android:visibility="gone" > -->
+            <!-- </EditText> -->
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white" >
+
+        <ProgressBar
+            android:id="@+id/progress_largeId"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/SuggestList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="3dip"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/weather_shape_list_line"
+            android:dividerHeight="1px"
+            android:listSelector="#00000000" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources>
+    <!-- Manifest configuration. -->
+    <skip />
+    <!-- Do not translate. android:sharedUserId of this application. -->
+    <string name="sharedUserId" translate="false"></string>
+    <!-- Do not translate. android:process of this application. -->
+    <string name="process" translate="false"></string>
+    
+    <!-- General -->
+    <skip />
+    <!-- Default folder name -->
+    <string name="folder_name">Folder</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">Wallpapers</string>
+
+    <!-- Folders -->
+    <skip />
+
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <string name="group_applications">Applications</string>
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">Select shortcut</string>
+    <skip />
+
+    <!-- Widgets: -->
+    <skip />    
+	
+	<string name="webview_no_page_tips">No progress page</string>
+	
+	<string name="classify_autotidy_category_system_folder">System Apps</string>
+	<string name="classify_autotidy_category_other_folder">Others</string>
+	<string name="classify_autotidy_category_shortcut_folder">Shortcut</string>
+	<string name="classify_autotidy_category_tool_folder">Tools</string>
+	
+	<!-- 自动分类 -->
+	<string name="drawer_menu_auto_app_classify">Auto-Folder</string>
+	<string name="drawer_menu_classify_wait">Processing. Please wait...</string>
+	<string name="app_assort_tip">Classify apps automatically</string>
+	<string name="assort_now">Start</string>
+	<string name="restore_now">Restore</string>
+	<string name="latest_classify_result">Current layout is the latest.</string>
+	<string name="use_result_now">Apply</string>
+	<string name="restore_result_now">Restore</string>
+	<string name="classify_rollback_ok">OK</string>
+	<string name="classify_rollback_cancel">Cancel</string>
+	<string name="restore_tip">Restore to: %1$s</string>
+	<string name="restore_original">Restore layout</string>
+	<string name="restore_original_tip">Restore to last layout</string>
+	<string name="no_restore_tip">No available data.</string>
+	<string name="classify_app_in_app">Enjoy Auto-Folder feature in App drawer</string>
+	
+	
+	<!--插件升级-->
+	<string name="plugin_update_tip">Would you like to update widget to the latest version?</string>
+    <string name="toast_search">Fast search for app on left bottom corner</string>
+    <string name="recent_use">Most frequently used</string>
+    <string name="folder_Favorites">Favorites</string>
+    <string name="folder_Productivity">Productivity</string>
+    <string name="folder_Media">Media</string>
+    
+    <string name="folder_recommend_hot_app_tip">Hottest apps</string>
+	<string name="readme_v6_new_themechoose">Choose any style you like!</string>
+	<!-- launcher3匣子begin-->
+	<string name="all_apps_search_bar_hint">Search Apps</string>
+	<string name="all_apps_loading_message">Loading Apps</string>
+	<string name="all_apps_no_search_results">No Apps found matching \"%1$s\"</string>
+	<string name="all_apps_search_market_message">Go to %1$s</string>
+	<!-- launcher3匣子end-->
+</resources>

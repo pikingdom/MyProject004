@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.widget.ticket.TicketWidget1x1
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    
+  <RelativeLayout 
+	    android:id="@+id/widget_layout"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:gravity="center_horizontal" 
+		android:layout_gravity="center_horizontal" >
+		<FrameLayout 
+			android:id="@+id/icon_layout"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true" 
+			android:gravity="center_horizontal" >
+			
+			<com.nd.hilauncherdev.widget.ticket.TicketView
+			    android:id="@+id/ticketView"
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent" 
+				android:scaleType="fitCenter"/>	
+		</FrameLayout>
+	</RelativeLayout>
+</com.nd.hilauncherdev.widget.ticket.TicketWidget1x1>

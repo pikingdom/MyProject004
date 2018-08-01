@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 我的手机 统一提示View MarginTop -->
+    <dimen name="text_size">13sp</dimen>
+
+    <dimen name="myphone_info_view_image_size">100dip</dimen>
+    
+    <!-- 个人中心文字大小-->
+	<dimen name="personal_center_desc_text_size">14dip</dimen>
+
+    <dimen name="theme_shop_v6_theme_category_second_class_item_size">10sp</dimen>
+    <dimen name="theme_shop_v6_theme_category_dropdown_item_size">14px</dimen>
+</resources>

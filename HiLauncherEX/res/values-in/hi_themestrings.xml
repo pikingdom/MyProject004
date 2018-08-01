@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<string name="theme_local_manage_title">Tema saya</string>
+	<string name="theme_online">Galeri Tema</string>
+	<string name="theme_default_name">Default</string>
+	<string name="theme_manage_menu_add_theme">Tambahkan ke tema lokal (apt,zip)</string>
+	<string name="theme_manage_select_theme">Pilih tema</string>
+	<string name="install_success">Paket tema diinstal.</string>
+	<string name="install_fail">Gagal menginstal paket tema</string>
+	<string name="unzip_theme">Ekstrak paket tema</string>
+	<string name="unzip_theme_waiting">Mengekstrak paket tema...</string>
+	<string name="impor_exist_theme_dialog_title">Impor tema</string>
+	<string name="import_exist_theme_dialog">Anda telah men-download tema di perangkat. Anda ingin mengimpornya?</string>
+	<string name="import_exist_theme_dialog_ing">Mengimpor tema...</string>
+	<string name="import_exist_theme_completed">Tema telah diimpor</string>
+	<string name="delete_theme">Hapus</string>
+	<string name="delete_theme_msg">Anda ingin menghapusnya?</string>
+	<string name="apply_theme">Terapkan</string>
+	<string name="apply_theme_msg">Menerapkan tema...</string>
+	<string name="title_delete_theme">Hapus</string>
+	<string name="message_delete_theme_waiting">Menghapus tema...</string>
+	<string name="title_apply_old_theme">Tema diimpor.</string>
+	<string name="message_apply_old_theme">Klik untuk menerapkan tema awal ..</string>
+	
+	<!-- 外部调用主题包安装 -->
+	<string name="install_title">Menginstal tema %1$s</string>
+	<string name="install_ticker">Menginstal tema %1$s</string>
+	<string name="install_nosupport">File tidak ada atau format file tidak mendukung.</string>
+
+	<!-- 换图标界面 -->
+	<string name="icon_repalce_left_title">Ganti</string>
+	<string name="icon_replace_default_icon">(Default)</string>
+	<string name="icon_replace_btn_reset_default">Atur ulang</string>
+	<string name="icon_repalce_select_theme_icon_title">Ikon tema</string>
+	<string name="icon_repalce_more_theme_icon">Ikon tema lainnya</string>
+
+	
+	<string name="theme_recommand_folder_name">Direkomendasikan</string>
+	<!-- 推荐主题 -->
+	<string name="edit_view_theme_individuation">Tema khusus</string>	
+	<string name="theme_module_wallpaper">Wallpaper desktop</string>
+	<string name="theme_module_icons">Ikon</string>
+	<string name="theme_module_weather">Jam Cuaca</string>
+	<string name="theme_module_other">Lainnya</string>
+	<string name="theme_local_nodata_desc">Belum ada download. Lihat halaman web</string>
+	<string name="theme_decoder_not_valiable">Kesalahan pada dekoder tema. Tema ini tidak tersedia</string>
+	<string name="icon_repalce_select_module_icon_title">Ikon lokal</string>
+	<string name="icon_repalce_select_gallery_icon_title">Gambar</string>
+	<string name="icon_repalce_more_module_icon">Ikon modul lainnya</string>
+
+</resources>

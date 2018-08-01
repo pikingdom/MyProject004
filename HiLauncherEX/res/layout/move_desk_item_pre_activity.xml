@@ -1,0 +1,184 @@
+<com.nd.hilauncherdev.settings.assit.movedesk.MoveDeskItemPreWorkspace xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/move_desk_pre_workspace"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/move_desk_pre_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- 可搬家列表界面 -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/moveable_home_list_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/home_list_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_margin="20dip"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip"
+                android:text="@string/settings_advanced_move_home_dialog_title"
+                android:textColor="@color/black"
+                android:textSize="@dimen/myphone_title_bottom_text_size"/>
+
+            <ListView
+                android:id="@+id/lv_home_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dip"
+                android:cacheColorHint="#00000000"
+                android:divider="@android:color/transparent"
+            	android:dividerHeight="10dip"
+                android:listSelector="@android:color/transparent" />
+        </LinearLayout>
+
+        <!-- 预览界面 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/preview_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:visibility="gone" >
+            
+            <TextView
+                android:id="@+id/pre_view_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="10dip"
+                android:text="@string/settings_advanced_move_home_dialog_title"
+                android:textColor="@color/black"
+                android:textSize="@dimen/myphone_title_bottom_text_size"/>
+            
+            <TextView
+                android:id="@+id/pre_view_title_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dip"
+                android:textColor="@android:color/darker_gray"/>
+            
+            <!-- 预览缩略图的容器 -->
+        	<com.nd.hilauncherdev.settings.assit.movedesk.MoveDeskItemPreScaleWorkspace
+	            android:id="@+id/move_desk_pre_scale_workspace"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"/>
+        	
+        </LinearLayout>
+        
+
+        <!-- 提示备份界面 -->
+        <RelativeLayout
+            android:id="@+id/back_up_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dip"
+            android:visibility="gone" >
+        	
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip"
+                android:text="@string/settings_advanced_move_home_will_begin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/myphone_title_bottom_text_size"/>
+            
+            <CheckBox
+                android:id="@+id/cb_is_backup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dip"
+                android:button="@drawable/btn_checkbox"
+                android:checked="true"
+                android:text="@string/settings_advanced_move_home_importing_ask_backup"
+                android:textColor="@android:color/black" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cb_is_backup"
+                android:paddingTop="10dip"
+                android:textColor="#FD7534"
+                android:text="@string/settings_advanced_move_home_backup_tip"/>
+            
+       	</RelativeLayout>
+        
+        <!-- 搬家成功提示界面 -->
+        <RelativeLayout
+            android:id="@+id/move_success_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone" >
+        	
+            <TextView
+                android:id="@+id/move_success_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="20dip"
+                android:paddingTop="20dip"
+                android:layout_margin="10dip"
+                android:text="@string/settings_advanced_move_home_success"
+                android:textColor="#FD7534"
+                android:textSize="@dimen/myphone_title_bottom_text_size"/>
+            
+            <ImageView
+                android:id="@+id/move_success_pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/move_success_title"
+                android:src="@drawable/frame_viewfacotry_search_null_img"/>
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_below="@id/move_success_pic"
+                android:textColor="@android:color/black"
+                android:layout_margin="10dip"
+                android:text="@string/settings_advanced_move_home_success_tip"/>
+            
+            <com.nd.hilauncherdev.framework.view.commonview.FooterView
+		        android:id="@+id/suc_face_bottom"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentBottom="true">
+		    </com.nd.hilauncherdev.framework.view.commonview.FooterView>
+		    
+       	</RelativeLayout>
+       	
+        <com.nd.hilauncherdev.framework.view.commonview.FooterView
+	        android:id="@+id/bottom_oper_area"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:visibility="invisible" >
+	    </com.nd.hilauncherdev.framework.view.commonview.FooterView>
+	    
+    </LinearLayout>
+
+</com.nd.hilauncherdev.settings.assit.movedesk.MoveDeskItemPreWorkspace>

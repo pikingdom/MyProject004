@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 积分详情界面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffeef1f6"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.nd.hilauncherdev.shop.shop3.customview.ThemeHeaderView
+        android:id="@+id/mHeadView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_below="@+id/mHeadView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="54dp"
+        android:gravity="center" >
+
+        <!-- 积分详情可展开列表 -->
+        <ExpandableListView android:id="@+id/integral_detail_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:listSelector="@drawable/myphone_click_item_blue"
+            android:cacheColorHint="#00000000"
+            android:dividerHeight="0dp"
+            android:divider="#00000000"
+            android:groupIndicator="@null"
+            android:scrollbars="none"/>
+        <!-- 无网络和加载中界面 -->
+        <LinearLayout
+            android:id="@+id/integral_detail_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </FrameLayout>
+    <!--底部控制栏按钮-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@drawable/theme_shop_v6_main_fun_band">
+        <TextView
+            android:id="@+id/personal_center_integral_detail_getintegral"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/common_btn_blue"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/personal_center_integral_detail_getintegral"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/personal_center_integral_detail_exchangeintegral"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/common_btn_blue"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/personal_center_integral_detail_exchangeintegral"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</RelativeLayout>

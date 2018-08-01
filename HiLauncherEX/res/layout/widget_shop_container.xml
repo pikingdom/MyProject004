@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="2dip"
+    android:orientation="vertical" >
+
+    <com.nd.hilauncherdev.widget.shop.enhance.WidgetViewPagetTab
+        android:id="@+id/pagertab"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/pagertab"
+        android:layout_alignTop="@id/pagertab"
+        android:background="@drawable/install_back"
+        android:gravity="center"
+        android:textColor="@android:color/white" 
+        android:visibility="gone"/>
+
+    <com.nd.hilauncherdev.widget.shop.enhance.WidgetShopLazyViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/pagertab" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+
+<resources>
+	<!-- 文字大小 -->
+	<dimen name="text_size">12sp</dimen>
+	
+
+	<!-- viewpagertab 默认字体大小 -->
+	<dimen name="frame_viewpager_tab_textsize">15sp</dimen>
+	<!-- viewpagertab 英文版新手引导默认字体大小 -->
+	<!-- viewpagertab 每行高度 -->
+	<dimen name="viewpager_tab_more_item">25dip</dimen>
+
+	<!-- 我的手机标题 -->
+	<dimen name="myphone_title_text_size">20sp</dimen>
+	<!-- 我的手机标题顶部Margin -->
+	<!-- 我的手机间距 -->
+	<dimen name="myphone_margin_left">10dip</dimen>
+	<!-- 我的手机标题图片宽度 -->
+	<!-- 我的手机标题图片Margin -->
+	<!-- 我的手机顶部高度 -->
+	<dimen name="myphone_top_content">45dip</dimen>
+	<!-- 我的手机底部高度 -->
+	<dimen name="myphone_bottom_content">60dip</dimen>
+	<!-- 我的手机内容图标大小 -->
+	<!-- 我的手机主内容文字大小 -->
+	<dimen name="myphone_item_text_size">15sp</dimen>
+	<!-- 我的手机辅助内容(说明性,按钮等)文字大小 -->
+	<dimen name="myphone_item_little_text_size">12sp</dimen>
+	<!-- 我的手机内容Padding -->
+	<dimen name="myphone_item_padding">5dip</dimen>
+	<!-- ViewPagerTab高度 -->
+
+	<!-- 我的文件 -->
+	<dimen name="myfile_photo_category_height">105dip</dimen>
+	<dimen name="myfile_photo_category_width">135dip</dimen>
+	<dimen name="myfile_photo_height">100dip</dimen>
+	<dimen name="myfile_photo_width">130dip</dimen>
+	<dimen name="myfile_top_view_margin">10dip</dimen>
+
+	<!-- 底部编辑视图高度 -->
+	<!-- 底部编辑视图顶部Tab栏高度 -->
+
+	<!-- 新手引导顶部文字 -->
+	<!-- 新手引导文字与图标padding -->
+
+
+	<dimen name="dialog_bottom_layout_height">45dip</dimen>
+
+	<!-- 电池widget 模式选择 图标间距 -->
+	<!-- 我的手机 统一提示View MarginTop -->
+	<!-- 正在运行内存条字体大小 -->
+	<!-- 我的文件音乐右边间距 -->
+	
+	<!-- 热词下载详细信息 弹出窗参数 -->
+
+</resources>

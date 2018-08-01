@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- 
+	<declare-styleable name="pandaCustomWidget">
+        <attr name="title" format="string"/>
+        <attr name="packageName" format="string"/>
+        <attr name="previewName" format="string"/>
+		<attr name="spanX" format="integer" />
+		<attr name="spanY" format="integer"/>
+		<attr name="layout" format="string" />
+		<attr name="layoutRes" format="integer" />
+	</declare-styleable>
+	 -->
+</resources>

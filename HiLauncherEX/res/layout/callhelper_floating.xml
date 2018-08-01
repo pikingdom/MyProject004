@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dip"
+    android:layout_height="150dip" android:background="@drawable/callhelper_panel_bg" >    
+    <LinearLayout android:id="@+id/callhelper_panel_btn" android:layout_width="match_parent" android:layout_height="50dip"  
+        android:background="@drawable/callhelper_panel_btn"
+        android:gravity="center"  android:layout_centerInParent="true">
+        <TextView android:id="@+id/image_whitespot" 
+            android:text="@string/callhelper_stopcall"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:drawableLeft="@drawable/callhelper_panel_left_logo"/>
+    </LinearLayout>
+</RelativeLayout>

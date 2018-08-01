@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.drawer.view.DrawerMainView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/launcher_drawer"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingTop="@dimen/status_bar_height"
+	android:visibility="gone">
+
+	<com.nd.hilauncherdev.drawer.view.SamsungDrawerSearchLayout
+		android:id="@+id/samsung_drawer_search_rl"
+		android:layout_width="match_parent"
+		android:layout_marginTop="5dp"
+		android:layout_height="45dp"/>
+
+	<LinearLayout android:id="@+id/drawer_top_layout"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/drawer_top_layout_height"
+		android:layout_below="@+id/samsung_drawer_search_rl"
+		android:gravity="center_vertical">
+		
+		<com.nd.hilauncherdev.app.view.FontableCheckedTextView 
+		    android:id="@+id/drawer_all_apps_btn"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:paddingLeft="15dip"
+			android:paddingRight="15dip"
+			android:gravity="center"
+			android:checked="true"
+			android:text="@string/drawer_all_apps"/>
+		
+		<RelativeLayout	android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/drawer_widgets_container"
+			android:layout_weight="1">			
+		
+			<com.nd.hilauncherdev.app.view.FontableCheckedTextView 
+			    android:id="@+id/drawer_widgets_btn"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:paddingLeft="15dip"
+				android:paddingRight="15dip"
+				android:gravity="center"
+				android:text="@string/drawer_widgets" />
+				
+			<TextView android:id="@+id/drawer_widgets_info"
+				android:layout_width="20dip"
+				android:layout_height="20dip"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentRight="true"
+				android:layout_marginTop="7dip"
+				android:layout_marginRight="7dip"
+				android:gravity="center"
+				android:textColor="@android:color/white"
+				android:background="@drawable/drawer_notice_bg"
+				android:visibility="invisible" />
+		
+		</RelativeLayout>		
+			
+		<com.nd.hilauncherdev.app.view.FontableCheckedTextView 
+		    android:id="@+id/drawer_my_phone_btn"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:paddingLeft="15dip"
+			android:paddingRight="15dip"
+			android:gravity="center"
+			android:tag="drawer_my_phone"
+			android:text="@string/drawer_my_phone"/>
+		
+	</LinearLayout>
+	
+	<RelativeLayout android:id="@+id/drawer_bottom_layout"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/drawer_button_bar_height"
+		android:layout_alignParentBottom="true">
+		 
+		<RelativeLayout android:id="@+id/drawer_tools_layout"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			
+			<ImageView android:id="@+id/drawer_search_btn"
+				android:layout_width="80dip"
+				android:layout_height="match_parent"
+				android:layout_alignParentLeft="true"
+				android:layout_centerVertical="true"
+				android:scaleType="centerInside"
+				android:src="@drawable/drawer_search_btn" />
+				
+			<ImageView android:id="@+id/drawer_home_btn"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_centerInParent="true"
+				android:src="@drawable/drawer_home_btn" />
+				
+			<ImageView android:id="@+id/drawer_more_btn"
+				android:layout_width="80dip"
+				android:layout_height="match_parent"
+				android:layout_alignParentRight="true"
+				android:layout_centerVertical="true"
+				android:scaleType="centerInside"
+				android:src="@drawable/drawer_more_btn" />
+		
+		</RelativeLayout>
+		
+	</RelativeLayout>
+
+	<!--
+		<com.nd.hilauncherdev.framework.view.commonsliding.CommonLightbar
+		android:id="@+id/drawer_common_lightbar"
+		android:layout_width="wrap_content"
+		android:layout_height="@dimen/drawer_common_light_height"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true" />
+	-->
+
+	<com.nd.hilauncherdev.framework.view.commonsliding.LineLightbar
+		android:id="@+id/drawer_lightbar" android:layout_width="match_parent"
+		android:layout_height="@dimen/drawer_common_light_height"
+		android:layout_marginLeft="5dip" android:layout_marginRight="5dip"
+		android:layout_marginBottom="@dimen/drawer_button_bar_height"
+		android:layout_alignParentBottom="true" />
+
+	<com.nd.hilauncherdev.framework.view.commonsliding.CommonLightbar
+		android:id="@+id/drawer_sansum_bar"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/drawer_common_light_height"
+		android:layout_marginLeft="5dip" android:layout_marginRight="5dip"
+		android:layout_marginBottom="@dimen/drawer_button_bar_height"
+		android:layout_alignParentBottom="true" />
+
+	<com.nd.hilauncherdev.drawer.view.DrawerSlidingView
+		android:id="@+id/drawer_sliding_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@id/drawer_lightbar"
+		android:layout_below="@id/drawer_top_layout" />
+	
+	<!--<ImageView android:id="@+id/drawer_multi_choose_tips" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginTop="20dip"
+	    android:layout_marginRight="15dip"
+	    android:src="@drawable/drawer_multi_choose_tips"
+	    android:visibility="gone" /> -->
+	
+	<!-- 延迟加载
+    <include android:id="@+id/search_view" layout="@layout/searchbox_main" />
+	 -->
+</com.nd.hilauncherdev.drawer.view.DrawerMainView>

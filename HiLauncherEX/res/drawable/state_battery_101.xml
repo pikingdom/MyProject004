@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/battery_icon" />
+    <item android:drawable="@drawable/battery_digital_one" android:left="6.5dip" android:top="@dimen/one_dimens_top" android:right="18.799988dip" android:bottom="@dimen/one_dimens_bottom" />
+    <item android:drawable="@drawable/battery_digital_zero" android:left="13.0dip" android:top="@dimen/one_dimens_top" android:right="13.199982dip" android:bottom="@dimen/one_dimens_bottom" />
+    <item android:drawable="@drawable/battery_digital_zero" android:left="19.0dip" android:top="@dimen/one_dimens_top" android:right="7.0dip" android:bottom="@dimen/one_dimens_bottom" />
+</layer-list>

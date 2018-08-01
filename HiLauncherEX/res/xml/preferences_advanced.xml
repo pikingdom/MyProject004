@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory
+        android:height="50dp"
+        android:key="settings_advanced_enhance_tool"
+        android:title="@string/settings_advanced_enhance_tool" >
+
+        <!-- 桌面搬家 -->
+        <Preference
+            android:key="settings_advanced_move_home"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_advanced_move_home_summary"
+            android:title="@string/settings_advanced_move_home"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+
+        <!-- 默认软件设置 -->
+        <Preference
+            android:key="settings_advanced_default_app"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_advanced_default_app"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+
+        <!-- 魔力球设置 -->
+        <Preference
+            android:key="settings_advanced_shortcutlog"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_advanced_shortcutlog_summary"
+            android:title="@string/settings_advanced_shortcutlog"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 浏览器默认主页 -->
+        <Preference
+            android:key="settings_advanced_browser_default_home"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_advanced_browser_default_home"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 开启桌面"逗你玩"功能 -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="settings_advanced_bazinga"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_advanced_bazinga"
+            android:widgetLayout="@layout/preferences_checkbox" />
+        <!-- 图标拦截 -->
+        <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="settings_advanced_shortcut_icon_intercept"
+                android:layout="@layout/preference_normal_layout"
+                android:title="@string/settings_advanced_shortcut_icon_intercept"
+                android:summary="@string/settings_advanced_shortcut_icon_intercept_detail"
+                android:widgetLayout="@layout/preferences_checkbox" />
+         <!-- 安装包清理 -->
+        <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="settings_advanced_clear_apk"
+                android:layout="@layout/preference_normal_layout"
+                android:summary="@string/settings_advanced_clear_apk_tips"
+                android:title="@string/settings_advanced_clear_apk"
+                android:widgetLayout="@layout/preferences_checkbox" />
+        <!-- 开启桌面菜单通知中心 -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="settings_open_launcher_notification_setting"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_open_launcher_notification"
+            android:widgetLayout="@layout/preferences_checkbox" />
+        <!-- 有宝 -->
+        <!--CheckBoxPreference
+                android:defaultValue="true"
+                android:key="settings_youbao_notity"
+                android:layout="@layout/preference_normal_layout"
+                android:title="@string/youbao_switch"
+                android:widgetLayout="@layout/preferences_checkbox" /-->
+         <!-- 最Hot应用 -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="settings_hottest_app"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_hottest_app"
+            android:widgetLayout="@layout/preferences_checkbox" />
+        <!-- 开机时间小贴士 -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="settings_communicate_boot_time"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_communicate_boot_time"
+            android:widgetLayout="@layout/preferences_checkbox" />
+        <!-- 隐藏应用 -->
+        <Preference
+                android:key="key_hide_app_encrypt_switch"
+                android:layout="@layout/preference_normal_layout"
+                android:title="@string/app_hide"
+                android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 新安装应用扫描 -->
+<!--         <com.nd.hilauncherdev.framework.view.prompt.PromptCheckBoxPreference -->
+<!--             android:defaultValue="false" -->
+<!--             android:key="settings_communicate_app_move" -->
+<!--             android:layout="@layout/preference_normal_layout" -->
+<!--             android:title="@string/settings_communicate_app_move" -->
+<!--             android:widgetLayout="@layout/preferences_checkbox" /> -->
+        <!-- 静默安装 -->
+<!--         <com.nd.hilauncherdev.settings.custom.SilentInstallPreference -->
+<!--             android:defaultValue="false" -->
+<!--             android:key="settings_silent_install" -->
+<!--             android:layout="@layout/preference_normal_layout" -->
+<!--             android:summary="@string/settings_advanced_silent_install_hint" -->
+<!--             android:title="@string/settings_advanced_silent_install" -->
+<!--             android:widgetLayout="@layout/preferences_checkbox" /> -->
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory
+        android:height="50dp"
+        android:key="settings_communicate"
+        android:title="@string/settings_communicate_category_comm" >
+
+        <!-- 消息提示 -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="settings_message_tips"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_message_tips_summary"
+            android:title="@string/settings_message_tips"
+            android:widgetLayout="@layout/preferences_checkbox" />
+        <!-- 显示来去电归属地 -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="settings_communicate_location"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_communicate_location"
+            android:widgetLayout="@layout/preferences_checkbox" />
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory
+        android:height="50dp"
+        android:title="@string/settings_communicate_category_battery" 
+        android:key="settings_communicate_category_battery">
+
+        <!-- 充电完成提醒 -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="settings_communicate_battery_full_notification"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/mybattery_soft_setting_full_notification_desc"
+            android:title="@string/mybattery_soft_setting_full_notification_title"
+            android:widgetLayout="@layout/preferences_checkbox" />
+        <!-- 低电量提醒 -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="settings_communicate_battery_lowhit"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/mybattery_soft_setting_lowhit_desc"
+            android:title="@string/mybattery_soft_setting_lowhit_title"
+            android:widgetLayout="@layout/preferences_checkbox" />
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+
+</PreferenceScreen>

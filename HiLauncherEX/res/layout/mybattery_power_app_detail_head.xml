@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mybattert_bs_optimize_bottom_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="20dip" >
+
+            <ImageView
+                android:id="@+id/battery_powerusage_app_icon"
+                android:layout_width="@dimen/app_icon_size"
+                android:layout_height="@dimen/app_icon_size"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/myphone_margin_left" />
+
+            <ImageView
+                android:id="@+id/battery_powerusage_splite_line"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="10dip"
+                android:layout_toRightOf="@+id/battery_powerusage_app_icon"
+                android:background="@drawable/myphone_ver_split_line" />
+
+            <RelativeLayout
+                android:id="@+id/battery_powerusage_appinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="20dip" >
+
+                <TextView
+                    android:id="@+id/battery_powerusage_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="2dip"
+                    android:gravity="center_horizontal"
+                    android:textColor="#1b1b1b"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/battery_powerusage_running"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/battery_powerusage_percent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dip"
+                    android:gravity="center_horizontal"
+                    android:textColor="#1b1b1b"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/battery_powerusage_app_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/battery_powerusage_appinfo"
+                android:layout_toRightOf="@+id/battery_powerusage_splite_line" >
+
+                <TextView
+                    android:id="@+id/battery_powerusage_app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="5dip"
+                    android:ellipsize="end"
+                    android:singleLine="false"
+                    android:textColor="#1b1b1b"
+                    android:textSize="14sp" />
+
+                <com.nd.hilauncherdev.myphone.battery.mybattery.view.PercentBarView
+                    android:id="@+id/battery_powerusage_bar_bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="16dip"
+                    android:layout_below="@+id/battery_powerusage_app_name" >
+                </com.nd.hilauncherdev.myphone.battery.mybattery.view.PercentBarView>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!-- 耗电管理 -->
+
+        <TextView
+            android:id="@+id/appmanager_default_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/prompt_preference_category"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="@string/mybattery_bs_manager_message"
+            android:textColor="@color/common_title_little_text_color"
+            android:textSize="@dimen/setting_category_title_size" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/bsGradeIv"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/bsGradeTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mybattery_bs_app_level"
+                    android:textColor="@color/common_text_color"
+                    android:textSize="@dimen/setting_title_size" />
+
+                <TextView
+                    android:id="@+id/bsLevelMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dip"
+                    android:textSize="@dimen/setting_summary_size" 
+                    android:text="@string/mybattery_bs_app_level_3"
+                    android:textColor="@color/common_little_text_color"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/bsGradeIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/mybattery_bs_app_level_img3"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/myphone_common_split"
+            android:contentDescription="@string/app_name" />
+
+        <!-- 允许后台自启动 -->
+
+        <RelativeLayout
+            android:id="@+id/autoStartLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dip"
+            android:paddingTop="15dip"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:textColor="@color/myphone_common_text_color"
+                android:textSize="16sp" />
+            <!--  android:text="允许后台自启动" -->
+
+            <ImageView
+                android:id="@+id/auto_start_ico_btn_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="10dip"
+                android:src="@drawable/checkbox_unchecked" />
+        </RelativeLayout>
+
+        <!-- 耗电分析 -->
+
+        <TextView
+            android:id="@+id/bsAnalyseTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/prompt_preference_category"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="@string/mybattery_bs_manager_analyse"
+            android:textColor="@color/common_title_little_text_color"
+            android:textSize="@dimen/setting_category_title_size" />
+    </LinearLayout>
+
+</RelativeLayout>

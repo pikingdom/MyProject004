@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommitComments>	<CommitComment>增加默认主题4x1天气插件图片名称自定义设置</CommitComment>
+	<CommitComment>修改力天百度搜索插件搜索LOGO</CommitComment>
+	<CommitComment>力天定制增加百度搜索条是否启用配置</CommitComment>
+	<CommitComment>修改帆悦BUG</CommitComment>
+	<CommitComment>移动指示灯资源至launchercore</CommitComment>
+	<CommitComment>提交指示灯资源</CommitComment>
+	<CommitComment>package_change广播刷新图标时，过滤快捷方式类型图标刷新</CommitComment>
+	<CommitComment>去除主题应用结果页的主题推荐及广告</CommitComment>
+	<CommitComment>修改天气插件无城市皮肤</CommitComment>
+	<CommitComment>适配1200及720开头分辨率天气插件默认皮肤</CommitComment>
+</CommitComments>

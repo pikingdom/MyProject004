@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string-array name="settings_common_effects_drawer_array">
+    	<item>Default</item>
+		<item>Acak</item>				
+		<item>Perkecil Tampilan</item>
+		<item>Perbesar Tampilan</item>
+		<item>Kincir Angin</item>
+		<item>TV</item>
+	</string-array>
+	
+	<string-array name="settings_common_effects_screen_array">
+		<item>Default</item>
+		<item>Acak</item>	
+		<item>Tumpuk</item>
+		<item>Gulung</item>
+		<item>Balik</item>
+		<item>Bandul</item>
+		<item>Kubus (Dalam)</item>
+		<item>Kubus (Luar)</item>
+		<item>Jendela</item>
+		<item>Tali</item>	
+		<item>Binary star</item>
+		<item>Kereta</item>
+		<item>Bulat</item>
+		<item>Silinder</item>
+		<item>Tornado</item>
+		<item>Roll scatter</item>
+		<item>Tai Ji</item>
+		<item>Ular</item>
+		<item>Lorong waktu</item>
+		<item>Pintu terbuka</item>
+		<item>Kemiringan</item>
+	</string-array>
+
+	<string-array name="settings_common_effects_drawer_scroll_array">
+		<item>Default</item>
+		<item>Acak</item>	
+		<item>Tumpuk</item>
+		<item>Gulung</item>
+		<item>Balik</item>
+		<item>Bandul</item>
+		<item>Kubus (Dalam)</item>
+		<item>Kubus (Luar)</item>
+		<item>Jendela</item>
+		<item>Tali</item>	
+		<item>Binary star</item>
+		<item>Kereta</item>
+		<item>Bulat</item>
+		<item>Silinder</item>
+		<item>Tornado</item>
+		<item>Roll scatter</item>
+		<item>Tai Ji</item>
+		<item>Ular</item>
+		<item>Lorong waktu</item>
+		<item>Pintu terbuka</item>
+		<item>Kemiringan</item>
+	</string-array>
+	
+	<string-array name="settings_launcher_screen_countxy_array">
+		<item>4x4 (Standar)</item>
+		<item>5x4 (Lebih Kencang)</item>
+		<item>5x5 (Terkencang)</item>
+		<item>Kisi kustom</item>
+	</string-array>	
+	
+	<string-array name="settings_launcher_countxy_array">
+		<item>4x4 (Standar)</item>
+		<item>5x4 (Lebih Kencang)</item>
+		<item>5x5 (Terkencang)</item>
+	</string-array>	
+	
+	<string-array name="myphone_battery_intelligent_week">
+		<item>Min</item>
+		<item>Sen</item>
+		<item>Sel</item>
+		<item>Rab</item>
+		<item>Kam</item>
+		<item>Jum</item>
+		<item>Sab</item>
+	</string-array>
+	
+	<string-array name="drawer_app_sort_rule">  
+        <item>Menurut abjad</item>
+        <item>Terakhir diinstal lebih dulu</item>
+        <item>Terlama diinstal lebih dulu</item>
+        <item>Paling sering digunakan lebih dulu</item>
+        <item>Paling jarang digunakan lebih dulu</item>
+    </string-array>	
+	
+	<!-- 文件夹命名建议 -->
+	<string-array name="suggestion_folder_name">
+		<item>Game</item>
+		<item>Sosial</item>
+		<item>Alat Bantu</item>
+		<item>Jaringan</item>
+		<item>Sistem</item>
+		<item>Bekerja</item>
+		<item>Harian</item>
+		<item>Jarang</item>
+	</string-array>
+    
+    <!-- 手势功能上滑 -->
+    <string-array name="settings_personal_gesture_menu_entities_up">
+    		<item>Nonaktifkan</item>
+    	<item>Aplikasi</item>
+    	<item>Pintasan %1$s</item>
+    	<item>Pintasan</item>
+    	<item>Cari (Default)</item>
+    </string-array>
+    <!-- 手势功能下滑 -->
+    <string-array name="settings_personal_gesture_menu_entities_down">
+    	<item>Nonaktifkan</item>
+    	<item>Aplikasi</item>
+    	<item>Pintasan %1$s</item>
+    	<item>Pintasan</item>
+    	<item>Panel pengaturan cepat (Default)</item>
+    </string-array>
+    <!-- 双指下滑 -->
+    <string-array name="settings_personal_double_gesture_menu_entities_down">
+    	<item>Nonaktifkan</item>
+    	<item>Aplikasi</item>
+    	<item>Pintasan %1$s</item>
+    	<item>Pintasan</item>
+    	<item>Tema pemandangan (Default)</item>
+    </string-array>
+    
+   	<string-array name="settings_personal_folder_style_array">
+   	    <item>Gaya iPhone</item>
+		<item>Gaya Android 4.0</item>
+		<item>Gaya Layar Penuh</item>	
+	</string-array>	
+	
+	<string-array name="calendar_dynamic_icon_a_week">
+	    <item>Min.</item>
+	    <item>Sen.</item>
+	    <item>Sel.</item>
+	    <item>Rab.</item>
+	    <item>Kam.</item>
+	    <item>Jum.</item>
+	    <item>Sab.</item>
+	</string-array>
+	
+	<string-array name="scene_select_dialog_operate_type_0">
+		<item>Pratinjau</item>
+		<item>Terapkan</item>
+		<item>Hapus</item>
+	  </string-array>
+	  
+	<string-array name="scene_select_dialog_operate_type_1">
+		<item>Pratinjau</item>
+		<item>Terapkan</item>
+	</string-array>
+	
+	<string-array name="scene_select_dialog_operate_type_2">
+		<item>Terapkan</item>
+		<item>Hapus</item>
+	  </string-array>
+	
+	<string-array name="scene_select_dialog_operate_type_3">
+		<item>Terapkan</item>
+	</string-array>
+	<string-array name="settings_particle_effects_screen_array">
+	    <item>Tidak ada</item>	
+		<item>Kembang api 1</item>
+		<item>Kembang api 2</item>
+		<item>Ledakan</item>
+		<item>Balon</item>
+		<item>Bentuk hati</item>
+		<item>Cahaya bintang</item>
+		<item>Koin</item>
+		<item>Kupu-kupu</item>
+	</string-array>
+
+    <string-array name="widget_variety_operate_custom_template">
+        <item>Hapus</item>
+    </string-array>
+    
+     <!-- 智能 分类类名 -->
+    <string-array name="class_folder_name">
+        <item>Game</item>
+        <item>Pemain</item>
+        <item>Gemerlap</item>
+        <item>IM</item>
+        <item>Perjalanan</item>
+        <item>Membaca</item>
+        <item>Belanja</item>
+        <item>Gaya hidup</item>
+        <item>Produktivitas</item>
+        <item>Percantik</item>
+    </string-array>
+	<!-- 一键清理冒泡提示语 -->
+	<string-array name="cleaner_widget_bubble_tip_array">
+		<item>Ketuk di sini untuk melakukan trik~</item>
+		<item>Ponsel lelah. Bersihkan~~</item>
+		<item>Hei, ketuk saya. Gerakkan jarimu.</item>
+		<item>Saatnya membersihkan memori ponsel!</item>
+	</string-array>
+	<!-- 一键清理清理结果提示语 -->
+	<string-array name="cleaner_widget_clean_result_tip_array">
+		<item>Di-boost %1$s. Ponsel jadi lebih cepat dari cahaya!</item>
+		<item>Di-boost %1$s. Ponsel kini terasa seperti baru.</item>
+		<item>Di-boost %1$s. Sampah dan cache dibersihkan.</item>
+		<item>Di-boost %1$s. Pembersihan ponsel harus rutin~</item>
+	</string-array>
+
+	<string-array name="week_full">
+		<item>Minggu</item>
+		<item>Senin</item>
+		<item>Selasa</item>
+		<item>Rabu</item>
+		<item>Kamis</item>
+		<item>Jumat</item>
+		<item>Sabtu</item>
+	</string-array>
+
+	<string-array name="month_full">
+		<item>January</item>
+		<item>February</item>
+		<item>March</item>
+		<item>April</item>
+		<item>May</item>
+		<item>June</item>
+		<item>July</item>
+		<item>Aguest</item>
+		<item>September</item>
+		<item>October</item>
+		<item>November</item>
+		<item>December</item>
+	</string-array>
+</resources>

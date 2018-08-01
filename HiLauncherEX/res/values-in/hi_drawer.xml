@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <string name="drawer_all_apps">Aplikasi</string>
+    <string name="drawer_widgets">Widget</string>
+    <string name="drawer_my_phone">Manajer</string>
+    
+    <string name="drawer_common_download">Download</string>
+    <string name="drawer_show_app_details">Rincian</string>
+    <string name="drawer_backup_app">Cadangan</string>
+    <string name="drawer_not_found_app_tips">Aplikasi tidak ditemukan</string>
+    <string name="drawer_backup_app_not_support">Hanya mendukung cadangan aplikasi</string>
+    <string name="drawer_show_app_details_not_support">Tidak dapat melihat rincian folder</string>
+    <string name="drawer_delete_folder_tips_title">Hapus folder</string>
+    <string name="drawer_delete_folder_tips">Setelah menghapus, masukkan kembali aplikasi dalam folder pada daftar</string>
+    <string name="drawer_delete_encript_folder_tips">Semua aplikasi akan kembali ke kotak Aplikasi setelah folder dihapus.</string>
+    <string name="drawer_delete_dialog_message">Menghapus...</string>
+    <string name="drawer_delete_not_found_app_tips_title">Peringatan penghapusan</string>
+    <string name="drawer_delete_not_found_app_tips">Aplikasi tidak ditemukan. Hapus sekarang?</string>
+    <string name="drawer_tools_btn_click_tips">Tekan terus, lalu tarik ikon ke sini</string>
+    <string name="drawer_apps_not_init_tips">Inisialisasi selesai. Coba lagi nanti</string>
+    <string name="drawer_widget_click_tips">Tekan terus widget untuk menambahkannya ke layar Beranda</string>
+    <string name="drawer_widget_click_ready_tips">Widget diaktifkan</string>
+    <string name="drawer_new_folder_failed_tips">Gagal membuat folder baru</string>
+    <string name="drawer_not_found_widget_tips">Widget tidak ditemukan. Instal terlebih dulu</string>
+    <string name="drawer_multi_choose_reached_limit_tips">Jumlah beberapa pilihan telah mencapai batas maksimum</string>
+    <string name="drawer_multi_choose_folder_unavailable_tips">Folder tidak tersedia dalam mode beberapa pilihan</string>
+    
+    <string name="drawer_menu_icon_sort">Pengurutan</string>
+    <string name="drawer_menu_new_folder">Folder baru</string>
+    <string name="drawer_menu_hide_app">Sembunyikan aplikasi</string>
+    <string name="drawer_menu_settings">Pengaturan</string>
+    <string name="drawer_menu_sort_mode">Mode pengurutan</string>
+    
+    <!-- 匣子小部件中更多类型 -->
+    <string name="drawer_widget_system_widget">Widget sistem</string>
+    
+    <string name="drawer_shortcut_contact">Kontak</string>
+    
+    <string name="drawer_download_widget_tip">Men-download sekarang %1$s?</string>
+    <string name="drawer_before_download_widget_tip">%1$sMen-download. Periksa progres pada baris status</string>
+    
+    <string name="drawer_not_found_focused_item_tips">Maaf, widget tidak ditemukan. Cari lagi?</string>
+    <string name="samsung_drawer_search_default_input">Cari Apps</string>
+</resources>

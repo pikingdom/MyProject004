@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.shop.shop6.customthemeseries.widget.CustomScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="19dip"
+                android:layout_marginLeft="14dip"
+                android:layout_marginTop="14dip"
+                android:text="@string/custom_theme_series_drag_hint"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+
+            <com.nd.hilauncherdev.shop.shop6.customthemeseries.widget.DynamicGridView
+                android:id="@+id/works_preview_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="18dp"
+                android:layout_marginLeft="14dip"
+                android:layout_marginRight="14dip"
+                android:layout_weight="1"
+                android:cacheColorHint="#00000000"
+                android:gravity="center"
+                android:horizontalSpacing="@dimen/theme_shop_v6_ranking_img_margin_horizontalSpacing"
+                android:listSelector="@drawable/theme_shop_v6_transparent"
+                android:numColumns="5"
+                android:stretchMode="columnWidth"
+                android:transcriptMode="disabled"
+                android:verticalSpacing="6dip"></com.nd.hilauncherdev.shop.shop6.customthemeseries.widget.DynamicGridView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+            
+            <RelativeLayout
+                android:id="@+id/tvTimeWrapper"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dip"
+	        	android:layout_marginRight="15dip">
+
+                <TextView
+                    android:id="@+id/tvLabel2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/custom_theme_series_interval"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/tvLabel2"
+                    android:text=""
+                    android:textColor="#878787"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="14dp"
+                    android:src="@drawable/right_arrow" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="15dip" 
+	        	android:layout_marginBottom="15dip"
+                android:hint="@string/custom_theme_series_name_hint"
+                android:singleLine="true"
+	            android:textCursorDrawable="@null"
+                android:textColorHint="#5b5b5b"
+                android:textColor="@color/black"
+                android:background="@drawable/in_font_input_bg"
+                android:maxLength="15"
+                android:textSize="14sp" />
+            
+            <EditText
+                android:id="@+id/tvDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="15dip" 
+	        	android:layout_marginBottom="15dip"
+                android:text="@string/custom_theme_series_desc_default"
+                android:hint="@string/custom_theme_series_desc_hint"
+                android:singleLine="true"
+                android:maxLength="100"
+	            android:textCursorDrawable="@null"
+                android:textColorHint="#5b5b5b"
+                android:textColor="@color/black"
+                android:background="@drawable/in_font_input_bg"
+                android:textSize="14sp" />
+            
+            <EditText
+                android:id="@+id/tvTag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="15dip" 
+	        	android:layout_marginBottom="15dip"
+                android:hint="@string/custom_theme_series_tag_hint"
+                android:singleLine="true"
+                android:maxLength="100"
+	            android:textCursorDrawable="@null"
+                android:textColorHint="#5b5b5b"
+                android:textColor="@color/black"
+                android:background="@drawable/in_font_input_bg"
+                android:textSize="14sp" />
+
+			<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_marginLeft="15dip"
+		        android:layout_marginRight="15dip"
+		        android:layout_marginTop="10dip"
+		        android:layout_marginBottom="5dip" >
+				<CheckBox android:id="@+id/cb_recommend"
+				    android:layout_width="18dip"
+				    android:layout_height="18dip"
+				    android:textSize="14sp"
+				    android:checked="true"
+				    android:background="@drawable/common_checkbox_selector"
+		            android:button="@null"
+				    android:textColor="@android:color/black"/>
+				<TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/custom_theme_series_recommend_hint"
+		            android:textSize="14sp" android:layout_marginLeft="7dip"
+		            android:textColor="#999999" />
+			</LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.nd.hilauncherdev.shop.shop6.customthemeseries.widget.CustomScrollView>

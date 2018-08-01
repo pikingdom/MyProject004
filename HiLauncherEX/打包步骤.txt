@@ -1,0 +1,18 @@
+打包前：
+请确认是否已经svn同步各工程的build.gradle和项目根目录下的build.gradle
+(根目录下的build.gradle的svn：http://svn.dian91.com/svn/sj_PandaDesktop/android/91launchers/branch/newline/miui7/build.gradle)
+
+
+打包步骤：
+1.设置定制版本的包名和App名称
+    在工程根目录下的gradle文件： APP_PKG_NAME为包名，APP_NAME为App名称
+2.设置定制版本的渠道和UI类型
+    在Launcher工程gradle文件： CHANNEL_TYPE为定制版渠道，PHONE_TYPE为定制版UI类型
+3.开始打包
+    工程clean后，打开gradle工具栏，点击Launcher->Tasks->build下的assembleXXX（XXX为PHONE_TYPE值）
+
+
+其它修改说明：
+1.如果要改变桌面包在SD卡上的根目录：
+请修改Launcher工程gradle文件里的valuesFile.write(valuesFile.getText('UTF-8').replaceAll("#pkg_base_dir#","HWHome"),'UTF-8')
+请修改Launcher工程gradle文件里的valuesFile.write(valuesFile.getText('UTF-8').replaceAll("#skin_path#","HWHome/91clockandweather/skins/"),'UTF-8')

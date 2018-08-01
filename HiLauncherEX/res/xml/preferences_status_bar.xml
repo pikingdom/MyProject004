@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+       <!-- 通知栏开关 -->
+       <CheckBoxPreference
+           android:defaultValue="true"
+           android:key="settings_personal_status_bar_switch"
+           android:layout="@layout/preference_normal_layout"
+           android:title="@string/settings_personal_status_bar_switch"
+           android:widgetLayout="@layout/preferences_checkbox" />
+       <!-- 通知栏控制中心 -->
+       <CheckBoxPreference
+           android:defaultValue="true"
+           android:key="settings_advanced_notification_bar_control"
+           android:layout="@layout/preference_normal_layout"
+           android:summary="@string/settings_advanced_notification_bar_control_summary"
+           android:title="@string/settings_advanced_notification_bar_control"
+           android:widgetLayout="@layout/preferences_checkbox" />
+       <!-- 通知栏电量百分百显示 -->
+       <CheckBoxPreference
+           android:defaultValue="false"
+           android:key="settings_mybattery_statebar_icon"
+           android:layout="@layout/preference_normal_layout"
+           android:title="@string/settings_mybattery_statebar_icon"
+           android:widgetLayout="@layout/preferences_checkbox" />
+       <!-- 通知栏透明 -->
+       <CheckBoxPreference
+           android:defaultValue="false"
+           android:key="settings_notification_bar_transparent"
+           android:layout="@layout/preference_normal_layout"
+           android:title="@string/settings_notification_bar_transparent"
+           android:widgetLayout="@layout/preferences_checkbox" />
+</PreferenceScreen>

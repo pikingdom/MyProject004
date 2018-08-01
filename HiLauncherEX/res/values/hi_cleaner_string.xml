@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 新版一键清理-->
+    <string name="mycleaner_memory_clean_text">内存清理</string>
+    <string name="mycleaner_memory_clean_desc">发现%1$s个%2$s，占用内存%3$s</string>
+    <string name="mycleaner_clean_scaning_memory">后台软件</string>
+    <string name="mycleaner_memory_clean_finish_desc">已清理%1$s个%2$s,释放内存%3$s</string>
+
+    <!-- 后面版本修改 -->
+    <string name="mycleaner_memory_depth_guide_hit">点击深度清理将彻底清理进程，释放更多内存空间</string>
+    <string name="mycleaner_memory_depth_close_hit">点击强制停止，彻底关闭应用</string>
+
+    <string name="cleaner_tip_tx">立即使用%1$s，彻底清理内存</string>
+    <string name="download_cleaner_tip_tx">下载%1$s，彻底清理隐藏进程</string>
+
+    <string name="download_tx_sjgj">上网无负担，更快更安全。\n是否立即下载%1$s?</string>
+
+    <string name="myphone_btn_cancel">取消</string>
+</resources>

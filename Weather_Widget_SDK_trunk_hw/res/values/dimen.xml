@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<dimen name="alldayweatherviewheight">175dip</dimen>    
+	<dimen name="toolsize">20sp</dimen>
+	<dimen name="weeksize">16sp</dimen>
+	<dimen name="tempinfosize">12sp</dimen>
+	<dimen name="tempsize">12sp</dimen>
+	<dimen name="weathertextsize">15sp</dimen>
+	<dimen name="weathertempsize">66sp</dimen>	
+	<dimen name="citynowweath">14dip</dimen>
+	<dimen name="citynowonthersize">18dip</dimen>
+	<dimen name="yujichongsize">13dip</dimen>
+	<dimen name="citylistsize">18dip</dimen>
+	<dimen name="toolbarsize">50dip</dimen>
+	<dimen name="city_nav_size">18dip</dimen>
+	<dimen name="yujibtnsize">18dip</dimen>
+	<dimen name="city_mgr_top">10dip</dimen>
+	<dimen name="city_name_size">25dip</dimen>
+	<dimen name="curve_temp_size">15sp</dimen>
+	<dimen name="curve_line_width">1dp</dimen>
+	<dimen name="curve_splite_line_width">1px</dimen>
+	<dimen name="btn_padding_left">5dip</dimen>
+	<dimen name="btn_padding_right">4dip</dimen>
+	<dimen name="gird_view_vertical_spacing">8dip</dimen>
+	<dimen name="day_weather_view_icon_width">30dip</dimen>
+	
+	<dimen name="weather_icon_width">150dp</dimen>
+	<dimen name="main_tab_height">43dp</dimen>
+	<dimen name="widget_city_list_size">10sp</dimen>
+	
+	<dimen name="weather_widget_city_mgr_width">306dip</dimen>
+	
+	<dimen name="weather_curve_width">1dp</dimen>
+    <dimen name="weather_curve_time">11dp</dimen>
+    <dimen name="weather_curve_weather">11dp</dimen>
+    <dimen name="weather_curve_now">12dp</dimen>
+</resources>

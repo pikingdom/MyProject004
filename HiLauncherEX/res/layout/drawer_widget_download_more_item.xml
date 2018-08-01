@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingTop="@dimen/myphone_item_padding"
+	android:paddingBottom="@dimen/myphone_item_padding">
+		
+	<ImageView android:id="@+id/item_icon"
+		android:layout_width="@dimen/myphone_item_icon"
+		android:layout_height="@dimen/myphone_item_icon"
+		android:layout_centerVertical="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="@dimen/myphone_margin_left"
+		android:scaleType="fitCenter" />
+		
+	<TextView android:id="@+id/item_btn"
+		android:layout_width="90dip" 
+		android:layout_height="40dip"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:textSize="@dimen/myphone_item_text_size" 
+		android:textColor="@color/myphone_common_text_color"
+		android:gravity="center"
+		android:background="@drawable/myphone_click_item_blue" />
+		
+	<ImageView android:id="@+id/ver_splite_line"
+		android:layout_width="wrap_content" 
+		android:layout_height="40dip"
+		android:layout_toLeftOf="@+id/item_btn"
+		android:layout_centerVertical="true" 
+		android:background="@drawable/myphone_ver_split_line" />
+		
+	<TextView android:id="@+id/item_text"
+		android:layout_width="match_parent" 
+		android:layout_height="match_parent"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="@dimen/myphone_margin_left"
+		android:layout_toRightOf="@+id/item_icon"
+		android:layout_toLeftOf="@+id/ver_splite_line"
+		android:textSize="@dimen/myphone_item_text_size"
+		android:textColor="@color/myphone_common_text_color"	
+		android:gravity="center_vertical"
+		android:singleLine="true"
+		android:ellipsize="end" />
+		
+</RelativeLayout>

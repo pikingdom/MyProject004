@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="scene">情景</string>
+    
+    <string name="scene_please_select_your_scene">请选择一款情景桌面</string>
+    
+    <string name="scene_shop_top_banner">情景桌面</string>
+    
+    <string name="scene_shop_local_scenes">本地情景</string>
+    <string name="scene_shop_online_scenes">在线情景</string>
+    
+    <string name="scene_shop_download_scene">正在下载%s</string>
+    
+    <string name="scene_shop_download">下载</string>
+    <string name="scene_shop_process">下载中...</string>
+    <string name="scene_shop_installing">安装中</string>
+    <string name="scene_shop_pause">暂停</string>
+    
+    <string name="scene_shop_apply">应用</string>
+    
+    <string name="scene_shop_describe">简介</string>
+    <string name="scene_shop_more">更多</string>
+    
+    <string name="scene_network_not_available">网络连接异常，请稍后再试</string>
+    
+    <string name="scene_select_scene">选择情景</string>
+    
+    <string name="scene_loading">加载中</string>
+    
+    <string name="scene_default_scene">默认</string>
+    
+	<string name="scene_apply_scene_now">请稍候，正在应用情景</string>
+    <string name="scene_delete_scene_now">请稍候，正在删除情景</string>
+    <string name="scene_import_scene_now">请稍候，正在导入情景</string>
+    
+    <string name="scene_please_wait">请稍候</string>
+    
+    <string name="scene_make_sure_to_apply">您是否要应用%s？</string>
+    <string name="scene_make_sure_to_download_this_scene">您是否要下载这款情景？</string>
+    <string name="scene_make_sure_to_download">您是否要下载情景%s？</string>
+    <string name="scene_make_sure_to_delete">您是否要删除%s？</string>
+    
+    <string name="scene_this_scene">这款情景</string>
+    
+
+    <string name="scene_apt_file_invalid">这不是一个有效的情景文件</string>
+    
+    <string name="scene_download_and_install_failure">场景下载安装失败</string>
+    
+    <string name="scene_external_storage_no_found_for_apply">您的手机没有挂载外部存储空间，无法应用情景</string>
+    <string name="scene_external_storage_no_found_for_download">您的手机没有挂载外部存储空间，无法下载情景</string>
+    <string name="scene_external_storage_no_found_for_delete">您的手机没有挂载外部存储空间，无法删除情景</string>
+    
+    <string name="scene_exit_scene">退出情景</string>
+        
+    <string name="scene_do_you_want_to_switch_to_default_scene">您是否要返回默认桌面？</string>
+    
+    <string name="scene_cant_delete_scene_while_using">您不能删除正在使用中的情景</string>
+    <string name="scene_exit_scene_msg">您确定要退出情景模式?</string>
+    
+    <string name="scene_download_task_remain">(等待%s项)</string>
+    
+    <string name="scene_custom_redraw_text">重画</string>
+    <string name="scene_custom_next_text">下一步</string>
+    <string name="scene_custom_create_text">生成</string>
+    <string name="scene_custom_desc_text_fir">画一个您想要摆成的形状，如：</string>
+    <string name="scene_custom_desc_text_sec">如果不满意这个形状，可以选择“重画”</string>
+    <string name="scene_custom_not_draw_info">请画一个您想要摆成的形状</string>
+    <string name="scene_custom_desc_text_thi">点击图标可进入删除图标模式</string>
+    <string name="scene_custom_desc_no_icon">没有图标，无法生成</string>
+    <string name="scene_custom_pop_info">点我可添加图标</string>
+    
+    <string name="scene_waiting_for_sd_load">SD卡加载中，请等待...</string>
+    
+    <string name="scene_select_layout">替换图标摆放样式</string>
+    <string name="scene_hole_apply_failed">样式数据载入失败,请稍后再试!</string>
+    <string name="scene_apply_failed">情景应用失败,请稍后再试!</string>
+    <string name="scene_delete_hole_style_msg">您确定要删除该样式?</string>
+    <string name="scene_no_style_choose_msg">您尚未选中样式，请选择要替换的样式.</string>
+    <string name="scene_apply_hole_style_msg">确定应用该样式?</string>
+    <string name="scene_msg_scene_not_exits">情景文件丢失,请重新下载!</string>
+    <string name="scene_msg_scene_file_invalid">情景文件受损,请重新下载!</string>
+    <string name="scene_msg_can_not_edit">第%s屏是情景的预配置屏,不能被编辑,请选择其他屏进行编辑.</string>
+    <string name="scene_msg_can_not_edit_for_new_screen">该屏不能被编辑,请选择其他屏进行编辑.</string>
+    <string name="scene_msg_multip_apply">您已经应用了该情景.</string>
+</resources>

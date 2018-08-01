@@ -1,0 +1,20 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/theme_shop_v6_repeat_bitmap"
+    >
+
+    <GridView
+        android:id="@+id/cate_pop_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:numColumns="3"
+        android:listSelector="@color/transparent"
+        android:background="@color/white"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="3dp"
+        />
+    
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="navigation_search_bg">#ffeeeeee</color>
+
+
+    <color name="theme_shop_jump_btn">#424242</color>
+
+    <color name="paster_bg">#f5f5f5</color>
+    <!-- 5eb9f2 -->
+	
+	<color name="filter_item_text_normal">#ffffff</color>
+    <color name="filter_item_text_selected">#e99d4c</color>
+    <drawable name="diy_wallpaper_bg">#e6e6e6</drawable>
+
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+
+    <!--贴纸社区-->
+    <drawable name="feed_item_bg">#FAFAFA</drawable>
+    <color name="feed_item_user_name">#1C1C1C</color>
+    <color name="feed_item_desc">#686D6E</color>
+    <color name="feed_item_upvotenum">#585858</color>
+    <color name="feed_topic_color">#ff00bcd5</color>
+    <drawable name="loading_blue">#e1e8ed</drawable>
+    <drawable name="tag_bg_color">#f4f4f4</drawable>
+    <drawable name="half_transparent_background">#2D000000</drawable>
+
+    <color name="btn_context_menu_normal">#ffffff</color>
+    <color name="btn_context_menu_pressed">#40000000</color>
+
+    <color name="btn_send_normal">#02c754</color>
+    <color name="btn_send_pressed">#006633</color>
+
+    <color name="tv_comment_normal">#f4f4f4</color>
+    <color name="tv_comment_pressed">#eeeded</color>
+    <!-- 搜索框背景 -->
+    <drawable name="v8_search_edittext_bg_normal">#ffffff</drawable>
+    <drawable name="v8_search_edittext_bg_focused">#eef1f6</drawable>
+
+    <color name="color_transparent">#00000000</color>
+</resources>

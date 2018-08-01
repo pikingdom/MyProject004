@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+
+-->
+<!-- 无匣子桌面默认布局 -->
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto" >
+
+    <!-- 4x1 -->
+    <widget_baidu
+        launcher:screen="-1"
+        launcher:x="0"
+        launcher:y="0" />
+
+    <!-- 一键清理 -->
+    <widget_cleaner_1x1
+        launcher:screen="-1"
+        launcher:x="0"
+        launcher:y="3" />
+
+    <!-- 换壁纸 -->
+    <widget_wallpaper_1x1
+        launcher:screen="-1"
+        launcher:x="1"
+        launcher:y="3" />
+
+    <pandawidgetpreview
+        launcher:icon="@drawable/loading_bg4x1"
+        launcher:packageName="#pkg_name#"
+        launcher:screen="0"
+        launcher:spanX="4"
+        launcher:spanY="1"
+        launcher:title="@string/panda_widget_weather"
+        launcher:uri="weather_widget_4x1"
+        launcher:x="0"
+        launcher:y="0" />
+    <!-- 电话 -->
+    <dock_shortcut
+        launcher:screen="0"
+        launcher:title="@string/dockbar_dock_dial"
+        launcher:uri="#Intent;action=android.intent.action.DIAL;launchFlags=0x10000000;component=#pkg_name#/com.nd.hilauncherdev.app.activity.AppResolverSelectActivity;B.is_always_select=false;end"
+        launcher:x="0"
+        launcher:y="0" />
+    <!-- 短信 -->
+    <dock_shortcut
+        launcher:screen="0"
+        launcher:title="@string/dockbar_dock_sms"
+        launcher:uri="content://mms-sms/#Intent;action=android.intent.action.MAIN;launchFlags=0x10000000;component=#pkg_name#/com.nd.hilauncherdev.app.activity.AppResolverSelectActivity;B.is_always_select=false;end"
+        launcher:x="1"
+        launcher:y="0" />
+    <!-- 联系人 -->
+    <dock_shortcut
+        launcher:screen="0"
+        launcher:title="@string/dockbar_dock_contacts"
+        launcher:uri="content://com.android.contacts/contacts#Intent;action=android.intent.action.VIEW;launchFlags=0x10000000;component=#pkg_name#/com.nd.hilauncherdev.app.activity.AppResolverSelectActivity;B.is_always_select=false;end"
+        launcher:x="2"
+        launcher:y="0" />
+    <!-- 浏览器 -->
+    <dock_shortcut
+        launcher:screen="0"
+        launcher:title="@string/dockbar_dock_browser"
+        launcher:uri="http://www.google.com#Intent;action=android.intent.action.VIEW;launchFlags=0x10000000;component=#pkg_name#/com.nd.hilauncherdev.app.activity.AppResolverSelectActivity;B.is_always_select=false;end"
+        launcher:x="3"
+        launcher:y="0" />
+
+</favorites>

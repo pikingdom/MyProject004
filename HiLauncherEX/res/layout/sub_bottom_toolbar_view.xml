@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="17dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginRight="17dp"
+    android:layout_marginTop="25dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/folder_full_btn_cancel_selector"
+        android:gravity="center"
+        android:text="@string/common_button_cancel"
+        android:textColor="@color/standard_dialog_btn_cancel_text"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="17dp"
+        android:layout_weight="1"
+        android:background="@drawable/folder_full_btn_confirm_selector"
+        android:gravity="center"
+        android:text="@string/common_button_confirm"
+        android:textColor="@color/standard_dialog_btn_confirm_text"
+        android:textSize="18sp" />
+</LinearLayout>

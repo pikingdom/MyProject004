@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.menu.TopMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/launcher_top_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 与上方保持距离 -->
+
+    <TextView
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="20dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dip"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/launcher_navigation_search_input_height"
+        android:layout_below="@id/topLayout"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/launcher_navigation_input_bg" >
+
+        <ImageView
+            android:id="@+id/search_left_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="2dip"
+            android:paddingRight="9dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/launcher_navigation_search_left_logo" />
+
+        <ImageView
+            android:id="@+id/search_left_sep"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/search_left_logo"
+            android:scaleType="centerInside"
+            android:src="@drawable/launcher_navigation_search_left_sep" />
+    </RelativeLayout>
+
+    <!-- 最近使用卡片 -->
+
+    <LinearLayout
+        android:id="@+id/recentUsed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_layout"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:background="@drawable/launcher_navigation_sites_title_bg" >
+    </LinearLayout>
+
+    <!-- 快捷工具卡片 -->
+
+    <LinearLayout
+        android:id="@+id/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recentUsed"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/launcher_navigation_sites_title_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/tools1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tools2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/sysNotify"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/launcher_navigation_search_input_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/top_menu_sys_notify_selector" >
+
+        <TextView
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/top_menu_sys_notify"
+            android:gravity="center"
+            android:text="@string/sys_notification_bar"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/nullArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/sysNotify"
+        android:layout_below="@id/tools"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</com.nd.hilauncherdev.menu.TopMenu>

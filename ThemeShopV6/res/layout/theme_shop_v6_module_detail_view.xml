@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffEDEDED" 
+    android:paddingTop="5dip"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip">
+
+    		
+     <com.nd.hilauncherdev.shop.shop6.themedetail.SubScrollView
+         android:id="@+id/subScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/theme_shop_v6_detail_bg"
+                android:padding="5dip" 
+                android:visibility="gone"
+                android:layout_marginBottom="5dp">
+
+                <LinearLayout
+                    android:id="@+id/detailLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:autoLink="web"
+                        android:singleLine="false"
+                        android:text="@string/theme_shop_theme_describe_tip"
+                        android:textColor="#ff1c1c1c"
+                        android:textSize="16sp"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:id="@+id/theme_shop_theme_intro"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:autoLink="web"
+                        android:gravity="left"
+                        android:paddingTop="5dip"
+                        android:singleLine="false"
+                        android:textColor="#878787"
+                        android:typeface="monospace" />
+                </LinearLayout>
+            </RelativeLayout>
+            
+            <LinearLayout 
+                android:id="@+id/related_theme_ly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView 
+                    android:id="@+id/related_theme_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textColor="#ff1c1c1c"
+                    android:textSize="15sp"
+                    />
+                <LinearLayout 
+                    android:id="@+id/related_theme_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    ></LinearLayout>
+                
+            </LinearLayout>
+            <com.nd.hilauncherdev.shop.shop3.appsoft.ThemeAppSoftsView
+                android:id="@+id/theme_app_soft"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone" 
+                android:background="@color/theme_shop_v6_detail_bg">
+            </com.nd.hilauncherdev.shop.shop3.appsoft.ThemeAppSoftsView>
+            <!-- 评论 -->
+             <RelativeLayout
+                  android:id="@+id/theme_detail_comment_layout"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="14dp"
+                  android:paddingRight="15dp"
+                  android:paddingBottom="14dp"
+                  android:paddingTop="14dp"
+                  android:layout_marginBottom="5dp"
+                  android:background="@color/theme_detail_item_bg_color"
+                  android:visibility="gone" >
+
+                  <TextView
+                      android:id="@+id/theme_detail_comment"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentLeft="true"
+                      android:layout_centerVertical="true"
+                      android:text="@string/theme_shop_v6_detail_comment"
+                      android:textColor="#ff1c1c1c"
+                      android:textSize="16sp" />
+
+                  <TextView
+                      android:id="@+id/theme_detail_comment_count"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="13dp"
+                      android:layout_centerVertical="true"
+                      android:layout_toRightOf="@+id/theme_detail_comment"
+                      android:textColor="#ffaa1f"
+                      android:textSize="14sp" />
+
+                  <ImageView
+                      android:id="@+id/theme_detail_comment_go"
+                      android:layout_width="@dimen/theme_shop_v6_theme_detail_go_width"
+                      android:layout_height="@dimen/theme_shop_v6_theme_detail_go_height"
+                      android:layout_alignParentRight="true"
+                      android:layout_centerVertical="true"
+                      android:scaleType="fitXY"
+                      android:src="@drawable/theme_detail_go" />
+              </RelativeLayout>
+        </LinearLayout>
+    </com.nd.hilauncherdev.shop.shop6.themedetail.SubScrollView>
+
+</RelativeLayout>

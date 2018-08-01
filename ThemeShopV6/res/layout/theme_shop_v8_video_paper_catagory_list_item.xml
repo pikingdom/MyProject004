@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.nd.hilauncherdev.shop.widget.RoundCornerFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cate_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/container_cate_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.nd.hilauncherdev.shop.shop6.videowallpaper.ScaleImageView
+            android:id="@+id/iv_cate_img"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            app:adjustDirection="vertical"
+            app:adjustRatio="1.4928"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_cate_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</com.nd.hilauncherdev.shop.widget.RoundCornerFrameLayout>

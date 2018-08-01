@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+
+<resources>
+	<!-- 新手引导顶部文字 -->
+	<dimen name="readme_tv_height">90dip</dimen>
+	<!-- V7新手预览图上下margin -->
+	<dimen name="readme_v7_gallery_margin">2dip</dimen>
+	<!-- V7新手预览图上下margin -->
+	<dimen name="readme_v7_page2_title_margin_top">40dip</dimen>
+	<!-- 新手引导文字与图标padding -->
+
+	<!-- 我的手机  统一提示View MarginTop -->
+	<dimen name="myphone_info_view_margin_top">30dip</dimen>
+	
+	<!-- 底部编辑视图高度 -->
+	<dimen name="launcher_edit_view_height">115dip</dimen>
+	<!-- 底部编辑视图顶部Tab栏高度 -->
+	<dimen name="launcher_edit_view_top_layout_height">48dip</dimen>
+	<!-- 正在运行内存条字体大小 -->
+	<dimen name="myphone_info_view_image_size">120dip</dimen>
+	
+	<!-- 上滑菜单 -->
+    <dimen name="home_menu_top_margin">37dip</dimen>
+    <dimen name="home_menu_bottom_margin">12dip</dimen>
+    <dimen name="home_menu_guide_height">145dp</dimen>
+    
+    <!-- 4x1小部件高度 -->
+    <dimen name="widget_4x1_height">66dip</dimen>
+    <!-- 4x2小部件高度 -->
+    <dimen name="widget_4x2_height">132dip</dimen>
+    
+    <dimen name="theme_shop_v6_recomment_new_img_width">92dip</dimen>
+	<dimen name="theme_shop_v6_recomment_new_img_height">153dip</dimen>
+
+	<!-- 个人中心文字大小-->
+	<dimen name="personal_center_desc_text_size">14dip</dimen>
+	
+	<dimen name="readme_recommend_app_bg_size">122dip</dimen>
+	<dimen name="readme_recommend_app_icon_size">45dip</dimen>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.app.view.AppDrawerIconMaskTextView	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/item_view" 
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingLeft="3dip"
+	android:paddingRight="3dip"/>
+<!-- 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/icon_bg_selector">
+	
+	<RelativeLayout android:id="@+id/animation_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<ccom.nd.hilauncherdev.app.view.AppDrawerIconMaskTextView			android:id="@+id/item_view" 
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:paddingLeft="3dip"
+			android:paddingRight="3dip" />
+			
+		<ImageView android:id="@+id/item_new_flag"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/new_installed_flag"
+			android:paddingTop="20dip"
+			android:visibility="invisible" />
+			
+		<ImageView android:id="@+id/item_close_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true"
+			android:src="@drawable/drawer_close_btn"
+			android:visibility="invisible" />
+
+	</RelativeLayout>
+
+</RelativeLayout>
+ -->

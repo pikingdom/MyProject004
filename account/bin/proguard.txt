@@ -1,0 +1,6 @@
+# view res/layout/baidu_login_activity.xml #generated:6
+-keep class com.baidu.sapi2.SapiWebView { <init>(...); }
+
+# view res/layout/crop_image_activity.xml #generated:45
+-keep class com.baidu91.account.login.crop.CropImageView { <init>(...); }
+

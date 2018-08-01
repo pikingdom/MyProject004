@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 匣子搜索热词列表展示界面 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/resultContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_remind_gray_bg">
+    <!--历史记录视图-->
+    <include
+        android:id="@+id/searchResultList"
+        layout="@layout/searchbox_result_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/search_result_list_margin"
+        android:layout_marginRight="@dimen/search_result_list_margin" />
+
+    <LinearLayout
+        android:id="@+id/infoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/noDataText"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="@string/searchbox_no_local_app"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/noNetworkView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- /* * Copyright (C) 2008 The Android Open Source Project * * Licensed 
+	under the Apache License, Version 2.0 (the "License"); * you may not use 
+	this file except in compliance with the License. * You may obtain a copy 
+	of the License at * * http://www.apache.org/licenses/LICENSE-2.0 * * Unless 
+	required by applicable law or agreed to in writing, software * distributed 
+	under the License is distributed on an "AS IS" BASIS, * WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. * See the License for 
+	the specific language governing permissions and * limitations under the License. 
+	*/ -->
+
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	
+    <!-- Manifest configuration. -->
+    <skip />
+    <!-- Do not translate. android:sharedUserId of this application. -->
+    <string name="sharedUserId" translate="false"><xliff:g id="x"></xliff:g></string>
+    
+    <!-- General -->
+    <skip />
+    
+    <!-- Widgets: -->
+    <skip />    
+
+    <!-- URL to use when detecting the current default browser. 
+         Attempts to mimic homepage_base in Browser; {CID} should be replaced
+         by the client-id, e.g. "android-google". -->
+
+	<string name="app_chl">067QWSGmas3haz+57JZRcn/a83BnzPY5</string>
+	<string name="folder_name" msgid="4588446541914685904">"文件夹"</string>
+	<string name="pick_wallpaper" msgid="5630222540525626723">"桌面壁纸"</string>
+	<string name="activity_not_found" msgid="3571057450431950427">"您的手机上未安装应用程序"</string>
+	<string name="group_applications" msgid="4118484163419674240">"应用程序"</string>
+
+	<string name="title_select_shortcut" msgid="2858897527672831763">"选择快捷方式"</string>
+	<string name="permlab_install_shortcut" msgid="1201690825493376489">"安装快捷方式"</string>
+	<string name="permdesc_install_shortcut" msgid="7429365847558984148">"允许应用程序在没有用户介入的情况下添加快捷方式"</string>
+	<string name="permlab_uninstall_shortcut" msgid="7696645932555926449">"卸载快捷方式"</string>
+	<string name="permdesc_uninstall_shortcut" msgid="959972195916090900">"允许应用程序在没有用户介入的情况下删除快捷方式"</string>
+
+	
+
+	<string name="classify_autotidy_category_system_folder">手机自带</string>
+	<string name="classify_autotidy_category_other_folder">其他</string>
+	<string name="classify_autotidy_category_shortcut_folder">快捷方式</string>
+	<string name="classify_autotidy_category_tool_folder">小工具</string>
+	<string name="classify_autotidy_category_upgrade_folder">应用升级</string>
+	
+	<string name="icon_label_baiduyixia">百度一下</string>
+	<string name="icon_label_weipinhui">唯品会</string>
+	
+	<!-- 自动分类 -->
+	<string name="drawer_menu_auto_app_classify">智能分类</string>
+	<string name="drawer_menu_classify_wait">应用数据分类中,请稍候...</string>
+	<string name="app_assort_tip">将应用按照分类归入不同的文件夹中</string>
+	<string name="assort_now">开始分类</string>
+	<string name="restore_now">恢复布局</string>
+	<string name="latest_classify_result">当前布局已经是最新结果</string>
+	<string name="use_result_now">立即使用</string>
+	<string name="restore_result_now">恢复原样</string>
+	<string name="classify_rollback_ok">确定</string>
+	<string name="classify_rollback_cancel">取消</string>
+	<string name="restore_tip">恢复到: %1$s</string>
+	<string name="restore_original">应用平铺</string>
+	<string name="restore_original_tip">将应用平铺在匣子中</string>
+	<string name="no_restore_tip">当前无可恢复布局</string>
+	<string name="classify_app_in_app">请在应用程序页面使用智能分类功能吧</string>
+	<!--插件升级-->
+	<string name="plugin_update_tip">插件可升级, 是否立即升级？</string>
+
+    <string name="toast_search">可在左下角进行快速查找应用</string>
+    <string name="toast_classify">这里可以对应用进行分类</string>
+    <string name="recent_use">最常使用</string>
+    <string name="folder_Favorites">收藏夹</string>
+    <string name="folder_Productivity">效率</string>
+    <string name="folder_Media">媒体</string>
+
+    <string name="intercept_notification_num">已拦截%1$d个图标</string>
+    <string name="intercept_notification_detail_num">桌面为你拦截%1$d个快捷图标</string>
+    <string name="intercept_notification_tip">点击查看</string>
+
+    <!--应用隐藏-->
+    <string name="app_hide">隐藏应用</string>
+    <string name="select_hide_app">勾选需隐藏应用</string>
+    <string name="app_hide_upgrade">隐藏应用升级了</string>
+    <string name="app_hide_gesture_tip_title">恭喜你发现了这个手势可以打开隐藏应用！</string>
+    <string name="app_hide_gesture_tip_content_for_newer">点击下方“进入隐藏应用”按钮，就可以把应用程序隐藏起来</string>
+    <string name="app_hide_gesture_tip_content_for_older">以后就可以在桌面上用手势打开隐藏应用，再也不用进应用列表中查找啦！</string>
+    <string name="enter_app_hide">进入隐藏应用</string>
+    <string name="app_hide_encript">启用密码锁定功能, 更好的保护您的隐私</string>
+    <string name="encript_lock_title">密码锁定</string>
+    <string name="encript_lock_desc">使用上次的密码</string>
+    <string name="encript_unlock_desc">密码锁定解除?</string>
+    <string name="encript_mibao_desc">密码设置成功。设置密保方便您找回密码</string>
+    <string name="encript_mibao_setting">设置隐藏应用密码</string>
+    <string name="modify_pwd_setting">修改隐藏应用密码</string>
+    <string name="bu_le">不了</string>
+    <string name="set_mibao_questions">设置密保问题</string>
+    <string name="modify_mibao_questions">修改密保问题</string>
+    <string name="validate_mibao_questions">验证密保问题</string>
+    <string name="mibao_notice">注：该方法为唯一找回密码方法，为了避免遗忘，请您填写真实信息，这将帮助您以后通过回答问题快速找回密码。</string>
+    <string name="mibao_tip">密保内容不能为空</string>
+    <string name="mibao_set_tip">您的密码已经设置完成，您可以在桌面上使用双指外滑动作打开隐藏应用。</string>
+    <string name="try_app_hide_func">去试试</string>
+    <string name="find_pwd">找回密码</string>
+    <string name="reset_pwd">重置密码</string>
+    <string name="modify_mibao_success">密保问题修改成功!</string>
+    <string name="mibao_answer_uncorrect">密保答案%1$s,请重新输入</string>
+    <string name="setting_app_hide_mibao">密保问题</string>
+    <string name="setting_app_hide_modify_pwd">修改密码</string>
+    <string name="setting_app_hide_reset_func">重置隐藏应用</string>
+    <string name="setting_app_hide_reset_func_summary">将应用还原到应用程序当中去，并删除密码与密保</string>
+    <string name="setting_app_hide_reset_success">重置隐藏应用成功</string>
+    <string name="need_pwd">请输入密码</string>
+    <string name="input_pwd">输入隐藏应用密码</string>
+    <string name="input_pwd_not_empty">密码不能为空</string>
+    <string name="input_pwd_error">密码错误</string>
+    <string name="reset_pwd_success">重设密码成功</string>
+    <string name="answer_un_null">不能为空</string>
+    <string name="mibao_answer_one">一</string>
+    <string name="mibao_answer_two">二</string>
+    <string name="mibao_answer_three">三</string>
+    <string name="mibao_un_correct">不正确</string>
+
+
+    <string name="fix_activity_not_found">"出错啦,未找到对应的应用程序"</string>
+    <string name="activity_not_found_by_privilege">"由于权限问题,未能启动应用程序"</string>
+    <string name="delete_special_widget">删除小部件</string>
+    <string name="delele_note_widget_tip">执行删除操作后便签内容会丢失，您确定要删除吗？</string>
+    <string name="maoyouli">猫有礼</string>
+    <string name="maozhuanquan">猫爪券</string>
+    <string name="get_coin_free">免费得猫爪</string>
+    <string name="present_91">91领福利</string>
+    <string name="drawer_delete_upgrade_folder_tips">之后可以在“桌面设置-桌面布局”中开启该文件夹</string>
+    <string name="drawer_delete_myphone_folder_tips">删除“我的手机”文件夹后，这个文件夹将永远消失</string>
+    <string name="upgrade_folder_empty_tip">好棒！您的应用都是最新版的呢！暂时没有需要升级的应用啦，去逛逛应用商店，补点新货吧~</string>
+    <string name="goto_app_market">逛逛去</string>
+    <string name="intellj_update">一键智能升级</string>
+    <string name="from">来自</string>
+    <string name="click_to_detail">点击查看</string>
+    <string name="alwaysUsePrompt">下次默认选择此项，不再提示</string>
+    <string name="profile_paihang">排行</string>
+    <string name="profile_fenlei">分类</string>
+    <string name="profile_zhuanji">专辑</string>
+    <string name="profile_hunda">混搭</string>
+    <string name="profile_bendi">本地</string>
+    <string name="profile_owner">个人中心</string>
+    <string name="download_theme_serial_title">下载天天主题</string>
+    <string name="download_theme_serial_confirm_tip">现在没有WIFI哦，下载天天AI主题需要较多流量，仍要继续下载吗？</string>
+    <string name="theme_shop_v6_app_name">主题</string>
+    <string name="taobao_title">爱淘宝</string>
+    <string name="recommend_folder_more_tips">更多应用</string>
+    <string name="recommend_folder_change_tips">换一换</string>
+    <string name="restore_shortcut">恢复图标</string>
+    <string name="intercept_shortcut">好的, 谢谢</string>
+
+    <string name="app_tms_viruskiller_title">病毒查杀</string>
+    <string name="app_tms_viruskiller_btn_txt">使用腾讯手机管家，时刻守护手机安全</string>
+    <string name="tms_title">腾讯手机管家</string>
+    <string name="tms_downloading_tip">正在下载腾讯手机管家...</string>
+    <!-- launcher3匣子begin-->
+    <string name="all_apps_search_bar_hint" >"搜索应用…"</string>
+    <string name="all_apps_loading_message" >"正在加载应用…"</string>
+    <string name="all_apps_no_search_results">"未找到与“%1$s”相符的应用"</string>
+    <string name="all_apps_search_market_message">"转到%1$s"</string>
+    <!-- launcher3匣子end-->
+</resources>

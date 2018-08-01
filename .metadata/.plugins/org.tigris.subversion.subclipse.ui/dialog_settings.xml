@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="349" key="ExportRemoteFolderDialog.location.x"/>
+	<item value="500" key="CommitDialog.weights.0"/>
+	<item value="559" key="RevertDialog.location.x"/>
+	<item value="304" key="DifferencesDialog.location.x"/>
+	<item value="500" key="CommitDialog.weights.1"/>
+	<item value="306" key="ExportRemoteFolderDialog.location.y"/>
+	<item value="188" key="RevertDialog.location.y"/>
+	<item value="125" key="HistoryTableProvider.SVNHistoryPage.修订"/>
+	<item value="621" key="HistoryTableProvider.SVNHistoryPage.注释"/>
+	<item value="311" key="HistoryTableProvider.SVNHistoryPage.日期"/>
+	<item value="248" key="HistoryTableProvider.SVNHistoryPage.作者"/>
+	<item value="156" key="CommitDialog.location.y"/>
+	<item value="247" key="CommitDialog.location.x"/>
+	<item value="268" key="ExportRemoteFolderDialog.size.y"/>
+	<item value="563" key="RevertDialog.size.x"/>
+	<item value="444" key="RevertDialog.size.y"/>
+	<item value="982" key="ExportRemoteFolderDialog.size.x"/>
+	<item value="1186" key="CommitDialog.size.x"/>
+	<item value="416" key="DifferencesDialog.size.y"/>
+	<item value="492" key="CommitDialog.size.y"/>
+	<item value="1072" key="DifferencesDialog.size.x"/>
+	<item value="207" key="DifferencesDialog.location.y"/>
+	<section name="CommitWizard">
+		<item value="false" key="ShowCompare"/>
+		<item value="500" key="VWeight2"/>
+		<item value="500" key="VWeight1"/>
+	</section>
+	<section name="NewLocationWizard">
+		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
+			<item value="http://svn.dian91.com/svn/sj_PandaDesktop/android/91launchers/core/core_tag/DZ"/>
+			<item value="http://svn.91.com/svn/sj_PandaDesktop/android/91launchers/branch/release"/>
+		</list>
+	</section>
+</section>

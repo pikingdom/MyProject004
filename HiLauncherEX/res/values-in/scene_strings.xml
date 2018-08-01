@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="scene">Tema pemandangan</string>
+	
+    <string name="scene_please_select_your_scene">Pilih Tema Pemandangan di bawah ini</string>
+    	
+    <string name="scene_shop_top_banner">Tema Pemandangan saya</string>
+    
+    <string name="scene_shop_local_scenes">Di-download</string>
+    <string name="scene_shop_online_scenes">Online</string>
+    
+    <string name="scene_shop_download_scene">%s sedang di-download</string>
+    
+    <string name="scene_shop_download">Download</string>
+    <string name="scene_shop_process">Men-download...</string>
+    <string name="scene_shop_installing">Menerapkan...</string>
+    <string name="scene_shop_pause">Dijeda</string>
+    
+    <string name="scene_shop_apply">Terapkan</string>
+    
+    <string name="scene_shop_describe">Keterangan</string>
+    <string name="scene_shop_more">Selengkapnya</string>
+    
+    <string name="scene_network_not_available">Gagal menyambung ke jaringan. Coba lagi nanti.</string>
+
+    <string name="scene_add_local_scene">Impor Tema Pemandangan (file apt)</string>
+    
+    <string name="scene_select_scene">Pilih Tema Pemandangan</string>
+    
+    <string name="scene_loading">Memuat...</string>
+    
+    <string name="scene_default_scene">Default</string>
+    
+	<string name="scene_apply_scene_now">Menerapkan...</string>
+    <string name="scene_delete_scene_now">Menghapus...</string>
+    <string name="scene_import_scene_now">Mengimpor...</string>
+    
+    <string name="scene_please_wait">Tunggu</string>
+    
+    <string name="scene_make_sure_to_apply">Anda ingin menerapkan %s?</string>
+    <string name="scene_make_sure_to_download_this_scene">Tema Pemandangan yang dipilih akan di-download.</string>
+    <string name="scene_make_sure_to_download">%s akan di-download.</string>
+    <string name="scene_make_sure_to_delete">%s akan dihapus.</string>
+    
+    <string name="scene_this_scene">tema pemandangan ini</string>
+    
+    <string name="scene_processing">Memproses...</string>
+    
+    <string name="scene_apt_file_invalid">Tema Pemandangan tidak valid</string>
+    
+    <string name="scene_download_and_install_failure">Download gagal.</string>
+    
+    <string name="scene_external_storage_no_found_for_apply">Gagal menerapkan Tema Pemandangan. Tidak ada kartu SD eksternal di ponsel Anda.</string>
+    <string name="scene_external_storage_no_found_for_download">Gagal men-download Tema Pemandangan. Tidak ada kartu SD eksternal di ponsel Anda.</string>
+    <string name="scene_external_storage_no_found_for_delete">Gagal menghapus Tema Pemandangan. Tidak ada kartu SD eksternal di ponsel Anda.</string>
+    
+    <string name="scene_exit_scene">Keluar</string>
+    
+    <string name="scene_cant_delete_scene_while_using">Tidak dapat menghapus Tema Pemandangan yang sedang digunakan.</string>
+    
+    <string name="scene_exit_scene_msg">Anda yakin ingin keluar dari Tema Pemandangan?</string>
+    
+    <string name="scene_do_you_want_to_switch_to_default_scene">Anda yakin ingin keluar dari Tema Pemandangan?</string>
+    
+    <string name="scene_download_task_remain">(%s tugas lagi)</string>
+    
+    <string name="scene_custom_redraw_text">Coba Lagi</string>
+    <string name="scene_custom_next_text">Lanjut</string>
+    <string name="scene_custom_create_text">Konfirmasi</string>
+    <string name="scene_custom_desc_text_fir">Gambar tata letak ikon di bawah ini</string>
+    <string name="scene_custom_desc_text_sec">Ketuk Coba Lagi untuk menggambar ulang tata letak ikon</string>
+    <string name="scene_custom_not_draw_info">Gambar tata letak ikon</string>
+    <string name="scene_custom_desc_text_thi">Ketuk ikon yang akan diedit</string>
+    <string name="scene_custom_desc_no_icon">Gagal membuat tata letak ikon tanpa ikon. Tambahkan ikon terlebih dulu.</string>
+    <string name="scene_custom_pop_info">Ketuk untuk menambahkan ikon</string>
+    
+    <string name="scene_waiting_for_sd_load">Memuat kartu SD. Tunggu...</string>
+    
+    <string name="scene_select_layout">Tata letak ikon</string>
+    <string name="scene_hole_apply_failed">Gagal memuat tata letak ikon. Coba lagi nanti.</string>
+    <string name="scene_apply_failed">Gagal menerapkan Tema Pemandangan. Coba lagi nanti.</string>
+    <string name="scene_delete_hole_style_msg">Tata letak ikon yang dipilih akan dihapus.</string>
+    <string name="scene_no_style_choose_msg">Pilih tata letak ikon.</string>
+    <string name="scene_apply_hole_style_msg">Tata letak ikon akan diterapkan.</string>
+    <string name="scene_msg_scene_not_exits">Tema Pemandangan rusak. Download kembali.</string>
+    <string name="scene_msg_scene_file_invalid">Tema Pemandangan rusak. Download kembali.</string>
+    <string name="scene_msg_can_not_edit">Tidak dapat mengedit layar preset %s.</string>
+    <string name="scene_msg_can_not_edit_for_new_screen">Tidak dapat mengedit layar preset.</string>
+    <string name="scene_msg_multip_apply">Tema Pemandangan telah diterapkan.</string>
+</resources>

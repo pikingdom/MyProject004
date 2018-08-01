@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/myphone_item_padding"
+    android:paddingTop="@dimen/myphone_item_padding"
+    android:background="@drawable/myphone_click_item_blue" >
+
+    <ImageView
+        android:id="@+id/battery_powerusage_hardware_icon"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/myphone_margin_left" />
+
+    <ImageView
+        android:id="@+id/battery_powerusage_hardware_splite_line"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="10dip"
+        android:layout_toRightOf="@+id/battery_powerusage_hardware_icon"
+        android:background="@drawable/myphone_ver_split_line" />
+
+    <TextView
+        android:id="@+id/battery_powerusage_hardware_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:textColor="#1b1b1b"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:id="@+id/battery_powerusage_hardware_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/battery_powerusage_hardware_percent"
+        android:layout_toRightOf="@+id/battery_powerusage_hardware_splite_line" >
+
+        <TextView
+            android:id="@+id/battery_powerusage_hardware_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dip"
+            android:ellipsize="end"
+            android:singleLine="false"
+            android:textColor="#1b1b1b"
+            android:textSize="14sp" />
+
+        <com.nd.hilauncherdev.myphone.battery.mybattery.view.PercentBarView
+            android:id="@+id/battery_powerusage_hardware_bar_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="16dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/battery_powerusage_hardware_name" />
+    </RelativeLayout>
+
+</RelativeLayout>

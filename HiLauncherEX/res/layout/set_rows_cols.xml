@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 一定要包一层 RelativeLayout才能生效，别删掉。切记。-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+	android:layout_height="wrap_content">
+	<LinearLayout 
+		android:layout_width="match_parent" 
+		android:layout_height="match_parent"
+		android:orientation="vertical" 
+		android:padding="20dp">
+		<TextView 
+		    android:text="@string/setting_rows" 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:textColor="@color/black"/>
+		<SeekBar 
+		    android:id="@+id/seekBar_rows" 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:max="7"
+			android:maxHeight="2.0dip"
+	        android:minHeight="2.0dip"
+	        android:paddingLeft="14.6dip"
+    		android:paddingRight="14.6dip"
+			android:progressDrawable="@drawable/switch_seekbar_progress"
+	        android:thumb="@drawable/switch_seekbar_thumb"
+			android:progress="0" />
+		<TextView 
+		    android:id="@+id/show_rows" 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:textColor="@color/black"/>
+		<TextView 
+		    android:text="@string/setting_cols" 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:textColor="@color/black"/>
+		<SeekBar 
+		    android:id="@+id/seekBar_cols" 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:maxHeight="2.0dip"
+	        android:minHeight="2.0dip"
+	        android:paddingLeft="14.6dip"
+    		android:paddingRight="14.6dip"
+			android:max="7"
+			android:progressDrawable="@drawable/switch_seekbar_progress"
+	        android:thumb="@drawable/switch_seekbar_thumb"
+			android:progress="0" />
+		<TextView 
+		    android:id="@+id/show_cols" 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:textColor="@color/black"/>
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent" 
+		android:layout_height="match_parent"
+		android:orientation="horizontal" 
+		android:gravity="bottom">
+	    <Button 
+	    android:layout_width="0dip"
+   		android:layout_height="40dp"
+   		android:layout_weight="1"
+        android:id="@+id/setting_row_cols_ok"
+        android:text="@string/common_button_confirm"
+	    android:background="@drawable/app_choose_r_btn"/>
+	    <Button 
+	    android:layout_width="0dip"
+   		android:layout_height="40dp"
+   		android:layout_weight="1"
+        android:id="@+id/setting_row_cols_cancel"
+        android:text="@string/common_button_cancel"
+	    android:background="@drawable/app_choose_r_btn"/>
+	    
+	</LinearLayout>
+</RelativeLayout>

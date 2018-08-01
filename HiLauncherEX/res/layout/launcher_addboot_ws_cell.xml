@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.nd.hilauncherdev.launcher.addboot.LauncherAddPreviewCell 
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/preview_cell"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	<FrameLayout android:id="@+id/screen_bg" android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_gravity="center" >
+	  	<com.nd.hilauncherdev.launcher.screens.preview.PreviewImageView
+			android:id="@+id/screen_preview" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" 
+			android:layout_gravity="center" 
+			android:scaleType="fitXY"/>
+	  	<ImageView
+			android:id="@+id/screen_add" android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content" android:layout_gravity="center"
+			android:scaleType="fitCenter" />
+  	</FrameLayout>
+</com.nd.hilauncherdev.launcher.addboot.LauncherAddPreviewCell>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff">
+
+    <!--时间标题-->
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/v7_gap1_15dp" >
+
+        <ImageView
+                android:id="@+id/tagtip_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/theme_shop_v6_tagtip_more_red" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_toRightOf="@+id/tagtip_img"
+                android:id="@+id/hour_img"
+                android:singleLine="true"
+                android:text="@string/shop_theme_v7_hourtheme_hot"
+                style="@style/v7_card_title" />
+    </RelativeLayout>
+
+    <!--包含了三个主题项-->
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="#ffffff"
+                  android:layout_marginLeft="@dimen/v7_gap1_15dp"
+                  android:layout_marginRight="@dimen/v7_gap1_15dp"
+                  android:orientation="horizontal">
+        <!--第一项-->
+        <LinearLayout
+                android:layout_marginRight="4dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <FrameLayout android:id="@+id/imgTheme_bg_1"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content">
+                <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+                        android:id="@+id/imgTheme_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/theme_shop_v6_theme_no_find_small"/>
+                <ImageView
+                        android:id="@+id/imgSeries_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter" android:visibility="visible"
+                        android:src="@drawable/theme_series_mask"
+                        android:layout_gravity="bottom|right"/>
+                <ImageView
+                        android:id="@+id/imgMember_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter" android:visibility="visible"
+                        android:src="@drawable/pay_theme_mask"
+                        android:layout_gravity="top|left"/>
+            </FrameLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/v7_gap3_8dp"
+                    android:paddingBottom="@dimen/v7_gap3_8dp"
+                    android:paddingLeft="@dimen/v7_gap3_8dp">
+
+                <TextView
+                        android:id="@+id/theme_shop_item_title_1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColor="@color/theme_shop_v6_list_item_title"
+                        android:textSize="@dimen/theme_shop_v6_list_item_title"
+                        android:text="@string/theme_shop_v6_series_buy"
+                >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!--第二项-->
+        <LinearLayout
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="4dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <FrameLayout android:id="@+id/imgTheme_bg_2"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content">
+                <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+                        android:id="@+id/imgTheme_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/theme_shop_v6_theme_no_find_small"/>
+                <ImageView
+                        android:id="@+id/imgSeries_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter" android:visibility="visible"
+                        android:src="@drawable/theme_series_mask"
+                        android:layout_gravity="bottom|right"/>
+                <ImageView
+                        android:id="@+id/imgMember_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter" android:visibility="visible"
+                        android:src="@drawable/pay_theme_mask"
+                        android:layout_gravity="top|left"/>
+            </FrameLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/v7_gap3_8dp"
+                    android:paddingLeft="@dimen/v7_gap3_8dp">
+
+                <TextView
+                        android:id="@+id/theme_shop_item_title_2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColor="@color/theme_shop_v6_list_item_title"
+                        android:text="@string/theme_shop_v6_series_buy"
+                        android:textSize="@dimen/theme_shop_v6_list_item_title">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!--第三项-->
+        <LinearLayout
+                android:layout_marginLeft="4dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <FrameLayout android:id="@+id/imgTheme_bg_3"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content">
+                <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+                        android:id="@+id/imgTheme_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/theme_shop_v6_theme_no_find_small"/>
+                <ImageView
+                        android:id="@+id/imgSeries_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter" android:visibility="visible"
+                        android:src="@drawable/theme_series_mask"
+                        android:layout_gravity="bottom|right"/>
+                <ImageView
+                        android:id="@+id/imgMember_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter" android:visibility="visible"
+                        android:src="@drawable/pay_theme_mask"
+                        android:layout_gravity="top|left"/>
+            </FrameLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/v7_gap3_8dp"
+                    android:paddingLeft="@dimen/v7_gap3_8dp">
+
+                <TextView
+                        android:id="@+id/theme_shop_item_title_3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:text="@string/theme_shop_v6_series_buy"
+                        android:textColor="@color/theme_shop_v6_list_item_title"
+                        android:textSize="@dimen/theme_shop_v6_list_item_title">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

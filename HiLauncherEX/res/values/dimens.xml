@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- height & width of the drop rectangle for the trash icon-->
+	<dimen name="delete_zone_size">65dip</dimen>
+	
+	<!-- 电量通知栏 -->
+	<dimen name="one_dimens_left">11.399994dip</dimen>
+	<dimen name="one_dimens_right">9.399994dip</dimen>
+	<dimen name="one_dimens_top">8.699982dip</dimen>
+	<dimen name="one_dimens_bottom">8.699982dip</dimen>
+	<dimen name="two_dimens_first_left">8.799988dip</dimen>
+	<dimen name="two_dimens_first_right">12.0dip</dimen>
+	<dimen name="two_dimens_second_left">14.699982dip</dimen>
+	<dimen name="two_dimens_second_right">6.0dip</dimen>
+	<dimen name="two_dimens_top">8.699982dip</dimen>
+	<dimen name="two_dimens_bottom">8.699982dip</dimen>
+	
+	<!-- roughly a status bar (for vertically centering the all apps home icon 
+		in landscape) -->
+	<dimen name="status_bar_height">25dip</dimen>
+	
+	<!-- 匣子顶部Tab栏高度 -->
+	<dimen name="drawer_top_layout_height">43dip</dimen>
+	
+	<!-- 匣子底部托盘高度-->
+	<dimen name="drawer_button_bar_height">65dip</dimen> 
+	
+	<!-- 匣子普通指示灯高度 -->
+	<dimen name="drawer_common_light_height">8dip</dimen>
+	
+	<!-- 底部编辑视图顶部Tab栏文字大小 -->
+	<dimen name="launcher_edit_view_top_layout_text_size">17dip</dimen>
+	
+	<!-- 我的电池底部高度 -->
+	<dimen name="mybattery_bottom_content">60dip</dimen>
+	<dimen name="mybattery_cdprotected_pic_size">80dip</dimen>
+	
+	<!-- 新手引导底部padding -->
+	<dimen name="readme_drawing_bottom">30dip</dimen>
+	<!-- 新手引导说明-->
+	<dimen name="readme_comment">20sp</dimen> 
+	<!-- 新手引导大标题 -->
+	<dimen name="readme_title">30sp</dimen>
+	
+	<dimen name="searchbox_title_text_size">22sp</dimen>
+
+	
+	<!-- 快捷菜单seekbar悬浮框 -->
+	<dimen name="label_popup_width">62dip</dimen>
+	<dimen name="label_popup_heigh">40dip</dimen>
+	<dimen name="label_popup_x">53dip</dimen>
+	<dimen name="label_popup_y">47dip</dimen>
+	
+	<!-- 匣子弹出菜单宽度 -->
+	<dimen name="drawer_menu_width">140dip</dimen>
+	
+	<!-- 顶部菜单padding-->
+	<dimen name="topmenu_padding">15dip</dimen>
+	
+	<!-- 新手引导内容 -->
+	<dimen name="readme_content">25sp</dimen>
+	
+	<!-- 屏幕指示灯高度 -->
+	<dimen name="linelight_light_height">7dip</dimen>
+	
+	<!-- 全屏文件夹 -->
+    <dimen name="folder_full_title_size">20sp</dimen>
+    <dimen name="folder_full_title_max_width">165dp</dimen> 
+
+	<!-- 快捷设置界面 -->
+    <dimen name="activity_switch_detail_left_padding">27dp</dimen> 
+    <dimen name="activity_switch_detail_sliding_view_left_margin">6dp</dimen> 
+    
+    <!-- 4x1小部件高度 -->
+    <dimen name="widget_4x1_height">78dip</dimen>
+    <!-- 4x2小部件高度 -->
+    <dimen name="widget_4x2_height">156dip</dimen>
+    
+    <!-- 导航屏 -->
+    <dimen name="launcher_navigation_search_input_height">50dip</dimen>
+    <!-- 上滑菜单 -->
+    <dimen name="home_menu_top_margin">75dip</dimen>
+    <dimen name="home_menu_bottom_margin">50dip</dimen>
+    <dimen name="home_menu_guide_height">170dp</dimen>
+    
+    <!-- 快捷开关 -->
+    <dimen name="system_switch_item_text">12dip</dimen>
+    
+    <!-- 系统设置界面 -->
+    <dimen name="system_setting_info_text">15sp</dimen>
+    
+    <!-- readme -->
+    <dimen name="readme_page1_top">50dip</dimen>
+    <dimen name="readme_page_usernum">80dip</dimen>
+
+    <!-- 设置默认桌面 -->
+    <dimen name="set_def_launcher_content_tx_size">15sp</dimen>
+    <dimen name="set_def_launcher_content_confirm_size">14sp</dimen>
+    <dimen name="set_def_launcher_content_cancel_size">13sp</dimen>
+    <dimen name="set_def_launcher_content_cancel_hint_size">13sp</dimen>
+    <dimen name="set_def_launcher_buttom_height">45dp</dimen>
+    <dimen name="set_def_launcher_padding">10dp</dimen>
+
+	<!-- 个人中心文字大小-->
+	<dimen name="personal_center_desc_text_size">18dip</dimen>
+	
+	<!-- 情景桌面 -->
+	<dimen name="scene_preview_item_height">210dip</dimen>
+	<dimen name="scene_preview_item_bg_height">150dip</dimen>
+
+	
+	<!-- 华为机型 -->
+	<dimen name="workspaceStartPadding_hwp8">38dip</dimen>
+	<dimen name="workspaceEndPadding_hwp8">122dip</dimen>
+	<dimen name="lightbar_container_height_hwp8">114dip</dimen>
+	<dimen name="app_background_size_hwp8">51dip</dimen>
+	
+	
+	<!-- 红米机型 -->
+	<dimen name="app_background_size_hm2">60dip</dimen>
+
+	<dimen name="app_background_size_oppo">52dip</dimen>
+	<dimen name="app_background_size_vivo">54dip</dimen>
+
+	<!--launcher3 All Apps began -->
+	<dimen name="all_apps_button_scale_down">0dp</dimen>
+	<dimen name="all_apps_grid_view_start_margin">0dp</dimen>
+	<dimen name="all_apps_grid_section_y_offset">8dp</dimen>
+	<dimen name="all_apps_grid_section_text_size">24sp</dimen>
+	<dimen name="all_apps_search_bar_height">60dp</dimen>
+	<dimen name="all_apps_search_bar_prediction_bar_padding">8dp</dimen>
+	<dimen name="all_apps_icon_top_bottom_padding">8dp</dimen>
+	<dimen name="all_apps_icon_width_gap">24dp</dimen>
+	<!-- The top padding should account for the existing all_apps_list_top_bottom_padding -->
+	<dimen name="all_apps_prediction_icon_top_padding">8dp</dimen>
+	<dimen name="all_apps_prediction_icon_bottom_padding">18dp</dimen>
+	<dimen name="all_apps_list_top_bottom_padding">8dp</dimen>
+	<dimen name="all_apps_empty_search_message_top_offset">40dp</dimen>
+	<dimen name="all_apps_empty_search_bg_top_offset">144dp</dimen>
+	<dimen name="all_apps_background_canvas_width">700dp</dimen>
+	<dimen name="all_apps_background_canvas_height">475dp</dimen>
+	<!-- Search bar in All Apps -->
+	<dimen name="all_apps_header_max_elevation">4dp</dimen>
+	<dimen name="all_apps_header_scroll_to_elevation">16dp</dimen>
+	<dimen name="all_apps_header_shadow_height">6dp</dimen>
+	<dimen name="all_apps_search_bar_bg_overflow">-6dp</dimen>
+	<dimen name="all_apps_search_bar_divider_width">1dp</dimen>
+	<dimen name="all_apps_container_fastscroll_thumb_max_width">9dp</dimen>
+	<!--launcher3 All Apps end -->
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<string name="theme_local_manage_title">My theme</string>
+	<string name="theme_online">Theme Mall</string>
+	<string name="theme_default_name">Default</string>
+	<string name="theme_manage_menu_add_theme">Add to local theme (apt,zip)</string>
+	<string name="theme_manage_select_theme">Select theme</string>
+	<string name="install_success">Theme pack installed.</string>
+	<string name="install_fail">Failed to install theme pack</string>
+	<string name="unzip_theme">Extract theme pack</string>
+	<string name="unzip_theme_waiting">Extracting theme pack...</string>
+	<string name="impor_exist_theme_dialog_title">Import theme</string>
+	<string name="import_exist_theme_dialog">You have downloaded themes on your device. Would you like to import them?</string>
+	<string name="import_exist_theme_dialog_ing">Importing theme...</string>
+	<string name="import_exist_theme_completed">Theme has been imported</string>
+	<string name="delete_theme">Delete</string>
+	<string name="delete_theme_msg">Do you want to delete it?</string>
+	<string name="apply_theme">Apply</string>
+	<string name="apply_theme_msg">Applying theme...</string>
+	<string name="title_delete_theme">Delete</string>
+	<string name="message_delete_theme_waiting">Deleting theme...</string>
+	<string name="title_apply_old_theme">Theme imported.</string>
+	<string name="message_apply_old_theme">Click to apply original theme ..</string>
+	
+	<!-- 外部调用主题包安装 -->
+	<string name="install_title">Installing %1$s theme</string>
+	<string name="install_ticker">Installing %1$s theme</string>
+	<string name="install_nosupport">File does not exist or file format does not support.</string>
+
+	<!-- 换图标界面 -->
+	<string name="icon_repalce_left_title">Replace</string>
+	<string name="icon_replace_default_icon">(Default)</string>
+	<string name="icon_replace_btn_reset_default">Reset</string>
+	<string name="icon_repalce_select_theme_icon_title">Theme icon</string>
+	<string name="icon_repalce_more_theme_icon">More theme icons</string>
+
+	
+	<string name="theme_recommand_folder_name">Recommended</string>
+	<!-- 推荐主题 -->
+	<string name="edit_view_theme_individuation">Individualized theme</string>	
+	<string name="theme_module_wallpaper">Desktop wallpaper</string>
+	<string name="theme_module_icons">Icon</string>
+	<string name="theme_module_weather">Clock Weather</string>
+	<string name="theme_module_other">Others</string>
+	<string name="theme_local_nodata_desc">No download yet. Check webpage</string>
+	<string name="theme_decoder_not_valiable">Theme decoder error. This theme is unavailable</string>
+	<string name="icon_repalce_select_module_icon_title">Local icon</string>
+	<string name="icon_repalce_select_gallery_icon_title">Picture</string>
+	<string name="icon_repalce_more_module_icon">More module icons</string>
+
+</resources>

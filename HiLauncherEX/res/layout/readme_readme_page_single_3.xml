@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/readme_panel"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent"
+	>
+	
+	<ListView
+        android:id="@+id/readLv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="2dip"
+        android:fadingEdge="none"
+        android:gravity="center"
+        android:listSelector="@drawable/transparent_background"
+        android:layout_above="@+id/go_home_btn_layout"
+        android:transcriptMode="disabled"
+        android:layout_marginTop="@dimen/read_me_activity_bg_welcome_title_margin_top_3"
+        android:layout_marginBottom="8dip" >
+    </ListView>
+    <LinearLayout
+        android:id="@+id/go_home_btn_layout"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+		android:paddingBottom="@dimen/read_me_bn_margin_bottom"
+		android:gravity="center">
+		<ImageView
+      	    android:id="@+id/shipIv"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:src="@drawable/readme_page_btn_go"
+            android:background="@drawable/round_progress_bg"
+            android:scaleType="center" />
+    </LinearLayout>
+   
+</RelativeLayout>

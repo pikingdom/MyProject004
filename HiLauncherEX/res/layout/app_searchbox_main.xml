@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.launcher.search.appsearch.AppSearchView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navigation_search_bg"
+    android:orientation="vertical">
+
+    <!-- android:background="@drawable/searchbox_bg_main" -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:background="@color/navigation_search_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <FrameLayout
+            android:id="@+id/editLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip">
+
+            <!-- 搜索输入框 -->
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:focusable="true" 
+				android:focusableInTouchMode="true">
+
+                <EditText
+                    android:id="@+id/txtSearchInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/navigation_search_edittext_bg"
+                    android:hint="@string/searchbox_app_search_hint"
+                    android:inputType="text"
+                    android:paddingLeft="45dip"
+                    android:paddingRight="88dip"
+                    android:textColor="#ff545454"
+                    android:textColorHint="#ffc6c6c6"
+                    android:textSize="18sp"/>
+
+                <LinearLayout
+                    android:id="@+id/btnSelect"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="4dip"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/searchLogo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/launcher_edit_theme_back_selector" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/navigation_search_parting_line" />
+                <!-- 语音识别按钮 -->
+
+                <ImageView
+                    android:id="@+id/btnVoice"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="12dip"
+                    android:src="@drawable/launcher_navigation_top_voice"
+                    android:visibility="invisible" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|right"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/btnCloseSearchList"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="12dip"
+                    android:src="@drawable/navigation_search_clear_btn"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <!--应用搜索装载内容布局-->
+    <LinearLayout
+        android:id="@+id/app_search_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+
+</com.nd.hilauncherdev.launcher.search.appsearch.AppSearchView>
