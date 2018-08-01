@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="300dp"
+  android:layout_height="240dp"
+  android:background="@drawable/app_choose_top_background_new"
+  >
+	 <TextView
+	 	android:id="@+id/folder_rename_title"
+	 	android:text="@string/popup_rename"
+		android:layout_width="match_parent" 
+		android:layout_height="@dimen/dialog_top_layout_height_40"
+		android:paddingLeft="14.0dip" 
+		android:gravity="center_vertical"
+		android:textSize="16sp" 
+		android:textColor="@color/dialog_title_color"
+		android:layout_alignParentTop="true"
+		/>
+		
+	 <RelativeLayout
+	 	android:layout_width="match_parent"
+	 	android:layout_height="match_parent"
+	 	android:layout_below="@id/folder_rename_title"
+	 	>
+		 <RelativeLayout
+		 	android:id="@+id/folder_rename_input"
+		 	android:layout_width="match_parent"
+		 	android:layout_height="wrap_content"
+		 	android:layout_gravity="center_vertical"
+		 	android:layout_marginLeft="12.0dip"
+		 	android:layout_marginRight="12.0dip"
+		 	android:layout_marginTop="12dp"
+		 	>
+			 <EditText
+			 	android:id="@+id/folder_name"
+				android:paddingRight="30dp"
+			 	android:paddingBottom="3dp"
+			 	android:gravity="left|bottom"
+			 	android:singleLine="true"
+			 	android:textColor="@color/dialog_title_color"
+			 	android:textSize="16sp"
+			 	android:layout_width="match_parent"
+			 	android:layout_height="wrap_content"
+			 	android:background="@drawable/folder_name_input_edit_bg"
+			 	android:maxLength="16"
+			 	/>
+			 <ImageView
+			 	android:id="@+id/clear"
+			 	android:layout_width="wrap_content"
+			 	android:layout_height="wrap_content"
+			 	android:background="@drawable/folder_clear_name_selector"
+			 	android:layout_alignParentRight="true"
+				android:layout_marginRight="5dp"
+				android:scaleType="center"
+				android:layout_centerVertical="true"
+				/>	 	
+		 </RelativeLayout>
+		 
+		 <TextView
+		 	android:id="@+id/folder_rename_seggestion_desc"
+		 	android:layout_width="wrap_content"
+		 	android:layout_height="wrap_content"
+		 	android:layout_marginLeft="12.0dip"
+		 	android:text="@string/folder_name_suggestion"
+		 	android:layout_marginTop="10dp"
+		 	android:layout_below="@id/folder_rename_input"
+		 	android:textColor="@color/folder_rename_seggestion_text_color"
+		 	android:textSize="14sp"
+		 	/>
+		 	
+		 <!-- 功能按钮 -->
+		 <LinearLayout
+		 	android:id="@+id/folder_rename_function_layout"
+		 	android:layout_width="match_parent"
+		 	android:layout_height="@dimen/dialog_bottom_layout_height_40"
+		 	android:orientation="horizontal"
+		 	android:layout_alignParentBottom="true"
+		 	>
+		 	<TextView
+		 		android:id="@+id/confirm"
+		 		android:layout_width="match_parent"
+		 		android:layout_height="match_parent"
+		 		android:gravity="center"
+		 		android:text="@string/common_button_confirm"
+		 		android:layout_weight="1.0"
+		 		android:background="@drawable/app_choose_l_btn"
+		 		android:textColor="@color/common_dialog_text_color_selector"
+		 		android:textSize="16sp"/>
+		 	<TextView
+		 		android:id="@+id/cancle"
+		 		android:layout_width="match_parent"
+		 		android:layout_height="match_parent"
+		 		android:gravity="center"
+		 		android:text="@string/common_button_cancel"
+		 		android:layout_weight="1.0"
+		 		android:background="@drawable/app_choose_r_btn"
+		 		android:textColor="@color/common_dialog_text_color_selector"
+		 		android:textSize="16sp"/>
+		 </LinearLayout>
+		 
+		  <!-- 建议 -->
+		 <LinearLayout
+		 	android:id="@+id/container"
+		 	android:layout_width="match_parent"
+		 	android:layout_height="match_parent"
+		 	android:layout_marginLeft="12.0dip"
+		 	android:orientation="vertical"
+		 	android:layout_below="@id/folder_rename_seggestion_desc"
+		 	android:layout_above="@id/folder_rename_function_layout"
+		 	/>
+		 
+	</RelativeLayout>
+
+</RelativeLayout>

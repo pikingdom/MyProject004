@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_remind_gray_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/theme_shop_v6_common_header_view" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.nd.hilauncherdev.shop.shop6.themedetail.MainScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/local_theme_detail_bottom"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/themePreviewLayout"
+                    layout="@layout/theme_shop_v8_detail_activity_preview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/recommend_bg_card"
+                    android:orientation="vertical"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    android:paddingTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="bottom"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/theme_shop_v8_style_desc"
+                            android:textColor="#1b1b1b"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_theme_style_from_footnote"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/theme_shop_v8_style_footnote"
+                            android:textColor="@color/theme_shop_v6_gray"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_theme_style_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:lineSpacingExtra="4dp"
+                        android:textColor="#35424b"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </com.nd.hilauncherdev.shop.shop6.themedetail.MainScrollView>
+
+        <!-- 下载模块 start -->
+
+        <FrameLayout
+            android:id="@+id/local_theme_detail_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myphone_bottom_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@drawable/theme_shop_v6_main_fun_band"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:id="@+id/local_theme_detail_bottom_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/myphone_bottom_content"
+                android:background="@drawable/common_btn_layout_bg"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/local_theme_detail_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:src="@drawable/theme_detail_btn_delete_selector" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <!--  为试用主题做的购买按钮  -->
+                    <Button
+                        android:id="@+id/btn_apply"
+                        android:layout_width="match_parent"
+                        android:layout_height="37dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/theme_shop_v6_theme_applybtn_selector"
+                        android:gravity="center"
+                        android:text="@string/common_button_apply"
+                        android:textColor="@color/theme_btn_title"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/shareBn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:src="@drawable/theme_shop_v6_detail_btn_share_selector"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <!-- 下载进度 -->
+            <RelativeLayout
+                android:id="@+id/downloadProgressLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="54dip"
+                android:layout_marginRight="54dip"
+                android:visibility="gone">
+
+                <com.nd.hilauncherdev.shop.shop3.customview.ThemePercentBarView
+                    android:id="@+id/downloading_progressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dip"
+                    android:layout_centerVertical="true" />
+
+                <TextView
+                    android:id="@+id/progressSize"
+                    android:layout_width="50dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="0%"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <!-- 下载模块 end -->
+
+        <!-- Loading模块 -->
+
+        <com.nd.hilauncherdev.shop.widget.LoadingStateView
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/myphone_bg_color"
+            android:visibility="gone"></com.nd.hilauncherdev.shop.widget.LoadingStateView>
+
+    </RelativeLayout>
+
+</LinearLayout>

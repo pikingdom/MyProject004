@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_drag_item"
+    android:layout_width="fill_parent"
+    android:layout_height="54dip"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/position_list_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="32dip"
+        android:layout_marginLeft="13dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/position" />
+
+    <ImageView
+        android:id="@+id/normal_list_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.5dp"
+        android:src="@drawable/city_list_normal" />
+
+    <!-- 项文本 -->
+
+    <TextView
+        android:id="@+id/drag_list_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="35dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="39.3dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/default_text_main"
+        android:textSize="18dp" />
+
+    <!-- 项注释 -->
+
+    <TextView
+        android:id="@+id/drag_list_item_note"
+        android:layout_width="wrap_content"
+        android:layout_height="35dip"
+        android:layout_marginLeft="5dip"
+        android:layout_alignBaseline="@+id/drag_list_item_text"
+        android:layout_toRightOf="@id/drag_list_item_text"
+        android:textColor="@color/default_text_main"
+        android:textSize="13sp" />
+
+    <!-- 项右端图标 -->
+
+    <ImageView
+        android:id="@+id/drag_list_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="18dp"
+        android:src="@drawable/movelist"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/drag_list_item_chk_delete"
+        android:layout_width="18dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="23dp"
+        android:button="@drawable/weather_checkbox_selector"
+        android:clickable="false" />
+
+    <!-- GPS 开关 -->
+    <!-- <CheckBox android:id="@+id/gps_item_image" -->
+    <!-- android:layout_alignParentRight="true" -->
+    <!-- android:layout_centerVertical="true" android:layout_width="65dip" -->
+    <!-- android:layout_height="wrap_content" android:layout_marginRight="50dp" -->
+    <!-- android:button="@drawable/checkbox_gps_selector" /> -->
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-hdpi-800x480-v4\\values-hdpi-800x480-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 62,
+                    "endOffset": 113
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\res\\values-hdpi-800x480\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 76,
+                        "endColumn": 59,
+                        "endOffset": 134
+                    }
+                }
+            }
+        ]
+    }
+]

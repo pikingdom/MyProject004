@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="86dp"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:paddingTop="2dp"
+        android:paddingRight="3dp"
+        android:paddingLeft="3dp"
+        android:paddingBottom="4dp"
+        android:background="@drawable/bg_samsung_popup_wlan"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/popup_wlan_item_switch"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/btn_samsung_popup_wlan_item"
+            android:textColor="#252525"
+            android:gravity="center_vertical"
+            android:textSize="13dp"
+            android:text="智能网络切换"/>
+
+        <TextView
+            android:id="@+id/popup_wlan_item_keep"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/btn_samsung_popup_wlan_item"
+            android:textColor="#252525"
+            android:gravity="center_vertical"
+            android:textSize="13dp"
+            android:text="睡眠期间保持 WLAN 开启"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

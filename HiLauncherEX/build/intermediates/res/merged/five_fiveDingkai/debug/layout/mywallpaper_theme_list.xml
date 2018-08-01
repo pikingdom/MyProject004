@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eef1f6"
+    android:orientation="vertical" >
+
+    <include layout="@layout/theme_shop_v6_loading_style_mid" />  
+    <com.nd.hilauncherdev.shop.shop3.customview.NetErrorAndSettingView android:id="@+id/neterror_layout" android:visibility="gone" android:layout_width="fill_parent"  android:layout_height="fill_parent"/>
+ 	<com.nd.hilauncherdev.shop.shop3.customview.NetNoDataAndSettingView android:id="@+id/nodata_layout" android:visibility="gone" android:layout_width="fill_parent"  android:layout_height="fill_parent"/>
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <GridView
+            android:id="@+id/wallpaper_gridview"
+            android:layout_weight="1.0"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"     
+            android:numColumns="2"
+            android:padding="5dip"
+            android:clipToPadding="false"
+            android:dividerHeight="0dp" 	    
+            android:fadingEdge="none"
+            android:gravity="center"
+            android:horizontalSpacing="2dip"
+            android:verticalSpacing="2dip"
+            android:listSelector="#00000000"
+            android:transcriptMode="disabled" />
+        
+        <include layout="@layout/theme_shop_v6_loading_style_bottom" />
+    </LinearLayout>
+
+</LinearLayout>

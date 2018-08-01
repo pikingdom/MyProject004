@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loading_container"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/pc_background_drawable" >
+
+    <ImageView
+        android:id="@+id/sohuLogo"
+        android:layout_width="77dip"
+        android:layout_height="77dip"
+        android:contentDescription="@null"
+        android:src="@drawable/sohu_newssdk_launcher" />
+    <ImageView
+        android:layout_width="123dip"
+        android:layout_height="37dip"
+        android:layout_marginTop="20dip"
+        android:contentDescription="@null"
+        android:src="@drawable/sohu_newloading_logo" />
+
+</LinearLayout><!-- From: file:/var/lib/jenkins/workspace/SohuNews_android_lite_fragment/default/newsliteapi/src/main/res/layout/sohu_plugin_default_loading.xml -->

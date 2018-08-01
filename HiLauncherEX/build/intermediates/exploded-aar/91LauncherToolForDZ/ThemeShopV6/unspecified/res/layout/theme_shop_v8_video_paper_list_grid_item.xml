@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="@dimen/theme_shop_v6_recomment_taghot_img_margin_8"
+    android:layout_marginRight="@dimen/theme_shop_v6_recomment_taghot_img_margin_8"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/imgThemeBg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.nd.hilauncherdev.shop.widget.RoundCornerImageView
+                android:id="@+id/imgTheme"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/theme_shop_ranking_img_height"
+                android:scaleType="fitXY" />
+            <ImageView
+                android:id="@+id/imgSeries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:layout_gravity="right|bottom"
+                android:visibility="gone"
+                android:src="@drawable/theme_series_mask" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/theme_shop_item_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/v8_gap3_5dp"
+            android:layout_marginTop="@dimen/v7_gap3_8dp"
+            android:ellipsize="end"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="@string/theme_default_name"
+            android:textColor="@color/theme_shop_v6_list_item_title"
+            android:textSize="@dimen/theme_shop_v6_list_item_title" />
+    </LinearLayout>
+
+</LinearLayout>

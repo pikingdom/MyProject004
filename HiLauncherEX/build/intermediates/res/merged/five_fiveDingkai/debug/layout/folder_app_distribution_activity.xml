@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical" >
+    
+    <com.nd.hilauncherdev.folder.distribution.AppDistributionViewPagerBg
+	    android:id="@+id/app_distribution_viewpager_bg"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    />
+    <com.nd.hilauncherdev.folder.distribution.AppDistributionViewPager
+        android:id="@+id/app_distribution_viewpager"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"/>
+    <com.nd.hilauncherdev.folder.distribution.ChangeAppsView
+            android:id="@+id/change_circle_view"
+            android:layout_width="65dp"
+        	android:layout_height="65dp"
+        	android:layout_gravity="bottom|right"
+        	android:layout_marginRight="5dp"
+        	android:layout_marginBottom="30dp"
+            />
+    <!-- android:background="@android:color/holo_purple" -->
+    <TextView 
+        android:id="@+id/change_textview"
+        android:layout_width="65dp"
+        android:layout_height="20dp"
+        android:layout_gravity="bottom|right"
+       	android:layout_marginRight="5dp"
+       	android:layout_marginBottom="10dp"
+       	android:text="换一批"
+       	android:gravity="center"
+       	android:textSize="12sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/top_panel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/top_pannel_back"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:src="@drawable/common_back" />
+
+        <TextView
+            android:id="@+id/top_pannel_register"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.0"
+            android:gravity="center"
+            android:text="最HOT应用"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+         <TextView
+            android:id="@+id/top_pannel_skip"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="跳过"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_weight="1.0"
+            android:visibility="invisible" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,330 @@
+[
+    {
+        "outputFile": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\build\\intermediates\\incremental\\mergeFive_fiveDingkaiDebugResources\\merged.dir\\values-mdpi-480x320-v4\\values-mdpi-480x320-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-mdpi-480x320-v4\\values-mdpi-480x320-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 49,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 63,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-mdpi-480x320-v4\\values-mdpi-480x320-v4.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 63,
+                        "endOffset": 164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 67,
+                    "endOffset": 232
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-mdpi-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 265,
+                        "endColumn": 64,
+                        "endOffset": 328
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 237,
+                    "endColumn": 60,
+                    "endOffset": 293
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-mdpi-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 70,
+                        "endColumn": 57,
+                        "endOffset": 126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 298,
+                    "endColumn": 70,
+                    "endOffset": 364
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-mdpi-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 196,
+                        "endColumn": 67,
+                        "endOffset": 262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 369,
+                    "endColumn": 68,
+                    "endOffset": 433
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-mdpi-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 129,
+                        "endColumn": 65,
+                        "endOffset": 193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 438,
+                    "endColumn": 68,
+                    "endOffset": 502
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-mdpi-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 1,
+                        "startOffset": 408,
+                        "endColumn": 65,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 507,
+                    "endColumn": 56,
+                    "endOffset": 559
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-mdpi-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 1,
+                        "startOffset": 353,
+                        "endColumn": 53,
+                        "endOffset": 405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 564,
+                    "endColumn": 47,
+                    "endOffset": 607
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-mdpi-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 499,
+                        "endColumn": 47,
+                        "endOffset": 542
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 612,
+                    "endColumn": 51,
+                    "endOffset": 659
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-mdpi-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 548,
+                        "endColumn": 51,
+                        "endOffset": 595
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 664,
+                    "endColumn": 55,
+                    "endOffset": 715
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-mdpi-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 1,
+                        "startOffset": 628,
+                        "endColumn": 52,
+                        "endOffset": 679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 720,
+                    "endColumn": 64,
+                    "endOffset": 780
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-mdpi-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 1,
+                        "startOffset": 709,
+                        "endColumn": 61,
+                        "endOffset": 769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 785,
+                    "endColumn": 56,
+                    "endOffset": 837
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-mdpi-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 1,
+                        "startOffset": 801,
+                        "endColumn": 53,
+                        "endOffset": 853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 842,
+                    "endColumn": 64,
+                    "endOffset": 902
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-mdpi-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 1,
+                        "startOffset": 937,
+                        "endColumn": 61,
+                        "endOffset": 997
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 907,
+                    "endColumn": 64,
+                    "endOffset": 967
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-mdpi-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 1,
+                        "startOffset": 1000,
+                        "endColumn": 61,
+                        "endOffset": 1060
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 972,
+                    "endColumn": 61,
+                    "endOffset": 1029
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-mdpi-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 1,
+                        "startOffset": 877,
+                        "endColumn": 58,
+                        "endOffset": 934
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1034,
+                    "endColumn": 51,
+                    "endOffset": 1081
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-mdpi-480x320-v4\\values-mdpi-480x320-v4.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 169,
+                        "endColumn": 51,
+                        "endOffset": 216
+                    }
+                }
+            }
+        ]
+    }
+]

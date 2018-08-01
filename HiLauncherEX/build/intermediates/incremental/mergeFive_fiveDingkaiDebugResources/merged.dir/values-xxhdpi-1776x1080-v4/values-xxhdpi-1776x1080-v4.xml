@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="system_setting_info_text">13sp</dimen>
+    <dimen name="theme_shop_v6_list_item_price">12sp</dimen>
+    <dimen name="theme_shop_v6_list_item_title">14sp</dimen>
+    <dimen name="widget_4x1_height">71dip</dimen>
+    <dimen name="widget_4x2_height">142dip</dimen>
+</resources>

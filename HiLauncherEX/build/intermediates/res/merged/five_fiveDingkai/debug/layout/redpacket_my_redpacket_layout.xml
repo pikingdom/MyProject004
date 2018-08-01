@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 我的红包可用红包页面 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <!-- 积分详情列表 -->
+	<ListView 
+	    android:id="@+id/my_readpacket_listview"
+	    android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+		android:cacheColorHint="#00000000"
+		android:scrollbars="none"
+		android:listSelector="#00000000"
+	    android:dividerHeight="16dp"
+	    android:divider="#00000000"/>
+	<!-- listview刷新条 -->
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<LinearLayout
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:orientation="vertical">
+			<include layout="@layout/theme_shop_v6_loading_style_bottom"/>
+		</LinearLayout>
+	</RelativeLayout>
+	
+	<!-- 无网络和加载中界面 -->
+	<LinearLayout
+	    android:id="@+id/my_readpacket_info"
+	    android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"/>
+</FrameLayout>

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-960x540-v4\\values-hdpi-960x540-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 40,
+                    "endOffset": 91
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-hdpi-960x540-v4\\values-hdpi-960x540-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 40,
+                        "endOffset": 91
+                    }
+                }
+            }
+        ]
+    }
+]

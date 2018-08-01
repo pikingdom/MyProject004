@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_hw_bg">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_height="44dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_hw_step"
+            android:textColor="@color/guide_hw_next_text"
+            android:text="下一步"/>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/tv_urgent_call"
+        android:layout_above="@id/ll_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:drawableLeft="@drawable/ic_hw_urgent_call"
+        android:layout_centerHorizontal="true"
+        android:drawablePadding="9dp"
+        android:layout_marginBottom="40dp"
+        android:textSize="14dp"
+        android:textColor="@color/guide_hw_urgent_call"
+        android:text="紧急呼叫"
+        />
+
+
+    <LinearLayout
+        android:layout_above="@id/tv_urgent_call"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="72dp"
+        android:paddingLeft="38dp"
+        android:paddingRight="38dp"
+        android:layout_marginBottom="70dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/guide_hw_title"
+            android:textSize="29dp"
+            android:text="选择语言"/>
+
+        <com.wx.wheelview.widget.WheelView
+            android:id="@+id/picker_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

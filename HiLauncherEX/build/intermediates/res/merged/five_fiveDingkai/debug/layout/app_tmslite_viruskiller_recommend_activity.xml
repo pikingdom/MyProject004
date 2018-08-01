@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffc945"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/app_viruskill_bg"
+            android:paddingBottom="40dip"
+            android:scaleType="centerCrop" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+                    android:id="@+id/app_tms_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:layout_alignParentTop="true"
+                    >
+                </com.nd.hilauncherdev.framework.view.commonview.HeaderView>
+
+                <TextView
+                    android:id="@+id/download_tms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="35dp"
+                    android:background="@drawable/app_tms_btn_selector"
+                    android:gravity="center"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp"
+                    android:paddingTop="8dp"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </ScrollView>
+    </FrameLayout>
+
+</LinearLayout>

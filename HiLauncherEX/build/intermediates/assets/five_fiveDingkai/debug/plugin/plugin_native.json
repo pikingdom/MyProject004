@@ -1,0 +1,26 @@
+{
+    "plugin": 
+    [
+    	{	"pkg": "com.baidu.launcher.plugin"},
+		{	"pkg": "com.baidu.launcher.petfloat"},
+		{	"pkg": "com.nd.android.anyshare"},
+		{	"pkg": "com.baidu91.launcher.manager"},
+		{	"pkg": "com.baidu91.launcher.individuation"},
+		{	"pkg": "com.wireless.assistant.mobile.market"},
+		{	"pkg": "com.nd.hilauncherdev.plugin.navigation",
+			"file": "com.nd.hilauncherdev.plugin.navigation_V_38_M_0fe7d1134032ce960fc2a1c2317b39f3.jar"
+		},
+	  	{	"pkg": "com.nd.hilauncherdev.plugin.browser",
+			"file": "com.nd.hilauncherdev.plugin.browser_V_7_M_d3ae11ffbb752c3799ec24247ff37060.jar"
+	  	},
+		{	"pkg": "com.nd.hilauncherdev.myphone.mywallpaper"},
+		{	"pkg": "com.nd.hilauncherdev.myphone.privatezone"},
+		{	"pkg": "com.wireless.android.jifenqiang"},
+		{	"pkg": "com.baidu.launcher.po"},
+		{	"pkg": "com.baidu91.launcher.netflow"},
+		{	"pkg": "com.baidu91.launcher.assist"},
+		{	"pkg": "com.wireless.pandahome.present"},
+		{	"pkg": "com.baidu91.launcher.present"},
+		{	"pkg": "com.nd.android.pandahome2.shop"}
+	]	
+}

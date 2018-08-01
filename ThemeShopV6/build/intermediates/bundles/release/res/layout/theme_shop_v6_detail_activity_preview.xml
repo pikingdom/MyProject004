@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToPadding="true"
+    android:clipChildren="true"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.nd.hilauncherdev.shop.shop3.customview.FullGallery
+        android:id="@+id/theme_shop_theme_detail_image_large"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:spacing="0dip" />
+
+    <com.nd.hilauncherdev.shop.shop3.customview.switchview.PageControlView
+        android:id="@+id/pageControl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:background="#00000000"
+        android:gravity="center" />
+
+</LinearLayout>

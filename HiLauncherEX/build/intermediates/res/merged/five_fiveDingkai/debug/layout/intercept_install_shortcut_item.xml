@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:gravity="center">
+
+    <ImageView
+            android:id="@+id/image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            android:layout_marginLeft="25dp"
+            />
+    <TextView
+            android:id="@+id/text"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:text="百度手机助手(原91助手)"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/image"
+            />
+
+    <TextView
+            android:singleLine="true"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_app_desc_second"
+            android:text="来自百度手机助手(原91助手)应用"
+            android:ellipsize="end"
+            android:textColor="#919191"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/text"
+            android:layout_alignLeft="@id/text"
+            />
+
+    <CheckBox
+            android:id="@+id/item_cb"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:background="@drawable/downloadmanager_checkbox"
+            android:button="@null"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="24dp"/>
+
+
+</RelativeLayout>

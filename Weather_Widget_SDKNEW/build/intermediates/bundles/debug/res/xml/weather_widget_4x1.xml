@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 注意，文件名不可改改变  -->
+<pandaWidget
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	spanX="4" spanY="1" layoutRes="@layout/weather_widget_panda_4x1" />

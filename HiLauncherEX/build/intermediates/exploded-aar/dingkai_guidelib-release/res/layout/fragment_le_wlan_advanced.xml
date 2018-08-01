@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp"
+    android:background="@color/guide_le_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29.7dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="17.3dp"
+            android:layout_height="17.7dp"
+            android:background="@drawable/btn_le_page_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:textColor="@color/guide_le_title_text"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="高级设置"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="22dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/guide_le_title_text"
+            android:textSize="14dp"
+            android:text="打开Wlan"/>
+
+        <Switch
+            android:id="@+id/wlan_advanced_switch"
+            android:layout_width="32.7dp"
+            android:layout_height="12.7dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:checked="true"
+            android:textOn=""
+            android:textOff=""
+            android:track="@drawable/switch_le_wlan_track"
+            android:thumb="@drawable/switch_le_wlan_thumb"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#c4c4c6"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/guide_le_title_text"
+            android:textSize="14dp"
+            android:text="在休眠状态下保持WLAN网络连接"/>
+
+        <TextView
+            android:id="@+id/wlan_advanced_keep_conn"
+            android:layout_width="36.7dp"
+            android:layout_height="21dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@drawable/btn_le_other_or_see"
+            android:textColor="#868990"
+            android:textSize="11dp"
+            android:gravity="center"
+            android:text="始终"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#c4c4c6"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/guide_le_title_text"
+            android:textSize="14dp"
+            android:text="MAC地址"/>
+
+        <TextView
+            android:id="@+id/wlan_advanced_mac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#868990"
+            android:textSize="11dp"
+            android:text="b4:ef:fa:27:95:5c"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#c4c4c6"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/guide_le_title_text"
+            android:text="IPv4 地址"/>
+
+        <TextView
+            android:id="@+id/wlan_advanced_ipv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#868990"
+            android:textSize="11dp"
+            android:text="不可用"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#c4c4c6"/>
+
+
+</LinearLayout>

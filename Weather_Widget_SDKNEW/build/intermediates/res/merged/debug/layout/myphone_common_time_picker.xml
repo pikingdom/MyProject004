@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popwindow_blank"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical" 
+    android:background="@drawable/app_choose_top_background_new">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/dialog_title_line"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip" >
+
+            <TextView
+                android:id="@+id/dialog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:paddingLeft="10dip"
+                android:paddingTop="2dip"
+                android:textColor="#48b1e2"
+                android:text="@string/mybattery_time_picker_title"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_title_line" >
+
+            <LinearLayout
+                android:id="@+id/wheel_line"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip" >
+
+                <LinearLayout
+                    android:id="@+id/wheel_hour_line"
+                    android:layout_width="60dip"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/hour_add"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginBottom="10dip"
+                        android:paddingLeft="2dip"
+                        android:src="@drawable/myphone_battery_up_arraw" />
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="90dip"
+                        android:layout_marginBottom="10dip" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:drawableBottom="@drawable/myphone_battery_time_split" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:drawableTop="@drawable/myphone_battery_time_split" />
+                        </LinearLayout>
+
+                        <com.nd.hilauncherdev.kitset.util.timepicker.WheelView
+                            android:id="@+id/hour"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_vertical" />
+                    </FrameLayout>
+
+                    <ImageView
+                        android:id="@+id/hour_minus"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:src="@drawable/myphone_battery_down_arraw" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:text=":"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/wheel_min_line"
+                    android:layout_width="60dip"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/min_add"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginBottom="10dip"
+                        android:paddingLeft="2dip"
+                        android:src="@drawable/myphone_battery_up_arraw" />
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="90dip"
+                        android:layout_marginBottom="10dip" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:drawableBottom="@drawable/myphone_battery_time_split" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:drawableTop="@drawable/myphone_battery_time_split" />
+                        </LinearLayout>
+
+                        <com.nd.hilauncherdev.kitset.util.timepicker.WheelView
+                            android:id="@+id/mins"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" />
+                    </FrameLayout>
+
+                    <ImageView
+                        android:id="@+id/min_minus"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:src="@drawable/myphone_battery_down_arraw" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dialog_control"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dialog_bottom_layout_height"
+                android:layout_below="@id/wheel_line"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/dialog_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/app_choose_l_btn"
+                    android:gravity="center"
+                    android:paddingTop="3dip"
+                    android:text="@string/common_button_confirm"
+                    android:textColor="@color/app_choose_btn_color" />
+
+                <Button
+                    android:id="@+id/dialog_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/app_choose_r_btn"
+                    android:gravity="center"
+                    android:paddingTop="3dip"
+                    android:text="@string/common_button_cancel"
+                    android:textColor="@color/app_choose_btn_color" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

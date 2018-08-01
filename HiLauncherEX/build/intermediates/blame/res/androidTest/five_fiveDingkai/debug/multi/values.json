@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\build\\intermediates\\incremental\\mergeFive_fiveDingkaiDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 88,
+                    "endOffset": 139
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\build\\generated\\res\\resValues\\androidTest\\five_fiveDingkai\\debug\\values\\generated.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 88,
+                        "endOffset": 244
+                    }
+                }
+            }
+        ]
+    }
+]

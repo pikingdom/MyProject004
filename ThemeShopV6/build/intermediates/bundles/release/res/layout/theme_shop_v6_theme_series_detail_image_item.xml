@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+        android:id="@+id/largePreImg"
+        android:layout_width="210dip"
+        android:layout_height="350dip"
+        android:scaleType="fitXY" />
+    <TextView 
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="2dip"
+    	android:layout_marginLeft="5dip"
+    	android:textSize="14sp"
+    	android:textColor="#707070" />
+	<TextView 
+        android:id="@+id/price"
+        android:layout_marginTop="2dip"
+        android:layout_marginBottom="2dip"
+        android:layout_marginLeft="5dip"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#f4b34a"
+    	android:textSize="12sp" />
+</LinearLayout>

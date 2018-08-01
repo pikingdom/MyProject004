@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+
+    <!-- 标题栏 -->
+
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+
+    <LinearLayout
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/level_award_action"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/user_level_download_theme_hint"
+            android:textColor="@android:color/white" />
+        <!--android:background="@drawable/login_submit_bg_selector"-->
+    </LinearLayout>
+
+    <!-- 无奖励提示页面 -->
+    <RelativeLayout
+        android:id="@+id/level_no_award_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_view"
+        android:layout_below="@id/head_view"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/level_no_reward_img_1"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/user_level_no_reward_hint" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/level_no_reward_tv_1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/level_no_reward_img_1"
+            android:gravity="center"
+            android:text="@string/user_level_no_award_hint1"
+            android:textColor="#ff999999"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/level_no_award_tv_2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/level_no_reward_tv_1"
+            android:gravity="center"
+            android:textColor="#ff181818"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/level_no_reward_tv_3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="@string/user_level_award_hint"
+            android:textColor="#ff999999"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+
+    <!-- 升级奖励动画页面 -->
+    <LinearLayout
+        android:id="@+id/user_level_award_animation_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/user_level_reward_ani_bg"
+        android:orientation="vertical"
+        android:layout_below="@id/head_view"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/user_level_reward_cloud_1" />
+
+        <TextView
+            android:id="@+id/user_level_award_hint_tv1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="@string/user_level_award_hint2"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp" />
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="236dp"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="12dp">
+                <ImageView
+                    android:layout_width="310dp"
+                    android:layout_height="212dp"
+                    android:src="@drawable/user_level_reward_cloud_2"
+                    android:layout_gravity="center_horizontal"/>
+
+                <ImageView
+                    android:layout_width="232dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/user_level_reward_cloud_3" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/user_level_award_box_container"
+                android:layout_width="184dp"
+                android:layout_height="178dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="46dp">
+                <ImageView
+                    android:id="@+id/user_level_award_box_reward"
+                    android:layout_width="120dp"
+                    android:layout_height="86dp"
+                    android:layout_marginTop="92dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:src="@drawable/user_level_reward_box_reward"
+                    android:visibility="invisible"/>
+                <ImageView
+                    android:id="@+id/user_level_award_box"
+                    android:layout_width="144dp"
+                    android:layout_height="72dp"
+                    android:layout_marginTop="106dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/user_level_reward_box" />
+                <ImageView
+                    android:id="@+id/user_level_award_box_lip"
+                    android:layout_width="144dp"
+                    android:layout_height="72dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/user_level_reward_box_lip" />
+            </FrameLayout>
+
+
+            <ImageView
+                android:id="@+id/user_level_award_ribbon"
+                android:layout_width="293dp"
+                android:layout_height="236dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/user_level_reward_ribbon"
+                android:visibility="invisible"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/user_level_award_hint_tv2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/user_level_award_hint3"
+            android:textColor="#fffeb52b"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/user_level_award_hint_tv3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- 升级奖励列表 -->
+    <LinearLayout
+        android:id="@+id/level_has_award_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_view"
+        android:layout_below="@id/head_view"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/user_level_award_get"
+            android:textColor="#ff999999" />
+
+        <RelativeLayout
+            android:id="@+id/user_level_award_vip_container"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/user_level_reward_vip_img"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="15dp"
+                android:src="@drawable/user_level_reward_vip" />
+
+            <Button
+                android:id="@+id/user_level_award_vip_btn"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/user_level_reward_btn_bg"
+                android:text="@string/user_level_download_theme_hint"
+                android:textColor="#fffeb52b"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:id="@+id/user_level_reward_vip_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/user_level_award_vip_btn"
+                android:layout_toRightOf="@id/user_level_reward_vip_img"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/user_level_award_vip_tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/user_level_award_vip_hint2"
+                    android:textColor="#ff999999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/user_level_award_vip_hint3"
+                    android:textColor="#ff999999"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/user_level_award_coupon_container"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/user_level_reward_coupon_img"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="15dp"
+                android:src="@drawable/user_level_reward_coupon" />
+
+            <Button
+                android:id="@+id/user_level_award_coupon_btn"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/user_level_reward_btn_bg"
+                android:text="@string/user_level_download_theme_hint"
+                android:textColor="#fffeb52b"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:id="@+id/user_level_reward_coupon_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/user_level_award_coupon_btn"
+                android:layout_toRightOf="@id/user_level_reward_coupon_img"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/user_level_award_coupon_tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/user_level_award_coupon_tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#ff999999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/user_level_award_coupon_hint3"
+                    android:textColor="#ff999999"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/user_level_award_point_container"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/user_level_reward_ponit_img"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="15dp"
+                android:src="@drawable/user_level_reward_point" />
+
+            <Button
+                android:id="@+id/user_level_award_ponit_btn"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/user_level_reward_btn_bg"
+                android:text="@string/user_level_use_ponit_hint"
+                android:textColor="#fffeb52b"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:id="@+id/user_level_reward_ponit_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/user_level_award_ponit_btn"
+                android:layout_toRightOf="@id/user_level_reward_ponit_img"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/user_level_award_ponit_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:text="35积分"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/user_level_award_coupon_ponit2"
+                    android:textColor="#ff999999"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

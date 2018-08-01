@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_le_bg">
+
+    <include
+        android:id="@+id/include_top"
+        layout="@layout/include_le_guide_page_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_le_include_page_top_h"/>
+    <include
+        layout="@layout/include_le_guide_page_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_le_include_page_bottom_h"/>
+
+    <ImageView
+        android:id="@+id/ic_top"
+        android:layout_width="80.76dp"
+        android:layout_height="80.76dp"
+        android:background="@drawable/ic_le_protocol_top"
+        android:layout_below="@id/include_top"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50.67dp"
+        android:layout_below="@id/ic_top"
+        android:orientation="vertical">
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.38dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="#dedede"/>
+
+        <RelativeLayout
+            android:id="@+id/use_protocol_rl_protocol"
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:textColor="@color/guide_le_title_text"
+                android:textSize="16dp"
+                android:text="使用协议"/>
+
+
+
+            <ImageView
+                android:layout_width="8.76dp"
+                android:layout_height="15.24dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/btn_le_other_or_see"
+                />
+            
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="#dedede"/>
+
+        <RelativeLayout
+            android:id="@+id/use_protocol_rl_privacy"
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:textColor="@color/guide_le_title_text"
+                android:textSize="16dp"
+                android:text="隐私政策"/>
+
+
+            <ImageView
+                android:layout_width="8.76dp"
+                android:layout_height="15.24dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/btn_le_other_or_see"
+                />
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="#dedede"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.38dp"
+            android:gravity="center"
+            android:textColor="#757575"
+            android:textSize="13.71dp"
+            android:text="只有同意才能使用EUI的服务"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

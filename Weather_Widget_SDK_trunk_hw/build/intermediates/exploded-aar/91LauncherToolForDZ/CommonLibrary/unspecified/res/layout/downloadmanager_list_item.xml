@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.webconnect.downloadmanage.activity.DownloadItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="76dp"
+    android:background="@drawable/myphone_click_item_blue"
+    android:paddingBottom="13dp"
+    android:paddingTop="13dp" >
+
+    <!-- 图标 -->
+
+    <ImageView
+        android:id="@+id/app_item_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:scaleType="fitCenter" />
+
+    <!-- 右边操作区 -->
+
+    <FrameLayout
+        android:id="@+id/right_area"
+        android:layout_width="85dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" >
+
+        <LinearLayout
+            android:id="@+id/layout_action"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+
+            <!-- 垂直分割线 -->
+
+            <ImageView
+                android:id="@+id/ver_splite_line"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/myphone_ver_split_line" />
+
+            <!-- 功能按钮 -->
+
+            <FrameLayout
+                android:id="@+id/app_item_fun_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/app_item_fun_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/myphone_click_item_blue"
+                    android:gravity="center"
+                    android:text="@string/myphone_download_parse"
+                    android:textColor="@color/myphone_common_text_color"
+                    android:textSize="@dimen/myphone_item_text_size" />
+
+                <ImageView
+                    android:id="@+id/app_item_fun_btn_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <CheckBox
+                android:id="@+id/ck_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:button="@null"
+                android:drawableLeft="@drawable/downloadmanager_checkbox"
+                android:drawablePadding="0dp"
+                android:focusable="false"
+                android:gravity="center" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- 中间区 -->
+
+    <LinearLayout
+        android:id="@+id/app_item_text_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/myphone_margin_left"
+        android:layout_toLeftOf="@+id/right_area"
+        android:layout_toRightOf="@+id/app_item_image"
+        android:orientation="vertical"
+        android:paddingRight="8dp" >
+
+        <!-- 标题 -->
+
+        <TextView
+            android:id="@+id/app_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxWidth="200dip"
+            android:singleLine="true"
+            android:textColor="#454545"
+            android:textSize="@dimen/myphone_item_text_size" />
+
+        <RelativeLayout
+            android:id="@+id/desc_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/app_item_progress_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#adadad"
+                android:textSize="@dimen/myphone_item_little_text_size" />
+
+            <TextView
+                android:id="@+id/app_item_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#adadad"
+                android:textSize="@dimen/myphone_item_little_text_size" />
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/download_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:max="100"
+            android:progressDrawable="@drawable/downloadmanager_item_progress_style"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</com.nd.hilauncherdev.webconnect.downloadmanage.activity.DownloadItemView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_hw_bg">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="配置成功"
+        android:textColor="#28c0c6"
+        android:textSize="29dp" />
+
+
+    <Button
+        android:id="@+id/btn_start_use"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_hw_start_use"
+        android:text="开始使用"
+        android:textColor="@color/guide_hw_next_text" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_start_use"
+        android:layout_below="@id/tv"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="213.3dp"
+                android:layout_height="213.3dp"
+                android:layout_below="@id/tv"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="46.6dp"
+                android:background="@drawable/ic_hw_start_use_logo" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="20dp"
+                android:text="花粉俱乐部是华为官方唯一交流平台。花粉俱乐部提供最新华为产品和服务资讯、ROM资源、玩机技巧等，并开展丰富多彩的线上线下互动交流活动，是华为聆听用户最真实声音的窗口。"
+
+                android:textColor="#242424" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

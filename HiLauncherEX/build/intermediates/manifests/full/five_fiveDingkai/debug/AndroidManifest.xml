@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.desktop.tool"
+    android:debuggable="false"
+    android:installLocation="internalOnly"
+    android:sharedUserId="@string/sharedUserId"
+    android:versionCode="8698"
+    android:versionName="8.7" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        android:description="@string/permdesc_install_shortcut"
+        android:label="@string/permlab_install_shortcut"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        android:description="@string/permdesc_uninstall_shortcut"
+        android:label="@string/permlab_uninstall_shortcut"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:protectionLevel="normal" /> <!-- 力天定制版 调用新手引导aar -->
+    <uses-feature android:name="android.hardware.wifi" /> <!-- 力天定制版 调用新手引导aar -->
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.BIND_APPWIDGET" />
+    <uses-permission android:name="com.android.desktop.tool.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.desktop.tool.permission.WRITE_SETTINGS" /> <!-- IMEI号等 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /> <!-- 系统开关 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 权限 适配中兴V956手机         系统小部件-添加联系人 -->
+    <uses-permission android:name="com.android.ContactWidget.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.ContactWidget.permission.WRITE_SETTINGS" /> <!-- 权限 适配华为手机         天气插件 -->
+    <uses-permission android:name="android.permission.ACCESS_WEATHERCLOCK_PROVIDER" />
+<!-- 	<uses-permission android:name="com.huawei.android.totemweather.permission.ACCESS_WEATHERCLOCK_PROVIDER" /> -->
+    <!-- 关键权限 读取联系人 小部件隐私空间, 我的铃声 -->
+    <!-- <uses-permission android:name="android.permission.READ_CONTACTS" /> -->
+    <!-- 关键权限 未读短信 linqiang -->
+    <uses-permission android:name="android.permission.READ_SMS" /> <!-- <uses-permission android:name="android.permission.WRITE_SMS" /> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_CONTACTS" /> -->
+    <!-- 关键权限 开机启动 流量电量开机时间计算 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- 关键权限 快捷方式直接拨打 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- 关键权限 流量监控 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--
+ 二维码扫描,3.8屏蔽
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.FLASHLIGHT"/>
+    -->
+    <!-- 一键清理 -->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" /> <!-- 读取书签,适配中兴机型 -->
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" /> <!-- 安装包大小 -->
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" /> <!-- 缓存清理 -->
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" /> <!-- 读取其他桌面的favorites provider的权限 -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.lge.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.fede.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="org.adw.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="org.adwfreak.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="org.adw.launcher_donut.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.tencent.qqlauncher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.mylauncher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.launcher2.permission.READ_SETTINGS" />
+    <uses-permission android:name="net.qihoo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.dianxinos.dxhome.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.PERSISTENT_ACTIVITY" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.qihoo360.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.bbk.launcher2.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.bbk.launcher2.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> <!-- 低电量切换提示窗口 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 天气SDK -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 拨号助手 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- 隐私空间 -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" /> <!-- 快传 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 百度Mo+接入支持 -->
+    <uses-permission android:name="android.permission.SET_ACTIVITY_WATCHER" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" /> <!-- ↓↓↓ pass v6 ↓↓↓ -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="com.baidu.permission.SHARE" /> <!-- ↑↑↑ pass v6 ↑↑↑ -->
+    <!-- ↓↓↓ 百度push需要 ↓↓↓ -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="com.nd.hilauncherdev.launcher.LauncherApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/application_name"
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+
+        <!-- 鼎开 start -->
+        <receiver android:name="com.melon.mma.service.CommIntercept" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.PACKAGE_RESTARTED" />
+                <action android:name="com.melon.cal.updateServer" />
+                <action android:name="com.melon.cal.command" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.melon.mma.service.CommService" />
+        <!-- 渠道号 -->
+        <meta-data
+            android:name="MMACHANNEL"
+            android:value="M3000002" />
+
+        <!-- 鼎开 end -->
+        <activity
+            android:name="com.nd.hilauncherdev.launcher.Launcher"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="locale|keyboardHidden|orientation"
+            android:label="@string/application_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/Fullscreen"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+                <category android:name="android.intent.category.THIRD_PKG_CHECK" />
+            </intent-filter>
+        </activity> <!-- 单行本主题应用主题跳转 caizp 2012-8-7 -->
+        <activity
+            android:name="com.nd.android.launcher.Launcher"
+            android:clearTaskOnLaunch="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" >
+        </activity> <!-- 插件中点击安装客户端时发此广播给91桌面 -->
+        <receiver android:name="com.nd.hilauncherdev.launcher.InstallAppFromWidgetReceiver" >
+            <intent-filter>
+                <action android:name="nd.panda.custom.widget.install.action" />
+            </intent-filter>
+        </receiver> <!-- Intent received used to install shortcuts from other applications -->
+        <receiver
+            android:name="com.nd.hilauncherdev.launcher.broadcast.InstallShortcutReceiver"
+            android:permission="com.android.launcher.permission.INSTALL_SHORTCUT" >
+            <intent-filter>
+                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+                <action android:name="com.nd.pandahome.install_shortcut" />
+            </intent-filter>
+        </receiver> <!-- Intent received used to uninstall shortcuts from other applications -->
+        <receiver
+            android:name="com.nd.hilauncherdev.launcher.broadcast.UninstallShortcutReceiver"
+            android:permission="com.android.launcher.permission.UNINSTALL_SHORTCUT" >
+            <intent-filter>
+                <action android:name="com.android.launcher.action.UNINSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.nd.hilauncherdev.datamodel.ApplicationChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+<!-- 			Intent received used to Hanlde Theme from 91MobileAssit -->
+        <receiver android:name="com.nd.hilauncherdev.plugin.ThemeManageReceiver" >
+            <intent-filter>
+                <action android:name="com.nd.android.pandahome.manage_theme2" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.nd.hilauncherdev.plugin.NoneActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- The settings provider contains Home's data, like the workspace favorites -->
+        <provider
+            android:name="com.nd.hilauncherdev.launcher.LauncherProvider"
+            android:authorities="com.android.desktop.tool.settings" />
+
+        <activity
+            android:name="com.nd.hilauncherdev.framework.AppChooserListActivity"
+            android:theme="@style/Theme.Transparent" >
+        </activity> <!-- 系统开关,亮度控制 -->
+        <activity
+            android:name="com.nd.hilauncherdev.kitset.systemtoggler.BrightnessActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- 我的电池,亮度控制 -->
+        <activity
+            android:name="com.nd.hilauncherdev.kitset.systemtoggler.MyBatteryBrightnessActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.widget.systemtoggler.SystemSwitchDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.nd.hilauncherdev.notification.NotificationToolsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.notifitools"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.nd.hilauncherdev.notification.NotifyRedirectActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" /> <!-- dockbar程序选择框 -->
+        <!-- 程序打开选择框 -->
+        <activity
+            android:name="com.nd.hilauncherdev.app.activity.AppResolverSelectActivity"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.appresolverselect"
+            android:theme="@style/TipDialog" /> <!-- QQx5浏览器逻辑 -->
+        <activity
+            android:name="com.nd.hilauncherdev.app.activity.X5Launcher"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.nd.hilauncherdev.app.activity.X5Launcher" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.app.activity.BrowserActivity"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.middlepage"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 活动相关系统Webview -->
+        <activity
+            android:name="com.nd.hilauncherdev.app.activity.CampaignBrowserActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.topmenu.campaign.CompainWebViewActivity"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" /> <!-- 文件夹 -->
+        <activity
+            android:name="com.nd.hilauncherdev.folder.activity.FolderRenameActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TipDialog" /> <!-- 加密方式选择 -->
+        <activity
+            android:name="com.nd.hilauncherdev.folder.activity.FolderEncriptTypeChooseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" /> <!-- 密码设置 -->
+        <activity
+            android:name="com.nd.hilauncherdev.folder.activity.FolderEncriptSettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" /> <!-- 密码输入 -->
+        <activity
+            android:name="com.nd.hilauncherdev.folder.activity.FolderEncriptEntranceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" /> <!-- 文件夹推荐app视图 -->
+        <activity
+            android:name="com.nd.hilauncherdev.folder.distribution.FolderAppDistributionActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 用户反馈 -->
+        <activity
+            android:name="com.nd.hilauncherdev.widget.feedback.FeedbackActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.nd.hilauncherdev.widget.feedback.FeedbackReplyActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nd.hilauncherdev.kitset.crop.CropImageActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/wallpaper_editor_label"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.nd.hilauncherdev.myphone.wallpaper.wallpaper_crop" />
+                <action android:name="android.intent.action.ATTACH_DATA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.myring.online.OnLineRingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.RINGTONE_PICKER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity> <!-- end 我的音乐 -->
+        <activity
+            android:name="com.nd.hilauncherdev.shop.MyThemeCenterMain"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity> <!-- 我的壁纸 -->
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.mytheme.wallpaper.WallPaperMain"
+            android:alwaysRetainTaskState="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity> <!-- <activity -->
+        <!-- android:name="com.nd.hilauncherdev.wallpaper.ShowWallpaperChangeEffectActivity" -->
+        <!-- android:launchMode="singleTask" -->
+        <!-- android:process=":hilauncherex_shopv2_process" -->
+        <!-- android:theme="@style/FullscreenTranslucent" -->
+        <!-- android:screenOrientation="portrait"> -->
+        <!-- </activity> -->
+        <service
+            android:name="com.nd.hilauncherdev.wallpaper.WallpaperChangeService"
+            android:process=":hilauncherex_shopv2_process" />
+
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.mywallpaper.WallPaperActivity"
+            android:icon="@drawable/logo"
+            android:label="@string/pick_wallpaper"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.mywallpaper.online.OnlineWallPaperActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.swapwallpaper.SwapWallpaperSettingActivity"
+            android:label="@string/swap_wallpaper_wallpaper_setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" >
+            <intent-filter>
+                <action android:name="com.nd.hilauncherdev.action.SWAP_WALLPAPER_SETTING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.swapwallpaper.WallpaperStyleActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity> <!-- end 我的壁纸 -->
+        <!-- 我的备份 -->
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.backup.MyBackupActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" /> <!-- 系统设置 -->
+        <activity
+            android:name="com.nd.hilauncherdev.menu.SystemSettingsActivity"
+            android:label="@string/settings_navigation_lebal"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity> <!-- 桌面检测 -->
+        <activity
+            android:name="com.nd.hilauncherdev.menu.systemhardware.PandaHomeCheckMainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" >
+        </activity> <!-- 硬件信息 -->
+        <activity
+            android:name="com.nd.hilauncherdev.menu.systemhardware.SystemHardwareTestActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" >
+        </activity> <!-- 截屏动画 -->
+        <activity
+            android:name="com.sec.android.app.screencapture.ScreenCaptureAnimationActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity> <!-- Root工具推荐列表 -->
+        <activity
+            android:name="com.sec.android.app.screencapture.NoRootRecommendSoftwareActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" >
+        </activity> <!-- 关闭截屏通知栏消息 -->
+        <activity
+            android:name="com.sec.android.app.screencapture.ScreenCaptureCloseNotificationActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity> <!-- 日志信息 -->
+        <activity
+            android:name="com.nd.hilauncherdev.menu.systemhardware.PandaHomeCheckActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" >
+        </activity> <!-- 桌面设置 -->
+        <activity
+            android:name="com.nd.hilauncherdev.settings.HomeSettingsActivity"
+            android:label="@string/settings_home"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" >
+            <intent-filter>
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity> <!-- 个性化设置 -->
+        <activity
+            android:name="com.nd.hilauncherdev.settings.IconAndFolderSettingsActivity"
+            android:label="@string/settings_icon_and_folder"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" /> <!-- 屏幕设置 -->
+        <activity
+            android:name="com.nd.hilauncherdev.settings.LauncherLayoutSettingsActivity"
+            android:label="@string/settings_launcher_layout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" /> <!-- 通讯统计  更名为  提醒开关 -->
+        <!-- 高级功能 -->
+        <activity
+            android:name="com.nd.hilauncherdev.settings.AdvancedSettingsActivity"
+            android:label="@string/settings_advanced_assist"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" /> <!-- 备份与重置 -->
+        <activity
+            android:name="com.nd.hilauncherdev.settings.BackupResetSettingsActivity"
+            android:label="@string/settings_backup"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" /> <!-- 关于 -->
+        <activity
+            android:name="com.nd.hilauncherdev.settings.AboutSettingsActivity"
+            android:label="@string/settings_about"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" /> <!-- 通知栏设置 -->
+        <activity
+            android:name="com.nd.hilauncherdev.settings.StatusBarSettingsActivity"
+            android:label="@string/settings_personal_status_bar"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" /> <!-- V5新增加的手势设置界面 -->
+        <activity
+            android:name="com.nd.hilauncherdev.settings.GestureControlSettingsActivity"
+            android:label="@string/settings_advanced_gesture_control"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" /> <!-- 清除默认桌面时使用 -->
+        <activity
+            android:name="com.nd.hilauncherdev.settings.DefaultActivity"
+            android:enabled="false"
+            android:launchMode="singleInstance"
+            android:stateNotNeeded="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity> <!-- 软件更新 -->
+        <activity
+            android:name="com.nd.hilauncherdev.webconnect.versionupdate.SoftUpdateDialog"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.nd.hilauncherdev.webconnect.versionupdate.SoftUpdateDialog"
+            android:theme="@style/TipDialog" />
+        <activity
+            android:name="com.nd.hilauncherdev.webconnect.versionupdate.SoftUpdateActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" />
+        <activity
+            android:name="com.nd.hilauncherdev.webconnect.versionupdate.WaitForDownloadDialog"
+            android:theme="@style/TipDialog" />
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.BrightnessActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity="myphone.battery.Brightness"
+            android:theme="@style/EmptyActivity" /> <!-- 浏览器默认主页 -->
+        <activity
+            android:name="com.nd.hilauncherdev.settings.BrowserDefaultHomeActivity"
+            android:label="@string/settings_advanced_browser_default_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" /> <!-- 新手引导 -->
+        <activity
+            android:name="com.nd.hilauncherdev.readme.ReadMeNewActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:process=":hilauncherex_start"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen" /> <!-- 获取通知栏消息服务 -->
+        <!-- <service -->
+        <!-- android:name="com.nd.hilauncherdev.NotificationMessageManage" -->
+        <!-- android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.service.notification.NotificationListenerService" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <!-- android:theme="@style/Fullscreen" -->
+        <!-- 淘宝widget'搜索功能' Activity -->
+        <activity
+            android:name="com.nd.hilauncherdev.widget.taobao.TaobaoWidgetActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SimpleNoTitleDialog"
+            android:windowSoftInputMode="adjustPan" /> <!-- 我的文件 -->
+        <!-- <activity android:name="com.nd.hilauncherdev.myphone.activity.MyFileActivity"/> -->
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.myfile.MyFileActivity"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity> <!-- 本地主题 Begin -->
+        <activity
+            android:name="com.nd.hilauncherdev.theme.localtheme.LocalThemeManagerActivity"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="nd.pandahome.THEME_MANAGE_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.theme.localtheme.LocalThemeDetailActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.theme.localtheme.LocalThemeSeriesDetailActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.theme.localtheme.LocalModuleDetailActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity> <!-- V8个性化本地界面 -->
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.ThemeShopV8LocalActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- V8用户个性化标签设置界面 -->
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.v8recommend.ThemeShopV8UserTagSettingActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- V8用户个性化标签设置引导界面 -->
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.v8recommend.ThemeShopV8UserTagSettingGuideActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service android:name="com.nd.hilauncherdev.theme.LocalThemeService" /> <!-- 换图标Activity -->
+        <activity
+            android:name="com.nd.hilauncherdev.theme.iconreplace.IconReplaceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 关键词编辑Activity -->
+        <activity
+            android:name="com.nd.hilauncherdev.theme.iconreplace.MatchKeywordEditActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 主题图标列表Activity -->
+        <activity
+            android:name="com.nd.hilauncherdev.theme.iconreplace.ThemeIconsPreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 图标模块包图标列表Activity -->
+        <activity
+            android:name="com.nd.hilauncherdev.theme.iconreplace.ModuleIconsPreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 应用程序重命名Activity -->
+        <activity
+            android:name="com.nd.hilauncherdev.app.activity.AppRenameActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" /> <!-- 本地主题与百宝箱交互广播接收器 -->
+        <receiver android:name="com.nd.hilauncherdev.theme.receiver.PandaSpaceThemeReceiver" >
+            <intent-filter>
+                <action android:name="com.nd.android.pandadesktop2.install_theme" />
+            </intent-filter>
+        </receiver> <!-- 当前主题询问接收器 -->
+        <receiver android:name="com.nd.hilauncherdev.theme.receiver.PandaThemeAskReceiver" >
+            <intent-filter>
+                <action android:name="com.nd.android.pandahome.ASK_THEME" />
+            </intent-filter>
+        </receiver> <!-- 本地主题与在线主题交互控制器 -->
+        <receiver android:name="com.nd.hilauncherdev.theme.receiver.OnlineThemeOperateAssit" >
+            <intent-filter>
+                <action android:name="nd.pandahome.request.theme.apt.install" />
+                <action android:name="nd.pandahome.request.theme.apk.install_apply" />
+                <action android:name="nd.pandahome.request.theme.apply" />
+                <action android:name="nd.pandahome.request.theme.module.apply" />
+                <action android:name="nd.pandahome.request.module.apply" />
+                <action android:name="nd.pandahome.request.theme.delete" />
+            </intent-filter>
+        </receiver> <!-- 本地主题 End -->
+        <!-- 选择程序对话框 -->
+        <activity
+            android:name="com.nd.hilauncherdev.framework.choosedialog.AppChooseDialogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" /> <!-- 选择程序对话框(列表形式) -->
+        <activity
+            android:name="com.nd.hilauncherdev.framework.choosedialog.AppChooseDialogListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" /> <!-- 选择91快捷方式对话框 -->
+        <activity
+            android:name="com.nd.hilauncherdev.launcher.addboot.PandaShortcutChooseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CustomDialog" /> <!-- 选择系统快捷方式对话框 -->
+        <activity
+            android:name="com.nd.hilauncherdev.launcher.addboot.PickShortcutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CustomDialog" /> <!-- 91快捷 腾讯手机管家-病毒查杀中间推荐页 -->
+        <activity
+            android:name="com.nd.hilauncherdev.app.activity.VirusKillerTmsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 插件商城 -->
+        <activity
+            android:name="com.nd.hilauncherdev.widget.shop.enhance.WidgetShopActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" /> <!-- 插件详情 -->
+        <activity
+            android:name="com.nd.hilauncherdev.widget.shop.view.WidgetInfoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 插件商城    Begion -->
+        <!-- 在线主题商城V2 Begin -->
+        <activity
+            android:name="com.nd.android.pandahome2.manage.shop.ThemeShopMainActivity"
+            android:alwaysRetainTaskState="true"
+            android:icon="@drawable/com_nd_android_pandahome2_manage_shop_themeshopmainactivity"
+            android:label="@string/theme_label"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="nd.pandahome.THEME_MARKET_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.MAIN" />
+<!-- 			    <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.android.pandahome2.manage.shop.ThemeShopDynamicMain"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity> <!-- 在线主题商城主界面 -->
+        <activity
+            android:name="com.nd.android.pandahome2.manage.shop.ThemeShopLoadingActivity"
+            android:alwaysRetainTaskState="true"
+            android:icon="@drawable/com_nd_android_pandahome2_manage_shop_themeshopmainactivity"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop3.ThemeShopV2MainActivity"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity> <!-- 大图预览界面 -->
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop3.customview.switchview.ScrollPreviewImgActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity" /> <!-- 猫爪支付界面 -->
+        <activity
+            android:name="com.nd.hilauncherdev.shop.ndcomplatform.NdComPlatformMaoZhuaPayActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 消费记录 -->
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themeorder.ThemeShopV6OrderListActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 换肤软件下载界面 -->
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop3.appsoft.ThemeAppDownActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeappdown"
+            android:theme="@style/Theme.CustomDialog" /> <!-- 在线主题与本地主题交互控制器 -->
+        <receiver
+            android:name="com.nd.hilauncherdev.shop.shop3.ThemeShopV3LauncherExAPI"
+            android:process=":hilauncherex_shopv2_process" >
+            <intent-filter>
+                <action android:name="nd.pandahome.request.theme.delete.downlog" />
+                <action android:name="nd.pandahome.response.theme.apt.install" />
+                <action android:name="nd.pandahome.THEME_MARKET_EXIT_ACTION" />
+            </intent-filter>
+        </receiver> <!-- 主题活动专辑 -->
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop3.eventplan.EventPlanActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themelist.ThemeShopV6TagListActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themelist.ThemeShopV6ThemeListActivity"
+            android:exported="true"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themecategory.ThemeShopV6CategoryThemeListActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 作者专区 -->
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.authorarea.AuthorAreaThemeListActivity"
+            android:exported="true"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.thememodule.ThemeShopV6ModuleListActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.thememodule.ThemeShopV8ModuleListByTagActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.v8recommend.ThemeShopV8WallPaperListActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themedetail.ThemeShopV6DetailActivity"
+            android:exported="true"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themeseries.ThemeShopV6SeriesDetailActivity"
+            android:exported="true"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themeseries.ThemeShopV6SeriesDetailDIYActivity"
+            android:exported="true"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.thememodule.ThemeShopV6ModuleDetailActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.search.ThemeShopV6ClassifySearchActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.ThemeShopV6HotwordSearchActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themedetail.ThemeShopV6DetailInappActivity"
+            android:exported="true"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themedetail.ThemeShopV6CommentActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themedetail.ThemeShopCommentActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themestyle.ThemeShopV8OnlineStyleDetailActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themestyle.ThemeShopV8OnlineStyleCateListActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themestyle.ThemeShopV8OnlineStyleListActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themestyle.ThemeShopV8LocalStyleDetailActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themestyle.ThemeShopV8LocalStyleListActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="nd.pandahome.LOCAL_STYLE_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.videowallpaper.ThemeShopV8VideoPaperListActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.videowallpaper.ThemeShopV8VideoPaperCommonListActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.videowallpaper.ThemeShopV8VideoPaperDetailActivity"
+            android:exported="true"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.videowallpaper.ThemeShopV8VideoPaperLocalDetailActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.weixin.OpenURLActivity"
+            android:configChanges="keyboardHidden|navigation|orientation"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="wxa1b78a395993f3cb" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.uri.UriDeliveryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="zm91txwd20141231" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.nd.hilauncherdev.uri.UriDeliveryService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="zm91txwd20141231service" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.mycollect.ThemeShopV6MyCollectActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.thememodule.ThemeShopV6ModuleStoreActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.themelist.ThemeShopV6ThemeStoreActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.webview.ThemeShopV6NetPlanWebActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.webview.ThemeShopV6WebActivityForCampaign"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <service
+            android:name="com.nd.hilauncherdev.shop.shop3.down.CrossProcessThemeDownloadService"
+            android:process=":hilauncherex_shopv2_process" /> <!-- 在线主题商城V2 End -->
+        <!-- 应用下载，下载管理 -->
+        <service
+            android:name="com.nd.hilauncherdev.webconnect.downloadmanage.model.DownloadServerService"
+            android:exported="false" />
+        <service
+            android:name="com.nd.hilauncherdev.webconnect.downloadmanage.model.PluginDownloadForwardService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.android.desktop.tool.FORWARD_SERVICE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service> <!-- 应用下载，下载管理   End -->
+        <!-- 小额支付服务 -->
+        <service
+            android:name="com.nd.hilauncherdev.shop.ndcomplatform.LittlePayService"
+            android:process=":hilauncherex_shopv2_process" />
+        <service android:name="com.nd.hilauncherdev.webconnect.versionupdate.SoftUpdateService" />
+        <service android:name="com.nd.hilauncherdev.webconnect.upgradhint.BeautyUpgradeService" />
+        <service android:name="com.nd.hilauncherdev.myphone.battery.service.BatteryNotificationService" /> <!-- 后台分析电池信息的服务 -->
+        <service android:name="com.nd.hilauncherdev.myphone.battery.service.BatteryParamService" /> <!-- 安全中心获取网络白名单服务 -->
+        <!-- 安全中心 Begin -->
+        <activity
+            android:name="com.nd.hilauncherdev.safecenter.SafeCenterActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity> <!-- 安全中心 End -->
+        <!-- 蒙板选择 -->
+        <activity
+            android:name="com.nd.hilauncherdev.settings.IconMask.IconMaskActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" /> <!-- 新版我的电池 -->
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.mybattery.MyBatteryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.mybattery.MyBatteryPowerAppDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.mybattery.BatteryPatternActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" />
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.mybattery.TimeSwitchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" />
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.mybattery.CleanLockActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <receiver android:name="com.nd.hilauncherdev.myphone.battery.mybattery.TimeSwitchReceiver" />
+
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.mybattery.MyBatteryAvailableTimeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.mybattery.MyBatterydetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.mybattery.BatterySettingActivity"
+            android:label="@string/mybattery_power_setting_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" />
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.mybattery.BatterySettingLockActivity"
+            android:label="@string/mybattery_power_setting_lock_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" />
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.mybattery.BatterySettingLowHitActivity"
+            android:label="@string/mybattery_power_setting_lowhit_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" />
+
+        <service android:name="com.nd.hilauncherdev.myphone.battery.mybattery.service.BatteryService" >
+        </service>
+        <service
+            android:name="com.nd.hilauncherdev.export.ExportService"
+            android:exported="true"
+            android:process=":hilauncherex_shopv2_process" >
+            <intent-filter>
+                <action android:name="com.nd.hilauncherdev.export.ExportService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.nd.hilauncherdev.export.ExportActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <service
+            android:name="com.nd.hilauncherdev.export.ExportLayoutService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.dz.launcher.Export" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.nd.hilauncherdev.export.ExportShenLongLayoutService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.dz.shenlong.launcher.Export" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.mybattery.MyBatteryFullTipActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoDisplay" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.mybattery.MyBatteryBsOptimizeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.mybattery.MyBatteryPowerAppActivity"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 记录电量曲线点的广播接收器 -->
+        <receiver android:name="com.nd.hilauncherdev.myphone.battery.mybattery.receiver.BatteryPointLogReceiver" >
+        </receiver> <!-- 开机自动启动服务的广播接收器 -->
+        <receiver android:name="com.nd.hilauncherdev.myphone.battery.receiver.BootBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver> <!-- 开机时间计算 -->
+        <receiver android:name="com.nd.hilauncherdev.safecenter.receiver.BootTimeReceiver" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver> <!-- 91黄历天气SDK begin -->
+        <provider
+            android:name="com.nd.calendar.provider.PandahomeProvider"
+            android:authorities="com.android.desktop.tool.PandahomeHWProvider" />
+
+        <activity
+            android:name="com.nd.weather.widget.UI.weather.UIWeatherFragmentAty"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:process="com.nd.weather.widget.WidgetService"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.nd.android.pandahome.widget.category" />
+
+                <category android:name="com.nd.android.pandahome.widget.CATCH_VERTICAL_GESTURE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.weather.widget.UI.weather.UIWidgetCityMgrAty"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:process="com.nd.weather.widget.WidgetService"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.weather.widget.panda.ui"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.nd.weather.widget.UI.UICalendarGuideAty"
+            android:configChanges="keyboardHidden|orientation"
+            android:process="com.nd.weather.widget.WidgetService"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nd.weather.widget.UI.weather.UIWeatherSetAty"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:process="com.nd.weather.widget.WidgetService"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.weather.widget.UI.setting.UISettingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:process="com.nd.weather.widget.WidgetService"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nd.weather.widget.UI.setting.UISettingAboutAty"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:process="com.nd.weather.widget.WidgetService"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nd.weather.widget.UI.setting.UISettingWeatherAty"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:process="com.nd.weather.widget.WidgetService"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nd.weather.widget.UI.setting.UISettingPmSourceAty"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:process="com.nd.weather.widget.WidgetService"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nd.weather.widget.UI.setting.UISubmitOpinionAty"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:process="com.nd.weather.widget.WidgetService"
+            android:screenOrientation="portrait" /> <!-- 插件服务 -->
+        <receiver
+            android:name="com.nd.weather.widget.StartupReceiver"
+            android:enabled="true"
+            android:process="com.nd.weather.widget.WidgetService" >
+            <intent-filter android:priority="20" >
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="nd.pandahome.weather.request" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.nd.weather.widget.BootReceiver"
+            android:enabled="true"
+            android:process="com.nd.weather.widget.WidgetService" >
+            <intent-filter android:priority="20" >
+                <action android:name="android.intent.action.USER_PRESENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.nd.weather.widget.TimeService"
+            android:enabled="true"
+            android:process="com.nd.weather.widget.WidgetService" >
+        </service>
+
+        <receiver android:name="com.nd.weather.widget.PandaHome.Receiver.InstallReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver> <!-- 91黄历天气SDK end -->
+        <!-- 菜单 个人助手 -->
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.PersonalCenterActivity"
+            android:launchMode="singleInstance"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.PersonalCenterSettingActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.PersonalSecurityCenterActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.PersonalSecurityBindActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.PersonalInfoCenterActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.PersonalRechargeRecordActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.PersonalOrderListActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.assist.PersonalAssistActivity"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.assist.PhoneCallActivity"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.AllDownloadManagerActivity"
+            android:launchMode="singleInstance"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.android.desktop.tool.downloadmanager.SHOW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.PersonalMessageCenterActivity"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 拨号助手 -->
+        <service android:name="com.nd.hilauncherdev.myphone.phonehelper.CallHelperService" /> <!-- 菜单 个人助手 end -->
+        <!-- 二维码扫描结果解析 -->
+        <activity
+            android:name="com.nd.hilauncherdev.widget.baidu.zxing.CaptureResultActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+
+            <!-- 分离二维码功能 hjiang 2013.6.28 -->
+            <intent-filter>
+                <action android:name="com.android.desktop.tool.zxing.CaptureResultActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.wifi.WifiSetMainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.nd.android.pandahome2.SETTING_WIFI_ONEKEY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.wifi.WifiInfoDialogActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.wifi.WifiStaticIpDialogActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity> <!-- 第0屏设置 -->
+        <activity
+            android:name="com.nd.hilauncherdev.launcher.navigation.settings.SettingsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" /> <!-- 开放屏设置 -->
+        <activity
+            android:name="com.nd.hilauncherdev.launcher.navigation.settings.OpenPageSettingsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" /> <!-- 隐私空间 -->
+        <activity
+            android:name="com.nd.hilauncherdev.privatezone.EntranceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity> <!-- 新版一键清理 -->
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.mycleaner.MyCleanerActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.mycleaner.MyCleanerApkActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.appmanager.AppManagerMainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <service
+            android:name="com.nd.hilauncherdev.myphone.appmanager.AppManagerService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.nd.hilauncherdev.myphone.appmanager.AppManagerService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.nd.hilauncherdev.launcher.navigation.SearchActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.launcher.search.browser.pandahomebrowser.PandahomeBrowserActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.settings.assit.movedesk.MoveDeskItemPreActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" /> <!-- 流量监控 -->
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.nettraffic.FlowMonitoringActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <receiver android:name="com.nd.hilauncherdev.myphone.nettraffic.FlowMonitoringHelper" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.nd.quick.activity.AnyshareGuideActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity> <!-- 本地字体、在线字体 -->
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.myfont.activity.FontMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <service
+            android:name="com.nd.hilauncherdev.myphone.myfont.FontService"
+            android:exported="true"
+            android:process=":hilauncherex_shopv2_process" >
+            <intent-filter>
+                <action android:name="com.nd.hilauncherdev.myphone.myfont.FontService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service> <!-- 本地字体、在线字体  结束 -->
+        <activity
+            android:name="com.nd.hilauncherdev.push.WeiBoAgreementActivity"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 情景桌面 start -->
+        <activity
+            android:name="com.nd.hilauncherdev.scene.shop.SceneShopMainActivity"
+            android:alwaysRetainTaskState="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.scene.shop.SceneShopDetailActivity"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.scene.shop.ScenePreviewActivity"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.scene.SceneApkEntraActivity"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity> <!-- 情景模式下的桌面设置 -->
+        <activity
+            android:name="com.nd.hilauncherdev.settings.scene.HomeSceneModeSettingsActivity"
+            android:label="@string/settings_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" >
+            <intent-filter>
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.nd.hilauncherdev.scene.shop.SceneDownloadService"
+            android:enabled="true" /> <!-- 情景桌面 end -->
+        <!-- 应用商店(91助手) -->
+        <!-- 主页 -->
+        <activity
+            android:name="com.nd.hilauncherdev.appstore.AppStoreSwitchActivity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.appstoremainactivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity> <!-- end of  应用商店(91助手) -->
+        <!-- 动态加载的加载器 -->
+        <activity
+            android:name="com.nd.hilauncherdev.dynamic.PluginLoaderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.dynamic.PluginLoaderActivityForDialog"
+            android:theme="@style/Dialog" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.dynamic.PluginLoaderListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.dynamic.PluginLoaderTabActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.dynamic.PluginLoaderActivityGroup"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service android:name="com.nd.hilauncherdev.dynamic.PluginLoaderService" >
+        </service>
+        <service android:name="com.nd.hilauncherdev.myphone.common.PluginBridgeService" /> <!-- 动态加载的加载器 商城进程专用 -->
+        <activity
+            android:name="com.nd.hilauncherdev.dynamic.other.PluginLoaderActivityForShopProcess"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.dynamic.other.PluginLoaderListActivityForShopProcess"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.dynamic.other.PluginLoaderTabActivityForShopProcess"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.dynamic.other.PluginLoaderActivityGroupForShopProcess"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <service
+            android:name="com.nd.hilauncherdev.dynamic.other.PluginLoaderServiceForShopProcess"
+            android:process=":hilauncherex_shopv2_process"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity" >
+        </service> <!-- 动态加载的加载器 商城进程专用 end -->
+        <!-- 动态加载的加载器 应用商店专用  避免和个性化使用相同activity栈 导致返回键退出时无法直接返回桌面的问题 -->
+        <activity
+            android:name="com.nd.hilauncherdev.dynamic.appstore.PluginLoaderActivityForShopProcessForAppStore"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.appstoremainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.dynamic.appstore.PluginLoaderListActivityForShopProcessForAppStore"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.appstoremainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.dynamic.appstore.PluginLoaderTabActivityForShopProcessForAppStore"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.appstoremainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.dynamic.appstore.PluginLoaderActivityGroupForShopProcessForAppStore"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.appstoremainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity> <!-- 动态加载的加载器 应用商店专用 end -->
+        <receiver
+            android:name="com.nd.hilauncherdev.dynamic.DyanmicWidgetReceiver"
+            android:process=":hilauncherex_shopv2_process" >
+            <intent-filter>
+                <action android:name="com.baidu.android.action.DYNAMIC_WIDGET_ENABLE" />
+                <action android:name="com.baidu.android.action.RECEIVE_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.nd.hilauncherdev.launcher.support.UserStateService" /> <!-- 活动 -->
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.icompaign.CompaignPluginActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.icompaign.ForwordCompaignActivity"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <service
+            android:name="com.nd.hilauncherdev.menu.personal.icompaign.CompaignService"
+            android:exported="true"
+            android:process=":hilauncherex_shopv2_process" >
+            <intent-filter>
+                <action android:name="com.nd.hilauncherdev.menu.personal.icompaign.CompaignService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.nd.hilauncherdev.datamodel.NetworkChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.nd.hilauncherdev.datamodel.PowerConnectedReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.nd.hilauncherdev.widget.variety.VarietyTemplatesActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity> <!-- 悬浮窗主界面 -->
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.pet.PetActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.widget.cleaner.CleanMemoryForThirdLauncherActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.hilauncherdev.widget.cleaner.CleanMemoryForThirdLauncherActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.app.activity.InstallShortcutInterceptActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- 帮助手册 -->
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.faq.FAQActivity"
+            android:exported="true"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity> <!-- 推送消息跳转处理 -->
+        <activity
+            android:name="com.nd.hilauncherdev.push.PushMsgRedirectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 隐藏程序Activity -->
+        <activity
+            android:name="com.nd.hilauncherdev.drawer.apphide.AppHideActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.nd.hilauncherdev.drawer.apphide.AppHideEncriptSettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.nd.hilauncherdev.drawer.apphide.AppHideEncriptTypeChooseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.nd.hilauncherdev.drawer.apphide.AppHideEncriptEntranceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.nd.hilauncherdev.drawer.apphide.MiBaoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.drawer.apphide.AppHideSettingActivity"
+            android:label="@string/app_hide"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingCustomStyle" />
+        <activity
+            android:name="com.wireless.android.jifenqiang.JiFenQiangActivity"
+            android:alwaysRetainTaskState="true"
+            android:exported="true"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.wireless.android.jifenqiang.CoinInfoActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.kitset.resolver.ResolverActivity16"
+            android:theme="@android:style/Theme.Panel" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.kitset.resolver.ResolverActivity14"
+            android:theme="@android:style/Theme.Panel" >
+        </activity>
+
+        <service
+            android:name="com.wireless.pandahome.present.PresentService"
+            android:exported="true"
+            android:process=":hilauncherex_shopv2_process" >
+            <intent-filter>
+                <action android:name="com.wireless.pandahome.present.PresentService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.wireless.pandahome.present.PresentMainActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.kitset.resolver.ResolverActivityMi"
+            android:theme="@android:style/Theme.Panel" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.kitset.resolver.ResolverActivityMiNotificationMessage"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.mycleaner.MycleanerMemoryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.mycleaner.DepthCleanActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.mycleaner.MyCleanerLockActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.theme.localtheme.ThemeSeriesTips"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.safecenter.SafeCenterTempActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> <!-- 应用搜索 -->
+        <activity
+            android:name="com.nd.hilauncherdev.launcher.search.appsearch.MyphoneAppSearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.nd.hilauncherdev.in.MainActivity"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.in.PasterForLauncherActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop3.DiyWallpaperDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop3.DiyWallpaperListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.customthemeseries.CustomThemeSeriesAddActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleInstance"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.customthemeseries.ThemeChooseActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.customthemeseries.CustomThemeSeriesResultActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.customthemeseries.CustomThemeSeriesTips"
+            android:configChanges="keyboardHidden|orientation"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.launcher.navigation.NavigationActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" /> <!-- 会员积分 -->
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.redpacket.RedPacketAwardActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.memberintegral.IntegralDetailActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.redpacket.MyRedPacketActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.redpacket.MyRedPacketConvertActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.memberintegral.MemberEncourageActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.memberintegral.MemberUpgradeAnimationActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.menu.personal.memberintegral.MemberIntegralWebActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.sdk.AdvertSDKBrowserActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity" />
+        <activity
+            android:name="com.nd.hilauncherdev.sdk.AdvertSDKBrowserActivityForLauncherProcess"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.nd.hilauncherdev.launcher.search.browser.service.FirstLoadingX5Service"
+            android:exported="false" />
+
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop6.hourhottheme.HourHotThemeListActivity"
+            android:launchMode="singleTask"
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" />
+
+        <meta-data
+            android:name="QBSDKAppKey"
+            android:value="kjED5QYNqAUmPwVRZGTdfmpv" />
+
+        <activity
+            android:name="com.nd.hilauncherdev.launcher.DefaultHomeTipActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.nd.hilauncherdev.kitset.resolver.ResolverActivityMi2"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+
+        <service android:name="com.nd.hilauncherdev.launcher.CallHomeService" /> <!-- 跳转0屏插件中的界面 -->
+        <activity
+            android:name="com.nd.hilauncherdev.launcher.navigation.NavigationJumpActivity"
+            android:process=":hilauncherex_shopv2_process"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.launcher.navigation.MySubscribeActInLauncher"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" /> <!-- 美图主界面 -->
+        <activity
+            android:name="com.nd.hilauncherdev.shop.shop3.feed.FeedMainActivity"
+            android:label=""
+            android:process=":hilauncherex_shopv2_process"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.nd.android.pandahome2.manage.shop.themeshopmainactivity" /> <!-- 搜狐新闻 start -->
+        <activity
+            android:name="com.sohu.android.plugin.app.ProxyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.sohu.newssdk"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sohu.android.plugin.app.ProxyTransparentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.sohu.newssdk"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity> <!-- 广播 -->
+        <receiver android:name="com.sohu.android.plugin.app.ProxyBroadcastReceiver" >
+        </receiver> <!-- 服务 -->
+        <service
+            android:name="com.sohu.android.plugin.app.ProxyService"
+            android:exported="false" >
+        </service>
+        <service
+            android:name="com.sohu.android.plugin.service.PluginCoreService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.sohu.plugin.action.CORE_SERVICE" />
+            </intent-filter>
+        </service> <!-- 搜狐新闻 end -->
+        <activity
+            android:name="com.nd.hilauncherdev.myphone.battery.charging.ChargingActivity"
+            android:configChanges="locale|keyboardHidden|orientation"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/Fullscreen"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.nd.hilauncherdev.dzconfig.activity.ZeroIconListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.dzconfig.activity.ZeroIconSettingsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nd.hilauncherdev.dzconfig.activity.ZeroIconActionsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+    </application>
+
+</manifest>

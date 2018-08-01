@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_le_bg">
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="53dp"
+            android:textSize="54.56dp"
+            android:textColor="#eaeaea"
+            android:text="LANGUAGE"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="23.3dp"
+            android:layout_marginBottom="80.3dp"
+            android:textSize="@dimen/guide_le_page_title"
+            android:textColor="@color/guide_le_title_text"
+            android:text="请选择您的语言"/>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/include_bottom"
+        layout="@layout/include_le_guide_page_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_le_include_page_bottom_h"
+        android:layout_alignParentBottom="true" />
+
+
+    <RelativeLayout
+        android:layout_above="@id/include_bottom"
+        android:layout_below="@id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="156dp">
+
+        <com.wx.wheelview.widget.WheelView
+            android:id="@+id/picker_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

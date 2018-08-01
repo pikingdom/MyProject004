@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_hw_bg">
+
+    <TextView
+        android:id="@+id/tv_0"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#56b3da"
+        android:gravity="center_vertical"
+        android:paddingLeft="35.7dp"
+        android:paddingTop="33.7dp"
+        android:text="完成设置"
+        android:textColor="#fafafa"
+        android:textSize="20dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_0"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:background="#eceff1">
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="#d4d4d4"/>
+
+
+        <LinearLayout
+            android:id="@+id/btn_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_samsung_next_step"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="13dp"
+                android:text="完成"
+                android:textColor="#3f3f3f"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:layout_width="7.7dp"
+                android:layout_height="11.7dp"
+                android:background="@drawable/ic_samsung_arrow_gray" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rl_0"
+        android:layout_below="@id/tv_0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="35.7dp"
+                    android:paddingTop="26.3dp"
+                    android:text="选择主屏幕模式"
+                    android:textColor="#505050"
+                    android:textSize="12dp" />
+
+                <RelativeLayout
+                    android:id="@+id/item_launcher_mode_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="146dp"
+                    android:orientation="vertical"
+                    android:paddingTop="25.3dp"
+                    android:paddingBottom="19.3dp"
+                    android:background="?android:attr/selectableItemBackground">
+
+                    <CheckBox
+                        android:id="@+id/cb_launcher_mode_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:button="@drawable/radio_samsung"
+                        android:layout_marginLeft="19dp"
+                        android:layout_marginRight="12dp"
+                        android:checked="true"
+                        android:clickable="false"
+                        android:focusable="false"/>
+
+                    <ImageView
+                        android:id="@+id/iv_0"
+                        android:layout_width="81dp"
+                        android:layout_height="105.7dp"
+                        android:layout_toRightOf="@id/cb_launcher_mode_0"
+                        android:background="@drawable/radio_samsung_launcher_mode_0"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="37.7dp"
+                        android:layout_marginLeft="9.3dp"
+                        android:layout_toRightOf="@id/iv_0"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="13dp"
+                            android:textColor="#505050"
+                            android:text="标准模式"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:textSize="10dp"
+                            android:textColor="#979797"
+                            android:text="使用组合的主屏幕和应用程序屏幕"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#cecece"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <RelativeLayout
+                    android:id="@+id/item_launcher_mode_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="146dp"
+                    android:orientation="vertical"
+                    android:paddingTop="25.3dp"
+                    android:paddingBottom="19.3dp"
+                    android:background="?android:attr/selectableItemBackground">
+
+                    <CheckBox
+                        android:id="@+id/cb_launcher_mode_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:button="@drawable/radio_samsung"
+                        android:layout_marginLeft="19dp"
+                        android:layout_marginRight="12dp"
+                        android:clickable="false"
+                        android:focusable="false"/>
+
+                    <ImageView
+                        android:id="@+id/iv_1"
+                        android:layout_width="81dp"
+                        android:layout_height="105.7dp"
+                        android:layout_toRightOf="@id/cb_launcher_mode_1"
+                        android:background="@drawable/radio_samsung_launcher_mode_1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="37.7dp"
+                        android:layout_marginLeft="9.3dp"
+                        android:layout_toRightOf="@id/iv_1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="13dp"
+                            android:textColor="#505050"
+                            android:text="含应用程序的标准模式"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:textSize="10dp"
+                            android:textColor="#979797"
+                            android:text="使用单独的主屏幕和应用程序屏幕"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#cecece"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <RelativeLayout
+                    android:id="@+id/item_launcher_mode_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="146dp"
+                    android:orientation="vertical"
+                    android:paddingTop="25.3dp"
+                    android:paddingBottom="19.3dp"
+                    android:background="?android:attr/selectableItemBackground">
+
+                    <CheckBox
+                        android:id="@+id/cb_launcher_mode_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:button="@drawable/radio_samsung"
+                        android:layout_marginLeft="19dp"
+                        android:layout_marginRight="12dp"
+                        android:clickable="false"
+                        android:focusable="false"/>
+
+                    <ImageView
+                        android:id="@+id/iv_2"
+                        android:layout_width="81dp"
+                        android:layout_height="105.7dp"
+                        android:layout_toRightOf="@id/cb_launcher_mode_2"
+                        android:background="@drawable/radio_samsung_launcher_mode_2"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="37.7dp"
+                        android:layout_marginLeft="9.3dp"
+                        android:layout_toRightOf="@id/iv_2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="13dp"
+                            android:textColor="#505050"
+                            android:text="简易模式"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:textSize="10dp"
+                            android:textColor="#979797"
+                            android:text="使用更简单的主屏幕布局和更大的文本和图标"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_remind_gray_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/theme_shop_v6_common_header_view" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.nd.hilauncherdev.shop.shop6.themedetail.MainScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottomLayout"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/themePreviewLayout"
+                    layout="@layout/theme_shop_v8_detail_activity_preview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/recommend_bg_card"
+                    android:orientation="vertical"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    android:paddingTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="bottom"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/theme_shop_v8_style_desc"
+                            android:textColor="#1b1b1b"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_theme_style_from_footnote"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="@string/theme_shop_v8_style_footnote"
+                            android:textColor="@color/theme_shop_v6_gray"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_theme_style_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginTop="6dp"
+                        android:lineSpacingExtra="4dp"
+                        android:text="谷歌Android 5.0 Lollipop 官方主题，采用了全新的计算机语言，被称之为'Material Design'。界面加入色彩缤纷的颜色、流畅的动画效果。"
+                        android:textColor="#35424b"
+                        android:textSize="14sp" />
+
+                    <include
+                        layout="@layout/theme_shop_v8_online_style_detail_relative_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </com.nd.hilauncherdev.shop.shop6.themedetail.MainScrollView>
+
+        <!-- 下载模块 start -->
+
+        <include
+            android:id="@+id/bottomLayout"
+            layout="@layout/theme_shop_v6_detail_activity_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/theme_shop_v6_manage_downtask_title_bg" />
+        <!-- 下载模块 end -->
+
+        <!-- Loading模块 -->
+
+        <com.nd.hilauncherdev.shop.widget.LoadingStateView
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/myphone_bg_color"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="common_btn_confirm_text_color">#ffffff</color>
+    <color name="common_btn_text_color">#FF5F5F5F</color>
+    <color name="common_dropdown_item_text_color">#4c00bcd5</color>
+    <color name="common_header_title_color">#676b6e</color>
+    <color name="common_little_text_color">#676b6e</color>
+    <color name="common_remind_gray_bg">#ffebebeb</color>
+    <color name="common_remind_orange">#fff78a41</color>
+    <color name="common_text_color">#FF333333</color>
+    <color name="common_title_little_text_color">#00bcd5</color>
+    <color name="dialog_content_color">#676b6e</color>
+    <color name="dialog_title_color">#1c1c1c</color>
+    <color name="myphone_bottom_blue_bg_text_color">#cdf2ff</color>
+    <color name="myphone_common_bg_color">#f9fafb</color>
+    <color name="myphone_common_dialog_text_color">#1e82dc</color>
+    <color name="myphone_common_little_text_color">#8f8f8f</color>
+    <color name="myphone_common_text_color">#303030</color>
+    <color name="myphone_common_title_color">#7a7a7a</color>
+    <color name="myphone_common_title_color1">@color/title_main_color_light</color>
+    <color name="myphone_item_text_color">#000000</color>
+    <color name="notification_background_color">#555555</color>
+    <color name="notification_text_color">#d3d3d3</color>
+    <color name="searchbox_title_text_color">#32B5E5</color>
+    <color name="title_desc_color">#999999</color>
+    <color name="title_main_color">#676b6e</color>
+    <color name="title_main_color_light">#00bcd5</color>
+    <color name="title_red_color">#de596a</color>
+    <color name="title_red_color_dark">#c92331</color>
+    <color name="title_sub_color">#1c1c1c</color>
+    <color name="title_yellow_color">#ffc52d</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="v8_settings_color">#eef1f6</color>
+    <color name="v8_settings_launcher_default_color">#34414a</color>
+    <color name="white">#ffffff</color>
+    <dimen name="dialog_bottom_layout_height">45dip</dimen>
+    <dimen name="dialog_top_layout_height">45dip</dimen>
+    <dimen name="download_activity_nodata_btn_margin">30dp</dimen>
+    <dimen name="download_activity_nodata_btn_text">18sp</dimen>
+    <dimen name="download_activity_nodata_btn_width">152dip</dimen>
+    <dimen name="launcher_menu_sys_settings_font_size">14sp</dimen>
+    <dimen name="launcher_menu_sys_settings_icon_bottom_padding">20dip</dimen>
+    <dimen name="launcher_menu_sys_settings_icon_size">40dip</dimen>
+    <dimen name="launcher_menu_sys_settings_icon_top_padding">15dip</dimen>
+    <dimen name="myfile_photo_category_height">105dip</dimen>
+    <dimen name="myfile_photo_category_width">135dip</dimen>
+    <dimen name="myfile_top_view_margin">10dip</dimen>
+    <dimen name="myphone_bottom_content">60dip</dimen>
+    <dimen name="myphone_common_tab_height">40dip</dimen>
+    <dimen name="myphone_item_icon">50dip</dimen>
+    <dimen name="myphone_item_little_text_size">12sp</dimen>
+    <dimen name="myphone_item_padding">5dip</dimen>
+    <dimen name="myphone_item_text_size">15sp</dimen>
+    <dimen name="myphone_margin_left">10dip</dimen>
+    <dimen name="myphone_title_bottom_text_size">14sp</dimen>
+    <dimen name="myphone_title_bottom_text_size1">15sp</dimen>
+    <dimen name="myphone_title_line">150dip</dimen>
+    <dimen name="myphone_title_line_margin_top">3dip</dimen>
+    <dimen name="myphone_title_margin_top">5dip</dimen>
+    <dimen name="myphone_title_text_size">20sp</dimen>
+    <dimen name="myphone_top_content">52dip</dimen>
+    <dimen name="myphone_top_content1">52dip</dimen>
+    <dimen name="myphone_tv_btn_text_size">14sp</dimen>
+    <dimen name="myphone_wp_crop_select_text_size">13sp</dimen>
+    <dimen name="navigation_favorite_grid_item_bottompadding">4dp</dimen>
+    <dimen name="navigation_favorite_grid_item_height">70dip</dimen>
+    <dimen name="navigation_favorite_grid_item_toppadding">3dip</dimen>
+    <dimen name="readme_viewpager_tab_textsize">13sp</dimen>
+    <dimen name="setting_category_title_size">15sp</dimen>
+    <dimen name="setting_summary_size">11sp</dimen>
+    <dimen name="setting_title_size">15sp</dimen>
+    <dimen name="text_size">12sp</dimen>
+    <dimen name="v7_card_header_height">36dp</dimen>
+    <dimen name="v7_card_header_title_size">17dp</dimen>
+    <dimen name="v7_card_item_gap">7.5dp</dimen>
+    <dimen name="v7_card_item_gap2">12.5dp</dimen>
+    <dimen name="v7_card_margin_bottom">16dp</dimen>
+    <dimen name="v7_card_margin_left">15dp</dimen>
+    <dimen name="v7_card_margin_right">15dp</dimen>
+    <dimen name="v7_common_header_button_height">32dp</dimen>
+    <dimen name="v7_common_header_button_size">14dp</dimen>
+    <dimen name="v7_common_header_goback_size">24dp</dimen>
+    <dimen name="v7_common_header_height">48dp</dimen>
+    <dimen name="v7_common_header_title_size">17dp</dimen>
+    <dimen name="v7_common_tab_height">36dp</dimen>
+    <dimen name="v7_common_tab_title_size">12dp</dimen>
+    <dimen name="v7_gap1_15dp">15dp</dimen>
+    <dimen name="v7_gap2_16dp">16dp</dimen>
+    <dimen name="v7_gap3_8dp">8dp</dimen>
+    <dimen name="v7_gap4_13dp">13dp</dimen>
+    <dimen name="v8_gap1_10dp">10dp</dimen>
+    <dimen name="v8_gap1_9dp">9dp</dimen>
+    <dimen name="v8_gap1_neg_10dp">-10dp</dimen>
+    <dimen name="v8_gap3_5dp">5dp</dimen>
+    <dimen name="v8_gap3_6dp">6dp</dimen>
+    <dimen name="v8_gap4_12dp">12dp</dimen>
+    <dimen name="v8_settings_icon_width">24dp</dimen>
+    <dimen name="v8_settings_lift">24dp</dimen>
+    <dimen name="v8_settings_pre_more_hight">16dp</dimen>
+    <dimen name="v8_settings_right">16dp</dimen>
+    <dimen name="v8_settings_summary_top">2dp</dimen>
+    <dimen name="v8_settings_text_lift">8dp</dimen>
+    <dimen name="viewpager_tab_more_item">25dip</dimen>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="drawer_item_bg_color">#e1f4f6</drawable>
+    <drawable name="green">#7700ff00</drawable>
+    <drawable name="myphone_bg_color">#f9fafb</drawable>
+    <drawable name="myphone_bg_color_v8">#eef1f6</drawable>
+    <drawable name="red">#7f00</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+    <drawable name="v8_settings_list_select_bg">#f8fafa</drawable>
+    <drawable name="white">#FFFFFFFF</drawable>
+    <drawable name="yellow">#77ffff00</drawable>
+    <item name="common_view_holder" type="id"/>
+    <item name="downloadmanager_adapter_tag_1" type="id"/>
+    <item name="downloadmanager_adapter_tag_2" type="id"/>
+    <item name="downloadmanager_adapter_tag_3" type="id"/>
+    <item name="frame_viewpager_tab_title_item_text" type="id"/>
+    <item name="framework_viewfactory_no_data_img" type="id"/>
+    <item name="framework_viewfactory_no_data_textview" type="id"/>
+    <item name="framework_viewfactory_no_data_title" type="id"/>
+    <item name="hint_error" type="id"/>
+    <item name="system_switcher_holder" type="id"/>
+    <string name="APP_NAME" translatable="false">"配置生成器"</string>
+    <string name="ad_du_sdk_app_license">9e42375328f4e28b5c6afab486b3b05f</string>
+    <string name="advert_webview_title">精品资源推荐</string>
+    <string name="app_chl">067QWSGmas3haz+57JZRcn/a83BnzPY5</string>
+    <string name="app_market_app_installed_run_tip">您已经安装了该软件,是否立刻打开?</string>
+    <string name="app_market_install_failed">安装失败</string>
+    <string name="app_market_installing">安装中...</string>
+    <string name="app_name">主题商城</string>
+    <string name="app_pid">6</string>
+    <string name="appinfo_cancel_btn_text">返回 </string>
+    <string msgid="8424725141379931883" name="application_name">@string/APP_NAME</string>
+    <string name="apprunning_first_force_notify_btn">我知道了</string>
+    <string name="apprunning_first_force_notify_static">常驻程序会自动启动,您可以在系统管理中选择强制停止</string>
+    <string name="apprunning_first_force_notify_title">提示</string>
+    <string name="cleaner_tip">开启百度卫士，彻底清理隐藏进程</string>
+    <string name="default_set_controller_select_pic">图标选择</string>
+    <string name="delete_tip_title">确定删除？</string>
+    <string name="download_baidu_sjws">上网无负担，更快更安全。\n是否立即下载百度卫士?</string>
+    <string name="download_cleaner_tip">下载百度卫士，彻底清理隐藏进程</string>
+    <string name="download_delete_msg">确定要删除选中的"%1$s\个文件吗？</string>
+    <string name="download_delete_title">提示</string>
+    <string name="download_error_apk_btn_install">尝试安装</string>
+    <string name="download_error_apk_content">桌面发现您下载的软件出现异常，继续安装可能导致安装失败！</string>
+    <string name="download_error_apk_title">提示</string>
+    <string name="download_finished">已完成下载</string>
+    <string name="download_install_error">找不到安装包,请重新下载！</string>
+    <string name="download_manage">下载管理</string>
+    <string name="download_manage_clear">清除所有下载任务</string>
+    <string name="download_not_wifi_alert">当前未开启wifi，是否继续下载？</string>
+    <string name="download_notify_click_and_look">点击查看</string>
+    <string name="download_notify_error">出错%1$s个，</string>
+    <string name="download_notify_failed">下载失败</string>
+    <string name="download_notify_failed_sdcard_noexist">下载失败，SD卡不存在</string>
+    <string name="download_notify_finish">下载完成</string>
+    <string name="download_notify_finished">已完成%1$s个，</string>
+    <string name="download_notify_in_queue">进行中%1$s个，</string>
+    <string name="download_notify_installed">安装完成</string>
+    <string name="download_notify_start">开始下载</string>
+    <string name="download_notify_stop">停止下载</string>
+    <string name="download_notify_task">下载任务：</string>
+    <string name="download_task_clear">确认清除所有的下载任务(同时删除缓存文件)</string>
+    <string name="download_waiting">等待</string>
+    <string name="downloadmanager_apply">应用</string>
+    <string name="downloadmanager_batch_delete">批量删除</string>
+    <string name="downloadmanager_batch_download">批量下载</string>
+    <string name="downloadmanager_batch_download_tip">可能是你更换了sd卡或做了深度清理，资源被删除鸟，需要重新下载</string>
+    <string name="downloadmanager_cancel_sel_all">取消全选</string>
+    <string name="downloadmanager_cannot_apply_theme_on_scene">情景模式下无法应用主题</string>
+    <string name="downloadmanager_font_tab_title">字体</string>
+    <string name="downloadmanager_icon_tab_title">图标</string>
+    <string name="downloadmanager_input_tab_title">输入法</string>
+    <string name="downloadmanager_inuse">已应用</string>
+    <string name="downloadmanager_lock_tab_title">锁屏</string>
+    <string name="downloadmanager_preview">预览</string>
+    <string name="downloadmanager_prompt_no_data">您还没有下载任何内容</string>
+    <string name="downloadmanager_prompt_to_store">去商城看看，有惊喜哦</string>
+    <string name="downloadmanager_prompt_to_store_2">下点好看主题</string>
+    <string name="downloadmanager_prompt_to_store_3">找些新奇应用</string>
+    <string name="downloadmanager_ring_tab_title">铃声</string>
+    <string name="downloadmanager_sel_all">全选</string>
+    <string name="downloadmanager_sms_tab_title">通讯录</string>
+    <string name="downloadmanager_soft_tab_title">软件</string>
+    <string name="downloadmanager_theme_tab_title">主题</string>
+    <string name="downloadmanager_title">下载管理</string>
+    <string name="downloadmanager_unzip">解压中</string>
+    <string name="downloadmanager_wallpaper_tab_title">壁纸</string>
+    <string name="downloadmanager_weather_tab_title">时钟天气</string>
+    <string name="dyanmic_plugin_err_activity_not_found">无法找到Activity,请确认Intent信息!</string>
+    <string name="dyanmic_plugin_err_coding_wrong">此插件未按照动态插件标准开发,不符合规范,无法加载!</string>
+    <string name="dyanmic_plugin_err_service_not_found">无法找到Service,请确认Intent信息!</string>
+    <string name="dyanmic_plugin_repair">插件损坏,正在修复</string>
+    <string name="dyanmic_plugin_repair_redownload">插件损坏,请重新下载</string>
+    <string name="dyanmic_plugin_repair_suc">插件修复成功</string>
+    <string name="file_browser_dialog_file_select">文件选择</string>
+    <string name="frame_listview_catch_limit">达到限制，无法选择更多程序</string>
+    <string name="frame_listview_choose_title">请选择应用程序</string>
+    <string name="frame_listview_data_init_error">应用程序信息还未初始化，请退出后重试</string>
+    <string name="hint_installing">正在安装...</string>
+    <string name="install_91_flashlight_plugin_first">请先安装桌面增强插件!</string>
+    <string name="loadingview_text_1">在桌面主屏幕上，试试手势上滑，可弹出桌面菜单哦~</string>
+    <string name="loadingview_text_10">把两个图标相叠，可生成新文件夹~</string>
+    <string name="loadingview_text_11">长按桌面屏幕空白区域，有更多添加/更换功能哦~</string>
+    <string name="loadingview_text_12">点击桌面上一键清理插件右侧的“…”按钮，可进入更全面的一键清理界面~</string>
+    <string name="loadingview_text_13">点击应用列表tab区域，可直达应用列表首页或尾页~</string>
+    <string name="loadingview_text_14">新安装的应用在应用列表中会显示在最后哦~</string>
+    <string name="loadingview_text_15">桌面托盘区域可左右滑动，添加更多快捷功能~</string>
+    <string name="loadingview_text_16">在桌面屏幕上，试试双指“捏”手势，可进入屏幕预览九宫格界面~</string>
+    <string name="loadingview_text_2">在桌面屏幕上，试试手势下滑，可弹出快捷菜单哦~</string>
+    <string name="loadingview_text_3">在快速搜索屏，本机搜索支持应用、联系人和短信搜索~</string>
+    <string name="loadingview_text_4">应用列表中点击左下角搜索按钮，可快速搜索应用~</string>
+    <string name="loadingview_text_5">在桌面主屏幕，按返回键可直达快速搜索屏~</string>
+    <string name="loadingview_text_6">桌面菜单中的“编辑锁定”功能，可以保持桌面布局不被修改~</string>
+    <string name="loadingview_text_7">长按桌面图标，向上甩动，可卸载或删除该图标~</string>
+    <string name="loadingview_text_8">桌面菜单中“我的”页面，有很多精彩活动等你参加哦~</string>
+    <string name="loadingview_text_9">应用列表中长按图标后，可进入图标多选模式~</string>
+    <string name="main_desktop_menu">桌面菜单</string>
+    <string name="main_dock_drawer_myphone">我的手机</string>
+    <string name="mybattery_clean_lock_title">设置应用白名单</string>
+    <string name="mybattery_time_picker_title">时间设置</string>
+    <string name="mycleaner_clean_finish_text">清理完成</string>
+    <string name="mycleaner_memory_depth_clean">深度清理</string>
+    <string name="mycleaner_no_data_clean">没有东西可清理</string>
+    <string name="mycleaner_no_data_selected">没有选择清理项</string>
+    <string name="mycleaner_title">手机加速</string>
+    <string name="mycleaner_title_name">手机加速</string>
+    <string name="myflow_monitoring">流量监控</string>
+    <string name="myhone_backup_edit">编辑</string>
+    <string name="myphone_app_search">应用搜索</string>
+    <string name="myphone_app_store">应用商店</string>
+    <string name="myphone_backup">我的备份</string>
+    <string name="myphone_delete">删除</string>
+    <string name="myphone_download_parse">暂停</string>
+    <string name="myphone_faq">帮助手册</string>
+    <string name="myphone_hint_loading">数据加载中...</string>
+    <string name="myphone_pet_float">魔力球</string>
+    <string name="myphone_power">我的电池</string>
+    <string name="myphone_ring">我的铃声</string>
+    <string name="myphone_safecenter">安全中心</string>
+    <string name="myphone_sd">我的文件</string>
+    <string name="myphone_sd_isnot_exsit_text">小贴士:若当前已开启USB模式,您可以关闭USB模式</string>
+    <string name="myphone_sd_isnot_exsit_title">SD卡不存在或当前已开启USB模式,SD卡文件暂时不可查</string>
+    <string name="myphone_wallpaper_set_success">设置壁纸成功</string>
+    <string name="obtain_integral_fail_tips1">已到达设备的获取总积分上限</string>
+    <string name="obtain_integral_fail_tips2">已到达每天账号的获取总积分上限</string>
+    <string name="obtain_integral_remind">任务完成,获得</string>
+    <string name="obtain_integral_remind01">搜索一下</string>
+    <string name="obtain_integral_remind02">下载推荐游戏</string>
+    <string name="obtain_integral_remind03">点击搜索热门图标</string>
+    <string name="obtain_integral_remind04">点击浏览热点</string>
+    <string name="obtain_integral_remind05">欣赏广告</string>
+    <string name="obtain_integral_remind06">下载推荐应用</string>
+    <string name="obtain_integral_remind07">欣赏开机大屏页面</string>
+    <string name="obtain_integral_remind08">分享</string>
+    <string name="obtain_integral_remind09">设置默认桌面</string>
+    <string name="obtain_integral_remind1">积分</string>
+    <string name="obtain_integral_remind10">个性化资源下载</string>
+    <string name="obtain_integral_remind11">桌面美化</string>
+    <string name="obtain_integral_remind12">参与活动</string>
+    <string name="panda_widget_confirm_install">是否安装%s?</string>
+    <string name="panda_widget_flashlight">手电筒</string>
+    <string name="panda_widget_offscreen">一键关屏</string>
+    <string msgid="7429365847558984148" name="permdesc_install_shortcut">"允许应用程序在没有用户介入的情况下添加快捷方式。"</string>
+    <string msgid="8377434937176025492" name="permdesc_read_settings">"允许应用程序读取主屏幕的设置和快捷方式。"</string>
+    <string msgid="959972195916090900" name="permdesc_uninstall_shortcut">"允许应用程序在没有用户介入的情况下删除快捷方式。"</string>
+    <string msgid="1098648778383349818" name="permdesc_write_settings">"允许应用程序更改主屏幕的设置和快捷方式。"</string>
+    <string msgid="1201690825493376489" name="permlab_install_shortcut">"安装快捷方式"</string>
+    <string msgid="3452408290738106747" name="permlab_read_settings">"读取主屏幕的设置和快捷方式"</string>
+    <string msgid="7696645932555926449" name="permlab_uninstall_shortcut">"卸载快捷方式"</string>
+    <string msgid="1360567537236705628" name="permlab_write_settings">"写入主屏幕的设置和快捷方式"</string>
+    <string name="privatezone">隐私空间</string>
+    <string name="privatezone_pretend_title_7">隐形</string>
+    <string name="rom_app_chl">067QWSGmas2r7BVXp0En5HWkw8ZUDqLCwMo9qafLKA4=</string>
+    <string name="safe_notify_no_info">无</string>
+    <string name="save_mode_suc">保存成功</string>
+    <string name="scene_effect_support">情景模式下仅支持默认特效</string>
+    <string name="scene_mask_support">该功能情景模式下不可用</string>
+    <string name="select_third_icons">第三方图标</string>
+    <string name="set_default_home_goodandcoming">好,来了</string>
+    <string name="set_default_home_goodandcoming_tips1">最美好的事情，莫过于陪在你身边</string>
+    <string name="set_default_home_goodandcoming_tips2">回到91桌面，手机日日美如初见</string>
+    <string name="set_default_home_mostbeautiful_tips1">设置91桌面为默认桌面</string>
+    <string name="set_default_home_mostbeautiful_tips2">使用颜值最高的手机系统</string>
+    <string name="settings_about_no_market_title">您的手机未安装电子市场</string>
+    <string name="settings_advanced_silent_install">静默安装</string>
+    <string name="settings_advanced_silent_install_open_failed">开启失败，请确认您的手机是否已获取root权限了</string>
+    <string name="settings_advanced_silent_install_open_now">立即开启</string>
+    <string name="settings_advanced_silent_install_request">软件下载完成后，可以省去手动安装步骤，为您自动安装。是否立即开启？开启后若想关闭此功能，可以在桌面设置-辅助功能中找到</string>
+    <string name="settings_home_apps_shared_copy">复制链接</string>
+    <string name="settings_home_apps_shared_copy_tip">已经复制到剪贴板</string>
+    <string name="settings_home_apps_shared_email">邮件</string>
+    <string name="settings_home_apps_shared_mobile_qq">QQ好友</string>
+    <string name="settings_home_apps_shared_mobile_qq_name">QQ</string>
+    <string name="settings_home_apps_shared_not_install">您未安装%1$s，请先安装</string>
+    <string name="settings_home_apps_shared_pic_not_exist">图片不存在</string>
+    <string name="settings_home_apps_shared_pic_title">#桌面发现最美图片#</string>
+    <string name="settings_home_apps_shared_qzone">QQ空间</string>
+    <string name="settings_home_apps_shared_sina_weibo">新浪微博</string>
+    <string name="settings_home_apps_shared_wx_friend">微信好友</string>
+    <string name="settings_home_apps_shared_wx_friends">微信朋友圈</string>
+    <string name="settings_home_apps_shared_wx_name">微信</string>
+    <string name="storage_come_sdcard">进入SD卡</string>
+    <string name="storage_sd_no_found_err">SD卡未找到</string>
+    <string name="tab1_select_file">选择文件</string>
+    <string name="wallpaper_apply">应用壁纸</string>
+    <string name="wallpaper_apply_loading">应用壁纸中，请稍候...</string>
+    <string name="wallpaper_crop">裁剪</string>
+    <string name="wallpaper_editor">壁纸编辑</string>
+    <string name="wallpaper_editor_hint">应用壁纸前，是否需要编辑壁纸?</string>
+    <string name="wallpaper_editor_label">桌面壁纸</string>
+    <string name="wallpaper_editor_not_allow">当前为动态壁纸，无法编辑</string>
+    <string name="wallpaper_editor_size">(宽: %1$s  高: %2$s)</string>
+    <string name="wallpaper_liveWp_noCroll">当前为动态壁纸,无法设置成单屏模式</string>
+    <string name="wallpaper_not_scroll">单屏模式</string>
+    <string name="wallpaper_not_scroll_description">滑动屏幕时，壁纸不滚动，请选择壁纸显示区域</string>
+    <string name="wallpaper_rotate">旋转</string>
+    <string name="wallpaper_save_loading">保存壁纸中，请稍候...</string>
+    <string name="wallpaper_scroll">滚屏模式</string>
+    <string name="widget_manage_panda_widget_more_parse_failed_tips">解析安装包错误，请重新下载</string>
+    <string name="wifi_set">选择Wifi</string>
+    <style name="CustomListSeparator">
+        <item name="android:background">@drawable/app_running_process_tab_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">25dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">5sp</item>
+    </style>
+    <style name="CustomWindowTitleText">
+        <item name="android:textSize">@dimen/myphone_title_text_size</item>
+        <item name="android:textColor">#ff948DF0</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:drawablePadding">@dimen/myphone_margin_left</item>
+        <item name="android:layout_height">@dimen/myphone_top_content</item>
+    </style>
+    <style mce_bogus="1" name="DrawerMenuPopupAnimation" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popup_drawer_menu_enter</item>
+		<item name="android:windowExitAnimation">@anim/popup_drawer_menu_exit</item>
+	</style>
+    <style name="Fullscreen" parent="android:Theme.Wallpaper">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="PerferencesCustomWindowTitleBackground">
+        <item name="android:background">@drawable/common_title_bg</item>
+    </style>
+    <style mce_bogus="1" name="SamsungDrawerMenuPopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/samsung_popup_drawer_menu_enter</item>
+        <item name="android:windowExitAnimation">@anim/samsung_popup_drawer_menu_exit</item>
+    </style>
+    <style name="SettingCustomStyle" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:textColorPrimaryInverse">@android:color/black</item>
+        <item name="android:windowBackground">@color/myphone_common_bg_color</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleSize">42.0dip</item>
+        <item name="android:windowTitleStyle">@style/CustomWindowTitleText</item>
+        <item name="android:windowTitleBackgroundStyle">@style/PerferencesCustomWindowTitleBackground</item>
+        <item name="android:listViewStyle">@style/customListView</item>
+        <item name="android:listSeparatorTextViewStyle">@style/customListHeader</item>
+    </style>
+    <style name="SharedAnimation">  
+        <item name="android:windowEnterAnimation">@anim/shared_fade_in</item>  
+        <item name="android:windowExitAnimation">@anim/shared_fade_out</item>  
+    </style>
+    <style name="Theme.CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="customListHeader" parent="@style/CustomListSeparator">
+       <item name="android:layout_width">match_parent</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:paddingLeft">10dip</item>
+	   <item name="android:background">@drawable/app_running_process_tab_bg</item>
+	</style>
+    <style name="customListView" parent="@android:style/Widget.ListView">
+		<item name="android:scrollbarSize">5.0dip</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scrollbarThumbVertical">@drawable/pre_scrollbar_handle_vertical</item>
+        <item name="android:listSelector">@drawable/myphone_click_item_blue</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@drawable/preference_divline</item>
+    </style>
+</resources>

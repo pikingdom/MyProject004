@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mybattery_bs_optimize_message_font_size">15sp</dimen>
+    <dimen name="mybattery_bs_optimize_message_space_right">20dip</dimen>
+    <dimen name="mybattery_bs_optimize_score_font_size">38sp</dimen>
+    <dimen name="readme_tv_height">150dip</dimen>
+    <dimen name="scene_preview_item_bg_height">168dip</dimen>
+    <dimen name="scene_preview_item_height">230dip</dimen>
+    <dimen name="set_def_launcher_buttom_height">60dp</dimen>
+    <dimen name="set_def_launcher_content_cancel_hint_size">15sp</dimen>
+    <dimen name="set_def_launcher_content_cancel_size">14sp</dimen>
+    <dimen name="set_def_launcher_content_confirm_size">18sp</dimen>
+    <dimen name="set_def_launcher_content_tx_size">18sp</dimen>
+    <dimen name="set_def_launcher_padding">15dp</dimen>
+    <dimen name="text_size">14sp</dimen>
+</resources>

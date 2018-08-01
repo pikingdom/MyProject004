@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 具体颜色在程序中设置 -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/CityTextId"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="marquee"
+    android:gravity="center"
+    android:singleLine="true"
+    android:padding="5dip"
+    android:textSize="@dimen/citylistsize" />

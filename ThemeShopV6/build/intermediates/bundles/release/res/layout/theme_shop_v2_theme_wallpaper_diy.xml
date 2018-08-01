@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pla="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/theme_shop_v6_loading_style_mid" />
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:id="@+id/main"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:orientation="vertical"
+           android:layout_marginTop="9dp">
+
+           <com.nd.hilauncherdev.shop.shop3.customview.pinlistview.MultiColumnListView
+               android:padding="3dp"
+               android:id="@+id/lv_contents"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="1.0"
+               android:cacheColorHint="#00000000"
+               android:divider="@drawable/transparent_background"
+               android:dividerHeight="7dip"
+               android:gravity="center"
+               android:listSelector="@drawable/theme_shop_v6_transparent"
+               pla:plaColumnNumber="2"
+               />
+
+           <include layout="@layout/theme_shop_v6_loading_style_bottom" />
+       </LinearLayout>
+
+       <com.nd.hilauncherdev.shop.shop3.customview.NetErrorAndSettingView
+           android:id="@+id/netErrorAndSettingView"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:visibility="gone" />
+
+
+       <ImageButton
+           android:id="@+id/btnCreate"
+           android:layout_width="56dp"
+           android:layout_height="56dp"
+           android:layout_gravity="end|bottom"
+           android:layout_marginBottom="16dp"
+           android:layout_marginRight="16dp"
+           android:background="@drawable/btn_fab_default"
+           android:src="@drawable/camera"
+           android:textSize="28sp" />
+   </FrameLayout>
+
+
+
+</LinearLayout>

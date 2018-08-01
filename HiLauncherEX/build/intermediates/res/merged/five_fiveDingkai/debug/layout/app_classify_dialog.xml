@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/app_choose_top_background_new" >
+
+    <RelativeLayout
+        android:id="@+id/common_dialog_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_top_layout_height_40"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/common_dialog_top_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dip" />
+
+        <TextView
+            android:id="@+id/common_dialog_top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/common_dialog_top_icon"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:textColor="@color/dialog_title_color"
+            android:text="@string/drawer_menu_auto_app_classify"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/common_dialog_top_layout" >
+
+        <LinearLayout
+            android:id="@+id/common_dialog_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/assort_tip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="17.0dip"
+                        android:layout_marginRight="17.0dip"
+                        android:layout_marginTop="17.0dip"
+                        android:drawablePadding="20.0dip"
+                        android:drawableTop="@drawable/packageapp_assort"
+                        android:padding="14.0dip"
+                        android:text="@string/app_assort_tip"
+                        android:textColor="#ff888888"
+                        android:textSize="14.0sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/common_dialog_bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_bottom_layout_height_40"
+            android:layout_below="@id/common_dialog_content_layout"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/common_dialog_left_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/app_choose_l_btn"
+                android:gravity="center"
+                android:paddingTop="3dip"
+                android:textColor="@color/common_dialog_text_color_selector"
+                android:text="@string/assort_now"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/common_dialog_right_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/app_choose_r_btn"
+                android:gravity="center"
+                android:paddingTop="3dip"
+                android:textColor="@color/common_dialog_text_color_selector"
+                android:text="@string/restore_now"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

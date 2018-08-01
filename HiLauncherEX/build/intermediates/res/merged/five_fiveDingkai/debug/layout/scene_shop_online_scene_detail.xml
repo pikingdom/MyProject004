@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:indicator="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <!-- ******************************** 顶部的控制栏 ******************************** -->
+
+    <RelativeLayout
+        android:id="@+id/scene_shop_online_scene_detail_layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/common_title_bg" >
+
+        <LinearLayout
+            android:id="@+id/scene_shop_online_scene_detail_btn_top_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/common_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scene_shop_online_scene_detail_layout_top_controll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/scene_shop_online_scene_detail_btn_top_previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="25dip"
+                android:background="@drawable/theme_shop_v2_theme_detail_pre_btn"
+                android:scaleType="fitXY"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/scene_shop_online_scene_detail_btn_top_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/theme_shop_v2_theme_detail_next_btn"
+                android:scaleType="fitXY"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <com.nd.hilauncherdev.framework.view.AlwaysMarqueeTextView
+            android:id="@+id/scene_shop_online_scene_detail_top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/myphone_margin_left"
+            android:layout_toLeftOf="@id/scene_shop_online_scene_detail_layout_top_controll"
+            android:layout_toRightOf="@id/scene_shop_online_scene_detail_btn_top_back"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="@string/scene_loading"
+            android:textColor="@color/myphone_common_title_color1"
+            android:textSize="@dimen/myphone_title_text_size" />
+    </RelativeLayout>
+    <!-- ******************************** 顶部的控制栏 ******************************** -->
+
+
+    <!-- ******************************** 加载中页面 ******************************** -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/scene_shop_online_scene_detail_layout_top" >
+
+        <include
+            android:id="@+id/scene_shop_online_scene_detail_layout_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/scene_common_loading"
+            android:visibility="visible" />
+    </RelativeLayout>
+    <!-- ******************************** 加载中页面 ******************************** -->
+
+
+    <!-- ******************************** 可滑动的内容 ******************************** -->
+
+    <ScrollView
+        android:id="@+id/scene_shop_online_scene_detail_root_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scene_shop_online_scene_detail_layout_top"
+        android:scrollbars="none"
+        android:visibility="invisible" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <LinearLayout
+                android:id="@+id/scene_shop_online_scene_detail_gallery_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:clipChildren="true"
+                android:clipToPadding="true"
+                android:gravity="center"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="10dip"
+                 >
+                <com.nd.hilauncherdev.shop.shop3.customview.CustomGallery
+                    android:id="@+id/scene_shop_online_scene_detail_gallery"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:spacing="0dip" />
+            </LinearLayout>
+            
+			<com.nd.hilauncherdev.scene.shop.IndicatorView
+                android:id="@+id/scene_shop_online_scene_detail_indicator"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_below="@id/scene_shop_online_scene_detail_gallery_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                indicator:focusDrawable="@drawable/screen_choose_app_lightbar_selected"
+                indicator:normalDrawable="@drawable/screen_choose_app_lightbar_normal" />
+
+			<RelativeLayout
+                android:id="@+id/scene_shop_online_scene_detail_layout_describe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/scene_shop_online_scene_detail_indicator"
+                android:padding="10dip">
+
+                <TextView
+                    android:id="@+id/scene_shop_online_scene_detail_text_describe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:text="情景描述"
+                    android:textSize="14sp"
+                    android:textColor="#1d1d1d" />
+
+                <TextView
+                    android:id="@+id/scene_shop_online_scene_detail_text_describe_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/scene_shop_online_scene_detail_text_describe"
+                    android:text="@string/scene_shop_describe"
+                    android:textSize="13sp"
+                    android:textColor="#959595" />
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/scene_shop_online_scene_detail_layout_controll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scene_shop_online_scene_detail_layout_describe"
+                android:paddingBottom="7dip"
+                android:paddingTop="7dip">
+                    <!-- 下载控制 点击开始 -->
+                    <RelativeLayout
+                        android:id="@+id/scene_shop_online_scene_detail_layout_download_start"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="40dip"
+                        android:paddingRight="40dip"
+                        android:visibility="visible" >
+
+                        <Button
+                            android:id="@+id/scene_shop_online_scene_detail_btn_download_start"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dip"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/common_btn_blue"
+                            android:gravity="center"
+                            android:text="@string/text_for_free"
+                            android:textColor="@color/white" />
+                    </RelativeLayout>
+
+                    <!-- 下载控制 下载中 -->
+
+                    <RelativeLayout
+                        android:id="@+id/scene_shop_online_scene_detail_layout_download_progress"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dip"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip"
+                        android:visibility="invisible" >
+
+                        <ImageButton
+                            android:id="@+id/scene_shop_online_scene_detail_btn_download_cancel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/scene_shop_detail_btn_cancel" />
+
+                        <ImageButton
+                            android:id="@+id/scene_shop_online_scene_detail_btn_download_control"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10dip"
+                            android:layout_toLeftOf="@id/scene_shop_online_scene_detail_btn_download_cancel"
+                            android:background="@drawable/scene_shop_detail_btn_pause" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@id/scene_shop_online_scene_detail_btn_download_control" >
+
+                            <ProgressBar
+                                android:id="@+id/scene_shop_online_scene_detail_download_progressbar"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="7dip"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="5dip"
+                                android:layout_marginRight="20dip"
+                                android:max="100"
+                                android:progress="0"
+                                android:progressDrawable="@drawable/scene_download_progressbar" />
+
+                            <TextView
+                                android:id="@+id/scene_shop_online_scene_detail_progress_text_message"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@id/scene_shop_online_scene_detail_download_progressbar"
+                                android:layout_alignLeft="@id/scene_shop_online_scene_detail_download_progressbar"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginLeft="5dip"
+                                android:gravity="left|center_vertical"
+                                android:marqueeRepeatLimit="marquee_forever"
+                                android:singleLine="true"
+                                android:text="@string/scene_shop_download"
+                                android:textColor="@color/myphone_common_title_color"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/scene_shop_online_scene_detail_progress_text_percent"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@id/scene_shop_online_scene_detail_download_progressbar"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignRight="@id/scene_shop_online_scene_detail_download_progressbar"
+                                android:layout_marginRight="20dip"
+                                android:gravity="right|center_vertical"
+                                android:marqueeRepeatLimit="marquee_forever"
+                                android:singleLine="true"
+                                android:textColor="@color/myphone_common_title_color"
+                                android:textSize="12sp" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+    <!-- ******************************** 可滑动的内容 ******************************** -->
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--已经选中-->
+	<item android:state_checked="true" android:drawable="@drawable/weather_ico_chose_1" />
+	<!--未被选中-->
+	<item android:drawable="@drawable/weather_ico_chose_2" />
+</selector>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	 android:background="@drawable/readme_activity_bg" >
+    <include layout="@layout/readme_v7_bg_circles"/>
+
+    <ImageView
+        android:id="@+id/readme_page_title_change_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/readme_v7_page2_title_margin_top"
+        android:src="@drawable/readme_page_upgrade_title" />
+     <ImageView 
+        android:id="@+id/bg_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingTop="7dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/read_me_activity_bg_title_margin_top"
+        />
+	
+    <com.nd.hilauncherdev.framework.view.commonsliding.CommonLightbar
+		android:id="@+id/version_update_lightbar"
+		android:layout_width="match_parent" 
+		android:layout_height="15dip"
+		android:layout_alignParentBottom="true"
+		android:gravity="center"
+		android:visibility="gone" />
+	
+    <com.nd.hilauncherdev.webconnect.versionupdate.view.VersionUpdateSlidingView
+		android:id="@+id/version_update_sliding_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@id/version_update_lightbar"
+		android:layout_below="@+id/bg_title"  />
+	
+</RelativeLayout>

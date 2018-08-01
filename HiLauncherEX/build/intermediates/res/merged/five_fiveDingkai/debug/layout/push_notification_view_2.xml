@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/push_notification_view_bg"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="60dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:id="@+id/item_button"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="8dip">
+
+        <Button
+            android:id="@+id/button_icon"
+            android:layout_width="84dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/push_notification_btn_selector"
+            android:gravity="center"
+            android:text="@string/common_button_download"
+            android:textColor="#545454"
+            android:textSize="17sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/item_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/item_icon"
+        android:layout_toLeftOf="@+id/item_button"
+        android:orientation="vertical"
+        android:paddingLeft="8dip" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="left|bottom"
+            android:maxLines="1"
+            android:textColor="#333333"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="3dip"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="left|top"
+            android:maxLines="1"
+            android:textColor="#757575"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    
+
+</RelativeLayout>

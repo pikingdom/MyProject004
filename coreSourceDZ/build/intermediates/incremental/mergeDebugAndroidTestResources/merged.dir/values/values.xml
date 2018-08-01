@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <attr name="direction">
+        <!-- Vertical widget. -->
+        <enum name="vertical" value="0"/>
+        <!-- Horizontal widget. -->
+        <enum name="horizontal" value="1"/>
+    </attr>
+    <color name="appwidget_error_color">#FCCC</color>
+    <color name="black">#000000</color>
+    <color name="default_launcher_icon_text_color">#ffffffff</color>
+    <color name="delete_color_filter">#A5FF0000</color>
+    <color name="dialog_content_color">#676b6e</color>
+    <color name="dialog_title_color">#1c1c1c</color>
+    <color name="icon_color_filter_for_drawer_folder">#a5333333</color>
+    <color name="icon_color_filter_in_move_bar">#a500e3ff</color>
+    <color name="icon_text_color_in_folder_android6">#ff666666</color>
+    <color name="white">#ffffffff</color>
+    <color name="window_background">#FF191919</color>
+    <declare-styleable name="DeleteZone"><attr name="direction"/></declare-styleable>
+    <declare-styleable name="LauncherIconView"><attr format="color" name="custom_text_color"/><attr format="color" name="custom_shadow_color"/></declare-styleable>
+    <dimen name="android_folder_icon_margin">3dip</dimen>
+    <dimen name="app_background_size">57dip</dimen>
+    <dimen name="app_icon_bigsize">52dip</dimen>
+    <dimen name="app_icon_size">48dip</dimen>
+    <dimen name="bottommenu_height">180dip</dimen>
+    <dimen name="celllayout_preview_margin">3dip</dimen>
+    <dimen name="default_launcher_icon_text_size">12sp</dimen>
+    <dimen name="delete_zone_padding">10dip</dimen>
+    <dimen name="dialog_bottom_layout_height_40">36dip</dimen>
+    <dimen name="dialog_top_layout_height_40">40dip</dimen>
+    <dimen name="folder_icon_margin">5dip</dimen>
+    <dimen name="frame_viewpager_tab_selected_textsize">17sp</dimen>
+    <dimen name="frame_viewpager_tab_textsize">15sp</dimen>
+    <dimen name="maindock_max_cell_size">57dip</dimen>
+    <dimen name="maindock_min_cell_size">57dip</dimen>
+    <dimen name="min_padding">1dip</dimen>
+    <dimen name="myfile_photo_height">100dip</dimen>
+    <dimen name="myfile_photo_width">130dip</dimen>
+    <dimen name="myphone_info_view_margin_top">60dip</dimen>
+    <dimen name="normal_app_icon_size">48dip</dimen>
+    <dimen name="popshortcut_menu_height">93dip</dimen>
+    <dimen name="popshortcut_menu_width">56dip</dimen>
+    <dimen name="shortcutmenu_offset_screen">21dip</dimen>
+    <dimen name="text_drawpadding">3dip</dimen>
+    <dimen name="title_texture_width">120px</dimen>
+    <dimen name="workspace_spring_lightbar_height">50dip</dimen>
+    <dimen name="workspace_spring_lightbar_toppadding">35dip</dimen>
+    <item name="common_view_holder" type="id"/>
+    <item name="drager_controller_on_drag_exit_in_action_move" type="id"/>
+    <integer name="dockbar_cell_counts">5</integer>
+    <integer name="dockbar_default_main_screen">0</integer>
+    <integer name="dockbar_max_screens">1</integer>
+    <integer name="folder_icon_contain_items">-1</integer>
+    <integer name="has_drawer">0</integer>
+    <integer name="has_zero_view">1</integer>
+    <integer name="icon_view_support_shadowlayer">1</integer>
+    <integer name="is_91Launcher">0</integer>
+    <integer name="launcher_appid">20000036</integer>
+    <integer name="show_click_state_on_sliding_screen">1</integer>
+    <integer name="workspace_default_screen">0</integer>
+    <integer name="workspace_default_screen_count">3</integer>
+    <integer name="workspace_max_screens">9</integer>
+    <string name="ACTION_ASK_THEME">com.nd.android.pandahome.ASK_THEME</string>
+    <string name="ACTION_CHANGE_FOLDER_STYLE">nd.panda.action.internal.change.folder.style</string>
+    <string name="ACTION_DAILY_HOT_NEWS_CHANGE">com.nd.pandahome.dailyhotnews.change</string>
+    <string name="ACTION_INSTALL_THEME_SERIES_FAIL">com.nd.android.pandahome.INSTALL_THEME_SERIE_FAIL</string>
+    <string name="ACTION_INSTALL_THEME_SERIES_SUCCESS">com.nd.android.pandahome.INSTALL_THEME_SERIE_SUCCESS</string>
+    <string name="ACTION_INTERNAL_INSTALL_SHORTCUT">com.nd.pandahome.install_shortcut</string>
+    <string name="ACTION_REFRESH_DYNAMIC_ICON">nd.panda.action.internal.refresh.dynamic.icon</string>
+    <string name="ACTION_REFRESH_SEARCH_WIDGET_UI">com.nd.pandahome.internal.refresh.search.widget</string>
+    <string name="ACTION_STOP_FLASH_SWAP_WALLPAPER">nd.panda.action.internal.stopflash.swap.wallpaper</string>
+    <string name="APPLY_OLD_THEME_ACTION">com.nd.pandahome.internal.apply.oldtheme</string>
+    <string name="APP_HINT_FILTER">hilauncherdev.application.hint</string>
+    <string name="APP_STORE_HINT_FILTER">com.wireless.assistant.mobile.market.business.getUpdateBean</string>
+    <string name="INTENT_CURRENT_THEME_INFO">com.nd.android.pandahome.THEME_INFO</string>
+    <string name="INTENT_PANDASPACE_INSTALL_THEME">com.nd.android.pandadesktop2.install_theme</string>
+    <string name="INTENT_THEME_LIST_REFRESH">nd.panda.theme.list.refresh</string>
+    <string name="LAUNCHER_UI_REFRESH_ACTION">nd.pandahome.internal.launcher.refreshUI</string>
+    <string name="MOVE_HOME_ACTION">com.nd.pandahome.internal.move.home</string>
+    <string name="REFRESH_ICON_ACTION">com.nd.pandahome.internal.refresh.icon</string>
+    <string name="SOFT_UPGRADE_ACTION">com.nd.pandahome.internal.soft.upgrade</string>
+    <string msgid="3571057450431950427" name="activity_not_found">"您的手机上未安装应用程序。"</string>
+    <string name="common_alert">警告</string>
+    <string name="common_button_add">新增</string>
+    <string name="common_button_addto">添加</string>
+    <string name="common_button_apply">应用</string>
+    <string name="common_button_apply_paper">设为壁纸</string>
+    <string name="common_button_back_to_home">主页</string>
+    <string name="common_button_cancel">取消</string>
+    <string name="common_button_clear">清除</string>
+    <string name="common_button_close">关闭</string>
+    <string name="common_button_closed">关闭</string>
+    <string name="common_button_commit">提交</string>
+    <string name="common_button_complate">完成</string>
+    <string name="common_button_confirm">确定</string>
+    <string name="common_button_continue">继续</string>
+    <string name="common_button_create_multi">双开</string>
+    <string name="common_button_default">默认</string>
+    <string name="common_button_delete">删除</string>
+    <string name="common_button_discard">丢弃</string>
+    <string name="common_button_download">下载</string>
+    <string name="common_button_download_more">下载更多</string>
+    <string name="common_button_download_skin">下载皮肤</string>
+    <string name="common_button_downloading">下载中</string>
+    <string name="common_button_edit">修改</string>
+    <string name="common_button_editable">编辑</string>
+    <string name="common_button_enabled">开启</string>
+    <string name="common_button_enter">进入</string>
+    <string name="common_button_i_know">我知道了</string>
+    <string name="common_button_ignore">忽略</string>
+    <string name="common_button_install">安装</string>
+    <string name="common_button_manager">管理</string>
+    <string name="common_button_modify">更改</string>
+    <string name="common_button_open">打开</string>
+    <string name="common_button_open_now">立即开启</string>
+    <string name="common_button_preview">预览</string>
+    <string name="common_button_recover">恢复</string>
+    <string name="common_button_redownload">重新下载</string>
+    <string name="common_button_refresh">刷新</string>
+    <string name="common_button_restart_now">立即重启</string>
+    <string name="common_button_return">返回</string>
+    <string name="common_button_save">保存</string>
+    <string name="common_button_search">搜索</string>
+    <string name="common_button_set">设置</string>
+    <string name="common_button_share">分享</string>
+    <string name="common_button_uninstall">卸载</string>
+    <string name="common_button_uninstall_hint">系统应用，不可卸载</string>
+    <string name="common_button_update">更新</string>
+    <string name="common_button_use">启用</string>
+    <string name="common_button_use_now">立即使用</string>
+    <string name="common_button_used">已启用</string>
+    <string name="common_button_view_detail">详情</string>
+    <string name="common_checkbox_not_alert">不再提醒</string>
+    <string name="common_download_ended">下载完成</string>
+    <string name="common_download_failed">下载失败</string>
+    <string name="common_download_now">立即下载</string>
+    <string name="common_download_success">下载成功</string>
+    <string name="common_downloading">正在下载..</string>
+    <string name="common_install_now">立即安装</string>
+    <string name="common_installed">已安装</string>
+    <string name="common_loading">加载中...</string>
+    <string name="common_refresh">刷　　新</string>
+    <string name="common_refresh_failed">更新失败</string>
+    <string name="common_tip">提示</string>
+    <string name="common_uninstalled">未安装</string>
+    <string name="dockbar_allow">无法放入底部托盘</string>
+    <string name="dockbar_dock_browser">浏览器</string>
+    <string name="dockbar_dock_contacts">联系人</string>
+    <string name="dockbar_dock_dial">拨号</string>
+    <string name="dockbar_dock_sms">信息</string>
+    <string name="dockbar_null_intent">数据异常</string>
+    <string name="edit_lock_toast_lock">编辑功能已锁定</string>
+    <string name="folder_drag_out_error">屏幕空间不足,请到其他屏幕添加</string>
+    <string name="frame_viewfacotry_data_load_text">正在很努力地很努力地加载中</string>
+    <string name="frame_viewfacotry_download_null">没有搜索到你的下载记录</string>
+    <string name="frame_viewfacotry_err_info_text">出错啦!</string>
+    <string name="frame_viewfacotry_net_break_btn">网络设置</string>
+    <string name="frame_viewfacotry_net_break_text">加载失败，网络连接好像出了点问题哦</string>
+    <string name="frame_viewfacotry_net_slowly_reflesh_btn">刷新</string>
+    <string name="frame_viewfacotry_net_slowly_text">网络不给力,先休息下,稍后再试</string>
+    <string name="frame_viewfacotry_search_null">没有搜索到相关内容,请试试别的吧</string>
+    <string name="frame_viewfacotry_show_netsetting_err">打开网络设置失败</string>
+    <string name="frame_viewfactory_cancle">取消操作</string>
+    <string name="frame_viewfactory_del_error_widget_1">您可以尝试恢复初始化来修复这一问题, 是否立即恢复初始？</string>
+    <string name="frame_viewfactory_del_error_widget_2">使用恢复初始后，将会删除您桌面上的小部件，确保您能正常使用桌面。确定恢复初始吗？</string>
+    <string name="frame_viewfactory_dialog_title">桌面提示</string>
+    <string name="frame_viewfactory_err_content_downgrade">不好意思，由于您的手机不支持APP降级使用，需要重置桌面数据来修复此问题。</string>
+    <string name="frame_viewfactory_err_content_text">亲，动手指把问题反馈给我们，让桌面变得更好用吧</string>
+    <string name="frame_viewfactory_err_content_text_widget">不好意思，小部件“%1$s”有点小问题，我们会把它从屏幕上移除后重启桌面，若您需要再次使用，可进入应用列表-小部件页面找到。</string>
+    <string name="frame_viewfactory_err_content_upgrade">机智的程序小哥说升级到新版本可以解决问题，快去试一试吧！</string>
+    <string name="frame_viewfactory_err_title">啊哦！桌面运行出了点小问题</string>
+    <string name="frame_viewfactory_next_time">下次再说</string>
+    <string name="frame_viewfactory_restore">恢复初始</string>
+    <string name="frame_viewfactory_send_failed">抱歉，您的手机未绑定Gmail账号，无法发送</string>
+    <string name="frame_viewfactory_tell_us">发送反馈</string>
+    <string name="frame_viewfactory_upgrade_now">马上升级</string>
+    <string msgid="8359351016167075858" name="gadget_error_text">"载入窗口小部件时出现问题"</string>
+    <string name="hint_sdcard_available">SD程序加载成功，将立即重新刷新桌面图标</string>
+    <string name="launcher_appkey">59fb3e01b3e14cd1b0e117cd7a9a498d</string>
+    <string name="launcher_pid">20000036</string>
+    <string name="launcher_pkg_name">#pkg_name#</string>
+    <string name="main_dock_notification_disable_hint">通知栏已关闭，请先打开通知栏</string>
+    <string name="message_preview_cannot_delete_screen">不能删除最后一个屏幕</string>
+    <string name="message_preview_delete_screen">删除屏幕及屏幕上的所有内容?</string>
+    <string name="message_preview_delete_screen_not_allow">屏幕上有\"应用列表\"图标，无法删除</string>
+    <string name="message_preview_fail_drag_to_screen">图标移动失败</string>
+    <string name="message_preview_out_of_screen">屏幕空间不足，请选择其他屏幕</string>
+    <string name="message_preview_set_default_screen">设为默认屏幕</string>
+    <string name="myphone_root_fail_desc">桌面无法获取ROOT权限，请在SuperUser KingUser等授权管理软件中允许ROOT权限</string>
+    <string name="myphone_root_fail_title">获取ROOT权限失败</string>
+    <string msgid="8365249326091984698" name="out_of_space">"此屏幕上空间不足"</string>
+    <string name="pkg_base_dir">#pkg_base_dir#</string>
+    <string name="pkg_content_uri_authority">#pkg_name#.settings</string>
+    <string name="pkg_content_uri_authority_sub">#pkg_name#</string>
+    <string name="settings_about_no_market_title">您的手机未安装电子市场</string>
+    <string msgid="4757756326465060694" name="shortcut_duplicate">
+		""
+		<ns1:g id="NAME">%s</ns1:g>
+		"快捷方式已存在。"
+	</string>
+    <string msgid="7071557296331322355" name="shortcut_installed">
+		"已创建"
+		<ns1:g id="NAME">%s</ns1:g>
+		"快捷方式。"
+	</string>
+    <string name="shortcut_toolong">非法字符，无法添加</string>
+    <string msgid="2129499669449749995" name="shortcut_uninstalled">
+		"已删除"
+		<ns1:g id="NAME">%s</ns1:g>
+		"快捷方式。"
+	</string>
+    <string name="spring_add_app_from_drawer_reset">无法移动到该位置</string>
+    <string name="theme_app_select_activity">com.nd.hilauncherdev.app.activity.AppResolverSelectActivity</string>
+    <string name="uninstallapp_no_this_appinfo">无此应用信息，卸载失败</string>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style mce_bogus="1" name="ShortCutMenuGrowFromBottom" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popshortcutmenu_grow_from_bottom</item>
+		<item name="android:windowExitAnimation">@anim/popshortcutmenu_shrink_from_top</item>
+	</style>
+    <style mce_bogus="1" name="ShortCutMenuGrowFromBottomLeftToTopRight" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popshortcutmenu_grow_from_bottomleft_to_topright
+		</item>
+		<item name="android:windowExitAnimation">@anim/popshortcutmenu_shrink_from_topright_to_bottomleft
+		</item>
+	</style>
+    <style mce_bogus="1" name="ShortCutMenuGrowFromBottomRightToTopLeft" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popshortcutmenu_grow_from_bottomright_to_topleft
+		</item>
+		<item name="android:windowExitAnimation">@anim/popshortcutmenu_shrink_from_topleft_to_bottomright
+		</item>
+	</style>
+    <style mce_bogus="1" name="ShortCutMenuGrowFromTop" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popshortcutmenu_grow_from_top</item>
+		<item name="android:windowExitAnimation">@anim/popshortcutmenu_shrink_from_bottom</item>
+	</style>
+    <style mce_bogus="1" name="ShortCutMenuGrowFromTopLeftToBottomRight" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popshortcutmenu_grow_from_topleft_to_bottomright
+		</item>
+		<item name="android:windowExitAnimation">@anim/popshortcutmenu_shrink_from_bottomright_to_topleft
+		</item>
+	</style>
+    <style mce_bogus="1" name="ShortCutMenuGrowFromTopRightToBottomLeft" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popshortcutmenu_grow_from_topright_to_bottomleft
+		</item>
+		<item name="android:windowExitAnimation">@anim/popshortcutmenu_shrink_from_bottomleft_to_topright
+		</item>
+	</style>
+    <style name="WorkspaceIconMaskTextView">
+		<item name="android:layout_marginLeft">3dip</item>
+		<item name="android:layout_marginRight">3dip</item>
+		<item name="android:layout_marginTop">5dip</item>
+		<item name="android:layout_marginBottom">5dip</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:paddingLeft">2dip</item>
+		<item name="android:paddingRight">2dip</item>
+	</style>
+    <style name="menuAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/popupmenu_in</item>   
+        <item name="android:windowExitAnimation">@anim/popupmenu_out</item>   
+    </style>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/myphone_bg_color" >
+
+    <com.nd.hilauncherdev.shop.shop6.themedetail.SubScrollView
+        android:id="@+id/subScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/theme_shop_theme_detail_comment_edit_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/theme_shop_v6_comment_bg"
+                android:gravity="center_vertical"
+                android:padding="10dip" >
+
+                <ImageView
+                    android:id="@+id/scoreTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="10dip" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/scoreTv"
+                    android:orientation="vertical" >
+
+                    <RatingBar
+                        android:id="@+id/average_theme_shop_comment_rating"
+                        style="@style/commentRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dip"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:rating="5"
+                        android:stepSize="1" />
+
+                    <TextView
+                        android:id="@+id/personTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dip"
+                        android:gravity="right"
+                        android:textSize="12sp"
+                        android:textColor="@color/theme_shop_comment_txt_color1" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/theme_shop_comment_publish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:drawableLeft="@drawable/theme_shop_v6_theme_comment_go_selector"
+                    android:drawablePadding="5dip"
+                    android:gravity="center"
+                    android:text="@string/theme_shop_v2_theme_detail_comment_publish_txt"
+                    android:textColor="@color/theme_shop_comment_txt_color1"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/theme_shop_v6_detail_bg"
+                android:padding="10dip" >
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/layout_comment_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/theme_shop_v6_detail_comment_list" />
+        </LinearLayout>
+    </com.nd.hilauncherdev.shop.shop6.themedetail.SubScrollView>
+
+</RelativeLayout>

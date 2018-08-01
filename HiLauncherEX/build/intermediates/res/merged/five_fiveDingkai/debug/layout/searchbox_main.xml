@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.launcher.search.searchview.SearchView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:background="@color/navigation_search_bg" 
+	android:visibility="gone">
+<!--     android:background="@drawable/searchbox_bg_main"  -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" 
+        android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="5dp">
+        
+        <!-- 搜索输入框 -->
+	    <RelativeLayout 
+	        android:layout_height="40dp"
+	        android:layout_width="fill_parent"
+	        android:layout_gravity="center_vertical"
+	        android:gravity="center_vertical">
+	        <EditText 
+		        android:id="@+id/txtSearchInput" 
+		        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:inputType="text"
+		    	android:textSize="15sp"
+		    	android:textColor="#ff545454"
+		    	android:hint="@string/searchbox_input_hint"
+		    	android:textColorHint="#ffc6c6c6"
+		    	android:background="@drawable/navigation_search_edittext_bg"
+		    	android:paddingRight="55dp"
+		    	android:paddingLeft="45dp"
+		    	android:layout_alignParentLeft="true"
+		    	android:layout_gravity="center_vertical"/>
+		    <ImageView 
+	            android:layout_width="wrap_content"
+		    	android:layout_height="match_parent"
+	            android:src="@drawable/myphone_btn_ring_wallpaper_search_selector"
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginLeft="5dp"
+	            android:layout_centerVertical="true"/>
+	   		<ImageView android:id="@+id/btnCloseSearchList" 
+		        android:layout_height="wrap_content" 
+		        android:layout_width="50dp"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:src="@drawable/navigation_search_clear_btn"
+		        android:layout_marginRight="12dp"
+		        android:visibility="gone" />
+	   		<!-- 语音识别按钮 -->
+	    	<ImageView android:id="@+id/btnVoice"
+		        android:layout_height="wrap_content"
+		        android:layout_width="25dp"
+		        android:layout_marginRight="12dp"
+		        android:layout_centerVertical="true"
+		        android:layout_alignParentRight="true"
+		        android:src="@drawable/launcher_navigation_top_voice"
+		        android:visibility="gone"/>
+	    </RelativeLayout>
+    </LinearLayout>
+	<!--匣子搜索容器界面-->
+	<LinearLayout
+		android:id="@+id/search_box_content_linlayout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"/>
+</com.nd.hilauncherdev.launcher.search.searchview.SearchView>

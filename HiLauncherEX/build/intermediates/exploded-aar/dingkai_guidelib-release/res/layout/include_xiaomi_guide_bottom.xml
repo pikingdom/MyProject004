@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/guide_xiaomi_include_page_bottom_h"
+    android:orientation="horizontal"
+    android:background="@color/transparent"
+    >
+    
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_marginTop="22dp"
+        android:layout_width="70.7dp"
+        android:layout_height="70.7dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="24.7dp"
+        android:layout_marginRight="24.7dp"
+        android:gravity="center"
+        android:textSize="12dp"
+        android:visibility="invisible"
+        android:background="@drawable/btn_xiaomi_bottom_bg"
+        android:textColor="@color/btn_xiaomi_bottom_text_def"
+        android:text="返回"/>
+
+    <Button
+        android:id="@+id/break_btn"
+        android:layout_marginTop="22dp"
+        android:layout_width="70.7dp"
+        android:layout_height="70.7dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="24.7dp"
+        android:layout_marginRight="24.7dp"
+        android:gravity="center"
+        android:textSize="12dp"
+        android:visibility="invisible"
+        android:background="@drawable/btn_xiaomi_bottom_bg"
+        android:textColor="@color/btn_xiaomi_bottom_text_def"
+        android:text="跳过"/>
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_marginTop="22dp"
+        android:layout_width="70.7dp"
+        android:layout_height="70.7dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="24.7dp"
+        android:layout_marginRight="24.7dp"
+        android:gravity="center"
+        android:textSize="12dp"
+        android:background="@drawable/btn_xiaomi_bottom_bg"
+        android:textColor="@color/btn_xiaomi_bottom_text_def"
+        android:text="继续"/>
+
+</LinearLayout>

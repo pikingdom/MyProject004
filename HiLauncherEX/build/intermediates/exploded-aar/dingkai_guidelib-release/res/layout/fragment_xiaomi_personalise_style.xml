@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_xiaomi_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50.7dp"
+            android:layout_marginLeft="48dp"
+            android:textColor="#444444"
+            android:textSize="22dp"
+            android:text="个性化风格"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="48dp"
+            android:textColor="#666666"
+            android:textSize="13dp"
+            android:text="为您专属定制五套主题"/>
+
+
+        <HorizontalScrollView
+            android:layout_marginTop="52dp"
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="272dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="272dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/personalise_style_0_click_layout"
+                        android:layout_width="135.3dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="47dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="135.3dp"
+                            android:layout_height="240.7dp"
+                            android:background="@drawable/ic_xiaomi_personalise_style_0"
+                            android:id="@+id/imageView" />
+
+
+                        <RadioButton
+                            android:id="@+id/personalise_style_0_radio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="17dp"
+                            android:button="@drawable/cb_xiaomi_circle"
+                            android:layout_marginTop="13.7dp"
+                            android:textColor="#666666"
+                            android:paddingLeft="6dp"
+                            android:checked="true"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center_vertical"
+                            android:textSize="11dp"
+                            android:text="标准版"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/personalise_style_1_click_layout"
+                        android:layout_width="135.3dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6.3dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="135.3dp"
+                            android:layout_height="240.7dp"
+                            android:background="@drawable/ic_xiaomi_personalise_style_1"/>
+
+
+                        <RadioButton
+                            android:id="@+id/personalise_style_1_radio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="17dp"
+                            android:button="@drawable/cb_xiaomi_circle"
+                            android:layout_marginTop="13.7dp"
+                            android:textColor="#666666"
+                            android:paddingLeft="6dp"
+                            android:checked="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center_vertical"
+                            android:textSize="11dp"
+                            android:text="女神"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/personalise_style_2_click_layout"
+                        android:layout_width="135.3dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6.3dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="135.3dp"
+                            android:layout_height="240.7dp"
+                            android:background="@drawable/ic_xiaomi_personalise_style_2"/>
+
+
+                        <RadioButton
+                            android:id="@+id/personalise_style_2_radio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="17dp"
+                            android:button="@drawable/cb_xiaomi_circle"
+                            android:layout_marginTop="13.7dp"
+                            android:textColor="#666666"
+                            android:paddingLeft="6dp"
+                            android:checked="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center_vertical"
+                            android:textSize="11dp"
+                            android:text="轻奢"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/personalise_style_3_click_layout"
+                        android:layout_width="135.3dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6.3dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="135.3dp"
+                            android:layout_height="240.7dp"
+                            android:background="@drawable/ic_xiaomi_personalise_style_3"/>
+
+
+                        <RadioButton
+                            android:id="@+id/personalise_style_3_radio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="17dp"
+                            android:button="@drawable/cb_xiaomi_circle"
+                            android:layout_marginTop="13.7dp"
+                            android:textColor="#666666"
+                            android:paddingLeft="6dp"
+                            android:checked="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center_vertical"
+                            android:textSize="11dp"
+                            android:text="男生"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/personalise_style_4_click_layout"
+                        android:layout_width="135.3dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="6.3dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="135.3dp"
+                            android:layout_height="240.7dp"
+                            android:background="@drawable/ic_xiaomi_personalise_style_4"/>
+
+
+                        <RadioButton
+                            android:id="@+id/personalise_style_4_radio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="17dp"
+                            android:button="@drawable/cb_xiaomi_circle"
+                            android:layout_marginTop="13.7dp"
+                            android:textColor="#666666"
+                            android:paddingLeft="6dp"
+                            android:checked="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center_vertical"
+                            android:textSize="11dp"
+                            android:text="女生"
+                            />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/transparent"/>
+                    
+                </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+
+    <include
+        android:id="@+id/include_bottom"
+        layout="@layout/include_xiaomi_guide_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_xiaomi_include_page_bottom_h"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

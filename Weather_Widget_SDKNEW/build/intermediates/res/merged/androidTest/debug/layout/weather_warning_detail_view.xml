@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+	<ImageView android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:scaleType="fitCenter"
+	    android:layout_marginLeft="35dip"
+	    android:src="@drawable/img_arrow" />
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="15dip"
+	    android:layout_marginRight="15dip"
+	    android:padding="15dip"
+	    android:background="@drawable/weather_warning_detail_shape_bg" >
+	    <TextView
+	        android:id="@+id/warning_title"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:textSize="14sp"
+	    	android:textColor="#ffffff"
+	        android:text="暴雨蓝色预警" />
+	    <TextView
+	        android:id="@+id/warning_content"
+	        android:layout_below="@id/warning_title"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:textSize="12sp"
+	    	android:textColor="#9fffffff"
+	    	android:layout_marginTop="15dip"
+	        android:text="暴雨蓝色预警信号：预计未来12小时南平，三明，龙岩的部分县市将有50毫米以上的强降水。请注意防范山洪，滑坡，泥石流等" />
+	    <TextView
+	        android:id="@+id/warning_pub_time"
+	        android:layout_below="@id/warning_content"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:textSize="9sp"
+	    	android:layout_alignParentRight="true"
+	    	android:textColor="#53ffffff"
+	    	android:layout_marginTop="14dip"
+	        android:text="2016-5-20 11:42:00" />
+	</RelativeLayout>
+</LinearLayout>

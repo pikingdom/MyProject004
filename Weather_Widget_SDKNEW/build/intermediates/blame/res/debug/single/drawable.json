@@ -1,0 +1,486 @@
+[
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_13.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_13.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\n4.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\n4.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\app_choose_btn.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\app_choose_btn.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_btn_stand_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_btn_stand_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_press.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\btn_press.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_widget_edit_bk.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_widget_edit_bk.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_humidity.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_humidity.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\myphone_click_item_blue.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\myphone_click_item_blue.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\city_plug.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\city_plug.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\preview_home_btn_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\preview_home_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\launcher_popup_recommend_close_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\launcher_popup_recommend_close_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_shape_btn_more_normal.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_shape_btn_more_normal.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\n3.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\n3.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_09.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_09.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\clean_widget_btn_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\clean_widget_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\common_btn_red_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\common_btn_red_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\checkbox_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_bg_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\icon_bg_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\n6.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\n6.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\button_icontext_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\button_icontext_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_11.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_11.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_14.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_14.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\pre_more_button.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\pre_more_button.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_handle.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\delete_handle.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\app_choose_r_btn.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\app_choose_r_btn.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\n1.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\n1.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\webview_left_button.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\webview_left_button.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_btn_blue_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_btn_blue_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_02.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_02.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\common_setting.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\common_setting.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\common_menu_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\common_menu_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\app_choose_l_btn.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\app_choose_l_btn.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_btn_close_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_btn_close_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\folder_name_input_edit_bg.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\folder_name_input_edit_bg.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_shape_list_bk.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_shape_list_bk.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_08.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_08.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_shape_btn_blue_2.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_shape_btn_blue_2.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\common_title_bg.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\common_title_bg.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\n7.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\n7.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_wind_direction.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_wind_direction.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\star_gray.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\star_gray.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\common_btn_blue_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\common_btn_blue_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\preview_del_btn_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\preview_del_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_check_days.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_check_days.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\downloadmanager_checkbox.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\downloadmanager_checkbox.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_12.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_12.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_gale.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_gale.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_shape_more.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_shape_more.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_add_city_bk.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_add_city_bk.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\star_orange.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\star_orange.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\downloadmanager_btn_setting_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\downloadmanager_btn_setting_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_check_trend.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_check_trend.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_15.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_15.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\file_browser_btn_return.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\file_browser_btn_return.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\myphone_btn_ring_wallpaper_search_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\myphone_btn_ring_wallpaper_search_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_choose_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_choose_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\download_tips_btn.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\download_tips_btn.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\webview_progressbar_progress_horizontal1.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\webview_progressbar_progress_horizontal1.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\download_progressbar_style.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\download_progressbar_style.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\button_icontext_selector_ex.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\button_icontext_selector_ex.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\btnbg_2.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\btnbg_2.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\searchbox_btn_bottombar_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\searchbox_btn_bottombar_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_btn_more_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_btn_more_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\common_checkbox_bg_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\common_checkbox_bg_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\vericon.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\vericon.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\webview_back_button.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\webview_back_button.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_btn_setting_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_btn_setting_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_shape_titlebk.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_shape_titlebk.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\btnbg_1.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\btnbg_1.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_05.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_05.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_shape_btn_red_2.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_shape_btn_red_2.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_06.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_06.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\webview_browser_button.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\webview_browser_button.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\n0.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\n0.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\app_choose_r_btn_ex.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\app_choose_r_btn_ex.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_checkbox.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\selector_checkbox.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_shape_btn_more_pressed.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_shape_btn_more_pressed.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\app_choose_l_btn_ex.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\app_choose_l_btn_ex.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\n9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\n9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_shape_list_line.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_shape_list_line.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_widget_citymgr_bk.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_widget_citymgr_bk.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\folder_clear_name_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\folder_clear_name_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\common_btn_cancel_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\common_btn_cancel_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_btn_back_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_btn_back_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_warning_detail_shape_bg.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_warning_detail_shape_bg.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_03.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_03.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\common_sort_menu.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\common_sort_menu.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\webload_progress_bg.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\webload_progress_bg.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_16.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_16.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_btn_red_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_btn_red_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_btn_refresh_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_btn_refresh_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_checkbox.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\btn_checkbox.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_10.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_10.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\downloadmanager_btn_menu.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\downloadmanager_btn_menu.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_shape_wind_power_bg.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_shape_wind_power_bg.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_shape_btn_more_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_shape_btn_more_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_01.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_01.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\common_header_share.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\common_header_share.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\preview_border_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\preview_border_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_btn_while_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_btn_while_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_shape_btn_gray_2.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_shape_btn_gray_2.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_shape_btn_blue_3.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_shape_btn_blue_3.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\downloadmanager_item_progress_style.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\downloadmanager_item_progress_style.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_change_view_type_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_change_view_type_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\n5.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\n5.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\n8.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\n8.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\webview_right_button.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\webview_right_button.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_07.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_07.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\ws_04.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\ws_04.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\baidu_btn_search_fully_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\baidu_btn_search_fully_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_widget_city_item_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_widget_city_item_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\downloadmanager_item_delete_bg.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\downloadmanager_item_delete_bg.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\theme_shop_v6_loading_mid_ani.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\theme_shop_v6_loading_mid_ani.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\common_back.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\common_back.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\common_title_bg2.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\common_title_bg2.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\common_checkbox_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\common_checkbox_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_press.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\custom_press.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_air.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_air.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\weather_checkbox_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\weather_checkbox_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\n2.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\drawable\\n2.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\drawable\\shortcut_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable\\shortcut_selector.xml"
+    }
+]

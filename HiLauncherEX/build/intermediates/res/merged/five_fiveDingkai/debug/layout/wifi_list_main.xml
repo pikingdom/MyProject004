@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/wifi_static_set_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/myphone_bottom_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/wifi_staic_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_btn_blue_selector"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/wifi_staic_btn_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="6dip"
+                android:drawableRight="@drawable/wifi_static_icon"
+                android:gravity="right|center"
+                android:padding="5dip"
+                android:text="@string/wifi_static_ip_text"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/myphone_tv_btn_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wifi_set_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@drawable/common_btn_blue_selector"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/wifi_set_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="6dip"
+                android:drawableRight="@drawable/wifi_set_icon"
+                android:gravity="right|center"
+                android:padding="5dip"
+                android:text="@string/myphone_setting_name"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/myphone_tv_btn_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/wifi_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wifi_static_set_layout"
+        android:layout_alignParentTop="true"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/myphone_common_split"
+        android:dividerHeight="1dip"
+        android:listSelector="@drawable/myphone_click_item_blue" />
+
+</RelativeLayout>

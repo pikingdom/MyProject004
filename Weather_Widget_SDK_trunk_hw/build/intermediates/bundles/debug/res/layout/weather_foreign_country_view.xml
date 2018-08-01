@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scv_foreign_country"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:visibility="gone" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <GridView
+            android:id="@+id/gv_three_cols"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:horizontalSpacing="5dp"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="@dimen/gird_view_vertical_spacing" />
+
+        <GridView
+            android:id="@+id/gv_two_cols"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:horizontalSpacing="5dp"
+            android:numColumns="2"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="@dimen/gird_view_vertical_spacing" />
+
+        <GridView
+            android:id="@+id/gv_one_cols"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:horizontalSpacing="5dp"
+            android:numColumns="1"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="@dimen/gird_view_vertical_spacing" />
+    </LinearLayout>
+
+</ScrollView>

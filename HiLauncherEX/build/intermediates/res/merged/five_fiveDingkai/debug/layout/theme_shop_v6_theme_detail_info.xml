@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    <!-- 主题名称和价格 -->
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp">
+	    <LinearLayout
+	        android:id="@+id/theme_detail_maozhua_layout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:layout_alignParentRight="true"
+	        android:orientation="horizontal">
+	        <ImageView
+	            android:id="@+id/theme_detail_theme_sale"
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	            android:src="@drawable/theme_sale"
+	            android:visibility="gone"/>
+	        <TextView
+	        	android:id="@+id/theme_detail_maozhua_mount"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:textColor="#ffffc52d"
+		        android:text="@string/text_for_free"
+		        android:gravity="center"
+		        android:textSize="16sp" />
+	        <ImageView
+	            android:id="@+id/theme_detail_maozhua_icon"
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	            android:src="@drawable/maozhua_icon"
+	            android:layout_marginRight="8dp"/>
+	    </LinearLayout>
+	    <TextView
+	        android:id="@+id/theme_detail_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_toLeftOf="@+id/theme_detail_maozhua_layout"
+	        android:gravity="center_vertical"
+	        android:textColor="#595959"
+	        android:textSize="16sp" />
+	</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/ratingBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7.5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RatingBar
+            android:id="@+id/theme_shop_theme_detail_ratingBar"
+            style="@style/commentRatingBarSmaller"
+            android:layout_width="wrap_content"
+            android:layout_height="13dip"
+            android:layout_marginRight="13dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="5"
+            android:stepSize="1" />
+
+        <TextView
+            android:id="@+id/theme_shop_theme_detail_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/theme_shop_theme_detail_ratingBar"
+            android:textColor="#898989"
+            android:textSize="14sp" >
+        </TextView>
+
+        <RelativeLayout
+            android:id="@+id/theme_shop_theme_detail_author_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/theme_shop_theme_detail_size" >
+
+            <TextView
+                android:id="@+id/theme_shop_theme_detail_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/theme_shop_theme_detail_go"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/common_title_little_text_color"
+                android:textSize="15sp" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/theme_shop_theme_detail_go"
+                android:layout_width="@dimen/theme_shop_v6_theme_detail_go_width"
+                android:layout_height="@dimen/theme_shop_v6_theme_detail_go_height"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/theme_detail_go" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- video详情 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 缩略条 -->
+
+    <RelativeLayout
+        android:id="@+id/search_results_details_summarize_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="100dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/search_result_video_details_icon" />
+
+                <TextView
+                    android:id="@+id/search_results_details_breviary_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="小标题"
+                    android:textColor="#ff545454"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/search_results_details_breviary_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:background="#ffffc52d"
+                    android:ellipsize="end"
+                    android:padding="3dp"
+                    android:singleLine="true"
+                    android:text="更新至"
+                    android:textColor="@color/white"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/search_results_details_breviary_summary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="已完结 全XX集  地区：中国"
+                    android:textColor="#ff7c7c7c"
+                    android:textSize="11sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/search_results_details_breviary_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/navigation_search_icon_collapse" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="7.5dp"
+            android:layout_marginRight="7.5dp"
+            android:background="#ffeeeeee" />
+    </RelativeLayout>
+    <!-- 详细内容条 -->
+
+    <LinearLayout
+        android:id="@+id/search_result_video_details_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <!-- 详情 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="11dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="60dp"
+                android:orientation="horizontal" >
+
+                <FrameLayout
+                    android:layout_width="76dp"
+                    android:layout_height="101dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="11dp"
+                    android:background="@drawable/search_result_video_details_preview_border" >
+
+                    <ImageView
+                        android:id="@+id/search_result_video_details_preview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+
+                    <ImageView
+                        android:id="@+id/search_results_details_play"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/scene_shop_detail_btn_download" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/search_results_details_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/search_results_details_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="大标题"
+                        android:textColor="#ff545454"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="7dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/search_results_details_breviary_update1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="7dp"
+                            android:background="#ffffc52d"
+                            android:ellipsize="end"
+                            android:padding="3dp"
+                            android:singleLine="true"
+                            android:text="更新至"
+                            android:textColor="@color/white"
+                            android:textSize="11sp" />
+
+                        <TextView
+                            android:id="@+id/search_results_details_episode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="已完结 全XX集  地区：中国"
+                            android:textColor="#ff7c7c7c"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/search_results_details_area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:text="地区：韩国"
+                        android:textColor="#ff7c7c7c"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/search_results_details_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="类型：言情剧 偶像剧 青春剧"
+                        android:textColor="#ff7c7c7c"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/search_results_details_star"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="主演： 金秀贤 全智贤 刘仁娜"
+                        android:textColor="#ff7c7c7c"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- 缩起按钮 -->
+
+            <LinearLayout
+                android:id="@+id/search_results_details_breviary_expanded"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/navigation_search_icon_expanded" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="7.5dp"
+            android:layout_marginRight="7.5dp"
+            android:background="#ffeeeeee" />
+        <!-- 播放集数列表 -->
+
+        <LinearLayout
+            android:id="@+id/search_results_details_episodes_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

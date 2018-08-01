@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_background_size">62dip</dimen>
+    <dimen name="app_icon_bigsize">57dip</dimen>
+    <dimen name="app_icon_size">53dip</dimen>
+    <dimen name="button_bar_height">105dip</dimen>
+    <dimen name="launcher_linelight_light_height">20dip</dimen>
+    <dimen name="workspaceEndPadding">125dip</dimen>
+</resources>

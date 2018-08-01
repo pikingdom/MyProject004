@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 默认浏览器开启页面设置 -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory
+        android:height="50dp"
+        android:key="settings_choose_browser_default_home"
+        android:title="@string/settings_choose_browser_default_home" >
+ 		<!-- 初始值 -->
+        <CheckBoxPreference
+            android:key="settings_advanced_browser_default_home_initial_value"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_advanced_browser_default_home_initial_value"
+            android:widgetLayout="@layout/preferences_radio_checkbox" />
+        
+        <!-- 网址导航 -->
+        <CheckBoxPreference
+            android:key="settings_advanced_browser_default_home_navigation"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_advanced_browser_default_home_navigation"
+            android:widgetLayout="@layout/preferences_radio_checkbox" />
+        
+         <!--百度 -->
+        <CheckBoxPreference
+            android:key="settings_advanced_browser_default_home_baidu"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_advanced_browser_default_home_baidu"
+            android:widgetLayout="@layout/preferences_radio_checkbox" />
+        
+        <!-- 自定义-->
+        <CheckBoxPreference
+            android:key="settings_advanced_browser_default_home_custom"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_advanced_browser_default_home_custom"
+            android:widgetLayout="@layout/preferences_radio_checkbox"/>
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+
+</PreferenceScreen>

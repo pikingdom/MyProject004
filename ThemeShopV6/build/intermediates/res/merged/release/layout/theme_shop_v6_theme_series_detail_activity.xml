@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/series_detail_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/theme_shop_v6_detail_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/shop_theme_series_detail_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout style="@style/v7_common_header_layout" >
+
+            <LinearLayout
+                android:layout_width="60dip"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/v7_gap1_15dp" >
+
+                <ImageView
+                    android:id="@+id/back"
+                    style="@style/v7_common_header_goback" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/shop_theme_series_detail_title"
+                style="@style/v7_common_header_title"
+                android:text="@string/theme_series_detail_title" />
+
+            <ImageView
+                android:id="@+id/help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/v7_gap1_15dp"
+                android:src="@drawable/theme_shop_pay_help" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipToPadding="false" >
+
+        <ScrollView
+            android:id="@+id/seriesDetailScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/bottomLayout"
+            android:layout_weight="1.0" >
+
+            <LinearLayout
+                android:id="@+id/theme_series_detail_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" >
+
+                    <LinearLayout
+                        android:id="@+id/theme_detail_maozhua_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/theme_detail_theme_sale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/theme_sale"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/theme_detail_maozhua_mount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/text_for_free"
+                            android:textColor="#ffffc52d"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/theme_detail_maozhua_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/maozhua_icon" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/theme_series_mark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginBottom="8dip"
+                        android:layout_marginTop="8dip"
+                        android:background="@drawable/theme_series_mark_bg"
+                        android:gravity="center"
+                        android:paddingBottom="5dip"
+                        android:paddingLeft="8dip"
+                        android:paddingRight="8dip"
+                        android:paddingTop="5dip"
+                        android:text="我的可爱第1天"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <com.nd.hilauncherdev.framework.view.commonview.ViewPageCascade
+                    android:id="@+id/shop_theme_gallery"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <!-- 设置默认桌面banner -->
+
+                        <com.nd.hilauncherdev.shop.shop6.guidesetlauncher.GuideSetLauncherBannerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"/>
+
+                        <!-- 主题描述 -->
+
+                        <com.nd.hilauncherdev.shop.widget.MoreDescribTxtView
+                            android:id="@+id/theme_series_desc2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="15dp"
+                            android:layout_marginTop="-10dip"
+                            android:background="@drawable/recommend_bg_card"
+                            android:paddingLeft="14dp"
+                            android:paddingRight="14dp"
+                            android:paddingTop="10dp"
+                            android:visibility="gone" >
+                        </com.nd.hilauncherdev.shop.widget.MoreDescribTxtView>
+
+                        <!-- 主题相关应用 -->
+
+                        <com.nd.hilauncherdev.shop.shop3.appsoft.ThemeAppSoftsView
+                            android:id="@+id/theme_app_soft"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:layout_marginTop="-10dip"
+                            android:background="@drawable/recommend_bg_card"
+                            android:paddingLeft="14dp"
+                            android:paddingRight="22dp"
+                            android:visibility="gone" >
+                        </com.nd.hilauncherdev.shop.shop3.appsoft.ThemeAppSoftsView>
+
+                        <!-- 评论 -->
+
+                        <RelativeLayout
+                            android:id="@+id/theme_detail_comment_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:background="@color/theme_detail_item_bg_color"
+                            android:paddingBottom="14dp"
+                            android:paddingLeft="14dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="14dp"
+                            android:visibility="gone" >
+
+                            <TextView
+                                android:id="@+id/theme_detail_comment"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:text="@string/theme_shop_v6_detail_comment"
+                                android:textColor="#595959"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/theme_detail_comment_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="13dp"
+                                android:layout_toRightOf="@+id/theme_detail_comment"
+                                android:textColor="#ffaa1f"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:id="@+id/theme_detail_comment_go"
+                                android:layout_width="@dimen/theme_shop_v6_theme_detail_go_width"
+                                android:layout_height="@dimen/theme_shop_v6_theme_detail_go_height"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/theme_detail_go" />
+                        </RelativeLayout>
+
+                        <!-- 淘宝广告 -->
+
+                        <FrameLayout
+                            android:id="@+id/taobao_ads_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp" >
+
+                            <com.nd.hilauncherdev.shop.shop6.AdImageView
+                                android:id="@+id/taobao_ads_image"
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:scaleType="fitXY" />
+                        </FrameLayout>
+
+                        <!-- 自定义天天主题Banner -->
+
+                        <include
+                            android:id="@+id/themedetail_banner_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            layout="@layout/theme_shop_v6_theme_detail_banner" />
+
+                        <!-- 相关主题推荐 -->
+
+                        <com.nd.hilauncherdev.shop.widget.RelateThemeView
+                            android:id="@+id/theme_detail_relate_theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="6dp"
+                            android:paddingRight="6dp"
+                            android:paddingBottom="15dp"
+                            android:layout_marginTop="-10dip"
+                            android:background="@drawable/recommend_bg_card"
+                            android:visibility="gone" >
+                        </com.nd.hilauncherdev.shop.widget.RelateThemeView>
+
+                        <!-- 推荐应用 -->
+
+                        <com.nd.hilauncherdev.shop.widget.RecommendApps
+                            android:id="@+id/theme_detail_recomment_apps"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="6dp"
+                            android:paddingRight="6dp"
+                            android:paddingBottom="15dp"
+                            android:layout_marginTop="-10dip"
+                            android:background="@drawable/recommend_bg_card"
+                            android:visibility="gone" >
+                        </com.nd.hilauncherdev.shop.widget.RecommendApps>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <include
+            android:id="@+id/bottomLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/myphone_bottom_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/theme_shop_v6_series_detail_activity_bottom"
+            android:background="@drawable/theme_shop_v6_manage_downtask_title_bg" />
+        <!-- Loading模块 -->
+
+        <com.nd.hilauncherdev.shop.widget.LoadingStateView
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/myphone_bg_color" />
+    </RelativeLayout>
+
+</LinearLayout>

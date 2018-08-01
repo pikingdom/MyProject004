@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/theme_shop_v6_loading_style_mid" />
+
+    <com.nd.hilauncherdev.shop.shop3.customview.NetErrorAndSettingView
+        android:id="@+id/neterror_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/turnplater_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff" />
+
+            <ImageView
+                android:id="@+id/action_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/action_bg" />
+
+            <ImageView
+                android:id="@+id/action_bar_stick"
+                android:layout_width="wrap_content"
+                android:layout_height="300dip"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="50dip"
+                android:src="@drawable/action_bar_stick" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <FrameLayout
+                    android:id="@+id/actionbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <com.nd.hilauncherdev.shop.shop3.TurnplateGallery
+                        android:id="@+id/gallery"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:spacing="5dip" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/circle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/actionbar"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="top"
+                    android:paddingTop="0dip" >
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/circle1" />
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/circle2" />
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/circle3" />
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/circle4" />
+
+                    <com.nd.hilauncherdev.shop.shop3.TurnplateView
+                        android:id="@+id/turnplateView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                    </com.nd.hilauncherdev.shop.shop3.TurnplateView>
+                </FrameLayout>
+            </RelativeLayout>
+        </FrameLayout>
+
+        <include layout="@layout/theme_shop_v6_loading_style_bottom" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/theme_shop_v6_common_header_view" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_theme_style_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+            <!--android:background="@drawable/theme_shop_v8_style_banner" -->
+
+        <ListView
+            android:layout_marginTop="-10dp"
+            android:id="@+id/list_theme_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv_theme_style_tip"
+            android:background="@drawable/recommend_bg_card"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/transparent_background"
+            android:dividerHeight="0dip"
+            android:fadingEdge="none"
+            android:gravity="center"
+            android:listSelector="@drawable/transparent_background"
+            android:numColumns="1"
+            android:transcriptMode="disabled" />
+
+        <!-- Loading模块 -->
+
+        <com.nd.hilauncherdev.shop.widget.LoadingStateView
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/myphone_bg_color"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

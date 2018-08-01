@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewbkId"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 标题栏 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/toolbarsize"
+        android:background="@drawable/weather_shape_titlebk" >
+
+        <Button
+            android:id="@+id/weathersetbackId"
+            style="@style/backButton"
+            android:text="@string/finish_text" />
+
+        <TextView
+            android:id="@+id/weatherToolTextid"
+            style="@style/titleText_w"
+            android:text="@string/cityset" />
+
+        <Button
+            android:id="@+id/city_set_add"
+            style="@style/rightButton"
+            android:text="@string/citysetadd" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/toolbarsize"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="6.66dp"
+            android:layout_weight="1"
+            android:background="@drawable/weather_shape_list_bk"
+            android:orientation="vertical" >
+
+            <!-- 列表 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="54dip"
+                android:orientation="horizontal"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/position_list_item_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:src="@drawable/position" />
+
+                <TextView
+                    android:id="@+id/list_item_textId"
+                    android:layout_width="0dp"
+                    android:layout_height="35dip"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10.6dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:textSize="18sp"
+                    android:singleLine="true"
+                    android:textColor="@color/default_text_main" />
+
+                <CheckBox
+                    android:id="@+id/gps_item_imageId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_toLeftOf="@+id/drag_list_item_image"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingRight="25dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@drawable/weather_shape_list_line" />
+
+            <com.nd.weather.widget.Ctrl.DragListView
+                android:id="@+id/drag_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:clickable="false"
+                android:divider="@drawable/weather_shape_list_line"
+                android:dividerHeight="1px"
+                android:drawSelectorOnTop="false"
+                android:drawingCacheQuality="high"
+                android:fastScrollEnabled="true" />
+        </LinearLayout>
+
+        <!-- 功能按钮 -->
+
+        <LinearLayout
+            android:id="@+id/city_set_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="#E9E9E9"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:id="@+id/city_set_delete"
+                android:layout_width="fill_parent"
+                android:layout_height="38dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1"
+                android:background="@drawable/weather_btn_red_selector" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/weather_ico_delete"
+                    android:drawablePadding="8dip"
+                    android:text="删除"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/city_set_order"
+                android:layout_width="fill_parent"
+                android:layout_height="38dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/weather_btn_blue_selector" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/weather_ico_move"
+                    android:drawablePadding="8dip"
+                    android:text="调整顺序"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <!-- 删除确认 -->
+
+        <LinearLayout
+            android:id="@+id/llOperFinish"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="#dfe9f3"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tvOperHint"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/delete_city_hint"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <FrameLayout
+                android:id="@+id/btnFinish"
+                android:layout_width="fill_parent"
+                android:layout_height="38dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:background="@drawable/weather_btn_blue_selector" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/weather_ico_ok"
+                    android:drawablePadding="8dip"
+                    android:text="完成"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="myphone_info_view_image_size">120dip</dimen>
+    <dimen name="myphone_info_view_margin_top">30dip</dimen>
+    <dimen name="text_size">13sp</dimen>
+    <dimen name="workspaceEndPadding">70dip</dimen>
+    <dimen name="workspaceStartPadding">30dip</dimen>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.shop.shop6.v8recommend.ThemeShopV8MoreEntranceView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recommend_bg_card"
+    android:paddingBottom="10dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/v7_gap1_15dp"
+        android:singleLine="true"
+        android:layout_marginTop="@dimen/v8_gap1_9dp"
+        android:text="@string/shop_theme_v8_more_entrance"
+        android:textColor="#181818"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/entrance_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="17dip"
+        android:layout_marginBottom="@dimen/v8_gap1_9dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/entrance_icons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="9dip"
+            android:drawableTop="@drawable/entrance_icons_selector"
+            android:gravity="center"
+            android:text="@string/recommend_entrance_icons"
+            android:textColor="#181818"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/entrance_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="9dip"
+            android:drawableTop="@drawable/entrance_lock_selector"
+            android:gravity="center"
+            android:text="@string/recommend_entrance_lock"
+            android:textColor="#181818"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/entrance_wallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="9dip"
+            android:drawableTop="@drawable/entrance_wallpaper_selector"
+            android:gravity="center"
+            android:text="@string/recommend_entrance_wallpaper"
+            android:textColor="#181818"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/entrance_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="9dip"
+            android:drawableTop="@drawable/entrance_font_selector"
+            android:gravity="center"
+            android:text="@string/recommend_entrance_font"
+            android:textColor="#181818"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</com.nd.hilauncherdev.shop.shop6.v8recommend.ThemeShopV8MoreEntranceView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 每条热词内容显示布局 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_margin="5dip"
+	    android:layout_gravity="center"
+	    android:background="@drawable/theme_shop_v8_text_stroke_bg" >
+		<RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:gravity="center"
+		    android:layout_gravity="center"
+		    android:paddingLeft="3dp"
+		    android:paddingRight="3dp">
+		    <ImageView
+		        android:id="@+id/hotword_info_item_image"
+		        android:layout_width="match_parent"
+		        android:layout_height="48dp"
+		        android:layout_gravity="center"
+		        android:scaleType="fitCenter"
+		        android:layout_marginLeft="7dp"
+		        android:layout_marginRight="7dp"
+		        android:layout_marginTop="5dp"
+		        android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+		
+		    <TextView
+		        android:id="@+id/hotword_info_item_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentBottom="true"
+		        android:layout_below="@+id/hotword_info_item_image"
+		        android:ellipsize="end"
+		        android:gravity="center"
+		        android:singleLine="true"
+		        android:text="@string/application_name"
+		        android:textColor="#181818"
+		        android:textSize="15sp" />
+	    </RelativeLayout>
+	</RelativeLayout>
+    <ImageView
+        android:id="@+id/hotword_info_item_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        android:src="@drawable/theme_shop_v8_search_hot" />
+</FrameLayout>

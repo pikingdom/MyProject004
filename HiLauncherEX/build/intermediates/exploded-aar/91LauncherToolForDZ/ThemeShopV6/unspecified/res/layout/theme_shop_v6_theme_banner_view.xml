@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/presonal_compaign_mainview_header"
+        android:layout_width="match_parent"
+        android:layout_height="115dip">
+
+        <com.nd.hilauncherdev.menu.personal.compaign.CompaignSlidingView
+            android:id="@+id/presonal_compaign_mainview_header_slidingview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.nd.hilauncherdev.framework.view.commonsliding.CommonLightbar
+            android:id="@+id/lightbar"
+            android:layout_width="wrap_content"
+            android:layout_height="15dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dip"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/launcher_menu_presonal_compaign_rightbar_bg"
+            android:gravity="center_vertical" />
+    </RelativeLayout>
+
+
+    <com.nd.hilauncherdev.shop.shop3.customview.BannerTagHotView
+        android:id="@+id/taghot_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="@dimen/theme_shop_v6_recomment_taghot_img_margin_6"
+        android:background="@color/theme_shop_v6_detail_bg" />
+
+    <LinearLayout
+        android:id="@+id/btns_jump"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="25.33dp"
+        android:layout_marginLeft="15.33dp"
+        android:layout_marginRight="15.33dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+
+        <LinearLayout
+            android:id="@+id/paihang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/paihang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.33dp"
+                android:gravity="center"
+                android:text="@string/profile_paihang"
+                android:textColor="@color/theme_shop_jump_btn"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fenglei"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/feilei" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.33dp"
+                android:gravity="center"
+                android:text="@string/profile_fenlei"
+                android:textColor="@color/theme_shop_jump_btn"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/zuixin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/zuixin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.33dp"
+                android:gravity="center"
+                android:text="@string/profile_zhuanji"
+                android:textColor="@color/theme_shop_jump_btn"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hunda"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/hunda" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.33dp"
+                android:gravity="center"
+                android:text="@string/profile_hunda"
+                android:textColor="@color/theme_shop_jump_btn"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bendi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/bendi" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.33dp"
+                android:gravity="center"
+                android:text="@string/profile_bendi"
+                android:textColor="@color/theme_shop_jump_btn"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/recommendTip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#7a7a7a"
+            android:text="新品推荐"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#1e000000" />
+    </LinearLayout>
+
+
+</LinearLayout>

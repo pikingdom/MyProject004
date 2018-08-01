@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<ImageView
+	     android:id="@+id/drawer_workspace_preview_sliding_left_tip"
+	     android:src="@drawable/drawer_workspace_preview_sliding_tip"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentLeft="true"
+	     android:layout_alignParentBottom="true"
+	     android:visibility="gone" />
+	<com.nd.hilauncherdev.drawer.view.DrawerPreviewWorkspace
+		android:id="@+id/sliding_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingTop="28dip"
+		android:layout_centerInParent="true" />
+	<ImageView
+	     android:id="@+id/drawer_workspace_preview_sliding_right_tip"
+	     android:src="@drawable/drawer_workspace_preview_sliding_right_tip"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentRight="true"
+	     android:layout_alignParentBottom="true"
+	     android:visibility="gone" />
+</RelativeLayout>

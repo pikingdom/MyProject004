@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:minHeight="60dp"
+    android:orientation="horizontal"
+    android:background="@drawable/navigation_search_group_bg_selector"
+    android:clickable="true"
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/themeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/black"
+        android:textSize="16sp" 
+        android:text="themeTitle"/>
+
+    <TextView
+        android:id="@+id/themeDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/themeTitle"
+        android:layout_below="@+id/themeTitle"
+        android:text="themeDateTime"
+         android:textColor="#7a7a7a"
+        android:textSize="13sp" />
+	<TextView
+        android:id="@+id/themePrice"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:layout_marginRight="10dp"
+        android:textSize="13sp" 
+        android:text="themeTitle"/>
+
+    <TextView
+        android:id="@+id/themeDeal"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/themeDateTime"
+        android:layout_alignBottom="@+id/themeDateTime"
+        android:layout_alignLeft="@+id/themePrice"
+        android:text="themeDeal"
+        android:textColor="#7a7a7a"
+        android:textSize="13sp" />
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.launcher.addboot.LauncherAddMainView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/launcher_addboot"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingTop="@dimen/status_bar_height"
+	android:visibility="gone">
+	
+	<LinearLayout android:id="@+id/addboot_top_layout"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/addboot_top_layout_height"
+		android:layout_alignParentTop="true"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:visibility="invisible">
+		
+	    <LinearLayout android:id="@+id/addboot_top_layout_default_mode"
+		     android:layout_width="match_parent"
+		     android:layout_height="match_parent"
+		     android:gravity="center_vertical">
+		     
+				<com.nd.hilauncherdev.app.view.FontableCheckedTextView 
+				    android:id="@+id/addboot_all_apps_btn"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:paddingLeft="15dip"
+					android:paddingRight="15dip"
+					android:gravity="center"
+					android:checked="true"
+					android:text="@string/drawer_all_apps"/>	
+				
+				<com.nd.hilauncherdev.app.view.FontableCheckedTextView 
+				    android:id="@+id/addboot_myphone_btn"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:paddingLeft="15dip"
+					android:paddingRight="15dip"
+					android:gravity="center"
+					android:text="@string/drawer_my_phone" />
+				
+				<com.nd.hilauncherdev.app.view.FontableCheckedTextView 
+				    android:id="@+id/addboot_91_shortcut_btn"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:paddingLeft="15dip"
+					android:paddingRight="15dip"
+					android:gravity="center"
+					android:text="@string/launcher_edit_add_panda_shortcut"/>
+				
+				<com.nd.hilauncherdev.app.view.FontableCheckedTextView 
+				    android:id="@+id/addboot_sys_shortcut_btn"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:paddingLeft="15dip"
+					android:paddingRight="15dip"
+					android:gravity="center"
+					android:text="@string/launcher_edit_add_system_shortcut"/>
+
+				<com.nd.hilauncherdev.app.view.FontableCheckedTextView
+				    android:id="@+id/addboot_widget_btn_v7"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:layout_weight="1"
+				    android:gravity="center"
+				    android:paddingLeft="15dip"
+				    android:paddingRight="15dip"
+				    android:text="@string/drawer_widgets"/>
+
+		</LinearLayout>
+		
+		<LinearLayout android:id="@+id/addboot_top_layout_widget_mode"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center_vertical"
+			android:visibility="gone">
+			<com.nd.hilauncherdev.app.view.FontableCheckedTextView 
+			    android:id="@+id/addboot_widget_btn"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:paddingLeft="15dip"
+				android:paddingRight="15dip"
+				android:gravity="center"
+				android:checked="true"
+				android:text="@string/drawer_widgets"/>
+	    </LinearLayout>
+	
+	</LinearLayout>
+	
+	<RelativeLayout android:id="@+id/addboot_bottom_layout"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/addboot_bottom_layout_height"
+		android:layout_alignParentBottom="true"
+		android:background="#CC000000">
+		<ImageView
+		     android:id="@+id/addboot_preview_ws_sliding_left_tip"
+		     android:src="@drawable/launcher_edit_add_pages_left_pressed"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_alignParentLeft="true"
+		     android:layout_centerVertical="true"/>
+		<com.nd.hilauncherdev.launcher.addboot.LauncherAddPreviewWorkspace
+			android:id="@+id/addboot_preview_ws"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_centerInParent="true"/>
+		<ImageView
+		     android:id="@+id/addboot_preview_ws_sliding_right_tip"
+		     android:src="@drawable/launcher_edit_add_pages_right_pressed"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_alignParentRight="true"
+		     android:layout_centerVertical="true"/>
+	</RelativeLayout>
+
+	<com.nd.hilauncherdev.framework.view.commonsliding.LineLightbar
+		android:id="@+id/addboot_lightbar" 
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/addboot_light_height"
+		android:layout_marginLeft="5dip" 
+		android:layout_marginRight="5dip"
+		android:layout_marginBottom="@dimen/addboot_bottom_layout_height"
+		android:layout_alignParentBottom="true"
+		android:visibility="invisible" />
+        
+	<com.nd.hilauncherdev.launcher.addboot.LauncherAddContentView
+		android:id="@+id/addboot_content_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@id/addboot_lightbar"
+		android:layout_below="@id/addboot_top_layout"
+		android:visibility="invisible"/>
+	
+</com.nd.hilauncherdev.launcher.addboot.LauncherAddMainView>

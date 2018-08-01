@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.widget.baidu.WidgetView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:marqueeview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp" >
+
+    <com.nd.hilauncherdev.widget.common.WidgetCommonBackground4x1
+        android:id="@+id/fakeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/widget_background4x1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/baidu_widget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/baidu_widget_bg"
+            android:paddingTop="7dp" >
+
+            <ImageView
+                android:id="@+id/btnQRCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:src="@drawable/searchbox_btn_qrcode_selector" />
+
+            <TextView
+                android:id="@+id/txtSearchInput"
+                android:textColorHint="#4cffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@id/btnQRCode"
+                android:background="@drawable/widget_search_input_bg"
+                android:layout_alignTop="@+id/searchLogo"
+                android:layout_alignBottom="@+id/searchLogo"
+                android:editable="false"
+                android:focusable="false"
+                android:gravity="center_vertical|left"
+                android:inputType="text"
+                android:paddingLeft="45dip"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/search_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_alignTop="@+id/searchLogo"
+                android:layout_alignBottom="@+id/searchLogo" >
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/searchLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/widget_baidu_logo" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_alignRight="@id/txtSearchInput"
+                android:layout_alignTop="@id/searchLogo"
+                android:layout_alignBottom="@id/searchLogo"
+                android:scaleType="centerInside"
+                android:src="@drawable/baidu_widget_search_icon" />
+
+            <ImageView
+                android:id="@+id/btnSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:src="@drawable/widget_search_navigation"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="2dp" />
+
+        <com.nd.hilauncherdev.widget.baidu.MarqueeView
+            android:id="@+id/hotwordFlatView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:fadingEdge="horizontal"
+            android:paddingBottom="8dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            marqueeview:marqueeSpeedInterval="35"
+            marqueeview:text_Color="#000"
+            marqueeview:text_HighlightColor="#948cef"/>
+    </com.nd.hilauncherdev.widget.common.WidgetCommonBackground4x1>
+
+</com.nd.hilauncherdev.widget.baidu.WidgetView>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_le_bg">
+
+
+
+    <include
+        android:id="@+id/include_top"
+        layout="@layout/include_le_guide_page_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_le_include_page_top_h"/>
+    <include
+        layout="@layout/include_le_guide_page_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_le_include_page_bottom_h"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_top"
+        android:layout_above="@id/include_bottom"
+        android:layout_marginTop="21.7dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#868686"
+            android:textSize="11.43dp"
+            android:text="调整屏幕显示内容的大小及布局"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="13.3dp"
+            android:textColor="#868686"
+            android:textSize="11.43dp"
+            android:text="@string/guide_le_select_view_size"/>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/view_size_select_def"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/view_size_iv_def"
+                    android:layout_width="98.29dp"
+                    android:layout_height="201.4dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_le_view_size_def_press"/>
+
+                <TextView
+                    android:id="@+id/view_size_tv_def"
+                    android:layout_below="@id/view_size_iv_def"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="18.29dp"
+                    android:textColor="@color/guide_le_view_size_press"
+                    android:textSize="12.57dp"
+                    android:text="标准(当前)"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/view_size_select_enlarge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/view_size_iv_enlarge"
+                    android:layout_width="98.29dp"
+                    android:layout_height="201.4dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_le_view_size_enlarge_normal"/>
+
+                <TextView
+                    android:id="@+id/view_size_tv_enlarge"
+                    android:layout_below="@id/view_size_iv_enlarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="18.29dp"
+                    android:textColor="@color/guide_le_view_size_normal"
+                    android:textSize="12.57dp"
+                    android:text="放大"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

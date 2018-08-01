@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-480x320\\values-480x320.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 56,
+                    "endOffset": 107
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\values-480x320\\dimen.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 103,
+                        "endColumn": 53,
+                        "endOffset": 155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 112,
+                    "endColumn": 43,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\values-480x320\\dimen.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 212,
+                        "endColumn": 40,
+                        "endOffset": 251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 156,
+                    "endColumn": 51,
+                    "endOffset": 203
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\values-480x320\\dimen.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 162,
+                        "endColumn": 48,
+                        "endOffset": 209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 208,
+                    "endColumn": 50,
+                    "endOffset": 254
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\values-480x320\\dimen.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 54,
+                        "endColumn": 47,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 259,
+                    "endColumn": 52,
+                    "endOffset": 307
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\values-480x320\\dimen.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 254,
+                        "endColumn": 49,
+                        "endOffset": 302
+                    }
+                }
+            }
+        ]
+    }
+]

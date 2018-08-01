@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom>
+    <!-- 放置app -->
+    <recommend_apps>
+        <!-- 首页 -->
+
+        <!-- 第一行 -->
+        <app>
+            <!-- 日历 -->
+            <package_name>com.android.calendar/com.android.calendar.AllInOneActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>0</x>
+            <y>0</y>
+        </app>
+
+        <app>
+            <!-- 时钟 -->
+            <package_name>com.coloros.alarmclock/com.coloros.alarmclock.AlarmClock</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>1</x>
+            <y>0</y>
+        </app>
+
+        <app>
+            <!-- 天气 -->
+            <package_name>com.coloros.weather/com.coloros.weather.OppoMainActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>2</x>
+            <y>0</y>
+        </app>
+
+        <app>
+            <!-- 设置 -->
+            <package_name>com.android.settings/com.oppo.settings.SettingsActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>3</x>
+            <y>0</y>
+        </app>
+        <!-- 第一行 END -->
+
+        <!-- 第二行 -->
+        <app>
+            <!-- 音乐 -->
+            <package_name>com.oppo.music/com.oppo.music.MainListActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>0</x>
+            <y>1</y>
+        </app>
+
+        <app>
+            <!-- 视频 -->
+            <package_name>com.tencent.tvoem/com.tencent.qqlive.ona.activity.WelcomeActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>1</x>
+            <y>1</y>
+        </app>
+
+        <app>
+            <!-- 相册 -->
+            <package_name>com.coloros.gallery3d/com.oppo.gallery3d.app.Gallery</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>2</x>
+            <y>1</y>
+        </app>
+
+        <app>
+            <!-- 主题商店 -->
+            <package_name>#pkg_name#.themeshop</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>3</x>
+            <y>1</y>
+        </app>
+        <!-- 第二行 END -->
+
+        <!-- 第三行 -->
+        <app>
+            <!-- 手机管家 -->
+            <package_name>com.coloros.safecenter/com.coloros.safecenter.SecureSafeMainActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>0</x>
+            <y>2</y>
+        </app>
+
+        <app>
+            <!-- 腾讯新闻 -->
+            <package_name>com.tencent.news/com.tencent.news.activity.SplashActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>1</x>
+            <y>2</y>
+        </app>
+
+        <app>
+            <!-- 应用商店 -->
+            <package_name>com.huohou.apps/com.huohou.apps.ui.activities.OpenADActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>2</x>
+            <y>2</y>
+        </app>
+
+        <app>
+            <!-- 游戏中心 -->
+            <package_name>com.nearme.gamecenter/com.nearme.gamecenter.ui.activity.SplashActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>3</x>
+            <y>2</y>
+        </app>
+        <!-- 第三行 END -->
+
+        <!-- 第四行 -->
+        <app>
+            <!-- 高德地图 -->
+            <package_name>com.autonavi.minimap/com.autonavi.map.activity.SplashActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>0</x>
+            <y>3</y>
+        </app>
+
+        <app>
+            <!-- 搜狗搜索 -->
+            <package_name>com.sogou.activity.src/com.sogou.activity.src.SplashActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>2</x>
+            <y>3</y>
+        </app>
+
+        <app>
+            <!-- 天猫 -->
+            <package_name>com.tmall.wireless/com.tmall.wireless.splash.TMSplashActivity</package_name>
+            <container>0</container>
+            <screen>0</screen>
+            <x>3</x>
+            <y>3</y>
+        </app>
+        <!-- 第四行 END -->
+
+        <!-- ===============第二屏============ -->
+
+        <!-- 第一行 -->
+        <app>
+            <!-- 今日头条 -->
+            <package_name>com.ss.android.article.news/com.ss.android.article.news.activity.SplashActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>0</x>
+            <y>0</y>
+        </app>
+
+        <app>
+            <!-- 美团 -->
+            <package_name>com.sankuai.meituan/com.sankuai.meituan.activity.Welcome</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>1</x>
+            <y>0</y>
+        </app>
+
+        <app>
+            <!-- 应用宝 -->
+            <package_name>com.tencent.android.qqdownloader/com.tencent.assistant.activity.SplashActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>2</x>
+            <y>0</y>
+        </app>
+
+        <app>
+            <!-- OPPO会员 -->
+            <package_name>com.oppo.usercenter/com.oppo.usercenter.vip.UCVIPMainActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>3</x>
+            <y>0</y>
+        </app>
+        <!-- 第一行 END -->
+
+        <!-- 第二行 -->
+        <app>
+            <!-- 酷我音乐 -->
+            <package_name>cn.kuwo.player/cn.kuwo.player.activities.EntryActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>0</x>
+            <y>1</y>
+        </app>
+
+        <app>
+            <!-- 京东 -->
+            <package_name>com.jingdong.app.mall/com.jingdong.app.mall.MainActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>1</x>
+            <y>1</y>
+        </app>
+
+        <app>
+            <!-- 腾讯视频 -->
+            <package_name>com.tencent.qqlive/com.tencent.qqlive.ona.activity.WelcomeActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>2</x>
+            <y>1</y>
+        </app>
+
+        <app>
+            <!-- 百度搜索 -->
+            <package_name>com.baidu.searchbox/com.baidu.searchbox.SplashActivity</package_name>
+            <container>0</container>
+            <screen>1</screen>
+            <x>3</x>
+            <y>1</y>
+        </app>
+        <!-- 第二行 END -->
+
+        <!-- DOCKER配置 -->
+        <app>
+            <!-- 浏览器 -->
+            <package_name>com.android.browser/com.android.browser.BrowserActivity</package_name>
+            <container>1</container>
+            <screen>0</screen>
+            <x>2</x>
+        </app>
+
+        <app>
+            <!-- 相机 -->
+            <package_name>com.oppo.camera/com.oppo.camera.Camera</package_name>
+            <container>1</container>
+            <screen>0</screen>
+            <x>3</x>
+        </app>
+    </recommend_apps>
+
+    <!-- 放置文件夹 -->
+    <recommend_folders>
+        <!-- 放置文件夹到图标区 -->
+        <folder>
+            <apps>
+                <package_name>com.oppo.market/com.oppo.market.activity.MainActivity</package_name>
+                <package_name>com.android.calculator2/com.android.calculator2.Calculator</package_name>
+                <package_name>com.nineton.weatherforecast</package_name>
+            </apps>
+            <container>0</container>
+            <screen>0</screen>
+            <x>1</x>
+            <y>3</y>
+            <folder_name>工具</folder_name>
+        </folder>
+
+        <folder>
+            <apps>
+                <package_name>cn.jj/cn.jj.mobile.lobby.view.Main</package_name>
+                <package_name>com.storm.smart/com.storm.smart.LogoActivity</package_name>
+            </apps>
+            <container>0</container>
+            <screen>1</screen>
+            <x>1</x>
+            <y>2</y>
+            <folder_name>娱乐</folder_name>
+        </folder>
+
+        <folder>
+            <apps>
+                <package_name>com.iflytek.inputmethod/com.iflytek.inputmethod.LauncherActivity</package_name>
+                <package_name>com.cainiao.wireless/com.cainiao.commonsharelibrary.navigation.navtest.NewMainActivity</package_name>
+                <package_name>com.zhongcai500/com.zhongcai500.ui.InitActivity</package_name>
+            </apps>
+            <container>0</container>
+            <screen>1</screen>
+            <x>2</x>
+            <y>2</y>
+            <folder_name>推荐</folder_name>
+        </folder>
+
+        <folder>
+            <apps>
+                <package_name>com.tencent.mtt/com.tencent.mtt.SplashActivity</package_name>
+                <package_name>com.UCMobile/com.UCMobile.main.UCMobile</package_name>
+                <package_name>com.androidmarket.dingzhi/com.market2345.navigation.NavigationActivity</package_name>
+                <package_name>com.dianxinos.optimizer.channel/cn.com.opda.android.mainui.MainActivity</package_name>
+                <package_name>com.baidu.browser.apps/com.baidu.browser.framework.BdBrowserActivity</package_name>
+                <package_name>com.baidu.appsearch/com.baidu.appsearch.LauncherActivity</package_name>
+                <package_name>com.taobao.taobao/com.taobao.tao.welcome.Welcome</package_name>
+            </apps>
+            <container>0</container>
+            <screen>1</screen>
+            <x>3</x>
+            <y>2</y>
+            <folder_name>常用</folder_name>
+        </folder>
+    </recommend_folders>
+
+    <hide_apps>
+        <package_name>com.nearme.themespace/com.nearme.themespace.activities.ThemeActivity</package_name>
+    </hide_apps>
+
+    <!-- 布局，4表示5x4，5表示5x5 -->
+    <layout>4</layout>
+    <!-- 是否有0屏 -->
+    <navigation_screen>false</navigation_screen>
+    <!-- 百度渠道id -->
+    <baidu_channel_id></baidu_channel_id>
+    <!-- 浏览器首页URL -->
+    <browser_url></browser_url>
+</custom>

@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="calendar_dynamic_icon_a_week">
+	    <item>Sun.</item>
+	    <item>Mon.</item>
+	    <item>Tues.</item>
+	    <item>Wed.</item>
+	    <item>Thur.</item>
+	    <item>Fri.</item>
+	    <item>Sat.</item>
+	</string-array>
+    <integer-array name="class_folder_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+    <string-array name="class_folder_name">
+        <item>Games</item>
+        <item>Player</item>
+        <item>Glamorize</item>
+        <item>IM</item>
+        <item>Travel</item>
+        <item>Reading</item>
+        <item>Shopping</item>
+        <item>Lifestyle</item>
+        <item>Productivity</item>
+        <item>Beautify</item>
+    </string-array>
+    <string-array name="cleaner_widget_bubble_tip_array">
+		<item>Poke here to do a trick together~</item>
+		<item>Phone is tired. Clean it up~~</item>
+		<item>Hey, tap me. Flex your fingers.</item>
+		<item>It\'s time to clean up the phone memory!</item>
+	</string-array>
+    <string-array name="cleaner_widget_clean_result_tip_array">
+		<item>Boosted %1$s. Your phone runs faster than light!</item>
+		<item>Boosted %1$s. Your phone is feeling refreshed.</item>
+		<item>Boosted %1$s. Trash and cache both cleared.</item>
+		<item>Boosted %1$s. Cleaning up is a good habit~</item>
+	</string-array>
+    <string-array name="drawer_app_sort_rule">  
+        <item>Alphabetical</item>
+        <item>Latest installed first</item>
+        <item>Earliest installed first</item>
+        <item>Most used first</item>
+        <item>Least used first</item>
+    </string-array>
+    <string-array name="month_full">
+		<item>January</item>
+		<item>February</item>
+		<item>March</item>
+		<item>April</item>
+		<item>May</item>
+		<item>June</item>
+		<item>July</item>
+		<item>Aguest</item>
+		<item>September</item>
+		<item>October</item>
+		<item>November</item>
+		<item>December</item>
+	</string-array>
+    <string-array name="myphone_battery_intelligent_week">
+		<item>Sun</item>
+		<item>Mon</item>
+		<item>Tue</item>
+		<item>Wen</item>
+		<item>Thu</item>
+		<item>Fri</item>
+		<item>Sat</item>
+	</string-array>
+    <string-array name="scene_select_dialog_operate_type_0">
+		<item>Preview</item>
+		<item>Apply</item>
+		<item>Delete</item>
+	  </string-array>
+    <string-array name="scene_select_dialog_operate_type_1">
+		<item>Preview</item>
+		<item>Apply</item>
+	</string-array>
+    <string-array name="scene_select_dialog_operate_type_2">
+		<item>Apply</item>
+		<item>Delete</item>
+	  </string-array>
+    <string-array name="scene_select_dialog_operate_type_3">
+		<item>Apply</item>
+	</string-array>
+    <string-array name="settings_common_effects_drawer_array">
+    	<item>Default</item>
+		<item>Random</item>				
+		<item>Zoom(Out)</item>
+		<item>Zoom(In)</item>
+		<item>Windmill</item>
+		<item>TV</item>
+	</string-array>
+    <string-array name="settings_common_effects_drawer_drawable">
+        <item>drawer_effect_default</item>
+        <item>edit_mode_effect_random</item>
+        <item>drawer_effect_zoom_out</item>
+        <item>drawer_effect_zoom_in</item>
+        <item>drawer_effect_windmill</item>
+        <item>drawer_effect_tv</item>
+        <item>drawer_effect_flip</item>
+    </string-array>
+    <string-array name="settings_common_effects_drawer_scroll_array">
+		<item>Default</item>
+		<item>Random</item>	
+		<item>Stack</item>
+		<item>Roll</item>
+		<item>Flip</item>
+		<item>Pendulum</item>
+		<item>Cube(Inside)</item>
+		<item>Cube(Outside)</item>
+		<item>Shutter</item>
+		<item>Chord</item>	
+		<item>Binary star</item>
+		<item>Chariot</item>
+		<item>Sphere</item>
+		<item>Cylinder</item>
+		<item>Tornado</item>
+		<item>Roll scatter</item>
+		<item>Tai Ji</item>
+		<item>Snake</item>
+		<item>Time tunnel</item>
+		<item>Door open</item>
+		<item>Tilt</item>
+	</string-array>
+    <string-array name="settings_common_effects_drawer_value">
+		<item>0</item>
+		<item>1</item>		
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+    <string-array name="settings_common_effects_screen_array">
+		<item>Default</item>
+		<item>Random</item>	
+		<item>Stack</item>
+		<item>Roll</item>
+		<item>Flip</item>
+		<item>Pendulum</item>
+		<item>Cube (Inside)</item>
+		<item>Cube (Outside)</item>
+		<item>Shutter</item>
+		<item>Chord</item>	
+		<item>Binary star</item>
+		<item>Chariot</item>
+		<item>Sphere</item>
+		<item>Cylinder</item>
+		<item>Tornado</item>
+		<item>Roll scatter</item>
+		<item>Tai Ji</item>
+		<item>Snake</item>
+		<item>Time tunnel</item>
+		<item>Door open</item>
+		<item>Tilt</item>
+	</string-array>
+    <string-array name="settings_common_effects_screen_drawable">
+		<item>edit_mode_effect_default</item>
+		<item>edit_mode_effect_random</item>
+		<item>edit_mode_effect_cascading</item>
+		<item>edit_mode_effect_roll</item>
+		<item>edit_mode_effect_turn</item>
+		<item>edit_mode_effect_windower</item>
+		<item>edit_mode_effect_cubeinside</item>
+		<item>edit_mode_effect_cubeoutside</item>
+		<item>edit_mode_effect_shutter</item>
+		<item>edit_mode_effect_chord</item>
+		<item>edit_mode_effect_binarystar</item>
+		<item>edit_mode_effect_wheel</item>
+		<item>edit_mode_effect_global</item>
+		<item>edit_mode_effect_cylinder</item>
+		<item>edit_mode_effect_tornado</item>
+		<item>edit_mode_effect_doubleswallow</item>
+		<item>edit_mode_effect_taiji</item>
+		<item>edit_mode_effect_eatbean</item>
+		<item>edit_mode_effect_time_machine</item>
+		<item>edit_mode_effect_close_door</item>
+		<item>edit_mode_effect_cubeinside</item>
+	</string-array>
+    <string-array name="settings_launcher_countxy_array">
+		<item>4x4(Standard)</item>
+		<item>5x4(Tighter)</item>
+		<item>5x5(Tightest)</item>
+	</string-array>
+    <string-array name="settings_launcher_countxy_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+    <string-array name="settings_launcher_screen_countxy_array">
+		<item>4x4(Standard)</item>
+		<item>5x4(Tighter)</item>
+		<item>5x5(Tightest)</item>
+		<item>Custom grids</item>
+	</string-array>
+    <string-array name="settings_launcher_screen_countxy_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+    <string-array name="settings_particle_effects_screen_array">
+	    <item>None</item>	
+		<item>Fireworks 1</item>
+		<item>Fireworks 2</item>
+		<item>Burst</item>
+		<item>Balloon</item>
+		<item>Love shape</item>
+		<item>Starlight</item>
+		<item>Coins</item>
+		<item>Butterfly</item>
+	</string-array>
+    <string-array name="settings_particle_effects_screen_drawable">
+		<item>particle_effect_icon_none</item>
+		<item>fireworks</item>
+		<item>flower</item>
+		<item>exposure</item>
+		<item>heart_balloon</item>
+		<item>romantic_fireworks</item>
+		<item>romantic_star</item>
+		<item>money</item>
+		<item>butterfly</item>
+	</string-array>
+    <string-array name="settings_particle_effects_screen_value">
+		<item>0</item>
+		<item>1</item>		
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+    <string-array name="settings_personal_double_gesture_menu_entities_down">
+    	<item>Disable</item>
+    	<item>Apps</item>
+    	<item>91 shortcut</item>
+    	<item>Shortcut</item>
+    	<item>Scene theme (Default)</item>
+    </string-array>
+    <string-array name="settings_personal_folder_style_array">
+   	    <item>iPhone style</item>
+		<item>Android 4.0 style</item>
+		<item>FullScreen style</item>	
+	</string-array>
+    <string-array name="settings_personal_folder_style_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+    <string-array name="settings_personal_gesture_menu_entities_down">
+    	<item>Disable</item>
+    	<item>Apps</item>
+    	<item>%1$s shortcut</item>
+    	<item>Shortcut</item>
+    	<item>%1$s Know (Default)</item>
+    </string-array>
+    <string-array name="settings_personal_gesture_menu_entities_up">
+    		<item>Disable</item>
+    	<item>Apps</item>
+    	<item>%1$s shortcut</item>
+    	<item>Shortcut</item>
+    	<item>Search (Default)</item>
+    </string-array>
+    <string-array name="settings_personal_gesture_menu_keys">
+   		<item>0</item>
+    	<item>1</item>
+    	<item>2</item>
+    	<item>3</item>
+    	<item>4</item>
+   	</string-array>
+    <string-array name="suggestion_folder_name">
+		<item>Game</item>
+		<item>Social</item>
+		<item>Tool</item>
+		<item>Network</item>
+		<item>System</item>
+		<item>Work</item>
+		<item>Daily</item>
+		<item>Rarely</item>
+	</string-array>
+    <string-array name="week_full">
+		<item>Sunday</item>
+		<item>Monday</item>
+		<item>Tuesday</item>
+		<item>Wednesday</item>
+		<item>Thursday</item>
+		<item>Friday</item>
+		<item>Saturday</item>
+	</string-array>
+    <string-array name="widget_variety_operate_custom_template">
+        <item>Delete</item>
+    </string-array>
+    <item name="common_view_holder" type="id"/>
+    <item name="drager_controller_on_drag_exit_in_action_move" type="id"/>
+    <item name="launcher_edit_widget_down_item" type="id"/>
+    <item name="system_switcher_holder" type="id"/>
+    <string msgid="3571057450431950427" name="activity_not_found">No app installed on your phone.</string>
+    <string name="alarmClock_not_find">No alarm clock found</string>
+    <string name="alarm_pattern">Alarm mode</string>
+    <string name="alarm_pattern_desc">Enable Alarm only</string>
+    <string name="all_apps_loading_message">Loading Apps</string>
+    <string name="all_apps_no_search_results">No Apps found matching \"%1$s\"</string>
+    <string name="all_apps_search_bar_hint">Search Apps</string>
+    <string name="all_apps_search_market_message">Go to %1$s</string>
+    <string name="alwaysUsePrompt">Set as default. Do not remind me again.</string>
+    <string name="app_assort_tip">Classify apps automatically</string>
+    <string name="app_choose_tab_app">App</string>
+    <string name="app_choose_tab_shortcut">%1$s shortcut</string>
+    <string name="app_choose_title">Add App</string>
+    <string name="application_old_name">91PandaHome</string>
+    <string name="apply_theme">Apply</string>
+    <string name="apply_theme_msg">Applying theme...</string>
+    <string name="appmanager_title">Apps Manager</string>
+    <string name="assort_now">Start</string>
+    <string name="barencode_contents_contact">Contacts</string>
+    <string name="barencode_contents_email">Email</string>
+    <string name="barencode_contents_location">Location</string>
+    <string name="barencode_contents_phone">Phone number</string>
+    <string name="barencode_contents_sms">Text address</string>
+    <string name="barencode_contents_text">Text</string>
+    <string name="battery_app_isrunning">Running</string>
+    <string name="battery_app_stop">Stopped</string>
+    <string name="battery_begin_time">Start time</string>
+    <string name="battery_end_time">End time</string>
+    <string name="battery_hardware_bluetooth">Bluetooth</string>
+    <string name="battery_hardware_cpu">CPU</string>
+    <string name="battery_hardware_gprs">Mobile data</string>
+    <string name="battery_hardware_phone">Calls</string>
+    <string name="battery_hardware_power_rank">Hardwares</string>
+    <string name="battery_hardware_screen">Display</string>
+    <string name="battery_hardware_wifi">Wi-Fi</string>
+    <string name="battery_health">Health condition</string>
+    <string name="battery_health_dead">Battery is dead</string>
+    <string name="battery_health_good">Good health</string>
+    <string name="battery_health_over_voltage">Over-charged</string>
+    <string name="battery_health_overheat">Overheat</string>
+    <string name="battery_health_unknown">Unknown health</string>
+    <string name="battery_history_cpu_fore_time">CPU time (foreground)</string>
+    <string name="battery_history_cpu_time">CPU time</string>
+    <string name="battery_history_data_rx">Download data</string>
+    <string name="battery_history_data_tx">Upload data</string>
+    <string name="battery_history_days">"%1$d day %2$d h"</string>
+    <string name="battery_history_hours">"%1$d h %2$d m"</string>
+    <string name="battery_history_mem_size">Memory size</string>
+    <string name="battery_history_millseconds">"%1$d msecs"</string>
+    <string name="battery_history_minutes">"%1$d m %2$d s"</string>
+    <string name="battery_history_seconds">"%1$d s %2$d msecs"</string>
+    <string name="battery_history_sensor_time">Sensor time</string>
+    <string name="battery_history_wakelock_count">Prevent system sleep times</string>
+    <string name="battery_history_wakelock_time">Prevent system sleep time</string>
+    <string name="battery_history_wakelock_unit">time(s)</string>
+    <string name="battery_mode_name">Mode name:</string>
+    <string name="battery_repeat">Repeat or not </string>
+    <string name="battery_repeat_no">Off</string>
+    <string name="battery_save_tip1">Best status. Please try again later.</string>
+    <string name="battery_save_tip2">%1$s apps have been closed for power saving.</string>
+    <string name="battery_software_power_rank">Apps</string>
+    <string name="battery_technology">Battery type</string>
+    <string name="battery_temperature">Battery temperature</string>
+    <string name="battery_usetime_2dgame">2D game</string>
+    <string name="battery_usetime_2gtel">2G calls</string>
+    <string name="battery_usetime_3dgame">3D game</string>
+    <string name="battery_usetime_3gtel">3G calls</string>
+    <string name="battery_usetime_bluetooth">Bluetooth</string>
+    <string name="battery_usetime_camera">Camera</string>
+    <string name="battery_usetime_default">Battery life</string>
+    <string name="battery_usetime_gprs">3G network</string>
+    <string name="battery_usetime_gps">GPS</string>
+    <string name="battery_usetime_movie">Video player</string>
+    <string name="battery_usetime_music">Music player</string>
+    <string name="battery_usetime_onlinemovie">Online video</string>
+    <string name="battery_usetime_read">Reading</string>
+    <string name="battery_usetime_videorec">Video recorder</string>
+    <string name="battery_usetime_voicerec">Voice recorder</string>
+    <string name="battery_usetime_wifi">Wi-Fi</string>
+    <string name="battery_voltage">Battery voltage</string>
+    <string name="beautify_phone_wallpaper">Wallpaper</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="brightness">Backlight</string>
+    <string name="can_use_time">Battery life</string>
+    <string name="change_mode_suc">Mode changed!</string>
+    <string name="change_mode_tip">Change mode to %1$s?</string>
+    <string name="charging_saver_battery_info_remaining_charging_time">"Charging time left: "</string>
+    <string name="charging_saver_close_dialog_tip">Disabling the Charging Lock Screen can extend standby time. Disable?</string>
+    <string name="charging_saver_common_time_hour">h</string>
+    <string name="charging_saver_common_time_minute">m</string>
+    <string name="charging_saver_screen_slide_to_enter">Slide to unlock>>></string>
+    <string name="charging_saver_type_average">Continuous</string>
+    <string name="charging_saver_type_fast">Speed</string>
+    <string name="charging_saver_type_slowly">Trickle</string>
+    <string name="charging_saver_under_charging">Under Charging Saver</string>
+    <string name="charging_time">Charging</string>
+    <string name="classify_app_in_app">Enjoy Auto-Folder feature in App drawer</string>
+    <string name="classify_autotidy_category_other_folder">Others</string>
+    <string name="classify_autotidy_category_shortcut_folder">Shortcut</string>
+    <string name="classify_autotidy_category_system_folder">System Apps</string>
+    <string name="classify_autotidy_category_tool_folder">Tools</string>
+    <string name="classify_rollback_cancel">Cancel</string>
+    <string name="classify_rollback_ok">OK</string>
+    <string name="close_airplane_mode">Airplane mode disabled</string>
+    <string name="com.nd.android.widget.pandahome.flashlight">15</string>
+    <string name="com.nd.android.widget.pandahome.ionekeyoffscreen">1</string>
+    <string name="com.nd.shortcut.shortcutslot">5</string>
+    <string name="com_nd_android_anyshare_version">1</string>
+    <string name="common_alert">Note</string>
+    <string name="common_button_add">New</string>
+    <string name="common_button_addto">Add</string>
+    <string name="common_button_apply">Apply</string>
+    <string name="common_button_back_to_home">Home</string>
+    <string name="common_button_cancel">Cancel</string>
+    <string name="common_button_clear">Clear</string>
+    <string name="common_button_close">Close</string>
+    <string name="common_button_closed">Disable</string>
+    <string name="common_button_commit">Submit</string>
+    <string name="common_button_complate">Finish</string>
+    <string name="common_button_confirm">OK</string>
+    <string name="common_button_continue">Continue</string>
+    <string name="common_button_default">Default</string>
+    <string name="common_button_delete">Delete</string>
+    <string name="common_button_discard">Discard</string>
+    <string name="common_button_download">Download</string>
+    <string name="common_button_download_more">Download More</string>
+    <string name="common_button_download_skin">Download Skin</string>
+    <string name="common_button_downloading">Downloading</string>
+    <string name="common_button_edit">Edit</string>
+    <string name="common_button_editable">Edit</string>
+    <string name="common_button_enabled">Enable</string>
+    <string name="common_button_enter">Start</string>
+    <string name="common_button_i_know">OK</string>
+    <string name="common_button_ignore">Ignore</string>
+    <string name="common_button_install">Install</string>
+    <string name="common_button_manager">Manager</string>
+    <string name="common_button_modify">Modify</string>
+    <string name="common_button_no">No</string>
+    <string name="common_button_open">Open</string>
+    <string name="common_button_open_now">Enable now</string>
+    <string name="common_button_preview">Preview</string>
+    <string name="common_button_recover">Recover</string>
+    <string name="common_button_redownload">Download again</string>
+    <string name="common_button_refresh">Refresh</string>
+    <string name="common_button_restart_now">Restart now</string>
+    <string name="common_button_return">Back</string>
+    <string name="common_button_save">Save</string>
+    <string name="common_button_search">Search</string>
+    <string name="common_button_set">Settings</string>
+    <string name="common_button_share">Share</string>
+    <string name="common_button_uninstall">Uninstall</string>
+    <string name="common_button_update">Update</string>
+    <string name="common_button_use">Enable</string>
+    <string name="common_button_use_now">Use now</string>
+    <string name="common_button_used">Enabled</string>
+    <string name="common_button_view_detail">Details</string>
+    <string name="common_button_yes">Yes</string>
+    <string name="common_checkbox_not_alert">Don\'t show this again</string>
+    <string name="common_download_ended">Downloaded</string>
+    <string name="common_download_failed">Download failed</string>
+    <string name="common_download_now">Download now</string>
+    <string name="common_download_success">Download succeeded</string>
+    <string name="common_downloading">Downloading...</string>
+    <string name="common_install_now">Install now</string>
+    <string name="common_installed">Installed</string>
+    <string name="common_loading">Loading...</string>
+    <string name="common_refresh">Refresh</string>
+    <string name="common_refresh_failed">Refresh failed</string>
+    <string name="common_tip">Tips</string>
+    <string name="common_uninstalled">Not installed</string>
+    <string name="custom_rows_cols">Customize rows and cols</string>
+    <string name="default_set_controller_select_pic">Select icon</string>
+    <string name="delete_theme">Delete</string>
+    <string name="delete_theme_msg">Do you want to delete it?</string>
+    <string name="delete_tip_4_dynamic_foler">Selected item will be deleted. Tap \Menu > Add >%1$s> %2$s\ to add it to home screen.</string>
+    <string name="dockbar_allow">Cannot drag to Dock Bar</string>
+    <string name="dockbar_always_use">"Use by default for this action"</string>
+    <string name="dockbar_dock_browser">Browser</string>
+    <string name="dockbar_dock_contacts">Contacts</string>
+    <string name="dockbar_dock_dial">Dial</string>
+    <string name="dockbar_dock_drawer">Apps</string>
+    <string name="dockbar_dock_sms">Messages</string>
+    <string name="dockbar_no_permission">No permission</string>
+    <string name="dockbar_null_intent">Abnormal data</string>
+    <string name="dockbar_tips_reset_default_app">Reset default for this action through\"&lt;font color="#1e83de">Preferences&lt;/font>\">\"&lt;font color="#1e83de">Accessibility&lt;/font>\">\"Default Apps Manager\"</string>
+    <string name="dockbar_which_app">"Complete action using"</string>
+    <string name="drawer_all_apps">Apps</string>
+    <string name="drawer_apps_not_init_tips">Initialization incomplete. Please try again later</string>
+    <string name="drawer_backup_app">Backup</string>
+    <string name="drawer_backup_app_not_support">Supports only app backup</string>
+    <string name="drawer_before_download_widget_tip">%1$s downloading. Check progress in status bar</string>
+    <string name="drawer_common_download">Download</string>
+    <string name="drawer_delete_dialog_message">Deleting...</string>
+    <string name="drawer_delete_encript_folder_tips">All apps will return to App drawer when the folder is deleted.</string>
+    <string name="drawer_delete_folder_tips">After deletion, put app in folder back in list</string>
+    <string name="drawer_delete_folder_tips_title">Delete folder</string>
+    <string name="drawer_delete_not_found_app_tips">The app was not found. Delete it now?</string>
+    <string name="drawer_delete_not_found_app_tips_title">Deletion alert</string>
+    <string name="drawer_download_widget_tip">Downloading now %1$s？</string>
+    <string name="drawer_menu_auto_app_classify">Auto-Folder</string>
+    <string name="drawer_menu_classify_wait">Processing. Please wait...</string>
+    <string name="drawer_menu_hide_app">Hide apps</string>
+    <string name="drawer_menu_icon_sort">Sorting</string>
+    <string name="drawer_menu_new_folder">New folder</string>
+    <string name="drawer_menu_settings">Settings</string>
+    <string name="drawer_menu_sort_mode">Sorting mode</string>
+    <string name="drawer_multi_choose_folder_unavailable_tips">The folder is unavailable in multiple-choice mode</string>
+    <string name="drawer_multi_choose_reached_limit_tips">The number of multiple-choice has reached the maximum limit</string>
+    <string name="drawer_my_phone">Manager</string>
+    <string name="drawer_new_folder_failed_tips">Failed to create a new folder</string>
+    <string name="drawer_not_found_app_tips">App not found</string>
+    <string name="drawer_not_found_focused_item_tips">Sorry, widget was not found. Search again?</string>
+    <string name="drawer_not_found_widget_tips">The widget was not found. Please install first</string>
+    <string name="drawer_shortcut_contact">Contact</string>
+    <string name="drawer_show_app_details">Details</string>
+    <string name="drawer_show_app_details_not_support">Unable to view folder details</string>
+    <string name="drawer_tools_btn_click_tips">Long press and drag the icon here</string>
+    <string name="drawer_widget_click_ready_tips">Widget enabled</string>
+    <string name="drawer_widget_click_tips">Long press widget to add it to Home screen</string>
+    <string name="drawer_widget_system_widget">System widget</string>
+    <string name="drawer_widgets">Widgets</string>
+    <string name="edit_lock_toast_lock">Edit feature is locked</string>
+    <string name="edit_view_theme_individuation">Individualized theme</string>
+    <string name="editor_disable_filter">None</string>
+    <string name="editor_filter_cancel">Cancel</string>
+    <string name="editor_filter_htcone_no_roll">This phone does not support wallpaper roll</string>
+    <string name="editor_filter_no_wallpaper">Wallpaper failed. Please try again later.</string>
+    <string name="editor_filter_ok">OK</string>
+    <string name="editor_filter_rotate">Rotate</string>
+    <string name="editor_more_filter">More</string>
+    <string name="error_pick_contact">No contacts selected. Please reselect.</string>
+    <string name="file_browser_dialog_file_select">Select file</string>
+    <string name="filter_apply_success">Filters applied</string>
+    <string name="folder_91shortcut">%1$s Shortcut</string>
+    <string name="folder_Favorites">Favorites</string>
+    <string name="folder_Media">Media</string>
+    <string name="folder_Productivity">Productivity</string>
+    <string name="folder_drag_out_error">Insufficient space on this screen. Please add to another screen.</string>
+    <string name="folder_encript_clear_pwd_msg">Password will be removed.</string>
+    <string name="folder_encript_entrance_hint">Please enter password</string>
+    <string name="folder_encript_entrance_pwd_wrong">Incorrect password</string>
+    <string name="folder_encript_entrance_title">Enter password</string>
+    <string name="folder_encript_setting">Set password</string>
+    <string name="folder_encript_setting_hint_confirm_pwd">Enter again</string>
+    <string name="folder_encript_setting_hint_enter_pwd">Please set a password with 4+ digits</string>
+    <string name="folder_encript_setting_hint_enter_pwd_for_low">Set 4+</string>
+    <string name="folder_encript_setting_pwd_diff">Passwords do not match</string>
+    <string name="folder_encript_setting_pwd_failed">Failed</string>
+    <string name="folder_encript_setting_pwd_illegal">The password must include letters, numbers and underscore</string>
+    <string name="folder_encript_setting_pwd_null">Please fill out password field</string>
+    <string name="folder_encript_setting_pwd_success">Succeeded</string>
+    <string name="folder_encript_setting_pwd_too_short">Password must be at least 4 characters</string>
+    <string name="folder_encript_type_choose_none">None</string>
+    <string name="folder_encript_type_choose_pwd">Password</string>
+    <string name="folder_encript_type_choose_title">Encryption</string>
+    <string name="folder_encript_view_msg">Encrypted. Delete the file?</string>
+    <string name="folder_kitset">Tools</string>
+    <string name="folder_name">Folder</string>
+    <string name="folder_name_suggestion">Suggested name:</string>
+    <string name="folder_recent">Fast Open</string>
+    <string name="folder_recent_installed">Recent install</string>
+    <string name="folder_recent_running">Recent apps</string>
+    <string name="folder_recent_running_empty">No records</string>
+    <string name="folder_recommend">Recommend</string>
+    <string name="folder_recommend_hot_app_tip">Hottest apps</string>
+    <string name="frame_viewfacotry_data_load_text">Data loading slowly</string>
+    <string name="frame_viewfacotry_download_null">Nothing here. Add some content now!</string>
+    <string name="frame_viewfacotry_err_info_text">Error!</string>
+    <string name="frame_viewfacotry_net_break_btn">Open Settings</string>
+    <string name="frame_viewfacotry_net_break_text">Download failed. Network switch is off.</string>
+    <string name="frame_viewfacotry_net_slowly_reflesh_btn">Refresh</string>
+    <string name="frame_viewfacotry_net_slowly_text">Download failed. Something is wrong with the network connection.</string>
+    <string name="frame_viewfacotry_search_null">No relevant content found. Please try something else.</string>
+    <string name="frame_viewfacotry_show_netsetting_err">Opening Network Settings failed</string>
+    <string name="frame_viewfactory_cancle">Cancel</string>
+    <string name="frame_viewfactory_del_error_widget_1">A Home Screen issue may affect normal use. Sorry for any inconvenience. You can choose to Reset to initial settings to fix this problem. Recover original settings now?</string>
+    <string name="frame_viewfactory_del_error_widget_2">After reset, widgets on the Home Screen will be deleted to make sure you can use the Home Screen normally. Are you sure you want to reset?</string>
+    <string name="frame_viewfactory_dialog_title">Home tips</string>
+    <string name="frame_viewfactory_err_content_downgrade">Your phone does not support APP downgrading. Reset the Home Screen to fix the problem.</string>
+    <string name="frame_viewfactory_err_content_text">Sorry. There is an error. We need your feedback to help us fix the problem as soon as possible. We wil collect only error information. We will not collect your personal information.</string>
+    <string name="frame_viewfactory_err_content_text_widget">Widget %1$s has a small problem. We will remove it from the Home Screen and restart. If you need to use it again, you can find it at App List -> Widgets.</string>
+    <string name="frame_viewfactory_err_content_upgrade">Uh-oh! Home Screen has a little problem! Learned from wise programmers: updating to the latest version can fix it. Go ahead and try!</string>
+    <string name="frame_viewfactory_err_title">Error!</string>
+    <string name="frame_viewfactory_next_time">Ask me next time</string>
+    <string name="frame_viewfactory_restore">Reset</string>
+    <string name="frame_viewfactory_send_failed">Your phone has no binding Gmail account. Message cannot be sent.</string>
+    <string name="frame_viewfactory_tell_us">Tell us</string>
+    <string name="frame_viewfactory_upgrade_now">Update now</string>
+    <string msgid="8359351016167075858" name="gadget_error_text">There is a problem when loading the widgets</string>
+    <string name="gprs">Mobile data</string>
+    <string name="group_applications">Applications</string>
+    <string name="haptic_feedback">Haptic feedback</string>
+    <string name="hint_download_widget_msg">Download %1$s?</string>
+    <string name="hint_download_widget_title">Tip</string>
+    <string name="hint_install_flashlight">Install Flashlight</string>
+    <string name="hint_install_flashlight_msg">A handy widget that brings light to you!</string>
+    <string name="hint_install_screenoff">Install ScreenOff</string>
+    <string name="hint_install_screenoff_msg">Install ScreenOff to save power.\nInstall now?</string>
+    <string name="hint_install_zxing_scan">Install</string>
+    <string name="hint_install_zxing_scan_msg">Would you like to install QR code scanner now?</string>
+    <string name="hint_sdcard_available">SD Card loaded. It will refresh the Home Screen icon now.</string>
+    <string name="hint_sdcard_unavailable">SD card is unavailable</string>
+    <string name="hint_sdcard_unavailable_msg">SD card is unavailable. Loading failed</string>
+    <string name="icon_repalce_left_title">Replace</string>
+    <string name="icon_repalce_more_module_icon">More module icons</string>
+    <string name="icon_repalce_more_theme_icon">More theme icons</string>
+    <string name="icon_repalce_select_gallery_icon_title">Picture</string>
+    <string name="icon_repalce_select_module_icon_title">Local icon</string>
+    <string name="icon_repalce_select_theme_icon_title">Theme icon</string>
+    <string name="icon_replace_btn_reset_default">Reset</string>
+    <string name="icon_replace_default_icon">(Default)</string>
+    <string name="impor_exist_theme_dialog_title">Import theme</string>
+    <string name="import_exist_theme_completed">Theme has been imported</string>
+    <string name="import_exist_theme_dialog">You have downloaded themes on your device. Would you like to import them?</string>
+    <string name="import_exist_theme_dialog_ing">Importing theme...</string>
+    <string name="install_fail">Failed to install theme pack</string>
+    <string name="install_nosupport">File does not exist or file format does not support.</string>
+    <string name="install_success">Theme pack installed.</string>
+    <string name="install_ticker">Installing %1$s theme</string>
+    <string name="install_title">Installing %1$s theme</string>
+    <string name="large_icon_size">Large</string>
+    <string name="latest_classify_result">Current layout is the latest.</string>
+    <string name="launcher_about_upgrade_error">Update error. Please try again later.</string>
+    <string name="launcher_about_upgrade_lastest">You are now using the latest version</string>
+    <string name="launcher_about_upgrade_loadingview_message">Checking for new version. Please wait...</string>
+    <string name="launcher_about_upgrade_network_error">Network unavailable. Please check connection and try to update again.</string>
+    <string name="launcher_about_upgrade_popwin_btn_download">Download</string>
+    <string name="launcher_about_upgrade_popwin_check_update">Updates</string>
+    <string name="launcher_about_upgrade_popwin_enjoy">Use Now</string>
+    <string name="launcher_about_upgrade_popwin_intro">%1$s has released V%2$s. It\'s smoother and even more cool. Hurry and update!</string>
+    <string name="launcher_about_upgrade_popwin_intro_new">%1$s has been updated to %2$s. It is smoother and even more cool. Hurry and update!</string>
+    <string name="launcher_about_upgrade_popwin_title_product">Great Apps</string>
+    <string name="launcher_about_upgrade_popwin_title_update">New version detected</string>
+    <string name="launcher_about_upgrade_request_limit">Please try to update later.</string>
+    <string name="launcher_edit_add_app">App</string>
+    <string name="launcher_edit_add_panda_shortcut">Shortcuts</string>
+    <string name="launcher_edit_add_shortcut_widget">Widget_Shortcut</string>
+    <string name="launcher_edit_add_system_shortcut">Shortcut</string>
+    <string name="launcher_edit_effect">Effects</string>
+    <string name="launcher_edit_effect_switch_tips">Transition effect: %1$s</string>
+    <string name="launcher_edit_individal">Personality</string>
+    <string name="launcher_edit_particle_effect">Tap effect</string>
+    <string name="launcher_edit_quick_beautify">Quick Beautify</string>
+    <string name="launcher_edit_show_more">Show more</string>
+    <string name="launcher_edit_slide_effect">Transition effect</string>
+    <string name="launcher_edit_tab_drawer_effect">List</string>
+    <string name="launcher_edit_tab_drawer_inout_effect">List In/Out</string>
+    <string name="launcher_edit_tab_particle_effect">Fingertip</string>
+    <string name="launcher_edit_tab_screen_effect">Desktop</string>
+    <string name="launcher_edit_theme">Theme</string>
+    <string name="launcher_edit_wallpaper">Wallpaper</string>
+    <string name="launcher_edit_wallpaper_filter">Filter</string>
+    <string name="launcher_edit_wallpaper_gallery">Gallery</string>
+    <string name="launcher_edit_wallpaper_individuation">Individualized wallpaper</string>
+    <string name="launcher_edit_widget_top_add">%1$s Widgets</string>
+    <string name="launcher_icon_recommend_mobo_desc">Reduce data traffic by 80%1$s;Free up 26%1$s of memory;Save 20%1$s battery power;Install it immediately!</string>
+    <string name="launcher_readme_setdefault_launcher_btn">Let\'s go!</string>
+    <string name="launcher_readme_setdefault_launcher_tip">Set %1$s as default launcher. Explore rich themes and wallpapers.</string>
+    <string name="launcher_search_advance_local_app">Apps</string>
+    <string name="launcher_search_advance_local_audio">Audios</string>
+    <string name="launcher_search_advance_local_contact">Contacts</string>
+    <string name="launcher_search_advance_local_image">Pictures</string>
+    <string name="launcher_search_advance_local_sms">Messages</string>
+    <string name="launcher_search_advance_local_vedio">Videos</string>
+    <string name="launcher_search_at_internet">Search online for %1$s</string>
+    <string name="launcher_search_at_market">Go to App Store to search for %1$s</string>
+    <string name="launcher_search_check_network">Check network</string>
+    <string name="launcher_search_editview_hint">Apps, Contacts, URLs, Texts</string>
+    <string name="launcher_search_history_delete_dialog_title">Search history</string>
+    <string name="launcher_search_history_delete_item">Delete all</string>
+    <string name="launcher_search_hotword_change">HOT</string>
+    <string name="launcher_search_local_data_null">No local results. Go to online search~</string>
+    <string name="launcher_search_local_more">More local content</string>
+    <string name="launcher_search_local_more_label">See more</string>
+    <string name="launcher_search_popular_scan_record_dialog_msg">Are you sure you want to delete all records?</string>
+    <string name="launcher_search_topuse_title">Most used</string>
+    <string name="launcher_search_web_pop_browser">Open with browser</string>
+    <string name="launcher_setting_charging_saver">Charging Saver</string>
+    <string name="launcher_setting_charging_saver_enable_title">Lock screen when charging</string>
+    <string name="launcher_setting_score_go_text">Rating</string>
+    <string name="launcher_settings_navigation">Quick Search Screen</string>
+    <string name="launcher_settings_navigation_backkey_change_summary">Tap to switch default screen with Quick Search Screen</string>
+    <string name="launcher_settings_navigation_backkey_change_title">Switch Back</string>
+    <string name="launcher_settings_navigation_open_title">Enable Quick Search Screen</string>
+    <string name="launcher_settings_score">Rate us</string>
+    <string name="launcher_settings_score_intro">%1$s has accompanied you for some time. Please rate us. We will do better!</string>
+    <string name="launcher_share_barencode">Scan the QR Code for free installation!</string>
+    <string name="launcher_share_centent">Hey, check out my stunning desktop. Do you like it? There are plenty of fancy themes and handy widgets in %1$s. Would you like to try it? Download link:%2$s</string>
+    <string name="launcher_share_drawing">Creating pictures</string>
+    <string name="launcher_share_generating_thumn">Previewing...</string>
+    <string name="launcher_share_hint">Select the screenshots you want to share(Up to 3 shortcuts).</string>
+    <string name="launcher_share_max_count_hint">You can select 3 screenshots at most.</string>
+    <string name="launcher_share_save_fail">Failed to save screenshots. Please try again.</string>
+    <string name="launcher_share_save_success">Screenshots saved in:%1$s</string>
+    <string name="launcher_share_selected_hint">Select at least 1 picture.</string>
+    <string name="launcher_share_share_fail">Error. Please try again.</string>
+    <string name="launcher_share_title">Share %1$s</string>
+    <string name="launcher_widget_weather_clock">Weather &amp; Clock</string>
+    <string name="main_dock_home_settings">Preferences</string>
+    <string name="main_dock_icon_mask">Mask icon</string>
+    <string name="main_dock_icon_mask_disabled">Icon mask disabled</string>
+    <string name="main_dock_icon_mask_enabled">Icon mask enabled</string>
+    <string name="main_dock_icon_mask_switch_success">%1$s icon mask</string>
+    <string name="main_dock_icon_mask_unsupport">The default theme does not support this feature</string>
+    <string name="main_dock_notification_bar">Notification</string>
+    <string name="main_dock_notification_disable_hint">Notification Toolbar is closed. Open Notification Toolbar first.</string>
+    <string name="main_dock_notification_name">StatusBar</string>
+    <string name="main_dock_notification_name_disabled">Notification disabled</string>
+    <string name="main_dock_notification_name_enabled">Notification enabled</string>
+    <string name="main_dock_screen_preview">Preview</string>
+    <string name="main_dock_title_select_panda_shortcut">Select a %1$s shortcut</string>
+    <string name="main_dock_transition_effect">Effect</string>
+    <string name="main_dock_wallpaper_move_success">Wallpaper slide to %1$s</string>
+    <string name="mask_no_mask">No mask</string>
+    <string name="mask_preview_title">Mask preview:%s</string>
+    <string name="meduim_icon_size">Medium</string>
+    <string name="meeting_pattern">Conference mode</string>
+    <string name="meeting_pattern_desc">Enable Silence mode</string>
+    <string name="memory_cleaner">Ram booster</string>
+    <string name="menu_fir_fir_text">Add</string>
+    <string name="menu_fir_five_text">Edit</string>
+    <string name="menu_fir_seven_text">Preferences</string>
+    <string name="menu_fir_six_text">Settings</string>
+    <string name="menu_item_add_app">Add App</string>
+    <string name="menu_item_add_widget">Add Widget</string>
+    <string name="menu_item_change_effect">Effect</string>
+    <string name="menu_item_change_theme">Theme</string>
+    <string name="menu_item_change_wallpaper">Wallpaper</string>
+    <string name="menu_sec_five_text">Share</string>
+    <string name="menu_sec_one_key_reboot">Reboot</string>
+    <string name="menu_sec_one_key_reboot_sec">Your phone will reboot.</string>
+    <string name="menu_sec_one_key_restart_tip">Failed to reboot the phone. This feature is only for rooted phone.</string>
+    <string name="menu_sec_one_key_screenshot">Screenshot</string>
+    <string name="menu_sec_one_key_screenshot_sec">Screenshot will be captured in 5 seconds.</string>
+    <string name="menu_sec_one_key_screenshot_tip">Failed to capture screenshot. This feature is only for rooted phone.</string>
+    <string name="menu_sec_one_key_screenshot_tip_faile">This feature is unavailable for your phone.</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot1">Use of this feature requires root privileges. Please acquire root permissions.</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot_button1">Continue trying</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot_button2">Close</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot_tips">If screenshot function has not been enabled by double-click screenshot, please root your phone</string>
+    <string name="menu_sec_one_key_screenshot_tip_root_fail_screenshot">Your phone has not been rooted or is incompletely rooted. Please root again!</string>
+    <string name="menu_sec_one_key_screenshot_tip_save1">Sreenshot saved in</string>
+    <string name="menu_sec_one_key_screenshot_tip_save2">Catalog</string>
+    <string name="menu_sec_one_key_screenshot_tip_success">Screenshot has been saved to album.</string>
+    <string name="menu_sec_one_key_screenshot_tip_success_notification_summary">Tap Gallery to view screenshots.</string>
+    <string name="menu_sec_one_key_screenshot_tip_success_notification_title">Screenshot has been saved to album.</string>
+    <string name="menu_sec_one_key_shutdown">Power off</string>
+    <string name="menu_sec_one_key_shutdown_sec">Your phone will shut down.</string>
+    <string name="menu_sec_one_key_shutdown_tip">Failed to shut down the phone. This feature is only for rooted phone.</string>
+    <string name="menu_version_update_btn">Update</string>
+    <string name="message_apply_old_theme">Click to apply original theme ..</string>
+    <string name="message_delete_theme_waiting">Deleting theme...</string>
+    <string name="message_preview_cannot_delete_screen">Cannot delete the last screen</string>
+    <string name="message_preview_delete_screen">Delete screen and all its content?</string>
+    <string name="message_preview_delete_screen_not_allow">App List icon cannot be deleted.</string>
+    <string name="message_preview_fail_drag_to_screen">Failed to move the icon</string>
+    <string name="message_preview_out_of_screen">Insufficient space on this screen. Please add to another screen.</string>
+    <string name="message_preview_set_default_screen">Set as default screen</string>
+    <string name="mode_automatic">Auto</string>
+    <string name="mode_keep_current">Fixed</string>
+    <string name="mode_name_null">Please enter the mode name</string>
+    <string name="mode_off">Off</string>
+    <string name="mode_on">On</string>
+    <string name="mode_silence">Silence</string>
+    <string name="my_pattern">Default mode</string>
+    <string name="my_pattern_desc">Install default mode</string>
+    <string name="mybatter_clean_at_screen_lock">%1$sMB memory released when screen is locked</string>
+    <string name="mybatter_notify_bar_charging_time">Battery charging:</string>
+    <string name="mybatter_notify_bar_discharging_time">Endurance:</string>
+    <string name="mybatter_reanalysis">Refresh</string>
+    <string name="mybattery_battery_first_in_text">Enable %1$s when in Power Saving mode. When %2$s is closed, you may be unable to restart %3$s. Please restart your phone to fix it.</string>
+    <string name="mybattery_battery_first_phone_text">Comm Module</string>
+    <string name="mybattery_battery_isfull_dialog_message">Turn off by \"My battery--Settings\".</string>
+    <string name="mybattery_battery_isfull_dialog_title">Full charge prompt</string>
+    <string name="mybattery_battery_isfull_notifi">Fully charged</string>
+    <string name="mybattery_battery_settings_communicate">Settings</string>
+    <string name="mybattery_bs_app_had_close">App closed</string>
+    <string name="mybattery_bs_app_level">Power-Usage Level</string>
+    <string name="mybattery_bs_app_level_1">Little power cost. Suitable to always run in background.</string>
+    <string name="mybattery_bs_app_level_2">Less power cost. Feel free to use it as needed.</string>
+    <string name="mybattery_bs_app_level_3">Normal power-cost app. Feel free to use as needed</string>
+    <string name="mybattery_bs_app_level_4">Great power cost. Suggest disabling when not needed</string>
+    <string name="mybattery_bs_app_level_5">Serious power cost. Suggest disabling or uninstalling.</string>
+    <string name="mybattery_bs_cd_continuation">Battery life</string>
+    <string name="mybattery_bs_cd_current_capacity">Current capacity</string>
+    <string name="mybattery_bs_cd_estimate_time">Estimated Time</string>
+    <string name="mybattery_bs_cd_infos">Battery info</string>
+    <string name="mybattery_bs_cd_knowledge1">Quick charge means the battery will be quickly charged at 80%, but it must continuously charge until it\'s fully charged.</string>
+    <string name="mybattery_bs_cd_knowledge2">Full charge means continuously charge the battery until it\'s fully charged.</string>
+    <string name="mybattery_bs_cd_knowledge3">Trickle charging means charging a fully charged battery, which can extand battery life.</string>
+    <string name="mybattery_bs_cd_knowledge_title0"> About charging：</string>
+    <string name="mybattery_bs_cd_knowledge_title1"> What\'s Quick charge?</string>
+    <string name="mybattery_bs_cd_knowledge_title2"> What\'s Full charge?</string>
+    <string name="mybattery_bs_cd_knowledge_title3"> What\'s Trickle charge?</string>
+    <string name="mybattery_bs_cd_light_explain11">Quick charge</string>
+    <string name="mybattery_bs_cd_light_explain12">Waiting</string>
+    <string name="mybattery_bs_cd_light_explain21">Full charge</string>
+    <string name="mybattery_bs_cd_light_explain22">Charged</string>
+    <string name="mybattery_bs_cd_light_explain31">Trickle charge</string>
+    <string name="mybattery_bs_cd_light_explain_doing">Charging</string>
+    <string name="mybattery_bs_cd_max_capacity">Maximum capacity</string>
+    <string name="mybattery_bs_cd_usefultime">Details</string>
+    <string name="mybattery_bs_click_start_bs">Detecting...</string>
+    <string name="mybattery_bs_customer_app">Power-consuming apps </string>
+    <string name="mybattery_bs_customer_app_1">Power-Usage Apps</string>
+    <string name="mybattery_bs_electric_quantity">(power)</string>
+    <string name="mybattery_bs_extend_bs_time">Optimize Now</string>
+    <string name="mybattery_bs_had_adjust">Settings configured!</string>
+    <string name="mybattery_bs_had_clear">Cleaned!</string>
+    <string name="mybattery_bs_had_close">Turned off!</string>
+    <string name="mybattery_bs_manager_analyse">Power Analysis</string>
+    <string name="mybattery_bs_manager_message">Power Manager</string>
+    <string name="mybattery_bs_mode_add_text">Add custom mode</string>
+    <string name="mybattery_bs_mode_cdprotect">Switching</string>
+    <string name="mybattery_bs_mode_edit_text">Edit</string>
+    <string name="mybattery_bs_mode_look_text">Details</string>
+    <string name="mybattery_bs_mode_m_manage">Status</string>
+    <string name="mybattery_bs_mode_m_protect">Charging</string>
+    <string name="mybattery_bs_mode_nodata">No data</string>
+    <string name="mybattery_bs_mode_normal">Normal</string>
+    <string name="mybattery_bs_mode_sd_bottom_text">Add a custom mode</string>
+    <string name="mybattery_bs_mode_sd_indext_custom">Custom mode</string>
+    <string name="mybattery_bs_mode_sd_indext_pre">Preset mode</string>
+    <string name="mybattery_bs_mode_sdprotect">Mode</string>
+    <string name="mybattery_bs_notification_ad">Status bar</string>
+    <string name="mybattery_bs_off_bluetooth">Turn off Bluetooth</string>
+    <string name="mybattery_bs_off_gps">Turn off GPS</string>
+    <string name="mybattery_bs_off_net">Turn off Mobile Data</string>
+    <string name="mybattery_bs_off_wifi">Turn off Wi-Fi</string>
+    <string name="mybattery_bs_optimize">Optimize</string>
+    <string name="mybattery_bs_optimize_again_count">Rescanning</string>
+    <string name="mybattery_bs_optimize_back">Back</string>
+    <string name="mybattery_bs_optimize_finish_message">Complete!\nSelect options below to continue optimizing</string>
+    <string name="mybattery_bs_optimize_hand_optimize">Try manual options</string>
+    <string name="mybattery_bs_optimize_no_data_message">Please make a selection!</string>
+    <string name="mybattery_bs_optimize_perfect">Your phone is fully optimized.</string>
+    <string name="mybattery_bs_optimize_repeat_bs">Optimize</string>
+    <string name="mybattery_bs_optimizing">Optimizing. Please wait...</string>
+    <string name="mybattery_bs_score_message_1">Tap to optimize</string>
+    <string name="mybattery_bs_score_message_2">Tap to optimize</string>
+    <string name="mybattery_bs_score_message_3">Tap to optimize</string>
+    <string name="mybattery_bs_score_message_4">Optimal</string>
+    <string name="mybattery_bs_screen_bright">Backlight</string>
+    <string name="mybattery_bs_screen_bright_regulate">Set to 30%</string>
+    <string name="mybattery_bs_screen_timeout">Screen Timeout</string>
+    <string name="mybattery_bs_screen_timeout_regulate">Set to 30s</string>
+    <string name="mybattery_close_str">Off</string>
+    <string name="mybattery_custom_mode_name">Custom mode</string>
+    <string name="mybattery_custom_time_name">Custom task</string>
+    <string name="mybattery_del_mode_exist_task">"%1$s" is in use. Are you sure you want to delete the mode and the task？</string>
+    <string name="mybattery_del_mode_info_text">Are you sure you want to delete "%1$s"?</string>
+    <string name="mybattery_digital_text_hour">h</string>
+    <string name="mybattery_digital_text_minute">m</string>
+    <string name="mybattery_digital_text_second">s</string>
+    <string name="mybattery_lock_setting_memory">Release memory</string>
+    <string name="mybattery_lock_setting_wifi">Disable Wi-Fi and Auto-sync</string>
+    <string name="mybattery_lowhit_notify_tip">Battery level is lower than %1$s</string>
+    <string name="mybattery_lowhit_setting_mode">Activate mode</string>
+    <string name="mybattery_lowhit_setting_mode_desc">The previous mode will be activated when the power is higher than %1$s</string>
+    <string name="mybattery_lowhit_setting_value">Battery level lower than</string>
+    <string name="mybattery_lowhit_setting_value_select">Settings</string>
+    <string name="mybattery_mode_picker_title">Select mode</string>
+    <string name="mybattery_open_str">On</string>
+    <string name="mybattery_phone_str">Calls</string>
+    <string name="mybattery_power_setting_lock_desc">Disable Wi-Fi or release memory</string>
+    <string name="mybattery_power_setting_lock_title">Auto-Kill on screen off</string>
+    <string name="mybattery_power_setting_lowhit_change">OK</string>
+    <string name="mybattery_power_setting_lowhit_desc">Notify me when battery is low</string>
+    <string name="mybattery_power_setting_lowhit_title">Notification</string>
+    <string name="mybattery_power_setting_memorylist_desc">%1$s apps selected</string>
+    <string name="mybattery_power_setting_memorylist_no_desc">None</string>
+    <string name="mybattery_power_setting_memorylist_title">Lock list</string>
+    <string name="mybattery_power_setting_title">Power Saving settings</string>
+    <string name="mybattery_soft_setting_full_notification_desc">No charging prompt during 22:00―08:00</string>
+    <string name="mybattery_soft_setting_full_notification_title">Full charge reminder</string>
+    <string name="mybattery_soft_setting_lowhit_auto_change">Smart settings</string>
+    <string name="mybattery_soft_setting_lowhit_desc">Low battery</string>
+    <string name="mybattery_soft_setting_lowhit_title">Low battery reminder</string>
+    <string name="mybattery_soft_setting_lowhit_value">Battery level settings</string>
+    <string name="mybattery_soft_setting_lowhit_vibrateandring_select_desc">Default ringtone</string>
+    <string name="mybattery_soft_setting_lowhit_vibrateandring_select_title">Full-charge ringtone</string>
+    <string name="mybattery_soft_setting_title">Others</string>
+    <string name="mybattery_tab_bs_manager">Management</string>
+    <string name="mybattery_tab_bs_mode">Saver</string>
+    <string name="mybattery_tab_bs_sort">Consumption</string>
+    <string name="mybattery_time_bottom_text">Add task</string>
+    <string name="mybattery_time_edit_text">Edit</string>
+    <string name="mybattery_time_everyday">Everyday</string>
+    <string name="mybattery_time_switch_def_fir">Sleep</string>
+    <string name="mybattery_time_switch_def_sec">Work</string>
+    <string name="mybattery_time_switch_def_thi">Nap</string>
+    <string name="mybattery_time_switch_end_mode_name">End mode</string>
+    <string name="mybattery_time_switch_no_data">You have not added task.</string>
+    <string name="mybattery_time_switch_start_mode_name">Start mode</string>
+    <string name="mybattery_time_switch_start_name">Task</string>
+    <string name="mybattery_time_switch_task_name">Name:</string>
+    <string name="mybattery_time_swtich_del_info">Are you sure you want to delete "%1$s"?</string>
+    <string name="mybattery_time_swtich_no_name">The task name cannot be empty.</string>
+    <string name="mybattery_time_the_same_text">The task settings is invalid. Start time and the end time are the same as another mode. Are you sure you want to save it?</string>
+    <string name="mybattery_time_trigger_text">The task time is %1$s~%2$s. If you set it on repeat, it will repeat on the selected days.</string>
+    <string name="mybattery_time_workday">Weekday</string>
+    <string name="myflow_internet">2G/3G</string>
+    <string name="myflow_wifi">Wi-Fi</string>
+    <string name="myh5game_title_name">Hot Games</string>
+    <string name="myphone_ad_load_failed">Failed to load. Please click to retry</string>
+    <string name="myphone_ad_recommend">Bubble</string>
+    <string name="myphone_root_fail_desc">Home was unable to access ROOT privileges. Please allow ROOT privileges in management app such as SuperUser KingUser.</string>
+    <string name="myphone_root_fail_title">Access ROOT privileges failed</string>
+    <string name="myphone_wallpaper_set_success">Wallpaper has been applied!</string>
+    <string name="navigation_history">History</string>
+    <string name="navigation_more">Website</string>
+    <string name="netflow_info_fetching">Fetching...</string>
+    <string name="no_restore_tip">No available data.</string>
+    <string name="nomore_release">No more resources can be released</string>
+    <string name="normal_pattern">Reading mode</string>
+    <string name="normal_pattern_desc">Automatically adjust screen brightness</string>
+    <string name="notification_bar_ketset">Tool Kit</string>
+    <string name="notification_bar_last_app">Last app</string>
+    <string name="notification_time_hour">h</string>
+    <string name="notification_time_hour_char">h</string>
+    <string name="notification_time_min">m</string>
+    <string name="notification_time_min_char">m</string>
+    <string name="onekey_cleaner_best_tip">Your phone is in an optimal state!</string>
+    <string name="onekey_cleaner_dept_tip">Release the extra space</string>
+    <string name="onekey_cleaner_release_tip">Release memory %1$s</string>
+    <string name="onekey_cleaner_speed_tip">Sped up by %1$s. Your phone is in an optimal state!</string>
+    <string msgid="8365249326091984698" name="out_of_space">Insufficient space on the screen</string>
+    <string name="panda_widget_fetch_error">Failed to get widget</string>
+    <string name="panda_widget_text_color">#333333</string>
+    <string name="panda_widget_weather">Hi Weather</string>
+    <string name="pandahome_check_clean_config">clean desktop setting</string>
+    <string name="pandahome_check_log">检测日志</string>
+    <string name="pandahome_check_title">桌面检测</string>
+    <string name="pandahome_clean_default_theme">clean default theme</string>
+    <string name="phone">Communication module</string>
+    <string name="pick_wallpaper">Wallpapers</string>
+    <string name="plugin_activated">Initialization</string>
+    <string name="plugin_desc_appmanager">App manager is for phone app management</string>
+    <string name="plugin_desc_file">My file helps organize files, media and pictures.</string>
+    <string name="plugin_desc_safecenter">Security center helps you to monitor if you phone\'s apps autostart or pry about privacy</string>
+    <string name="plugin_desc_wallpaper">Pretty wallpaper makes pretty phone</string>
+    <string name="plugin_down_wallpaper">Personalized - wallpaper</string>
+    <string name="plugin_transfer_desc1">Initial startup. Just a little preparation. \n No need to wait next time</string>
+    <string name="plugin_transfer_error">An error occurred. Please try again later. </string>
+    <string name="plugin_update_tip">Would you like to update widget to the latest version?</string>
+    <string name="popup_change_style">Change style</string>
+    <string name="popup_change_style2">Style</string>
+    <string name="popup_deep_clean">Manual clean</string>
+    <string name="popup_delete">Delete</string>
+    <string name="popup_detail">Details</string>
+    <string name="popup_rename">Rename</string>
+    <string name="popup_replace">Replace</string>
+    <string name="popup_resize">Zoom</string>
+    <string name="process" translate="false"/>
+    <string name="quick_clean_released">%s memory released</string>
+    <string name="readme_agreement_me">Continued use indicates that you have accepted the </string>
+    <string name="readme_agreement_terms">Terms of Use</string>
+    <string name="readme_app_DC_desc">Dorado Clean clears junk files, boosts speed and saves power for your Android phone.</string>
+    <string name="readme_app_DC_name">Dorado Clean</string>
+    <string name="readme_app_PP_desc">PixelPhone (PP) is a powerful dialer and contact manager.</string>
+    <string name="readme_app_PP_name">Pixel Phone</string>
+    <string name="readme_app_aio_desc">All-In-One Toolbox: Collection of useful tools to clean, boost, and optimize your Android.</string>
+    <string name="readme_app_aio_name">All-In-One Toolbox(Cleaner)</string>
+    <string name="readme_app_mobo_turn_label">I want it</string>
+    <string name="readme_app_test_instance">Install</string>
+    <string name="readme_app_touchpal_desc">TouchPal Emoji Keyboard is a free keyboard that helps you to type faster and more easily with curve and prediction. </string>
+    <string name="readme_app_touchpal_name">TouchPal Emoji Keyboard</string>
+    <string name="readme_v6_new_themechoose">Choose any style you like!</string>
+    <string name="recent_use">Most frequently used</string>
+    <string name="recommend_app_download_not_network">Download failed. Please check your network connection.</string>
+    <string name="recommend_fail_showdetail_googleplay">Failed to attain details from Google Play.</string>
+    <string name="recommend_install_fail">Failed to download. Bad URL</string>
+    <string name="recommend_install_fail_googleplay">You must install Google Play to download this app.</string>
+    <string name="recommend_install_tip_summary">Install %1$s now?</string>
+    <string name="recommend_install_tip_title">Install</string>
+    <string name="resolver_click91_forhw">Tap [%1$s] first</string>
+    <string name="resolver_click91launcher1">Select "%1$s" first</string>
+    <string name="resolver_click91launcher2">Select "%1$s"</string>
+    <string name="resolver_clickAlawayButton">Tap</string>
+    <string name="resolver_clickChange">Change</string>
+    <string name="resolver_clickCheck">Tap checkboxes</string>
+    <string name="resolver_clickOk">OK</string>
+    <string name="resolver_click_callback_button">Back to desktop to set again</string>
+    <string name="resolver_click_default_button">Tap Clear Default</string>
+    <string name="restore_now">Restore</string>
+    <string name="restore_original">Restore layout</string>
+    <string name="restore_original_tip">Restore to last layout</string>
+    <string name="restore_result_now">Restore</string>
+    <string name="restore_tip">Restore to: %1$s</string>
+    <string name="ringer">Ringtone</string>
+    <string name="safe_notify_boot_optimise_tip">Tap to optimize boot time</string>
+    <string name="safe_notify_boot_time_tip">System boot time:</string>
+    <string name="samsung_drawer_search_default_input">Search Apps</string>
+    <string name="scene">Scene theme</string>
+    <string name="scene_add_local_scene">Import Scene Theme (apt file)</string>
+    <string name="scene_apply_failed">Failed to apply Scene Theme. Please try again later.</string>
+    <string name="scene_apply_hole_style_msg">The icon layout will be applied.</string>
+    <string name="scene_apply_scene_now">Applying...</string>
+    <string name="scene_apt_file_invalid">Invalid Scene Theme</string>
+    <string name="scene_cant_delete_scene_while_using">Unable to delete the Scene Theme being used.</string>
+    <string name="scene_custom_create_text">Confirm</string>
+    <string name="scene_custom_desc_no_icon">Failed to generate icon layout without icons. Please add an icon first.</string>
+    <string name="scene_custom_desc_text_fir">Draw an icon layout below</string>
+    <string name="scene_custom_desc_text_sec">Tap Retry to redraw icon layout</string>
+    <string name="scene_custom_desc_text_thi">Tap icon to edit it</string>
+    <string name="scene_custom_next_text">Continue</string>
+    <string name="scene_custom_not_draw_info">Draw an icon layout</string>
+    <string name="scene_custom_pop_info">Tap to add icons</string>
+    <string name="scene_custom_redraw_text">Retry</string>
+    <string name="scene_default_scene">Default</string>
+    <string name="scene_delete_hole_style_msg">Selected icon layout will be deleted.</string>
+    <string name="scene_delete_scene_now">Deleting...</string>
+    <string name="scene_do_you_want_to_switch_to_default_scene">Are you sure you want to exit Scene Theme?</string>
+    <string name="scene_download_and_install_failure">Download failed.</string>
+    <string name="scene_download_task_remain">(%s task remaining)</string>
+    <string name="scene_exit_scene">Exit</string>
+    <string name="scene_exit_scene_msg">Are you sure you want to exit Scene Theme?</string>
+    <string name="scene_external_storage_no_found_for_apply">Failed to apply Scene Theme. No external SD card in your phone.</string>
+    <string name="scene_external_storage_no_found_for_delete">Failed to delete Scene Theme. No external SD card in your phone.</string>
+    <string name="scene_external_storage_no_found_for_download">Failed to download Scene Theme. No external SD card in your phone.</string>
+    <string name="scene_hole_apply_failed">Failed to load icon layout. Please try again later.</string>
+    <string name="scene_import_scene_now">Importing...</string>
+    <string name="scene_loading">Loading...</string>
+    <string name="scene_make_sure_to_apply">Would you like to apply %s?</string>
+    <string name="scene_make_sure_to_delete">%s will be deleted.</string>
+    <string name="scene_make_sure_to_download">%s will be downloaded.</string>
+    <string name="scene_make_sure_to_download_this_scene">Selected Scene Theme will be downloaded.</string>
+    <string name="scene_msg_can_not_edit">Unable to edit the %s pre-set screens.</string>
+    <string name="scene_msg_can_not_edit_for_new_screen">Unable to edit the pre-set screen.</string>
+    <string name="scene_msg_multip_apply">The Scene Theme has been applied.</string>
+    <string name="scene_msg_scene_file_invalid">Corrupted Scene Theme. Please download it again.</string>
+    <string name="scene_msg_scene_not_exits">Corrupted Scene Theme. Please download it again.</string>
+    <string name="scene_network_not_available">Failed to connect to network. Please try again later.</string>
+    <string name="scene_no_style_choose_msg">Please select an icon layout.</string>
+    <string name="scene_please_select_your_scene">Select a Scene Theme below</string>
+    <string name="scene_please_wait">Please wait</string>
+    <string name="scene_processing">Processing...</string>
+    <string name="scene_select_layout">Icon layout</string>
+    <string name="scene_select_scene">Select Scene Theme</string>
+    <string name="scene_shop_apply">Apply</string>
+    <string name="scene_shop_describe">Description</string>
+    <string name="scene_shop_download">Download</string>
+    <string name="scene_shop_download_scene">%s is downloading</string>
+    <string name="scene_shop_installing">Applying...</string>
+    <string name="scene_shop_local_scenes">Downloaded</string>
+    <string name="scene_shop_more">More</string>
+    <string name="scene_shop_online_scenes">Online</string>
+    <string name="scene_shop_pause">Paused</string>
+    <string name="scene_shop_process">Downloading...</string>
+    <string name="scene_shop_top_banner">My Scene Themes</string>
+    <string name="scene_this_scene">This scene theme</string>
+    <string name="scene_waiting_for_sd_load">Loading SD card. Please wait...</string>
+    <string name="screen_timeout">Screen timeout</string>
+    <string name="select_third_icons">Third-party icon</string>
+    <string name="setting_cols">Cols settings</string>
+    <string name="setting_rows">Rows settings</string>
+    <string name="settings_about">About %1$s</string>
+    <string name="settings_about_app_share">Share apps</string>
+    <string name="settings_about_app_share_summary">Share %1$s with friends</string>
+    <string name="settings_about_bug_feedback_title">%1$s Bug Feedback</string>
+    <string name="settings_about_contact_us">Contact us</string>
+    <string name="settings_about_contact_us_email_summary" translate="false">mobolauncher91@gmail.com</string>
+    <string name="settings_about_contact_us_email_title">Email</string>
+    <string name="settings_about_contact_us_facebook_title" translate="false">Facebook</string>
+    <string name="settings_about_contact_us_google_plus_summary" translate="false">%1$s Team</string>
+    <string name="settings_about_contact_us_google_plus_title" translate="false">Google+</string>
+    <string name="settings_about_contact_us_instagram_title" translate="false">Instagram</string>
+    <string name="settings_about_copyright">Copyright info</string>
+    <string name="settings_about_copyright_summary">Moborobo.com All Rights Reserved</string>
+    <string name="settings_about_current_version" translatable="false">v</string>
+    <string name="settings_about_feedback">Feedback</string>
+    <string name="settings_about_feedback_title">%1$s Feedback</string>
+    <string name="settings_about_no_market_title">App Store is not installed on your phone.</string>
+    <string name="settings_about_privacy_summary">Felink All Rights Reserved</string>
+    <string name="settings_about_privacy_title">Privacy Protocol</string>
+    <string name="settings_about_restart_launcher">Restart desktop</string>
+    <string name="settings_about_version_upgrade">Check for update</string>
+    <string name="settings_advanced_assist">Accessibility</string>
+    <string name="settings_advanced_default_app">Default Apps Manager</string>
+    <string name="settings_advanced_default_app_dialog_title">Select default app</string>
+    <string name="settings_advanced_enhance_tool">Enhancement tool</string>
+    <string name="settings_advanced_gesture_control">Gestures settings</string>
+    <string name="settings_advanced_move_begin_move">Start</string>
+    <string name="settings_advanced_move_home">Copy Home screen</string>
+    <string name="settings_advanced_move_home_available">Detecting...</string>
+    <string name="settings_advanced_move_home_backup_tip">Note: You can restore %1$s settings in Preferences> Backup &amp; restore.</string>
+    <string name="settings_advanced_move_home_del">Would you like to remove \"Copy icons\" shortcut from home screen?</string>
+    <string name="settings_advanced_move_home_dialog_title">Please select a launcher</string>
+    <string name="settings_advanced_move_home_dialog_toast">Please make a selection</string>
+    <string name="settings_advanced_move_home_icon_title">Copy icons</string>
+    <string name="settings_advanced_move_home_importing">Importing, please wait...</string>
+    <string name="settings_advanced_move_home_importing_ask_backup">Back up %1$s settings</string>
+    <string name="settings_advanced_move_home_importing_end">Imported</string>
+    <string name="settings_advanced_move_home_importing_failed">Import failed</string>
+    <string name="settings_advanced_move_home_move_end_preview">Screen Preview</string>
+    <string name="settings_advanced_move_home_move_end_preview_tip">Highlight screen is Home screen</string>
+    <string name="settings_advanced_move_home_no_available">No icons available to be copied from other launcher</string>
+    <string name="settings_advanced_move_home_no_data">No icons in other launchers\'s screens</string>
+    <string name="settings_advanced_move_home_notify">You can copy the icons to %1$s now. Please tap here</string>
+    <string name="settings_advanced_move_home_success">Icons have been copied to %1$s!</string>
+    <string name="settings_advanced_move_home_success_tip">Please note that widgets can not be copied from other launcher. You can manually add widgets to home screen.\n\n Note: You can restore %1$s settings in Preferences > Backup &amp; restore.</string>
+    <string name="settings_advanced_move_home_summary">Copy other launcher icon to %1$s</string>
+    <string name="settings_advanced_move_home_will_begin">Tap \Start\ to copy Home screen</string>
+    <string name="settings_advanced_move_next">Next</string>
+    <string name="settings_advanced_move_previous">Back</string>
+    <string name="settings_app_icon_size">Icon Size</string>
+    <string name="settings_back_to_default_scene">Exit</string>
+    <string name="settings_backup">Backup &amp; restore</string>
+    <string name="settings_backup_failed">Backup failed</string>
+    <string name="settings_backup_ing">Backing up %1$s</string>
+    <string name="settings_backup_lastest_time">Latest backup:</string>
+    <string name="settings_backup_not_found">Backup file not found. Please try again</string>
+    <string name="settings_backup_reset">Reset defaults</string>
+    <string name="settings_backup_reset_hint">Restore default settings</string>
+    <string name="settings_backup_reset_message">%1$s settings will be reset to default.</string>
+    <string name="settings_backup_reset_title">Notification</string>
+    <string name="settings_backup_restore_dialog_title">Notification</string>
+    <string name="settings_backup_restore_failed">Restore failed</string>
+    <string name="settings_backup_restore_ing">Restoring %1$s</string>
+    <string name="settings_backup_restore_success">Restore succeeded</string>
+    <string name="settings_backup_sdcard_unavailable">SD Card is not available. Please check and try again</string>
+    <string name="settings_backup_success">Backup succeeded</string>
+    <string name="settings_backup_tobackup">Backup %1$s</string>
+    <string name="settings_backup_tobackup_dialog_title">Notification</string>
+    <string name="settings_backup_tobackup_hint">No backup</string>
+    <string name="settings_backup_tobackup_message">%1$s settings will be backed up to SD card.</string>
+    <string name="settings_backup_torestore">Restore settings</string>
+    <string name="settings_backup_torestore_message">%1$s  settings will be restored from SD card.</string>
+    <string name="settings_communicate_boot_time">Boot time</string>
+    <string name="settings_communicate_category_battery">Charging notification</string>
+    <string name="settings_communicate_category_comm">General</string>
+    <string name="settings_communicate_location">Incoming call location</string>
+    <string name="settings_dockbar_text">Dock settings</string>
+    <string name="settings_dockbar_text_show">Show dock app labels</string>
+    <string name="settings_dockbar_text_show_follow_theme">Apply based on theme</string>
+    <string name="settings_dockbar_text_show_follow_theme_summary">When enabled, app labels will be displayed based on the current theme</string>
+    <string name="settings_dockbar_text_show_summary">The dock apps labels will be shown once enabled</string>
+    <string name="settings_drawer_bg_transparent">Background transparency</string>
+    <string name="settings_drawer_bg_transparent_summary">Set drawer background transparency</string>
+    <string name="settings_drawer_countxy">Grid size</string>
+    <string name="settings_drawer_rolling_cycle">Infinite scrolling</string>
+    <string name="settings_drawer_rolling_cycle_summary">Continuously scroll through all screens</string>
+    <string name="settings_drawer_tabs_lock">Lock app drawer</string>
+    <string name="settings_drawer_tabs_lock_summary">Not able to scroll between Apps, Widgets and Manager</string>
+    <string name="settings_exit">Exit %1$s</string>
+    <string name="settings_font_app_color">Label color</string>
+    <string name="settings_font_app_color_summary">Set the color for app label</string>
+    <string name="settings_font_app_name_size">Label size</string>
+    <string name="settings_home">Preferences</string>
+    <string name="settings_home_advanced">Advanced</string>
+    <string name="settings_home_apps_share_subject">Share\"%1$s\"</string>
+    <string name="settings_home_apps_share_title">Select sending mode</string>
+    <string name="settings_home_assistance_share_text">I want to share %1$s with you.\nYou can download the latest version from https://play.google.com/store/apps/details?id=%2$s</string>
+    <string name="settings_home_common">General</string>
+    <string name="settings_home_other">Others</string>
+    <string name="settings_home_scene_desktop">Scene theme</string>
+    <string name="settings_icon">Icon</string>
+    <string name="settings_icon_and_folder">Icon, folder</string>
+    <string name="settings_icon_and_folder_folder">Folder</string>
+    <string name="settings_icon_and_folder_icon">Icon</string>
+    <string name="settings_item_search">Search</string>
+    <string name="settings_launcher_layout">Desktop layout</string>
+    <string name="settings_launcher_layout_settings_applist">App list</string>
+    <string name="settings_launcher_layout_settings_screen_setting">Screen settings</string>
+    <string name="settings_lock_launcher_layout">Lock desktop layout</string>
+    <string name="settings_lock_launcher_layout_summary">Prevent misoperation from changing desktop layout</string>
+    <string name="settings_message_tips">Message prompt</string>
+    <string name="settings_message_tips_summary">The icon will notify you of unread messages.</string>
+    <string name="settings_mms_tips">Unread messages</string>
+    <string name="settings_more">Others</string>
+    <string name="settings_more_message_tips">More unread messages</string>
+    <string name="settings_more_message_tips_summary">Install 91 Message Reminder to enjoy all the features.</string>
+    <string name="settings_no_search_result">No Search Result</string>
+    <string name="settings_personal_folder_style">Folder style</string>
+    <string name="settings_personal_gesture_doublefingers_down">Swipe down (2 fingers)</string>
+    <string name="settings_personal_gesture_down">Swipe down</string>
+    <string name="settings_personal_gesture_up">Swipe up</string>
+    <string name="settings_personal_icon_mask_switch">Icon mask</string>
+    <string name="settings_personal_status_bar">Notice board</string>
+    <string name="settings_personal_status_bar_switch">Show status bar</string>
+    <string name="settings_personal_update_check">Detect updates</string>
+    <string name="settings_reset_current_scene">Reset defaults</string>
+    <string name="settings_reset_current_scene_msg">The scene theme will be reset to default.</string>
+    <string name="settings_score_dialog_content">Rate us 5 stars if you like %1$s. We will do better!</string>
+    <string name="settings_screen_countxy">Grid size</string>
+    <string name="settings_screen_icon_title_background">Show label background</string>
+    <string name="settings_screen_icon_title_background_summary">Highlight icon label background</string>
+    <string name="settings_screen_rolling_cycle">Infinite scrolling</string>
+    <string name="settings_screen_rolling_cycle_summary">Continuously scroll through all screens</string>
+    <string name="settings_screen_wallpaper_by_theme">Lock wallpaper</string>
+    <string name="settings_screen_wallpaper_by_theme_summary">Wallpaper will change with theme, and wallpaper settings will be disabled.</string>
+    <string name="settings_screen_wallpaper_rolling">Wallpaper mode</string>
+    <string name="settings_search_item">Enter keywords</string>
+    <string name="settings_set_default_launcher">Set as default launcher</string>
+    <string name="settings_set_default_launcher_hint">Please select\"use by default for this action \" and click\"%1$s\" to complete settings</string>
+    <string name="settings_set_default_launcher_hint2">Please select\"%1$s\" and tap\"always\" to complete settings</string>
+    <string name="settings_set_default_launcher_hint_mi">Select \"Default\" and tap \"%1$s\" to set.</string>
+    <string name="settings_set_default_launcher_hint_mx4">Choose \"Default launcher\" and tap \"%1$s\" to set.</string>
+    <string name="settings_set_default_launcher_hint_oppo_coloros200">Select \"Do not ask again\" and tap \"%1$s\" to set.</string>
+    <string name="settings_set_default_pandahome_success">Successfully set as default launcher</string>
+    <string name="sharedUserId" translate="false"/>
+    <string msgid="4757756326465060694" name="shortcut_duplicate">
+		<ns1:g id="NAME">%s</ns1:g> shortcut already exists.
+	</string>
+    <string msgid="7071557296331322355" name="shortcut_installed">
+		<ns1:g id="NAME">%s</ns1:g> shortcut created.
+	</string>
+    <string name="shortcut_slot_loading">Loading...</string>
+    <string name="shortcut_toolong">Invalid character. Unable to add.</string>
+    <string msgid="2129499669449749995" name="shortcut_uninstalled">
+		<ns1:g id="NAME">%s</ns1:g> shortcut deleted.
+	</string>
+    <string name="slot_name">Lucky</string>
+    <string name="slot_tip_1">Every pull costs 10 gold coins. Pull again?</string>
+    <string name="slot_tip_2">777 or three stars wins you the jackpot. Try your luck!</string>
+    <string name="slot_tip_3">Good luck! More gold coins are waiting for you.</string>
+    <string name="slot_tip_4">Almost a winner! Try again?</string>
+    <string name="slot_tip_5">What luck! You now have %1$s gold coins. Keep going!</string>
+    <string name="small_icon_size">Small</string>
+    <string name="spring_add_app_from_drawer_fail">Insufficient space to add the app to desktop</string>
+    <string name="spring_add_app_from_drawer_reset">Unable to move to this location</string>
+    <string name="spring_add_app_from_drawer_success">Added to Home screen</string>
+    <string name="super_pattern">Super saving</string>
+    <string name="super_pattern_desc">Enable basic service</string>
+    <string name="swap_wallpaper_fail_no_sdcard">No SD card found. Changing wallpaper failed.</string>
+    <string name="switcher_setting_hint">Tap "Edit" to add or remove toggles</string>
+    <string name="switcher_volume_ring">Ringtone</string>
+    <string name="switcher_volume_set_failed">Failed to set volume</string>
+    <string name="sync">Sync</string>
+    <string name="sys_airplane_mode">Airplane</string>
+    <string name="sys_airplane_mode_disabled">Airplane mode disabled</string>
+    <string name="sys_airplane_mode_enabled">Airplane mode enabled</string>
+    <string name="sys_alarm">Alarm</string>
+    <string name="sys_app_mgr">Apps</string>
+    <string name="sys_auto_sync">Auto-sync</string>
+    <string name="sys_auto_sync_disabled">Auto-sync disabled</string>
+    <string name="sys_auto_sync_enabled">Auto-sync enabled</string>
+    <string name="sys_autolockscreen">Lock</string>
+    <string name="sys_autolockscreen_disabled">Lock screen disabled</string>
+    <string name="sys_autolockscreen_enabled">Lock screen enabled</string>
+    <string name="sys_automatic_brightness">Automatic brightness</string>
+    <string name="sys_autorotate">Rotation</string>
+    <string name="sys_autorotate_disabled">Auto-rotate screen disabled</string>
+    <string name="sys_autorotate_enabled">Auto-rotate screen enabled</string>
+    <string name="sys_battery">Network</string>
+    <string name="sys_bluetooth">Bluetooth</string>
+    <string name="sys_bluetooth_disabled">Bluetooth disabled</string>
+    <string name="sys_bluetooth_enabled">Bluetooth enabled</string>
+    <string name="sys_brightness">Backlight</string>
+    <string name="sys_brightness_dock">Backlight</string>
+    <string name="sys_clock">Clock</string>
+    <string name="sys_data_connection">Data</string>
+    <string name="sys_data_connection_disabled">Mobile data disabled</string>
+    <string name="sys_data_connection_enabled">Mobile data enabled</string>
+    <string name="sys_flashlight_enabled">Enable flashlight</string>
+    <string name="sys_gps">GPS</string>
+    <string name="sys_large_capacity">USB</string>
+    <string name="sys_mount_sdcard">Unmount SD card</string>
+    <string name="sys_mybattery_brightness">Backlight</string>
+    <string name="sys_notification_bar">System Notification Bar</string>
+    <string name="sys_others">More</string>
+    <string name="sys_ring">Ringtone</string>
+    <string name="sys_ring_mode">Ring</string>
+    <string name="sys_ring_mode_disabled">Ring mode enabled</string>
+    <string name="sys_screen_overtime">Timeout</string>
+    <string name="sys_settings_apps">Apps</string>
+    <string name="sys_settings_battery">Battery</string>
+    <string name="sys_settings_display">Display</string>
+    <string name="sys_settings_error_msg">Sorry! \"%1$s\" not found</string>
+    <string name="sys_settings_firmware">Firmware</string>
+    <string name="sys_settings_input">Keyboard</string>
+    <string name="sys_settings_machine_name">Model</string>
+    <string name="sys_settings_mobiledata">Network</string>
+    <string name="sys_settings_more_settings">More</string>
+    <string name="sys_settings_root_fetching">Fetching...</string>
+    <string name="sys_settings_root_no">Unroot</string>
+    <string name="sys_settings_root_option">Status</string>
+    <string name="sys_settings_root_yes">Rooted</string>
+    <string name="sys_settings_screen_resolution">Resolution</string>
+    <string name="sys_settings_screen_safe">Security</string>
+    <string name="sys_settings_sound">Sound</string>
+    <string name="sys_settings_storage">Storage</string>
+    <string name="sys_settings_usb_debug">USB debug</string>
+    <string name="sys_settings_wireless">Wireless</string>
+    <string name="sys_sim_not_exist">SIM not found</string>
+    <string name="sys_slient_mode_disabled">Silent mode enabled</string>
+    <string name="sys_switch_edit_hint">Tap "Edit" to add or remove buttons</string>
+    <string name="sys_switch_enter_usb_mass_storage">Enter USB mass storage</string>
+    <string name="sys_switch_exit_usb_mass_storage">Exit USB mass storage -</string>
+    <string name="sys_switch_sdcard_removed">SD card removed</string>
+    <string name="sys_switch_usb_mass_storage_fail">Unmount failed</string>
+    <string name="sys_switch_usb_mass_storage_mode">USB is not available</string>
+    <string name="sys_switch_usb_mass_storage_mode_wait">Please wait...</string>
+    <string name="sys_tactility_reaction">Haptic</string>
+    <string name="sys_tactityraction_disabled">Disable haptic feedback</string>
+    <string name="sys_tactityraction_enabled">Enable haptic feedback</string>
+    <string name="sys_virbation_mode_disabled">Vibration mode disabled</string>
+    <string name="sys_virbation_mode_enabled">Vibration mode enabled</string>
+    <string name="sys_whitespot">Quick Tap</string>
+    <string name="sys_wifi">Wi-Fi</string>
+    <string name="sys_wifi_disabled">Wi-Fi disabled</string>
+    <string name="sys_wifi_enabled">Wi-Fi enabled</string>
+    <string name="system_hardware">硬件信息</string>
+    <string name="system_hardware_board">主板：</string>
+    <string name="system_hardware_bootloader">引导程序：</string>
+    <string name="system_hardware_brand">系统定制商：</string>
+    <string name="system_hardware_codename">编码器：</string>
+    <string name="system_hardware_cpu_abi">cpu指令集：</string>
+    <string name="system_hardware_current_screen_height">屏幕高度：</string>
+    <string name="system_hardware_current_screen_width">屏幕宽度：</string>
+    <string name="system_hardware_density">密度：</string>
+    <string name="system_hardware_density_dpi">dpi密度：</string>
+    <string name="system_hardware_device">设备参数：</string>
+    <string name="system_hardware_display">显示屏参数：</string>
+    <string name="system_hardware_fingerprint">硬件名称：</string>
+    <string name="system_hardware_hardware">硬件标示：</string>
+    <string name="system_hardware_host">主机：</string>
+    <string name="system_hardware_id">修订版本列表：</string>
+    <string name="system_hardware_imei">imei号：</string>
+    <string name="system_hardware_imsi">imsi号：</string>
+    <string name="system_hardware_incremental">基带版本：</string>
+    <string name="system_hardware_ip">ip地址：</string>
+    <string name="system_hardware_language">当前语言：</string>
+    <string name="system_hardware_mac">mac地址：</string>
+    <string name="system_hardware_machine_name">手机型号：</string>
+    <string name="system_hardware_manufacturer">硬件制造商：</string>
+    <string name="system_hardware_nt">网络类型：</string>
+    <string name="system_hardware_nt_1">USB网络</string>
+    <string name="system_hardware_nt_2">联通</string>
+    <string name="system_hardware_nt_3">电信</string>
+    <string name="system_hardware_nt_4">移动</string>
+    <string name="system_hardware_nt_5">未知</string>
+    <string name="system_hardware_product">产品内部编号：</string>
+    <string name="system_hardware_radio">无线设备：</string>
+    <string name="system_hardware_release">固件版本：</string>
+    <string name="system_hardware_scaled_density">字体缩放比例：</string>
+    <string name="system_hardware_sdk_version">sdk版本：</string>
+    <string name="system_hardware_tags">标签：</string>
+    <string name="system_hardware_time">时间：</string>
+    <string name="system_hardware_type">类型：</string>
+    <string name="system_hardware_unknown">未知备注：</string>
+    <string name="system_hardware_user">用户：</string>
+    <string name="system_hardware_xdpi">x方向的像素密度xdpi：</string>
+    <string name="system_hardware_ydpi">y方向的像素密度ydpi：</string>
+    <string name="system_switch">Quick settings panel</string>
+    <string name="temperature_symbol">℃</string>
+    <string name="theme_decoder_not_valiable">Theme decoder error. This theme is unavailable</string>
+    <string name="theme_default_name">Default</string>
+    <string name="theme_local_manage_title">My theme</string>
+    <string name="theme_local_nodata_desc">No download yet. Check webpage</string>
+    <string name="theme_manage_menu_add_theme">Add to local theme (apt,zip)</string>
+    <string name="theme_manage_select_theme">Select theme</string>
+    <string name="theme_module_icons">Icon</string>
+    <string name="theme_module_other">Others</string>
+    <string name="theme_module_wallpaper">Desktop wallpaper</string>
+    <string name="theme_module_weather">Clock Weather</string>
+    <string name="theme_online">Theme Mall</string>
+    <string name="theme_recommand_folder_name">Recommended</string>
+    <string name="theme_shop_v6_first_hint">Theme, wallpaper, and all that you want are here</string>
+    <string name="this_machine_not_support">Mount SD card failed</string>
+    <string name="tip_particle_screen_effect_show">%1$s offers plenty of fancy transition effects. Would you like to set it now?</string>
+    <string name="tip_particle_screen_effect_show_cancel">Later</string>
+    <string name="tip_particle_screen_effect_show_ok">Settings</string>
+    <string name="title_apply_old_theme">Theme imported.</string>
+    <string name="title_delete_theme">Delete</string>
+    <string name="title_select_shortcut">Select shortcut</string>
+    <string name="toast_search">Fast search for app on left bottom corner</string>
+    <string name="top_menu_bazinga_dialog_btn">Hide</string>
+    <string name="top_menu_bazinga_dialog_content">When hidden, %3$s can be enabled under %1$s>%2$s</string>
+    <string name="top_menu_list_item_ads_title">Recommended Apps</string>
+    <string name="top_menu_list_item_go_beauty_center">Check it out</string>
+    <string name="top_menu_list_item_go_beauty_center_title">Browse the Theme Store. You’re sure to find something to make your phone look even better!</string>
+    <string name="top_menu_list_item_go_set_launcher_title">Let %1$s become your default launcher!</string>
+    <string name="top_menu_list_item_go_wallpaper_center_title">Every wallpaper is a new story.</string>
+    <string name="top_menu_list_item_news_tip">Reading</string>
+    <string name="top_menu_list_item_theme_tip">Details</string>
+    <string name="top_menu_list_item_wallpaper_final">Trial wallpaper failed!</string>
+    <string name="top_menu_list_item_wallpaper_loding">Loading wallpaper. Please wait.</string>
+    <string name="top_menu_list_item_wallpaper_tip">Trial</string>
+    <string name="top_menu_title">%1$s Know</string>
+    <string name="twodimensioncode_scan">QR Code</string>
+    <string name="uninstallapp_no_this_appinfo">No info found about this app. Uninstall failed.</string>
+    <string name="unzip_theme">Extract theme pack</string>
+    <string name="unzip_theme_waiting">Extracting theme pack...</string>
+    <string name="upgrade_install_flashlight">Flashlight</string>
+    <string name="upgrade_install_flashlight_msg">New version of Flashlight is available. Update now?</string>
+    <string name="upgrade_install_screenoff">Hint</string>
+    <string name="upgrade_install_screenoff_msg">New version of ScreenOff is available. Update now?</string>
+    <string name="upgrade_install_zxing_scan">Hint</string>
+    <string name="upgrade_install_zxing_scan_msg">New version of QR Code is available. Update now?</string>
+    <string name="use_result_now">Apply</string>
+    <string name="user_feedback_button_submit">Submit</string>
+    <string name="user_feedback_committing">Submitting...</string>
+    <string name="user_feedback_common_backMain">Back</string>
+    <string name="user_feedback_contact_none">Please enter the correct email address or phone number :)</string>
+    <string name="user_feedback_content_none">What is in your mind? Why not tell us?</string>
+    <string name="user_feedback_content_tip">Bugs and suggestions (250 characters maximum)</string>
+    <string name="user_feedback_email_tip">Contact info</string>
+    <string name="user_feedback_loading">Loading...</string>
+    <string name="user_feedback_no_internet">No available network</string>
+    <string name="user_feedback_page_unvailable">This page cannot be displayed</string>
+    <string name="user_feedback_submit_failed">Submit failed</string>
+    <string name="user_feedback_submit_success">Your feedback has been submitted</string>
+    <string name="user_feedback_tip">&lt;br/>&lt;font color="#948df0">&lt;a href="http://%s/data/androidfaq.html">&lt;i>FAQ&lt;/i>&lt;/a>&lt;/font></string>
+    <string name="user_feedback_tip1">\n\u0020\u0020\u0020\u0020 Thank you for your support and attention! We welcome your bug reports and suggestions. We will reply as soon as possible.</string>
+    <string name="user_feedback_title">Feedback</string>
+    <string name="vibrator">Vibration</string>
+    <string name="wallpaper_change_on2G3G_hint">You are not connected to a Wi-Fi network. Continue to download?</string>
+    <string name="webview_no_page_tips">No progress page</string>
+    <string name="widget_analogclock">Analog clock</string>
+    <string name="widget_baidu">Search</string>
+    <string name="widget_baidu_scan_download_hint">Processing...</string>
+    <string name="widget_baidu_scan_download_outtime_hint">Processing time out. Please rescan.</string>
+    <string name="widget_baidu_scan_restart">Rescan</string>
+    <string name="widget_baidu_scan_result">Result</string>
+    <string name="widget_baidu_scan_result_access">Link</string>
+    <string name="widget_baidu_scan_result_add_contact">Add contacts</string>
+    <string name="widget_baidu_scan_result_share">Scanning result:\n%1$s\n</string>
+    <string name="widget_baidu_scan_result_share_title">Share</string>
+    <string name="widget_error_add_failed">Failed to add widget. Please try again after restart %1$s.</string>
+    <string name="widget_feedback">Feedback</string>
+    <string name="widget_iconapp">App icons</string>
+    <string name="widget_memoryclean">Ram booster</string>
+    <string name="widget_powerwidget">Power saving</string>
+    <string name="widget_toggle">Power control</string>
+    <string name="widget_update_desktop_restart_hint">%1$s widget \"%2$s\" upgrade completed. Rebooting ...</string>
+    <string name="widget_variety_change_style_alert_content">Will replace style now, which may delete some icons. Deleted icons must be manually added again. Replace style?</string>
+    <string name="widget_variety_change_style_alert_title">Change Style</string>
+    <string name="widget_variety_notify_generate_template">Custom style is generated. You can use it now!</string>
+    <string name="widget_variety_notify_template_in_use">This style is in use and can not be deleled!</string>
+    <string name="widget_variety_templates_activity_title">Choose Template</string>
+    <string name="widget_variety_templates_custom_title">Custom Style</string>
+    <string name="widget_variety_title">Variety Launcher</string>
+    <string name="widget_wallpaper_1x1_title">Shuffle</string>
+    <string name="widget_wallpaper_drawer_detail">Library</string>
+    <string name="widget_wallpaper_drawer_list_title">Wallpaper Discovery Tour</string>
+    <string name="widget_wallpaper_drawer_more">More</string>
+    <string name="widget_wallpaper_drawer_previous">Previous</string>
+    <string name="widget_wallpaper_drawer_previous_fail">No wallpaper available to recover</string>
+    <string name="widget_wallpaper_drawer_save">Save</string>
+    <string name="widget_wallpaper_drawer_save_success">Wallpaper has been saved to memory card in/%1$s/myphone/wallpaper/Pictures</string>
+    <string name="widget_wallpaper_notify_23g_refresh">You are now using a 2G/3G network. Network is slow. Please be patient.</string>
+    <string name="widgets_choose">Choose the widget</string>
+    <string name="wifi">Wi-Fi</string>
+</resources>

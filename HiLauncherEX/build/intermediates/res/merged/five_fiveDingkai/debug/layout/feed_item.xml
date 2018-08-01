@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/feedLayout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg_card"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="12dp">
+
+        <ImageView
+            android:id="@+id/ivHeadThumb"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/feed_item_margin_top"/>
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/feed_item_margin_top"
+            android:layout_toRightOf="@+id/ivHeadThumb"
+            android:text="tvUserName"
+            android:textColor="@color/feed_item_user_name"
+            android:textSize="@dimen/feed_item_username_text_size"
+            android:textStyle="bold"/>
+
+        <com.nd.hilauncherdev.shop.shop3.feed.widget.CollapsibleTextView
+            android:id="@+id/ctvDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvUserName"
+            android:layout_below="@+id/tvUserName"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="3dp"
+            android:text=""
+            android:textColor="@color/common_remind_orange"
+            android:textSize="@dimen/feed_item_desc_text_size"/>
+
+        <com.nd.hilauncherdev.shop.shop3.feed.widget.FillGridView
+            android:id="@+id/gvRes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/ctvDesc"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:gravity="center"
+            android:horizontalSpacing="3dp"
+            android:listSelector="@color/transparent"
+            android:numColumns="3"
+            android:paddingRight="3dp"
+            android:verticalSpacing="3dp"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/ivSinglePic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/ctvDesc"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="7dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/loading_blue"
+            />
+    </RelativeLayout>
+
+    <include layout="@layout/feed_item_footer"/>
+
+    <View
+        android:id="@+id/divide"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v7_gap1_15dp"
+        android:background="#f4f4f4"/>
+
+</LinearLayout>

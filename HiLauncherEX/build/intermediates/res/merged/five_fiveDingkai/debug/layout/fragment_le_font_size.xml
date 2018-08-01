@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_le_bg">
+
+
+    <include
+        android:id="@+id/include_top"
+        layout="@layout/include_le_guide_page_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_le_include_page_top_h" />
+
+    <include
+        android:id="@+id/include_bottom"
+        layout="@layout/include_le_guide_page_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_le_include_page_bottom_h"
+        android:layout_alignParentBottom="true" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/include_bottom"
+        android:layout_below="@id/include_top"
+        android:layout_marginTop="17dp">
+
+        <TextView
+            android:id="@+id/tv_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/guide_le_select_font_size"/>
+
+        <LinearLayout
+            android:layout_below="@id/tv_0"
+            android:layout_marginTop="91.7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/font_size_sample_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/guide_le_title_text"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:text="示例文字"/>
+
+            <TextView
+                android:id="@+id/font_size_sample_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColor="#878a8f"
+                android:gravity="center_horizontal"
+                android:textSize="11.43dp"
+                android:text="选择下方文字大小，查看示例效果"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="228dp">
+
+            <RelativeLayout
+                android:id="@+id/font_size_rl_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:id="@+id/font_size_cb_11dp"
+                    android:layout_width="17.5dp"
+                    android:layout_height="17.5dp"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:button="@drawable/cb_le_other"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/font_size_cb_11dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="11dp"
+                    android:text="A"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/font_size_rl_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:id="@+id/font_size_cb_12dp"
+                    android:layout_width="17.5dp"
+                    android:layout_height="17.5dp"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:checked="true"
+                    android:button="@drawable/cb_le_other"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/font_size_cb_12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="12dp"
+                    android:text="A"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/font_size_rl_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:id="@+id/font_size_cb_13dp"
+                    android:layout_width="17.5dp"
+                    android:layout_height="17.5dp"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:button="@drawable/cb_le_other"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/font_size_cb_13dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="13dp"
+                    android:text="A"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/font_size_rl_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:id="@+id/font_size_cb_14dp"
+                    android:layout_width="17.5dp"
+                    android:layout_height="17.5dp"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:button="@drawable/cb_le_other"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/font_size_cb_14dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="14dp"
+                    android:text="A"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/font_size_rl_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:id="@+id/font_size_cb_15dp"
+                    android:layout_width="17.5dp"
+                    android:layout_height="17.5dp"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:button="@drawable/cb_le_other"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/font_size_cb_15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="15dp"
+                    android:text="A"/>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

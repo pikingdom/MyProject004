@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+    
+    
+    <!-- 标题栏 -->
+
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/theme_shop_v6_personal_center_common_padding_h"
+        android:paddingRight="@dimen/theme_shop_v6_personal_center_common_padding_h" >
+
+        <com.nd.hilauncherdev.menu.personal.widget.PersonalCenterSettingsItem
+            android:id="@+id/personal_security_bind_QQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.nd.hilauncherdev.menu.personal.widget.PersonalCenterSettingsItem>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/myphone_common_split" />
+        
+        <com.nd.hilauncherdev.menu.personal.widget.PersonalCenterSettingsItem
+            android:id="@+id/personal_security_bind_WeiBo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.nd.hilauncherdev.menu.personal.widget.PersonalCenterSettingsItem>
+       
+    </LinearLayout>
+
+</LinearLayout>

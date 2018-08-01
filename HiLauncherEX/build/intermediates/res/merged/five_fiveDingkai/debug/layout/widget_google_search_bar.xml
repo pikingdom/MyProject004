@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.widget.googlesearchbar.GoogleSearchBarWidget xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="@dimen/workspaceStartPadding"
+    android:paddingBottom = "5dp"
+    android:gravity="center_vertical"
+    android:id="@+id/google_search_bar"
+    >
+    <RelativeLayout
+        android:id="@+id/google_search_bar_rl"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/android_google_search_bg"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/android_google_search_logo"/>
+        <ImageView
+            android:id="@+id/voice_img"
+            android:layout_width="37dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/voicandroid_google_search_voice" />
+    </RelativeLayout>
+</com.nd.hilauncherdev.widget.googlesearchbar.GoogleSearchBarWidget>

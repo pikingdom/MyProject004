@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/theme_shop_v6_ranking_img_margin_horizontalSpacing"
+        android:layout_marginRight="@dimen/theme_shop_v6_ranking_img_margin_horizontalSpacing"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <include
+            android:id="@+id/grid_item_one"
+            layout="@layout/theme_shop_v6_theme_module_list_grid_item_three" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/theme_shop_v6_ranking_img_margin_horizontalSpacing"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <include
+            android:id="@+id/grid_item_two"
+            layout="@layout/theme_shop_v6_theme_module_list_grid_item_three" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/theme_shop_v6_ranking_img_margin_horizontalSpacing"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <include
+            android:id="@+id/grid_item_three"
+            layout="@layout/theme_shop_v6_theme_module_list_grid_item_three" />
+    </RelativeLayout>
+
+</LinearLayout>

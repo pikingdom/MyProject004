@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.widget.systemtoggler.widget.SwitchWidget xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <com.nd.hilauncherdev.widget.common.WidgetCommonBackground4x1
+        android:id="@+id/switch_main_widget"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_4x1_height"
+        android:background="@drawable/widget_background4x1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <com.nd.hilauncherdev.widget.systemtoggler.widget.SwitchView
+            android:id="@+id/common_switch_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.nd.hilauncherdev.widget.systemtoggler.widget.SwitchView>
+    </com.nd.hilauncherdev.widget.common.WidgetCommonBackground4x1>
+
+</com.nd.hilauncherdev.widget.systemtoggler.widget.SwitchWidget>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_wlan_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/guide_xiaomi_wlan_item_no_conn_h"
+    android:paddingLeft="23dp"
+    android:paddingRight="23dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical">
+        
+        <View
+            android:id="@+id/item_wlan_def_margin_top"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/item_wlan_ssid_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1c1c1c"
+            android:textSize="14dp"
+            android:text="ssid"/>
+
+        <RelativeLayout
+            android:id="@+id/item_wlan_conn_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/item_wlan_conn_status_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8f8f8f"
+                android:layout_marginTop="6dp"
+                android:textSize="10dp"
+                android:text="..."/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/item_wlan_dense_lock_iv"
+            android:layout_width="7.3dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="12.3dp"
+            android:background="@drawable/ic_xiaomi_wlan_item_dense"/>
+
+        <ImageView
+            android:id="@+id/item_wlan_waft_iv"
+            android:layout_width="16.3dp"
+            android:layout_height="12.3dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="4.3dp"
+            android:background="@drawable/ic_xiaomi_wlan_item_status_0"/>
+        
+        <Button
+            android:id="@+id/item_wlan_detail_btn"
+            android:layout_width="20.3dp"
+            android:layout_height="20.3dp"
+            android:background="@drawable/btn_xiaomi_wlan_item_detail"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

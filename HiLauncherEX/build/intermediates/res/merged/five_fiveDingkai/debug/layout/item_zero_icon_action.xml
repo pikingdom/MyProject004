@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dip"
+        android:background="@drawable/theme_shop_v8_text_white_stroke_bg"
+        android:gravity="center_vertical"
+        android:paddingBottom="6dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingTop="6dip"
+        android:textColor="#181818"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:scaleType="fitCenter"
+        android:src="@drawable/match_keyword_delete_selector" />
+</FrameLayout>

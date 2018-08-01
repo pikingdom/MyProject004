@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewbkId"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/toolbarsize"
+        android:background="@drawable/weather_shape_titlebk" >
+
+        <Button
+            android:id="@+id/setting_pm_back"
+            style="@style/backButton" />
+
+        <TextView
+            android:id="@+id/weatherToolTextid"
+            style="@style/titleText_w"
+            android:layout_marginRight="5dip"
+            android:layout_alignParentRight="true"
+            android:text="默认空气指数" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical" 
+        android:padding="7.5dp">
+
+        <LinearLayout style="@style/setting_item_multiple_ll" >
+
+            <LinearLayout
+                android:id="@+id/btn_pm_usa"
+                style="@style/setting_item_sub_ll" >
+
+                <TextView
+                    style="@style/setting_item_title_textview"
+                    android:text="美使馆" />
+
+                <RadioButton
+                    android:id="@+id/chk_usa"
+                    android:layout_width="24dp"
+                    android:layout_height="fill_parent"
+                    android:button="@drawable/weather_choose_selector"
+                    android:clickable="false"
+                    android:focusable="false" />
+            </LinearLayout>
+
+            <View style="@style/setting_item_divider" />
+
+            <LinearLayout
+                android:id="@+id/btn_pm_gov"
+                style="@style/setting_item_sub_ll" >
+
+                <TextView
+                    style="@style/setting_item_title_textview"
+                    android:text="环保部" />
+
+                <RadioButton
+                    android:id="@+id/chk_gov"
+                    android:layout_width="24dp"
+                    android:layout_height="fill_parent"
+                    android:button="@drawable/weather_choose_selector"
+                    android:clickable="false"
+                    android:focusable="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

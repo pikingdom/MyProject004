@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\common_dialog_text_color_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\color\\common_dialog_text_color_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\tab_text_color_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\bundles\\debug\\res\\color\\tab_text_color_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\soft_tab_text_color_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\bundles\\debug\\res\\color\\soft_tab_text_color_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\common_dialog_text_color_selector_ex.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\color\\common_dialog_text_color_selector_ex.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\weather_choose_btn_color.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\bundles\\debug\\res\\color\\weather_choose_btn_color.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\common_dialog_r_btn_text_color_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\color\\common_dialog_r_btn_text_color_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\app_choose_btn_color.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\color\\app_choose_btn_color.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\task_filter_color_list.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\bundles\\debug\\res\\color\\task_filter_color_list.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\weather_city_indct_color.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\bundles\\debug\\res\\color\\weather_city_indct_color.xml"
+    }
+]

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewbkId"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:background="@drawable/weather_shape_titlebk"
+        android:layout_height="@dimen/toolbarsize" >
+
+        <Button
+            android:id="@+id/setting_about_back"
+            style="@style/backButton" />
+
+        <TextView
+            android:id="@+id/weatherToolTextid"
+            style="@style/titleText_w"
+            android:layout_centerInParent="true"
+            android:text="关于" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/LinearLayoutThreeId"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white" >
+
+        <TextView
+            android:id="@+id/logId"
+            style="@style/shadow_black"
+            android:layout_width="200dip"
+            android:layout_height="65dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="18dip"
+            android:gravity="center"
+            android:text="91黄历天气"
+            android:textColor="#1F6094"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/copyId"
+            android:layout_width="130dip"
+            android:layout_height="50dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="6dip"
+            android:gravity="center"
+            android:text="@string/copyright"
+            android:textSize="10sp" 
+            android:textColor="@color/t_v2_almanac_remark"/>
+
+        <View
+            android:layout_width="41dip"
+            android:layout_height="25dip"
+            android:layout_marginLeft="-7dip"
+            android:layout_marginTop="20dip"
+            android:layout_toRightOf="@+id/logId"
+            android:background="@drawable/vericon" />
+
+        <View
+            android:id="@+id/idMainBk"
+            style="@style/titleDivider"
+            android:layout_above="@+id/copyId"
+            android:layout_marginBottom="6dip" />
+
+        <TextView
+            android:id="@+id/verTextid"
+            android:layout_width="41dip"
+            android:layout_height="25dip"
+            android:layout_marginLeft="-8dip"
+            android:layout_marginTop="16dip"
+            android:layout_toRightOf="@+id/logId"
+            android:gravity="center"
+            android:text="1.9.0"
+            android:textColor="#ffffff"
+            android:textSize="10dip" />
+
+        <Button
+            android:id="@+id/updateId"
+            android:layout_width="150dip"
+            android:layout_height="36dip"
+            android:layout_above="@+id/copyId"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dip"
+            android:background="@drawable/weather_btn_blue_selector"
+            android:text="下载黄历天气"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/htmlTextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/updateId"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dip"
+            android:textColor="#454545"
+            android:textSize="16dip" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/htmlTextId"
+            android:layout_below="@+id/logId"
+            android:layout_marginBottom="3dip"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="8dip" >
+
+            <TextView
+                android:id="@+id/aboutTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="120dip"
+                android:lineSpacingExtra="4dip"
+                android:maxLines="6"
+                android:scrollbars="vertical"
+                android:singleLine="false"
+                android:textColor="#454545"
+                android:textSize="16dip" />
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

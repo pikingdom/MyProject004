@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:background="@drawable/app_choose_top_background_new">
+
+    <RelativeLayout
+        android:id="@+id/dialog_title_line"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dialog_top_layout_height"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:paddingTop="2dip"
+            android:textColor="@color/dialog_title_color"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_title_line">
+
+        <ListView
+            android:id="@+id/dialog_data"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/myphone_common_split" />
+
+        <LinearLayout
+            android:id="@+id/dialog_control"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dialog_bottom_layout_height"
+            android:layout_below="@id/dialog_data"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/dialog_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/app_choose_l_btn"
+                android:gravity="center"
+                android:paddingTop="3dip"
+                android:text="@string/common_button_cancel"
+                android:textColor="@color/app_choose_btn_color" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

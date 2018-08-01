@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SeekBar 
+   	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_size_set_dialog_seekbar" 
+    android:layout_width="250dip"
+	android:layout_height="wrap_content" 
+	android:maxHeight="2.0dip"
+    android:minHeight="2.0dip"
+    android:paddingLeft="14.6dip"
+    android:paddingRight="14.6dip"
+	android:progressDrawable="@drawable/switch_seekbar_progress"
+    android:thumb="@drawable/switch_seekbar_thumb"
+	android:progress="0" />

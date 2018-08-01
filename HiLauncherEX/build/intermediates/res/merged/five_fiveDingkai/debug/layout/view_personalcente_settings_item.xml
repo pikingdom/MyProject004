@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/personal_security_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/theme_shop_v6_personal_center_common_padding_h"
+        android:paddingRight="@dimen/theme_shop_v6_personal_center_common_padding_h">
+		<ImageView
+		    android:id="@+id/personal_security_icon"
+		    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+			android:src="@drawable/personal_recharge_icon"
+			android:visibility="gone"
+		    />
+        <TextView
+            android:id="@+id/personal_security_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/personal_security_icon"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="用户A"
+            android:textColor="@color/common_text_color"
+            android:textSize="@dimen/setting_title_size" />
+        <ImageView
+            android:id="@+id/personal_security_remind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/personal_security_title"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/download_remind"
+            android:visibility="gone"/>
+        <RelativeLayout 
+            android:id="@+id/personal_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/personal_security_title"
+            android:layout_toLeftOf="@+id/personal_common_icon"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            >
+	        <LinearLayout 
+	            android:id="@+id/personal_hint_layout"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:gravity="center_vertical"
+	            >
+	            
+		        <TextView
+		            android:id="@+id/personal_content_txt"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="5dp"
+	            	android:layout_marginBottom="5dp"
+		            android:ellipsize="end"
+		            android:singleLine="true"
+		            android:textColor="@color/theme_shop_personal_content_color"
+		            android:textSize="@dimen/theme_shop_v6_personal_center_hint_size"
+		            android:visibility="gone" />
+		
+		        <ImageView
+		            android:id="@+id/personal_content_img"
+		            android:layout_width="40dp"
+		            android:layout_height="40dp"
+		            android:background="@drawable/launcher_menu_presonal_user_icon_bg"
+		            android:src="@drawable/launcher_menu_presonal_user_icon"
+		            android:visibility="gone" />
+	            
+	        </LinearLayout>
+	        
+	        <com.nd.hilauncherdev.menu.personal.widget.NumberDescribeItem
+		            android:id="@+id/personal_content_txt_right"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginRight="5dp"
+		            android:orientation="horizontal"
+		            android:gravity="center"
+		            android:layout_alignParentRight="true"
+		            android:layout_centerVertical="true"
+		            android:visibility="gone" />
+        
+        </RelativeLayout>
+
+		<TextView
+			android:id="@+id/personal_common_right_txt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:layout_marginTop="20dp"
+			android:layout_marginBottom="20dp"
+			android:layout_centerVertical="true"
+			android:layout_toLeftOf="@+id/personal_common_icon"
+			android:ellipsize="end"
+			android:singleLine="true"
+			android:text="用户A"
+			android:textColor="#ff999999"
+			android:textSize="12sp"
+			android:visibility="gone"/>
+        <ImageView 
+            android:id="@+id/personal_common_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_marginRight="18dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/pre_more_button"
+            />
+    </RelativeLayout>
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="0.5dp"
+		android:layout_marginLeft="45dp"
+		android:background="#ffeef2f6" />
+</LinearLayout>

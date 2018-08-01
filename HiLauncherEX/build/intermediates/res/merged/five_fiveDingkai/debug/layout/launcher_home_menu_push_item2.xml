@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:id="@+id/back"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="10dp"
+        android:background="#00000000" >
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/push_notification_cancel_btn_selector" />
+    </LinearLayout>
+
+</FrameLayout>

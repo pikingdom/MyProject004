@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 新版"我的" -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/theme_shop_v6_detail_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/personal_top_layout"
+                android:layout_width="match_parent"
+                android:layout_height="127dp"
+                android:visibility="gone"
+                android:background="@drawable/theme_shop_v6_theme_author_area_view_bg">
+                <ImageView
+                    android:id="@+id/personal_top_layout_gold_medal_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/associator_gold_medal_big"
+                    android:visibility="gone"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="52dp">
+                        <!-- 头像 -->
+                        <ImageView
+                            android:id="@+id/iv_avatar"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="16dp"
+                            android:src="@drawable/launcher_menu_presonal_user_icon" />
+                        <!-- 用户名 -->
+                        <com.nd.hilauncherdev.framework.view.AlwaysMarqueeTextView
+                            android:id="@+id/tv_username"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/iv_avatar"
+                            android:ellipsize="marquee"
+                            android:gravity="left"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:shadowDx="0"
+                            android:shadowDy="-3"
+                            android:shadowRadius="3"
+                            android:singleLine="true"
+                            android:text="@string/personal_center_welcome"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+                        <LinearLayout
+                            android:id="@+id/personal_center_level_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_username"
+                            android:layout_toRightOf="@+id/iv_avatar"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:paddingRight="10dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:paddingBottom="2dp"
+                            android:background="@drawable/personal_center_level_bg"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/personal_center_level_icon"/>
+                            <TextView
+                                android:id="@+id/tv_level"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dp"
+                                android:singleLine="true"
+                                android:text="LV0"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+                <!-- 登录及充值按钮 -->
+                <LinearLayout
+                    android:id="@+id/btn_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="65dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:background="@drawable/personal_center_login_btn_bg">
+
+                    <ImageView
+                        android:id="@+id/btn_login_img"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/personal_center_login" />
+
+                    <TextView
+                        android:id="@+id/btn_login_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:singleLine="true"
+                        android:text="@string/personal_center_login"
+                        android:textColor="@color/white"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+            <!-- 登陆后积分、猫爪、红包布局 -->
+            <LinearLayout
+                android:id="@+id/award_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+
+                android:background="#ffffffff">
+                <!-- 积分 -->
+                <LinearLayout
+                    android:id="@+id/iv_integral"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/integral_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:singleLine="true"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:ellipsize="marquee"
+                        android:singleLine="true"
+                        android:text="@string/personal_center_now_integral"
+                        android:textColor="#ff999999"
+                        android:textSize="11sp" />
+                </LinearLayout>
+                <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="#ffeef2f6" />
+                <!-- 猫爪 -->
+                <LinearLayout
+                    android:id="@+id/iv_maozhua_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/maozhua_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:singleLine="true"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:layout_marginTop="5dp"
+                        android:singleLine="true"
+                        android:text="@string/personal_setting_maozhua"
+                        android:textColor="#ff999999"
+                        android:textSize="11sp" />
+                </LinearLayout>
+                <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="#ffeef2f6" />
+                <!-- 红包猫爪券 -->
+                <LinearLayout
+                    android:id="@+id/iv_redpackage_and_coin_quan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/maozhuaquan_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:singleLine="true"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:layout_marginTop="5dp"
+                        android:singleLine="true"
+                        android:text="@string/personal_center_redpackage_and_maozhua"
+                        android:textColor="#ff999999"
+                        android:textSize="11sp" />
+                </LinearLayout>
+                <!-- 文字滚动条 -->
+
+                <com.nd.hilauncherdev.menu.personal.AutoScrollTextView
+                    android:id="@+id/TextViewNotice"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:inputType="text"
+                    android:marqueeRepeatLimit="1"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:visibility="gone"></com.nd.hilauncherdev.menu.personal.AutoScrollTextView>
+            </LinearLayout>
+            <!-- 下半部 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/personal_jifenqiang_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_card"
+                    android:orientation="horizontal">
+
+                    <!-- 升级会员 -->
+
+                    <LinearLayout
+                        android:id="@+id/personal_upgrade_member"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:src="@drawable/personal_compaign_upgrade_member_selector" />
+
+                            <ImageView
+                                android:id="@+id/personal_upgrade_member_tag"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:src="@drawable/personal_hot_tag"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="@string/theme_shop_my_member"
+                            android:textColor="#ff999999"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                    <!-- 我的红包 -->
+
+                    <LinearLayout
+                        android:id="@+id/pseronal_assist_v6_launcher_everyday_task"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:src="@drawable/personal_compaign_everyday_task_selector" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:src="@drawable/personal_new_tag"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="@string/member_integral_get_integral_webview_title"
+                            android:textColor="#ff999999"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                    <!-- 下载赢猫爪 -->
+
+                    <LinearLayout
+                        android:id="@+id/personal_compaign_jifenqiang"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:src="@drawable/personal_compaign_jifenqiang_selector" />
+
+                            <ImageView
+                                android:id="@+id/personal_jifenqiang_tag"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:src="@drawable/personal_hot_tag"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="@string/pseronal_assist_v6_jifenqiang"
+                            android:textColor="#ff999999"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                    <!-- 我的美图 -->
+
+                    <LinearLayout
+                        android:id="@+id/personal_compaign_linearlayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:src="@drawable/personal_compaign_news_icon_selector" />
+
+                            <ImageView
+                                android:id="@+id/personal_compaign__tag"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:src="@drawable/personal_hot_tag"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="@string/personal_compaign"
+                            android:textColor="#ff999999"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffffff"
+                    android:orientation="vertical">
+                    <!-- 我的风格 -->
+                    <com.nd.hilauncherdev.menu.personal.widget.PersonalCenterSettingsItem
+                        android:id="@+id/personal_theme_my_style"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <!-- 我的作品 -->
+                    <com.nd.hilauncherdev.menu.personal.widget.PersonalCenterSettingsItem
+                        android:id="@+id/personal_compaign_my_works"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <!-- 我的收藏 -->
+                    <com.nd.hilauncherdev.menu.personal.widget.PersonalCenterSettingsItem
+                        android:id="@+id/personal_compaign_my_collect"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <!-- 我的美图 -->
+                    <com.nd.hilauncherdev.menu.personal.widget.PersonalCenterSettingsItem
+                        android:id="@+id/personal_compaign_my_meitu"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <!-- 我的下载 -->
+                    <com.nd.hilauncherdev.menu.personal.widget.PersonalCenterSettingsItem
+                        android:id="@+id/personal_compaign_download"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <!-- 我的主题 -->
+                    <com.nd.hilauncherdev.menu.personal.widget.PersonalCenterSettingsItem
+                        android:id="@+id/personal_compaign_my_theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <!-- 我的视频 -->
+                    <com.nd.hilauncherdev.menu.personal.widget.PersonalCenterSettingsItem
+                        android:id="@+id/personal_compaign_my_video"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <!-- 积分商城 -->
+                    <com.nd.hilauncherdev.menu.personal.widget.PersonalCenterSettingsItem
+                        android:id="@+id/personal_compaign_integral_shop"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <!-- 其他 -->
+                    <com.nd.hilauncherdev.menu.personal.widget.PersonalCenterSettingsItem
+                        android:id="@+id/personal_compaign_other_tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.nd.hilauncherdev.menu.personal.PersonalCenterGuideView
+        android:id="@+id/personal_center_guide_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</FrameLayout>

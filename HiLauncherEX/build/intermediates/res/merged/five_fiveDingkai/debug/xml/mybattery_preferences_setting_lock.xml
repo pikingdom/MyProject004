@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 锁屏省电设置 -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- 锁屏清理内存-->
+	<CheckBoxPreference android:layout="@layout/preference_normal_layout" 
+		android:defaultValue="false"
+		android:key="settings_lock_clean_storage" 
+		android:title="@string/mybattery_lock_setting_memory"
+		android:widgetLayout="@layout/preferences_checkbox" />
+	<!-- 锁屏时关闭wifi和自动同步  -->
+	<CheckBoxPreference android:layout="@layout/preference_normal_layout" 
+		android:defaultValue="false"
+		android:key="settings_lock_close_wifi_autosynchro" 
+		android:title="@string/mybattery_lock_setting_wifi"
+		android:widgetLayout="@layout/preferences_checkbox"/>
+</PreferenceScreen>

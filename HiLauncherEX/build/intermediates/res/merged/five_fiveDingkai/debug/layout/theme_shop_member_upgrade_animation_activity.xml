@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 会员升级动画界面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/member_upgrade_animation_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b2000000">
+    <!-- 火箭云 -->
+	<ImageView 
+	    android:id="@+id/member_upgrade_animation_cloud1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/member_upgrade_animation_cloud1"
+	    android:visibility="invisible"/>
+	<!-- 上浮渐隐云 -->
+    <ImageView 
+        android:id="@+id/member_upgrade_animation_cloud2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:background="@drawable/member_upgrade_animation_cloud2"
+	    android:visibility="invisible"/>
+    <!-- 上浮渐隐云 -->
+    <ImageView 
+        android:id="@+id/member_upgrade_animation_cloud3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:background="@drawable/member_upgrade_animation_cloud3"
+	    android:visibility="invisible"/>
+    <!-- 渐显上浮,渐隐下浮云 -->
+    <ImageView 
+        android:id="@+id/member_upgrade_animation_cloud4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:background="@drawable/member_upgrade_animation_cloud4"
+	    android:visibility="invisible"/>
+    <!-- 火箭(逐渐变小) -->
+    <ImageView 
+        android:id="@+id/member_upgrade_animation_rocket"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:src="@drawable/member_upgrade_animation_rocket"
+	    android:visibility="invisible"/>
+    <!-- 等级布局 -->
+    <LinearLayout 
+        android:id="@+id/member_upgrade_animation_bg"
+        android:layout_width="277dp"
+	    android:layout_height="277dp"
+	    android:background="@drawable/member_upgrade_animation_bg"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center"
+	    android:orientation="vertical"
+	    android:visibility="invisible">
+	    <!-- 等级皇冠 -->
+        <ImageView 
+            android:id="@+id/member_upgrade_animation_rankimg"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/associator_bronze_medal_max"
+		    android:visibility="invisible"/>
+        <TextView 
+            android:id="@+id/member_upgrade_animation_ranktext"
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="30dp"
+		    android:layout_marginRight="30dp"
+		    android:gravity="center"
+		    android:textColor="#ffe83839"
+		    android:textSize="20sp"
+            android:text="@string/theme_shop_my_member_upgrade_animation_tips"
+            android:visibility="invisible"/>
+    </LinearLayout>
+</RelativeLayout>

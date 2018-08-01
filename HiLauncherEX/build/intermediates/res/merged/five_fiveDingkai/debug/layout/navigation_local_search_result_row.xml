@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="57dp"
+  android:minHeight="57dp"
+  android:descendantFocusability="blocksDescendants" 
+  android:background="@drawable/miui_cell_bg_center">
+  
+	<LinearLayout
+	    android:id="@+id/btnResultItem"
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal"
+	    android:layout_centerInParent="true"
+	    android:paddingLeft="10dp" >
+	    
+		<ImageView android:id="@+id/icon"
+		  android:layout_width="32dp"
+		  android:layout_height="32dp"
+		  android:src="@drawable/logo_mini"
+	  	  android:layout_gravity="center_vertical"/>
+	  		  <LinearLayout  
+		      android:layout_width="0dip"
+		      android:layout_weight="1"
+		      android:layout_height="fill_parent"
+		      android:layout_gravity="center_vertical"
+		      android:layout_marginLeft="12dp"
+		      android:gravity="center_vertical"
+		      android:orientation="vertical">
+		      
+			  <TextView
+			      android:id="@+id/label"
+			      android:layout_width="match_parent"
+			      android:layout_height="wrap_content"
+			      android:singleLine="true"
+			      android:textColor="#b2ffffff"
+			      android:text="安全中心"
+			      android:gravity="center_vertical"
+			      android:ellipsize="middle" 
+			      android:textSize="14sp" />
+			  <TextView
+			      android:id="@+id/labelSmall"
+			      android:layout_width="match_parent"
+			      android:layout_height="wrap_content"
+			      android:singleLine="true"
+			      android:textColor="#7a7a7a"
+			      android:gravity="center_vertical"
+			      android:text="应用程序"
+			      android:textSize="10sp" />
+			  
+		  </LinearLayout>
+		  
+		  
+		  <LinearLayout
+		      android:id="@+id/leftDivideLayout"
+		      android:layout_width="wrap_content"
+		      android:layout_height="fill_parent" 
+		      android:paddingLeft="12dip"
+		      android:orientation="horizontal"
+		      android:focusable="false"
+		      android:visibility="gone"
+		      android:layout_gravity="right|center_vertical">
+		      <ImageView
+			      android:id="@+id/leftImg"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_gravity="center_vertical"
+			      android:layout_marginLeft="5dp"
+			      android:layout_marginRight="15dp"
+			      android:focusable="false"
+			      android:src="@drawable/navigation_search_position_icon"
+			      android:scaleType="center"/>
+		  </LinearLayout>
+		  
+		 
+		  <LinearLayout
+		      android:id="@+id/rightDivideLayout"
+		      android:layout_width="wrap_content"
+		      android:layout_height="fill_parent" 
+		      android:paddingLeft="12dip"
+		      android:orientation="horizontal"
+		      android:focusable="false"
+		      android:layout_gravity="right|center_vertical">
+		      <ImageView
+			      android:id="@+id/rightImg"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_gravity="center_vertical"
+			      android:layout_marginLeft="5dp"
+			      android:layout_marginRight="15dp"
+			      android:focusable="false"
+			      android:src="@drawable/navigation_search_position_icon"
+			      android:scaleType="center"/>
+		  </LinearLayout>
+	</LinearLayout>  
+	<ImageView 
+	    android:id="@+id/line"
+	    android:layout_width="match_parent"
+	    android:layout_height="0.5dp"
+	    android:layout_marginLeft="15dp"
+	    android:layout_marginRight="15dp"
+	    android:background="#14ffffff"
+	    android:layout_alignParentBottom="true"
+	    />
+</RelativeLayout>

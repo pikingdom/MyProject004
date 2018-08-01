@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/guide_le_bg">
+
+    <LinearLayout
+        android:id="@+id/item_wlan_height"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/guide_le_wlan_item_no_conn_h"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_wlan_ssid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/guide_le_title_text"
+            android:textSize="13dp"
+            android:text="ssid"/>
+
+
+        <TextView
+            android:id="@+id/item_wlan_conn_info"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            android:textColor="#88898e"
+            android:textSize="12dp"
+            android:text="已保存"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:id="@+id/item_wlan_waft"
+            android:layout_width="20.19dp"
+            android:layout_height="15.61dp"
+            android:layout_marginRight="20.95dp"
+            android:background="@drawable/ic_le_wlan_status_dense_0"/>
+
+        <ImageView
+            android:id="@+id/item_wlan_info"
+            android:layout_width="18.29dp"
+            android:layout_height="18.29dp"
+            android:layout_marginRight="2.67dp"
+            android:background="@drawable/btn_le_item_wlan_info"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

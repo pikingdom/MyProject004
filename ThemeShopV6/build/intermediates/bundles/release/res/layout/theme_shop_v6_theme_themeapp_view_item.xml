@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal" android:clickable="true">
+
+    <!-- item_bg_selector -->
+
+   <RelativeLayout
+        android:id="@+id/themeapp_LinearLayout00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <ImageView
+            android:id="@+id/themeapp_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout 
+            android:id="@+id/themeapp_descLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/themeapp_icon"
+            android:layout_toLeftOf="@+id/themeapp_state"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            >
+	        <TextView
+	            android:id="@+id/themeapp_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ellipsize="end"
+	            android:singleLine="true"
+	            android:text="TextView0"
+	            android:textColor="#595959"
+	            android:textSize="14dip" >
+	        </TextView>
+	
+	        <TextView
+	            android:id="@+id/themeapp_desc"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="4dp"
+	            android:singleLine="true"
+	            android:textColor="#898989"
+	            android:textSize="13sp" />
+        </LinearLayout>
+        
+        
+        <Button
+            android:id="@+id/themeapp_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:minWidth="54dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/common_btn_blue_selector"
+            android:focusable="false"
+            android:singleLine="true"
+            android:text="@string/theme_shop_theme_downloading"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+
+</LinearLayout>

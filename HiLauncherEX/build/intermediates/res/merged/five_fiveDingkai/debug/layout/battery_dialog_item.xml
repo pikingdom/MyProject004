@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_select_line"
+    android:layout_width="fill_parent"
+    android:layout_height="44dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/myphone_click_item_blue">
+
+    <ImageView
+        android:id="@+id/dialog_select_item"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/selector_radio_checkbox" />
+
+    <TextView
+            android:id="@+id/dialog_select_item_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dialog_select_item"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="16sp"
+            android:textColor="@color/title_sub_color"
+            android:textSize="14sp" />
+
+</RelativeLayout>

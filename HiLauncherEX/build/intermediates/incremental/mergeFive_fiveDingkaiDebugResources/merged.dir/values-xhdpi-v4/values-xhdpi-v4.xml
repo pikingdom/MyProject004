@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="download_activity_nodata_btn_margin">30dp</dimen>
+    <dimen name="download_activity_nodata_btn_text">18sp</dimen>
+    <dimen name="download_activity_nodata_btn_width">152dip</dimen>
+    <dimen name="home_menu_bottom_margin">50dip</dimen>
+    <dimen name="home_menu_top_margin">75dip</dimen>
+    <dimen name="readme_recommend_app_bg_size">185dip</dimen>
+    <dimen name="readme_recommend_app_icon_size">68dip</dimen>
+    <dimen name="readme_v7_page2_title_margin_top">100dip</dimen>
+    <dimen name="splash_logo_height">64dip</dimen>
+    <dimen name="splash_logo_margin_bottom">23dip</dimen>
+    <dimen name="splash_logo_margin_left">16dip</dimen>
+    <dimen name="splash_logo_width">214dip</dimen>
+    <dimen name="system_switch_item_text">12dip</dimen>
+    <dimen name="theme_shop_v6_list_item_price">11sp</dimen>
+    <dimen name="theme_shop_v6_list_item_title">13sp</dimen>
+    <dimen name="theme_shop_v6_recomment_new_img_height">173dip</dimen>
+    <dimen name="theme_shop_v6_recomment_new_img_width">105dip</dimen>
+</resources>

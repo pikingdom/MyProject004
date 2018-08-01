@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:paddingBottom="15dp">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/boy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:padding="15dp"
+                android:button="@null"
+                android:drawableRight="@drawable/btn_checkbox"
+                android:text="@string/personal_setting_info_boy"
+                android:textColor="@color/theme_shop_personal_content_color"
+                android:textSize="@dimen/theme_shop_v6_personal_center_text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/myphone_common_split" />
+
+            <RadioButton
+                android:id="@+id/girl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:padding="15dp"
+                android:button="@null"
+                android:drawableRight="@drawable/btn_checkbox"
+                android:text="@string/personal_setting_info_girl"
+                android:textColor="@color/theme_shop_personal_content_color"
+                android:textSize="@dimen/theme_shop_v6_personal_center_text_size" />
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:background="#00ff0000"
+              android:layout_height="90dp">
+
+    <ImageView
+
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/goods_image"/>
+    <!--商品名，价格等 信息-->
+    <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+
+        <TextView
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="IPHONE 6S 64G"
+                android:textSize="13sp"
+                android:textColor="#ffffff"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:id="@+id/goods_name"/>
+        <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="false"
+                android:indeterminateOnly="false"
+                android:progressDrawable="@drawable/youbao_progressbar_h"
+                android:maxHeight="8dp"
+                android:minHeight="8dp"
+                android:padding="0dp"
+                android:progress="92"
+                android:secondaryProgress="100"
+                android:id="@+id/goods_progress"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/needInfo"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/youbao_default_all"
+                    android:textSize="10sp"
+                    android:textColor="#4cffffff"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical|left"
+                    android:id="@+id/goods_total_price"/>
+            <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="剩余500"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textSize="10sp"
+                    android:textColor="#4cffffff"
+                    android:gravity="center_vertical|right"
+                    android:id="@+id/goods_remain_price"/>
+
+        </LinearLayout>
+
+        <!--倒计时的相关UI-->
+        <LinearLayout android:layout_width="match_parent"
+                      android:id="@+id/coundownInfo"
+                      android:layout_weight="1"
+                      android:visibility="gone"
+                      android:layout_height="match_parent">
+            <!--ImageView android:layout_width="wrap_content"
+                       android:id="@+id/alarmclock"
+                       android:src="@drawable/youbao_alarmclock"
+                       android:layout_gravity="center_vertical"
+                       android:layout_centerVertical="true"
+                       android:layout_height="wrap_content"/-->
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/countdown_tip"
+                      android:textColor="#4cffffff"
+                      android:textSize="10sp"
+                      android:layout_marginLeft="0dp"
+                      android:text="@string/youbao_will_announce"
+                      android:gravity="center_vertical|left"
+                      android:layout_gravity="center_vertical"
+                      android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/countdown"
+                      android:textColor="@color/youbao_text_color"
+                      android:textSize="14sp"
+                      android:layout_marginLeft="5dp"
+                      android:text="00:00:00"
+                      android:layout_marginRight="0dp"
+                      android:gravity="center_vertical|left"
+                      android:layout_gravity="center_vertical"
+                      android:layout_centerVertical="true"
+                      android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!--已揭示-->
+        <LinearLayout android:layout_width="match_parent"
+                      android:id="@+id/view_details_layout"
+                      android:layout_weight="1"
+                      android:visibility="gone"
+                      android:layout_height="match_parent">
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/already_announced"
+                      android:textColor="#4cffffff"
+                      android:textSize="10sp"
+                      android:text="@string/youbao_have_announce"
+                      android:gravity="center_vertical|left"
+                      android:layout_gravity="center_vertical"
+                      android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/view_details"
+                      android:textColor="#5a96e6"
+                      android:textSize="11sp"
+                      android:layout_marginLeft="10dp"
+                      android:text="@string/youbao_view_details"
+                      android:layout_marginRight="0dp"
+                      android:gravity="center_vertical|left"
+                      android:layout_gravity="center_vertical"
+                      android:layout_centerVertical="true"
+                      android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+            android:layout_width="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="30dp"
+            android:background="@drawable/youbao_oneget_button_selector"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:text="@string/youbao_one_get"
+            android:id="@+id/one_get"/>
+</LinearLayout>

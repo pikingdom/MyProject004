@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="calendar_dynamic_icon_a_week">
+	    <item>星期日</item>
+	    <item>星期一</item>
+	    <item>星期二</item>
+	    <item>星期三</item>
+	    <item>星期四</item>
+	    <item>星期五</item>
+	    <item>星期六</item>
+	</string-array>
+    <integer-array name="class_folder_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+    <string-array name="class_folder_name">
+        <item>遊戲</item>
+        <item>影音播放</item>
+        <item>影像編輯</item>
+        <item>即時訊息</item>
+        <item>旅遊</item>
+        <item>閱讀</item>
+        <item>購物</item>
+        <item>生活品味</item>
+        <item>生產應用</item>
+        <item>手機美化</item>
+    </string-array>
+    <string-array name="cleaner_widget_bubble_tip_array">
+		<item>戳這裏，壹起來變個魔術吧~</item>
+		<item>手機有些累了，快來清理清理吧~</item>
+		<item>Hey，點點我，該活動活動手指啦。</item>
+		<item>妳看，該是清理手機內存的時候啦！</item>
+	</string-array>
+    <string-array name="cleaner_widget_clean_result_tip_array">
+		<item>提速%1$s，哇哦，手機速度已經超過光速了！</item>
+		<item>提速%1$s，手機又變得精神抖擻啦。</item>
+		<item>提速%1$s，緩存垃圾都已經消失啦。</item>
+		<item>提速%1$s，養成清理是個好習慣~</item>
+	</string-array>
+    <string-array name="drawer_app_sort_rule">  
+        <item>按字母排序</item>
+        <item>按安裝時間從近到遠排序</item>
+        <item>按安裝時間從遠到近排序</item>
+        <item>按使用次數從多到少排序</item>
+        <item>按使用次數從少到多排序</item>
+    </string-array>
+    <string-array name="month_full">
+		<item>January</item>
+		<item>February</item>
+		<item>March</item>
+		<item>April</item>
+		<item>May</item>
+		<item>June</item>
+		<item>July</item>
+		<item>Aguest</item>
+		<item>September</item>
+		<item>October</item>
+		<item>November</item>
+		<item>December</item>
+	</string-array>
+    <string-array name="myphone_battery_intelligent_week">
+		<item>周日</item>
+		<item>週一</item>
+		<item>週二</item>
+		<item>週三</item>
+		<item>週四</item>
+		<item>週五</item>
+		<item>週六</item>
+	</string-array>
+    <string-array name="scene_select_dialog_operate_type_0">
+		<item>預覽情景</item>
+		<item>應用情景</item>
+		<item>刪除情景</item>
+	</string-array>
+    <string-array name="scene_select_dialog_operate_type_1">
+		<item>預覽情景</item>
+		<item>應用情景</item>
+	</string-array>
+    <string-array name="scene_select_dialog_operate_type_2">
+		<item>應用情景</item>
+		<item>刪除情景</item>
+	  </string-array>
+    <string-array name="scene_select_dialog_operate_type_3">
+		<item>應用情景</item>
+	</string-array>
+    <string-array name="settings_common_effects_drawer_array">
+    	<item>默認</item>
+		<item>隨機</item>				
+		<item>內縮放</item>
+		<item>外縮放</item>
+		<item>風車</item>
+		<item>電視機</item>
+	</string-array>
+    <string-array name="settings_common_effects_drawer_scroll_array">
+		<item>默認</item>
+		<item>隨機</item>	
+		<item>卡片堆</item>
+		<item>翻滾</item>
+		<item>翻轉</item>
+		<item>鐘擺</item>
+		<item>立方體(內)</item>
+		<item>立方體(外)</item>
+		<item>百葉窗</item>
+		<item>弦</item>	
+		<item>兄弟連</item>
+		<item>風火輪</item>
+		<item>球</item>
+		<item>圓柱</item>
+		<item>龍捲風</item>
+		<item>雙飛燕</item>
+		<item>太極</item>
+		<item>吃豆豆</item>
+		<item>時光隧道</item>
+		<item>開門</item>
+		<item>翻頁</item>
+	</string-array>
+    <string-array name="settings_common_effects_drawer_value">
+		<item>0</item>
+		<item>1</item>		
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+    <string-array name="settings_common_effects_screen_array">
+		<item>默認</item>
+		<item>隨機</item>	
+		<item>卡片堆</item>
+		<item>翻滾</item>
+		<item>翻轉</item>
+		<item>鐘擺</item>
+		<item>立方體(內)</item>
+		<item>立方體(外)</item>
+		<item>百葉窗</item>
+		<item>弦</item>	
+		<item>兄弟連</item>
+		<item>風火輪</item>
+		<item>球</item>
+		<item>圓柱</item>
+		<item>龍捲風</item>
+		<item>雙飛燕</item>
+		<item>太極</item>
+		<item>吃豆豆</item>
+		<item>時光隧道</item>
+		<item>開門</item>
+		<item>翻頁</item>
+	</string-array>
+    <string-array name="settings_launcher_countxy_array">
+		<item>4x4(原始)</item>
+		<item>5x4(適中)</item>
+		<item>5x5(密集)</item>
+	</string-array>
+    <string-array name="settings_launcher_countxy_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+    <string-array name="settings_launcher_screen_countxy_array">
+		<item>4x4(原始)</item>
+		<item>5x4(適中)</item>
+		<item>5x5(密集)</item>
+		<item>自訂</item>
+	</string-array>
+    <string-array name="settings_launcher_screen_countxy_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+    <string-array name="settings_particle_effects_screen_array">
+		<item>默認(無)</item>	
+		<item>焰火</item>
+		<item>禮花</item>
+		<item>曝光</item>
+		<item>愛心氣球</item>
+		<item>心花怒放</item>
+		<item>星光四射</item>
+		<item>撒錢</item>
+		<item>蝴蝶</item>
+	</string-array>
+    <string-array name="settings_personal_double_gesture_menu_entities_down">
+    	<item>無回應</item>
+    	<item>應用程式</item>
+    	<item>桌面快捷方式</item>
+    	<item>系統快捷方式</item>
+    	<item>默認(情景桌面)</item>
+    </string-array>
+    <string-array name="settings_personal_folder_style_array">
+   	    <item>iPhone風格</item>
+		<item>Android 4.0風格</item>		
+		<item>全屏風格</item>		
+	</string-array>
+    <string-array name="settings_personal_folder_style_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+    <string-array name="settings_personal_gesture_menu_entities_down">
+    	<item>無回應</item>
+    	<item>應用程式</item>
+    	<item>桌面快捷方式</item>
+    	<item>系統快捷方式</item>
+    	<item>默認(%1$s Know)</item>
+    </string-array>
+    <string-array name="settings_personal_gesture_menu_entities_up">
+    	<item>無回應</item>
+    	<item>應用程式</item>
+    	<item>桌面快捷方式</item>
+    	<item>系統快捷方式</item>
+    	<item>默認(搜尋)</item>
+    </string-array>
+    <string-array name="settings_personal_gesture_menu_keys">
+   		<item>0</item>
+    	<item>1</item>
+    	<item>2</item>
+    	<item>3</item>
+    	<item>4</item>
+   	</string-array>
+    <string-array name="suggestion_folder_name">
+		<item>遊戲</item>
+		<item>社交</item>
+		<item>工具</item>
+		<item>網路</item>
+		<item>系統</item>
+		<item>工作</item>
+		<item>常用</item>
+		<item>不常用</item>
+	</string-array>
+    <string-array name="week_full">
+		<item>周日</item>
+		<item>周一</item>
+		<item>周二</item>
+		<item>周三</item>
+		<item>周四</item>
+		<item>周五</item>
+		<item>周六</item>
+	</string-array>
+    <string-array name="widget_variety_operate_custom_template">
+        <item>刪除</item>
+    </string-array>
+    <item name="common_view_holder" type="id"/>
+    <item name="drager_controller_on_drag_exit_in_action_move" type="id"/>
+    <item name="launcher_edit_widget_down_item" type="id"/>
+    <string msgid="3571057450431950427" name="activity_not_found">手機上未安裝任何應用程式。</string>
+    <string name="alarmClock_not_find">鬧鐘沒找到</string>
+    <string name="alarm_pattern">鬧鐘模式</string>
+    <string name="alarm_pattern_desc">僅保留鬧鐘功能，推薦睡覺時使用</string>
+    <string name="all_apps_loading_message">"正在載入應用程式…"</string>
+    <string name="all_apps_no_search_results">"無法找到與「%1$s」相符的應用程式"</string>
+    <string name="all_apps_search_bar_hint">"搜尋應用程式…"</string>
+    <string name="all_apps_search_market_message">"前往 %1$s"</string>
+    <string name="alwaysUsePrompt">下次默認選擇此項，不再提示</string>
+    <string name="app_assort_tip">將應用按照分類歸入不同的資料夾中</string>
+    <string name="app_choose_tab_app">應用</string>
+    <string name="app_choose_tab_shortcut">%1$s快捷</string>
+    <string name="app_choose_title">添加應用</string>
+    <string name="application_old_name">91熊貓桌面</string>
+    <string name="apply_theme">應用主題</string>
+    <string name="apply_theme_msg">正在應用主題，請不要退出程式</string>
+    <string name="appmanager_title">應用管家</string>
+    <string name="assort_now">開始分類</string>
+    <string name="barencode_contents_contact">連絡人信息</string>
+    <string name="barencode_contents_email">Email地址</string>
+    <string name="barencode_contents_location">地理座標</string>
+    <string name="barencode_contents_phone">電話號碼</string>
+    <string name="barencode_contents_sms">短信地址</string>
+    <string name="barencode_contents_text">純文字</string>
+    <string name="battery_app_isrunning">運行中</string>
+    <string name="battery_app_stop"><Data>&lt;font color=\"#06a100\">已停止&lt;/font></Data></string>
+    <string name="battery_begin_time">開始時間</string>
+    <string name="battery_end_time">結束時間</string>
+    <string name="battery_hardware_bluetooth">藍牙</string>
+    <string name="battery_hardware_cpu">CPU</string>
+    <string name="battery_hardware_gprs">移動資料</string>
+    <string name="battery_hardware_phone">通訊</string>
+    <string name="battery_hardware_power_rank">硬體耗電</string>
+    <string name="battery_hardware_screen">螢幕</string>
+    <string name="battery_hardware_wifi">WI-FI</string>
+    <string name="battery_health">健康狀況</string>
+    <string name="battery_health_dead">沒電</string>
+    <string name="battery_health_good">良好</string>
+    <string name="battery_health_over_voltage">過電壓</string>
+    <string name="battery_health_overheat">過熱</string>
+    <string name="battery_health_unknown">未知狀態</string>
+    <string name="battery_history_cpu_fore_time">CPU佔用時間(前臺)</string>
+    <string name="battery_history_cpu_time">CPU佔用時間</string>
+    <string name="battery_history_data_rx">下載數據</string>
+    <string name="battery_history_data_tx">上傳數據</string>
+    <string name="battery_history_days">"%1$d天 %2$d小時"</string>
+    <string name="battery_history_hours">"%1$d小時 %2$d分"</string>
+    <string name="battery_history_mem_size">記憶體佔用</string>
+    <string name="battery_history_millseconds">"%1$d毫秒"</string>
+    <string name="battery_history_minutes">"%1$d分 %2$d秒"</string>
+    <string name="battery_history_seconds">"%1$d秒 %2$d毫秒"</string>
+    <string name="battery_history_sensor_time">感測器佔用時間</string>
+    <string name="battery_history_wakelock_count">阻止系統休眠次數</string>
+    <string name="battery_history_wakelock_time">阻止系統休眠時間</string>
+    <string name="battery_history_wakelock_unit">次</string>
+    <string name="battery_mode_name">模式名稱 : </string>
+    <string name="battery_repeat">是否重複</string>
+    <string name="battery_repeat_no">無</string>
+    <string name="battery_save_tip1">%1$已為您清理到最佳省電狀態，請稍後再清理</string>
+    <string name="battery_save_tip2">為您清理了%1$s個耗電應用程式</string>
+    <string name="battery_software_power_rank">軟體耗電</string>
+    <string name="battery_technology">電池工藝</string>
+    <string name="battery_temperature">電池溫度</string>
+    <string name="battery_usetime_2dgame">玩2D遊戲</string>
+    <string name="battery_usetime_2gtel">2G通話</string>
+    <string name="battery_usetime_3dgame">玩3D遊戲</string>
+    <string name="battery_usetime_3gtel">3G通話</string>
+    <string name="battery_usetime_bluetooth">藍牙</string>
+    <string name="battery_usetime_camera">照相</string>
+    <string name="battery_usetime_default">續航時間</string>
+    <string name="battery_usetime_gprs">3G上網</string>
+    <string name="battery_usetime_gps">GPS</string>
+    <string name="battery_usetime_movie">電影播放</string>
+    <string name="battery_usetime_music">音樂播放</string>
+    <string name="battery_usetime_onlinemovie">線上電影播放</string>
+    <string name="battery_usetime_read">閱讀</string>
+    <string name="battery_usetime_videorec">錄製視頻</string>
+    <string name="battery_usetime_voicerec">錄製語音</string>
+    <string name="battery_usetime_wifi">WIFI上網</string>
+    <string name="battery_voltage">電池電壓</string>
+    <string name="beautify_phone_wallpaper">壁紙</string>
+    <string name="bluetooth">藍牙</string>
+    <string name="brightness">亮度</string>
+    <string name="can_use_time">續航時間:</string>
+    <string name="change_mode_suc">切換成功</string>
+    <string name="change_mode_tip">確認切換為”%1$s“模式？</string>
+    <string name="charging_saver_battery_info_remaining_charging_time">"充電預估: "</string>
+    <string name="charging_saver_close_dialog_tip">關閉充電鎖屏後等待時間將變長，是否關閉？</string>
+    <string name="charging_saver_common_time_hour">時</string>
+    <string name="charging_saver_common_time_minute">分</string>
+    <string name="charging_saver_screen_slide_to_enter">滑動以解鎖>>></string>
+    <string name="charging_saver_type_average">連續</string>
+    <string name="charging_saver_type_fast">快速</string>
+    <string name="charging_saver_type_slowly">涓流</string>
+    <string name="charging_saver_under_charging">充電保護中</string>
+    <string name="charging_time">充電預估:</string>
+    <string name="classify_app_in_app">請在應用程式頁面使用智慧分類功能吧</string>
+    <string name="classify_autotidy_category_other_folder">其他</string>
+    <string name="classify_autotidy_category_shortcut_folder">快捷方式</string>
+    <string name="classify_autotidy_category_system_folder">手機自帶</string>
+    <string name="classify_autotidy_category_tool_folder">小工具</string>
+    <string name="classify_rollback_cancel">取消</string>
+    <string name="classify_rollback_ok">確定</string>
+    <string name="close_airplane_mode">請關閉飛行模式</string>
+    <string name="common_alert">注意</string>
+    <string name="common_button_add">新增</string>
+    <string name="common_button_addto">增加</string>
+    <string name="common_button_apply">套用</string>
+    <string name="common_button_back_to_home">首頁</string>
+    <string name="common_button_cancel">取消</string>
+    <string name="common_button_clear">清理</string>
+    <string name="common_button_close">關閉</string>
+    <string name="common_button_closed">停用</string>
+    <string name="common_button_commit">提交</string>
+    <string name="common_button_complate">完成</string>
+    <string name="common_button_confirm">確定</string>
+    <string name="common_button_continue">繼續</string>
+    <string name="common_button_default">預設</string>
+    <string name="common_button_delete">刪除</string>
+    <string name="common_button_discard">丟棄</string>
+    <string name="common_button_download">下載</string>
+    <string name="common_button_download_more">下載更多</string>
+    <string name="common_button_download_skin">下載主題</string>
+    <string name="common_button_downloading">正在下載</string>
+    <string name="common_button_edit">編輯</string>
+    <string name="common_button_editable">編輯</string>
+    <string name="common_button_enabled">啟用</string>
+    <string name="common_button_enter">啟動</string>
+    <string name="common_button_i_know">確定</string>
+    <string name="common_button_ignore">忽略</string>
+    <string name="common_button_install">安裝</string>
+    <string name="common_button_manager">管理器</string>
+    <string name="common_button_modify">修改</string>
+    <string name="common_button_no">否</string>
+    <string name="common_button_open">開啟</string>
+    <string name="common_button_open_now">立刻啟用</string>
+    <string name="common_button_preview">預覽</string>
+    <string name="common_button_recover">復原</string>
+    <string name="common_button_redownload">重新下載</string>
+    <string name="common_button_refresh">重新整理</string>
+    <string name="common_button_restart_now">立刻重新啟動</string>
+    <string name="common_button_return">返回</string>
+    <string name="common_button_save">儲存</string>
+    <string name="common_button_search">搜尋</string>
+    <string name="common_button_set">設定</string>
+    <string name="common_button_share">分享</string>
+    <string name="common_button_uninstall">解除安裝</string>
+    <string name="common_button_update">更新</string>
+    <string name="common_button_use">啟用</string>
+    <string name="common_button_use_now">立刻使用</string>
+    <string name="common_button_used">已啟用</string>
+    <string name="common_button_view_detail">詳細資料</string>
+    <string name="common_button_yes">是</string>
+    <string name="common_checkbox_not_alert">不要再顯示此訊息</string>
+    <string name="common_download_ended">已下載</string>
+    <string name="common_download_failed">下載失敗</string>
+    <string name="common_download_now">立刻下載</string>
+    <string name="common_download_success">下載成功</string>
+    <string name="common_downloading">正在下載...</string>
+    <string name="common_install_now">立刻安裝</string>
+    <string name="common_installed">已安裝</string>
+    <string name="common_loading">正在載入...</string>
+    <string name="common_refresh">重新整理</string>
+    <string name="common_refresh_failed">重新整理失敗</string>
+    <string name="common_tip">提示</string>
+    <string name="common_uninstalled">尚未安裝</string>
+    <string name="custom_rows_cols">自訂行列</string>
+    <string name="default_set_controller_select_pic">圖示選擇</string>
+    <string name="delete_theme">刪除主題</string>
+    <string name="delete_theme_msg">確認刪除?</string>
+    <string name="delete_tip_4_dynamic_foler">可通過\"功能表>添加應用>%1$s>%2$s\"重新添加到桌面</string>
+    <string name="dockbar_allow">無法拖曳到快捷列</string>
+    <string name="dockbar_always_use">"默認用於執行此操作。"</string>
+    <string name="dockbar_dock_browser">瀏覽器</string>
+    <string name="dockbar_dock_contacts">聯絡人</string>
+    <string name="dockbar_dock_dial">撥號</string>
+    <string name="dockbar_dock_drawer">應用列表</string>
+    <string name="dockbar_dock_sms">訊息</string>
+    <string name="dockbar_no_permission">無此許可權</string>
+    <string name="dockbar_null_intent">異常資料</string>
+    <string name="dockbar_tips_reset_default_app">通過\"&lt;font color="#1e83de">桌面設置&lt;/font>\">\"&lt;font color="#1e83de">協助工具&lt;/font>\">\"預設軟體設置\"清除預設值。</string>
+    <string name="dockbar_which_app">"使用以下內容完成操作"</string>
+    <string name="drawer_all_apps">應用程式</string>
+    <string name="drawer_apps_not_init_tips">程式尚未完成初始化，請稍後重試...</string>
+    <string name="drawer_backup_app">備份</string>
+    <string name="drawer_backup_app_not_support">暫不支援非應用備份</string>
+    <string name="drawer_before_download_widget_tip">%1$s軟體開始下載，可在狀態列中查看下載進度</string>
+    <string name="drawer_common_download">下載</string>
+    <string name="drawer_delete_dialog_message">正在刪除，請稍候...</string>
+    <string name="drawer_delete_encript_folder_tips">確定刪除資料夾並把圖示放回應用清單?\n該資料夾已被加密</string>
+    <string name="drawer_delete_folder_tips">解散後，資料夾中的應用將放回到列表中</string>
+    <string name="drawer_delete_folder_tips_title">解散資料夾</string>
+    <string name="drawer_delete_not_found_app_tips">無法找到該應用，即將從應用清單中移除該圖示，確定刪除？</string>
+    <string name="drawer_delete_not_found_app_tips_title">刪除提示</string>
+    <string name="drawer_download_widget_tip">是否立即下載%1$s？</string>
+    <string name="drawer_menu_auto_app_classify">智能分類</string>
+    <string name="drawer_menu_classify_wait">應用資料分類中,請稍候...</string>
+    <string name="drawer_menu_hide_app">隱藏程式</string>
+    <string name="drawer_menu_icon_sort">圖示排序</string>
+    <string name="drawer_menu_new_folder">新建資料夾</string>
+    <string name="drawer_menu_settings">應用列表設置</string>
+    <string name="drawer_menu_sort_mode">圖示排序方式</string>
+    <string name="drawer_multi_choose_folder_unavailable_tips">多選模式下，資料夾不可用</string>
+    <string name="drawer_multi_choose_reached_limit_tips">多選項個數已達到最大限制</string>
+    <string name="drawer_my_phone">我的手機</string>
+    <string name="drawer_new_folder_failed_tips">新建資料夾失敗</string>
+    <string name="drawer_not_found_app_tips">無法找到該應用</string>
+    <string name="drawer_not_found_focused_item_tips">抱歉，未找到匹配項，請重新搜索</string>
+    <string name="drawer_not_found_widget_tips">無法找到該小部件，請確定是否已安裝</string>
+    <string name="drawer_shortcut_contact">快捷連絡人</string>
+    <string name="drawer_show_app_details">詳情</string>
+    <string name="drawer_show_app_details_not_support">暫不支援查看非應用資訊</string>
+    <string name="drawer_tools_btn_click_tips">請長按圖示拖入該區域</string>
+    <string name="drawer_widget_click_ready_tips">小部件已經啟用</string>
+    <string name="drawer_widget_click_tips">可長按該小部件移動至桌面</string>
+    <string name="drawer_widget_system_widget">系統小部件</string>
+    <string name="drawer_widgets">小部件</string>
+    <string name="edit_lock_toast_lock">編輯功能已被鎖定</string>
+    <string name="edit_view_theme_individuation">個性化主題</string>
+    <string name="editor_disable_filter">默認(無)</string>
+    <string name="editor_filter_cancel">取消</string>
+    <string name="editor_filter_htcone_no_roll">本機不支持壁紙滾動</string>
+    <string name="editor_filter_no_wallpaper">壁紙獲取失敗，請稍後再試！</string>
+    <string name="editor_filter_ok">確定</string>
+    <string name="editor_filter_rotate">旋轉</string>
+    <string name="editor_more_filter">更多效果</string>
+    <string name="error_pick_contact">連絡人資訊無效，請重新選擇</string>
+    <string name="file_browser_dialog_file_select">檔選擇</string>
+    <string name="filter_apply_success">應用濾鏡成功</string>
+    <string name="folder_91shortcut">桌面工具箱</string>
+    <string name="folder_Favorites">我的最愛</string>
+    <string name="folder_Media">媒體</string>
+    <string name="folder_Productivity">效率</string>
+    <string name="folder_drag_out_error">這個畫面空間不足。請增加另一個畫面。</string>
+    <string name="folder_encript_clear_pwd_msg">確定要清除資料夾(%1$s)的密碼</string>
+    <string name="folder_encript_entrance_hint">請輸入密碼</string>
+    <string name="folder_encript_entrance_pwd_wrong">密碼錯誤</string>
+    <string name="folder_encript_entrance_title">請輸入密碼</string>
+    <string name="folder_encript_setting">設置新密碼</string>
+    <string name="folder_encript_setting_hint_confirm_pwd">請再次輸入密碼</string>
+    <string name="folder_encript_setting_hint_enter_pwd">請設置密碼，長度至少4位元</string>
+    <string name="folder_encript_setting_hint_enter_pwd_for_low">請至少設置4位元密碼</string>
+    <string name="folder_encript_setting_pwd_diff">兩次輸入的密碼不一致</string>
+    <string name="folder_encript_setting_pwd_failed">設置密碼失敗</string>
+    <string name="folder_encript_setting_pwd_illegal">密碼只能設置字母,數位,底線</string>
+    <string name="folder_encript_setting_pwd_null">密碼不能為空</string>
+    <string name="folder_encript_setting_pwd_success">設置密碼成功</string>
+    <string name="folder_encript_setting_pwd_too_short">密碼最少為四位字符</string>
+    <string name="folder_encript_type_choose_none">取消密碼</string>
+    <string name="folder_encript_type_choose_pwd">重新設置密碼</string>
+    <string name="folder_encript_type_choose_title">密碼設置</string>
+    <string name="folder_encript_view_msg">資料夾已被加密,確定刪除?</string>
+    <string name="folder_kitset">工具</string>
+    <string msgid="4588446541914685904" name="folder_name">"資料夾"</string>
+    <string name="folder_name_suggestion">建議名稱:</string>
+    <string name="folder_recent">快速打開</string>
+    <string name="folder_recent_installed">最近安裝</string>
+    <string name="folder_recent_running">最近打開</string>
+    <string name="folder_recent_running_empty">暫無最近打開記錄</string>
+    <string name="folder_recommend">推薦</string>
+    <string name="folder_recommend_hot_app_tip">最Hot應用</string>
+    <string name="frame_viewfacotry_data_load_text">正在努力載入</string>
+    <string name="frame_viewfacotry_download_null">這裡什麼都沒有。現在就加入一些內容吧！</string>
+    <string name="frame_viewfacotry_err_info_text">發生錯誤！</string>
+    <string name="frame_viewfacotry_net_break_btn">開啟設定</string>
+    <string name="frame_viewfacotry_net_break_text">下載失敗。未開啟網路連線。</string>
+    <string name="frame_viewfacotry_net_slowly_reflesh_btn">重新整理</string>
+    <string name="frame_viewfacotry_net_slowly_text">下載失敗。網路連線發生問題。</string>
+    <string name="frame_viewfacotry_search_null">找不到相關的內容。請試著搜尋其他項目。</string>
+    <string name="frame_viewfacotry_show_netsetting_err">開啟網路設定失敗</string>
+    <string name="frame_viewfactory_cancle">取消</string>
+    <string name="frame_viewfactory_del_error_widget_1">主畫面發生問題，可能會影響正常使用。造成任何不便，謹此致歉。你可以選擇重設，將設定初始化以修正這個問題。立刻恢復原始設定？</string>
+    <string name="frame_viewfactory_del_error_widget_2">重設後，主畫面上的小工具將被刪除，以確保你能夠正常使用主畫面。確定要重設？</string>
+    <string name="frame_viewfactory_dialog_title">主畫面提示</string>
+    <string name="frame_viewfactory_err_content_downgrade">你的手機不支援將應用程式降級。請重設主畫面以修正問題。</string>
+    <string name="frame_viewfactory_err_content_text">很抱歉，發生錯誤！我們需要你的意見反應，以幫助我們儘快修正問題。請放心，我們只會收集錯誤資訊，不會收集你的任何個人資訊。</string>
+    <string name="frame_viewfactory_err_content_text_widget">%1$s 小工具發生一點小問題。我們會將它從主畫面移除並重新啟動。如果你仍然需要使用這個小工具，可以在 [應用程式清單] -> [小工具] 中找到它。</string>
+    <string name="frame_viewfactory_err_content_upgrade">糟糕！主畫面發生了一點小問題！從聰明的程式開發人員處得知，更新到最新版本可以修正這個問題。來吧，試試看！</string>
+    <string name="frame_viewfactory_err_title">發生錯誤！</string>
+    <string name="frame_viewfactory_next_time">下次再詢問我</string>
+    <string name="frame_viewfactory_restore">重設</string>
+    <string name="frame_viewfactory_send_failed">你的手機沒有關聯的 Gmail 帳戶，無法傳送訊息。</string>
+    <string name="frame_viewfactory_tell_us">告訴我們</string>
+    <string name="frame_viewfactory_upgrade_now">立刻更新</string>
+    <string msgid="8359351016167075858" name="gadget_error_text">載入小工具時發生問題</string>
+    <string name="gprs">移動資料</string>
+    <string msgid="4118484163419674240" name="group_applications">"應用程式"</string>
+    <string name="haptic_feedback">觸摸振動</string>
+    <string name="hint_download_widget_msg">是否下載%1$s？</string>
+    <string name="hint_download_widget_title">下載提示</string>
+    <string name="hint_install_flashlight">手電筒</string>
+    <string name="hint_install_flashlight_msg">快速打開手電筒，再也不怕走夜路。\n是否安裝？</string>
+    <string name="hint_install_screenoff">一鍵關屏</string>
+    <string name="hint_install_screenoff_msg">解放電源鍵，一鍵點擊鎖定螢幕。\n是否安裝？</string>
+    <string name="hint_install_zxing_scan">二維碼掃描</string>
+    <string name="hint_install_zxing_scan_msg">掃應用、掃網址，掃碼識別快捷精准。\n是否安裝？</string>
+    <string name="hint_sdcard_available">已載入 SD 卡，現在將重新整理主畫面圖示。</string>
+    <string name="hint_sdcard_unavailable">SD卡不可用</string>
+    <string name="hint_sdcard_unavailable_msg">SD卡不可用，SD卡程式無法載入</string>
+    <string name="icon_repalce_left_title">更換圖示</string>
+    <string name="icon_repalce_more_module_icon">更多合輯圖示</string>
+    <string name="icon_repalce_more_theme_icon">更多主題圖示</string>
+    <string name="icon_repalce_select_gallery_icon_title">手機圖庫</string>
+    <string name="icon_repalce_select_module_icon_title">本地圖示</string>
+    <string name="icon_repalce_select_theme_icon_title">主題圖示</string>
+    <string name="icon_replace_btn_reset_default">恢復默認</string>
+    <string name="icon_replace_default_icon">(預設圖示)</string>
+    <string name="impor_exist_theme_dialog_title">導入主題</string>
+    <string name="import_exist_theme_completed">主題導入完畢</string>
+    <string name="import_exist_theme_dialog">檢測到當前系統中存在原有的主題，是否導入？</string>
+    <string name="import_exist_theme_dialog_ing">主題導入中...</string>
+    <string name="install_fail">主題包安裝失敗</string>
+    <string name="install_nosupport">檔不存在或格式不支持</string>
+    <string name="install_success">主題包安裝成功</string>
+    <string name="install_ticker">%1$s主題包安裝成功</string>
+    <string name="install_title">%1$s主題包安裝</string>
+    <string name="large_icon_size">大圖示</string>
+    <string name="latest_classify_result">當前佈局已經是最新結果</string>
+    <string name="launcher_about_upgrade_error">更新時發生錯誤。請稍後再試一次。</string>
+    <string name="launcher_about_upgrade_lastest">你現在使用的是最新版本</string>
+    <string name="launcher_about_upgrade_loadingview_message">正在檢查是否有新版本。請稍候...</string>
+    <string name="launcher_about_upgrade_network_error">網路無法使用。請檢查連線，然後嘗試重新更新。</string>
+    <string name="launcher_about_upgrade_popwin_btn_download">下載</string>
+    <string name="launcher_about_upgrade_popwin_check_update">立即更新</string>
+    <string name="launcher_about_upgrade_popwin_enjoy">立即體驗</string>
+    <string name="launcher_about_upgrade_popwin_intro">%1$s 已經發佈 V%2$s。不只更順暢，而且功能更炫。趕快去更新！</string>
+    <string name="launcher_about_upgrade_popwin_intro_new">优秀APP推荐 %1$s 已经发布了V%2$s,快去使用吧！</string>
+    <string name="launcher_about_upgrade_popwin_title_product">優秀APP推薦</string>
+    <string name="launcher_about_upgrade_popwin_title_update">檢測到最新版本</string>
+    <string name="launcher_about_upgrade_request_limit">請稍後再嘗試更新。</string>
+    <string name="launcher_edit_add_app">應用程式</string>
+    <string name="launcher_edit_add_panda_shortcut">%1$s快捷</string>
+    <string name="launcher_edit_add_shortcut_widget">快捷小部件</string>
+    <string name="launcher_edit_add_system_shortcut">系統快捷</string>
+    <string name="launcher_edit_effect">效果</string>
+    <string name="launcher_edit_effect_switch_tips">已切換至%1$s特效</string>
+    <string name="launcher_edit_individal">個性化</string>
+    <string name="launcher_edit_particle_effect">指尖特效</string>
+    <string name="launcher_edit_quick_beautify">快速美化</string>
+    <string name="launcher_edit_show_more">顯示更多</string>
+    <string name="launcher_edit_slide_effect">滑屏特效</string>
+    <string name="launcher_edit_tab_drawer_effect">列表</string>
+    <string name="launcher_edit_tab_drawer_inout_effect">列表進出</string>
+    <string name="launcher_edit_tab_particle_effect">指尖</string>
+    <string name="launcher_edit_tab_screen_effect">桌面</string>
+    <string name="launcher_edit_theme">換主題</string>
+    <string name="launcher_edit_wallpaper">換壁紙</string>
+    <string name="launcher_edit_wallpaper_filter">壁紙效果</string>
+    <string name="launcher_edit_wallpaper_gallery">相冊</string>
+    <string name="launcher_edit_wallpaper_individuation">個性化壁紙</string>
+    <string name="launcher_edit_widget_top_add">%1$s小部件</string>
+    <string name="launcher_icon_recommend_mobo_desc">減少80%1$s的流量損耗；降低26%1$s的內存佔用；節省20%1$s的電量；安裝即刻擁有！</string>
+    <string name="launcher_readme_setdefault_launcher_btn">好，馬上去 </string>
+    <string name="launcher_readme_setdefault_launcher_tip">將%1$s設定為默認桌面，探索豐富的主題和壁紙。</string>
+    <string name="launcher_search_advance_local_app">應用程式</string>
+    <string name="launcher_search_advance_local_audio">音訊</string>
+    <string name="launcher_search_advance_local_contact">聯絡人</string>
+    <string name="launcher_search_advance_local_image">相片</string>
+    <string name="launcher_search_advance_local_sms">訊息</string>
+    <string name="launcher_search_advance_local_vedio">影片</string>
+    <string name="launcher_search_at_internet">線上搜尋 %1$s</string>
+    <string name="launcher_search_at_market">前往 App Store 並搜尋 %1$s</string>
+    <string name="launcher_search_check_network">檢查網路</string>
+    <string name="launcher_search_editview_hint">應用程式、聯絡人、網路、簡訊</string>
+    <string name="launcher_search_history_delete_dialog_title">搜尋記錄</string>
+    <string name="launcher_search_history_delete_item">全部刪除</string>
+    <string name="launcher_search_hotword_change">熱門</string>
+    <string name="launcher_search_local_data_null">沒有任何本地結果。前往線上搜尋~</string>
+    <string name="launcher_search_local_more">更多本地內容</string>
+    <string name="launcher_search_local_more_label">查看更多</string>
+    <string name="launcher_search_popular_scan_record_dialog_msg">確定要刪除所有記錄？</string>
+    <string name="launcher_search_topuse_title">最常使用</string>
+    <string name="launcher_search_web_pop_browser">用瀏覽器開啟</string>
+    <string name="launcher_setting_charging_saver">充電保護</string>
+    <string name="launcher_setting_charging_saver_enable_title">開啟充電保護</string>
+    <string name="launcher_setting_score_go_text">評價</string>
+    <string name="launcher_settings_navigation">快速搜索屏</string>
+    <string name="launcher_settings_navigation_backkey_change_summary">按返回鍵切換默認屏與快速搜索屏</string>
+    <string name="launcher_settings_navigation_backkey_change_title">返回鍵切換</string>
+    <string name="launcher_settings_navigation_open_title">開啟快速搜索屏</string>
+    <string name="launcher_settings_score">給我們評價</string>
+    <string name="launcher_settings_score_intro">%1$s 已經陪伴你一段時間。請給我們評價，讓我們做得更好！</string>
+    <string name="launcher_share_barencode">掃描二維碼,即可免費擁有!</string>
+    <string name="launcher_share_centent">哇!原來我的手機桌面可以如此漂亮!你喜歡嗎?我正在使用#%1$s#,它有豐富繽紛的個性主題,實用便捷的特色部件,隨心所欲的DIY,更是最貼心的手機管家！你也快來試試吧！下載地址:%2$s</string>
+    <string name="launcher_share_drawing">正在生成樂分享的圖片</string>
+    <string name="launcher_share_generating_thumn">正在生成螢幕預覽,請稍候..</string>
+    <string name="launcher_share_hint">點擊選擇你要分享的桌面截圖(最多3張)</string>
+    <string name="launcher_share_max_count_hint">最多只能選擇3張截圖哦</string>
+    <string name="launcher_share_save_fail">圖片保存失敗,請稍後再試</string>
+    <string name="launcher_share_save_success">圖片已保存至目錄:%1$s</string>
+    <string name="launcher_share_selected_hint">至少需選擇1張截圖</string>
+    <string name="launcher_share_share_fail">出現異常,請稍後再試</string>
+    <string name="launcher_share_title">桌面秀●樂分享</string>
+    <string name="launcher_widget_weather_clock">天氣與時鐘</string>
+    <string name="main_dock_home_settings">桌面設置</string>
+    <string name="main_dock_icon_mask">蒙板開關</string>
+    <string name="main_dock_icon_mask_disabled">蒙板已關閉</string>
+    <string name="main_dock_icon_mask_enabled">蒙板已開啟</string>
+    <string name="main_dock_icon_mask_switch_success">蒙板已%1$s</string>
+    <string name="main_dock_icon_mask_unsupport">默認主題不支持該功能</string>
+    <string name="main_dock_notification_bar">通知欄</string>
+    <string name="main_dock_notification_disable_hint">通知工具列已關閉。請先開啟通知工具列。</string>
+    <string name="main_dock_notification_name">通知欄開關</string>
+    <string name="main_dock_notification_name_disabled">通知欄已關閉 </string>
+    <string name="main_dock_notification_name_enabled">通知欄已打開</string>
+    <string name="main_dock_screen_preview">螢幕預覽</string>
+    <string name="main_dock_title_select_panda_shortcut">選擇%1$s快捷方式</string>
+    <string name="main_dock_transition_effect">滑屏特效</string>
+    <string name="main_dock_wallpaper_move_success">壁紙滾動已%1$s</string>
+    <string name="mask_no_mask">無蒙板</string>
+    <string name="mask_preview_title">效果預覽:%s</string>
+    <string name="meduim_icon_size">中圖示</string>
+    <string name="meeting_pattern">會議模式</string>
+    <string name="meeting_pattern_desc">開啟電話、短信、靜音功能，推薦開會時使用</string>
+    <string name="memory_cleaner">一鍵清理</string>
+    <string name="menu_fir_fir_text">添加</string>
+    <string name="menu_fir_five_text">螢幕預覽</string>
+    <string name="menu_fir_seven_text">桌面設置</string>
+    <string name="menu_fir_six_text">系統設置</string>
+    <string name="menu_item_add_app">添加應用</string>
+    <string name="menu_item_add_widget">添加小部件</string>
+    <string name="menu_item_change_effect">換特效</string>
+    <string name="menu_item_change_theme">換主題</string>
+    <string name="menu_item_change_wallpaper">換壁紙</string>
+    <string name="menu_sec_five_text">樂分享</string>
+    <string name="menu_sec_one_key_reboot">一鍵重啟</string>
+    <string name="menu_sec_one_key_reboot_sec">是否立刻重啟手機？</string>
+    <string name="menu_sec_one_key_restart_tip">一鍵重啟失敗，該功能需要Root許可權!</string>
+    <string name="menu_sec_one_key_screenshot">一鍵截圖</string>
+    <string name="menu_sec_one_key_screenshot_sec">5秒後將截圖！</string>
+    <string name="menu_sec_one_key_screenshot_tip">一鍵截圖失敗，該功能需要Root許可權!</string>
+    <string name="menu_sec_one_key_screenshot_tip_faile">暫不支持該機型</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot1">使用該功能需要root權限，請先嘗試獲取該權限。</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot_button1">繼續嘗試</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot_button2">關閉</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot_tips">如按兩下截圖沒有開啟截圖功能，請對手機進行Root操作</string>
+    <string name="menu_sec_one_key_screenshot_tip_root_fail_screenshot">您的手機未Root或者Root不完整，建議您重新Root手機！</string>
+    <string name="menu_sec_one_key_screenshot_tip_save1">截圖保存在</string>
+    <string name="menu_sec_one_key_screenshot_tip_save2">目錄中</string>
+    <string name="menu_sec_one_key_screenshot_tip_success">截圖已經保存到相冊!</string>
+    <string name="menu_sec_one_key_screenshot_tip_success_notification_summary">您可以點擊來打開圖庫流覽截圖!</string>
+    <string name="menu_sec_one_key_screenshot_tip_success_notification_title">截圖已經保存到相冊!</string>
+    <string name="menu_sec_one_key_shutdown">一鍵關機</string>
+    <string name="menu_sec_one_key_shutdown_sec">是否立刻關機？</string>
+    <string name="menu_sec_one_key_shutdown_tip">一鍵關機失敗，該功能需要Root許可權!</string>
+    <string name="menu_version_update_btn">更新</string>
+    <string name="message_apply_old_theme">點擊該通知應用原主題..</string>
+    <string name="message_delete_theme_waiting">正在刪除主題，請稍候...</string>
+    <string name="message_preview_cannot_delete_screen">無法刪除僅存的畫面</string>
+    <string name="message_preview_delete_screen">刪除這個畫面及其所有內容？</string>
+    <string name="message_preview_delete_screen_not_allow">螢幕上已有應用程式清單圖示。無法刪除。</string>
+    <string name="message_preview_fail_drag_to_screen">無法移動圖示</string>
+    <string name="message_preview_out_of_screen">這個畫面空間不足。請增加另一個畫面。</string>
+    <string name="message_preview_set_default_screen">設定為預設畫面</string>
+    <string name="mode_automatic">自動</string>
+    <string name="mode_keep_current">不改變</string>
+    <string name="mode_name_null">模式名稱不能為空！</string>
+    <string name="mode_off">關閉</string>
+    <string name="mode_on">打開</string>
+    <string name="mode_silence">靜音</string>
+    <string name="my_pattern">初始模式</string>
+    <string name="my_pattern_desc">安裝桌面前的設置</string>
+    <string name="mybatter_clean_at_screen_lock">鎖屏期間為您清理了%1$sM記憶體</string>
+    <string name="mybatter_notify_bar_charging_time">充電:</string>
+    <string name="mybatter_notify_bar_discharging_time">續航:</string>
+    <string name="mybatter_reanalysis">重新統計</string>
+    <string name="mybattery_battery_first_in_text">在切換省電模式時，請儘量保持%1$s開啟。%2$s關閉後，可能無法重新開啟%3$s，此時可通過重啟手機解決該問題。給您帶來的不便，敬請諒解！</string>
+    <string name="mybattery_battery_first_phone_text">通訊模組</string>
+    <string name="mybattery_battery_isfull_dialog_message">若想關閉充電完成提醒，可進入我的電池-設置中操作。</string>
+    <string name="mybattery_battery_isfull_dialog_title">充電完成提醒</string>
+    <string name="mybattery_battery_isfull_notifi">充電已完成</string>
+    <string name="mybattery_battery_settings_communicate">設置提醒</string>
+    <string name="mybattery_bs_app_had_close">程式已關閉</string>
+    <string name="mybattery_bs_app_level">耗電等級</string>
+    <string name="mybattery_bs_app_level_1">耗電量極少，適合長期後臺運行，請放心使用</string>
+    <string name="mybattery_bs_app_level_2">耗電量較少，請按需要進行使用</string>
+    <string name="mybattery_bs_app_level_3">耗電量一般，請按需要進行使用</string>
+    <string name="mybattery_bs_app_level_4">耗電量較大，建議不適用時及時關閉</string>
+    <string name="mybattery_bs_app_level_5">耗電嚴重，建議立即關閉或卸載</string>
+    <string name="mybattery_bs_cd_continuation">續航時間</string>
+    <string name="mybattery_bs_cd_current_capacity">當前容量</string>
+    <string name="mybattery_bs_cd_estimate_time">充電預估時間</string>
+    <string name="mybattery_bs_cd_infos">電池詳情</string>
+    <string name="mybattery_bs_cd_knowledge1">能夠迅速將電池充到80%，但仍需進行連續充電才能完全充滿。</string>
+    <string name="mybattery_bs_cd_knowledge2">在電池即將充滿的狀態下，充電電流逐漸減小，確保電池完全充滿。</string>
+    <string name="mybattery_bs_cd_knowledge3">電池充滿後進行小電流充電，能讓電子保持流動，延長電池使用壽命。</string>
+    <string name="mybattery_bs_cd_knowledge_title0"> 省電知識小講堂：</string>
+    <string name="mybattery_bs_cd_knowledge_title1"> 什麼是快速充電？</string>
+    <string name="mybattery_bs_cd_knowledge_title2"> 什麼是連續充電？</string>
+    <string name="mybattery_bs_cd_knowledge_title3"> 什麼是涓流充電？</string>
+    <string name="mybattery_bs_cd_light_explain11">快速充電</string>
+    <string name="mybattery_bs_cd_light_explain12">等待中</string>
+    <string name="mybattery_bs_cd_light_explain21">連續充電</string>
+    <string name="mybattery_bs_cd_light_explain22">已完成</string>
+    <string name="mybattery_bs_cd_light_explain31">涓流充電</string>
+    <string name="mybattery_bs_cd_light_explain_doing">進行中</string>
+    <string name="mybattery_bs_cd_max_capacity">最大容量</string>
+    <string name="mybattery_bs_cd_usefultime">可用時間詳情</string>
+    <string name="mybattery_bs_click_start_bs">正在檢測</string>
+    <string name="mybattery_bs_customer_app">耗電應用</string>
+    <string name="mybattery_bs_customer_app_1">耗電應用</string>
+    <string name="mybattery_bs_electric_quantity">（電量）</string>
+    <string name="mybattery_bs_extend_bs_time">立即省電,延長可用時間</string>
+    <string name="mybattery_bs_had_adjust">已調整</string>
+    <string name="mybattery_bs_had_clear">已清理</string>
+    <string name="mybattery_bs_had_close">已關閉</string>
+    <string name="mybattery_bs_manager_analyse">耗電分析</string>
+    <string name="mybattery_bs_manager_message">耗電管理</string>
+    <string name="mybattery_bs_mode_add_text">添加自訂模式</string>
+    <string name="mybattery_bs_mode_cdprotect">定時切換</string>
+    <string name="mybattery_bs_mode_edit_text">編輯自訂模式</string>
+    <string name="mybattery_bs_mode_look_text">查看模式</string>
+    <string name="mybattery_bs_mode_m_manage">省電管理</string>
+    <string name="mybattery_bs_mode_m_protect">充電保護</string>
+    <string name="mybattery_bs_mode_nodata">無數據狀態 </string>
+    <string name="mybattery_bs_mode_normal">普通狀態</string>
+    <string name="mybattery_bs_mode_sd_bottom_text">添加自訂模式</string>
+    <string name="mybattery_bs_mode_sd_indext_custom">自訂模式</string>
+    <string name="mybattery_bs_mode_sd_indext_pre">預設模式</string>
+    <string name="mybattery_bs_mode_sdprotect">省電模式</string>
+    <string name="mybattery_bs_notification_ad">通知廣告欄</string>
+    <string name="mybattery_bs_off_bluetooth">關閉藍牙</string>
+    <string name="mybattery_bs_off_gps">關閉GPS</string>
+    <string name="mybattery_bs_off_net">關閉移動資料</string>
+    <string name="mybattery_bs_off_wifi">關閉wifi</string>
+    <string name="mybattery_bs_optimize">省電優化</string>
+    <string name="mybattery_bs_optimize_again_count">重新評分</string>
+    <string name="mybattery_bs_optimize_back">返回</string>
+    <string name="mybattery_bs_optimize_finish_message">
+     <Data>優化完成!&lt;br/>比之前省電: &lt;b>&lt;font color=\"#06a100\">%1$s&lt;/font>&lt;/b>&lt;br/>續航時間增至:&lt;br/>&lt;b>&lt;font color=\"#06a100\">%2$s&lt;/font>&lt;/b>小時&lt;b>&lt;font color=\"#06a100\">%3$s&lt;/font>&lt;/b>分鐘</Data>
+    </string>
+    <string name="mybattery_bs_optimize_hand_optimize">請進行手動優化</string>
+    <string name="mybattery_bs_optimize_no_data_message">請選中優化項！</string>
+    <string name="mybattery_bs_optimize_perfect">您的手機處於最佳省電狀態,請繼續保持</string>
+    <string name="mybattery_bs_optimize_repeat_bs">繼續省電</string>
+    <string name="mybattery_bs_optimizing">正在優化中,請稍等...</string>
+    <string name="mybattery_bs_score_message_1">非常費電,立即優化</string>
+    <string name="mybattery_bs_score_message_2">不太省電,建議優化</string>
+    <string name="mybattery_bs_score_message_3">比較省電,還能優化</string>
+    <string name="mybattery_bs_score_message_4">極致省電,繼續保持</string>
+    <string name="mybattery_bs_screen_bright">螢幕亮度</string>
+    <string name="mybattery_bs_screen_bright_regulate">亮度調節至30%</string>
+    <string name="mybattery_bs_screen_timeout">螢幕超時</string>
+    <string name="mybattery_bs_screen_timeout_regulate">調至30秒</string>
+    <string name="mybattery_close_str">關</string>
+    <string name="mybattery_custom_mode_name">自訂模式</string>
+    <string name="mybattery_custom_time_name">自訂任務</string>
+    <string name="mybattery_del_mode_exist_task">定時切換“%1$s”正在使用此模式，確定要一起刪除這些任務嗎？</string>
+    <string name="mybattery_del_mode_info_text">確定要刪除”%1$s“嗎？</string>
+    <string name="mybattery_digital_text_hour">小時</string>
+    <string name="mybattery_digital_text_minute">分</string>
+    <string name="mybattery_digital_text_second">秒</string>
+    <string name="mybattery_lock_setting_memory">鎖屏清理記憶體</string>
+    <string name="mybattery_lock_setting_wifi">鎖屏時關閉WIFI和自動同步</string>
+    <string name="mybattery_lowhit_notify_tip">當前電量低於%1$s</string>
+    <string name="mybattery_lowhit_setting_mode">啟用模式</string>
+    <string name="mybattery_lowhit_setting_mode_desc">當電量高於%1$s後恢復到切換之前的模式</string>
+    <string name="mybattery_lowhit_setting_value">當電量低於</string>
+    <string name="mybattery_lowhit_setting_value_select">選擇電量</string>
+    <string name="mybattery_mode_picker_title">模式設置</string>
+    <string name="mybattery_open_str">開</string>
+    <string name="mybattery_phone_str">通訊</string>
+    <string name="mybattery_power_setting_lock_desc">當鎖屏時關閉WIFI等開關或者清理記憶體</string>
+    <string name="mybattery_power_setting_lock_title">鎖屏省電設置</string>
+    <string name="mybattery_power_setting_lowhit_change">立即省電</string>
+    <string name="mybattery_power_setting_lowhit_desc">當電量低於設置值可切換模式</string>
+    <string name="mybattery_power_setting_lowhit_title">低電量提醒</string>
+    <string name="mybattery_power_setting_memorylist_desc">已選擇%1$s個應用</string>
+    <string name="mybattery_power_setting_memorylist_no_desc">無</string>
+    <string name="mybattery_power_setting_memorylist_title">記憶體清理白名單</string>
+    <string name="mybattery_power_setting_title">省電設置</string>
+    <string name="mybattery_soft_setting_full_notification_desc">22:00―08:00不響鈴</string>
+    <string name="mybattery_soft_setting_full_notification_title">充電完成提醒</string>
+    <string name="mybattery_soft_setting_lowhit_auto_change">低電量自動省電</string>
+    <string name="mybattery_soft_setting_lowhit_desc">當電量低於設定值主動提醒</string>
+    <string name="mybattery_soft_setting_lowhit_title">低電量提醒</string>
+    <string name="mybattery_soft_setting_lowhit_value">低電量觸發值</string>
+    <string name="mybattery_soft_setting_lowhit_vibrateandring_select_desc">默認短信鈴聲</string>
+    <string name="mybattery_soft_setting_lowhit_vibrateandring_select_title">充電完成鈴聲選擇</string>
+    <string name="mybattery_soft_setting_title">軟體設置</string>
+    <string name="mybattery_tab_bs_manager">省電管理</string>
+    <string name="mybattery_tab_bs_mode">省電模式</string>
+    <string name="mybattery_tab_bs_sort">耗電排行</string>
+    <string name="mybattery_time_bottom_text">添加定時任務</string>
+    <string name="mybattery_time_edit_text">編輯定時任務</string>
+    <string name="mybattery_time_everyday">每天</string>
+    <string name="mybattery_time_switch_def_fir">睡覺切換</string>
+    <string name="mybattery_time_switch_def_sec">工作切換</string>
+    <string name="mybattery_time_switch_def_thi">午休切換</string>
+    <string name="mybattery_time_switch_end_mode_name">結束模式</string>
+    <string name="mybattery_time_switch_no_data">您未添加定時任務</string>
+    <string name="mybattery_time_switch_start_mode_name">開始模式</string>
+    <string name="mybattery_time_switch_start_name">開啟任務</string>
+    <string name="mybattery_time_switch_task_name">任務名稱：</string>
+    <string name="mybattery_time_swtich_del_info">確定要刪除”%1$s“任務？</string>
+    <string name="mybattery_time_swtich_no_name">任務名稱不能為空!</string>
+    <string name="mybattery_time_the_same_text">您設置的開始時間和結束時間可能和其他模式是一樣的，屆時可能定時任務會失效，確定要保存嗎？</string>
+    <string name="mybattery_time_trigger_text">您設置的定時任務生效時間是：%1$s~%2$s，若您設置了重複，順延至您設置的星期生效</string>
+    <string name="mybattery_time_workday">工作日</string>
+    <string name="myflow_internet">2G/3G</string>
+    <string name="myflow_wifi">WIFI</string>
+    <string name="myh5game_title_name">熱門遊戲</string>
+    <string name="myphone_ad_load_failed">加載失敗，請點擊重試</string>
+    <string name="myphone_ad_recommend">應用海洋 </string>
+    <string name="myphone_root_fail_desc">主畫面無法取得 ROOT 權限。請在 SuperUser KingUser 等管理程式中允許 ROOT 權限。</string>
+    <string name="myphone_root_fail_title">取得 ROOT 權限失敗</string>
+    <string name="myphone_wallpaper_set_success">設置壁紙成功</string>
+    <string name="navigation_history">歷史記錄</string>
+    <string name="navigation_more">網址導航</string>
+    <string name="netflow_info_fetching">獲取中...</string>
+    <string name="no_restore_tip">當前無可恢復佈局</string>
+    <string name="nomore_release">無可清理資源</string>
+    <string name="normal_pattern">閱讀模式</string>
+    <string name="normal_pattern_desc">調至合適的螢幕亮度</string>
+    <string name="notification_bar_ketset">工具箱</string>
+    <string name="notification_bar_last_app">上個應用</string>
+    <string name="notification_time_hour">小時</string>
+    <string name="notification_time_hour_char">h</string>
+    <string name="notification_time_min">分</string>
+    <string name="notification_time_min_char">m</string>
+    <string name="onekey_cleaner_best_tip">一切都是最佳狀態</string>
+    <string name="onekey_cleaner_dept_tip">釋放多余空間,手機更快更流暢</string>
+    <string name="onekey_cleaner_release_tip">釋放內存%1$s</string>
+    <string name="onekey_cleaner_speed_tip">提速%1$s,已達到最佳狀態！</string>
+    <string msgid="8365249326091984698" name="out_of_space">畫面空間不足</string>
+    <string name="panda_widget_fetch_error">獲取%1$s小部件失敗</string>
+    <string name="panda_widget_weather">91黃曆天氣</string>
+    <string name="pandahome_check_clean_config">清除桌面設置</string>
+    <string name="pandahome_check_log">檢測日誌</string>
+    <string name="pandahome_check_title">桌面檢測</string>
+    <string name="pandahome_clean_default_theme">清除主題緩存</string>
+    <string name="phone">通訊模組</string>
+    <string msgid="5630222540525626723" name="pick_wallpaper">"91桌面壁紙"</string>
+    <string name="plugin_activated">我要啟用 </string>
+    <string name="plugin_desc_appmanager">應用管家就是用來管理手機應用噠</string>
+    <string name="plugin_desc_file">我的檔可以更方便地管理文檔、影音、圖片檔</string>
+    <string name="plugin_desc_safecenter">安全中心可以幫你監控手機裡的應用是否開機啟動、窺探隱私</string>
+    <string name="plugin_desc_wallpaper">壁紙好看，手機才好看</string>
+    <string name="plugin_down_wallpaper">個性化 - 壁紙</string>
+    <string name="plugin_transfer_desc1">初次啟動，人家也要準備準備嘛，\n下次就不用等啦</string>
+    <string name="plugin_transfer_error">安裝或啟動過程中出現問題, 請稍後重試. </string>
+    <string name="plugin_update_tip">外掛程式可升級, 是否立即升級？</string>
+    <string name="popup_change_style">換風格</string>
+    <string name="popup_change_style2">換樣式</string>
+    <string name="popup_deep_clean">深度清理</string>
+    <string name="popup_delete">刪除</string>
+    <string name="popup_detail">詳情</string>
+    <string name="popup_rename">重命名</string>
+    <string name="popup_replace">換圖示</string>
+    <string name="popup_resize">縮放</string>
+    <string name="quick_clean_released">為您釋放記憶體 %s</string>
+    <string name="readme_agreement_me">繼續使用，即表示您已接受</string>
+    <string name="readme_agreement_terms">用戶協議</string>
+    <string name="readme_app_DC_desc">Dorado Clean clear junk files, boost speed and save power for your Android phone.</string>
+    <string name="readme_app_DC_name">Dorado Clean</string>
+    <string name="readme_app_PP_desc">PixelPhone (PP) is a powerful dialer and contact manager.</string>
+    <string name="readme_app_PP_name">Pixel Phone</string>
+    <string name="readme_app_aio_desc">全能工具箱： 數十種實用小工具集，全面優化手機，遠離卡頓。</string>
+    <string name="readme_app_aio_name">All-In-One Toolbox(Cleaner) </string>
+    <string name="readme_app_mobo_turn_label">我也裝一個</string>
+    <string name="readme_app_test_instance">立即體驗</string>
+    <string name="readme_app_touchpal_desc">觸寶(TouchPal）輸入法——智能全拼整句輸入等壹系列創新設計讓您的手機輸入比電腦更流暢！</string>
+    <string name="readme_app_touchpal_name">觸寶</string>
+    <string name="readme_v6_new_themechoose">選擇壹個妳喜歡的風格吧</string>
+    <string name="recent_use">最常使用</string>
+    <string name="recommend_app_download_not_network">無法下載推薦應用，請檢查網路連接。</string>
+    <string name="recommend_fail_showdetail_googleplay">Failed to attain details from Google Play.</string>
+    <string name="recommend_install_fail">Failed to download. Web url is null</string>
+    <string name="recommend_install_fail_googleplay">You need to install google play to download this app.</string>
+    <string name="recommend_install_tip_summary">是否立即安裝%1$s？</string>
+    <string name="recommend_install_tip_title">安裝</string>
+    <string name="resolver_click91_forhw">先點擊[%1$s]</string>
+    <string name="resolver_click91launcher1">先點擊選擇"%1$s"</string>
+    <string name="resolver_click91launcher2">再點擊選擇"%1$s"</string>
+    <string name="resolver_clickAlawayButton">再點擊</string>
+    <string name="resolver_clickChange">更換</string>
+    <string name="resolver_clickCheck">先點擊以下復框選按鈕</string>
+    <string name="resolver_clickOk">即可</string>
+    <string name="resolver_click_callback_button">再返回桌面重新設置</string>
+    <string name="resolver_click_default_button">先點擊  "清除默認" 按鈕</string>
+    <string name="restore_now">恢復佈局</string>
+    <string name="restore_original">應用平鋪</string>
+    <string name="restore_original_tip">將應用平鋪在匣子中</string>
+    <string name="restore_result_now">恢復原樣</string>
+    <string name="restore_tip">恢復到: %1$s</string>
+    <string name="ringer">鈴聲</string>
+    <string name="safe_notify_boot_optimise_tip">點擊進入開機啟動項優化</string>
+    <string name="safe_notify_boot_time_tip">本次開機啟動共用了</string>
+    <string name="samsung_drawer_search_default_input">搜索應用程序</string>
+    <string name="scene">情景</string>
+    <string name="scene_add_local_scene">導入情景包文件 (apt文件)</string>
+    <string name="scene_apply_failed">情景應用失敗,請稍後再試!</string>
+    <string name="scene_apply_hole_style_msg">確定應用該樣式?</string>
+    <string name="scene_apply_scene_now">請稍候，正在應用情景</string>
+    <string name="scene_apt_file_invalid">這不是一個有效的情景檔</string>
+    <string name="scene_cant_delete_scene_while_using">您不能刪除正在使用中的情景</string>
+    <string name="scene_custom_create_text">生成</string>
+    <string name="scene_custom_desc_no_icon">沒有圖示，無法生成</string>
+    <string name="scene_custom_desc_text_fir">畫一個您想要擺成的形狀，如：</string>
+    <string name="scene_custom_desc_text_sec">如果不滿意這個形狀，可以選擇“重畫”</string>
+    <string name="scene_custom_desc_text_thi">點擊圖示可進入刪除圖示模式</string>
+    <string name="scene_custom_next_text">下一步</string>
+    <string name="scene_custom_not_draw_info">請畫一個您想要擺成的形狀</string>
+    <string name="scene_custom_pop_info">點我可添加圖示</string>
+    <string name="scene_custom_redraw_text">重畫</string>
+    <string name="scene_default_scene">默認</string>
+    <string name="scene_delete_hole_style_msg">您確定要刪除該樣式?</string>
+    <string name="scene_delete_scene_now">請稍候，正在刪除情景</string>
+    <string name="scene_do_you_want_to_switch_to_default_scene">您是否要返回默認桌面？</string>
+    <string name="scene_download_and_install_failure">場景下載安裝失敗</string>
+    <string name="scene_download_task_remain">(等待%s項)</string>
+    <string name="scene_exit_scene">退出情景</string>
+    <string name="scene_exit_scene_msg">您確定要退出情景模式?</string>
+    <string name="scene_external_storage_no_found_for_apply">您的手機沒有掛載外部存儲空間，無法應用情景</string>
+    <string name="scene_external_storage_no_found_for_delete">您的手機沒有掛載外部存儲空間，無法刪除情景</string>
+    <string name="scene_external_storage_no_found_for_download">您的手機沒有掛載外部存儲空間，無法下載情景</string>
+    <string name="scene_hole_apply_failed">樣式資料載入失敗,請稍後再試!</string>
+    <string name="scene_import_scene_now">請稍候，正在導入情景</string>
+    <string name="scene_loading">載入中</string>
+    <string name="scene_make_sure_to_apply">您是否要應用%s？</string>
+    <string name="scene_make_sure_to_delete">您是否要刪除%s？</string>
+    <string name="scene_make_sure_to_download">您是否要下載情景%s？</string>
+    <string name="scene_make_sure_to_download_this_scene">您是否要下載這款情景？</string>
+    <string name="scene_msg_can_not_edit">第%s屏是情景的預配置屏,不能被編輯,請選擇其他屏進行編輯.</string>
+    <string name="scene_msg_can_not_edit_for_new_screen">該屏不能被編輯,請選擇其他屏進行編輯.</string>
+    <string name="scene_msg_multip_apply">您已經應用了該情景.</string>
+    <string name="scene_msg_scene_file_invalid">情景檔受損,請重新下載!</string>
+    <string name="scene_msg_scene_not_exits">情景檔丟失,請重新下載!</string>
+    <string name="scene_network_not_available">網路連接異常，請稍後再試</string>
+    <string name="scene_no_style_choose_msg">您尚未選中樣式，請選擇要替換的樣式.</string>
+    <string name="scene_please_select_your_scene">請選擇想要切換的情景</string>
+    <string name="scene_please_wait">請稍候</string>
+    <string name="scene_processing">處理中</string>
+    <string name="scene_select_layout">替換圖示擺放樣式</string>
+    <string name="scene_select_scene">選擇情景</string>
+    <string name="scene_shop_apply">應用</string>
+    <string name="scene_shop_describe">簡介</string>
+    <string name="scene_shop_download">下載</string>
+    <string name="scene_shop_download_scene">正在下載%s</string>
+    <string name="scene_shop_installing">安裝中</string>
+    <string name="scene_shop_local_scenes">本地情景</string>
+    <string name="scene_shop_more">更多</string>
+    <string name="scene_shop_online_scenes">線上情景</string>
+    <string name="scene_shop_pause">暫停</string>
+    <string name="scene_shop_process">下載中...</string>
+    <string name="scene_shop_top_banner">我的情景</string>
+    <string name="scene_this_scene">這款情景</string>
+    <string name="scene_waiting_for_sd_load">SD卡載入中，請等待...</string>
+    <string name="screen_timeout">螢幕超時</string>
+    <string name="select_third_icons">協力廠商圖示</string>
+    <string name="setting_cols">設置列數</string>
+    <string name="setting_rows">設置行數</string>
+    <string name="settings_about">關於%1$s</string>
+    <string name="settings_about_app_share">推薦分享</string>
+    <string name="settings_about_app_share_summary">將%1$s分享給朋友</string>
+    <string name="settings_about_bug_feedback_title">%1$s 錯誤回饋</string>
+    <string name="settings_about_contact_us">聯絡我們</string>
+    <string name="settings_about_contact_us_email_title">電子郵件</string>
+    <string name="settings_about_copyright">版權資訊</string>
+    <string name="settings_about_copyright_summary">博遠無線 版權所有</string>
+    <string name="settings_about_feedback">用戶回饋</string>
+    <string name="settings_about_feedback_title">%1$s 回饋</string>
+    <string name="settings_about_no_market_title">手機上未安裝 App Store。</string>
+    <string name="settings_about_privacy_summary">Felink 版權所有</string>
+    <string name="settings_about_privacy_title">隱私條款</string>
+    <string name="settings_about_restart_launcher">重啟桌面</string>
+    <string name="settings_about_version_upgrade">版本更新</string>
+    <string name="settings_advanced_assist">協助工具</string>
+    <string name="settings_advanced_default_app">預設軟體設置</string>
+    <string name="settings_advanced_default_app_dialog_title">請選擇預設打開軟體</string>
+    <string name="settings_advanced_enhance_tool">增強工具</string>
+    <string name="settings_advanced_gesture_control">手勢</string>
+    <string name="settings_advanced_move_begin_move">開始搬家</string>
+    <string name="settings_advanced_move_home">桌面搬家</string>
+    <string name="settings_advanced_move_home_available">正在檢測可搬家的桌面...</string>
+    <string name="settings_advanced_move_home_backup_tip">小貼士：備份當前桌面佈局後，當你想恢復可在\"桌面設置-備份與重置\"中還原</string>
+    <string name="settings_advanced_move_home_del">退出後，是否刪除桌面上的“桌面搬家”快捷方式？</string>
+    <string name="settings_advanced_move_home_dialog_title">請選擇要搬家的桌面</string>
+    <string name="settings_advanced_move_home_dialog_toast">請選擇要搬家的桌面</string>
+    <string name="settings_advanced_move_home_icon_title">桌面搬家</string>
+    <string name="settings_advanced_move_home_importing">正在導入...</string>
+    <string name="settings_advanced_move_home_importing_ask_backup">備份導入之前的%1$s資料</string>
+    <string name="settings_advanced_move_home_importing_end">導入完成</string>
+    <string name="settings_advanced_move_home_importing_failed">導入失敗</string>
+    <string name="settings_advanced_move_home_move_end_preview">搬家之後的桌面佈局預覽</string>
+    <string name="settings_advanced_move_home_move_end_preview_tip">高亮顯示的為預設主螢幕</string>
+    <string name="settings_advanced_move_home_no_available">無可搬家的桌面</string>
+    <string name="settings_advanced_move_home_no_data">該桌面無可搬遷的數據</string>
+    <string name="settings_advanced_move_home_notify">%1$s支援複製其他桌面的圖示，點擊開始桌面搬家</string>
+    <string name="settings_advanced_move_home_success">桌面搬家成功!</string>
+    <string name="settings_advanced_move_home_success_tip">由於暫時無法複製小部件，搬家後需要您重新添加小部件到桌面上</string>
+    <string name="settings_advanced_move_home_summary">將其他桌面的圖示複製到%1$s</string>
+    <string name="settings_advanced_move_home_will_begin">即將為您開始搬家!</string>
+    <string name="settings_advanced_move_next">下一步</string>
+    <string name="settings_advanced_move_previous">上一步</string>
+    <string name="settings_app_icon_size">程式圖示大小</string>
+    <string name="settings_back_to_default_scene">返回預設模式</string>
+    <string name="settings_backup">備份與重置</string>
+    <string name="settings_backup_failed">備份失敗</string>
+    <string name="settings_backup_ing">正在備份%1$s</string>
+    <string name="settings_backup_lastest_time">最近備份時間：</string>
+    <string name="settings_backup_not_found">未找到備份檔案，請檢查後重試</string>
+    <string name="settings_backup_reset">重置桌面</string>
+    <string name="settings_backup_reset_hint">恢復初始桌面</string>
+    <string name="settings_backup_reset_message">是否恢復初始桌面</string>
+    <string name="settings_backup_reset_title">重置桌面</string>
+    <string name="settings_backup_restore_dialog_title">恢復備份</string>
+    <string name="settings_backup_restore_failed">恢復失敗</string>
+    <string name="settings_backup_restore_ing">正在從備份中恢復%1$s</string>
+    <string name="settings_backup_restore_success">恢復成功</string>
+    <string name="settings_backup_sdcard_unavailable">SDCard異常，請檢查後重試</string>
+    <string name="settings_backup_success">備份成功</string>
+    <string name="settings_backup_tobackup">備份桌面</string>
+    <string name="settings_backup_tobackup_dialog_title">備份</string>
+    <string name="settings_backup_tobackup_hint">沒有備份</string>
+    <string name="settings_backup_tobackup_message">將%1$s的設置備份到SD卡</string>
+    <string name="settings_backup_torestore">恢復備份</string>
+    <string name="settings_backup_torestore_message">從SD卡還原%1$s設置</string>
+    <string name="settings_communicate_boot_time">開機時間小貼士</string>
+    <string name="settings_communicate_category_battery">電量提醒</string>
+    <string name="settings_communicate_category_comm">通訊統計</string>
+    <string name="settings_communicate_location">顯示來去電歸屬地</string>
+    <string name="settings_dockbar_text">桌面底部欄</string>
+    <string name="settings_dockbar_text_show">桌面底部欄的應用名稱</string>
+    <string name="settings_dockbar_text_show_follow_theme">跟隨主題顯示</string>
+    <string name="settings_dockbar_text_show_follow_theme_summary">開啟後應用名稱將跟隨主題顯示或隱藏</string>
+    <string name="settings_dockbar_text_show_summary">顯示或隱藏桌面底部欄的應用名稱</string>
+    <string name="settings_drawer_bg_transparent">應用清單背景不隨主題更換</string>
+    <string name="settings_drawer_bg_transparent_summary">背景保持透明,不隨主題更換</string>
+    <string name="settings_drawer_countxy">選擇應用列表行列數</string>
+    <string name="settings_drawer_rolling_cycle">迴圈滑動應用列表</string>
+    <string name="settings_drawer_rolling_cycle_summary">可在第一屏和最後一屏間迴圈滑動</string>
+    <string name="settings_drawer_tabs_lock">鎖定應用清單選項卡</string>
+    <string name="settings_drawer_tabs_lock_summary">無法滑動切換選項卡</string>
+    <string name="settings_exit">退出%1$s</string>
+    <string name="settings_font_app_color">程式名顏色設置</string>
+    <string name="settings_font_app_color_summary">設置程式名顏色</string>
+    <string name="settings_font_app_name_size">程式名大小</string>
+    <string name="settings_home">桌面設置</string>
+    <string name="settings_home_advanced">個性化設置</string>
+    <string name="settings_home_apps_share_subject">分享\"%1$s\"</string>
+    <string name="settings_home_apps_share_title">選擇發送方式</string>
+    <string name="settings_home_assistance_share_text">"%1$s最新版本已更新,可以從market上下載安裝咯:https://play.google.com/store/apps/details?id=%2$s"</string>
+    <string name="settings_home_common">常規設置</string>
+    <string name="settings_home_other">其他設置</string>
+    <string name="settings_home_scene_desktop">情景桌面</string>
+    <string name="settings_icon">圖示</string>
+    <string name="settings_icon_and_folder">圖示、資料夾</string>
+    <string name="settings_icon_and_folder_folder">資料夾</string>
+    <string name="settings_icon_and_folder_icon">圖示</string>
+    <string name="settings_item_search">設置項搜索</string>
+    <string name="settings_launcher_layout">桌面佈局</string>
+    <string name="settings_launcher_layout_settings_applist">應用列表</string>
+    <string name="settings_launcher_layout_settings_screen_setting">螢幕設置</string>
+    <string name="settings_lock_launcher_layout">鎖定桌面佈局</string>
+    <string name="settings_lock_launcher_layout_summary">防止誤操作改變桌面佈局</string>
+    <string name="settings_message_tips">消息提示</string>
+    <string name="settings_message_tips_summary">圖示將提醒您有未讀訊息。</string>
+    <string name="settings_mms_tips">未讀訊息</string>
+    <string name="settings_more">更多設置</string>
+    <string name="settings_more_message_tips">更多未讀訊息</string>
+    <string name="settings_more_message_tips_summary">即刻安裝 91 Message Reminder 以享有完整功能。</string>
+    <string name="settings_no_search_result">無搜索結果</string>
+    <string name="settings_personal_folder_style">選擇資料夾樣式</string>
+    <string name="settings_personal_gesture_doublefingers_down">雙指下滑手勢</string>
+    <string name="settings_personal_gesture_down">下滑手勢</string>
+    <string name="settings_personal_gesture_up">上滑手勢</string>
+    <string name="settings_personal_icon_mask_switch">選擇圖示蒙板</string>
+    <string name="settings_personal_status_bar">通知欄</string>
+    <string name="settings_personal_status_bar_switch">通知欄開關</string>
+    <string name="settings_personal_update_check">檢測升級</string>
+    <string name="settings_reset_current_scene">重置當前情景</string>
+    <string name="settings_reset_current_scene_msg">是否恢復當前情景的初始狀態?</string>
+    <string name="settings_score_dialog_content">如果您喜歡%1$s，請給予5星評價吧，我們會做的更好的！</string>
+    <string name="settings_screen_countxy">選擇桌面行列數</string>
+    <string name="settings_screen_icon_title_background">圖示名稱背景</string>
+    <string name="settings_screen_icon_title_background_summary">桌面圖示名稱可增加黑色背景</string>
+    <string name="settings_screen_rolling_cycle">迴圈滑動桌面</string>
+    <string name="settings_screen_rolling_cycle_summary">可在第一屏和最後一屏間迴圈滑動</string>
+    <string name="settings_screen_wallpaper_by_theme">壁紙鎖定</string>
+    <string name="settings_screen_wallpaper_by_theme_summary">壁紙僅跟隨主題變換，設置壁紙功能將失效</string>
+    <string name="settings_screen_wallpaper_rolling">壁紙滾動</string>
+    <string name="settings_search_item">搜索設置選項</string>
+    <string name="settings_set_default_launcher">設置為默認桌面</string>
+    <string name="settings_set_default_launcher_hint">請勾選\"預設使用此方式發送\",並點擊\"%1$s\"完成設置</string>
+    <string name="settings_set_default_launcher_hint2">請選擇\"%1$s\",並點擊\"始終\"完成設置</string>
+    <string name="settings_set_default_launcher_hint_mi">請勾選\"默認\",並點擊\"%1$s\"完成設置</string>
+    <string name="settings_set_default_launcher_hint_mx4">請選擇\"默認打開方式\",再點擊\"%1$s\"完成設置</string>
+    <string name="settings_set_default_launcher_hint_oppo_coloros200">請勾選\"不再詢問\",並點擊\"%1$s\"完成設置</string>
+    <string name="settings_set_default_pandahome_success">已設置%1$s為默認桌面</string>
+    <string msgid="4757756326465060694" name="shortcut_duplicate">
+		<ns1:g id="NAME">%s</ns1:g> 捷徑已經存在。
+	</string>
+    <string msgid="7071557296331322355" name="shortcut_installed">
+		<ns1:g id="NAME">%s</ns1:g> 捷徑已建立。
+	</string>
+    <string name="shortcut_slot_loading">載入中…</string>
+    <string name="shortcut_toolong">無效的字元。無法新增捷徑。</string>
+    <string msgid="2129499669449749995" name="shortcut_uninstalled">
+		<ns1:g id="NAME">%s</ns1:g> 捷徑已刪除。
+	</string>
+    <string name="slot_name">試試手氣</string>
+    <string name="slot_tip_1">每次都會消耗10個金幣，再來壹次？</string>
+    <string name="slot_tip_2">777或者三連星會為妳帶來更多的金幣，來試試吧。</string>
+    <string name="slot_tip_3">祝妳好運，更多的金幣在前方等妳哦。</string>
+    <string name="slot_tip_4">就差壹點，不再來壹次嗎？</string>
+    <string name="slot_tip_5">運氣特別棒，金幣上升至%1$s個，繼續加油吧！</string>
+    <string name="small_icon_size">小圖示</string>
+    <string name="spring_add_app_from_drawer_fail">桌面當前屏空間不足，無法添加到桌面</string>
+    <string name="spring_add_app_from_drawer_reset">無法移動到這個位置</string>
+    <string name="spring_add_app_from_drawer_success">已成功將該應用添加到桌面</string>
+    <string name="super_pattern">超強省電</string>
+    <string name="super_pattern_desc">僅保留通訊功能，推薦電量過低時使用</string>
+    <string name="swap_wallpaper_fail_no_sdcard">無SD卡。更換壁紙失敗！</string>
+    <string name="switcher_setting_hint">長按拖拽可調節開關位置</string>
+    <string name="switcher_volume_ring">響鈴音量</string>
+    <string name="switcher_volume_set_failed">該系統不支援此方式調節音量</string>
+    <string name="sync">同步</string>
+    <string name="sys_airplane_mode">飛行模式</string>
+    <string name="sys_airplane_mode_disabled">關閉飛行模式</string>
+    <string name="sys_airplane_mode_enabled">開啟飛行模式</string>
+    <string name="sys_alarm">鬧鐘</string>
+    <string name="sys_app_mgr">應用管理</string>
+    <string name="sys_auto_sync">同步帳戶</string>
+    <string name="sys_auto_sync_disabled">關閉自動同步</string>
+    <string name="sys_auto_sync_enabled">開啟自動同步</string>
+    <string name="sys_autolockscreen">自動鎖屏</string>
+    <string name="sys_autolockscreen_disabled">關閉自動鎖屏</string>
+    <string name="sys_autolockscreen_enabled">開啟自動鎖屏</string>
+    <string name="sys_automatic_brightness">自動亮度</string>
+    <string name="sys_autorotate">自動轉屏</string>
+    <string name="sys_autorotate_disabled">關閉自動轉屏</string>
+    <string name="sys_autorotate_enabled">開啟自動轉屏</string>
+    <string name="sys_battery">開網路</string>
+    <string name="sys_bluetooth">藍牙</string>
+    <string name="sys_bluetooth_disabled">關閉藍牙</string>
+    <string name="sys_bluetooth_enabled">開啟藍牙</string>
+    <string name="sys_brightness">亮度</string>
+    <string name="sys_brightness_dock">螢幕亮度</string>
+    <string name="sys_clock">設時間</string>
+    <string name="sys_data_connection">移動網路</string>
+    <string name="sys_data_connection_disabled">關閉移動網路中...</string>
+    <string name="sys_data_connection_enabled">開啟移動網路中...</string>
+    <string name="sys_flashlight_enabled">開啟手電筒</string>
+    <string name="sys_gps">GPS</string>
+    <string name="sys_large_capacity">USB模式</string>
+    <string name="sys_mount_sdcard">掛載SD卡</string>
+    <string name="sys_mybattery_brightness">亮度</string>
+    <string name="sys_notification_bar">系統通知欄</string>
+    <string name="sys_others">更多</string>
+    <string name="sys_ring">設鈴聲</string>
+    <string name="sys_ring_mode">響鈴模式</string>
+    <string name="sys_ring_mode_disabled">響鈴</string>
+    <string name="sys_screen_overtime">螢幕超時</string>
+    <string name="sys_settings_apps">應用</string>
+    <string name="sys_settings_battery">電池</string>
+    <string name="sys_settings_display">亮度</string>
+    <string name="sys_settings_error_msg">出錯！未找到\"%1$s\"</string>
+    <string name="sys_settings_firmware">固件版本</string>
+    <string name="sys_settings_input">語言輸入</string>
+    <string name="sys_settings_machine_name">手機型號</string>
+    <string name="sys_settings_mobiledata">移動資料</string>
+    <string name="sys_settings_more_settings">更多系統設置</string>
+    <string name="sys_settings_root_fetching">獲取中...</string>
+    <string name="sys_settings_root_no">未root</string>
+    <string name="sys_settings_root_option">root許可權</string>
+    <string name="sys_settings_root_yes">已root</string>
+    <string name="sys_settings_screen_resolution">解析度</string>
+    <string name="sys_settings_screen_safe">螢幕安全</string>
+    <string name="sys_settings_sound">鈴聲</string>
+    <string name="sys_settings_storage">存儲</string>
+    <string name="sys_settings_usb_debug">USB調試</string>
+    <string name="sys_settings_wireless">網路共用</string>
+    <string name="sys_sim_not_exist">SIM卡不存在</string>
+    <string name="sys_slient_mode_disabled">靜音</string>
+    <string name="sys_switch_edit_hint">點擊右上角的編輯按鈕進入編輯模式,可拖動開關</string>
+    <string name="sys_switch_enter_usb_mass_storage">進入USB大型存放區模式</string>
+    <string name="sys_switch_exit_usb_mass_storage">退出USB大型存放區模式</string>
+    <string name="sys_switch_sdcard_removed">sdcard已被移除</string>
+    <string name="sys_switch_usb_mass_storage_fail">掛載usb大型存放區失敗</string>
+    <string name="sys_switch_usb_mass_storage_mode">USB未連接或系統不支援USB模式</string>
+    <string name="sys_switch_usb_mass_storage_mode_wait">請稍後再操作...</string>
+    <string name="sys_tactility_reaction">觸感反應</string>
+    <string name="sys_tactityraction_disabled">關閉觸感反應</string>
+    <string name="sys_tactityraction_enabled">開啟觸感反應</string>
+    <string name="sys_virbation_mode_disabled">關閉振動</string>
+    <string name="sys_virbation_mode_enabled">振動</string>
+    <string name="sys_whitespot">快點</string>
+    <string name="sys_wifi">WiFi</string>
+    <string name="sys_wifi_disabled">關閉WiFi</string>
+    <string name="sys_wifi_enabled">開啟WiFi</string>
+    <string name="system_hardware">硬體資訊</string>
+    <string name="system_hardware_board">主機板：</string>
+    <string name="system_hardware_bootloader">引導程式：</string>
+    <string name="system_hardware_brand">系統定制商：</string>
+    <string name="system_hardware_codename">編碼器：</string>
+    <string name="system_hardware_cpu_abi">cpu指令集：</string>
+    <string name="system_hardware_current_screen_height">螢幕高度：</string>
+    <string name="system_hardware_current_screen_width">螢幕寬度：</string>
+    <string name="system_hardware_density">密度：</string>
+    <string name="system_hardware_density_dpi">dpi密度：</string>
+    <string name="system_hardware_device">設備參數：</string>
+    <string name="system_hardware_display">顯示幕參數：</string>
+    <string name="system_hardware_fingerprint">硬體名稱：</string>
+    <string name="system_hardware_hardware">硬體標示：</string>
+    <string name="system_hardware_host">主機：</string>
+    <string name="system_hardware_id">修訂版本列表：</string>
+    <string name="system_hardware_imei">imei號：</string>
+    <string name="system_hardware_imsi">imsi號：</string>
+    <string name="system_hardware_incremental">基帶版本：</string>
+    <string name="system_hardware_ip">ip地址：</string>
+    <string name="system_hardware_language">當前語言：</string>
+    <string name="system_hardware_mac">mac地址：</string>
+    <string name="system_hardware_machine_name">手機型號：</string>
+    <string name="system_hardware_manufacturer">硬體製造商：</string>
+    <string name="system_hardware_nt">網路類型：</string>
+    <string name="system_hardware_nt_1">USB網路</string>
+    <string name="system_hardware_nt_2">聯通</string>
+    <string name="system_hardware_nt_3">電信</string>
+    <string name="system_hardware_nt_4">移動</string>
+    <string name="system_hardware_nt_5">未知</string>
+    <string name="system_hardware_product">產品內部編號：</string>
+    <string name="system_hardware_radio">無線設備：</string>
+    <string name="system_hardware_release">固件版本：</string>
+    <string name="system_hardware_scaled_density">字體縮放比例：</string>
+    <string name="system_hardware_sdk_version">sdk版本：</string>
+    <string name="system_hardware_tags">標籤：</string>
+    <string name="system_hardware_time">時間：</string>
+    <string name="system_hardware_type">類型：</string>
+    <string name="system_hardware_unknown">未知備註：</string>
+    <string name="system_hardware_user">用戶：</string>
+    <string name="system_hardware_xdpi">x方向的圖元密度xdpi：</string>
+    <string name="system_hardware_ydpi">y方向的圖元密度ydpi：</string>
+    <string name="system_switch">快捷設置</string>
+    <string name="temperature_symbol">℃</string>
+    <string name="theme_decoder_not_valiable">主題解析出錯，無法應用該主題</string>
+    <string name="theme_default_name">默認</string>
+    <string name="theme_local_manage_title">我的主題</string>
+    <string name="theme_local_nodata_desc">還沒有下載內容呢，去線上頁面看看吧</string>
+    <string name="theme_manage_menu_add_theme">添加本地主題(apt格式)</string>
+    <string name="theme_manage_select_theme">選擇主題</string>
+    <string name="theme_module_icons">圖示</string>
+    <string name="theme_module_other">其他</string>
+    <string name="theme_module_wallpaper">桌面壁紙</string>
+    <string name="theme_module_weather">時鐘天氣</string>
+    <string name="theme_online">主題商城</string>
+    <string name="theme_recommand_folder_name">主題推薦</string>
+    <string name="theme_shop_v6_first_hint">主題、壁紙,想要的都在這裡~</string>
+    <string name="this_machine_not_support">此系統不支援掛載SD卡操作</string>
+    <string name="tip_particle_screen_effect_show">%1$s為您提供了豐富的指尖特效,是否要設置其它更多特效?</string>
+    <string name="tip_particle_screen_effect_show_cancel">關閉特效</string>
+    <string name="tip_particle_screen_effect_show_ok">修改特效</string>
+    <string name="title_apply_old_theme">主題導入完畢</string>
+    <string name="title_delete_theme">刪除主題</string>
+    <string msgid="2858897527672831763" name="title_select_shortcut">"選擇快捷方式"</string>
+    <string name="toast_search">可在左下角進行快速查找應用</string>
+    <string name="top_menu_bazinga_dialog_btn">隱藏</string>
+    <string name="top_menu_bazinga_dialog_content">隱藏之後，您可以在%1$s>%2$s中再次開啟%3$s功能</string>
+    <string name="top_menu_list_item_ads_title">應用推薦</string>
+    <string name="top_menu_list_item_go_beauty_center">立刻查看</string>
+    <string name="top_menu_list_item_go_beauty_center_title"> 去逛逛主題商店，讓手機更好看吧！</string>
+    <string name="top_menu_list_item_go_set_launcher_title"> 讓%1$s成為你的默認桌面吧！</string>
+    <string name="top_menu_list_item_go_wallpaper_center_title"> 每張桌面都是一個新的故事。</string>
+    <string name="top_menu_list_item_news_tip">深入閱讀</string>
+    <string name="top_menu_list_item_theme_tip">查看詳情</string>
+    <string name="top_menu_list_item_wallpaper_final">試用壁紙失敗！</string>
+    <string name="top_menu_list_item_wallpaper_loding">正在加載壁紙，請稍後！</string>
+    <string name="top_menu_list_item_wallpaper_tip">試用壁紙</string>
+    <string name="top_menu_title">%1$s Know</string>
+    <string name="twodimensioncode_scan">二維碼</string>
+    <string name="uninstallapp_no_this_appinfo">找不到有關這個應用程式的資訊。解除安裝失敗。</string>
+    <string name="unzip_theme">解壓主題包</string>
+    <string name="unzip_theme_waiting">解壓主題包請稍候...</string>
+    <string name="upgrade_install_flashlight">手電筒升級提示</string>
+    <string name="upgrade_install_flashlight_msg">手電筒可升級   \n點擊立即安裝？</string>
+    <string name="upgrade_install_screenoff">一鍵關屏升級提示</string>
+    <string name="upgrade_install_screenoff_msg">一鍵關屏可升級  \n點擊立即安裝？</string>
+    <string name="upgrade_install_zxing_scan">二維碼掃描</string>
+    <string name="upgrade_install_zxing_scan_msg">二維碼掃描可升級   \n點擊立即安裝？</string>
+    <string name="use_result_now">立即使用</string>
+    <string name="user_feedback_button_submit">提交</string>
+    <string name="user_feedback_committing">正在提交回饋</string>
+    <string name="user_feedback_common_backMain">返回</string>
+    <string name="user_feedback_contact_none">請輸入有效的電子郵箱或者電話號碼:)</string>
+    <string name="user_feedback_content_none">回饋內容不能為空</string>
+    <string name="user_feedback_content_tip">BUG與建議&lt;font color="#8f8f8f">(限250字)&lt;/font></string>
+    <string name="user_feedback_email_tip">聯繫方式&lt;font color="#8f8f8f">(郵箱或者電話)&lt;/font></string>
+    <string name="user_feedback_loading">正在載入...</string>
+    <string name="user_feedback_no_internet">無可用網路</string>
+    <string name="user_feedback_page_unvailable">頁面無法顯示</string>
+    <string name="user_feedback_submit_failed">回饋失敗</string>
+    <string name="user_feedback_submit_success">回饋成功</string>
+    <string name="user_feedback_tip">&lt;br/>&lt;font color="#948df0">&lt;a href="http://%s/data/androidfaq.html">&lt;i>常見問題匯總&lt;/i>&lt;/a>&lt;/font></string>
+    <string name="user_feedback_tip1">\n\u0020\u0020\u0020\u0020 感謝您對91桌面的關注與支持！歡迎您提交任何與91桌面相關的BUG與建議，我們將會在第一時間通過您留下的聯繫方式回復處理結果。</string>
+    <string name="user_feedback_title">用戶回饋</string>
+    <string name="vibrator">振動</string>
+    <string name="wallpaper_change_on2G3G_hint">您不在Wifi環境下，是否繼續下載壁紙?</string>
+    <string name="webview_no_page_tips">沒有可前進的頁面</string>
+    <string name="widget_analogclock">類比時鐘</string>
+    <string name="widget_baidu">搜索</string>
+    <string name="widget_baidu_scan_download_hint">處理掃描結果...</string>
+    <string name="widget_baidu_scan_download_outtime_hint">處理掃描結果超時，請重新掃描</string>
+    <string name="widget_baidu_scan_restart">重新掃描</string>
+    <string name="widget_baidu_scan_result">掃描結果</string>
+    <string name="widget_baidu_scan_result_access">訪問連結</string>
+    <string name="widget_baidu_scan_result_add_contact">添加連絡人</string>
+    <string name="widget_baidu_scan_result_share">91桌面二維碼掃描結果:\n%1$s\n</string>
+    <string name="widget_baidu_scan_result_share_title">分享掃描結果</string>
+    <string name="widget_error_add_failed">小部件添加中發現錯誤，請重啟桌面後重試。</string>
+    <string name="widget_feedback">用戶回饋</string>
+    <string name="widget_iconapp">應用圖示</string>
+    <string name="widget_memoryclean">一鍵清理</string>
+    <string name="widget_powerwidget">省電</string>
+    <string name="widget_toggle">快捷開關</string>
+    <string name="widget_update_desktop_restart_hint">%1$s小部件\"%2$s\"升級完畢，正在為您重啟桌面，請稍候...</string>
+    <string name="widget_variety_change_style_alert_content">即將替換樣式，替換後可能會刪除某些圖示，需手動再次添加，確定替換嗎？</string>
+    <string name="widget_variety_change_style_alert_title">換樣式</string>
+    <string name="widget_variety_notify_generate_template">自訂樣式已生成，您可以使用啦！</string>
+    <string name="widget_variety_notify_template_in_use">該樣式正在使用中，無法被刪除！</string>
+    <string name="widget_variety_templates_activity_title">選擇範本</string>
+    <string name="widget_variety_templates_custom_title">自訂樣式</string>
+    <string name="widget_variety_title">百變桌面</string>
+    <string name="widget_wallpaper_1x1_title">換壁紙</string>
+    <string name="widget_wallpaper_drawer_detail">壁紙庫</string>
+    <string name="widget_wallpaper_drawer_list_title">壁紙發現の旅</string>
+    <string name="widget_wallpaper_drawer_more">更多壁紙</string>
+    <string name="widget_wallpaper_drawer_previous">換回去</string>
+    <string name="widget_wallpaper_drawer_previous_fail">沒有可以恢復的壁紙啦</string>
+    <string name="widget_wallpaper_drawer_save">保存壁紙</string>
+    <string name="widget_wallpaper_drawer_save_success">壁紙已保存到存儲卡/%1$s/myphone/wallpaper/Pictures中</string>
+    <string name="widget_wallpaper_notify_23g_refresh">您現在正在使用2g/3G網絡,網速較慢,請耐心等待!</string>
+    <string name="widgets_choose">選擇小部件</string>
+    <string name="wifi">Wi-Fi</string>
+</resources>

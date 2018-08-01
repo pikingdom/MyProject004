@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 开通会员界面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff4f4f4" >
+
+    <com.nd.hilauncherdev.shop.shop6.themedetail.MainScrollView
+        android:id="@+id/detailScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/v7_common_header_height"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/personal_top_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/my_member_title_bg" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/v7_common_header_height"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <!-- 头像 -->
+
+                    <ImageView
+                        android:id="@+id/iv_avatar"
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/launcher_menu_presonal_user_icon" />
+                    <!-- 登陆后布局 -->
+
+                    <LinearLayout
+                        android:id="@+id/after_login_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <com.nd.hilauncherdev.framework.view.AlwaysMarqueeTextView
+                            android:id="@+id/tv_username"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:ellipsize="marquee"
+                            android:gravity="left"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:shadowDx="0"
+                            android:shadowDy="-3"
+                            android:shadowRadius="3"
+                            android:singleLine="true"
+                            android:text="@string/personal_center_welcome1"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                        <LinearLayout
+                            android:id="@+id/personal_center_member_validity_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:visibility="gone" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/personal_center_member_validity" />
+
+                            <TextView
+                                android:id="@+id/personal_center_member_validity"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:singleLine="true"
+                                android:text="2015-12-2"
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                        <!-- 文字滚动条 -->
+
+                        <com.nd.hilauncherdev.menu.personal.AutoScrollTextView
+                            android:id="@+id/TextViewNotice"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:inputType="text"
+                            android:marqueeRepeatLimit="1"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:visibility="gone" >
+                        </com.nd.hilauncherdev.menu.personal.AutoScrollTextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <!-- 会员进度 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_card"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/theme_shop_v6_tagtip_more_red" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="23dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/theme_shop_my_member_member_progress"
+                        android:textColor="#ff1c1c1c"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/my_member_member_strategy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="16dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/theme_shop_my_member_member_strategy"
+                        android:textColor="#ff1c1c1c"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+                <!-- 本月新增积分 -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="15dp"
+                        android:singleLine="true"
+                        android:text="@string/theme_shop_my_member_month_added"
+                        android:textColor="#ffffa800"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/my_membrt_now_rank_integral"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/my_membrt_next_rank_integral"
+                        android:singleLine="true"
+                        android:text="0"
+                        android:textColor="#ffffa800"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/my_membrt_next_rank_integral"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="16dp"
+                        android:singleLine="true"
+                        android:text="/20000"
+                        android:textColor="#ffa39d9d"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+                <!-- 会员积分进度条 -->
+
+                <com.nd.hilauncherdev.menu.personal.memberintegral.MyMemberProgressbarView
+                    android:id="@+id/my_member_progressbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="7dp" />
+                <!-- 升级说明 -->
+                <RelativeLayout 
+                    android:id="@+id/my_member_upgrade_tip_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="7dp"
+                    android:visibility="gone">
+                    <ImageView 
+                        android:id="@+id/my_member_upgrade_tip"
+                        android:layout_width="wrap_content"
+                    	android:layout_height="wrap_content"
+                        android:background="@drawable/my_member_upgrade_tip"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        />
+                    <TextView
+                        android:id="@+id/my_member_upgrade_tip_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@+id/my_member_upgrade_tip"
+                        android:layout_toLeftOf="@+id/theme_shop_my_member_upgrade_btn"
+                        android:layout_marginLeft="4.5dp"
+                        android:layout_marginRight="4.5dp"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:textColor="#ffde596a"
+                        android:textSize="11sp" />
+                    <LinearLayout 
+				        android:id="@+id/theme_shop_my_member_upgrade_btn"
+				        android:layout_width="wrap_content"
+                    	android:layout_height="33dp"
+                    	android:background="@drawable/common_btn_cancel_normal"
+                    	android:layout_alignParentRight="true"
+                    	android:gravity="center"
+                    	android:visibility="gone">
+				        <TextView
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="match_parent"
+	                        android:layout_alignParentRight="true"
+	                        android:layout_marginLeft="10dp"
+	                        android:layout_marginRight="10dp"
+	                        android:gravity="center"
+	                        android:singleLine="true"
+	                        android:text="@string/theme_shop_my_member_upgrade"
+	                        android:textColor="#ffffc52d"
+	                        android:textSize="14sp" />
+				    </LinearLayout>
+                    
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- 我的特权 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_card"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/theme_shop_v6_tagtip_more_red" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="23dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/theme_shop_my_member_my_privilege"
+                        android:textColor="#ff1c1c1c"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/my_member_all_privilege"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="16dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/theme_shop_my_member_all_privilege"
+                        android:textColor="#ff1c1c1c"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+				<!-- 无特权布局 -->
+				<LinearLayout
+				    android:id="@+id/my_member_no_privilege_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginBottom="28dp"
+                    android:visibility="gone">
+                    <LinearLayout 
+                        android:layout_width="wrap_content"
+                    	android:layout_height="wrap_content">
+                        <ImageView 
+                            android:layout_width="wrap_content"
+                    		android:layout_height="wrap_content"
+                            android:src="@drawable/my_memebr_status_gray"
+                            android:layout_marginRight="25dp"
+                            />
+                        <ImageView 
+                            android:layout_width="wrap_content"
+                    		android:layout_height="wrap_content"
+                            android:src="@drawable/my_member_redpackage_gray"
+                            android:layout_marginRight="25dp"
+                            />
+                        <ImageView 
+                            android:layout_width="wrap_content"
+                    		android:layout_height="wrap_content"
+                            android:src="@drawable/my_member_integral_speed_gray"
+                            />
+                    </LinearLayout>
+				    <LinearLayout 
+				        android:id="@+id/my_member_no_privilege_btn_layout"
+				        android:layout_width="wrap_content"
+                    	android:layout_height="33dp"
+                    	android:layout_marginTop="10dp"
+                    	android:background="@drawable/common_btn_cancel_normal"
+                    	android:gravity="center">
+				        <TextView
+				            android:id="@+id/my_member_no_privilege_btn_text"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="match_parent"
+	                        android:layout_alignParentRight="true"
+	                        android:layout_marginLeft="10dp"
+	                        android:layout_marginRight="10dp"
+	                        android:gravity="center"
+	                        android:singleLine="true"
+	                        android:text="@string/theme_shop_my_member_upgrade_member_get_privilege"
+	                        android:textColor="#ffffc52d"
+	                        android:textSize="14sp" />
+				    </LinearLayout>
+				    <TextView
+			            android:id="@+id/my_member_no_privilege_btn_tip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:visibility="gone"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/theme_shop_my_member_login_tips"
+                        android:textColor="#ff676b6e"
+                        android:textSize="11sp" />
+               </LinearLayout>
+                <!-- 有特权布局 -->
+                <LinearLayout
+                    android:id="@+id/my_member_privilege_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+                    <!-- 身份铭牌 -->
+
+                    <LinearLayout
+                        android:id="@+id/my_memebr_status_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="83.5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_vertical" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/my_memebr_status" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginRight="15dp"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:text="@string/theme_shop_my_member_status"
+                                android:textColor="#ff1c1c1c"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginTop="11.5dp"
+                                android:text="@string/theme_shop_my_member_status_tips"
+                                android:textColor="#ff676b6e"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- P1会员专属红包 -->
+
+                    <LinearLayout
+                        android:id="@+id/my_member_redpackage_p1_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="83.5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_vertical" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/my_member_redpackage_p1" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginRight="15dp"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:text="@string/theme_shop_my_member_redpackage_p1"
+                                android:textColor="#ff1c1c1c"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginTop="11.5dp"
+                                android:text="@string/theme_shop_my_member_redpackage_p1_tips"
+                                android:textColor="#ff676b6e"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- P2会员专属红包 -->
+
+                    <LinearLayout
+                        android:id="@+id/my_member_redpackage_p2_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="83.5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_vertical" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/my_member_redpackage_p2" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginRight="15dp"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:text="@string/theme_shop_my_member_redpackage_p2"
+                                android:textColor="#ff1c1c1c"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginTop="11.5dp"
+                                android:text="@string/theme_shop_my_member_redpackage_p2_tips"
+                                android:textColor="#ff676b6e"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <!-- P3会员专属红包 -->
+
+                    <LinearLayout
+                        android:id="@+id/my_member_redpackage_p3_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="83.5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_vertical" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/my_member_redpackage_p3" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginRight="15dp"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:text="@string/theme_shop_my_member_redpackage_p3"
+                                android:textColor="#ff1c1c1c"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginTop="11.5dp"
+                                android:text="@string/theme_shop_my_member_redpackage_p3_tips"
+                                android:textColor="#ff676b6e"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <!-- P4会员专属红包 -->
+
+                    <LinearLayout
+                        android:id="@+id/my_member_redpackage_p4_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="83.5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_vertical" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/my_member_redpackage_p4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginRight="15dp"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:text="@string/theme_shop_my_member_redpackage_p4"
+                                android:textColor="#ff1c1c1c"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginTop="11.5dp"
+                                android:text="@string/theme_shop_my_member_redpackage_p4_tips"
+                                android:textColor="#ff676b6e"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <!-- 积分加速 -->
+
+                    <LinearLayout
+                        android:id="@+id/my_member_integral_speed_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="83.5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_vertical" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/my_member_integral_speed" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginRight="15dp"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:text="@string/theme_shop_my_member_integral_speed"
+                                android:textColor="#ff1c1c1c"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginTop="11.5dp"
+                                android:text="@string/theme_shop_my_member_integral_speed_tips"
+                                android:textColor="#ff676b6e"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.nd.hilauncherdev.shop.shop6.themedetail.MainScrollView>
+    <!-- 底部按钮栏 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v7_common_header_height"
+        android:layout_alignParentBottom="true"
+        android:background="#66ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/my_member_get_integral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/common_btn_blue"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/theme_shop_my_member_get_integral"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/my_member_buy_member"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/common_btn_blue"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/theme_shop_my_member_buy_member"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 标题栏 -->
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/v7_common_header_height"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/v7_gap1_15dp"
+            android:src="@drawable/common_back_w" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/theme_shop_my_member"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/v7_card_header_title_size" />
+    </RelativeLayout>
+
+</RelativeLayout>

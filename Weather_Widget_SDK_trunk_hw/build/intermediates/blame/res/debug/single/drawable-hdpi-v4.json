@@ -1,0 +1,938 @@
+[
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\seledatebg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\seledatebg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_choose_btn_pressed.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_choose_btn_pressed.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\textbox_input.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\textbox_input.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_common_no_data_bg.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_common_no_data_bg.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_appwidget_error.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\bg_appwidget_error.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\downloadmanager_btn_setting_pressed.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\downloadmanager_btn_setting_pressed.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_chose_1.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_chose_1.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\tab_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_more_2.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_more_2.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_battery_down_arraw.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_battery_down_arraw.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit_screen_del_btn.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\edit_screen_del_btn.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\launcher_alert_error_top_banner.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\launcher_alert_error_top_banner.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_trend_1.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_trend_1.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_overcast_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_overcast_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pre_scrollbar_handle_vertical.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\pre_scrollbar_handle_vertical.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\webload_process_title_bg.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\webload_process_title_bg.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_battery_up_arraw.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_battery_up_arraw.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_choose_l_btn_pressed.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_choose_l_btn_pressed.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\yu.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\yu.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_blue_btn_press_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_blue_btn_press_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\appinfo_ununitall_btn_text_icon.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\appinfo_ununitall_btn_text_icon.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\launcher_popup_recommend_close_pressed.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\launcher_popup_recommend_close_pressed.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\folder_clear_name_normal.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\folder_clear_name_normal.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shortcut_menu_left.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\shortcut_menu_left.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\searchbox_btn_detail.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\searchbox_btn_detail.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\safe_firewall_item_open.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\safe_firewall_item_open.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\templine_low.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\templine_low.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_btn_back_2.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_btn_back_2.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_common_btn_press_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_common_btn_press_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_checkbox_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\common_checkbox_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\logo.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wallpaper_loading.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\wallpaper_loading.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\market_icon_notify.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\market_icon_notify.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dowload_bg.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\dowload_bg.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_menu_pressed.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\common_menu_pressed.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dockbar_replace_background.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\dockbar_replace_background.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_menu.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\common_menu.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shared_icon_email.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\shared_icon_email.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_autocrop.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\indicator_autocrop.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shortcut_menu_right.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\shortcut_menu_right.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ji.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\ji.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_checkbox_bg_pressed.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\common_checkbox_bg_pressed.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_downtrian.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_downtrian.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\preview_border.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\preview_border.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\downloadmanager_btn_setting_normal.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\downloadmanager_btn_setting_normal.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_choose_l_btn_normal.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_choose_l_btn_normal.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading_bg4x2.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\loading_bg4x2.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_battery_save_btn.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_battery_save_btn.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\position.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\position.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\city_list_normal.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\city_list_normal.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shared_icon_wechat.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\shared_icon_wechat.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_rain_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_rain_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_common_tab_focused.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_common_tab_focused.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\move_to_right_screen_bar_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\move_to_right_screen_bar_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_notice_bg.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_notice_bg.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\searchbox_bg_main.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\searchbox_bg_main.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hot_label.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\hot_label.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_heavy_rain_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_heavy_rain_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_chance_of_snow_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_chance_of_snow_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_selected_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\tab_selected_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_running_process_tab_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_running_process_tab_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_downing.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_downing.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shortcut_menu_top_left.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\shortcut_menu_top_left.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shortcut_menu_center.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\shortcut_menu_center.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pressed_application_background.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\pressed_application_background.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_choose_bottom_background.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_choose_bottom_background.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit_screen_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\edit_screen_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_choose_bottom_background.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_choose_bottom_background.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_choose_r_btn_pressed.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_choose_r_btn_pressed.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_seclevel_tab_right_selected.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_seclevel_tab_right_selected.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\add_double_app.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\add_double_app.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\drawer_lightbar_checked.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\drawer_lightbar_checked.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_battery_time_split.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_battery_time_split.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\panda_folder_foreground_closed.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\panda_folder_foreground_closed.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_market_default_icon.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_market_default_icon.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_seclevel_tab_right.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_seclevel_tab_right.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera_crop_height.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\camera_crop_height.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\searchbox_btn_detail_down.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\searchbox_btn_detail_down.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\storage_phone_clean_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\storage_phone_clean_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\file_manager_address_separator.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\file_manager_address_separator.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_copy.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\logo_copy.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera_crop_width.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\camera_crop_width.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_fog_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_fog_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\preview_border_light.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\preview_border_light.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_dialog_btn_right_normal.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\common_dialog_btn_right_normal.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_sleet_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_sleet_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\clean_widget_btn_pressed.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\clean_widget_btn_pressed.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\drawer_lightbar_normal.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\drawer_lightbar_normal.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\frame_viewpager_tab_popup_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\frame_viewpager_tab_popup_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_choose_top_background_new.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_choose_top_background_new.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\banner_loading.jpg",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\banner_loading.jpg"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\prompt_preference_category.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\prompt_preference_category.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_weatherinfo_imagemask.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_weatherinfo_imagemask.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_days_2.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_days_2.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_sunny_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_sunny_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_app_na.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_app_na.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\line_for_mask_topbar.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\line_for_mask_topbar.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading_bg4x1.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\loading_bg4x1.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\remove_folder_pressed_btn.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\remove_folder_pressed_btn.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_days_1.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_days_1.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_dialog_btn_left_normal.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\common_dialog_btn_left_normal.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_running_close_btn_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\app_running_close_btn_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_snow_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_snow_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_indct_btm_2.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_indct_btm_2.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\divider_horizontal_bright.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\divider_horizontal_bright.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shared_icon_qzone.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\shared_icon_qzone.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_market_qrcode_scan_download_icon.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_market_qrcode_scan_download_icon.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher_application.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\ic_launcher_application.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_heavy_snow_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_heavy_snow_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_dialog_background_ex.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\common_dialog_background_ex.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dowload_progress_bg.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\dowload_progress_bg.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_indicator_bottom.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_indicator_bottom.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_btn_back_1.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_btn_back_1.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_batterybar_full.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\battery_batterybar_full.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_middler_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\common_middler_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\download_tips_btn_press.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\download_tips_btn_press.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\new_label_red.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\new_label_red.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_showers_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_showers_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\framwork_viewfactory_load_data_img.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\framwork_viewfactory_load_data_img.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_trend_2.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_trend_2.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_menu_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\common_menu_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_na_update.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_na_update.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_choose_l_btn_disable.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_choose_l_btn_disable.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\folder_clear_name_pressed.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\folder_clear_name_pressed.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_cloudy_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_cloudy_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\remove_folder_normal_btn.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\remove_folder_normal_btn.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_common_tab_unfocused.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_common_tab_unfocused.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\widget_weather_preview_4x1.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\widget_weather_preview_4x1.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\daily_hot_news.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\daily_hot_news.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\launcher_set_default_top_banner.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\launcher_set_default_top_banner.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_common_tab_more.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_common_tab_more.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\filter_restore.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\filter_restore.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_background_focused.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\icon_background_focused.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_thunderstorm_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_thunderstorm_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\battery_batterybar_empty.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\battery_batterybar_empty.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\webview_progressbar_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\webview_progressbar_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_magic_ball.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\logo_magic_ball.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\frame_viewfacotry_search_null_img.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\frame_viewfacotry_search_null_img.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\launcher_menu_presonal_compaign_rightbar_check.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\launcher_menu_presonal_compaign_rightbar_check.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_indct_btm.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_indct_btm.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_chose_2.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_chose_2.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_icy_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_icy_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\preview_border_drag.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\preview_border_drag.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_running_clean_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_running_clean_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_search_02.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\icon_search_02.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_choose_top_background.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_choose_top_background.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_choose_btn_pressed.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_choose_btn_pressed.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_check_2.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_check_2.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_choose_btn.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_choose_btn.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_ver_split_line.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_ver_split_line.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_common_delete.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_common_delete.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\download_tips_btn_normal.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\download_tips_btn_normal.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_running_clean_bg2.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_running_clean_bg2.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\launcher_menu_presonal_compaign_rightbar_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\launcher_menu_presonal_compaign_rightbar_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\warn_any.gif",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\warn_any.gif"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_seclevel_tab_left_selected.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_seclevel_tab_left_selected.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_split.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\tab_split.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_running_clean_background_mask.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_running_clean_background_mask.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_btn_layout_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\common_btn_layout_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shortcut_menu_top_right.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\shortcut_menu_top_right.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_common_split.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_common_split.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_choose_btn_normal.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_choose_btn_normal.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\launcher_popup_recommend_close_normal.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\launcher_popup_recommend_close_normal.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\preference_divline.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\preference_divline.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_move.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_move.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_common_download.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_common_download.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_na_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_na_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_menu_seperator_line.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\common_menu_seperator_line.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_ok.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_ok.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shared_icon_qq.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\shared_icon_qq.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\templine_high.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\templine_high.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_dialog_btn_right_pressed.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\common_dialog_btn_right_pressed.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_tv_press_blue.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_tv_press_blue.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit_screen_full_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\edit_screen_full_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\move_to_left_screen_bar_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\move_to_left_screen_bar_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\appinfo_appinfo_cancel_btn_icon.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\appinfo_appinfo_cancel_btn_icon.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shared_icon_weibo.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\shared_icon_weibo.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_lightrain_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_lightrain_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_bottom.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\tab_bottom.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\webview_progressbar.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\webview_progressbar.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\focused_application_background.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\focused_application_background.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_dialog_btn_left_pressed.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\common_dialog_btn_left_pressed.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\searchbox_btn_bottombar_normal.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\searchbox_btn_bottombar_normal.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_close_help.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\icon_close_help.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_split.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\common_split.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\download_tips_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\download_tips_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_mini.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\logo_mini.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\framwork_viewfactory_err_info_img.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\framwork_viewfactory_err_info_img.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_seclevel_tab_mid_selected.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_seclevel_tab_mid_selected.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_new_flag.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\icon_new_flag.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myfile_image_frame_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myfile_image_frame_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\frame_viewfacotry_net_slowly_img.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\frame_viewfacotry_net_slowly_img.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shared_icon_copylink.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\shared_icon_copylink.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_wp_apply.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_wp_apply.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\panda_folder_foreground_open.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\panda_folder_foreground_open.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loadingview_point_black.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\loadingview_point_black.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\movelist.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\movelist.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_delete.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_delete.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\launcher_menu_presonal_compaign_rightbar_default.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\launcher_menu_presonal_compaign_rightbar_default.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_storm_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_storm_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit_screen_add_btn.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\edit_screen_add_btn.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myfile_photo_category_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myfile_photo_category_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_dust_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_dust_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\clean_widget_btn.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\clean_widget_btn.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\searchbox_btn_bottombar_clicked.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\searchbox_btn_bottombar_clicked.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_mybackup_clean.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_mybackup_clean.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\theme_shop_v6_loading_mid.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\theme_shop_v6_loading_mid.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wip_snow_rain_64.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\wip_snow_rain_64.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shared_icon_networking.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\shared_icon_networking.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_seclevel_tab_left.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_seclevel_tab_left.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\update_red_dot.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\update_red_dot.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\open_1.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\open_1.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cleaner_widget_bg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\cleaner_widget_bg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_choose_vertical_line.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_choose_vertical_line.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\frame_viewfacotry_net_break_img.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\frame_viewfacotry_net_break_img.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_choose_btn_normal.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_choose_btn_normal.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_scroll_tip.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\tab_scroll_tip.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_choose_vertical_line.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_choose_vertical_line.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_nd_hilauncherdev_privatezone_entranceactivity.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\com_nd_hilauncherdev_privatezone_entranceactivity.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loadingview_point_light.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\loadingview_point_light.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_choose_r_btn_normal.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\app_choose_r_btn_normal.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\textbox_inputselected.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\textbox_inputselected.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_more_1.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_more_1.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\seleitemdatebg.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\seleitemdatebg.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_seclevel_tab_mid.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_seclevel_tab_mid.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shortcut_menu_top_center.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable-hdpi-v4\\shortcut_menu_top_center.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_sys_bar_download.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\icon_sys_bar_download.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\city_position.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\city_position.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\widget_weather_preview_4x2.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\widget_weather_preview_4x2.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_choose_top_background.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_choose_top_background.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_ico_check_1.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\drawable-hdpi\\weather_ico_check_1.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loding_point.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\loding_point.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myphone_reflesh_icon.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\myphone_reflesh_icon.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\theme_shop_v6_loading_bj_mid.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\drawable-hdpi-v4\\theme_shop_v6_loading_bj_mid.png"
+    }
+]

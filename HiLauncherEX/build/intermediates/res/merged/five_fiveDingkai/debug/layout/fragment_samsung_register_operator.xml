@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa">
+
+
+    <LinearLayout
+        android:id="@+id/ll_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="158.3dp"
+            android:background="@drawable/bg_samsung_register_operator_top" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_samsung_title"
+            android:gravity="center_vertical"
+            android:paddingLeft="35.7dp"
+            android:text="注册服务运营商"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="" />
+
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/i_0"
+        layout="@layout/include_samsung_guide_bottom_next"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_below="@id/ll_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17.7dp"
+        android:paddingLeft="35.7dp"
+        android:paddingRight="45dp"
+        android:textColor="#252525"
+        android:textSize="13dp"
+        android:lineSpacingExtra="7dp"
+        android:text="@string/guide_samsung_register_operator"/>
+    
+    <RelativeLayout
+        android:layout_above="@id/i_0"
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:paddingLeft="34dp"
+        android:layout_marginBottom="13.4dp">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:button="@drawable/cb_samsung"
+            android:checked="true"
+            android:paddingLeft="6.3dp"
+            android:textSize="13dp"
+            android:textColor="#252525"
+            android:text="我同意此条款。"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

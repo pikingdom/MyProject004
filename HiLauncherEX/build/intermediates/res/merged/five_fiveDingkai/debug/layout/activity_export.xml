@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/export_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000">
+	<Button
+		android:id="@+id/btn_set_zero_icon"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="30dip"
+		android:layout_marginRight="30dip"
+		android:layout_marginBottom="20dip"
+		android:layout_above="@+id/btn_set_app_hide"
+		android:text="@string/launcher_layout_zero_icon_btn"
+		android:background="@drawable/export_white_stroke_bg"
+		android:padding="10dip"
+		android:textColor="#FFFFFF"
+		android:textSize="15sp"/>
+
+	<Button
+		android:id="@+id/btn_set_app_hide"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="30dip"
+		android:layout_marginRight="30dip"
+		android:layout_marginBottom="20dip"
+		android:layout_above="@+id/btn_export"
+		android:text="@string/launcher_layout_hide_app_btn"
+		android:background="@drawable/export_white_stroke_bg"
+		android:padding="10dip"
+		android:textColor="#FFFFFF"
+		android:textSize="15sp"/>
+
+	<Button
+		android:id="@+id/btn_export"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="30dip"
+		android:layout_marginRight="30dip"
+		android:layout_marginBottom="50dip"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:text="@string/launcher_layout_export_btn"
+		android:background="@drawable/export_white_stroke_bg"
+		android:padding="10dip"
+		android:textColor="#FFFFFF"
+		android:textSize="15sp"/>
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.shop.shop6.v8recommend.ThemeShopV8GuessYouLikeWallpaperView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recommend_bg_card"
+    android:paddingBottom="10dip"
+    android:orientation="vertical" >
+
+    <!-- 标题栏 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="@dimen/v8_gap1_10dp" >
+
+        <ImageView
+            android:id="@+id/tagtip_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_guess_you_like_wallpaper" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="11dip"
+            android:layout_toRightOf="@+id/tagtip_img"
+            android:singleLine="true"
+            android:text="@string/shop_theme_v8_guess_you_like_wallpaper"
+            android:textColor="#0192e5"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:singleLine="false"
+            android:text="@string/theme_shop_v6_more"
+            android:textColor="#181818"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/v8_gap3_5dp"
+        android:layout_marginLeft="@dimen/v7_gap1_15dp"
+        android:layout_marginRight="@dimen/v7_gap1_15dp"
+        android:layout_marginTop="@dimen/v8_gap3_5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.nd.hilauncherdev.shop.shop6.v8recommend.DailyWallpaperView
+	        android:id="@+id/wallpaper_view"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+    <TextView android:id="@+id/user_label_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:textColor="#181818"
+        android:textSize="15sp"
+        android:text="@string/user_label_hint" />
+</com.nd.hilauncherdev.shop.shop6.v8recommend.ThemeShopV8GuessYouLikeWallpaperView>

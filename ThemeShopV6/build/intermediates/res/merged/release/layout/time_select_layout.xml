@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 对话框里面的ListView -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/time_select_wrapper">
+    <Button 
+	    android:layout_width="match_parent"
+   		android:layout_height="40dp"
+        android:id="@+id/btnCancel"
+        android:text="@string/common_button_cancel"
+        android:textColor="@color/common_dialog_text_color_selector"
+        android:layout_alignParentBottom="true"
+	    android:background="@drawable/transparent_background"/>
+    <ListView 
+        android:layout_width="match_parent"
+   		android:layout_height="match_parent"
+        android:id="@+id/lvContents"
+        android:layout_above="@id/btnCancel"
+        android:divider="@drawable/preference_divline"
+        android:listSelector="@drawable/myphone_click_item_blue" />
+</RelativeLayout>

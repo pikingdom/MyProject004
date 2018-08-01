@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/common_dialog_layout"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+	<RelativeLayout android:id="@+id/common_dialog_top_layout"
+		android:layout_width="fill_parent" 
+		android:layout_height="45dip"
+		android:layout_alignParentTop="true"
+		android:background="@drawable/weather_choose_top_background">
+		
+		<ImageView android:id="@+id/common_dialog_top_icon"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"		    
+		    android:layout_alignParentLeft="true"
+		    android:layout_centerVertical="true"
+		    android:paddingTop="3dip"
+		    android:paddingLeft="10dip" />
+		
+		<TextView android:id="@+id/common_dialog_top_title"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_toRightOf="@id/common_dialog_top_icon"
+			android:paddingTop="3dip"
+			android:paddingLeft="10dip"
+			android:gravity="center"
+			android:textSize="16sp" 
+			android:textColor="#48b1e2" />
+	</RelativeLayout>
+	
+	<RelativeLayout android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_below="@id/common_dialog_top_layout"
+		android:background="@drawable/weather_choose_bottom_background">
+		
+	    <LinearLayout android:id="@+id/common_dialog_content_layout"
+		    android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:gravity="center"
+			android:orientation="vertical">
+		    
+		    <TextView android:id="@+id/common_dialog_content"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:paddingTop="25dip"
+				android:paddingBottom="20dip"
+				android:paddingLeft="15dip"
+				android:paddingRight="15dip"
+				android:gravity="center_vertical"
+				android:textSize="16sp" 
+				android:textColor="#757675" />
+		    
+		    <LinearLayout android:id="@+id/common_dialog_custom_view_layout"
+		        android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:paddingBottom="20dip" />
+		    
+		</LinearLayout>	
+		
+		<LinearLayout android:id="@+id/common_dialog_bottom_layout"
+		    android:layout_width="fill_parent"
+			android:layout_height="45dip" 
+			android:layout_below="@id/common_dialog_content_layout"
+			android:layout_centerHorizontal="true"
+			android:gravity="center">
+
+			<Button	android:id="@+id/positive_button"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"				
+				android:layout_weight="1"
+				android:textSize="16sp" 
+				android:textColor="@color/weather_choose_btn_color"
+	            android:paddingTop="3dip"
+				android:background="@drawable/weather_choose_btn"
+	            android:gravity="center" />
+	            
+	        <ImageView android:id="@+id/separator"
+	            android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:background="@drawable/weather_choose_vertical_line" />
+	            
+			<Button	android:id="@+id/negative_button"				
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:textSize="16sp" 
+				android:textColor="@color/weather_choose_btn_color"
+				android:background="@drawable/weather_choose_btn"
+				android:paddingTop="3dip"		
+	            android:gravity="center" />
+			
+		</LinearLayout>
+		
+	</RelativeLayout>
+	
+</RelativeLayout>

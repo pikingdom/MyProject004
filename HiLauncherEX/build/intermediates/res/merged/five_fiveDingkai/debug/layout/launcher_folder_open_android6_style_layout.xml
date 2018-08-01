@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/folder_switch_android6_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <!--TextView android:layout_width="fill_parent"
+              android:layout_height="0dp" android:id="@+id/reference_view"/-->
+
+    <com.nd.hilauncherdev.folder.view.FolderView
+        android:id="@+id/folder_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/folder_content_android6_style_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/title_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:background="#0000ff00">
+
+            <TextView
+                android:id="@+id/add_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/folder_add_more_selector"
+                android:clickable="true" />
+
+            <TextView
+                android:id="@+id/folder_encript"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/add_more"
+                android:background="@drawable/folder_encript_selector"
+                android:clickable="true" />
+
+            <TextView
+                android:id="@+id/folder_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/folder_encript"
+                android:background="@drawable/folder_name_input_normal_bg"
+                android:clickable="true"
+                android:editable="false"
+                android:gravity="center_vertical"
+                android:paddingBottom="3dp"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="3dp"
+                android:singleLine="true"
+                android:textColor="@android:color/white" />
+
+
+        </RelativeLayout>
+
+        
+
+        <com.nd.hilauncherdev.folder.view.FolderSlidingView
+            android:id="@+id/folder_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#ffff0000" />
+
+        <TextView
+            android:id="@+id/recommend_empty_remind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/light_bar"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:visibility="gone" />
+        <!-- 推荐文件夹中的主题推荐布局 -->
+        <!--底部的指示灯和文件名-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00aaffdd"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/folder_name_android6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="#00000000"
+                android:gravity="center_horizontal"
+                android:hint="@string/folder_name"
+                android:imeOptions="flagNoExtractUi"
+                android:paddingBottom="8dp"
+                android:paddingTop="4dp"
+                android:text="zhou"
+                android:textColor="#ff777777"
+                android:textColorHighlight="#ffCCCCCC"
+                android:textColorHint="#ff808080"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="14sp"></TextView>
+            <com.nd.hilauncherdev.folder.view.CustomDrawableLightbar
+                android:id="@+id/light_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"
+                android:gravity="center" />
+        </LinearLayout>
+    </com.nd.hilauncherdev.folder.view.FolderView>
+</LinearLayout>

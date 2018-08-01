@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout
+        android:id="@+id/rl_0"
+        android:layout_width="match_parent"
+        android:layout_height="137.3dp">
+
+        <ImageView
+            android:id="@+id/wlan_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_samsung_item_wlan_top" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_below="@id/rl_0"
+        android:layout_width="match_parent"
+        android:layout_height="59.7dp"
+        android:background="@drawable/bg_samsung_title">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35.7dp"
+            android:textColor="#fafafa"
+            android:textSize="20dp"
+            android:text="WLAN"/>
+        
+        <TextView
+            android:id="@+id/wlan_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15.3dp"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#a2f4ff"
+            android:textSize="11.3dp"
+            android:text="更多"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_2"
+        android:layout_below="@id/rl_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f0f0f0">
+
+        <TextView
+            android:id="@+id/wlan_switch_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="43.7dp"
+            android:textColor="#252525"
+            android:textSize="15.3dp"
+            android:layout_centerVertical="true"
+            android:text="开"/>
+
+
+        <Switch
+            android:id="@+id/wlan_switch"
+            android:layout_width="32.7dp"
+            android:layout_height="12.7dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:checked="true"
+            android:textOn=""
+            android:textOff=""
+            android:track="@drawable/switch_samsung_wlan_track"
+            android:thumb="@drawable/switch_samsung_wlan_thumb"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#d9d9d9"/>
+        
+    </RelativeLayout>
+    
+
+    <include
+        android:id="@+id/rl_3"
+        layout="@layout/include_samsung_guide_bottom_next"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"/>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/rl_2"
+        android:layout_above="@id/rl_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fafafa">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="14.3dp"
+            android:textColor="#505050"
+            android:textSize="13dp"
+            android:text="若要查看可用网络，打开WLAN。"/>
+
+        <ListView
+            android:id="@+id/wlan_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="#fafafa"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

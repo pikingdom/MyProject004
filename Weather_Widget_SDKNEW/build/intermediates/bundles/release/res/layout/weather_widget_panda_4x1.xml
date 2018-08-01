@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.nd.weather.widget.PandaHome.CalendarWeatherWidgetView_4x1
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/panda_widget_4x1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:descendantFocusability="beforeDescendants" >
+
+    <include layout="@layout/weather_widget_panda_4x1_content" />
+
+</com.nd.weather.widget.PandaHome.CalendarWeatherWidgetView_4x1>

@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-xhdpi-1800x1080-v4\\values-xhdpi-1800x1080-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-xhdpi-1800x1080-v4\\values-xhdpi-1800x1080-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 50,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 106,
+                    "endColumn": 63,
+                    "endOffset": 165
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-xhdpi-1800x1080-v4\\values-xhdpi-1800x1080-v4.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 63,
+                        "endOffset": 165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 170,
+                    "endColumn": 55,
+                    "endOffset": 221
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-xhdpi-1800x1080-v4\\values-xhdpi-1800x1080-v4.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 55,
+                        "endOffset": 221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 226,
+                    "endColumn": 52,
+                    "endOffset": 274
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-xhdpi-1800x1080-v4\\values-xhdpi-1800x1080-v4.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 226,
+                        "endColumn": 52,
+                        "endOffset": 274
+                    }
+                }
+            }
+        ]
+    }
+]

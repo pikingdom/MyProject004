@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <FrameLayout
+        android:id="@+id/layout_large_image_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <com.nd.hilauncherdev.shop.shop3.customview.CustomGallery
+            android:id="@+id/local_module_gallery"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.nd.hilauncherdev.shop.shop3.customview.switchview.PageControlView
+            android:id="@+id/page_control"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:layout_marginBottom="@dimen/myphone_bottom_content"
+            android:layout_gravity="bottom"
+            android:gravity="center" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/local_module_detail_header"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/v7_common_header_height"
+        android:background="@drawable/v7_common_header_bg"
+        android:gravity="center_vertical"
+        android:layout_gravity="top" >
+
+        <LinearLayout
+            android:layout_width="60dip"
+            android:layout_height="fill_parent"
+            android:paddingLeft="8dip"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/back"
+                style="@style/v7_common_header_goback" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/local_module_detail_title"
+            android:layout_width="160dip"
+            android:layout_height="fill_parent"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+    
+    <FrameLayout 
+        android:id="@+id/local_module_detail_bottom"
+        android:layout_width="fill_parent"
+	    android:layout_height="@dimen/myphone_bottom_content"
+        android:background="@drawable/common_btn_layout_bg"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom" >
+	    <LinearLayout
+	        android:id="@+id/local_module_detail_bottom_btn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="@dimen/myphone_bottom_content"
+	        android:gravity="center_vertical"
+	        android:padding="5dip" >
+	
+	        <ImageView
+	            android:id="@+id/local_module_detail_delete"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:paddingLeft="15dip"
+	            android:paddingRight="15dip"
+	            android:src="@drawable/theme_detail_btn_delete_selector" />
+			<LinearLayout 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:orientation="horizontal" >
+		        <Button
+		            android:id="@+id/btn_apply"
+		            android:layout_width="fill_parent"
+		            android:layout_height="37dip"
+		            android:layout_weight="1"
+		            android:layout_alignParentRight="true"
+		            android:background="@drawable/common_btn_blue_selector"
+		            android:gravity="center"
+		            android:textSize="14sp"
+		            android:text="@string/common_button_apply"
+		            android:textColor="@color/theme_btn_title" />
+		        <Button
+		            android:id="@+id/btn_upgrade"
+		            android:layout_width="fill_parent"
+		            android:layout_height="37dip"
+		            android:layout_weight="1"
+		            android:layout_alignParentRight="true"
+		            android:background="@drawable/common_btn_blue_selector"
+		            android:gravity="center"
+		            android:visibility="gone"
+		            android:textSize="14sp"
+		            android:layout_marginLeft="5dip"
+		            android:text="@string/btn_theme_upgrade"
+		            android:textColor="@color/theme_btn_title" />
+	        </LinearLayout>
+	        <ImageView
+                android:id="@+id/shareBn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="15dip"
+            	android:paddingRight="15dip"
+            	android:visibility="invisible"
+                android:src="@drawable/theme_shop_v6_detail_btn_share_selector" />
+	    </LinearLayout>
+	    
+	    <!-- 下载进度 -->
+        <RelativeLayout
+	        android:id="@+id/downloadProgressLayout"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:layout_marginLeft="54dip"
+	        android:layout_marginRight="54dip"
+	        android:visibility="gone" >
+	
+	        <com.nd.hilauncherdev.shop.shop3.customview.ThemePercentBarView
+	            android:id="@+id/downloading_progressBar"
+	            android:layout_width="match_parent"
+	            android:layout_height="37dip"
+	            android:layout_centerVertical="true" />
+	
+	        <TextView
+	            android:id="@+id/progressSize"
+	            android:layout_width="50dip"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:gravity="center"
+	            android:text="0%"
+	            android:textColor="@color/black"
+	            android:textSize="14sp" />
+	    </RelativeLayout>
+	</FrameLayout>
+</FrameLayout>

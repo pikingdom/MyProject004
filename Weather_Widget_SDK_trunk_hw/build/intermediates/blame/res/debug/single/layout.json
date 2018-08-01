@@ -1,0 +1,258 @@
+[
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\downloadmanager_common_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\downloadmanager_common_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_main.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_main.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_setting_weather.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_setting_weather.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\shared_pop_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\shared_pop_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_submitopinion.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_submitopinion.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_widget_panda_4x2_content.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_widget_panda_4x2_content.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_day_weather_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_day_weather_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\activity_advert_sdk_browser.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\activity_advert_sdk_browser.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\maindock_celllayout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\maindock_celllayout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\recommend_banner_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\recommend_banner_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\myfile_photo_catgory_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\myfile_photo_catgory_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\notification.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\notification.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_time_select_pop.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_time_select_pop.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_widget_panda_4x2.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_widget_panda_4x2.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_view_checkbox_alert.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\dialog_view_checkbox_alert.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\framework_viewfactory_info_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\framework_viewfactory_info_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\downloadmanager_container.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\downloadmanager_container.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_twentyfourth.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_twentyfourth.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\preview_cell_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\preview_cell_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_single_select_pop.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_single_select_pop.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\framework_viewfactory_data_error.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\framework_viewfactory_data_error.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\widget_download_notify.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\widget_download_notify.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\file_browser_list.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\file_browser_list.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\preview_workspace.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\preview_workspace.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_city_weather_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_city_weather_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_edit_box_layout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\bottom_edit_box_layout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\file_browser_list_item_icon_text.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\file_browser_list_item_icon_text.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\common_dialog_layout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\common_dialog_layout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_setting.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_setting.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_setting_about.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_setting_about.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\file_browser_icon.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\file_browser_icon.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_warning_detail_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_warning_detail_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\mycleaner_memory_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\mycleaner_memory_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\customprogressdialog.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\customprogressdialog.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\single_btn_dialog_layout_v8.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\single_btn_dialog_layout_v8.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_widget_panda_4x1.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_widget_panda_4x1.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_add_city_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_add_city_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\framework_viewpager_tab_title_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\framework_viewpager_tab_title_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_city_grid_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_city_grid_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\widget_download_progress_notify.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\widget_download_progress_notify.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_drag_list_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_drag_list_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\single_btn_dialog_layout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\single_btn_dialog_layout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\myphone_iknow_dialog_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\myphone_iknow_dialog_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_common_dialog_layout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_common_dialog_layout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\preference_activity_title.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\preference_activity_title.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\preferences_checkbox.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\preferences_checkbox.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_setting_pm_source.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_setting_pm_source.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_widget_panda_4x1_content.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_widget_panda_4x1_content.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_calendar_guide.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_calendar_guide.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\myphone_common_time_picker.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\myphone_common_time_picker.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\widget_download_complete_notify.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\widget_download_complete_notify.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\shared_pop_main.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\shared_pop_main.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\myfile_photo_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\myfile_photo_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_seachlist_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_seachlist_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_foreign_country_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_foreign_country_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\common_dialog_layout_ex.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\common_dialog_layout_ex.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_suggest_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_suggest_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\apply_confirm_dialog_layout_v8.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\apply_confirm_dialog_layout_v8.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\framework_viewfactory_err_info_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\framework_viewfactory_err_info_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_widget_city_mgr.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_widget_city_mgr.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\integral_submit_layout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\integral_submit_layout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\weather_city_mgr.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\res\\layout\\weather_city_mgr.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\downloadmanager_list_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\layout\\downloadmanager_list_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\res\\merged\\debug\\layout\\appwidget_error.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\appwidget_error.xml"
+    }
+]

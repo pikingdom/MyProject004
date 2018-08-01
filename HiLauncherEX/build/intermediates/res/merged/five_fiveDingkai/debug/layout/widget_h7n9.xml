@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.widget.h7n9.H7N9Widget
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    
+    <com.nd.hilauncherdev.widget.common.WidgetCommonBackground4x2
+	    android:id="@+id/fakeInput" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="vertical" 
+		android:background="@drawable/widget_background4x2" >
+		<RelativeLayout 
+		    android:layout_width="match_parent"
+    		android:layout_height="match_parent">
+		    <LinearLayout android:id="@+id/topbar"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:layout_alignParentTop="true">
+		        <TextView android:id="@+id/txtTitle"
+		            android:layout_width="0dp" 
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:paddingLeft="10dip"
+		            android:layout_gravity="center_vertical"
+		            android:textColor="@color/black"
+		            android:textStyle="bold"
+		            android:text="@string/widget_h7n9_title"/>
+			        <ImageView android:id="@+id/btnMore"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginLeft="20dp"
+			            android:layout_marginTop="5dp"
+			            android:layout_marginBottom="5dp"
+			            android:layout_marginRight="12dp"
+			            android:layout_gravity="center_vertical"
+			        	android:src="@drawable/widget_h7n9_btn_more"/>
+    		</LinearLayout>
+		    <LinearLayout android:id="@+id/titlebar"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		       	android:layout_below="@id/topbar" 
+		       	android:background="@drawable/widget_h7n9_bottom_bg">
+		        <TextView android:id="@+id/titProvince"
+		            android:layout_height="wrap_content"
+		            android:layout_width="0dip"
+		            android:gravity="center"
+		            android:layout_weight="1"
+		            android:textColor="@color/black"
+		            />
+		        
+		        <TextView android:id="@+id/titDiagnostic"
+		            android:layout_height="wrap_content"
+		            android:layout_width="0dip"
+		            android:layout_weight="1"
+		            android:gravity="center"
+		            android:textSize="@dimen/myphone_item_little_text_size"
+		            android:text="@string/widget_h7n9_diagnostic"
+		            android:textColor="@color/black"/>
+		        
+		        <TextView android:id="@+id/titDeath"
+		            android:layout_height="wrap_content"
+		            android:layout_width="0dip"
+		            android:layout_weight="1"
+		            android:gravity="center"
+		            android:textSize="@dimen/myphone_item_little_text_size"
+		            android:text="@string/widget_h7n9_death"
+		            android:textColor="@color/black"/>
+		        
+		        <TextView android:id="@+id/titCure"
+		            android:layout_height="wrap_content"
+		            android:layout_width="0dip"
+		            android:layout_weight="1"
+		            android:gravity="center"
+		            android:textSize="@dimen/myphone_item_little_text_size"
+		            android:text="@string/widget_h7n9_cure"
+		            android:textColor="@color/black"/>
+		    </LinearLayout>
+    
+		    <LinearLayout
+		        android:id="@+id/bottomLayout"
+		       	android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentBottom="true"
+		        android:layout_centerHorizontal="true" 
+		        android:gravity="center"
+		        android:orientation="horizontal"
+		        android:background="@drawable/widget_h7n9_bottom_bg">
+		        <ImageView android:id="@+id/refreshImg"
+		            android:layout_width="18dip"
+		            android:layout_height="18dip"
+		            android:layout_marginRight="5dip"
+		            android:scaleType="fitXY"
+		            android:layout_gravity="center_vertical"
+		        	android:src="@drawable/widget_h7n9_btn_refresh"/>
+		       	<TextView android:id="@+id/btnRefresh"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/black"
+			        android:gravity="center"
+			        android:layout_gravity="center_vertical"
+			        android:paddingTop="5dp"
+			        android:paddingBottom="5dp"
+			        android:drawablePadding="5dp"
+			        android:text="@string/widget_h7n9_refresh"/>
+		    </LinearLayout>
+    
+		    <ListView android:id="@+id/listView"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_centerHorizontal = "true" 
+		        android:layout_below="@id/titlebar"
+		        android:layout_above="@id/bottomLayout"
+		        android:divider="@drawable/widget_h7n9_list_divider"
+		        />
+		</RelativeLayout>
+	</com.nd.hilauncherdev.widget.common.WidgetCommonBackground4x2>	
+</com.nd.hilauncherdev.widget.h7n9.H7N9Widget>

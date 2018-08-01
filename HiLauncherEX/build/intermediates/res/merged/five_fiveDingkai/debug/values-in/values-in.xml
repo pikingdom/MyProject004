@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="calendar_dynamic_icon_a_week">
+	    <item>Min.</item>
+	    <item>Sen.</item>
+	    <item>Sel.</item>
+	    <item>Rab.</item>
+	    <item>Kam.</item>
+	    <item>Jum.</item>
+	    <item>Sab.</item>
+	</string-array>
+    <string-array name="class_folder_name">
+        <item>Game</item>
+        <item>Pemain</item>
+        <item>Gemerlap</item>
+        <item>IM</item>
+        <item>Perjalanan</item>
+        <item>Membaca</item>
+        <item>Belanja</item>
+        <item>Gaya hidup</item>
+        <item>Produktivitas</item>
+        <item>Percantik</item>
+    </string-array>
+    <string-array name="cleaner_widget_bubble_tip_array">
+		<item>Ketuk di sini untuk melakukan trik~</item>
+		<item>Ponsel lelah. Bersihkan~~</item>
+		<item>Hei, ketuk saya. Gerakkan jarimu.</item>
+		<item>Saatnya membersihkan memori ponsel!</item>
+	</string-array>
+    <string-array name="cleaner_widget_clean_result_tip_array">
+		<item>Di-boost %1$s. Ponsel jadi lebih cepat dari cahaya!</item>
+		<item>Di-boost %1$s. Ponsel kini terasa seperti baru.</item>
+		<item>Di-boost %1$s. Sampah dan cache dibersihkan.</item>
+		<item>Di-boost %1$s. Pembersihan ponsel harus rutin~</item>
+	</string-array>
+    <string-array name="drawer_app_sort_rule">  
+        <item>Menurut abjad</item>
+        <item>Terakhir diinstal lebih dulu</item>
+        <item>Terlama diinstal lebih dulu</item>
+        <item>Paling sering digunakan lebih dulu</item>
+        <item>Paling jarang digunakan lebih dulu</item>
+    </string-array>
+    <string-array name="month_full">
+		<item>January</item>
+		<item>February</item>
+		<item>March</item>
+		<item>April</item>
+		<item>May</item>
+		<item>June</item>
+		<item>July</item>
+		<item>Aguest</item>
+		<item>September</item>
+		<item>October</item>
+		<item>November</item>
+		<item>December</item>
+	</string-array>
+    <string-array name="myphone_battery_intelligent_week">
+		<item>Min</item>
+		<item>Sen</item>
+		<item>Sel</item>
+		<item>Rab</item>
+		<item>Kam</item>
+		<item>Jum</item>
+		<item>Sab</item>
+	</string-array>
+    <string-array name="scene_select_dialog_operate_type_0">
+		<item>Pratinjau</item>
+		<item>Terapkan</item>
+		<item>Hapus</item>
+	  </string-array>
+    <string-array name="scene_select_dialog_operate_type_1">
+		<item>Pratinjau</item>
+		<item>Terapkan</item>
+	</string-array>
+    <string-array name="scene_select_dialog_operate_type_2">
+		<item>Terapkan</item>
+		<item>Hapus</item>
+	  </string-array>
+    <string-array name="scene_select_dialog_operate_type_3">
+		<item>Terapkan</item>
+	</string-array>
+    <string-array name="settings_common_effects_drawer_array">
+    	<item>Default</item>
+		<item>Acak</item>				
+		<item>Perkecil Tampilan</item>
+		<item>Perbesar Tampilan</item>
+		<item>Kincir Angin</item>
+		<item>TV</item>
+	</string-array>
+    <string-array name="settings_common_effects_drawer_scroll_array">
+		<item>Default</item>
+		<item>Acak</item>	
+		<item>Tumpuk</item>
+		<item>Gulung</item>
+		<item>Balik</item>
+		<item>Bandul</item>
+		<item>Kubus (Dalam)</item>
+		<item>Kubus (Luar)</item>
+		<item>Jendela</item>
+		<item>Tali</item>	
+		<item>Binary star</item>
+		<item>Kereta</item>
+		<item>Bulat</item>
+		<item>Silinder</item>
+		<item>Tornado</item>
+		<item>Roll scatter</item>
+		<item>Tai Ji</item>
+		<item>Ular</item>
+		<item>Lorong waktu</item>
+		<item>Pintu terbuka</item>
+		<item>Kemiringan</item>
+	</string-array>
+    <string-array name="settings_common_effects_screen_array">
+		<item>Default</item>
+		<item>Acak</item>	
+		<item>Tumpuk</item>
+		<item>Gulung</item>
+		<item>Balik</item>
+		<item>Bandul</item>
+		<item>Kubus (Dalam)</item>
+		<item>Kubus (Luar)</item>
+		<item>Jendela</item>
+		<item>Tali</item>	
+		<item>Binary star</item>
+		<item>Kereta</item>
+		<item>Bulat</item>
+		<item>Silinder</item>
+		<item>Tornado</item>
+		<item>Roll scatter</item>
+		<item>Tai Ji</item>
+		<item>Ular</item>
+		<item>Lorong waktu</item>
+		<item>Pintu terbuka</item>
+		<item>Kemiringan</item>
+	</string-array>
+    <string-array name="settings_launcher_countxy_array">
+		<item>4x4 (Standar)</item>
+		<item>5x4 (Lebih Kencang)</item>
+		<item>5x5 (Terkencang)</item>
+	</string-array>
+    <string-array name="settings_launcher_screen_countxy_array">
+		<item>4x4 (Standar)</item>
+		<item>5x4 (Lebih Kencang)</item>
+		<item>5x5 (Terkencang)</item>
+		<item>Kisi kustom</item>
+	</string-array>
+    <string-array name="settings_particle_effects_screen_array">
+	    <item>Tidak ada</item>	
+		<item>Kembang api 1</item>
+		<item>Kembang api 2</item>
+		<item>Ledakan</item>
+		<item>Balon</item>
+		<item>Bentuk hati</item>
+		<item>Cahaya bintang</item>
+		<item>Koin</item>
+		<item>Kupu-kupu</item>
+	</string-array>
+    <string-array name="settings_personal_double_gesture_menu_entities_down">
+    	<item>Nonaktifkan</item>
+    	<item>Aplikasi</item>
+    	<item>Pintasan %1$s</item>
+    	<item>Pintasan</item>
+    	<item>Tema pemandangan (Default)</item>
+    </string-array>
+    <string-array name="settings_personal_folder_style_array">
+   	    <item>Gaya iPhone</item>
+		<item>Gaya Android 4.0</item>
+		<item>Gaya Layar Penuh</item>	
+	</string-array>
+    <string-array name="settings_personal_gesture_menu_entities_down">
+    	<item>Nonaktifkan</item>
+    	<item>Aplikasi</item>
+    	<item>Pintasan %1$s</item>
+    	<item>Pintasan</item>
+    	<item>Panel pengaturan cepat (Default)</item>
+    </string-array>
+    <string-array name="settings_personal_gesture_menu_entities_up">
+    		<item>Nonaktifkan</item>
+    	<item>Aplikasi</item>
+    	<item>Pintasan %1$s</item>
+    	<item>Pintasan</item>
+    	<item>Cari (Default)</item>
+    </string-array>
+    <string-array name="suggestion_folder_name">
+		<item>Game</item>
+		<item>Sosial</item>
+		<item>Alat Bantu</item>
+		<item>Jaringan</item>
+		<item>Sistem</item>
+		<item>Bekerja</item>
+		<item>Harian</item>
+		<item>Jarang</item>
+	</string-array>
+    <string-array name="week_full">
+		<item>Minggu</item>
+		<item>Senin</item>
+		<item>Selasa</item>
+		<item>Rabu</item>
+		<item>Kamis</item>
+		<item>Jumat</item>
+		<item>Sabtu</item>
+	</string-array>
+    <string-array name="widget_variety_operate_custom_template">
+        <item>Hapus</item>
+    </string-array>
+    <item name="common_view_holder" type="id"/>
+    <item name="drager_controller_on_drag_exit_in_action_move" type="id"/>
+    <string msgid="3571057450431950427" name="activity_not_found">Tidak ada apl yang diinstal di ponsel Anda.</string>
+    <string name="alarmClock_not_find">Jam alarm tidak ditemukan</string>
+    <string name="alarm_pattern">Mode alarm</string>
+    <string name="alarm_pattern_desc">Hanya mengaktifkan Alarm</string>
+    <string name="all_apps_loading_message">"Memuat Aplikasi..."</string>
+    <string name="all_apps_no_search_results">"Tidak ditemukan Aplikasi yang cocok dengan \"%1$s\""</string>
+    <string name="all_apps_search_bar_hint">"Telusuri Aplikasi..."</string>
+    <string name="all_apps_search_market_message">"Buka %1$s"</string>
+    <string name="alwaysUsePrompt">Jadikan default. Jangan ingatkan saya lagi.</string>
+    <string name="app_assort_tip">Otomatis klasifikasikan aplikasi</string>
+    <string name="app_choose_tab_app">Aplikasi</string>
+    <string name="app_choose_tab_shortcut">Pintasan %1$s</string>
+    <string name="app_choose_title">Tambahkan Aplikasi</string>
+    <string name="application_old_name">91PandaHome</string>
+    <string name="apply_theme">Terapkan</string>
+    <string name="apply_theme_msg">Menerapkan tema...</string>
+    <string name="appmanager_title">Manajer Aplikasi</string>
+    <string name="assort_now">Mulai</string>
+    <string name="barencode_contents_contact">Kontak</string>
+    <string name="barencode_contents_email">Email</string>
+    <string name="barencode_contents_location">Lokasi</string>
+    <string name="barencode_contents_phone">Nomor telepon</string>
+    <string name="barencode_contents_sms">Alamat teks</string>
+    <string name="barencode_contents_text">Teks</string>
+    <string name="battery_app_isrunning">Berjalan</string>
+    <string name="battery_app_stop">Dihentikan</string>
+    <string name="battery_begin_time">Waktu mulai</string>
+    <string name="battery_end_time">Waktu selesai</string>
+    <string name="battery_hardware_bluetooth">Bluetooth</string>
+    <string name="battery_hardware_cpu">CPU</string>
+    <string name="battery_hardware_gprs">Data seluler</string>
+    <string name="battery_hardware_phone">Panggilan</string>
+    <string name="battery_hardware_power_rank">Perangkat keras</string>
+    <string name="battery_hardware_screen">Tampilan</string>
+    <string name="battery_hardware_wifi">Wi-Fi</string>
+    <string name="battery_health">Kondisi kesehatan</string>
+    <string name="battery_health_dead">Daya baterai habis</string>
+    <string name="battery_health_good">Kesehatan baik</string>
+    <string name="battery_health_over_voltage">Pengisian daya berlebih</string>
+    <string name="battery_health_overheat">Terlalu panas</string>
+    <string name="battery_health_unknown">Kesehatan tidak diketahui</string>
+    <string name="battery_history_cpu_fore_time">Waktu CPU (latar depan)</string>
+    <string name="battery_history_cpu_time">Waktu CPU</string>
+    <string name="battery_history_data_rx">Download data</string>
+    <string name="battery_history_data_tx">Upload data</string>
+    <string name="battery_history_days">"%1$d hari %2$d j"</string>
+    <string name="battery_history_hours">"%1$d j %2$d m"</string>
+    <string name="battery_history_mem_size">Ukuran memori</string>
+    <string name="battery_history_millseconds">"%1$d mdtk"</string>
+    <string name="battery_history_minutes">"%1$d m %2$d d"</string>
+    <string name="battery_history_seconds">"%1$d d %2$d mdtk"</string>
+    <string name="battery_history_sensor_time">Waktu sensor</string>
+    <string name="battery_history_wakelock_count">Cegah waktu tidur sistem</string>
+    <string name="battery_history_wakelock_time">Cegah waktu tidur sistem</string>
+    <string name="battery_history_wakelock_unit">waktu</string>
+    <string name="battery_mode_name">Nama mode:</string>
+    <string name="battery_repeat">Ulangi atau tidak </string>
+    <string name="battery_repeat_no">Mati</string>
+    <string name="battery_save_tip1">Status terbaik. Coba lagi nanti.</string>
+    <string name="battery_save_tip2">%1$s aplikasi telah ditutup untuk menghemat daya.</string>
+    <string name="battery_software_power_rank">Aplikasi</string>
+    <string name="battery_technology">Jenis baterai</string>
+    <string name="battery_temperature">Suhu baterai</string>
+    <string name="battery_usetime_2dgame">Game 2D</string>
+    <string name="battery_usetime_2gtel">Panggilan 2G</string>
+    <string name="battery_usetime_3dgame">Game 3D</string>
+    <string name="battery_usetime_3gtel">Panggilan 3G</string>
+    <string name="battery_usetime_bluetooth">Bluetooth</string>
+    <string name="battery_usetime_camera">Kamera</string>
+    <string name="battery_usetime_default">Masa pakai baterai</string>
+    <string name="battery_usetime_gprs">Jaringan 3G</string>
+    <string name="battery_usetime_gps">GPS</string>
+    <string name="battery_usetime_movie">Pemutar video</string>
+    <string name="battery_usetime_music">Pemutar musik</string>
+    <string name="battery_usetime_onlinemovie">Video online</string>
+    <string name="battery_usetime_read">Membaca</string>
+    <string name="battery_usetime_videorec">Perekam video</string>
+    <string name="battery_usetime_voicerec">Perekam suara</string>
+    <string name="battery_usetime_wifi">Wi-Fi</string>
+    <string name="battery_voltage">Tegangan baterai</string>
+    <string name="beautify_phone_wallpaper">Wallpaper</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="brightness">Lampu latar</string>
+    <string name="can_use_time">Masa pakai baterai</string>
+    <string name="change_mode_suc">Mode diubah!</string>
+    <string name="change_mode_tip">Ubah mode ke %1$s?</string>
+    <string name="charging_saver_battery_info_remaining_charging_time">"Sisa waktu pengisian daya: "</string>
+    <string name="charging_saver_close_dialog_tip">Menonaktifkan Layar Kunci Pengisian Daya dapat memperpanjang waktu siaga. Nonaktifkan?</string>
+    <string name="charging_saver_common_time_hour">j</string>
+    <string name="charging_saver_common_time_minute">m</string>
+    <string name="charging_saver_screen_slide_to_enter">Geser untuk membuka kunci>>></string>
+    <string name="charging_saver_type_average">Terus-menerus</string>
+    <string name="charging_saver_type_fast">Kecepatan</string>
+    <string name="charging_saver_type_slowly">Perlahan</string>
+    <string name="charging_saver_under_charging">Dalam Hemat Pengisian Daya</string>
+    <string name="charging_time">Pengisian daya</string>
+    <string name="classify_app_in_app">Nikmati fitur Folder Otomatis di laci Aplikasi</string>
+    <string name="classify_autotidy_category_other_folder">Lainnya</string>
+    <string name="classify_autotidy_category_shortcut_folder">Pintasan</string>
+    <string name="classify_autotidy_category_system_folder">Aplikasi Sistem</string>
+    <string name="classify_autotidy_category_tool_folder">Alat bantu</string>
+    <string name="classify_rollback_cancel">Batal</string>
+    <string name="classify_rollback_ok">OK</string>
+    <string name="close_airplane_mode">Mode pesawat dinonaktifkan</string>
+    <string name="com.nd.android.widget.pandahome.flashlight">15</string>
+    <string name="com.nd.android.widget.pandahome.ionekeyoffscreen">1</string>
+    <string name="com.nd.shortcut.shortcutslot">5</string>
+    <string name="com_nd_android_anyshare_version">1</string>
+    <string name="common_alert">Perhatikan</string>
+    <string name="common_button_add">Baru</string>
+    <string name="common_button_addto">Tambah</string>
+    <string name="common_button_apply">Terapkan</string>
+    <string name="common_button_back_to_home">Beranda</string>
+    <string name="common_button_cancel">Batal</string>
+    <string name="common_button_clear">Bersihkan</string>
+    <string name="common_button_close">Tutup</string>
+    <string name="common_button_closed">Nonaktifkan</string>
+    <string name="common_button_commit">Kirim</string>
+    <string name="common_button_complate">Selesaikan</string>
+    <string name="common_button_confirm">OK</string>
+    <string name="common_button_continue">Lanjut</string>
+    <string name="common_button_default">Default</string>
+    <string name="common_button_delete">Hapus</string>
+    <string name="common_button_discard">Buang</string>
+    <string name="common_button_download">Download</string>
+    <string name="common_button_download_more">Download Lainnya</string>
+    <string name="common_button_download_skin">Download Skin</string>
+    <string name="common_button_downloading">Men-download</string>
+    <string name="common_button_edit">Edit</string>
+    <string name="common_button_editable">Edit</string>
+    <string name="common_button_enabled">Aktifkan</string>
+    <string name="common_button_enter">Mulai</string>
+    <string name="common_button_i_know">OK</string>
+    <string name="common_button_ignore">Abaikan</string>
+    <string name="common_button_install">Instal</string>
+    <string name="common_button_manager">Manajer</string>
+    <string name="common_button_modify">Ubah</string>
+    <string name="common_button_no">Tidak</string>
+    <string name="common_button_open">Buka</string>
+    <string name="common_button_open_now">Aktifkan sekarang</string>
+    <string name="common_button_preview">Pratinjau</string>
+    <string name="common_button_recover">Pulihkan</string>
+    <string name="common_button_redownload">Download lagi</string>
+    <string name="common_button_refresh">Segarkan</string>
+    <string name="common_button_restart_now">Mulai ulang sekarang</string>
+    <string name="common_button_return">Kembali</string>
+    <string name="common_button_save">Simpan</string>
+    <string name="common_button_search">Cari</string>
+    <string name="common_button_set">Setelan</string>
+    <string name="common_button_share">Bagikan</string>
+    <string name="common_button_uninstall">Uninstal</string>
+    <string name="common_button_update">Perbarui</string>
+    <string name="common_button_use">Aktifkan</string>
+    <string name="common_button_use_now">Gunakan sekarang</string>
+    <string name="common_button_used">Diaktifkan</string>
+    <string name="common_button_view_detail">Detail</string>
+    <string name="common_button_yes">Ya</string>
+    <string name="common_checkbox_not_alert">Jangan tampilkan lagi</string>
+    <string name="common_download_ended">Di-download</string>
+    <string name="common_download_failed">Download gagal</string>
+    <string name="common_download_now">Download Sekarang</string>
+    <string name="common_download_success">Download berhasil</string>
+    <string name="common_downloading">Men-download...</string>
+    <string name="common_install_now">Instal Sekarang</string>
+    <string name="common_installed">Diinstal</string>
+    <string name="common_loading">Memuat...</string>
+    <string name="common_refresh">Segarkan</string>
+    <string name="common_refresh_failed">Penyegaran gagal</string>
+    <string name="common_tip">Kiat</string>
+    <string name="common_uninstalled">Belum diinstal</string>
+    <string name="custom_rows_cols">Sesuaikan baris dan kolom</string>
+    <string name="default_set_controller_select_pic">Pilih ikon</string>
+    <string name="delete_theme">Hapus</string>
+    <string name="delete_theme_msg">Anda ingin menghapusnya?</string>
+    <string name="delete_tip_4_dynamic_foler">Item yang dipilih akan dihapus. Ketuk \Menu > Tambah> %1$s > %2$s\ untuk menambahkannya ke layar beranda.</string>
+    <string name="dockbar_allow">Tidak dapat menyeret Bilah Dok</string>
+    <string name="dockbar_always_use">"Gunakan secara default untuk tindakan ini"</string>
+    <string name="dockbar_dock_browser">Browser</string>
+    <string name="dockbar_dock_contacts">Kontak</string>
+    <string name="dockbar_dock_dial">Panggil nomor</string>
+    <string name="dockbar_dock_drawer">Aplikasi</string>
+    <string name="dockbar_dock_sms">Pesan</string>
+    <string name="dockbar_no_permission">Tidak ada izin</string>
+    <string name="dockbar_null_intent">Data abnormal</string>
+    <string name="dockbar_tips_reset_default_app">Atur ulang default untuk tindakan ini melalui\"&lt;font color="#1e83de">Preferensi&lt;/font>\">\"&lt;font color="#1e83de">Aksesibilitas&lt;/font>\">\"Manajer Aplikasi Default\"</string>
+    <string name="dockbar_which_app">"Selesaikan tindakan menggunakan"</string>
+    <string name="drawer_all_apps">Aplikasi</string>
+    <string name="drawer_apps_not_init_tips">Inisialisasi selesai. Coba lagi nanti</string>
+    <string name="drawer_backup_app">Cadangan</string>
+    <string name="drawer_backup_app_not_support">Hanya mendukung cadangan aplikasi</string>
+    <string name="drawer_before_download_widget_tip">%1$sMen-download. Periksa progres pada baris status</string>
+    <string name="drawer_common_download">Download</string>
+    <string name="drawer_delete_dialog_message">Menghapus...</string>
+    <string name="drawer_delete_encript_folder_tips">Semua aplikasi akan kembali ke kotak Aplikasi setelah folder dihapus.</string>
+    <string name="drawer_delete_folder_tips">Setelah menghapus, masukkan kembali aplikasi dalam folder pada daftar</string>
+    <string name="drawer_delete_folder_tips_title">Hapus folder</string>
+    <string name="drawer_delete_not_found_app_tips">Aplikasi tidak ditemukan. Hapus sekarang?</string>
+    <string name="drawer_delete_not_found_app_tips_title">Peringatan penghapusan</string>
+    <string name="drawer_download_widget_tip">Men-download sekarang %1$s?</string>
+    <string name="drawer_menu_auto_app_classify">Folder Otomatis</string>
+    <string name="drawer_menu_classify_wait">Memproses. Tunggu...</string>
+    <string name="drawer_menu_hide_app">Sembunyikan aplikasi</string>
+    <string name="drawer_menu_icon_sort">Pengurutan</string>
+    <string name="drawer_menu_new_folder">Folder baru</string>
+    <string name="drawer_menu_settings">Pengaturan</string>
+    <string name="drawer_menu_sort_mode">Mode pengurutan</string>
+    <string name="drawer_multi_choose_folder_unavailable_tips">Folder tidak tersedia dalam mode beberapa pilihan</string>
+    <string name="drawer_multi_choose_reached_limit_tips">Jumlah beberapa pilihan telah mencapai batas maksimum</string>
+    <string name="drawer_my_phone">Manajer</string>
+    <string name="drawer_new_folder_failed_tips">Gagal membuat folder baru</string>
+    <string name="drawer_not_found_app_tips">Aplikasi tidak ditemukan</string>
+    <string name="drawer_not_found_focused_item_tips">Maaf, widget tidak ditemukan. Cari lagi?</string>
+    <string name="drawer_not_found_widget_tips">Widget tidak ditemukan. Instal terlebih dulu</string>
+    <string name="drawer_shortcut_contact">Kontak</string>
+    <string name="drawer_show_app_details">Rincian</string>
+    <string name="drawer_show_app_details_not_support">Tidak dapat melihat rincian folder</string>
+    <string name="drawer_tools_btn_click_tips">Tekan terus, lalu tarik ikon ke sini</string>
+    <string name="drawer_widget_click_ready_tips">Widget diaktifkan</string>
+    <string name="drawer_widget_click_tips">Tekan terus widget untuk menambahkannya ke layar Beranda</string>
+    <string name="drawer_widget_system_widget">Widget sistem</string>
+    <string name="drawer_widgets">Widget</string>
+    <string name="edit_lock_toast_lock">Fitur edit dikunci</string>
+    <string name="edit_view_theme_individuation">Tema khusus</string>
+    <string name="editor_disable_filter">Tidak ada</string>
+    <string name="editor_filter_cancel">Batal</string>
+    <string name="editor_filter_htcone_no_roll">Ponsel ini tidak mendukung rol wallpaper</string>
+    <string name="editor_filter_no_wallpaper">Wallpaper gagal. Coba lagi nanti.</string>
+    <string name="editor_filter_ok">OK</string>
+    <string name="editor_filter_rotate">Putar</string>
+    <string name="editor_more_filter">Selengkapnya</string>
+    <string name="error_pick_contact">Tidak ada kontak yang dipilih. Pilih kembali</string>
+    <string name="file_browser_dialog_file_select">Pilih file</string>
+    <string name="filter_apply_success">Terapkan filter agar berhasil</string>
+    <string name="folder_91shortcut">Pintasan %1$s</string>
+    <string name="folder_Favorites">Favorit</string>
+    <string name="folder_Media">Media</string>
+    <string name="folder_Productivity">Produktivitas</string>
+    <string name="folder_drag_out_error">Ruang di layar ini tidak memadai. Tambahkan ke layar lain.</string>
+    <string name="folder_encript_clear_pwd_msg">Sandi akan dihapus.</string>
+    <string name="folder_encript_entrance_hint">Masukkan sandi</string>
+    <string name="folder_encript_entrance_pwd_wrong">Sandi salah</string>
+    <string name="folder_encript_entrance_title">Masukkan sandi</string>
+    <string name="folder_encript_setting">Buat sandi</string>
+    <string name="folder_encript_setting_hint_confirm_pwd">Masukkan kembali</string>
+    <string name="folder_encript_setting_hint_enter_pwd">Lebih dari 4 digit</string>
+    <string name="folder_encript_setting_hint_enter_pwd_for_low">Atur lebih dari 4</string>
+    <string name="folder_encript_setting_pwd_diff">Sandi tidak cocok</string>
+    <string name="folder_encript_setting_pwd_failed">Gagal</string>
+    <string name="folder_encript_setting_pwd_illegal">Sandi harus berisi huruf, angka, dan garis bawah</string>
+    <string name="folder_encript_setting_pwd_null">Isi bidang sandi</string>
+    <string name="folder_encript_setting_pwd_success">Berhasil</string>
+    <string name="folder_encript_setting_pwd_too_short">Sandi harus terdiri atas minimal 4 karakter</string>
+    <string name="folder_encript_type_choose_none">Tidak ada</string>
+    <string name="folder_encript_type_choose_pwd">Sandi</string>
+    <string name="folder_encript_type_choose_title">Enkripsi</string>
+    <string name="folder_encript_view_msg">Dienkripsi. Hapus file?</string>
+    <string name="folder_kitset">Alat bantu</string>
+    <string name="folder_name">Folder</string>
+    <string name="folder_name_suggestion">Nama yang disarankan:</string>
+    <string name="folder_recent">Buka Cepat</string>
+    <string name="folder_recent_installed">Baru diinstal</string>
+    <string name="folder_recent_running">Aplikasi terbaru</string>
+    <string name="folder_recent_running_empty">Tidak ada rekaman</string>
+    <string name="folder_recommend">Rekomendasi</string>
+    <string name="folder_recommend_hot_app_tip">Aplikasi terpopuler</string>
+    <string name="frame_viewfacotry_data_load_text">Pemuatan sangat lambat</string>
+    <string name="frame_viewfacotry_download_null">Tidak ada apa pun di sini. Tambahkan konten sekarang!</string>
+    <string name="frame_viewfacotry_err_info_text">Kesalahan!</string>
+    <string name="frame_viewfacotry_net_break_btn">Buka Setelan</string>
+    <string name="frame_viewfacotry_net_break_text">Download gagal. Sakelar jaringan tidak diaktifkan.</string>
+    <string name="frame_viewfacotry_net_slowly_reflesh_btn">Segarkan</string>
+    <string name="frame_viewfacotry_net_slowly_text">Download gagal. Ada yang salah dengan koneksi jaringan.</string>
+    <string name="frame_viewfacotry_search_null">Tidak ada konten yang relevan. Coba yang lainnya.</string>
+    <string name="frame_viewfacotry_show_netsetting_err">Buka Setelan Jaringan gagal</string>
+    <string name="frame_viewfactory_cancle">Batal</string>
+    <string name="frame_viewfactory_del_error_widget_1">Masalah Layar Beranda dapat mengganggu penggunaan normal. Maaf atas ketidaknyamanan ini. Anda dapat memilih Atur ulang pada setelan awal untuk memperbaiki masalah ini. Pulihkan setelan awal sekarang?</string>
+    <string name="frame_viewfactory_del_error_widget_2">Setelah diatur ulang, widget di Layar Beranda akan dihapus untuk memastikan Anda dapat menggunakan Layar Beranda secara normal. Apakah Anda ingin melanjutkan atur ulang?</string>
+    <string name="frame_viewfactory_dialog_title">Kiat beranda</string>
+    <string name="frame_viewfactory_err_content_downgrade">Ponsel Anda tidak mendukung penurunan versi APL. Atur ulang Layar Beranda untuk memperbaiki masalah.</string>
+    <string name="frame_viewfactory_err_content_text">Maaf. Kesalahan! Kami perlu tanggapan Anda untuk membantu kami memperbaiki masalah secepatnya. Yakinlah bahwa kami hanya mengumpulkan informasi kesalahan. Kami tidak akan mengumpulkan informasi pribadi Anda.</string>
+    <string name="frame_viewfactory_err_content_text_widget">Widget %1$s mengalami sedikit masalah. Kami akan menghapusnya dari Layar Beranda dan memulai ulang. Jika perlu menggunakannya lagi, Anda bisa menemukannya di Daftar Widget -> Widget.</string>
+    <string name="frame_viewfactory_err_content_upgrade">Maaf! Layar Beranda mengalami sedikit masalah! Belajarlah dari pemrogram berpengalaman: pembaruan ke versi terbaru bisa memperbaikinya. Ayo, coba saja!</string>
+    <string name="frame_viewfactory_err_title">Kesalahan!</string>
+    <string name="frame_viewfactory_next_time">Tanya saya lain kali</string>
+    <string name="frame_viewfactory_restore">Atur ulang</string>
+    <string name="frame_viewfactory_send_failed">Ponsel Anda tidak memiliki akun Gmail terikat. Pesan tidak dapat dikirim.</string>
+    <string name="frame_viewfactory_tell_us">Beri tahu kami</string>
+    <string name="frame_viewfactory_upgrade_now">Perbarui sekarang</string>
+    <string msgid="8359351016167075858" name="gadget_error_text">Ada masalah saat pemuatan widget</string>
+    <string name="gprs">Data seluler</string>
+    <string name="group_applications">Aplikasi</string>
+    <string name="haptic_feedback">Tanggapan sentuh</string>
+    <string name="hint_download_widget_msg">Download %1$s?</string>
+    <string name="hint_download_widget_title">Tips</string>
+    <string name="hint_install_flashlight">Instal Senter</string>
+    <string name="hint_install_flashlight_msg">Widget praktis yang memberikan kemudahan!</string>
+    <string name="hint_install_screenoff">Layar Penginstalan Mati</string>
+    <string name="hint_install_screenoff_msg">ScreenOff untuk menghemat daya.\nInstal sekarang?</string>
+    <string name="hint_install_zxing_scan">Instal</string>
+    <string name="hint_install_zxing_scan_msg">Anda ingin menginstal pemindai kode QR sekarang?</string>
+    <string name="hint_sdcard_available">Kartu SD dimuat. Ikon Layar Beranda akan disegarkan sekarang.</string>
+    <string name="hint_sdcard_unavailable">Kartu SD tidak tersedia</string>
+    <string name="hint_sdcard_unavailable_msg">Kartu SD tidak tersedia. Gagal memuat</string>
+    <string name="icon_repalce_left_title">Ganti</string>
+    <string name="icon_repalce_more_module_icon">Ikon modul lainnya</string>
+    <string name="icon_repalce_more_theme_icon">Ikon tema lainnya</string>
+    <string name="icon_repalce_select_gallery_icon_title">Gambar</string>
+    <string name="icon_repalce_select_module_icon_title">Ikon lokal</string>
+    <string name="icon_repalce_select_theme_icon_title">Ikon tema</string>
+    <string name="icon_replace_btn_reset_default">Atur ulang</string>
+    <string name="icon_replace_default_icon">(Default)</string>
+    <string name="impor_exist_theme_dialog_title">Impor tema</string>
+    <string name="import_exist_theme_completed">Tema telah diimpor</string>
+    <string name="import_exist_theme_dialog">Anda telah men-download tema di perangkat. Anda ingin mengimpornya?</string>
+    <string name="import_exist_theme_dialog_ing">Mengimpor tema...</string>
+    <string name="install_fail">Gagal menginstal paket tema</string>
+    <string name="install_nosupport">File tidak ada atau format file tidak mendukung.</string>
+    <string name="install_success">Paket tema diinstal.</string>
+    <string name="install_ticker">Menginstal tema %1$s</string>
+    <string name="install_title">Menginstal tema %1$s</string>
+    <string name="large_icon_size">Besar</string>
+    <string name="latest_classify_result">Tata letak aktif adalah yang terbaru.</string>
+    <string name="launcher_about_upgrade_error">Kesalahan saat pembaruan. Coba lagi nanti.</string>
+    <string name="launcher_about_upgrade_lastest">Anda kini menggunakan versi terbaru</string>
+    <string name="launcher_about_upgrade_loadingview_message">Memeriksa versi baru. Tunggu...</string>
+    <string name="launcher_about_upgrade_network_error">Jaringan tidak tersedia. Periksa sambungan, lalu coba perbarui lagi.</string>
+    <string name="launcher_about_upgrade_popwin_btn_download">Download</string>
+    <string name="launcher_about_upgrade_popwin_check_update">Pembaruan</string>
+    <string name="launcher_about_upgrade_popwin_enjoy">Gunakan Sekarang</string>
+    <string name="launcher_about_upgrade_popwin_intro">%1$s telah merilis V%2$s. Versi ini lebih lancar dan jauh lebih keren. Segera perbarui!</string>
+    <string name="launcher_about_upgrade_popwin_intro_new">%1$s telah diperbarui menjadi %2$s. Versi ini lebih lancar dan jauh lebih keren. Segera perbarui!</string>
+    <string name="launcher_about_upgrade_popwin_title_product">Aplikasi Hebat</string>
+    <string name="launcher_about_upgrade_popwin_title_update">Terdeteksi versi baru</string>
+    <string name="launcher_about_upgrade_request_limit">Coba perbarui nanti.</string>
+    <string name="launcher_edit_add_app">Aplikasi</string>
+    <string name="launcher_edit_add_panda_shortcut">Pintasan</string>
+    <string name="launcher_edit_add_shortcut_widget">Widget_Shortcut</string>
+    <string name="launcher_edit_add_system_shortcut">Pintasan</string>
+    <string name="launcher_edit_effect">Efek</string>
+    <string name="launcher_edit_effect_switch_tips">Efek transisi: %1$s</string>
+    <string name="launcher_edit_individal">Kepribadian</string>
+    <string name="launcher_edit_particle_effect">Ketuk efek</string>
+    <string name="launcher_edit_quick_beautify">Percantik Cepat</string>
+    <string name="launcher_edit_show_more">Tampilkan selengkapnya</string>
+    <string name="launcher_edit_slide_effect">Efek transisi</string>
+    <string name="launcher_edit_tab_drawer_effect">Daftar</string>
+    <string name="launcher_edit_tab_drawer_inout_effect">Daftar Masuk/Keluar</string>
+    <string name="launcher_edit_tab_particle_effect">Ujung jari</string>
+    <string name="launcher_edit_tab_screen_effect">Desktop</string>
+    <string name="launcher_edit_theme">Tema</string>
+    <string name="launcher_edit_wallpaper">Wallpaper</string>
+    <string name="launcher_edit_wallpaper_filter">Filter</string>
+    <string name="launcher_edit_wallpaper_gallery">Galeri</string>
+    <string name="launcher_edit_wallpaper_individuation">Wallpaper khusus</string>
+    <string name="launcher_edit_widget_top_add">%1$s Widgets</string>
+    <string name="launcher_icon_recommend_mobo_desc">Kurangi lalu lintas data hingga 80%1$s;Kosongkan memori hingga 26%1$s;Hemat 20%1$s daya baterai;Instal sekarang juga!</string>
+    <string name="launcher_readme_setdefault_launcher_btn">Ayo!</string>
+    <string name="launcher_readme_setdefault_launcher_tip">Atur %1$s sebagai peluncur default. Telusuri berbagai tema dan wallpaper.</string>
+    <string name="launcher_search_advance_local_app">Aplikasi</string>
+    <string name="launcher_search_advance_local_audio">Audio</string>
+    <string name="launcher_search_advance_local_contact">Kontak</string>
+    <string name="launcher_search_advance_local_image">Gambar</string>
+    <string name="launcher_search_advance_local_sms">Pesan</string>
+    <string name="launcher_search_advance_local_vedio">Video</string>
+    <string name="launcher_search_at_internet">Cari online untuk %1$s</string>
+    <string name="launcher_search_at_market">Buka App Store untuk mencari %1$s</string>
+    <string name="launcher_search_check_network">Periksa jaringan</string>
+    <string name="launcher_search_editview_hint">Aplikasi, Kontak, URL, Teks</string>
+    <string name="launcher_search_history_delete_dialog_title">Riwayat pencarian</string>
+    <string name="launcher_search_history_delete_item">Hapus semua</string>
+    <string name="launcher_search_hotword_change">POPULER</string>
+    <string name="launcher_search_local_data_null">Tidak ada hasil lokal. Buka pencarian online~</string>
+    <string name="launcher_search_local_more">Konten lokal lainnya</string>
+    <string name="launcher_search_local_more_label">Lihat lainnya</string>
+    <string name="launcher_search_popular_scan_record_dialog_msg">Anda yakin ingin menghapus semua rekaman?</string>
+    <string name="launcher_search_topuse_title">Paling banyak digunakan</string>
+    <string name="launcher_search_web_pop_browser">Buka dengan browser</string>
+    <string name="launcher_setting_charging_saver">Hemat Pengisian Daya</string>
+    <string name="launcher_setting_charging_saver_enable_title">Kunci layar saat mengisi daya</string>
+    <string name="launcher_setting_score_go_text">Nilai</string>
+    <string name="launcher_settings_navigation">Layar Pencarian Cepat</string>
+    <string name="launcher_settings_navigation_backkey_change_summary">Ketuk untuk mengalihkan layar default dengan Layar Pencarian Cepat</string>
+    <string name="launcher_settings_navigation_backkey_change_title">Alihkan Kembali</string>
+    <string name="launcher_settings_navigation_open_title">Aktifkan Layar Pencarian Cepat</string>
+    <string name="launcher_settings_score">Beri kami nilai</string>
+    <string name="launcher_settings_score_intro">%1$s telah Anda gunakan selama beberapa waktu. Beri kami nilai. Kami akan berusaha lebih baik!</string>
+    <string name="launcher_share_barencode">Pindai Kode QR untuk penginstalan gratis!</string>
+    <string name="launcher_share_centent">Lihat desktop saya yang mengagumkan. Anda suka? Tersedia beragam pilihan tema menarik dan widget praktis di %1$s. Anda ingin mencobanya? Link download:%2$s</string>
+    <string name="launcher_share_drawing">Membuat gambar</string>
+    <string name="launcher_share_generating_thumn">Melihat pratinjau...</string>
+    <string name="launcher_share_hint">Pilih gambar layar yang akan dibagikan (maksimal 3 gambar layar).</string>
+    <string name="launcher_share_max_count_hint">Anda dapat memilih maksimal 3 gambar layar.</string>
+    <string name="launcher_share_save_fail">Gagal menyimpan gambar layar. Coba lagi.</string>
+    <string name="launcher_share_save_success">Gambar layar disimpan di:%1$s</string>
+    <string name="launcher_share_selected_hint">Pilih minimal 1 gambar.</string>
+    <string name="launcher_share_share_fail">Kesalahan. Coba lagi.</string>
+    <string name="launcher_share_title">Bagikan %1$s</string>
+    <string name="launcher_widget_weather_clock">Cuaca &amp; Jam</string>
+    <string name="main_dock_home_settings">Preferensi</string>
+    <string name="main_dock_icon_mask">Ikon mask</string>
+    <string name="main_dock_icon_mask_disabled">Mask ikon dinonaktifkan</string>
+    <string name="main_dock_icon_mask_enabled">Mask ikon diaktifkan</string>
+    <string name="main_dock_icon_mask_switch_success">%1$s mask ikon</string>
+    <string name="main_dock_icon_mask_unsupport">Tema default tidak mendukung fitur ini</string>
+    <string name="main_dock_notification_bar">Notifikasi</string>
+    <string name="main_dock_notification_disable_hint">Bilah Alat Notifikasi ditutup. Buka dulu Bilah Alat Notifikasi.</string>
+    <string name="main_dock_notification_name">StatusBar</string>
+    <string name="main_dock_notification_name_disabled">Notifikasi dinonaktifkan</string>
+    <string name="main_dock_notification_name_enabled">Notifikasi diaktifkan</string>
+    <string name="main_dock_screen_preview">Pratinjau</string>
+    <string name="main_dock_title_select_panda_shortcut">Pilih pintasan %1$s</string>
+    <string name="main_dock_transition_effect">Efek</string>
+    <string name="main_dock_wallpaper_move_success">Wallpaper bergeser ke %1$s</string>
+    <string name="mask_no_mask">Tidak Ada Mask</string>
+    <string name="mask_preview_title">Pratinjau Mask:%s</string>
+    <string name="meduim_icon_size">Sedang</string>
+    <string name="meeting_pattern">Mode konferensi</string>
+    <string name="meeting_pattern_desc">Aktifkan mode Diam</string>
+    <string name="memory_cleaner">Booster RAM</string>
+    <string name="menu_fir_fir_text">Tambah</string>
+    <string name="menu_fir_five_text">Mengedit</string>
+    <string name="menu_fir_seven_text">Preferensi</string>
+    <string name="menu_fir_six_text">Pengaturan</string>
+    <string name="menu_item_add_app">Tambahkan Aplikasi</string>
+    <string name="menu_item_add_widget">Tambahkan Widget</string>
+    <string name="menu_item_change_effect">Efek</string>
+    <string name="menu_item_change_theme">Tema</string>
+    <string name="menu_item_change_wallpaper">Wallpaper</string>
+    <string name="menu_sec_five_text">Bagikan</string>
+    <string name="menu_sec_one_key_reboot">Jalankan reboot</string>
+    <string name="menu_sec_one_key_reboot_sec">Ponsel akan menjalankan reboot.</string>
+    <string name="menu_sec_one_key_restart_tip">Gagal menjalankan reboot ponsel. Fitur ini hanya untuk ponsel yang di-root.</string>
+    <string name="menu_sec_one_key_screenshot">Gambar layar</string>
+    <string name="menu_sec_one_key_screenshot_sec">Gambar layar akan diambil dalam 5 detik.</string>
+    <string name="menu_sec_one_key_screenshot_tip">Gagal mengambil gambar layar. Fitur ini hanya untuk ponsel yang di-root.</string>
+    <string name="menu_sec_one_key_screenshot_tip_faile">Fitur ini tidak tersedia untuk ponsel Anda.</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot1">Penggunaan fitur ini memerlukan hak istimewa root. Dapatkan izin root.</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot_button1">Coba terus</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot_button2">Tutup</string>
+    <string name="menu_sec_one_key_screenshot_tip_noroot_tips">Jika fungsi gambar layar belum diaktifkan dengan mengklik dua kali gambar layar, lakukan root pada ponsel</string>
+    <string name="menu_sec_one_key_screenshot_tip_root_fail_screenshot">Ponsel belum di-root atau tidak di-root seluruhnya. Lakukan root kembali!</string>
+    <string name="menu_sec_one_key_screenshot_tip_save1">Gambar layar disimpan di</string>
+    <string name="menu_sec_one_key_screenshot_tip_save2">katalog</string>
+    <string name="menu_sec_one_key_screenshot_tip_success">Gambar layar telah disimpan ke album.</string>
+    <string name="menu_sec_one_key_screenshot_tip_success_notification_summary">Ketuk Galeri untuk melihat gambar layar.</string>
+    <string name="menu_sec_one_key_screenshot_tip_success_notification_title">Gambar layar telah disimpan ke album.</string>
+    <string name="menu_sec_one_key_shutdown">Matikan</string>
+    <string name="menu_sec_one_key_shutdown_sec">Ponsel akan dimatikan.</string>
+    <string name="menu_sec_one_key_shutdown_tip">Gagal mematikan ponsel. Fitur ini hanya untuk ponsel yang di-root.</string>
+    <string name="menu_version_update_btn">Perbarui</string>
+    <string name="message_apply_old_theme">Klik untuk menerapkan tema awal ..</string>
+    <string name="message_delete_theme_waiting">Menghapus tema...</string>
+    <string name="message_preview_cannot_delete_screen">Tidak dapat menghapus layar terakhir</string>
+    <string name="message_preview_delete_screen">Hapus layar dan semua kontennya?</string>
+    <string name="message_preview_delete_screen_not_allow">Ikon Daftar Apl ada di layar. Tidak dapat dihapus.</string>
+    <string name="message_preview_fail_drag_to_screen">Gagal memindahkan ikon</string>
+    <string name="message_preview_out_of_screen">Ruang di layar ini tidak memadai. Tambahkan ke layar lain.</string>
+    <string name="message_preview_set_default_screen">Jadikan layar default</string>
+    <string name="mode_automatic">Otomatis</string>
+    <string name="mode_keep_current">Tetap</string>
+    <string name="mode_name_null">Masukkan nama mode</string>
+    <string name="mode_off">Mati</string>
+    <string name="mode_on">Hidup</string>
+    <string name="mode_silence">Diam</string>
+    <string name="my_pattern">Mode default</string>
+    <string name="my_pattern_desc">Instal mode default</string>
+    <string name="mybatter_clean_at_screen_lock">%1$sMB memori dikosongkan di layar mati</string>
+    <string name="mybatter_notify_bar_charging_time">Pengisian daya baterai:</string>
+    <string name="mybatter_notify_bar_discharging_time">Daya tahan:</string>
+    <string name="mybatter_reanalysis">Refresh</string>
+    <string name="mybattery_battery_first_in_text">Aktifkan %1$s saat berada dalam mode Hemat Daya. Bila %2$s ditutup, Anda mungkin tidak dapat menghidupkan ulang %3$s. Hidupkan ulang ponsel untuk memperbaikinya.</string>
+    <string name="mybattery_battery_first_phone_text">Modul Komunikasi</string>
+    <string name="mybattery_battery_isfull_dialog_message">Nonaktifkan melalui \"Baterai--Pengaturan\".</string>
+    <string name="mybattery_battery_isfull_dialog_title">Perintah pengisian daya penuh</string>
+    <string name="mybattery_battery_isfull_notifi">Daya terisi penuh</string>
+    <string name="mybattery_battery_settings_communicate">Pengaturan</string>
+    <string name="mybattery_bs_app_had_close">Aplikasi ditutup</string>
+    <string name="mybattery_bs_app_level">Tingkat Penggunaan Daya</string>
+    <string name="mybattery_bs_app_level_1">Biaya daya kecil. Cocok untuk selalu berjalan di latar belakang.</string>
+    <string name="mybattery_bs_app_level_2">Biaya daya rendah. Gunakan seperlunya.</string>
+    <string name="mybattery_bs_app_level_3">Aplikasi biaya daya normal. Gunakan seperlunya</string>
+    <string name="mybattery_bs_app_level_4">Biaya daya besar. Sarankan untuk menonaktifkan bila tidak perlu</string>
+    <string name="mybattery_bs_app_level_5">Biaya daya tinggi. Sarankan untuk menonaktifkan atau menghapus instalan.</string>
+    <string name="mybattery_bs_cd_continuation">Masa pakai baterai</string>
+    <string name="mybattery_bs_cd_current_capacity">Kapasitas saat ini</string>
+    <string name="mybattery_bs_cd_estimate_time">Perkiraan Waktu</string>
+    <string name="mybattery_bs_cd_infos">Info baterai</string>
+    <string name="mybattery_bs_cd_knowledge1">Pengisian daya cepat berarti daya baterai akan terisi secara cepat hingga 80%, namun harus terus dilakukan hingga daya terisi penuh.</string>
+    <string name="mybattery_bs_cd_knowledge2">Pengisian daya penuh berarti pengisian secara terus-menerus hingga daya baterai terisi penuh.</string>
+    <string name="mybattery_bs_cd_knowledge3">Pengisian daya perlahan berarti pengisian daya baterai yang telah terisi penuh, sehingga dapat memperpanjang masa pakai baterai.</string>
+    <string name="mybattery_bs_cd_knowledge_title0"> Tentang pengisian daya：</string>
+    <string name="mybattery_bs_cd_knowledge_title1"> Apakah yang dimaksud dengan Pengisian daya cepat?</string>
+    <string name="mybattery_bs_cd_knowledge_title2"> Apakah yang dimaksud dengan Pengisian daya penuh?</string>
+    <string name="mybattery_bs_cd_knowledge_title3"> Apakah yang dimaksud dengan Pengisian daya perlahan?</string>
+    <string name="mybattery_bs_cd_light_explain11">Pengisian daya cepat</string>
+    <string name="mybattery_bs_cd_light_explain12">Menunggu</string>
+    <string name="mybattery_bs_cd_light_explain21">Pengisian daya penuh</string>
+    <string name="mybattery_bs_cd_light_explain22">Daya terisi</string>
+    <string name="mybattery_bs_cd_light_explain31">Pengisian daya perlahan</string>
+    <string name="mybattery_bs_cd_light_explain_doing">Pengisian daya</string>
+    <string name="mybattery_bs_cd_max_capacity">Kapasitas maksimum</string>
+    <string name="mybattery_bs_cd_usefultime">Rincian</string>
+    <string name="mybattery_bs_click_start_bs">Mendeteksi...</string>
+    <string name="mybattery_bs_customer_app">Aplikasi yang menggunakan daya </string>
+    <string name="mybattery_bs_customer_app_1">Aplikasi Penggunaan Daya</string>
+    <string name="mybattery_bs_electric_quantity">(daya)</string>
+    <string name="mybattery_bs_extend_bs_time">Optimalkan Sekarang</string>
+    <string name="mybattery_bs_had_adjust">Pengaturan dikonfigurasi!</string>
+    <string name="mybattery_bs_had_clear">Dibersihkan!</string>
+    <string name="mybattery_bs_had_close">Dimatikan!</string>
+    <string name="mybattery_bs_manager_analyse">Analisis Daya</string>
+    <string name="mybattery_bs_manager_message">Manajer Daya</string>
+    <string name="mybattery_bs_mode_add_text">Tambahkan mode kustom</string>
+    <string name="mybattery_bs_mode_cdprotect">Pengalihan</string>
+    <string name="mybattery_bs_mode_edit_text">Mengedit</string>
+    <string name="mybattery_bs_mode_look_text">Rincian</string>
+    <string name="mybattery_bs_mode_m_manage">Status</string>
+    <string name="mybattery_bs_mode_m_protect">Pengisian daya</string>
+    <string name="mybattery_bs_mode_nodata">Tidak ada data</string>
+    <string name="mybattery_bs_mode_normal">Normal</string>
+    <string name="mybattery_bs_mode_sd_bottom_text">Tambahkan mode kustom</string>
+    <string name="mybattery_bs_mode_sd_indext_custom">Mode kustom</string>
+    <string name="mybattery_bs_mode_sd_indext_pre">Mode preset</string>
+    <string name="mybattery_bs_mode_sdprotect">Mode</string>
+    <string name="mybattery_bs_notification_ad">Baris status</string>
+    <string name="mybattery_bs_off_bluetooth">Nonaktifkan Bluetooth</string>
+    <string name="mybattery_bs_off_gps">Nonaktifkan GPS</string>
+    <string name="mybattery_bs_off_net">Nonaktifkan data seluler</string>
+    <string name="mybattery_bs_off_wifi">Nonaktifkan Wi-Fi</string>
+    <string name="mybattery_bs_optimize">Optimalkan</string>
+    <string name="mybattery_bs_optimize_again_count">Memindai ulang</string>
+    <string name="mybattery_bs_optimize_back">Kembali</string>
+    <string name="mybattery_bs_optimize_finish_message">Selesai!\nTentukan pilihan di bawah ini untuk melanjutkan pengoptimalan</string>
+    <string name="mybattery_bs_optimize_hand_optimize">Coba pilihan manual</string>
+    <string name="mybattery_bs_optimize_no_data_message">Tentukan pilihan!</string>
+    <string name="mybattery_bs_optimize_perfect">Ponsel Anda dioptimalkan sepenuhnya.</string>
+    <string name="mybattery_bs_optimize_repeat_bs">Optimalkan</string>
+    <string name="mybattery_bs_optimizing">Mengoptimalkan. Tunggu...</string>
+    <string name="mybattery_bs_score_message_1">Ketuk untuk mengoptimalkan</string>
+    <string name="mybattery_bs_score_message_2">Ketuk untuk mengoptimalkan</string>
+    <string name="mybattery_bs_score_message_3">Ketuk untuk mengoptimalkan</string>
+    <string name="mybattery_bs_score_message_4">Optimal</string>
+    <string name="mybattery_bs_screen_bright">Lampu latar</string>
+    <string name="mybattery_bs_screen_bright_regulate">Atur ke 30%</string>
+    <string name="mybattery_bs_screen_timeout">Waktu Habis Layar</string>
+    <string name="mybattery_bs_screen_timeout_regulate">Atur ke 30 d</string>
+    <string name="mybattery_close_str">Mati</string>
+    <string name="mybattery_custom_mode_name">Mode kustom</string>
+    <string name="mybattery_custom_time_name">Tugas kustom</string>
+    <string name="mybattery_del_mode_exist_task">"%1$s" sedang digunakan. Anda yakin ingin menghapus mode dan tugas？</string>
+    <string name="mybattery_del_mode_info_text">Anda yakin ingin menghapus "%1$s"?</string>
+    <string name="mybattery_digital_text_hour">j</string>
+    <string name="mybattery_digital_text_minute">m</string>
+    <string name="mybattery_digital_text_second">d</string>
+    <string name="mybattery_lock_setting_memory">Kosongkan memori</string>
+    <string name="mybattery_lock_setting_wifi">Nonaktifkan Wi-Fi dan Sinkronisasi otomatis</string>
+    <string name="mybattery_lowhit_notify_tip">Tingkat daya baterai lebih rendah dari %1$s</string>
+    <string name="mybattery_lowhit_setting_mode">Aktifkan mode</string>
+    <string name="mybattery_lowhit_setting_mode_desc">Mode sebelumnya akan diaktifkan bila daya lebih tinggi dari %1$s</string>
+    <string name="mybattery_lowhit_setting_value">Tingkat daya baterai lebih rendah dari</string>
+    <string name="mybattery_lowhit_setting_value_select">Pengaturan</string>
+    <string name="mybattery_mode_picker_title">Pilih mode</string>
+    <string name="mybattery_open_str">Hidup</string>
+    <string name="mybattery_phone_str">Panggilan</string>
+    <string name="mybattery_power_setting_lock_desc">Nonaktifkan Wi-Fi atau kosongkan memori</string>
+    <string name="mybattery_power_setting_lock_title">Matikan Otomatis di layar mati</string>
+    <string name="mybattery_power_setting_lowhit_change">OK</string>
+    <string name="mybattery_power_setting_lowhit_desc">Beri tahu saya bila daya baterai lemah</string>
+    <string name="mybattery_power_setting_lowhit_title">Notifikasi</string>
+    <string name="mybattery_power_setting_memorylist_desc">%1$s aplikasi dipilih</string>
+    <string name="mybattery_power_setting_memorylist_no_desc">Tidak ada</string>
+    <string name="mybattery_power_setting_memorylist_title">Kunci daftar</string>
+    <string name="mybattery_power_setting_title">Pengaturan Hemat Daya</string>
+    <string name="mybattery_soft_setting_full_notification_desc">Tidak ada perintah pengisian daya selama pukul 22:00―08:00</string>
+    <string name="mybattery_soft_setting_full_notification_title">Pengingat pengisian daya penuh</string>
+    <string name="mybattery_soft_setting_lowhit_auto_change">Pengaturan pintar</string>
+    <string name="mybattery_soft_setting_lowhit_desc">Daya baterai lemah</string>
+    <string name="mybattery_soft_setting_lowhit_title">Pengingat daya baterai lemah</string>
+    <string name="mybattery_soft_setting_lowhit_value">Pengaturan tingkat daya baterai</string>
+    <string name="mybattery_soft_setting_lowhit_vibrateandring_select_desc">Nada dering default</string>
+    <string name="mybattery_soft_setting_lowhit_vibrateandring_select_title">Nada dering pengisian daya penuh</string>
+    <string name="mybattery_soft_setting_title">Lainnya</string>
+    <string name="mybattery_tab_bs_manager">Manajemen</string>
+    <string name="mybattery_tab_bs_mode">Hemat</string>
+    <string name="mybattery_tab_bs_sort">Penggunaan</string>
+    <string name="mybattery_time_bottom_text">Tambahkan tugas</string>
+    <string name="mybattery_time_edit_text">Mengedit</string>
+    <string name="mybattery_time_everyday">Setiap hari</string>
+    <string name="mybattery_time_switch_def_fir">Tidur</string>
+    <string name="mybattery_time_switch_def_sec">Bekerja</string>
+    <string name="mybattery_time_switch_def_thi">Tidur sebentar</string>
+    <string name="mybattery_time_switch_end_mode_name">Mode akhir</string>
+    <string name="mybattery_time_switch_no_data">Anda belum menambahkan tugas.</string>
+    <string name="mybattery_time_switch_start_mode_name">Mode awal</string>
+    <string name="mybattery_time_switch_start_name">Tugas</string>
+    <string name="mybattery_time_switch_task_name">Nama：</string>
+    <string name="mybattery_time_swtich_del_info">Anda yakin ingin menghapus "%1$s"?</string>
+    <string name="mybattery_time_swtich_no_name">Nama tugas tidak boleh kosong.</string>
+    <string name="mybattery_time_the_same_text">Pengaturan tugas tidak valid. Waktu mulai dan waktu selesai sama seperti mode lain. Anda yakin ingin menyimpannya? </string>
+    <string name="mybattery_time_trigger_text">Waktu tugas adalah %1$s~%2$s. Jika diatur agar berulang, waktu tugas akan diulang pada hari yang dipilih.</string>
+    <string name="mybattery_time_workday">Hari kerja</string>
+    <string name="myflow_internet">2G/3G</string>
+    <string name="myflow_wifi">Wi-Fi</string>
+    <string name="myh5game_title_name">Game Populer</string>
+    <string name="myphone_ad_load_failed">Gagal memuat. Klik untuk mencoba lagi</string>
+    <string name="myphone_ad_recommend">Gelembung</string>
+    <string name="myphone_root_fail_desc">Beranda tidak dapat mengakses hak istimewa ROOT. Izinkan hak istimewa ROOT di apl manajemen seperti SuperUser KingUser.</string>
+    <string name="myphone_root_fail_title">Akses hak istimewa ROOT gagal</string>
+    <string name="myphone_wallpaper_set_success">Wallpaper telah diterapkan!</string>
+    <string name="navigation_history">Riwayat</string>
+    <string name="navigation_more">Situs web</string>
+    <string name="netflow_info_fetching">Mengambil...</string>
+    <string name="no_restore_tip">Data tidak tersedia.</string>
+    <string name="nomore_release">Tidak ada lagi sumber daya yang dapat dikosongkan</string>
+    <string name="normal_pattern">Mode baca</string>
+    <string name="normal_pattern_desc">Secara otomatis menyesuaikan kecerahan layar</string>
+    <string name="notification_bar_ketset">Kit Alat Bantu</string>
+    <string name="notification_bar_last_app">Aplikasi terakhir</string>
+    <string name="notification_time_hour">J</string>
+    <string name="notification_time_hour_char">j</string>
+    <string name="notification_time_min">M</string>
+    <string name="notification_time_min_char">m</string>
+    <string name="onekey_cleaner_best_tip">Kondisi ponsel Anda optimal!</string>
+    <string name="onekey_cleaner_dept_tip">Kosongkan kapasitas ekstra</string>
+    <string name="onekey_cleaner_release_tip">Kosongkan memori %1$s</string>
+    <string name="onekey_cleaner_speed_tip">Percepat hingga %1$s.Kondisi ponsel Anda optimal!</string>
+    <string msgid="8365249326091984698" name="out_of_space">Ruang di layar tidak memadai</string>
+    <string name="panda_widget_fetch_error">Gagal mendapatkan widget</string>
+    <string name="panda_widget_text_color">#333333</string>
+    <string name="panda_widget_weather">Cuaca Hi</string>
+    <string name="phone">Modul komunikasi</string>
+    <string name="pick_wallpaper">Wallpaper</string>
+    <string name="plugin_activated">Inisialisasi</string>
+    <string name="plugin_desc_appmanager">Manajer aplikasi ditujukan untuk manajemen aplikasi ponsel</string>
+    <string name="plugin_desc_file">File saya akan membantu mengatur file, media, dan gambar. </string>
+    <string name="plugin_desc_safecenter">Pusat keamanan akan membantu Anda memantau jika aplikasi ponsel berjalan otomatis atau membahayakan privasi</string>
+    <string name="plugin_desc_wallpaper">Wallpaper cantik membuat tampilan ponsel semakin menarik</string>
+    <string name="plugin_down_wallpaper">Khusus - wallpaper</string>
+    <string name="plugin_transfer_desc1">Pengaktifan awal. Hanya sedikit persiapan. \n Tidak perlu menunggu lama</string>
+    <string name="plugin_transfer_error">Terjadi kesalahan. Coba lagi nanti. </string>
+    <string name="plugin_update_tip">Apakah Anda ingin memperbarui widget ke versi terbaru?</string>
+    <string name="popup_change_style">Ubah gaya</string>
+    <string name="popup_change_style2">Gaya</string>
+    <string name="popup_deep_clean">Pembersihan manual</string>
+    <string name="popup_delete">Hapus</string>
+    <string name="popup_detail">Rincian</string>
+    <string name="popup_rename">Ubah nama</string>
+    <string name="popup_replace">Ganti</string>
+    <string name="popup_resize">Perbesar</string>
+    <string name="quick_clean_released">%s memori dikosongkan</string>
+    <string name="readme_agreement_me">Penggunaan berkelanjutan menunjukkan bahwa Anda telah menerima </string>
+    <string name="readme_agreement_terms">Persyaratan Penggunaan</string>
+    <string name="readme_app_DC_desc">Dorado Clean akan membersihkan file sampah, meningkatkan kecepatan, dan menghemat daya ponsel Android Anda.</string>
+    <string name="readme_app_DC_name">Dorado Clean</string>
+    <string name="readme_app_PP_desc">PixelPhone (PP) adalah manajer kontak dan pemanggil canggih.</string>
+    <string name="readme_app_PP_name">Pixel Phone</string>
+    <string name="readme_app_aio_desc">Toolbox All-In-One: Kumpulan alat bantu bermanfaat untuk membersihkan, meningkatkan, dan mengoptimalkan Android.</string>
+    <string name="readme_app_aio_name">Toolbox All-In-One (Cleaner)</string>
+    <string name="readme_app_mobo_turn_label">Saya menginginkannya</string>
+    <string name="readme_app_test_instance">Instal</string>
+    <string name="readme_app_touchpal_desc">Keyboard Emoji TouchPal adalah Keyboard gratis yang akan membantu Anda mengetik lebih cepat dan lebih mudah dengan bentuk lengkung dan prediksi. </string>
+    <string name="readme_app_touchpal_name">Keyboard Emoji TouchPal</string>
+    <string name="readme_v6_new_themechoose">Pilih gaya apa pun yang Anda suka!</string>
+    <string name="recent_use">Paling sering digunakan</string>
+    <string name="recommend_app_download_not_network">Download gagal. Periksa sambungan jaringan Anda.</string>
+    <string name="recommend_fail_showdetail_googleplay">Gagal mendapatkan rincian dari Google Play.</string>
+    <string name="recommend_install_fail">Gagal men-download. URL rusak</string>
+    <string name="recommend_install_fail_googleplay">Anda harus menginstal Google Play untuk men-download aplikasi ini.</string>
+    <string name="recommend_install_tip_summary">Instal %1$s sekarang?</string>
+    <string name="recommend_install_tip_title">Instal</string>
+    <string name="resolver_click91_forhw">Ketuk [%1$s] terlebih dulu</string>
+    <string name="resolver_click91launcher1">Pilih "%1$s" terlebih dulu</string>
+    <string name="resolver_click91launcher2">Pilih "%1$s"</string>
+    <string name="resolver_clickAlawayButton">Ketuk</string>
+    <string name="resolver_clickChange">Ubah</string>
+    <string name="resolver_clickCheck">Ketuk kotak centang</string>
+    <string name="resolver_clickOk">OK</string>
+    <string name="resolver_click_callback_button">Kembali ke desktop untuk menyiapkan lagi</string>
+    <string name="resolver_click_default_button">Ketuk Hapus Default</string>
+    <string name="restore_now">Kembalikan</string>
+    <string name="restore_original">Kembalikan tata letak</string>
+    <string name="restore_original_tip">Kembalikan ke tata letak terakhir</string>
+    <string name="restore_result_now">Kembalikan</string>
+    <string name="restore_tip">Kembalikan ke: %1$s</string>
+    <string name="ringer">Nada dering</string>
+    <string name="safe_notify_boot_optimise_tip">Ketuk untuk mengoptimalkan waktu boot</string>
+    <string name="safe_notify_boot_time_tip">Waktu boot sistem:</string>
+    <string name="samsung_drawer_search_default_input">Cari Apps</string>
+    <string name="scene">Tema pemandangan</string>
+    <string name="scene_add_local_scene">Impor Tema Pemandangan (file apt)</string>
+    <string name="scene_apply_failed">Gagal menerapkan Tema Pemandangan. Coba lagi nanti.</string>
+    <string name="scene_apply_hole_style_msg">Tata letak ikon akan diterapkan.</string>
+    <string name="scene_apply_scene_now">Menerapkan...</string>
+    <string name="scene_apt_file_invalid">Tema Pemandangan tidak valid</string>
+    <string name="scene_cant_delete_scene_while_using">Tidak dapat menghapus Tema Pemandangan yang sedang digunakan.</string>
+    <string name="scene_custom_create_text">Konfirmasi</string>
+    <string name="scene_custom_desc_no_icon">Gagal membuat tata letak ikon tanpa ikon. Tambahkan ikon terlebih dulu.</string>
+    <string name="scene_custom_desc_text_fir">Gambar tata letak ikon di bawah ini</string>
+    <string name="scene_custom_desc_text_sec">Ketuk Coba Lagi untuk menggambar ulang tata letak ikon</string>
+    <string name="scene_custom_desc_text_thi">Ketuk ikon yang akan diedit</string>
+    <string name="scene_custom_next_text">Lanjut</string>
+    <string name="scene_custom_not_draw_info">Gambar tata letak ikon</string>
+    <string name="scene_custom_pop_info">Ketuk untuk menambahkan ikon</string>
+    <string name="scene_custom_redraw_text">Coba Lagi</string>
+    <string name="scene_default_scene">Default</string>
+    <string name="scene_delete_hole_style_msg">Tata letak ikon yang dipilih akan dihapus.</string>
+    <string name="scene_delete_scene_now">Menghapus...</string>
+    <string name="scene_do_you_want_to_switch_to_default_scene">Anda yakin ingin keluar dari Tema Pemandangan?</string>
+    <string name="scene_download_and_install_failure">Download gagal.</string>
+    <string name="scene_download_task_remain">(%s tugas lagi)</string>
+    <string name="scene_exit_scene">Keluar</string>
+    <string name="scene_exit_scene_msg">Anda yakin ingin keluar dari Tema Pemandangan?</string>
+    <string name="scene_external_storage_no_found_for_apply">Gagal menerapkan Tema Pemandangan. Tidak ada kartu SD eksternal di ponsel Anda.</string>
+    <string name="scene_external_storage_no_found_for_delete">Gagal menghapus Tema Pemandangan. Tidak ada kartu SD eksternal di ponsel Anda.</string>
+    <string name="scene_external_storage_no_found_for_download">Gagal men-download Tema Pemandangan. Tidak ada kartu SD eksternal di ponsel Anda.</string>
+    <string name="scene_hole_apply_failed">Gagal memuat tata letak ikon. Coba lagi nanti.</string>
+    <string name="scene_import_scene_now">Mengimpor...</string>
+    <string name="scene_loading">Memuat...</string>
+    <string name="scene_make_sure_to_apply">Anda ingin menerapkan %s?</string>
+    <string name="scene_make_sure_to_delete">%s akan dihapus.</string>
+    <string name="scene_make_sure_to_download">%s akan di-download.</string>
+    <string name="scene_make_sure_to_download_this_scene">Tema Pemandangan yang dipilih akan di-download.</string>
+    <string name="scene_msg_can_not_edit">Tidak dapat mengedit layar preset %s.</string>
+    <string name="scene_msg_can_not_edit_for_new_screen">Tidak dapat mengedit layar preset.</string>
+    <string name="scene_msg_multip_apply">Tema Pemandangan telah diterapkan.</string>
+    <string name="scene_msg_scene_file_invalid">Tema Pemandangan rusak. Download kembali.</string>
+    <string name="scene_msg_scene_not_exits">Tema Pemandangan rusak. Download kembali.</string>
+    <string name="scene_network_not_available">Gagal menyambung ke jaringan. Coba lagi nanti.</string>
+    <string name="scene_no_style_choose_msg">Pilih tata letak ikon.</string>
+    <string name="scene_please_select_your_scene">Pilih Tema Pemandangan di bawah ini</string>
+    <string name="scene_please_wait">Tunggu</string>
+    <string name="scene_processing">Memproses...</string>
+    <string name="scene_select_layout">Tata letak ikon</string>
+    <string name="scene_select_scene">Pilih Tema Pemandangan</string>
+    <string name="scene_shop_apply">Terapkan</string>
+    <string name="scene_shop_describe">Keterangan</string>
+    <string name="scene_shop_download">Download</string>
+    <string name="scene_shop_download_scene">%s sedang di-download</string>
+    <string name="scene_shop_installing">Menerapkan...</string>
+    <string name="scene_shop_local_scenes">Di-download</string>
+    <string name="scene_shop_more">Selengkapnya</string>
+    <string name="scene_shop_online_scenes">Online</string>
+    <string name="scene_shop_pause">Dijeda</string>
+    <string name="scene_shop_process">Men-download...</string>
+    <string name="scene_shop_top_banner">Tema Pemandangan saya</string>
+    <string name="scene_this_scene">tema pemandangan ini</string>
+    <string name="scene_waiting_for_sd_load">Memuat kartu SD. Tunggu...</string>
+    <string name="screen_timeout">Waktu habis layar</string>
+    <string name="select_third_icons">Ikon pihak ketiga</string>
+    <string name="setting_cols">Setelan kolom</string>
+    <string name="setting_rows">Setelan baris</string>
+    <string name="settings_about">Tentang %1$s</string>
+    <string name="settings_about_app_share">Bagi aplikasi</string>
+    <string name="settings_about_app_share_summary">Bagi %1$s kepada teman</string>
+    <string name="settings_about_bug_feedback_title">Masukan Bug %1$s</string>
+    <string name="settings_about_contact_us">Hubungi kami</string>
+    <string name="settings_about_contact_us_email_summary" translate="false">mobolauncher91@gmail.com</string>
+    <string name="settings_about_contact_us_email_title">Email</string>
+    <string name="settings_about_contact_us_facebook_title" translate="false">Facebook</string>
+    <string name="settings_about_contact_us_google_plus_summary" translate="false">Tim %1$s</string>
+    <string name="settings_about_contact_us_google_plus_title" translate="false">Google+</string>
+    <string name="settings_about_contact_us_instagram_title" translate="false">Instagram</string>
+    <string name="settings_about_copyright">Info hak cipta</string>
+    <string name="settings_about_copyright_summary">Moborobo.com Semua Hak Dilindungi Undang-Undang</string>
+    <string name="settings_about_feedback">Tanggapan</string>
+    <string name="settings_about_feedback_title">Masukan %1$s</string>
+    <string name="settings_about_no_market_title">App Store belum diinstal di ponsel Anda.</string>
+    <string name="settings_about_restart_launcher">aktifkan ulang desktop</string>
+    <string name="settings_about_version_upgrade">Periksa pembaruan</string>
+    <string name="settings_advanced_assist">Aksesibilitas</string>
+    <string name="settings_advanced_default_app">Manajer Aplikasi Default</string>
+    <string name="settings_advanced_default_app_dialog_title">Pilih aplikasi default</string>
+    <string name="settings_advanced_enhance_tool">alat bantu penyempurnaan</string>
+    <string name="settings_advanced_gesture_control">Setelan gerakan</string>
+    <string name="settings_advanced_move_begin_move">Mulai</string>
+    <string name="settings_advanced_move_home">Salin layar Beranda</string>
+    <string name="settings_advanced_move_home_available">Mendeteksi...</string>
+    <string name="settings_advanced_move_home_backup_tip">Catatan: Anda dapat mengembalikan setelan %1$s dalam Preferensi> Cadangkan &amp; kembalikan.</string>
+    <string name="settings_advanced_move_home_del">Apakah Anda ingin menghapus pintasan \"Salin ikon\" dari layar beranda?</string>
+    <string name="settings_advanced_move_home_dialog_title">Pilih peluncur</string>
+    <string name="settings_advanced_move_home_dialog_toast">Tentukan pilihan</string>
+    <string name="settings_advanced_move_home_icon_title">Salin ikon</string>
+    <string name="settings_advanced_move_home_importing">Mengimpor, harap tunggu...</string>
+    <string name="settings_advanced_move_home_importing_ask_backup">Cadangkan setelan %1$s</string>
+    <string name="settings_advanced_move_home_importing_end">Diimpor</string>
+    <string name="settings_advanced_move_home_importing_failed">Impor gagal</string>
+    <string name="settings_advanced_move_home_move_end_preview">Pratinjau Layar</string>
+    <string name="settings_advanced_move_home_move_end_preview_tip">Layar sorotan adalah layar Beranda</string>
+    <string name="settings_advanced_move_home_no_available">Tidak ada ikon yang dapat disalin dari peluncur lainnya</string>
+    <string name="settings_advanced_move_home_no_data">Tidak ada ikon di layar peluncur lainnya</string>
+    <string name="settings_advanced_move_home_notify">Anda dapat menyalin ikon ke %1$s sekarang. Ketuk di sini</string>
+    <string name="settings_advanced_move_home_success">Ikon telah disalin ke %1$s!</string>
+    <string name="settings_advanced_move_home_success_tip">Perlu diketahui bahwa widget tidak dapat disalin dari peluncur lainnya. Anda dapat secara manual menambahkan widget ke layar beranda.\n\n Catatan: Anda dapat mengembalikan setelan %1$s dalam Preferensi > Cadangkan &amp; kembalikan.</string>
+    <string name="settings_advanced_move_home_summary">Menyalin ikon peluncur lainnya ke %1$s</string>
+    <string name="settings_advanced_move_home_will_begin">Ketuk \Mulai\ untuk menyalin layar Beranda</string>
+    <string name="settings_advanced_move_next">Berikut</string>
+    <string name="settings_advanced_move_previous">Kembali</string>
+    <string name="settings_app_icon_size">Ukuran Ikon</string>
+    <string name="settings_back_to_default_scene">Keluar</string>
+    <string name="settings_backup">Cadangkan &amp; kembalikan</string>
+    <string name="settings_backup_failed">Pencadangan gagal</string>
+    <string name="settings_backup_ing">Mencadangkan %1$s</string>
+    <string name="settings_backup_lastest_time">Terakhir dicadangkan : </string>
+    <string name="settings_backup_not_found">File cadangan tidak ditemukan, coba lagi nanti</string>
+    <string name="settings_backup_reset">Atur ulang default</string>
+    <string name="settings_backup_reset_hint">Kembalikan setelan default</string>
+    <string name="settings_backup_reset_message">Setelan %1$s akan dikembalikan ke default.</string>
+    <string name="settings_backup_reset_title">Notifikasi</string>
+    <string name="settings_backup_restore_dialog_title">Notifikasi</string>
+    <string name="settings_backup_restore_failed">Gagal dikembalikan</string>
+    <string name="settings_backup_restore_ing">Mengembalikan %1$s</string>
+    <string name="settings_backup_restore_success">Berhasil dikembalikan</string>
+    <string name="settings_backup_sdcard_unavailable">Kartu SD tidak tersedia, periksa dan coba lagi</string>
+    <string name="settings_backup_success">Pencadangan berhasil</string>
+    <string name="settings_backup_tobackup">Cadangkan %1$s</string>
+    <string name="settings_backup_tobackup_dialog_title">Notifikasi</string>
+    <string name="settings_backup_tobackup_hint">Tidak ada cadangan</string>
+    <string name="settings_backup_tobackup_message">Setelan %1$s akan dicadangkan ke kartu SD.</string>
+    <string name="settings_backup_torestore">Kembalikan setelan</string>
+    <string name="settings_backup_torestore_message">Setelan %1$s  akan dikembalikan dari kartu SD.</string>
+    <string name="settings_communicate_boot_time">Waktu boot</string>
+    <string name="settings_communicate_category_battery">Notifikasi pengisian daya</string>
+    <string name="settings_communicate_category_comm">Umum</string>
+    <string name="settings_communicate_location">Lokasi panggilan masuk</string>
+    <string name="settings_dockbar_text">Setelan dok</string>
+    <string name="settings_dockbar_text_show">Tampilkan label aplikasi dok</string>
+    <string name="settings_dockbar_text_show_follow_theme">Terapkan berdasarkan tema</string>
+    <string name="settings_dockbar_text_show_follow_theme_summary">Bila diaktifkan, label aplikasi akan ditampilkan berdasarkan tema aktif</string>
+    <string name="settings_dockbar_text_show_summary">Label aplikasi dok akan ditampilkan setelah diaktifkan</string>
+    <string name="settings_drawer_bg_transparent">Transparansi latar belakang</string>
+    <string name="settings_drawer_bg_transparent_summary">Mengatur transparansi latar belakang laci</string>
+    <string name="settings_drawer_countxy">Ukuran kisi</string>
+    <string name="settings_drawer_rolling_cycle">Gulir terus</string>
+    <string name="settings_drawer_rolling_cycle_summary">Terus menggulir semua layar</string>
+    <string name="settings_drawer_tabs_lock">Kunci laci aplikasi</string>
+    <string name="settings_drawer_tabs_lock_summary">Tidak dapat menggulir antara Aplikasi, Widget, dan Manajer</string>
+    <string name="settings_exit">Tutup %1$s</string>
+    <string name="settings_font_app_color">Warna label</string>
+    <string name="settings_font_app_color_summary">Atur warna untuk label aplikasi</string>
+    <string name="settings_font_app_name_size">Ukuran label</string>
+    <string name="settings_home">Preferensi</string>
+    <string name="settings_home_advanced">Lanjutan</string>
+    <string name="settings_home_apps_share_subject">Bagi\"%1$s\"</string>
+    <string name="settings_home_apps_share_title">Pilih mode pengiriman</string>
+    <string name="settings_home_assistance_share_text">Saya ingin membagi %1$s dengan Anda.\nAnda dapat men-download versi  dari https://play.google.com/store/apps/details?id=%2$s</string>
+    <string name="settings_home_common">Umum</string>
+    <string name="settings_home_other">Lainnya</string>
+    <string name="settings_home_scene_desktop">Tema pemandangan</string>
+    <string name="settings_icon">ikon</string>
+    <string name="settings_icon_and_folder">ikon, folder</string>
+    <string name="settings_icon_and_folder_folder">folder</string>
+    <string name="settings_icon_and_folder_icon">ikon</string>
+    <string name="settings_item_search">Cari</string>
+    <string name="settings_launcher_layout">tata letak desktop</string>
+    <string name="settings_launcher_layout_settings_applist">daftar aplikasi</string>
+    <string name="settings_launcher_layout_settings_screen_setting">setelan layar</string>
+    <string name="settings_lock_launcher_layout">kunci tata letak desktop</string>
+    <string name="settings_lock_launcher_layout_summary">mencegah kesalahan pengoperasian akibat perubahan tata letak desktop</string>
+    <string name="settings_message_tips">pertanyaan pesan</string>
+    <string name="settings_message_tips_summary">Ikon akan memberi tahu Anda pesan yang belum dibaca.</string>
+    <string name="settings_mms_tips">Pesan belum dibaca</string>
+    <string name="settings_more">Lainnya</string>
+    <string name="settings_more_message_tips">Pesan belum dibaca lainnya</string>
+    <string name="settings_more_message_tips_summary">Instal 91 Message Reminder untuk menikmati semua fitur.</string>
+    <string name="settings_no_search_result">Tidak Ada Hasil Pencarian</string>
+    <string name="settings_personal_folder_style">Gaya folder</string>
+    <string name="settings_personal_gesture_doublefingers_down">Geser turun (2 jari)</string>
+    <string name="settings_personal_gesture_down">Geser turun</string>
+    <string name="settings_personal_gesture_up">Geser naik</string>
+    <string name="settings_personal_icon_mask_switch">Mask ikon</string>
+    <string name="settings_personal_status_bar">papan pengumuman</string>
+    <string name="settings_personal_status_bar_switch">Tampilkan panel status</string>
+    <string name="settings_personal_update_check">Deteksi pembaruan</string>
+    <string name="settings_reset_current_scene">Atur ulang default</string>
+    <string name="settings_reset_current_scene_msg">Tema pemandangan akan dikembalikan ke default.</string>
+    <string name="settings_score_dialog_content">Jika Anda suka %1$s, beri kami 5 bintang. Kami akan berusaha lebih baik!</string>
+    <string name="settings_screen_countxy">Ukuran kisi</string>
+    <string name="settings_screen_icon_title_background">Tampilkan latar belakang label</string>
+    <string name="settings_screen_icon_title_background_summary">Sorot latar belakang label ikon</string>
+    <string name="settings_screen_rolling_cycle">Gulir terus</string>
+    <string name="settings_screen_rolling_cycle_summary">Terus menggulir semua layar</string>
+    <string name="settings_screen_wallpaper_by_theme">Wallpaper layar terkunci</string>
+    <string name="settings_screen_wallpaper_by_theme_summary">Wallpaper akan berubah sesuai tema, dan setelan wallpaper akan dinonaktifkan.</string>
+    <string name="settings_screen_wallpaper_rolling">Mode wallpaper</string>
+    <string name="settings_search_item">Masukkan kata kunci</string>
+    <string name="settings_set_default_launcher">Jadikan peluncur default</string>
+    <string name="settings_set_default_launcher_hint">Pilih\"gunakan secara default untuk tindakan ini \", lalu klik\"%1$s\" untuk menyelesaikan setelan</string>
+    <string name="settings_set_default_launcher_hint2">Pilih\"%1$s\", lalu ketuk\"selalu\" untuk menyelesaikan setelan</string>
+    <string name="settings_set_default_launcher_hint_mi">Pilih \"Default\" dan ketuk \"%1$s\" untuk menyiapkan.</string>
+    <string name="settings_set_default_launcher_hint_mx4">Pilih \"Launcher default\" dan ketuk \"%1$s\" untuk menyiapkan.</string>
+    <string name="settings_set_default_launcher_hint_oppo_coloros200">Pilih \"Jangan tanya lagi\" dan ketuk \"%1$s\" untuk menyiapkan.</string>
+    <string name="settings_set_default_pandahome_success">Berhasil ditetapkan sebagai peluncur default</string>
+    <string msgid="4757756326465060694" name="shortcut_duplicate">
+		<ns1:g id="NAME">%s</ns1:g> pintasan sudah ada.
+	</string>
+    <string msgid="7071557296331322355" name="shortcut_installed">
+		<ns1:g id="NAME">%s</ns1:g> pintasan dibuat.
+	</string>
+    <string name="shortcut_slot_loading">Memuat...</string>
+    <string name="shortcut_toolong">Karakter tidak valid. Tidak dapat ditambahkan.</string>
+    <string msgid="2129499669449749995" name="shortcut_uninstalled">
+		<ns1:g id="NAME">%s</ns1:g> pintasan dihapus.
+	</string>
+    <string name="slot_name">Lucky</string>
+    <string name="slot_tip_1">Setiap tarikan berharga 10 koin emas. Tarik lagi?</string>
+    <string name="slot_tip_2">777 atau tiga bintang membuat Anda menang jackpot. Uji peruntungan Anda!</string>
+    <string name="slot_tip_3">Semoga berhasil! Lebih banyak koin emas menunggu Anda.</string>
+    <string name="slot_tip_4">Hampir menang! Coba lagi?</string>
+    <string name="slot_tip_5">Beruntung sekali! Anda kini memiliki %1$s koin emas. Teruskan!</string>
+    <string name="small_icon_size">Kecil</string>
+    <string name="spring_add_app_from_drawer_fail">Kapasitas tidak memadai untuk menambahkan aplikasi ke desktop</string>
+    <string name="spring_add_app_from_drawer_reset">Tidak dapat pindah ke lokasi ini</string>
+    <string name="spring_add_app_from_drawer_success">Ditambahkan ke layar Beranda</string>
+    <string name="super_pattern">Super hemat</string>
+    <string name="super_pattern_desc">Aktifkan layanan dasar</string>
+    <string name="swap_wallpaper_fail_no_sdcard">Kartu SD tidak ditemukan. Gagal mengganti wallpaper.</string>
+    <string name="switcher_setting_hint">Ketuk "Edit" untuk menambahkan atau menghapus tombol alih</string>
+    <string name="switcher_volume_ring">Nada dering</string>
+    <string name="switcher_volume_set_failed">Gagal mengatur volume suara</string>
+    <string name="sync">Sinkronisasi</string>
+    <string name="sys_airplane_mode">Pesawat</string>
+    <string name="sys_airplane_mode_disabled">Mode pesawat dinonaktifkan</string>
+    <string name="sys_airplane_mode_enabled">Mode pesawat diaktifkan</string>
+    <string name="sys_alarm">Alarm</string>
+    <string name="sys_app_mgr">Aplikasi</string>
+    <string name="sys_auto_sync">Sinkronisasi otomatis</string>
+    <string name="sys_auto_sync_disabled">Sinkronisasi otomatis dinonaktifkan</string>
+    <string name="sys_auto_sync_enabled">Sinkronisasi otomatis diaktifkan</string>
+    <string name="sys_autolockscreen">Kunci</string>
+    <string name="sys_autolockscreen_disabled">Kunci layar dinonaktifkan</string>
+    <string name="sys_autolockscreen_enabled">Kunci layar diaktifkan</string>
+    <string name="sys_automatic_brightness">Kecerahan otomatis</string>
+    <string name="sys_autorotate">Putaran</string>
+    <string name="sys_autorotate_disabled">Putar otomatis layar dinonaktifkan</string>
+    <string name="sys_autorotate_enabled">Putar otomatis layar diaktifkan</string>
+    <string name="sys_battery">Jaringan</string>
+    <string name="sys_bluetooth">Bluetooth</string>
+    <string name="sys_bluetooth_disabled">Bluetooth dinonaktifkan</string>
+    <string name="sys_bluetooth_enabled">Bluetooth diaktifkan</string>
+    <string name="sys_brightness">Lampu latar</string>
+    <string name="sys_brightness_dock">Lampu latar</string>
+    <string name="sys_clock">Jam</string>
+    <string name="sys_data_connection">Data</string>
+    <string name="sys_data_connection_disabled">Data seluler dinonaktifkan</string>
+    <string name="sys_data_connection_enabled">Data seluler diaktifkan</string>
+    <string name="sys_flashlight_enabled">Aktifkan senter</string>
+    <string name="sys_gps">GPS</string>
+    <string name="sys_large_capacity">USB</string>
+    <string name="sys_mount_sdcard">Keluarkan kartu SD</string>
+    <string name="sys_mybattery_brightness">Lampu latar</string>
+    <string name="sys_notification_bar">Panel Notifikasi Sistem</string>
+    <string name="sys_others">Selengkapnya</string>
+    <string name="sys_ring">Nada dering</string>
+    <string name="sys_ring_mode">Dering</string>
+    <string name="sys_ring_mode_disabled">Mode dering diaktifkan</string>
+    <string name="sys_screen_overtime">Waktu habis</string>
+    <string name="sys_settings_apps">Aplikasi</string>
+    <string name="sys_settings_battery">Baterai</string>
+    <string name="sys_settings_display">Tampilan</string>
+    <string name="sys_settings_error_msg">Maaf! \"%1$s\" tidak ditemukan</string>
+    <string name="sys_settings_firmware">Firmware</string>
+    <string name="sys_settings_input">Keyboard</string>
+    <string name="sys_settings_machine_name">Model</string>
+    <string name="sys_settings_mobiledata">Jaringan</string>
+    <string name="sys_settings_more_settings">Selengkapnya</string>
+    <string name="sys_settings_root_fetching">Mengambil...</string>
+    <string name="sys_settings_root_no">Batalkan root</string>
+    <string name="sys_settings_root_option">Status</string>
+    <string name="sys_settings_root_yes">Di-root</string>
+    <string name="sys_settings_screen_resolution">Resolusi</string>
+    <string name="sys_settings_screen_safe">Keamanan</string>
+    <string name="sys_settings_sound">Suara</string>
+    <string name="sys_settings_storage">Penyimpanan</string>
+    <string name="sys_settings_usb_debug">Debug USB</string>
+    <string name="sys_settings_wireless">Nirkabel</string>
+    <string name="sys_sim_not_exist">SIM tidak ditemukan</string>
+    <string name="sys_slient_mode_disabled">Mode diam diaktifkan</string>
+    <string name="sys_switch_edit_hint">Ketuk "Edit" untuk menambahkan atau menghapus tombol</string>
+    <string name="sys_switch_enter_usb_mass_storage">Buka penyimpanan massal USB</string>
+    <string name="sys_switch_exit_usb_mass_storage">Tutup penyimpanan massal USB -</string>
+    <string name="sys_switch_sdcard_removed">Kartu SD dikeluarkan</string>
+    <string name="sys_switch_usb_mass_storage_fail">Pengeluaran gagal</string>
+    <string name="sys_switch_usb_mass_storage_mode">USB tidak tersedia</string>
+    <string name="sys_switch_usb_mass_storage_mode_wait">Tunggu...</string>
+    <string name="sys_tactility_reaction">Sentuh</string>
+    <string name="sys_tactityraction_disabled">Nonaktifkan tanggapan sentuh</string>
+    <string name="sys_tactityraction_enabled">Aktifkan tanggapan sentuh</string>
+    <string name="sys_virbation_mode_disabled">Mode getar dinonaktifkan</string>
+    <string name="sys_virbation_mode_enabled">Mode getar diaktifkan</string>
+    <string name="sys_whitespot">Ketuk Cepat</string>
+    <string name="sys_wifi">Wi-Fi</string>
+    <string name="sys_wifi_disabled">Wi-Fi dinonaktifkan</string>
+    <string name="sys_wifi_enabled">Wi-Fi diaktifkan</string>
+    <string name="system_switch">Panel pengaturan cepat</string>
+    <string name="temperature_symbol">℃</string>
+    <string name="theme_decoder_not_valiable">Kesalahan pada dekoder tema. Tema ini tidak tersedia</string>
+    <string name="theme_default_name">Default</string>
+    <string name="theme_local_manage_title">Tema saya</string>
+    <string name="theme_local_nodata_desc">Belum ada download. Lihat halaman web</string>
+    <string name="theme_manage_menu_add_theme">Tambahkan ke tema lokal (apt,zip)</string>
+    <string name="theme_manage_select_theme">Pilih tema</string>
+    <string name="theme_module_icons">Ikon</string>
+    <string name="theme_module_other">Lainnya</string>
+    <string name="theme_module_wallpaper">Wallpaper desktop</string>
+    <string name="theme_module_weather">Jam Cuaca</string>
+    <string name="theme_online">Galeri Tema</string>
+    <string name="theme_recommand_folder_name">Direkomendasikan</string>
+    <string name="theme_shop_v6_first_hint">tema, wallpaper, dan semua yang Anda inginkan ada di sini</string>
+    <string name="this_machine_not_support">Pemasangan kartu SD gagal</string>
+    <string name="tip_particle_screen_effect_show">%1$s menawarkan banyak pilihan efek transisi menarik. Anda ingin mengaturnya sekarang?</string>
+    <string name="tip_particle_screen_effect_show_cancel">Nanti</string>
+    <string name="tip_particle_screen_effect_show_ok">Pengaturan</string>
+    <string name="title_apply_old_theme">Tema diimpor.</string>
+    <string name="title_delete_theme">Hapus</string>
+    <string name="title_select_shortcut">Pilih pintasan</string>
+    <string name="toast_search">Cari cepat aplikasi di sudut kiri bawah</string>
+    <string name="top_menu_bazinga_dialog_btn">Sembunyikan</string>
+    <string name="top_menu_bazinga_dialog_content">Bila tersembunyi, %3$s dapat diaktifkan dalam %1$s>%2$s</string>
+    <string name="top_menu_list_item_ads_title">Rekomendasi Aplikasi</string>
+    <string name="top_menu_list_item_go_beauty_center">Periksa</string>
+    <string name="top_menu_list_item_go_beauty_center_title">Telusuri Bursa Tema. Anda pasti akan menemukan sesuatu yang membuat tampilan ponsel lebih keren!</string>
+    <string name="top_menu_list_item_go_set_launcher_title">Jadikan %1$s sebagai peluncur default!</string>
+    <string name="top_menu_list_item_go_wallpaper_center_title">Setiap wallpaper berbeda.</string>
+    <string name="top_menu_list_item_news_tip">Membaca</string>
+    <string name="top_menu_list_item_theme_tip">Rincian</string>
+    <string name="top_menu_list_item_wallpaper_final">Wallpaper percobaan gagal!</string>
+    <string name="top_menu_list_item_wallpaper_loding">Memuat wallpaper. Tunggu.</string>
+    <string name="top_menu_list_item_wallpaper_tip">Percobaan</string>
+    <string name="top_menu_title">%1$s Know</string>
+    <string name="twodimensioncode_scan">Kode QR</string>
+    <string name="uninstallapp_no_this_appinfo">Tidak ada info tentang apl ini. Uninstal gagal.</string>
+    <string name="unzip_theme">Ekstrak paket tema</string>
+    <string name="unzip_theme_waiting">Mengekstrak paket tema...</string>
+    <string name="upgrade_install_flashlight">Senter</string>
+    <string name="upgrade_install_flashlight_msg">Versi baru Senter tersedia. Perbarui sekarang?</string>
+    <string name="upgrade_install_screenoff">Petunjuk</string>
+    <string name="upgrade_install_screenoff_msg">Versi baru ScreenOff tersedia. Perbarui sekarang?</string>
+    <string name="upgrade_install_zxing_scan">Petunjuk</string>
+    <string name="upgrade_install_zxing_scan_msg">Versi baru Kode QR tersedia. Perbarui sekarang?</string>
+    <string name="use_result_now">Terapkan</string>
+    <string name="user_feedback_button_submit">Kirim</string>
+    <string name="user_feedback_committing">Mengirim...</string>
+    <string name="user_feedback_common_backMain">Kembali</string>
+    <string name="user_feedback_contact_none">Masukkan alamat email atau nomor telepon yang benar :)</string>
+    <string name="user_feedback_content_none">Apa pendapat Anda? Beri tahu kami.</string>
+    <string name="user_feedback_content_tip">Bug dan saran (maksimum 250 karakter)</string>
+    <string name="user_feedback_email_tip">Info kontak</string>
+    <string name="user_feedback_loading">Memuat...</string>
+    <string name="user_feedback_no_internet">Jaringan tidak tersedia</string>
+    <string name="user_feedback_page_unvailable">Halaman ini tidak dapat ditampilkan</string>
+    <string name="user_feedback_submit_failed">Pengiriman gagal</string>
+    <string name="user_feedback_submit_success">Tanggapan Anda telah terkirim</string>
+    <string name="user_feedback_tip">&lt;br/>&lt;font color="#948df0">&lt;a href="http://%s/data/androidfaq.html">&lt;i>Tanya Jawab&lt;/i>&lt;/a>&lt;/font></string>
+    <string name="user_feedback_tip1">\n\u0020\u0020\u0020\u0020 Terima kasih atas dukungan dan perhatian Anda! Kami menerima laporan bug dan saran Anda. Kami akan segera membalasnya.</string>
+    <string name="user_feedback_title">Tanggapan</string>
+    <string name="vibrator">Getaran</string>
+    <string name="wallpaper_change_on2G3G_hint">Anda tidak tersambung ke jaringan Wi-Fi. Lanjutkan download?</string>
+    <string name="webview_no_page_tips">Tidak ada halaman progres</string>
+    <string name="widget_analogclock">Jam analog</string>
+    <string name="widget_baidu">Cari</string>
+    <string name="widget_baidu_scan_download_hint">Memproses...</string>
+    <string name="widget_baidu_scan_download_outtime_hint">Waktu pemrosesan habis. Pindai ulang.</string>
+    <string name="widget_baidu_scan_restart">Pindai ulang</string>
+    <string name="widget_baidu_scan_result">Hasil</string>
+    <string name="widget_baidu_scan_result_access">Link</string>
+    <string name="widget_baidu_scan_result_add_contact">Tambah kontak</string>
+    <string name="widget_baidu_scan_result_share">Hasil pemindaian:\n%1$s\n</string>
+    <string name="widget_baidu_scan_result_share_title">Bagikan</string>
+    <string name="widget_error_add_failed">Gagal menambahkan widget. Coba lagi setelah mengaktifkan ulang %1$s.</string>
+    <string name="widget_feedback">Tanggapan</string>
+    <string name="widget_iconapp">Ikon Aplikasi</string>
+    <string name="widget_memoryclean">Booster RAM</string>
+    <string name="widget_powerwidget">Hemat Daya</string>
+    <string name="widget_toggle">Kontrol daya</string>
+    <string name="widget_update_desktop_restart_hint">Upgrade widget \"%2$s\"%1$s selesai. Menjalankan reboot...</string>
+    <string name="widget_variety_change_style_alert_content">Gaya akan diganti sekarang. Penggantian mungkin akan menghapus sejumlah IKON, perlu ditambahkan kembali secara manual, konfirmasi penggantian?</string>
+    <string name="widget_variety_change_style_alert_title">Ubah Gaya</string>
+    <string name="widget_variety_notify_generate_template">Gaya kustom telah dibuat, Anda dapat menggunakannya sekarang!</string>
+    <string name="widget_variety_notify_template_in_use">Gaya ini sedang digunakan dan tidak dapat dihapus!</string>
+    <string name="widget_variety_templates_activity_title">Pilih Template</string>
+    <string name="widget_variety_templates_custom_title">Gaya Kustom</string>
+    <string name="widget_variety_title">Peluncur Bervariasi</string>
+    <string name="widget_wallpaper_1x1_title">Acak</string>
+    <string name="widget_wallpaper_drawer_detail">Pustaka</string>
+    <string name="widget_wallpaper_drawer_list_title">Penelusuran Wallpaper</string>
+    <string name="widget_wallpaper_drawer_more">Selengkapnya</string>
+    <string name="widget_wallpaper_drawer_previous">Sebelumnya</string>
+    <string name="widget_wallpaper_drawer_previous_fail">Tidak tersedia wallpaper untuk dipulihkan</string>
+    <string name="widget_wallpaper_drawer_save">Simpan</string>
+    <string name="widget_wallpaper_drawer_save_success">Wallpaper telah disimpan ke kartu memori di /%1$s/myphone/wallpaper/Gambar</string>
+    <string name="widget_wallpaper_notify_23g_refresh">Anda kini menggunakan jaringan 2G/3G. Jaringan lambat. Harap sabar.</string>
+    <string name="widgets_choose">Pilih widget</string>
+    <string name="wifi">Wi-Fi</string>
+</resources>

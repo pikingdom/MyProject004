@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 标题栏 -->
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/top_view"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content" />
+    <!-- 数据 -->
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_view"
+        android:background="#eeeeed" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/myphone_item_padding"
+                android:paddingRight="@dimen/myphone_item_padding" >
+
+                <!-- 手机抢票 -->
+
+                <RelativeLayout
+                    android:id="@+id/phone_ticket"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/mybattery_bottom_content"
+                    android:background="@drawable/myphone_common_line_press_selector"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+
+                    <ImageView
+                        android:id="@+id/phone_ticket_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/pseronal_assist_ticket_img" />
+
+                    <ImageView
+                        android:id="@+id/phone_ticket_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/searchbox_btn_detail" />
+
+                    <TextView
+                        android:id="@+id/phone_ticket_mid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/phone_ticket_right"
+                        android:layout_toRightOf="@+id/phone_ticket_left"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true"
+                        android:text="@string/personal_assist_phone_ticket_hit"
+                        android:textColor="@color/myphone_common_text_color"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <!-- 分割线 -->
+
+                <ImageView
+                    android:id="@+id/phone_ticket_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@drawable/myphone_common_split"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" />
+
+                <!-- 拨号助手 -->
+
+                <RelativeLayout
+                    android:id="@+id/phone_call"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/mybattery_bottom_content"
+                    android:background="@drawable/myphone_common_line_press_selector"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+
+                    <ImageView
+                        android:id="@+id/phone_call_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/pseronal_assist_call_img" />
+
+                    <ImageView
+                        android:id="@+id/phone_call_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/searchbox_btn_detail" />
+
+                    <TextView
+                        android:id="@+id/phone_call_mid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/phone_call_right"
+                        android:layout_toRightOf="@+id/phone_call_left"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true"
+                        android:text="@string/personal_assist_phone_call"
+                        android:textColor="@color/myphone_common_text_color"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <!-- 分割线 -->
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@drawable/myphone_common_split"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" />
+
+                <!-- 高考查分 -->
+
+                <RelativeLayout
+                    android:id="@+id/phone_checkpoints"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/mybattery_bottom_content"
+                    android:background="@drawable/myphone_common_line_press_selector"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+
+                    <ImageView
+                        android:id="@+id/phone_checkpoints_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/pseronal_assist_checkpoints_img" />
+
+                    <ImageView
+                        android:id="@+id/phone_checkpoints_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/searchbox_btn_detail" />
+
+                    <TextView
+                        android:id="@+id/phone_checkpoints_mid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/phone_checkpoints_right"
+                        android:layout_toRightOf="@+id/phone_checkpoints_left"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true"
+                        android:text="@string/personal_assist_phone_checkpoints"
+                        android:textColor="@color/myphone_common_text_color"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <!-- 分割线 -->
+
+                <ImageView
+                    android:id="@+id/phone_checkpoints_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@drawable/myphone_common_split"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

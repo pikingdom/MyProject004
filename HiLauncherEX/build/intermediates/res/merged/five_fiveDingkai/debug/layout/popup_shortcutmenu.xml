@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    <!-- 设置图标打开APP列表 -->
+    <TextView
+        android:id="@+id/popup_scene_edit"
+        style="@style/ShortcutMenuItem"
+        android:drawableTop="@drawable/popup_create_multi_selector"
+        android:text="@string/popup_set_links"
+        android:visibility="visible" />
+
+    <!-- 设置图标不可卸载 -->
+    <TextView
+        android:id="@+id/popup_uninstall"
+        style="@style/ShortcutMenuItem"
+        android:drawableTop="@drawable/popup_delete_selector"
+        android:text="@string/popup_set_uninstall" />
+
+    <!-- 设置图标冒泡 -->
+    <TextView
+        android:id="@+id/popup_replace"
+        style="@style/ShortcutMenuItem"
+        android:drawableTop="@drawable/popup_replace_selector"
+        android:text="@string/popup_replace" />
+
+    <!-- 设置搜索插件打开APP列表 -->
+    <TextView
+        android:id="@+id/popup_rename"
+        style="@style/ShortcutMenuItem"
+        android:drawableTop="@drawable/popup_rename_selector"
+        android:text="@string/popup_set_links" />
+
+    <!-- 设置天气插件点击时间打开APP列表 -->
+    <TextView
+        android:id="@+id/popup_detail"
+        style="@style/ShortcutMenuItem"
+        android:drawableTop="@drawable/popup_detail_selector"
+        android:text="@string/popup_set_time_links" />
+    <!-- 设置天气插件点击日期打开APP列表 -->
+    <TextView
+        android:id="@+id/popup_deep_clean"
+        style="@style/ShortcutMenuItem"
+        android:drawableTop="@drawable/popup_deep_clean_selector"
+        android:text="@string/popup_set_date_links" />
+    <!-- 设置天气插件点击天气打开APP列表 -->
+    <TextView
+        android:id="@+id/popup_style"
+        style="@style/ShortcutMenuItem"
+        android:drawableTop="@drawable/popup_change_skin_selector"
+        android:text="@string/popup_set_weather_links" />
+    <!-- 重命名 -->
+    <TextView
+        android:id="@+id/popup_setting"
+        style="@style/ShortcutMenuItem"
+        android:drawableTop="@drawable/popup_setting_selector"
+        android:text="@string/popup_rename" />
+    <!-- 换图标 -->
+    <TextView
+        android:id="@+id/popup_gallery"
+        style="@style/ShortcutMenuItem"
+        android:drawableTop="@drawable/popup_gallery_selector"
+        android:text="@string/popup_change_icon" />
+    
+    <TextView
+        android:id="@+id/popup_resize"
+        style="@style/ShortcutMenuItem"
+        android:drawableTop="@drawable/popup_resize_selector"
+        android:text="@string/popup_resize" />
+
+    <TextView
+        android:id="@+id/popup_delete"
+        style="@style/ShortcutMenuItem"
+        android:drawableTop="@drawable/popup_delete_selector"
+        android:text="@string/popup_delete" />
+    
+    <TextView
+        android:id="@+id/popup_create_multi"
+        style="@style/ShortcutMenuItem"
+        android:drawableTop="@drawable/popup_create_multi_selector"
+        android:text="@string/common_button_create_multi" />
+
+    <TextView
+        android:id="@+id/popup_folder_type"
+        style="@style/ShortcutMenuItem"
+        android:drawableTop="@drawable/popup_folder_type_selector"
+        android:text="@string/popup_folder_normal" />
+    
+</LinearLayout>

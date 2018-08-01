@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- 备份 恢复与重置 -->
+	<Preference
+		android:layout="@layout/preference_normal_layout"
+		android:key="settings_backup_tobackup"
+		android:title="@string/settings_backup_tobackup" 
+		android:widgetLayout="@layout/preferences_listpreferences_more_btn"/>
+	<Preference
+		android:layout="@layout/preference_normal_layout"
+		android:enabled="false"
+		android:title="@string/settings_backup_torestore"
+		android:key="settings_backup_torestore"
+		android:summary="@string/settings_backup_tobackup_hint"
+		android:widgetLayout="@layout/preferences_listpreferences_more_btn"/>
+	<Preference
+	 	android:layout="@layout/preference_normal_layout"
+		android:key="settings_backup_reset"
+		android:title="@string/settings_backup_reset" 
+		android:summary="@string/settings_backup_reset_hint"
+		android:widgetLayout="@layout/preferences_listpreferences_more_btn"/>	
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_bar_height">100dip</dimen>
+    <dimen name="launcher_linelight_light_height">16dip</dimen>
+    <dimen name="popshortcut_menu_height">96dip</dimen>
+    <dimen name="workspaceEndPadding">116dip</dimen>
+</resources>

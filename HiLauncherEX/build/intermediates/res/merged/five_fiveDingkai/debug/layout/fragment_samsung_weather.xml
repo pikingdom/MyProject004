@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa">
+
+
+    <LinearLayout
+        android:id="@+id/ll_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="158.3dp"
+            android:background="@drawable/bg_samsung_weather_top" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_samsung_title"
+            android:gravity="center_vertical"
+            android:paddingLeft="35.7dp"
+            android:text="获取天气预报"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="" />
+
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/i_0"
+        layout="@layout/include_samsung_guide_bottom_next"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/i_0"
+        android:layout_below="@id/ll_0"
+        android:background="#fafafa"
+        android:orientation="vertical"
+        android:paddingBottom="41.7dp"
+        android:paddingLeft="35.7dp"
+        android:paddingRight="31.7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="在主屏幕上查看您当前位置的天气预报"
+            android:textColor="#252525"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+
+        <CheckBox
+            android:layout_marginTop="16dp"
+            android:padding="11dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/cb_samsung"
+            android:textColor="#86898b"
+            android:checked="true"
+            android:textSize="11dp"
+            android:text="同意使用位置信息"/>
+
+        <CheckBox
+            android:layout_marginTop="16dp"
+            android:padding="11dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/cb_samsung"
+            android:textColor="#86898b"
+            android:checked="true"
+            android:textSize="11dp"
+            android:text="同意启用定位服务并更改定位方法"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="28dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_samsung_weather_bottom"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

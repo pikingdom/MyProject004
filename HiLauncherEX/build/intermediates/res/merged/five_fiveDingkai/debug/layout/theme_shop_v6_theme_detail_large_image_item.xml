@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/largePreImg"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="@dimen/theme_shop_v6_theme_detail_gallery_item_margin_left"
+        android:layout_marginRight="@dimen/theme_shop_v6_theme_detail_gallery_item_margin_right"
+        android:layout_width="@dimen/theme_shop_v6_theme_detail_gallery_item_width"
+        android:layout_height="@dimen/theme_shop_v6_theme_detail_gallery_item_height" />
+
+</LinearLayout>

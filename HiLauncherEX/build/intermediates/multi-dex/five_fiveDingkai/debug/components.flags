@@ -1,0 +1,1234 @@
+-injars 'F:\new\newline\91LauncherToolForDZ\HiLauncherEX\build\intermediates\transforms\jarMerging\five_fiveDingkai\debug\jars\1\1f\combined.jar'
+-outjars 'F:\new\newline\91LauncherToolForDZ\HiLauncherEX\build\intermediates\multi-dex\five_fiveDingkai\debug\componentClasses.jar'
+
+-libraryjars 'C:\zhenghonglin\dev\android-sdk\build-tools\23.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'F:\new\newline\91LauncherToolForDZ\HiLauncherEX\build\intermediates\multi-dex\five_fiveDingkai\debug\components.flags'
+
+
+-keep class com.nd.hilauncherdev.launcher.LauncherApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.melon.mma.service.CommIntercept {
+    <init>();
+}
+
+-keep class com.melon.mma.service.CommService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.Launcher {
+    <init>();
+}
+
+-keep class com.nd.android.launcher.Launcher {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.InstallAppFromWidgetReceiver {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.broadcast.InstallShortcutReceiver {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.broadcast.UninstallShortcutReceiver {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.datamodel.ApplicationChangeReceiver {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.plugin.ThemeManageReceiver {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.plugin.NoneActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.LauncherProvider {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.framework.AppChooserListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.kitset.systemtoggler.BrightnessActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.kitset.systemtoggler.MyBatteryBrightnessActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.widget.systemtoggler.SystemSwitchDetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.notification.NotificationToolsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.notification.NotifyRedirectActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.app.activity.AppResolverSelectActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.app.activity.X5Launcher {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.app.activity.BrowserActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.app.activity.CampaignBrowserActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.topmenu.campaign.CompainWebViewActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.folder.activity.FolderRenameActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.folder.activity.FolderEncriptTypeChooseActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.folder.activity.FolderEncriptSettingActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.folder.activity.FolderEncriptEntranceActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.folder.distribution.FolderAppDistributionActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.widget.feedback.FeedbackActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.widget.feedback.FeedbackReplyActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.kitset.crop.CropImageActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.myring.online.OnLineRingActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.MyThemeCenterMain {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.mytheme.wallpaper.WallPaperMain {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.wallpaper.WallpaperChangeService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.mywallpaper.WallPaperActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.mywallpaper.online.OnlineWallPaperActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.swapwallpaper.SwapWallpaperSettingActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.swapwallpaper.WallpaperStyleActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.backup.MyBackupActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.SystemSettingsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.systemhardware.PandaHomeCheckMainActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.systemhardware.SystemHardwareTestActivity {
+    <init>();
+}
+
+-keep class com.sec.android.app.screencapture.ScreenCaptureAnimationActivity {
+    <init>();
+}
+
+-keep class com.sec.android.app.screencapture.NoRootRecommendSoftwareActivity {
+    <init>();
+}
+
+-keep class com.sec.android.app.screencapture.ScreenCaptureCloseNotificationActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.systemhardware.PandaHomeCheckActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.settings.HomeSettingsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.settings.IconAndFolderSettingsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.settings.LauncherLayoutSettingsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.settings.AdvancedSettingsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.settings.BackupResetSettingsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.settings.AboutSettingsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.settings.StatusBarSettingsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.settings.GestureControlSettingsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.settings.DefaultActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.webconnect.versionupdate.SoftUpdateDialog {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.webconnect.versionupdate.SoftUpdateActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.webconnect.versionupdate.WaitForDownloadDialog {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.BrightnessActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.settings.BrowserDefaultHomeActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.readme.ReadMeNewActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.widget.taobao.TaobaoWidgetActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.myfile.MyFileActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.theme.localtheme.LocalThemeManagerActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.theme.localtheme.LocalThemeDetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.theme.localtheme.LocalThemeSeriesDetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.theme.localtheme.LocalModuleDetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.ThemeShopV8LocalActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.v8recommend.ThemeShopV8UserTagSettingActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.v8recommend.ThemeShopV8UserTagSettingGuideActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.theme.LocalThemeService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.theme.iconreplace.IconReplaceActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.theme.iconreplace.MatchKeywordEditActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.theme.iconreplace.ThemeIconsPreviewActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.theme.iconreplace.ModuleIconsPreviewActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.app.activity.AppRenameActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.theme.receiver.PandaSpaceThemeReceiver {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.theme.receiver.PandaThemeAskReceiver {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.theme.receiver.OnlineThemeOperateAssit {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.framework.choosedialog.AppChooseDialogActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.framework.choosedialog.AppChooseDialogListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.addboot.PandaShortcutChooseActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.addboot.PickShortcutActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.app.activity.VirusKillerTmsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.widget.shop.enhance.WidgetShopActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.widget.shop.view.WidgetInfoActivity {
+    <init>();
+}
+
+-keep class com.nd.android.pandahome2.manage.shop.ThemeShopMainActivity {
+    <init>();
+}
+
+-keep class com.nd.android.pandahome2.manage.shop.ThemeShopDynamicMain {
+    <init>();
+}
+
+-keep class com.nd.android.pandahome2.manage.shop.ThemeShopLoadingActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop3.ThemeShopV2MainActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop3.customview.switchview.ScrollPreviewImgActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.ndcomplatform.NdComPlatformMaoZhuaPayActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themeorder.ThemeShopV6OrderListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop3.appsoft.ThemeAppDownActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop3.ThemeShopV3LauncherExAPI {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop3.eventplan.EventPlanActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themelist.ThemeShopV6TagListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themelist.ThemeShopV6ThemeListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themecategory.ThemeShopV6CategoryThemeListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.authorarea.AuthorAreaThemeListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.thememodule.ThemeShopV6ModuleListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.thememodule.ThemeShopV8ModuleListByTagActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.v8recommend.ThemeShopV8WallPaperListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themedetail.ThemeShopV6DetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themeseries.ThemeShopV6SeriesDetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themeseries.ThemeShopV6SeriesDetailDIYActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.thememodule.ThemeShopV6ModuleDetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.search.ThemeShopV6ClassifySearchActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.ThemeShopV6HotwordSearchActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themedetail.ThemeShopV6DetailInappActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themedetail.ThemeShopV6CommentActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themedetail.ThemeShopCommentActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themestyle.ThemeShopV8OnlineStyleDetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themestyle.ThemeShopV8OnlineStyleCateListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themestyle.ThemeShopV8OnlineStyleListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themestyle.ThemeShopV8LocalStyleDetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themestyle.ThemeShopV8LocalStyleListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.videowallpaper.ThemeShopV8VideoPaperListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.videowallpaper.ThemeShopV8VideoPaperCommonListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.videowallpaper.ThemeShopV8VideoPaperDetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.videowallpaper.ThemeShopV8VideoPaperLocalDetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.weixin.OpenURLActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.uri.UriDeliveryActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.uri.UriDeliveryService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.mycollect.ThemeShopV6MyCollectActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.thememodule.ThemeShopV6ModuleStoreActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.themelist.ThemeShopV6ThemeStoreActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.webview.ThemeShopV6NetPlanWebActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.webview.ThemeShopV6WebActivityForCampaign {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop3.down.CrossProcessThemeDownloadService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.webconnect.downloadmanage.model.DownloadServerService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.webconnect.downloadmanage.model.PluginDownloadForwardService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.ndcomplatform.LittlePayService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.webconnect.versionupdate.SoftUpdateService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.webconnect.upgradhint.BeautyUpgradeService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.service.BatteryNotificationService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.service.BatteryParamService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.safecenter.SafeCenterActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.settings.IconMask.IconMaskActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.MyBatteryActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.MyBatteryPowerAppDetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.BatteryPatternActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.TimeSwitchActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.CleanLockActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.TimeSwitchReceiver {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.MyBatteryAvailableTimeActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.MyBatterydetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.BatterySettingActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.BatterySettingLockActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.BatterySettingLowHitActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.service.BatteryService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.export.ExportService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.export.ExportActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.export.ExportLayoutService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.export.ExportShenLongLayoutService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.MyBatteryFullTipActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.MyBatteryBsOptimizeActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.MyBatteryPowerAppActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.mybattery.receiver.BatteryPointLogReceiver {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.receiver.BootBroadcastReceiver {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.safecenter.receiver.BootTimeReceiver {
+    <init>();
+}
+
+-keep class com.nd.calendar.provider.PandahomeProvider {
+    <init>();
+}
+
+-keep class com.nd.weather.widget.UI.weather.UIWeatherFragmentAty {
+    <init>();
+}
+
+-keep class com.nd.weather.widget.UI.weather.UIWidgetCityMgrAty {
+    <init>();
+}
+
+-keep class com.nd.weather.widget.UI.UICalendarGuideAty {
+    <init>();
+}
+
+-keep class com.nd.weather.widget.UI.weather.UIWeatherSetAty {
+    <init>();
+}
+
+-keep class com.nd.weather.widget.UI.setting.UISettingActivity {
+    <init>();
+}
+
+-keep class com.nd.weather.widget.UI.setting.UISettingAboutAty {
+    <init>();
+}
+
+-keep class com.nd.weather.widget.UI.setting.UISettingWeatherAty {
+    <init>();
+}
+
+-keep class com.nd.weather.widget.UI.setting.UISettingPmSourceAty {
+    <init>();
+}
+
+-keep class com.nd.weather.widget.UI.setting.UISubmitOpinionAty {
+    <init>();
+}
+
+-keep class com.nd.weather.widget.StartupReceiver {
+    <init>();
+}
+
+-keep class com.nd.weather.widget.BootReceiver {
+    <init>();
+}
+
+-keep class com.nd.weather.widget.TimeService {
+    <init>();
+}
+
+-keep class com.nd.weather.widget.PandaHome.Receiver.InstallReceiver {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.PersonalCenterActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.PersonalCenterSettingActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.PersonalSecurityCenterActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.PersonalSecurityBindActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.PersonalInfoCenterActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.PersonalRechargeRecordActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.PersonalOrderListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.assist.PersonalAssistActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.assist.PhoneCallActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.AllDownloadManagerActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.PersonalMessageCenterActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.phonehelper.CallHelperService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.widget.baidu.zxing.CaptureResultActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.wifi.WifiSetMainActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.wifi.WifiInfoDialogActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.wifi.WifiStaticIpDialogActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.navigation.settings.SettingsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.navigation.settings.OpenPageSettingsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.privatezone.EntranceActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.mycleaner.MyCleanerActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.mycleaner.MyCleanerApkActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.appmanager.AppManagerMainActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.appmanager.AppManagerService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.navigation.SearchActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.search.browser.pandahomebrowser.PandahomeBrowserActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.settings.assit.movedesk.MoveDeskItemPreActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.nettraffic.FlowMonitoringActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.nettraffic.FlowMonitoringHelper {
+    <init>();
+}
+
+-keep class com.nd.quick.activity.AnyshareGuideActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.myfont.activity.FontMainActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.myfont.FontService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.push.WeiBoAgreementActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.scene.shop.SceneShopMainActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.scene.shop.SceneShopDetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.scene.shop.ScenePreviewActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.scene.SceneApkEntraActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.settings.scene.HomeSceneModeSettingsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.scene.shop.SceneDownloadService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.appstore.AppStoreSwitchActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.PluginLoaderActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.PluginLoaderActivityForDialog {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.PluginLoaderListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.PluginLoaderTabActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.PluginLoaderActivityGroup {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.PluginLoaderService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.common.PluginBridgeService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.other.PluginLoaderActivityForShopProcess {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.other.PluginLoaderListActivityForShopProcess {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.other.PluginLoaderTabActivityForShopProcess {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.other.PluginLoaderActivityGroupForShopProcess {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.other.PluginLoaderServiceForShopProcess {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.appstore.PluginLoaderActivityForShopProcessForAppStore {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.appstore.PluginLoaderListActivityForShopProcessForAppStore {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.appstore.PluginLoaderTabActivityForShopProcessForAppStore {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.appstore.PluginLoaderActivityGroupForShopProcessForAppStore {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dynamic.DyanmicWidgetReceiver {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.support.UserStateService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.icompaign.CompaignPluginActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.icompaign.ForwordCompaignActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.icompaign.CompaignService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.datamodel.NetworkChangeReceiver {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.datamodel.PowerConnectedReceiver {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.widget.variety.VarietyTemplatesActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.pet.PetActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.widget.cleaner.CleanMemoryForThirdLauncherActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.app.activity.InstallShortcutInterceptActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.faq.FAQActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.push.PushMsgRedirectActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.drawer.apphide.AppHideActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.drawer.apphide.AppHideEncriptSettingActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.drawer.apphide.AppHideEncriptTypeChooseActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.drawer.apphide.AppHideEncriptEntranceActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.drawer.apphide.MiBaoActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.drawer.apphide.AppHideSettingActivity {
+    <init>();
+}
+
+-keep class com.wireless.android.jifenqiang.JiFenQiangActivity {
+    <init>();
+}
+
+-keep class com.wireless.android.jifenqiang.CoinInfoActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.kitset.resolver.ResolverActivity16 {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.kitset.resolver.ResolverActivity14 {
+    <init>();
+}
+
+-keep class com.wireless.pandahome.present.PresentService {
+    <init>();
+}
+
+-keep class com.wireless.pandahome.present.PresentMainActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.kitset.resolver.ResolverActivityMi {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.kitset.resolver.ResolverActivityMiNotificationMessage {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.mycleaner.MycleanerMemoryActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.mycleaner.DepthCleanActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.mycleaner.MyCleanerLockActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.theme.localtheme.ThemeSeriesTips {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.safecenter.SafeCenterTempActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.search.appsearch.MyphoneAppSearchActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.in.MainActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.in.PasterForLauncherActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop3.DiyWallpaperDetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop3.DiyWallpaperListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.customthemeseries.CustomThemeSeriesAddActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.customthemeseries.ThemeChooseActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.customthemeseries.CustomThemeSeriesResultActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.customthemeseries.CustomThemeSeriesTips {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.navigation.NavigationActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.redpacket.RedPacketAwardActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.memberintegral.IntegralDetailActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.redpacket.MyRedPacketActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.redpacket.MyRedPacketConvertActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.memberintegral.MemberEncourageActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.memberintegral.MemberUpgradeAnimationActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.menu.personal.memberintegral.MemberIntegralWebActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.sdk.AdvertSDKBrowserActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.sdk.AdvertSDKBrowserActivityForLauncherProcess {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.search.browser.service.FirstLoadingX5Service {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop6.hourhottheme.HourHotThemeListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.DefaultHomeTipActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.kitset.resolver.ResolverActivityMi2 {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.CallHomeService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.navigation.NavigationJumpActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.launcher.navigation.MySubscribeActInLauncher {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.shop.shop3.feed.FeedMainActivity {
+    <init>();
+}
+
+-keep class com.sohu.android.plugin.app.ProxyActivity {
+    <init>();
+}
+
+-keep class com.sohu.android.plugin.app.ProxyTransparentActivity {
+    <init>();
+}
+
+-keep class com.sohu.android.plugin.app.ProxyBroadcastReceiver {
+    <init>();
+}
+
+-keep class com.sohu.android.plugin.app.ProxyService {
+    <init>();
+}
+
+-keep class com.sohu.android.plugin.service.PluginCoreService {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.myphone.battery.charging.ChargingActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dzconfig.activity.ZeroIconListActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dzconfig.activity.ZeroIconSettingsActivity {
+    <init>();
+}
+
+-keep class com.nd.hilauncherdev.dzconfig.activity.ZeroIconActionsActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 红包布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/redpacket_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/redpacket_bg_yellow"
+        android:orientation="vertical" >
+
+        <!-- 红包内容 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="18dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/redpacket_theme_coupon_pieces"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/redpacket_award_theme_coupon_pieces"
+                    android:textColor="#ff181818"
+                    android:textSize="11sp" />
+                <TextView
+                    android:id="@+id/redpacket_theme_coupon_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="1000"
+                    android:textColor="#ffC92331"
+                    android:textSize="40sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center|left"
+                android:orientation="vertical" >
+				<TextView
+				    android:id="@+id/redpacket_theme_coupon_overplus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/redpacket_award_theme_coupon_count"
+                    android:textColor="#ff999999"
+                    android:textSize="11sp" />
+                <TextView
+                    android:id="@+id/redpacket_summary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="left"
+                    android:text="@string/redpacket_award_theme_coupon_use_explain"
+                    android:textColor="#ff999999"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/redpacket_award_theme_coupon_use_explain1"
+                    android:textColor="#ff999999"
+                    android:textSize="11sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 日期时间 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/redpacket_theme_coupon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/redpacket_award_theme_coupon"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/redpacket_reason"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/redpacket_theme_coupon"
+                android:layout_toLeftOf="@+id/redpacket_deadline"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="【铜牌会员】"
+                android:textColor="#ffCF4851"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/redpacket_deadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/redpacket_award_theme_coupon_deadline"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+        </RelativeLayout>
+    </LinearLayout>
+	<ImageView 
+	    android:id="@+id/redpacket_flag"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/redpacket_used"
+	    android:layout_alignParentRight="true"
+	    android:visibility="gone"
+	    />
+</RelativeLayout>

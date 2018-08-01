@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+	<LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+	    <FrameLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	    	<ImageView android:id="@+id/top_banner" 
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_marginBottom="46dip"
+	    	    android:scaleType="fitXY"
+	    	    android:src="@drawable/discovery_banner" />
+	    	<LinearLayout android:id="@+id/entrance_layout" 
+	    	    android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	        	android:layout_gravity="bottom|center_horizontal"
+	        	android:layout_marginLeft="8dip"
+	        	android:layout_marginRight="8dip"
+	        	android:padding="9dip"
+	        	android:gravity="center"
+	        	android:background="@drawable/shape_white_corner_bg"
+	        	android:orientation="horizontal" >
+	    	    <TextView android:id="@+id/entrance_theme" 
+		    	    android:layout_width="wrap_content"
+		    	    android:layout_height="wrap_content"
+		    	    android:layout_weight="1"
+		    	    android:textColor="#000000"
+		    	    android:gravity="center"
+		    	    android:textSize="13sp"
+		    	    android:drawablePadding="5dip"
+		    	    android:text="@string/discovery_entrance_theme"
+		    	    android:drawableTop="@drawable/discovery_entrance_theme_selector" />
+	    	    <TextView android:id="@+id/entrance_feed" 
+	    	    	android:layout_width="wrap_content"
+		    	    android:layout_height="wrap_content"
+		    	    android:layout_weight="1"
+		    	    android:textColor="#000000"
+		    	    android:gravity="center"
+		    	    android:textSize="13sp"
+		    	    android:drawablePadding="5dip"
+		    	    android:text="@string/discovery_entrance_feed"
+					android:visibility="gone"
+		    	    android:drawableTop="@drawable/discovery_entrance_feed_selector" />
+	    	    <TextView android:id="@+id/entrance_comic" 
+	    	    	android:layout_width="wrap_content"
+		    	    android:layout_height="wrap_content"
+		    	    android:layout_weight="1"
+		    	    android:textColor="#000000"
+		    	    android:gravity="center"
+		    	    android:textSize="13sp"
+		    	    android:drawablePadding="5dip"
+		    	    android:text="@string/discovery_entrance_comic"
+		    	    android:drawableTop="@drawable/discovery_entrance_comic_selector" />
+	    	    <TextView android:id="@+id/entrance_subscribe" 
+	    	    	android:layout_width="wrap_content"
+		    	    android:layout_height="wrap_content"
+		    	    android:layout_weight="1"
+		    	    android:textColor="#000000"
+		    	    android:gravity="center"
+		    	    android:textSize="13sp"
+		    	    android:drawablePadding="5dip"
+		    	    android:text="@string/discovery_entrance_subscribe"
+		    	    android:drawableTop="@drawable/discovery_entrance_subscribe_selector" />
+	    	    <TextView android:id="@+id/entrance_paster" 
+	    	    	android:layout_width="wrap_content"
+		    	    android:layout_height="wrap_content"
+		    	    android:layout_weight="1"
+		    	    android:textColor="#000000"
+		    	    android:gravity="center"
+		    	    android:textSize="13sp"
+		    	    android:drawablePadding="5dip"
+		    	    android:text="@string/discovery_entrance_paster"
+		    	    android:drawableTop="@drawable/discovery_entrance_paster_selector" />	
+	    	</LinearLayout>
+		</FrameLayout>
+		
+	    <LinearLayout android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dip"
+	        android:orientation="vertical">
+		    <!-- 天天漫画 -->
+		    <include layout="@layout/theme_shop_v8_discovery_comic_view"/>
+		    <!-- DIY主题精选 -->
+		    <include layout="@layout/theme_shop_v8_discovery_diy_theme_view"/>
+		    <!-- 我的订阅 -->
+		    <include layout="@layout/theme_shop_v8_discovery_subscribe_view"/>
+		    <!-- 美图达人 -->
+		    <include layout="@layout/theme_shop_v8_discovery_feed_view"/>
+	    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

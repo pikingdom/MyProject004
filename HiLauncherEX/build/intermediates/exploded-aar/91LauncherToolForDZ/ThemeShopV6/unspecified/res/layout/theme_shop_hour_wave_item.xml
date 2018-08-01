@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/hour_theme_bg_color">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingTop="10dp"
+                   android:paddingLeft="15dp"
+                   android:id="@+id/hour_goBack"
+                   android:src="@drawable/common_back_w"
+                   android:layout_centerVertical="true"
+                   android:layout_alignParentLeft="true"
+        />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:paddingTop="10dp"
+                  android:paddingRight="15dp"
+                  android:text=" "
+                  android:textColor="@color/white"
+                  android:textSize="13sp"
+                  android:layout_centerVertical="true"
+                  android:id="@+id/hour_time"
+        />
+
+    </RelativeLayout>
+    <com.nd.hilauncherdev.shop.shop6.hourhottheme.WaveView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:id="@+id/slideview"
+            android:paddingTop="5dp"
+            android:visibility="invisible"
+            android:paddingBottom="2dp"
+            android:background="@color/hour_theme_bg_color"
+
+    />
+
+</LinearLayout>

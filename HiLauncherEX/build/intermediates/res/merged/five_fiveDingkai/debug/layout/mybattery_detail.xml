@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.nd.hilauncherdev.myphone.battery.mybattery.view.MyBatteryChartView
+        android:id="@+id/chartview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+
+    <com.nd.hilauncherdev.myphone.battery.mybattery.view.MyBatteryDetailBottomTextView
+        android:id="@+id/chartbottom_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+    <ListView
+        android:id="@+id/available_time_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@color/white"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/myphone_common_split"
+        android:dividerHeight="1dip"
+        android:listSelector="@drawable/myphone_click_item_blue" />
+
+
+</LinearLayout>

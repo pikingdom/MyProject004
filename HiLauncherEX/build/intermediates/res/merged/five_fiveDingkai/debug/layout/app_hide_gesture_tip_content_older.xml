@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+        >
+
+    <TextView
+            android:id="@+id/tv_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical|left"
+            android:text="@string/app_hide_gesture_tip_title"
+            android:textColor="#707070"
+            android:textSize="14sp"/>
+
+    <ImageView
+            android:layout_below="@id/tv_tips"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/iv_img"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_gravity="bottom|center_horizontal"
+            android:src="@drawable/app_hide_gesture_tip"
+            />
+
+</RelativeLayout>

@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\downloadmanager_btn_menu.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\downloadmanager_btn_menu.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\common_header_share.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\common_header_share.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\webview_left_button.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\webview_left_button.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\common_sort_menu.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\common_sort_menu.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\folder_clear_name_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\folder_clear_name_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\clean_widget_btn_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\clean_widget_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\app_choose_btn.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\app_choose_btn.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\downloadmanager_btn_setting_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\downloadmanager_btn_setting_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\app_choose_l_btn_ex.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\app_choose_l_btn_ex.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\btn_checkbox.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\btn_checkbox.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\selector_checkbox.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\selector_checkbox.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\preview_border_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\preview_border_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\shortcut_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\shortcut_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\common_checkbox_bg_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\common_checkbox_bg_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\downloadmanager_checkbox.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\downloadmanager_checkbox.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\file_browser_btn_return.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\file_browser_btn_return.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\common_btn_blue_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\common_btn_blue_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\common_btn_cancel_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\common_btn_cancel_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\icon_bg_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\icon_bg_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\common_checkbox_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\common_checkbox_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\webview_back_button.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\webview_back_button.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\webview_progressbar_progress_horizontal1.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\webview_progressbar_progress_horizontal1.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\delete_handle.9.png",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\delete_handle.9.png"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\pre_more_button.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\pre_more_button.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\myphone_btn_ring_wallpaper_search_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\myphone_btn_ring_wallpaper_search_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\app_choose_l_btn.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\app_choose_l_btn.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\common_btn_red_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\common_btn_red_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\webview_browser_button.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\webview_browser_button.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\downloadmanager_item_progress_style.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\downloadmanager_item_progress_style.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\searchbox_btn_bottombar_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\searchbox_btn_bottombar_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\app_choose_r_btn.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\app_choose_r_btn.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\baidu_btn_search_fully_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\baidu_btn_search_fully_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\download_tips_btn.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\download_tips_btn.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\preview_home_btn_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\preview_home_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\common_title_bg.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\common_title_bg.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\folder_name_input_edit_bg.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\folder_name_input_edit_bg.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\launcher_popup_recommend_close_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\launcher_popup_recommend_close_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\myphone_click_item_blue.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\myphone_click_item_blue.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\webview_right_button.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\webview_right_button.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\theme_shop_v6_loading_mid_ani.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\theme_shop_v6_loading_mid_ani.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\common_menu_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\common_menu_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\preview_del_btn_selector.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\preview_del_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\common_setting.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\common_setting.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\common_back.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\common_back.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\downloadmanager_item_delete_bg.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\downloadmanager_item_delete_bg.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\common_title_bg2.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\common_title_bg2.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\download_progressbar_style.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\drawable\\download_progressbar_style.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\drawable\\app_choose_r_btn_ex.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\drawable\\app_choose_r_btn_ex.xml"
+    }
+]

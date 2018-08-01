@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_choose_top_background_new"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/app_running_fir_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_top_layout_height"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/app_running_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:text="@string/apprunning_first_force_notify_title"
+            android:textColor="@color/dialog_title_color"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/app_running_fir_title" >
+
+        <Button
+            android:id="@+id/app_running_dialog_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingTop="3dip"
+            android:text="@string/apprunning_first_force_notify_btn"
+            android:textColor="@color/common_dialog_text_color_selector" 
+            android:background="@drawable/app_choose_l_btn"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/app_running_dialog_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/app_running_dialog_btn"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/apprunning_first_force_notify_static"
+            android:textColor="#757675"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

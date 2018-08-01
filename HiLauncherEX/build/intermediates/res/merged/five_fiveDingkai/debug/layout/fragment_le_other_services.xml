@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_le_bg">
+
+    <include
+        android:id="@+id/include_top"
+        layout="@layout/include_le_guide_page_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_le_include_page_top_h"/>
+    <include
+        android:id="@+id/include_bottom"
+        layout="@layout/include_le_guide_page_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_le_include_page_bottom_h"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/include_top"
+        android:layout_above="@id/include_bottom"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="48.7dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/other_services_rl_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="19.7dp">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:textSize="17.14dp"
+                android:textColor="@color/guide_le_title_text"
+                android:text="开启定位服务"/>
+            
+            <CheckBox
+                android:id="@+id/other_services_cb_location"
+                android:layout_width="17.5dp"
+                android:layout_height="17.5dp"
+                android:layout_alignParentRight="true"
+                android:clickable="false"
+                android:focusable="false"
+                android:checked="true"
+                android:button="@drawable/cb_le_other"/>
+
+        </RelativeLayout>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12.51dp"
+            android:textColor="#515a61"
+            android:lineSpacingExtra="13.71dp"
+            android:lineSpacingMultiplier="1.0"
+            android:text="@string/guide_le_enable_location_services"/>
+
+
+        <RelativeLayout
+            android:id="@+id/other_services_rl_experience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45.3dp"
+            android:paddingBottom="19.7dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:textSize="17.14dp"
+                android:textColor="@color/guide_le_title_text"
+                android:text="开启用户体验计划"/>
+
+            <CheckBox
+                android:id="@+id/other_services_cb_experience"
+                android:layout_width="17.5dp"
+                android:layout_height="17.5dp"
+                android:layout_alignParentRight="true"
+                android:clickable="false"
+                android:focusable="false"
+                android:checked="true"
+                android:button="@drawable/cb_le_other"
+                android:background="@null"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12.51dp"
+            android:textColor="#515a61"
+            android:lineSpacingExtra="13.71dp"
+            android:lineSpacingMultiplier="1.0"
+            android:text="@string/guide_le_experience_services"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

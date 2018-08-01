@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/bg_samsung_dialog_wlan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29.7dp"
+        android:layout_marginLeft="21.7dp"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/dialog_wlan_tv_ssid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#252525"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="ssid"/>
+
+        <TextView
+            android:id="@+id/dialog_wlan_tv_click_conn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18.3dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="40dp"
+            android:textColor="#252525"
+            android:textSize="13dp"
+            android:text="连接网络"/>
+
+
+        <TextView
+            android:id="@+id/dialog_wlan_tv_click_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="40dp"
+            android:textColor="#252525"
+            android:textSize="13dp"
+            android:text="忘记网络"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:background="@color/transparent"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

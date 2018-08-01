@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/city_weather_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:orientation="vertical" >
+	<RelativeLayout 
+	    android:id="@+id/city_weather_now"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1" >
+	    <!-- 左上角预警 -->
+	    <TextView
+	        android:id="@+id/nowWeatherWindPower"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginLeft="16dp"
+	        android:layout_marginRight="16dp"
+	        android:layout_marginTop="5dp"
+	        android:background="@drawable/weather_shape_wind_power_bg"
+	        android:paddingBottom="2dp"
+	        android:paddingLeft="8dp"
+	        android:paddingRight="8dp"
+	        android:paddingTop="2dp"
+	        android:textColor="@android:color/white" />
+	
+	    <!-- 实时天气 -->
+	
+	    <LinearLayout
+	        android:id="@+id/rl_temp_layout"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/weather_city_zhishu_layout"
+	        android:layout_marginLeft="16dp"
+	        android:orientation="vertical" >
+	
+	        <!-- 温度 -->
+	        <RelativeLayout
+	            android:id="@+id/tempText_layout"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="18dp"
+	            android:padding="0dp" >
+	
+	            <TextView
+	                android:id="@+id/tempTextId"
+	                style="@style/weather_temp_txt_style"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:ellipsize="end"
+	                android:gravity="center"
+	                android:singleLine="true"
+	                android:text="      " />
+	
+	            <!-- 温度符号 与 刷新图标 -->
+	            <TextView
+	                android:id="@+id/tempIconId"
+	                style="@style/weather_temp_cicle_style"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="5dp"
+	                android:layout_toRightOf="@id/tempTextId"
+	                android:gravity="center"
+	                android:text="°" />
+	            
+	            <!-- 悬浮广告图标 -->
+	            <com.nd.weather.widget.UI.weather.ad.AdImageView
+	                android:id="@+id/ad_icon"
+	                android:layout_width="40dip"
+	                android:layout_height="40dip"
+	                android:layout_marginRight="20dip"
+	                android:layout_alignParentRight="true"
+	                android:layout_centerVertical="true" />
+	        </RelativeLayout>
+	        
+	        <LinearLayout
+	            android:id="@+id/rl_temp"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="18dp"
+	            android:orientation="horizontal" >
+	            <ImageView
+	                android:id="@+id/nowWeathImageId"
+	                android:layout_width="30dp"
+	                android:layout_height="30dp"
+	                android:layout_gravity="bottom"
+	                android:layout_marginRight="3dp"
+	                android:gravity="bottom"
+	                android:visibility="gone" />
+	            <TextView
+	                android:id="@+id/nowWeathTextId"
+	                style="@style/shadow_gray"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="bottom"
+	                android:gravity="bottom"
+	                android:text="@string/now_weather_info"
+	                android:textColor="@android:color/white"
+	                android:layout_marginRight="10dip"
+	                android:textSize="18sp" />
+	            <TextView
+	                android:id="@+id/nowWeathTempTextId"
+	                style="@style/shadow_gray"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="bottom"
+	                android:gravity="bottom"
+	                android:text="@string/now_weather_info"
+	                android:textColor="@android:color/white"
+	                android:textSize="@dimen/tempsize" />
+	        </LinearLayout>
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:id="@+id/weather_city_zhishu_layout"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:baselineAligned="false"
+	        android:gravity="center"
+	        android:orientation="vertical" >
+	        <!-- 指数 -->
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_marginBottom="18dp"
+	            android:baselineAligned="false"
+	            android:gravity="center"
+	            android:orientation="horizontal" >
+	            <RelativeLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:orientation="horizontal" >
+	                <TextView
+	                    android:id="@+id/weather_wind_scale"
+	                    style="@style/weather_exponent_style"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_centerInParent="true"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/white" />
+	            </RelativeLayout>
+	            <RelativeLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:orientation="horizontal" >
+	                <TextView
+	                    android:id="@+id/weather_humidity"
+	                    style="@style/weather_exponent_style"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_centerInParent="true"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/white" />
+	            </RelativeLayout>
+	            <RelativeLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"
+	                android:orientation="horizontal" >
+	                <TextView
+	                    android:id="@+id/weather_air_quality"
+	                    style="@style/weather_exponent_style"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_centerInParent="true"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/white" />
+	            </RelativeLayout>
+	        </LinearLayout>
+	    </LinearLayout>
+	</RelativeLayout>
+	
+	<!-- 24小时天气 -->
+	<include layout="@layout/weather_twentyfourth"/>
+	
+	<View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#86ffffff"
+        android:visibility="visible" />
+    <!-- 多日天气 -->
+    
+     <RelativeLayout 
+        android:id="@+id/day_weather_info_titile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TextView 
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            style="@style/shadow_black"
+            android:text="多日天气"
+            android:textSize="14dp"
+            android:textColor="#ffffff"/>
+        <TextView 
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="12dp"
+			android:paddingLeft="9dip"
+            android:paddingRight="9dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip"
+            android:background="@drawable/weather_shape_more"
+            style="@style/shadow_black"
+            android:text="查看15日天气 >>"
+            android:textSize="14dp"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/day_weather_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <!-- 明日天气 -->
+
+        <LinearLayout
+            android:id="@+id/weatherOne_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/weatherWeek1"
+                style="@style/more_weather_text_style" />
+
+            <ImageView
+                android:id="@+id/imgOne"
+                style="@style/day_weather_image_style" />
+
+            <TextView
+                android:id="@+id/weatherOneId"
+                style="@style/more_weather_text_style" />
+
+            <TextView
+                android:id="@+id/weatherOneTemp"
+                style="@style/more_weather_text_style" />
+        </LinearLayout>
+
+        <!-- 第二日天气 -->
+
+        <LinearLayout
+            android:id="@+id/weatherTwo_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/weatherWeek2"
+                style="@style/more_weather_text_style" />
+
+            <ImageView
+                android:id="@+id/imgTwo"
+                style="@style/day_weather_image_style" />
+
+            <TextView
+                android:id="@+id/weatherTwoId"
+                style="@style/more_weather_text_style" />
+
+            <TextView
+                android:id="@+id/weatherTwoTemp"
+                style="@style/more_weather_text_style" >
+            </TextView>
+        </LinearLayout>
+
+        <!-- 第三日天气 -->
+
+        <LinearLayout
+            android:id="@+id/weatherThree_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/weatherWeek3"
+                style="@style/more_weather_text_style" />
+
+            <ImageView
+                android:id="@+id/imgThree"
+                style="@style/day_weather_image_style" />
+
+            <TextView
+                android:id="@+id/weatherThreeId"
+                style="@style/more_weather_text_style" />
+
+            <TextView
+                android:id="@+id/weatherThreeTemp"
+                style="@style/more_weather_text_style" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

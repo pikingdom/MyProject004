@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/readme_activity_bg" >
+    <include layout="@layout/readme_v7_bg_circles"/>
+    <ImageView
+        android:id="@+id/readme_app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/readme_v7_page2_title_margin_top"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/readme_app_title" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_above="@+id/layout_cb"
+        android:layout_below="@id/readme_app_title" >
+	    <ScrollView android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:gravity="center"
+		        android:orientation="vertical" >
+			    <FrameLayout 
+			        android:layout_width="match_parent"
+		        	android:layout_height="match_parent" >
+			        <ImageView
+				        android:layout_width="@dimen/readme_recommend_app_bg_size"
+				        android:layout_height="@dimen/readme_recommend_app_bg_size"
+				        android:layout_gravity="center"
+				        android:src="@drawable/readme_recommend_icon_bg" />
+			        <ImageView
+				        android:id="@+id/readme_app_icon"
+				        android:layout_width="@dimen/readme_recommend_app_icon_size"
+				        android:layout_height="@dimen/readme_recommend_app_icon_size"
+				        android:layout_gravity="center"
+				        android:src="@drawable/app_market_default_icon" />
+			        <ImageView
+				        android:layout_width="@dimen/readme_recommend_app_bg_size"
+				        android:layout_height="@dimen/readme_recommend_app_bg_size"
+				        android:layout_gravity="center"
+				        android:src="@drawable/readme_recommend_icon_fg" />
+			    </FrameLayout>
+			    <TextView
+			        android:id="@+id/readme_app_name"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:textSize="18sp"
+			        android:gravity="center"
+			        android:textColor="#00bcd5"
+			        android:text="百度手机助手" />
+			    <TextView
+			        android:id="@+id/readme_app_slogan"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="14dip"
+			        android:layout_marginLeft="50dip"
+			        android:layout_marginRight="50dip"
+			        android:gravity="center"
+			        android:textSize="14sp"
+			        android:textColor="#999999"
+			        android:text="上百度浏览器，做个有趣的人！更快更安全省流量，超4亿用户的选择！" />
+		    </LinearLayout>
+	    </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/layout_cb" 
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" android:layout_marginBottom="10dip"
+        android:layout_centerHorizontal="true" android:layout_above="@+id/readme_3_indicate">
+        <CheckBox
+	        android:id="@+id/readme_app_checkbox"
+	        android:layout_width="18dip"
+	        android:layout_height="18dip"
+	        android:checked="true" android:layout_marginRight="10dip"
+	        android:background="@drawable/common_checkbox_selector"
+	        android:button="@null" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="14sp" android:textColor="#999999"
+	        android:text="@string/readme_page_checkbox_title" />
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:id="@+id/start_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dip" >
+        <ImageView
+            android:id="@+id/readme_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/readme_page_btn_go"
+            android:background="@drawable/round_progress_bg"
+            android:scaleType="center" />
+    </RelativeLayout>
+    
+    <!-- 屏幕指示器 -->
+    <LinearLayout android:id="@+id/readme_3_indicate"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_above="@id/start_layout" android:orientation="horizontal"
+        android:layout_centerHorizontal="true" android:layout_marginBottom="20dip" >
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:scaleType="fitCenter" android:src="@drawable/readme_v7_indicate_1_normal"
+            android:layout_marginRight="5dip" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:scaleType="fitCenter" android:src="@drawable/readme_v7_indicate_2_normal"
+            android:layout_marginLeft="5dip" android:layout_marginRight="5dip" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:scaleType="fitCenter" android:src="@drawable/readme_v7_indicate_3_selected"
+            android:layout_marginLeft="5dip" />
+    </LinearLayout>
+    
+</RelativeLayout>

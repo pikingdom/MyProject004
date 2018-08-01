@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/navigation_search_inputtext_layout"
+        android:layout_width="match_parent"
+    	android:layout_height="60dip"
+    	android:orientation="vertical" 
+    	android:paddingTop="10dp"
+	    android:paddingBottom="10.5dp"
+	    android:gravity="center"
+	    android:background="#24ffffff">
+		<FrameLayout android:id="@+id/editLayout"
+		    android:layout_width="match_parent"
+		    android:layout_height="36dip"
+		    android:layout_marginLeft="8dip" 
+		    android:layout_marginRight="8dip" >	        
+	        <!-- 搜索输入框 -->
+		    <FrameLayout 
+		        android:layout_width="match_parent" 
+		        android:layout_height="match_parent"
+		        android:layout_gravity="center_vertical">
+
+			    <EditText 
+			        android:id="@+id/txtSearchInput2" 
+			        android:layout_width="match_parent"
+			    	android:layout_height="match_parent"
+			    	android:inputType="text"
+			    	android:textSize="13sp"
+			    	android:textColor="#ffffffff"
+			    	android:hint="@string/searchbox_baidu_input_hint"
+			    	android:singleLine="true"
+			    	android:ellipsize="end"
+			    	android:textColorHint="#40ffffff"
+			    	android:background="@drawable/miui_crop_bt_bg_normal"
+					android:imeOptions="actionSearch"
+			    	android:paddingLeft="35dip"
+			    	android:paddingRight="35dip"
+			    	android:layout_gravity="center_vertical"
+			    	android:textCursorDrawable="@null"/>		
+			    	
+			    <!--放大镜图片  -->
+		      	<ImageView 
+		      	    android:id="@+id/search_icon"
+			        android:layout_gravity="left|center_vertical"
+			        android:layout_height="wrap_content" 
+			        android:layout_width="wrap_content"
+			        android:layout_marginLeft="10dip" android:visibility="gone"
+			        android:src="@drawable/launcher_navigation_top_search_icon"/>
+		      	<LinearLayout
+                    android:id="@+id/btnSelect"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="4dip"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/searchLogo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/top_menu_search_icon" />
+                </LinearLayout>
+		   		<ImageView 
+		   		    	android:id="@+id/parting_line"
+                        android:layout_width="wrap_content"
+                    	android:layout_height="match_parent"
+                    	android:layout_marginLeft="40dp"
+                        android:background="@drawable/navigation_search_parting_line"
+                        android:visibility="gone"/>
+		   		<!-- 语音识别按钮 -->
+			    <ImageView android:id="@+id/btnVoice2"
+			        android:src="@drawable/launcher_navigation_top_voice"
+			        android:layout_gravity="right|center_vertical"
+			        android:layout_height="wrap_content"
+			        android:layout_width="25dp"
+			        android:layout_marginRight="62dip"
+			        android:visibility="gone" />
+		    </FrameLayout>
+		    <LinearLayout 
+		        android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_vertical|right"
+	            android:orientation="horizontal">
+		        <ImageView android:id="@+id/btnCloseSearchList" 
+			        android:layout_height="wrap_content" 
+			        android:layout_width="wrap_content"
+			        android:layout_marginRight="5dip"
+			        android:layout_gravity="center_vertical"
+			        android:src="@drawable/miui_navigation_search_clear_btn"
+			        android:visibility="visible" />
+		        <LinearLayout 
+		            android:id="@+id/searchBtn"
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            android:background="@drawable/navigation_search_btn"
+		            android:gravity="center"
+		            android:visibility="gone">
+		            <ImageView
+		                android:id="@+id/searchBtn_image"
+		                android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+			            android:layout_gravity="center_vertical"
+			            android:background="@drawable/navigation_search_image"/>
+		        </LinearLayout>
+		   	</LinearLayout>
+		</FrameLayout>
+    </LinearLayout>
+
+    <!--  
+   	<com.nd.hilauncherdev.framework.view.MyPhoneViewPagerTab
+    	android:id="@+id/searchPagerTab"
+	    android:layout_width="fill_parent"
+	    android:layout_height="35dip" /> 
+    <com.nd.hilauncherdev.framework.view.MyPhoneViewPager
+        android:id="@+id/searchPager"
+       	android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+       	android:background="@android:color/white"/>
+   	-->
+   	
+   	<FrameLayout android:id="@+id/resultContainer"
+   	    android:layout_width="match_parent" 
+		android:layout_height="wrap_content" />
+   	
+</LinearLayout>    
+    

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.shop.shop6.discovery.DiscoveryFeedView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/theme_shop_discovery_feed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recommend_bg_card"
+    android:layout_marginTop="@dimen/v8_gap1_neg_10dp"
+    android:paddingBottom="@dimen/v8_gap1_10dp"
+    android:orientation="vertical" >
+
+    <!-- 标题栏 -->
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="@dimen/v8_gap1_10dp" >
+
+        <ImageView
+            android:id="@+id/tagtip_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="11dip"
+            android:src="@drawable/icon_discovery_subscribe"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/tagtip_img"
+            android:singleLine="true"
+            android:text="@string/discovery_title_feed"
+            android:textColor="#181818"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:singleLine="false"
+            android:text="@string/theme_shop_v6_more"
+            android:textColor="#181818"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/v7_gap1_15dp"
+        android:layout_marginLeft="@dimen/v7_gap1_15dp"
+        android:layout_marginRight="@dimen/v7_gap1_15dp"
+        android:layout_marginTop="@dimen/v8_gap3_5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+
+        <ImageView
+            android:id="@+id/imgFeed_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+
+        <ImageView
+            android:id="@+id/imgFeed_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="2dip"
+            android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+
+        <ImageView
+            android:id="@+id/imgFeed_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="2dip"
+            android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+
+        <ImageView
+            android:id="@+id/imgFeed_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="2dip"
+            android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+
+        <ImageView
+            android:id="@+id/imgFeed_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="2dip"
+            android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+    </LinearLayout>
+
+</com.nd.hilauncherdev.shop.shop6.discovery.DiscoveryFeedView>

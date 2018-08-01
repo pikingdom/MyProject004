@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 开通会员界面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <!-- P1段进度条 -->
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_weight="1"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+	    <ProgressBar 
+	        android:id="@+id/progressBar1"
+     		android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="11dp" 
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:secondaryProgress="100"
+            android:progressDrawable="@drawable/my_member_progressbar_progress_horizontal1"/>
+	    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="P1"
+            android:layout_marginTop="5dp"
+            android:gravity="right"
+            android:textColor="#ff949698"
+            android:textSize="13sp" />
+	</LinearLayout>
+    <!-- P2段进度条 -->
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_weight="2"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+	    <ProgressBar 
+	        android:id="@+id/progressBar2"
+     		android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="11dp" 
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:secondaryProgress="100"
+            android:progressDrawable="@drawable/my_member_progressbar_progress_horizontal2"/>
+	    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:text="P2"
+            android:gravity="right"
+            android:textColor="#ff949698"
+            android:textSize="13sp" />
+	</LinearLayout>
+    <!-- P3段进度条 -->
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_weight="3"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+	    <ProgressBar 
+	        android:id="@+id/progressBar3"
+     		android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="11dp" 
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:secondaryProgress="100"
+            android:progressDrawable="@drawable/my_member_progressbar_progress_horizontal3"/>
+	    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:text="P3"
+            android:gravity="right"
+            android:textColor="#ff949698"
+            android:textSize="13sp" />
+	</LinearLayout>
+	<!-- P4段进度条 -->
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_weight="4"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+	    <ProgressBar 
+	        android:id="@+id/progressBar4"
+     		android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="11dp" 
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:secondaryProgress="100"
+            android:progressDrawable="@drawable/my_member_progressbar_progress_horizontal4"/>
+	    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:text="P4"
+            android:gravity="right"
+            android:textColor="#ff949698"
+            android:textSize="13sp" />
+	</LinearLayout>
+    
+</LinearLayout>

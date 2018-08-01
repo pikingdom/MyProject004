@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical"
+	android:layout_marginTop="2dip" android:background="#FFFFFF" >
+	<LinearLayout android:layout_width="fill_parent"
+		android:background="#FFFFFF" android:id="@+id/uplevelLayout"
+		android:layout_height="wrap_content" android:addStatesFromChildren="true"
+		android:gravity="center_vertical" android:layout_marginBottom="8dip">
+		<com.nd.hilauncherdev.framework.view.AlwaysMarqueeTextView
+			android:layout_width="wrap_content" android:id="@+id/currentPath"
+			android:textColor="#000000" android:singleLine="true" android:text="/"
+			android:ellipsize="marquee" android:layout_weight="1"
+			android:marqueeRepeatLimit="marquee_forever"
+			android:layout_height="wrap_content" />
+		<ImageButton android:id="@+id/uplevel" android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" android:paddingRight="5dip"
+			android:background="@drawable/file_browser_btn_return" />
+	</LinearLayout>
+	<com.nd.hilauncherdev.kitset.fileselector.LineView
+		android:layout_width="fill_parent" android:layout_height="2dip" />
+	<ListView android:id="@+id/fileBrowser" android:listSelector="@drawable/myphone_click_item_blue"
+		android:layout_alignParentTop="true" android:layout_width="fill_parent"
+		android:cacheColorHint="#00000000" android:layout_height="300dip"
+		android:divider="@drawable/divider_horizontal_bright" />
+</LinearLayout>

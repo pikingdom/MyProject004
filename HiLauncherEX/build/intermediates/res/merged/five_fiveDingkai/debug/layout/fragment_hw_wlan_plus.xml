@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_hw_bg">
+
+
+    <LinearLayout
+        android:id="@+id/ll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_refuse"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_hw_small_step"
+            android:text="不同意"
+            android:textColor="@color/guide_hw_next_text" />
+
+
+        <Button
+            android:id="@+id/btn_agree"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="17dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_hw_small_step"
+            android:text="同意"
+            android:textColor="@color/guide_hw_next_text" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_above="@id/ll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="38dp"
+        android:paddingRight="38dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:textColor="@color/guide_hw_title"
+            android:textSize="29dp"
+            android:text="上网体验增强"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:textSize="14dp"
+            android:textColor="#646464"
+            android:text="WLAN+ 服务"/>
+
+        <LinearLayout
+            android:layout_marginTop="22.3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#d9d9d9"
+                android:layout_marginBottom="21dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#555555"
+                android:textSize="11dp"
+                android:text="WLAN+ 服务将为您只能选择WLAN或数据业务，并通过基站和您附近的接入点信息获取您的位置，为您自动开启或关闭 WLAN，您是否同意？"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

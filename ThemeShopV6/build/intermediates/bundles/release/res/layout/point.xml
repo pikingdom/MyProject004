@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/point"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<!-- 
+    <ImageView
+        android:id="@+id/point_img_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+ -->
+    <RelativeLayout
+        android:id="@+id/point_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <ImageView
+            android:id="@+id/point_img_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dip"
+            android:background="@drawable/theme_shop_v6_theme_cate_point_bg"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/point_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/point_img_icon"
+            android:textSize="16sp"
+            android:textColor="#707070"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\build\\intermediates\\incremental\\mergeFive_fiveDingkaiDebugResources\\merged.dir\\values-hdpi-1280x800-v4\\values-hdpi-1280x800-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-hdpi-1280x800\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 673,
+                        "endColumn": 46,
+                        "endOffset": 718
+                    }
+                }
+            }
+        ]
+    }
+]

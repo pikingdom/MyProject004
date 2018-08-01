@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/common_dialog_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/common_dialog_top_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitCenter" 
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/launcher_popup_recommend_close_selector" />
+
+        <TextView
+            android:id="@+id/common_dialog_top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/delete"
+            android:layout_toRightOf="@id/common_dialog_top_icon"
+            android:gravity="left"
+            android:textColor="@color/dialog_content_color"
+            android:textSize="16sp"
+            android:textStyle="bold" 
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/common_dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/common_dialog_top_layout"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dip"
+        android:gravity="center_vertical"
+        android:maxLines="15"
+        android:scrollbars="vertical"
+        android:textColor="@color/dialog_content_color"
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_not_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/btn_checkbox"
+        android:layout_below="@id/common_dialog_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="5dp"
+        android:text="@string/common_checkbox_not_alert"
+        android:textColor="#757675"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/common_dialog_button"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/checkbox_not_alert"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/common_dialog_r_btn_text_color_selector"
+        android:textSize="15sp" />
+
+</RelativeLayout>

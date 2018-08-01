@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory
+        android:height="45dp"
+        android:key="settings_icon_and_folder_icon_categroy"
+        android:title="@string/settings_icon_and_folder_icon" >
+
+        <!-- 图标名称颜色选择 -->
+        <Preference
+            android:key="settings_font_app_color"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_font_app_color_summary"
+            android:title="@string/settings_font_app_color"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 图标名称字体大小 -->
+        <Preference
+            android:key="settings_font_app_name_size_key"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_font_app_name_size"
+            android:title="@string/settings_font_app_name_size"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 图标大小 -->
+        <Preference
+            android:key="settings_app_icon_size_key"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_app_icon_size"
+            android:title="@string/settings_app_icon_size"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 显示消息条数 -->
+        <Preference
+            android:key="setting_notfication_message_count"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_icon_and_fonlder_notfication_message_count"
+            android:summary="@string/settings_icon_and_fonlder_notfication_message_count_summary"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+        <!-- 图标名称背景 -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="settings_screen_icon_title_background"
+            android:layout="@layout/preference_normal_layout"
+            android:summary="@string/settings_screen_icon_title_background_summary"
+            android:title="@string/settings_screen_icon_title_background"
+            android:widgetLayout="@layout/preferences_checkbox" />
+        <!-- 图标名称显示 -->
+        <!-- <CheckBoxPreference -->
+        <!-- android:layout="@layout/preference_normal_layout" -->
+        <!-- android:defaultValue="true" -->
+        <!-- android:key="settings_icon_name_display" -->
+        <!-- android:title="@string/settings_icon_name_display" -->
+        <!-- android:widgetLayout="@layout/preferences_checkbox" -->
+        <!-- android:summary="@string/settings_icon_name_display_summary" /> -->
+
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+    <com.nd.hilauncherdev.settings.PromptPreferenceCategory
+        android:height="45dp"
+        android:title="@string/settings_icon_and_folder_folder" 
+        android:key="settings_icon_and_folder_folder">
+        <Preference
+            android:key="settings_personal_folder_style"
+            android:layout="@layout/preference_normal_layout"
+            android:title="@string/settings_personal_folder_style"
+            android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+    </com.nd.hilauncherdev.settings.PromptPreferenceCategory>
+
+</PreferenceScreen>

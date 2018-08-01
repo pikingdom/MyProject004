@@ -1,0 +1,197 @@
+[
+    {
+        "outputFile": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\build\\intermediates\\incremental\\mergeFive_fiveDingkaiDebugResources\\merged.dir\\values-hdpi-1280x720-v4\\values-hdpi-1280x720-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-hdpi-1280x720\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 677,
+                        "endColumn": 60,
+                        "endOffset": 736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 73,
+                    "endOffset": 188
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-hdpi-1280x720\\dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 1,
+                        "startOffset": 1004,
+                        "endColumn": 70,
+                        "endOffset": 1073
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 193,
+                    "endColumn": 60,
+                    "endOffset": 249
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-hdpi-1280x720\\dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 1,
+                        "startOffset": 945,
+                        "endColumn": 57,
+                        "endOffset": 1001
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 254,
+                    "endColumn": 66,
+                    "endOffset": 316
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-hdpi-1280x720\\dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 1,
+                        "startOffset": 1076,
+                        "endColumn": 63,
+                        "endOffset": 1138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 321,
+                    "endColumn": 56,
+                    "endOffset": 373
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-hdpi-1280x720\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 740,
+                        "endColumn": 53,
+                        "endOffset": 792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 378,
+                    "endColumn": 48,
+                    "endOffset": 422
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-hdpi-1280x720\\dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 816,
+                        "endColumn": 48,
+                        "endOffset": 860
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 427,
+                    "endColumn": 51,
+                    "endOffset": 474
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-hdpi-1280x720\\dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 866,
+                        "endColumn": 51,
+                        "endOffset": 913
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 479,
+                    "endColumn": 65,
+                    "endOffset": 540
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-hdpi-1280x720\\dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 1,
+                        "startOffset": 1223,
+                        "endColumn": 62,
+                        "endOffset": 1284
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 545,
+                    "endColumn": 65,
+                    "endOffset": 606
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-hdpi-1280x720\\dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 1,
+                        "startOffset": 1287,
+                        "endColumn": 62,
+                        "endOffset": 1348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 611,
+                    "endColumn": 62,
+                    "endOffset": 669
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-hdpi-1280x720\\dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 1,
+                        "startOffset": 1162,
+                        "endColumn": 59,
+                        "endOffset": 1220
+                    }
+                }
+            }
+        ]
+    }
+]

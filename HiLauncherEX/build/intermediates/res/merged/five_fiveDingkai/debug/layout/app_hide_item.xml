@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shortcut_selector">
+
+    <com.nd.hilauncherdev.launcher.view.icon.ui.impl.AppMaskTextView
+            android:id="@+id/item_view"
+            android:layout_width="80dip"
+            android:layout_height="90dip"
+            android:layout_centerInParent="true"
+            android:paddingLeft="3dip"
+            android:paddingRight="3dip" />
+
+</RelativeLayout>

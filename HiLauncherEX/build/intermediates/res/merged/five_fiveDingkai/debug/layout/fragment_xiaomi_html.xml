@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_le_bg">
+
+    <LinearLayout
+        android:id="@+id/ll_0"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:background="@color/guide_le_bg">
+
+        <RelativeLayout
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="59.7dp">
+
+
+            <ImageButton
+                android:id="@+id/ib_0"
+                android:layout_width="8dp"
+                android:layout_height="12.3dp"
+                android:layout_marginTop="32.7dp"
+                android:layout_marginLeft="14.7dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/btn_xiaomi_html_back"/>
+
+            <TextView
+                android:id="@+id/html_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32.7dp"
+                android:layout_marginLeft="14.3dp"
+                android:paddingRight="16dp"
+                android:textSize="13dp"
+                android:textColor="#484848"
+                android:layout_toRightOf="@id/ib_0"
+                android:text="标题"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#d7d7d7"/>
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/html_content_wv"
+        android:layout_below="@id/ll_0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\appwidget_error.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\bundles\\debug\\res\\layout\\appwidget_error.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\framework_viewfactory_data_error.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\bundles\\debug\\res\\layout\\framework_viewfactory_data_error.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\maindock_celllayout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\bundles\\debug\\res\\layout\\maindock_celllayout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\common_dialog_layout_ex.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\bundles\\debug\\res\\layout\\common_dialog_layout_ex.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\preview_cell_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\bundles\\debug\\res\\layout\\preview_cell_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\preview_workspace.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\bundles\\debug\\res\\layout\\preview_workspace.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\common_dialog_layout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\bundles\\debug\\res\\layout\\common_dialog_layout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\framework_viewfactory_err_info_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\bundles\\debug\\res\\layout\\framework_viewfactory_err_info_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\framework_viewfactory_info_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\coreSourceDZ\\build\\intermediates\\bundles\\debug\\res\\layout\\framework_viewfactory_info_view.xml"
+    }
+]

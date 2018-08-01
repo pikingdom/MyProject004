@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 建议列表 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dip">
+        
+	  	<TextView 
+			android:layout_height="wrap_content"
+			android:layout_width="62dip"
+			android:gravity="right"
+			android:textSize="14sp" 
+			android:textColor="@color/t_alert_title"
+			android:text="建议:" />
+	  	<TextView 
+			android:id="@+id/suggestText"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_marginLeft="3dip"
+			android:textSize="14dip"
+			android:lineSpacingExtra="7dip"
+			android:textColor="#454545" />  
+      
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dip">
+        
+	  	<TextView 
+			android:layout_height="wrap_content"
+			android:layout_width="62dip"
+			android:gravity="right"
+			android:textSize="14sp" 
+			android:textColor="@color/t_alert_title"
+			android:text="官方应答:" />
+	  	<TextView 
+			android:id="@+id/respondText"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_marginLeft="3dip"
+			android:textSize="14dip"
+			android:lineSpacingExtra="7dip"
+			android:textColor="@color/t_alert_info" />  
+      
+    </LinearLayout>
+</LinearLayout>
+

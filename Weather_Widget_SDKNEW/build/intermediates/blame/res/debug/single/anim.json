@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\cycle_7.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\anim\\cycle_7.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popup_drawer_menu_exit.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\anim\\popup_drawer_menu_exit.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popshortcutmenu_shrink_from_bottomright_to_topleft.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\popshortcutmenu_shrink_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popshortcutmenu_grow_from_bottom.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\popshortcutmenu_grow_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in_fast.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\anim\\fade_in_fast.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popshortcutmenu_shrink_from_topleft_to_bottomright.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\popshortcutmenu_shrink_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\right_out.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\anim\\right_out.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\workspace_app_enter.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\workspace_app_enter.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popshortcutmenu_grow_from_bottomright_to_topleft.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\popshortcutmenu_grow_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out_fast.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\fade_out_fast.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\push_top_in.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\shake.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\anim\\shake.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\shared_fade_out.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\anim\\shared_fade_out.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\push_top_out.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\shared_fade_in.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\anim\\shared_fade_in.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popupmenu_out.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\popupmenu_out.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\pop_win_out_down.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\anim\\pop_win_out_down.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popup_drawer_menu_enter.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\anim\\popup_drawer_menu_enter.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popshortcutmenu_shrink_from_topright_to_bottomleft.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\popshortcutmenu_shrink_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\pop_win_top_in.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\anim\\pop_win_top_in.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\samsung_popup_drawer_menu_enter.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\anim\\samsung_popup_drawer_menu_enter.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popshortcutmenu_grow_from_bottomleft_to_topright.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\popshortcutmenu_grow_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popup_warning_enter.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\anim\\popup_warning_enter.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popup_warning_exit.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\anim\\popup_warning_exit.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popshortcutmenu_shrink_from_bottom.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\popshortcutmenu_shrink_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\samsung_popup_drawer_menu_exit.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\anim\\samsung_popup_drawer_menu_exit.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\left_in.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\anim\\left_in.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\right_in.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\anim\\right_in.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popupmenu_in.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\popupmenu_in.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popshortcutmenu_shrink_from_bottomleft_to_topright.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\popshortcutmenu_shrink_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\pop_win_top_out.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\anim\\pop_win_top_out.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\left_out.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\anim\\left_out.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in_slow.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\fade_in_slow.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popshortcutmenu_grow_from_topleft_to_bottomright.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\popshortcutmenu_grow_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popshortcutmenu_shrink_from_top.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\popshortcutmenu_shrink_from_top.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popshortcutmenu_grow_from_top.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\popshortcutmenu_grow_from_top.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\popshortcutmenu_grow_from_topright_to_bottomleft.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\anim\\popshortcutmenu_grow_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\build\\intermediates\\res\\merged\\debug\\anim\\pop_win_in_up.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDKNEW\\res\\anim\\pop_win_in_up.xml"
+    }
+]

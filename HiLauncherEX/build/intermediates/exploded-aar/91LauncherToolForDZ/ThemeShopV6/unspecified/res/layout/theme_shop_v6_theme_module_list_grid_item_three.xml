@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:gravity="center"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content">
+   <LinearLayout 
+       android:layout_width="match_parent"
+   	   android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center_horizontal">
+       <FrameLayout android:id="@+id/imgThemeBg"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+		    <com.nd.hilauncherdev.shop.widget.ImageViewForTheme 
+		        android:id="@+id/imgTheme"
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+		        android:scaleType="fitXY"
+		        android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+		    <ImageView 
+		        android:id="@+id/imgSeries"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:scaleType="fitCenter"
+		        android:layout_gravity="right|bottom"
+		        android:visibility="gone"
+		        android:src="@drawable/theme_series_mask" />
+		    <ImageView 
+		        android:id="@+id/imgMember"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:scaleType="fitCenter"
+		        android:layout_gravity="top|left"
+		        android:visibility="gone"
+		        android:layout_marginLeft="5dip"
+		        android:src="@drawable/pay_theme_mask" />
+	    </FrameLayout>
+	    <LinearLayout
+	        android:id="@+id/theme_shop_item_txtly"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_marginLeft="@dimen/v8_gap3_6dp"
+            android:layout_marginTop="@dimen/v8_gap3_5dp">
+	        <TextView
+	            android:id="@+id/theme_shop_item_title"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:ellipsize="end"
+	            android:marqueeRepeatLimit="marquee_forever"
+	            android:singleLine="true"
+	            android:textColor="@color/theme_shop_v6_list_item_title"
+	            android:textSize="@dimen/theme_shop_v6_list_item_title" >
+	        </TextView>
+	        <RelativeLayout 
+	            android:id="@+id/theme_shop_item_price"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="@dimen/v8_gap3_5dp"
+	            android:visibility="gone">
+		        <TextView
+		            android:id="@+id/theme_shop_item_price_old"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textColor="@color/theme_shop_v8_price_common"
+		            android:textSize="@dimen/theme_shop_v6_list_item_price" >
+		        </TextView>
+		        <TextView
+		            android:id="@+id/theme_shop_item_price_new"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_toRightOf="@id/theme_shop_item_price_old"
+		            android:layout_marginLeft="5dp"
+		            android:textColor="@color/theme_shop_v6_price_new"
+		            android:textSize="@dimen/theme_shop_v6_list_item_price" >
+		        </TextView>
+		        <ImageView 
+		            android:id="@+id/theme_shop_item_price_img"
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            android:layout_alignLeft="@+id/theme_shop_item_price_old"
+		            android:layout_alignRight="@+id/theme_shop_item_price_old"
+		            android:layout_alignTop="@+id/theme_shop_item_price_old"
+		            android:layout_alignBottom="@+id/theme_shop_item_price_old"
+		            android:src="@drawable/theme_shop_item_price_img"
+		            />
+	        </RelativeLayout>
+	    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

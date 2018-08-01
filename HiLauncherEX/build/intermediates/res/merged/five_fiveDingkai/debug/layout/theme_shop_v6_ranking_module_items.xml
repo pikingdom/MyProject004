@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <include android:id="@+id/grid_items_one" android:visibility="gone" layout="@layout/theme_shop_v6_ranking_module_items_one"/>
+    
+    <include android:id="@+id/grid_items_three"  layout="@layout/theme_shop_v6_ranking_module_items_two"/>
+    
+
+</LinearLayout>

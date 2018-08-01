@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/ic_le_item_wlan_conning_0" android:duration="80"/>
+    <item android:drawable="@drawable/ic_le_item_wlan_conning_1" android:duration="80"/>
+    <item android:drawable="@drawable/ic_le_item_wlan_conning_2" android:duration="80"/>
+    <item android:drawable="@drawable/ic_le_item_wlan_conning_3" android:duration="80"/>
+    <item android:drawable="@drawable/ic_le_item_wlan_conning_4" android:duration="80"/>
+    <item android:drawable="@drawable/ic_le_item_wlan_conning_5" android:duration="80"/>
+    <item android:drawable="@drawable/ic_le_item_wlan_conning_6" android:duration="80"/>
+    <item android:drawable="@drawable/ic_le_item_wlan_conning_7" android:duration="80"/>
+    <item android:drawable="@drawable/ic_le_item_wlan_conning_8" android:duration="80"/>
+    <item android:drawable="@drawable/ic_le_item_wlan_conning_9" android:duration="80"/>
+    <item android:drawable="@drawable/ic_le_item_wlan_conning_10" android:duration="80"/>
+
+</animation-list>

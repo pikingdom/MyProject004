@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="integral_bar_height">35dip</dimen>
+    <dimen name="integral_bar_yimg_height">10dip</dimen>
+    <dimen name="myphone_info_view_image_size">133.3dip</dimen>
+    <dimen name="personal_center_desc_text_size">18dip</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="theme_shop_v6_theme_category_dropdown_item_size">14px</dimen>
+    <dimen name="theme_shop_v6_theme_category_second_class_item_size">10sp</dimen>
+</resources>

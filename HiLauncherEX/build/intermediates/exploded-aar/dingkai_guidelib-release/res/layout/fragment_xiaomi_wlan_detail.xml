@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8">
+
+    <RelativeLayout
+        android:id="@+id/rl_0"
+        android:layout_width="match_parent"
+        android:layout_height="60.4dp"
+        android:background="#8499af">
+
+        <Button
+            android:id="@+id/wlan_detail_cancel_btn"
+            android:layout_width="43.3dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="13.3dp"
+            android:layout_marginTop="23.7dp"
+            android:background="@drawable/btn_xiaomi_wlan_detail_left"
+            android:textColor="#ffffff"
+            android:textSize="11dp"
+            android:text="取消"/>
+
+        <Button
+            android:id="@+id/wlan_detail_confirm_btn"
+            android:layout_width="43.3dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="13.3dp"
+            android:layout_marginTop="23.7dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_xiaomi_wlan_detail_right"
+            android:textColor="#ffffff"
+            android:textSize="11dp"
+            android:text="确定"/>
+        
+        <TextView
+            android:id="@+id/wlan_detail_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@id/wlan_detail_confirm_btn"
+            android:layout_toRightOf="@id/wlan_detail_cancel_btn"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:text="ssid 网络详情"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@id/rl_0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/wlan_detail_auto_conn_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="24.3dp"
+                        android:textColor="#3b3b3b"
+                        android:textSize="13dp"
+                        android:text="自动连接"/>
+
+
+                    <Switch
+                        android:id="@+id/wlan_detail_auto_conn_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="19.3dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="18.3dp"
+                        android:checked="true"
+                        android:textOn=""
+                        android:textOff=""
+                        android:switchMinWidth="33.3dp"
+                        android:track="@drawable/switch_xiaomi_track"
+                        android:thumbTextPadding="7dp"
+                        android:thumb="@drawable/switch_xiaomi_thumb"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#ededed"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/wlan_detail_manual_hotspot_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="24.3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textColor="#3b3b3b"
+                        android:textSize="13dp"
+                        android:text="手动热点"/>
+
+
+                    <Switch
+                        android:id="@+id/wlan_detail_manual_hotspot_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="19.3dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="18.3dp"
+                        android:checked="false"
+                        android:textOn=""
+                        android:textOff=""
+                        android:switchMinWidth="33.3dp"
+                        android:track="@drawable/switch_xiaomi_track"
+                        android:thumbTextPadding="7dp"
+                        android:thumb="@drawable/switch_xiaomi_thumb"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#ededed"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/wlan_detail_status_info_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="24.3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textColor="#3b3b3b"
+                        android:textSize="13dp"
+                        android:text="状态信息"/>
+
+
+                    <TextView
+                        android:id="@+id/wlan_detail_status_info_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="18.3dp"
+                        android:textColor="#545454"
+                        android:textSize="10dp"
+                        android:text="连接中..."/>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#ededed"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/wlan_detail_waft_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="24.3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textColor="#3b3b3b"
+                        android:textSize="13dp"
+                        android:text="信号强度"/>
+
+
+                    <TextView
+                        android:id="@+id/wlan_detail_waft_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="18.3dp"
+                        android:textColor="#545454"
+                        android:textSize="10dp"
+                        android:text="强"/>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#ededed"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/wlan_detail_link_speed_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="24.3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textColor="#3b3b3b"
+                        android:textSize="13dp"
+                        android:text="连接速度"/>
+
+
+                    <TextView
+                        android:id="@+id/wlan_detail_link_speed_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="18.3dp"
+                        android:textColor="#545454"
+                        android:textSize="10dp"
+                        android:text="72Mbps"/>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#ededed"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/wlan_detail_capabilities_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="24.3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textColor="#3b3b3b"
+                        android:textSize="13dp"
+                        android:text="安全性"/>
+
+
+                    <TextView
+                        android:id="@+id/wlan_detail_capabilities_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="18.3dp"
+                        android:textColor="#545454"
+                        android:textSize="10dp"
+                        android:text="WPA/WPA2 PSK"/>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#ededed"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/wlan_detail_ip_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="24.3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textColor="#3b3b3b"
+                        android:textSize="13dp"
+                        android:text="IP地址"/>
+
+
+                    <TextView
+                        android:id="@+id/wlan_detail_ip_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="18.3dp"
+                        android:textColor="#545454"
+                        android:textSize="10dp"
+                        android:text="192.168.0.100"/>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#ededed"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/wlan_detail_netmask_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="24.3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textColor="#3b3b3b"
+                        android:textSize="13dp"
+                        android:text="子网掩码"/>
+
+
+                    <TextView
+                        android:id="@+id/wlan_detail_netmask_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="18.3dp"
+                        android:textColor="#545454"
+                        android:textSize="10dp"
+                        android:text="255.255.128.0"/>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#ededed"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/wlan_detail_gateway_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="24.3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textColor="#3b3b3b"
+                        android:textSize="13dp"
+                        android:text="路由器"/>
+
+
+                    <TextView
+                        android:id="@+id/wlan_detail_gateway_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="18.3dp"
+                        android:textColor="#545454"
+                        android:textSize="10dp"
+                        android:text="192.168.3.3"/>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#ededed"/>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="#ededed"
+                android:layout_alignBottom="@id/ll_0"/>
+
+            <RelativeLayout
+                android:layout_below="@id/ll_0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true">
+
+                <Button
+                    android:id="@+id/wlan_detail_delete_network_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="26.3dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/btn_xiaomi_wlan_detail_delete_network"
+                    android:textSize="10dp"
+                    android:textColor="#ff2400"
+                    android:text="删除网络"/>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+    
+    <RelativeLayout
+        android:id="@+id/wlan_detail_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shadow"
+        android:visibility="gone">
+
+    </RelativeLayout>
+
+</RelativeLayout>

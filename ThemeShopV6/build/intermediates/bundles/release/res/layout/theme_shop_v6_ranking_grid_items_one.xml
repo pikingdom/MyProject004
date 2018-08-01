@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+	<FrameLayout android:id="@+id/layout_top"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	    <ImageView
+	        android:id="@+id/img_ranking_top"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:scaleType="fitCenter"
+	        android:src="@drawable/theme_shop_v8_ranking_top1" />
+	</FrameLayout>
+	
+    <FrameLayout android:id="@+id/layout_list"
+        android:layout_below="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <RelativeLayout
+            android:id="@+id/img_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="18dip" >
+
+            <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+                android:id="@+id/img_left"
+                android:layout_width="@dimen/theme_shop_v6_recomment_new_img_width"
+                android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                android:scaleType="fitXY"
+                android:layout_toLeftOf="@+id/layout_middle"
+                android:layout_marginRight="-10dip"
+                android:layout_marginTop="21dip"
+                android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+
+            <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+                android:id="@+id/img_right"
+                android:layout_width="@dimen/theme_shop_v6_recomment_new_img_width"
+                android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                android:scaleType="fitXY"
+                android:layout_toRightOf="@+id/layout_middle"
+                android:layout_marginLeft="-10dip"
+                android:layout_marginTop="21dip"
+                android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+            
+            <LinearLayout android:id="@+id/layout_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal" >
+                <ImageView android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:scaleType="fitCenter"
+                	android:src="@drawable/theme_shop_v8_ranking_top_shadow_left"
+                	android:layout_marginTop="18dip"
+                	android:layout_gravity="top" />
+	            <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+	                android:id="@+id/img_middle"
+	                android:layout_width="@dimen/theme_shop_v6_recomment_new_img_width"
+	                android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+	                android:scaleType="fitXY"
+	                android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+	            <ImageView android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:scaleType="fitCenter"
+                	android:src="@drawable/theme_shop_v8_ranking_top_shadow_right"
+                	android:layout_marginTop="18dip"
+                	android:layout_gravity="top" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/btn_download"
+            android:layout_width="150dip"
+            android:layout_height="36dip"
+            android:scaleType="fitXY"
+            android:text="@string/view_right_now"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/common_btn_blue_selector" />
+    </FrameLayout>
+    
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_below="@id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:text="@string/common_download_now"
+        android:textSize="13sp"
+        android:textColor="#46535b"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-15dip"
+        android:background="#ffffff"
+        android:gravity="center" />
+    
+</RelativeLayout>

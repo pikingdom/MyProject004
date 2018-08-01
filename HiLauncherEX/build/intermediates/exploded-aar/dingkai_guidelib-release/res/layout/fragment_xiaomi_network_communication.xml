@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_xiaomi_bg">
+
+
+    <LinearLayout
+        android:layout_marginTop="148dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="46.7dp"
+        android:layout_marginRight="45.3dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textColor="#444444"
+            android:text="通讯网络"/>
+
+        <View
+            android:layout_marginTop="28.3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#eeeeee"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44.3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#333333"
+                android:textSize="13dp"
+                android:text="免费通信网络"
+                android:layout_centerVertical="true"/>
+
+
+            <Switch
+                android:id="@+id/network_communication_free_network_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="19.3dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="18.4dp"
+                android:checked="true"
+                android:textOn=""
+                android:textOff=""
+                android:switchMinWidth="33.3dp"
+                android:track="@drawable/switch_xiaomi_track"
+                android:thumbTextPadding="7dp"
+                android:thumb="@drawable/switch_xiaomi_thumb"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#eeeeee"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:textColor="#333333"
+            android:textSize="12dp"
+            android:lineSpacingExtra="5.7dp"
+            android:text="启用后可以和其他小米用户通过互联网免费打电话或发消息，您可以随时在设置中开启和关闭。其中免费电话由微会提供技术支持，请查微会的隐私政策。"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="17dp"
+            android:textColor="#777777"
+            android:textSize="12dp"
+            android:lineSpacingExtra="5.3dp"
+            android:text="@string/guide_xiaomi_network_communication_enable_service_need"/>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/include_bottom"
+        layout="@layout/include_xiaomi_guide_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_xiaomi_include_page_bottom_h"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

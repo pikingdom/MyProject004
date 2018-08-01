@@ -1,0 +1,254 @@
+[
+    {
+        "outputFile": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\build\\intermediates\\incremental\\mergeFive_fiveDingkaiDebugResources\\merged.dir\\values-ldpi-v4\\values-ldpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 1,
+                        "startOffset": 871,
+                        "endColumn": 55,
+                        "endOffset": 925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 114,
+                    "endColumn": 68,
+                    "endOffset": 178
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 1,
+                        "startOffset": 954,
+                        "endColumn": 65,
+                        "endOffset": 1018
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 183,
+                    "endColumn": 61,
+                    "endOffset": 240
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 1,
+                        "startOffset": 1044,
+                        "endColumn": 58,
+                        "endOffset": 1101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 245,
+                    "endColumn": 60,
+                    "endOffset": 301
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 1,
+                        "startOffset": 789,
+                        "endColumn": 57,
+                        "endOffset": 845
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 306,
+                    "endColumn": 62,
+                    "endOffset": 364
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 1,
+                        "startOffset": 1294,
+                        "endColumn": 59,
+                        "endOffset": 1352
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 369,
+                    "endColumn": 48,
+                    "endOffset": 413
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 673,
+                        "endColumn": 45,
+                        "endOffset": 717
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 418,
+                    "endColumn": 40,
+                    "endOffset": 454
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\ThemeShopV6\\unspecified\\res\\values-ldpi-v4\\values-ldpi-v4.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 180,
+                        "endColumn": 40,
+                        "endOffset": 216
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 459,
+                    "endColumn": 71,
+                    "endOffset": 526
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 1,
+                        "startOffset": 1203,
+                        "endColumn": 68,
+                        "endOffset": 1270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 531,
+                    "endColumn": 69,
+                    "endOffset": 596
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\res\\values-ldpi\\dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 1,
+                        "startOffset": 1135,
+                        "endColumn": 66,
+                        "endOffset": 1200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 601,
+                    "endColumn": 78,
+                    "endOffset": 675
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\ThemeShopV6\\unspecified\\res\\values-ldpi-v4\\values-ldpi-v4.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 221,
+                        "endColumn": 78,
+                        "endOffset": 295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 680,
+                    "endColumn": 82,
+                    "endOffset": 758
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\ThemeShopV6\\unspecified\\res\\values-ldpi-v4\\values-ldpi-v4.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 300,
+                        "endColumn": 82,
+                        "endOffset": 378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 763,
+                    "endColumn": 51,
+                    "endOffset": 810
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-ldpi-v4\\values-ldpi-v4.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 219,
+                        "endColumn": 51,
+                        "endOffset": 266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 815,
+                    "endColumn": 53,
+                    "endOffset": 864
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\HiLauncherEX\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-ldpi-v4\\values-ldpi-v4.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 271,
+                        "endColumn": 53,
+                        "endOffset": 320
+                    }
+                }
+            }
+        ]
+    }
+]

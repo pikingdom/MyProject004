@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--应用搜索高级搜索界面-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:marqueeview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/resultContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/searchResultList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/search_result_list_margin"
+            android:layout_marginRight="@dimen/search_result_list_margin"
+            layout="@layout/searchbox_result_list"
+            android:layout_above="@+id/searchbox_app_search_guess_you_like"/>
+        <LinearLayout
+            android:id="@+id/searchbox_app_search_guess_you_like"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/searchbox_app_search_guess_you_like"
+                android:textColor="@color/navigation_search_text_color"
+                android:textSize="18sp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                />
+            <com.nd.hilauncherdev.widget.baidu.MarqueeView
+                android:id="@+id/searchbox_app_search_guess_you_like_box"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:fadingEdge="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                marqueeview:marqueeSpeedInterval="35"
+                marqueeview:text_Color="#000"
+                marqueeview:text_HighlightColor="#948cef"
+                marqueeview:text_Size="16dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

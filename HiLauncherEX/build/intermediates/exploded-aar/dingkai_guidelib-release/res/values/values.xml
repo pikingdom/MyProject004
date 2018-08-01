@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="guide_hw_bg">#F7F7F7</color>
+    <color name="guide_hw_next_text">#484848</color>
+    <color name="guide_hw_next_text_disable">#b7b7b7</color>
+    <color name="guide_hw_title">#242424</color>
+    <color name="guide_hw_urgent_call">#4A4A4A</color>
+    <color name="guide_hw_wheel_select_normal">#4A4A4A</color>
+    <color name="guide_hw_wheel_select_target">#28c0c6</color>
+    <color name="guide_le_bg">#ffffff</color>
+    <color name="guide_le_country_wheel_holo">#8a8e91</color>
+    <color name="guide_le_country_wheel_select_normal">#313f48</color>
+    <color name="guide_le_country_wheel_select_target">#578cdc</color>
+    <color name="guide_le_language_wheel_holo">#8a8e91</color>
+    <color name="guide_le_language_wheel_select_normal">#313f48</color>
+    <color name="guide_le_language_wheel_select_target">#578cdc</color>
+    <color name="guide_le_title_text">#000000</color>
+    <color name="guide_le_view_size_normal">#717171</color>
+    <color name="guide_le_view_size_press">#548de7</color>
+    <color name="guide_le_wlan_conn_keep_text_normal">#000000</color>
+    <color name="guide_le_wlan_conn_keep_text_selected">#44a5ec</color>
+    <color name="guide_le_wlan_dialog_btn_normal">#ffffff</color>
+    <color name="guide_le_wlan_dialog_btn_press">#fbfbfb</color>
+    <color name="guide_le_wlan_item_btn_normal">#ffffff</color>
+    <color name="guide_le_wlan_item_btn_press">#f0f0f0</color>
+    <color name="guide_samsung_bg">#26bfcd</color>
+    <color name="guide_samsung_dialog_wlan_conn_disable">#b3d5e2</color>
+    <color name="guide_samsung_dialog_wlan_conn_enable">#499ebd</color>
+    <color name="guide_samsung_popup_wlan_item_normal">#fafafa</color>
+    <color name="guide_samsung_popup_wlan_item_press">#b4b7b9</color>
+    <color name="guide_samsung_wheel_holo">#98f4ef</color>
+    <color name="guide_samsung_wheel_select_normal">#86dae2</color>
+    <color name="guide_samsung_wheel_select_target">#fafafa</color>
+    <color name="guide_xiaomi_bg">#ffffff</color>
+    <color name="guide_xiaomi_dialog_wlan_conn_disable">#868686</color>
+    <color name="guide_xiaomi_dialog_wlan_conn_enable">#009cff</color>
+    <color name="guide_xiaomi_include_bottom_btn_normal_def">#8d8d8d</color>
+    <color name="guide_xiaomi_include_bottom_btn_normal_select">#009cff</color>
+    <color name="guide_xiaomi_include_bottom_btn_press">#ffffff</color>
+    <color name="guide_xiaomi_language_wheel_holo">#e8e8e8</color>
+    <color name="guide_xiaomi_language_wheel_select_normal">#474747</color>
+    <color name="guide_xiaomi_language_wheel_select_target">#35abff</color>
+    <color name="guide_xiaomi_wlan_dialog_bg">#f7f7f7</color>
+    <color name="guide_xiaomi_wlan_item_title_connect">#199fff</color>
+    <color name="guide_xiaomi_wlan_item_title_def">#1e1e1e</color>
+    <color name="transparent">#00000000</color>
+    <dimen name="guide_language_wheel_h">330dp</dimen>
+    <dimen name="guide_le_font_size_content_11">10.29px</dimen>
+    <dimen name="guide_le_font_size_content_12">11.43px</dimen>
+    <dimen name="guide_le_font_size_content_13">12.57px</dimen>
+    <dimen name="guide_le_font_size_content_14">13.71px</dimen>
+    <dimen name="guide_le_font_size_content_15">14.86px</dimen>
+    <dimen name="guide_le_font_size_title_11">13.71px</dimen>
+    <dimen name="guide_le_font_size_title_12">16px</dimen>
+    <dimen name="guide_le_font_size_title_13">17.14px</dimen>
+    <dimen name="guide_le_font_size_title_14">18.29px</dimen>
+    <dimen name="guide_le_font_size_title_15">21.71px</dimen>
+    <dimen name="guide_le_include_page_bottom_h">82.3dp</dimen>
+    <dimen name="guide_le_include_page_top_h">132.57dp</dimen>
+    <dimen name="guide_le_page_title">22.86dp</dimen>
+    <dimen name="guide_le_wheel_text">18.29px</dimen>
+    <dimen name="guide_le_wlan_item_conn_h">66.29dp</dimen>
+    <dimen name="guide_le_wlan_item_no_conn_h">48dp</dimen>
+    <dimen name="guide_picker_item_h">188dp</dimen>
+    <dimen name="guide_wheel_text_size">14dp</dimen>
+    <dimen name="guide_xiaomi_include_page_bottom_h">102.7dp</dimen>
+    <dimen name="guide_xiaomi_popup_wlan_detail_delete_network_h">168dp</dimen>
+    <dimen name="guide_xiaomi_wheel_text">13px</dimen>
+    <dimen name="guide_xiaomi_wlan_item_conn_h">62.7dp</dimen>
+    <dimen name="guide_xiaomi_wlan_item_no_conn_h">50.3dp</dimen>
+    <drawable name="guide_xiaomi_wlan_item_normal">#ffffff</drawable>
+    <drawable name="guide_xiaomi_wlan_item_press">#f2f2f2</drawable>
+    <string name="guide_le_enable_location_services">
+        定位服务允许“地图”或其他应用程序使用WLAN和移动网络确定位置。
+    </string>
+    <string name="guide_le_experience_services">
+        我们会统计您对产品各项功能的使用情况，以便提升我们的产品和服务质量。整个过程将严格遵守我们的隐私政策。
+    </string>
+    <string name="guide_le_select_font_size">
+        您可以在“设置”-“显示”-“字体大小”中重新定义
+    </string>
+    <string name="guide_le_select_view_size">
+        您可以在“设置”-“显示”-“视图大小”中重新设定
+    </string>
+    <string name="guide_samsung_baidu_position">
+        百度位置服务使用来自 WLAN 和移动网络等来源的数据来帮助应用程序确定您的大概位置，即使 GPS 不可用。您可在设置下随时
+        更改该选项。\n
+        当安装或打开 NLP 功能时，百度位置服务将收集匿名位置数据。即使没有运行应用程序时也会进行。一些数据可能储存在您的设备上。\n
+        这可能产生额外费用。所收集的数据将用于查找您的位置和改进精确度。我们确保您的数据不会与其他方分享或用于除提供服务以外的目的。
+        以下数据将会被收集。\n
+        - 所要测量的周边 WLAN AP 的 ID、信号强度信息\n
+        - 所要测量的周边基站的 ID、信号强度信息(GSM 网的情况和 CDMA 网的情况)
+    </string>
+    <string name="guide_samsung_clause_diagnostic_data">同意提供诊断和使用数据\n为提高产品和
+        服务的质量和性能，三星电子株式会社及其附属公司 (统称"三星") 希望获得您的帮助。在经过您同意的情况下，
+        您的设备包含诊断软件可能会自动收集您设备的诊断和使用数据。为提高产品和服务的质量，诊断软件可能会将此类数据发给三星，
+        以用于统计分析目的，并会跟踪和解决意外停机或系统错误。三星收集的诊断和使用数据可能会包括：有关您如何使用设备的信息或
+        有关网络提供商的信息 (包括连接状态、充电状态、诸如显示器和电源设置的设置状态等) ；以及有关您如何使用应用程序的信息 (
+        包括使用频率和持续时间、设置状态、内存和电池的使用情况、日志数据、您设备的"定位"功能在何处激活、有关适当基站的位置数据
+        信息等)。由于三星服务器遍布世界各地，因此我们收集的数据可能会存储在您居住地以外的国家/地区，包括数据保护法可能不太全面
+        的国家/地区。同意向我们提供这类数据，即表示您明确同意这一点。出于目而收集的所有诊断和使用数据将以不会识别您身份或您设备
+        身份的方式进行汇总，并且仅出于此类分析所需而予以保留。您可以选择不向我们提供诊断和使用数据，这样做将不会对您设备的功能或
+        操作造成任何影响。您可以随时通过设备的"设置"选项来禁用本软件。选择复选框，然后点击【下一步】。您特此同意：(i)自动传输诊
+        断和使用数据；并同意(ii)三星出于上文所述之目的收集、使用、存储、共享及披露从您设备得到的诊断和使用数据。
+    </string>
+    <string name="guide_samsung_register_operator">您的设备信息将通过预定的服务运营商注册。注册将使用 WLAN 或移动数据。
+        如果使用中国电信 UIM 卡，则除了通过移动网络或 WLAN 送达的信息之外，还会向中国电信的服务器发送一条免费短信。根据
+        您的资费套餐，这可能会产生额外费用。每次插入新的中国电信 UIM 卡均会发送免费短信。
+    </string>
+    <string name="guide_xiaomi_network_communication_enable_service_need">
+        启用此服务需要：\n
+        1.首次开启可能需要发送一条普通短信验证您的手机号，未检测到您的Sim卡，将在检测到Sim卡后为您验证\n
+        2.加密上传你的设备信息
+        3.后台运行消耗极低的网络流量
+    </string>
+    <string name="guide_xiaomi_other_setting_position_service">
+        “位置服务”允许“地图”及其他应用程序对您进行定位
+    </string>
+    <string name="guide_xiaomi_other_setting_user_experience">
+        发送诊断与流量数据来帮助MIUI改进产品和服务。整个过程将遵循我们的隐私政策
+    </string>
+    <style name="GuideAppTheme" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <!--<item name="colorPrimary">@color/transparent</item>-->
+        <!--<item name="colorPrimaryDark">@color/transparent</item>-->
+        <!--<item name="colorAccent">@color/transparent</item>-->
+    </style>
+    <style name="GuideDefDialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="PopupBottom">
+        <item name="android:windowEnterAnimation">@animator/popup_bottom_enter</item>
+        <item name="android:windowExitAnimation">@animator/popup_bottom_exit</item>
+    </style>
+</resources>

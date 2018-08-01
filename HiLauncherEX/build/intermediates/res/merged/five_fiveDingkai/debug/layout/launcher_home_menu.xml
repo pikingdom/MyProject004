@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.launcher.menu.homemenu.LauncherHomeMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/launcher_home_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/upgrade_search_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:paddingTop="30dp"
+            android:visibility="gone"/>
+        <!-- 桌面上滑通知 -->
+		<LinearLayout
+            android:id="@+id/upgrade_launcher_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:paddingTop="25dp"
+            android:visibility="gone"/>
+
+        <FrameLayout
+                android:id="@+id/youbao_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#00ffffff"
+                android:paddingTop="25dp"
+                android:visibility="visible"/>
+        <RelativeLayout
+            android:id="@+id/guide_and_menu_relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:paddingTop="80dp">
+
+            <LinearLayout
+                android:id="@+id/guide_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!-- 搜索输入框 -->
+                <!-- <RelativeLayout -->
+                <!-- android:id="@+id/search_input_relativelayout" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="40dp" -->
+                <!-- android:layout_marginTop="35dp" -->
+                <!-- android:paddingLeft="8dp" -->
+                <!-- android:paddingRight="8dp"> -->
+                <!-- <EditText -->
+                <!-- android:id="@+id/tv_txtSearchInput" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="match_parent" -->
+                <!-- android:background="@drawable/home_menu_guide_input_bg" -->
+                <!-- android:textColorHint="#66FFFFFF" -->
+                <!-- android:hint="@string/searchbox_searchwebtab_input_hint" -->
+                <!-- android:paddingLeft="13dp" -->
+                <!-- android:textSize="18sp" -->
+                <!-- android:focusable="false"/> -->
+                <!-- <ImageView -->
+                <!-- android:id="@+id/iv_search_left_sep" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="match_parent" -->
+                <!-- android:layout_toLeftOf="@+id/iv_search_left_logo" -->
+                <!-- android:scaleType="centerInside" -->
+                <!-- android:src="@drawable/launcher_navigation_search_left_sep"/> -->
+                <!-- <ImageView -->
+                <!-- android:id="@+id/iv_search_left_logo" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="match_parent" -->
+                <!-- android:paddingLeft="10dip" -->
+                <!-- android:paddingRight="9dip" -->
+                <!-- android:layout_marginRight="8dp" -->
+                <!-- android:scaleType="centerInside" -->
+                <!-- android:layout_alignParentRight="true" -->
+                <!-- android:src="@drawable/home_menu_guide_search_icon"/> -->
+                <!-- </RelativeLayout> -->
+                <!-- 特效和编辑锁定引导 -->
+
+                <RelativeLayout
+                    android:id="@+id/layout_guide_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/home_menu_guide_height"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/home_menu_guide_layout_bg"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_tip1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/home_menu_guide_tip1"
+                            android:textColor="#ffffff"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_tip2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="13dp"
+                            android:text="@string/home_menu_guide_tip2"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_tip3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="13dp"
+                            android:text="@string/home_menu_guide_tip3"
+                            android:textColor="#f8c068"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/home_menu_guide_icon" />
+                </RelativeLayout>
+                <!-- 设置默认桌面引导 -->
+
+                <RelativeLayout
+                    android:id="@+id/layout_set_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:visibility="gone" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/home_menu_guide_layout_bg" >
+
+                        <TextView
+                            android:id="@+id/tv_set_default"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="@dimen/set_def_launcher_padding"
+                            android:text="@string/home_menu_guide_set_default_tip1"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/set_def_launcher_content_tx_size" />
+
+                        <TextView
+                            android:id="@+id/btn_no_set_default"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/set_def_launcher_buttom_height"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@id/tv_set_default"
+                            android:gravity="bottom"
+                            android:paddingBottom="@dimen/set_def_launcher_padding"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="25dp"
+                            android:text="@string/home_menu_guide_set_default_btn_no"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/set_def_launcher_content_cancel_size" />
+
+                        <TextView
+                            android:id="@+id/btn_set_default"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/set_def_launcher_buttom_height"
+                            android:layout_below="@id/tv_set_default"
+                            android:layout_toLeftOf="@id/btn_no_set_default"
+                            android:gravity="bottom"
+                            android:paddingBottom="@dimen/set_def_launcher_padding"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="@dimen/set_def_launcher_padding"
+                            android:text="@string/home_menu_guide_set_default_btn_yes"
+                            android:textColor="#f8c068"
+                            android:textSize="@dimen/set_def_launcher_content_confirm_size" />
+
+                        <TextView
+                            android:id="@+id/tv_how_set_default"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/set_def_launcher_buttom_height"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@id/tv_set_default"
+                            android:gravity="bottom"
+                            android:paddingBottom="@dimen/set_def_launcher_padding"
+                            android:text="@string/home_menu_guide_set_default_tip2"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/set_def_launcher_content_cancel_hint_size"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <!-- 小米通知消息设置 -->
+
+                <RelativeLayout
+                    android:id="@+id/layout_for_miui"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:visibility="gone" >
+
+                    <RelativeLayout
+                        android:id="@+id/layout_for_miui_notification_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/home_menu_guide_layout_bg"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="15dp"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/layout_for_miui_tips"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:text="@string/home_menu_guide_set_miui_tip1"
+                            android:textColor="#ffffff"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/layout_for_miui_tips_btn_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@id/layout_for_miui_tips"
+                            android:gravity="bottom"
+                            android:paddingBottom="15dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="25dp"
+                            android:text="@string/home_menu_guide_set_default_btn_no"
+                            android:textColor="#ffffff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/layout_for_miui_tips_btn_yes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:layout_below="@id/layout_for_miui_tips"
+                            android:layout_toLeftOf="@id/layout_for_miui_tips_btn_no"
+                            android:gravity="bottom"
+                            android:paddingBottom="15dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="15dp"
+                            android:text="@string/home_menu_guide_set_miui_btn_yes"
+                            android:textColor="#f8c068"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/layout_for_miui_tips1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@id/layout_for_miui_tips"
+                            android:gravity="bottom"
+                            android:paddingBottom="15dp"
+                            android:text="@string/home_menu_guide_set_miui_tip2"
+                            android:textColor="#ffffff"
+                            android:textSize="15sp"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/push_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="@dimen/home_menu_top_margin" />
+
+            <com.nd.hilauncherdev.launcher.menu.homemenu.MenuItemsLayout
+                android:id="@+id/items_layout_v6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/home_menu_bottom_margin"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical" 
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <!-- 屏幕预览 -->
+
+                    <TextView
+                        android:id="@+id/item_screen_preview"
+                        style="@style/HomeMenuItem"
+                        android:drawableTop="@drawable/home_menu_item_screen_preview_selector"
+                        android:text="@string/menu_item_screen_preview" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+                    <!-- 添加应用 -->
+
+                    <TextView
+                        android:id="@+id/item_add_app"
+                        style="@style/HomeMenuItem"
+                        android:drawableTop="@drawable/home_menu_item_add_app_selector"
+                        android:text="@string/menu_item_add_app" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+                    <!-- 添加小部件 -->
+
+                    <TextView
+                        android:id="@+id/item_add_widget"
+                        style="@style/HomeMenuItem"
+                        android:drawableTop="@drawable/home_menu_item_add_widget_selector"
+                        android:text="@string/menu_item_add_widget" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+                    <!-- 系统设置 -->
+
+                    <TextView
+                        android:id="@+id/item_system_setting"
+                        style="@style/HomeMenuItem"
+                        android:drawableTop="@drawable/home_menu_item_system_setting_selector"
+                        android:text="@string/menu_fir_six_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp" >
+
+                    <!-- 个性化 -->
+
+                    <TextView
+                        android:id="@+id/item_individuation"
+                        style="@style/HomeMenuItem"
+                        android:drawableTop="@drawable/home_menu_item_individuation_selector"
+                        android:text="@string/launcher_edit_individal" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+                    <!-- 个人中心 -->
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/item_download_remind"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignRight="@+id/item_personal_center"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/download_remind"
+                            android:gravity="center"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/item_personal_center"
+                            style="@style/HomeMenuItem"
+                            android:drawableTop="@drawable/home_menu_item_mine_selector"
+                            android:text="@string/personal_center" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+                    <!-- 帮助手册 -->
+
+                    <TextView
+                        android:id="@+id/item_help"
+                        style="@style/HomeMenuItem"
+                        android:drawableTop="@drawable/home_menu_item_help_selector"
+                        android:text="@string/menu_item_help" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/item_launcher_setting"
+                        style="@style/HomeMenuItem"
+                        android:layout_gravity="right"
+                        android:drawableTop="@drawable/home_menu_item_launcher_setting_selector"
+                        android:text="@string/menu_fir_seven_text" />
+                </LinearLayout>
+            </com.nd.hilauncherdev.launcher.menu.homemenu.MenuItemsLayout>
+            
+            
+            
+            <com.nd.hilauncherdev.launcher.menu.homemenu.MenuItemsLayoutV7
+                android:id="@+id/items_layout_v7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/home_menu_bottom_margin"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <!-- 添加应用、小部件 -->
+
+                    <TextView
+                        android:id="@+id/item_add_app_v7"
+                        style="@style/HomeMenuItem"
+                        android:drawableTop="@drawable/home_menu_item_add_app_selector"
+                        android:text="添加" />
+                    
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+                    
+                    <!-- 换特效 -->
+
+                    <TextView
+                        android:id="@+id/item_change_effect_v7"
+                        style="@style/HomeMenuItem"
+                        android:drawableTop="@drawable/home_menu_item_change_effect_selector"
+                        android:text="换特效" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+                    
+                    <!-- 快速美化 -->
+
+                    <TextView
+                        android:id="@+id/item_individuation_express_v7"
+                        style="@style/HomeMenuItem"
+                        android:drawableTop="@drawable/home_menu_diy_flash_selector"
+                        android:text="快速美化" />
+                    
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+                     <!-- 系统设置 -->
+					<TextView
+                        android:id="@+id/item_system_setting_v7"
+                        style="@style/HomeMenuItem"
+                        android:drawableTop="@drawable/home_menu_item_system_setting_selector"
+                        android:text="@string/menu_fir_six_text" />
+
+                    
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp" >
+
+                    <!-- 个性化 -->
+
+                    <TextView
+                        android:id="@+id/item_individuation_v7"
+                        style="@style/HomeMenuItem"
+                        android:drawableTop="@drawable/home_menu_item_individuation_selector"
+                        android:text="@string/launcher_edit_individal" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+                    <!-- 个人中心 -->
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/item_download_remind_v7"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignRight="@+id/item_personal_center_v7"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/download_remind"
+                            android:gravity="center"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/item_personal_center_v7"
+                            style="@style/HomeMenuItem"
+                            android:drawableTop="@drawable/home_menu_item_mine_selector"
+                            android:text="@string/personal_center" />
+                    </RelativeLayout>
+                    
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+                    
+                    <!-- 屏幕预览 -->
+
+                    <TextView
+                        android:id="@+id/item_screen_preview_v7"
+                        style="@style/HomeMenuItem"
+                        android:drawableTop="@drawable/home_menu_item_screen_preview_selector"
+                        android:text="@string/menu_item_screen_preview" />
+                    
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_weight="1" />
+
+                    
+                    <!-- 桌面设置 -->
+                    <TextView
+                        android:id="@+id/item_launcher_setting_v7"
+                        style="@style/HomeMenuItem"
+                        android:layout_gravity="right"
+                        android:drawableTop="@drawable/home_menu_item_launcher_setting_selector"
+                        android:text="@string/menu_fir_seven_text" />
+
+                </LinearLayout>
+            </com.nd.hilauncherdev.launcher.menu.homemenu.MenuItemsLayoutV7>
+            
+            
+        </RelativeLayout>
+    </FrameLayout>
+
+</com.nd.hilauncherdev.launcher.menu.homemenu.LauncherHomeMenu>

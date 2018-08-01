@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+		<RelativeLayout 
+		    android:id="@+id/weather_main_bk"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:background="#418ABF" >
+		    <com.nd.weather.widget.UI.weather.BlurImageSwitcher
+	            android:id="@+id/imgBackground"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent" />
+		    <View 
+	            android:id="@+id/iv_mask"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:visibility="visible"
+	            android:background="#10000000" />
+		    <com.nd.weather.widget.UI.weather.WeatherScrollView 
+				android:id="@+id/weather_scrollview"
+			    android:layout_below="@+id/weather_top_layout"
+			    android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+		        android:layout_centerInParent="true"
+		        android:fillViewport="true"
+		        android:layout_marginBottom="60dip"
+			    android:scrollbars="none" >
+		        <LinearLayout
+		            android:id="@+id/weather_today_layout"
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:orientation="vertical" >
+		            <!-- 界面最上面ViewFlipper控件 -->
+		            <com.nd.weather.widget.UI.weather.CityViewFlipper
+		                android:id="@+id/FlingGalleryId"
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent" />
+		
+		            <View
+		                android:layout_width="fill_parent"
+		                android:layout_height="1dp"
+				        android:layout_marginLeft="16dp"
+				        android:layout_marginRight="16dp"
+		                android:background="#86ffffff" />
+		
+		            <com.nd.weather.widget.UI.weather.AllDayWeatherView
+		                android:id="@+id/all_day_weather_view"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content" >
+		            </com.nd.weather.widget.UI.weather.AllDayWeatherView>
+		            
+		            <!-- 底部广告banner -->
+		            <com.nd.weather.widget.UI.weather.ad.AdImageView
+		                android:id="@+id/bottom_ad_banner"
+		                android:layout_width="match_parent"
+		                android:layout_height="50dip"
+		                android:layout_marginLeft="16dp"
+				        android:layout_marginRight="16dp"
+		                android:scaleType="fitXY"
+		                android:layout_marginTop="5dip" />
+		        </LinearLayout>
+			</com.nd.weather.widget.UI.weather.WeatherScrollView>
+		    <LinearLayout
+		        android:id="@+id/weather_top_layout"
+		        android:layout_width="fill_parent"
+		        android:layout_height="62dip"
+		        android:layout_alignParentTop="true"
+		        android:orientation="vertical"
+		        android:paddingLeft="15dp"
+		        android:paddingRight="15dp"
+		        android:paddingTop="10dp" >
+		
+		        <RelativeLayout
+		            android:id="@+id/city_info_top"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content" >
+		
+		            <TextView
+		                android:id="@+id/weather_date"
+		                style="@style/weather_date_topleft"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_alignParentLeft="true"
+		                android:layout_gravity="left"
+		                android:gravity="left|top"
+		                android:text="    " />
+		
+		            <RelativeLayout
+		                android:id="@+id/weather_city_layout"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_centerHorizontal="true"
+		                android:layout_centerInParent="true"
+		                android:layout_marginLeft="18dp"
+		                android:layout_marginRight="18dp"
+		                android:layout_toLeftOf="@+id/city_info_top_right"
+		                android:layout_toRightOf="@id/weather_date" >
+		
+		                <TextView
+		                    android:id="@+id/weather_city"
+		                    style="@style/city_topcenter"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_centerInParent="true"
+		                    android:gravity="center_horizontal|top"
+		                    android:text="    " />
+		            </RelativeLayout>
+		
+		            <LinearLayout
+		                android:id="@+id/city_info_top_right"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_alignParentRight="true"
+		                android:layout_centerVertical="true"
+		                android:gravity="right|center_vertical"
+		                android:orientation="horizontal" >
+		
+		                <Button
+		                    android:id="@+id/weather_btn_refresh"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginRight="2dp"
+		                    android:background="@drawable/weather_btn_refresh_selector"
+		                    android:gravity="right|center_vertical" />
+		
+		                <Button
+		                    android:id="@+id/weather_btn_setting"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_marginLeft="15dp"
+		                    android:background="@drawable/weather_btn_setting_selector"
+		                    android:gravity="right|center_vertical" />
+		            </LinearLayout>
+		        </RelativeLayout>
+		
+		        <com.nd.weather.widget.UI.weather.CommonLightbar
+		            android:id="@+id/weather_city_flipper_lightbar"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center_horizontal|bottom"
+		            android:layout_marginBottom="5dp"
+		            android:layout_marginTop="5dp"
+		            android:gravity="center" />
+		    </LinearLayout>
+		</RelativeLayout>
+		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal|bottom"
+	        android:gravity="center"
+	        android:layout_marginBottom="12dp"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginRight="15dp"
+	        android:id="@+id/weather_more_layout"
+	        android:orientation="horizontal" >
+	        <Button
+	            android:id="@+id/weather_btn_more"
+	            style="@style/moreButton"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:background="@drawable/weather_shape_btn_more_selector"
+	            android:paddingTop="8dp"
+	            android:paddingBottom="8dp"
+	            android:text="@string/more_weather" />
+	    </LinearLayout>
+</FrameLayout>

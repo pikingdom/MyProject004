@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#f0f0f0"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/diy_wallpaper_detail_author_ly"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#f0f0f0"
+        >
+        <TextView
+            android:id="@+id/diy_wallpaper_detail_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#958ef0"
+            android:text="diy_wallpaper_detail_author"
+            android:gravity="right"
+            android:textSize="19sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/diy_wallpaper_detail_author_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="12dp"
+            android:textColor="#958ef0"
+            android:text="  >"
+            android:textSize="19sp" >
+        </TextView>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_content"
+        android:layout_below="@id/diy_wallpaper_detail_author_ly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+
+</RelativeLayout>

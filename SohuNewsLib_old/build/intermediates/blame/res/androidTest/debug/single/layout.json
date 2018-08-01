@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sohuplugin_default_loading.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\bundles\\debug\\res\\layout\\sohuplugin_default_loading.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sohu_push_notify.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\bundles\\debug\\res\\layout\\sohu_push_notify.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sohu_newssdk_loading_layout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\bundles\\debug\\res\\layout\\sohu_newssdk_loading_layout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sohu_push_item_imagetext.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\bundles\\debug\\res\\layout\\sohu_push_item_imagetext.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\newssdk_loading_layout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\bundles\\debug\\res\\layout\\newssdk_loading_layout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sohu_plugin_default_loading.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\bundles\\debug\\res\\layout\\sohu_plugin_default_loading.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sohu_push_item_text_boss.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\bundles\\debug\\res\\layout\\sohu_push_item_text_boss.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sohu_push_item_imagetext_boss.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\bundles\\debug\\res\\layout\\sohu_push_item_imagetext_boss.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sohu_push_item_text.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\SohuNewsLib_old\\build\\intermediates\\bundles\\debug\\res\\layout\\sohu_push_item_text.xml"
+    }
+]

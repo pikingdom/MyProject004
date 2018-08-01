@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 保存壁纸数上限 -->
+    <Preference
+        android:key="settings_save_wallpaper_cache_size"
+        android:layout="@layout/preference_normal_layout"
+        android:summary="@string/swap_wallpaper_cache_message_size"
+        android:title="@string/swap_wallpaper_cache_message"
+        android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+	<!-- 壁纸风格 -->
+    <Preference
+        android:key="settings_swap_wallpaper_type"
+        android:layout="@layout/preference_normal_layout"
+        android:summary="@string/settings_swap_wallpaper_type_detail"
+        android:title="@string/swap_wallpaper_style"
+        android:widgetLayout="@layout/preferences_listpreferences_more_btn" />
+</PreferenceScreen>

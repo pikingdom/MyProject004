@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ll_0"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_samsung_title"
+        android:gravity="center_vertical"
+        android:paddingLeft="35.7dp"
+        android:text="条款和条件"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+
+
+    <include
+        android:id="@+id/i_0"
+        layout="@layout/include_samsung_guide_bottom_next"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true" />
+
+
+    <LinearLayout
+        android:background="#fafafa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@id/i_0"
+        android:layout_below="@+id/ll_0"
+        android:paddingRight="37.3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22.3dp"
+            android:paddingLeft="35.7dp"
+            android:text="@string/guide_samsung_baidu_position"
+            android:textColor="#252525"
+            android:textSize="13dp"/>
+
+        <CheckBox
+            android:layout_marginTop="21dp"
+            android:padding="15dp"
+            android:layout_marginLeft="40.3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/cb_samsung"
+            android:textColor="#252525"
+            android:textSize="13dp"
+            android:text="即使在 WLAN 关闭时，也允许网络定位服务和应用程序扫描 WLAN。"/>
+
+        <CheckBox
+            android:layout_marginTop="6dp"
+            android:padding="15dp"
+            android:layout_marginLeft="40.3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/cb_samsung"
+            android:textColor="#252525"
+            android:checked="true"
+            android:textSize="13dp"
+            android:text="允许百度位置服务收集匿名位置数据。即使没有运行应用程序时也会进行。"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 个性化用户标签设置引导界面 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b2000000"
+    android:gravity="center"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="70dp"
+    android:paddingBottom="30dp" >
+	<FrameLayout 
+	    android:id="@+id/content"
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="#edf0f7" />
+	<ImageView android:id="@+id/btn_close"
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+	    android:layout_gravity="top|right"
+	    android:scaleType="fitCenter"
+	    android:src="@drawable/theme_shop_v8_user_tag_setting_close_selector" />    	
+	
+</FrameLayout>

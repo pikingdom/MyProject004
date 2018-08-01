@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pandahome检测activity -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/pandahome_check_main_activity_system_hardware"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <ImageView
+            android:id="@+id/pandahome_check_main_activity_hardware_list_item_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:src="@drawable/pre_more_button" />
+
+        <TextView
+            android:id="@+id/pandahome_check_mian_activity_hardware_list_item_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/pandahome_check_main_activity_hardware_list_item_image"
+            android:gravity="center_vertical"
+            android:text="@string/system_hardware"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/prompt_preference_category" />
+
+    <RelativeLayout
+        android:id="@+id/pandahome_check_main_activity_log"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <ImageView
+            android:id="@+id/pandahome_check_main_activity_log_list_item_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:src="@drawable/pre_more_button" />
+
+        <TextView
+            android:id="@+id/pandahome_check_mian_activity_log_list_item_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/pandahome_check_main_activity_log_list_item_image"
+            android:gravity="center_vertical"
+            android:text="@string/pandahome_check_log"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/prompt_preference_category" />
+
+    <RelativeLayout
+        android:id="@+id/pandahome_expire_default_theme"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <ImageView
+            android:id="@+id/pandahome_check_main_activity_expire_theme_list_item_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:src="@drawable/pre_more_button" />
+
+        <TextView
+            android:id="@+id/pandahome_check_mian_activity_expire_theme_list_item_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/pandahome_check_main_activity_expire_theme_list_item_image"
+            android:gravity="center_vertical"
+            android:text="@string/pandahome_clean_default_theme"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/prompt_preference_category" />
+
+    <RelativeLayout
+        android:id="@+id/pandahome_clean_caches"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <ImageView
+            android:id="@+id/pandahome_clean_caches_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:src="@drawable/pre_more_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/pandahome_clean_caches_image"
+            android:gravity="center_vertical"
+            android:text="@string/pandahome_clean_caches"
+            android:textSize="15sp" />
+    </RelativeLayout> 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/prompt_preference_category" />
+</LinearLayout>

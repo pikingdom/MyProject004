@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.launcher.edit.LauncherEditView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/launcher_editor"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/launcher_edit_view_height"
+    android:layout_gravity="bottom|center_horizontal"
+    android:visibility="invisible" >
+
+    <LinearLayout
+        android:id="@+id/launcher_multi_tab_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/launcher_edit_view_top_layout_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/edit_view_top_bg"
+        android:gravity="center_vertical" >
+
+        <FrameLayout
+            android:id="@+id/launcher_edit_first_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <CheckedTextView
+                android:id="@+id/launcher_edit_widget_btn"
+                style="@style/EditViewTab"
+                android:checked="true"
+                android:drawableLeft="@drawable/edit_view_tab_particle_effect_selector" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/launcher_edit_sec_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <CheckedTextView
+                android:id="@+id/launcher_edit_add_btn"
+                style="@style/EditViewTab"
+                android:drawableLeft="@drawable/edit_view_tab_screen_effect_selector" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/launcher_edit_third_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <CheckedTextView
+                android:id="@+id/launcher_edit_individal_btn"
+                style="@style/EditViewTab"
+                android:drawableLeft="@drawable/edit_view_tab_drawer_effect_selector" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/launcher_edit_forth_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <com.nd.hilauncherdev.launcher.edit.PromptCheckedTextView
+                android:id="@+id/launcher_edit_effect_btn"
+                style="@style/EditViewTab"
+                android:drawableLeft="@drawable/edit_view_tab_drawer_inout_effect_selector" />
+        </FrameLayout><FrameLayout
+            android:id="@+id/launcher_edit_fifth_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" 
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/launcher_edit_top_btn_edit2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="right"
+                android:paddingBottom="10dip"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip"
+                android:paddingTop="10dip"
+                android:scaleType="fitCenter"
+                android:src="@drawable/launcher_edit_theme_edit_selector" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/launcher_single_tab_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/launcher_edit_view_top_layout_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/edit_view_top_bg"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/launcher_edit_widget_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/launcher_edit_view_top_layout_height"
+            android:background="@drawable/launcher_edit_view_bg"
+            android:paddingLeft="10dp"
+            android:paddingRight="13dp"
+            android:src="@drawable/launcheredit_back_btn_bg" />
+
+        <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/edit_mode_tab_selected_background">
+	        <CheckedTextView
+	            android:id="@+id/launcher_edit_widget_top_btn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:checked="true"
+	            android:paddingLeft="15dip"
+	            android:paddingRight="15dip"
+	            android:paddingTop="1dp"
+	            android:layout_alignParentLeft="true"
+	            android:text="@string/launcher_edit_widget_top_add"
+	            android:textColor="@color/edit_mode_tab_color"
+	            android:textSize="@dimen/launcher_edit_view_top_layout_text_size" />
+	        <ImageView android:id="@+id/launcher_edit_top_btn_edit"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:paddingLeft="15dip"
+	            android:paddingRight="15dip"
+	            android:paddingTop="10dip"
+	            android:paddingBottom="10dip"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/launcher_edit_theme_edit_selector" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/content_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/launcher_multi_tab_top_layout"
+        android:background="@drawable/edit_view_content_layout_bg" >
+
+        <com.nd.hilauncherdev.framework.view.commonsliding.CommonLightbar
+            android:id="@+id/launcher_edit_lightbar"
+            android:layout_width="match_parent"
+            android:layout_height="15dip"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:paddingBottom="4dp" />
+
+        <!-- 每个Tab 下面的view 集合 -->
+
+        <com.nd.hilauncherdev.launcher.edit.LauncherEditSlidingView
+            android:id="@+id/launcher_edit_sliding_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/launcher_edit_lightbar" />
+    </RelativeLayout>
+
+    <!-- 情景编辑界面 -->
+
+    <com.nd.hilauncherdev.launcher.edit.scene.SceneEditView
+        android:id="@+id/scene_edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/launcher_multi_tab_top_layout"
+        android:background="@drawable/launcher_edit_view_bg"
+        android:visibility="gone" >
+
+        <com.nd.hilauncherdev.framework.view.commonview.FooterView
+            android:id="@+id/bottom_oper_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="invisible" >
+        </com.nd.hilauncherdev.framework.view.commonview.FooterView>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontal_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottom_oper_area"
+            android:scrollbars="none" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/wc_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <GridView
+                        android:id="@+id/grid_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:columnWidth="96dip"
+                        android:gravity="center"
+                        android:horizontalSpacing="5dip"
+                        android:listSelector="@android:color/transparent"
+                        android:numColumns="auto_fit"
+                        android:stretchMode="spacingWidthUniform"
+                        android:verticalSpacing="0dip" >
+                    </GridView>
+                </LinearLayout>
+            </FrameLayout>
+        </HorizontalScrollView>
+
+        <ProgressBar
+            android:id="@+id/scene_load_circle_bar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/msg_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:visibility="gone" />
+    </com.nd.hilauncherdev.launcher.edit.scene.SceneEditView>
+
+</com.nd.hilauncherdev.launcher.edit.LauncherEditView>

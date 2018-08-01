@@ -1,0 +1,96 @@
+{
+	"version": 18,
+    "plugin": 
+    [
+		{	"pkg": "com.baidu91.launcher.manager", 
+	    	"version": 1,
+	    	"type": 1,
+	    	"targetVersion": 6201, 
+			"downloadfile":""
+		},
+	    {
+	      "pkg": "com.nd.hilauncherdev.plugin.navigation",
+	      "version": 2,
+	      "type": 1,
+	      "targetVersion": 6118,
+	      "downloadfile": "",
+	      "downloadtype":"wifi"
+	    },
+		{	"pkg": "com.baidu91.launcher.individuation", 
+    		"version": 7,
+    		"type": 1, 
+			"targetVersion": 6201, 
+			"downloadfile":""
+		},
+		{	"pkg": "com.wireless.assistant.mobile.market", 
+			"version":10,
+    		"type": 1, 
+			"targetVersion": 6118, 
+			"downloadfile":""
+		},
+		{	"pkg": "com.baidu.launcher.petfloat", 
+    		"version": 9,
+    		"type": 1, 
+			"targetVersion": 6201, 
+			"downloadfile":""
+		},
+		{	"pkg": "com.nd.hilauncherdev.myphone.privatezone", 
+	    	"version": 1,
+	    	"type": 1,
+	    	"targetVersion": 6118, 
+			"downloadfile":""
+		},
+		{	"pkg": "com.nd.android.anyshare", 
+    		"version": 3,
+    		"type": 1, 
+			"targetVersion": 6101, 
+			"downloadfile":""
+		},
+        {
+          "pkg": "com.wireless.android.jifenqiang",
+          "version": 5,
+          "type": 1,
+          "targetVersion": 6298,
+          "downloadfile":""
+        },
+        {
+          "pkg": "com.nd.hilauncherdev.myphone.mywallpaper",
+          "version": 12,
+          "type": 1,
+          "targetVersion": 6998,
+          "downloadfile":""
+        },
+        {
+          "pkg": "com.baidu91.launcher.netflow",
+          "version": 2,
+          "type": 1,
+          "targetVersion": 6298,
+          "downloadfile":""
+        },{
+          "pkg": "com.baidu.launcher.plugin",
+          "version": 1,
+          "type": 1,
+          "targetVersion": 6498,
+          "downloadfile":""
+        },{
+          "pkg": "com.baidu91.launcher.assist",
+          "version": 1,
+          "type": 1,
+          "targetVersion": 6298,
+          "downloadfile":""
+        },{
+          "pkg": "com.baidu.launcher.po",
+          "version": 5,
+          "type": 1,
+          "targetVersion": 7028,
+          "downloadfile":""
+        },
+		{
+			"pkg": "com.nd.android.pandahome2.shop",
+			"version": 999,
+			"type": 1,
+			"targetVersion": 6998,
+			"downloadfile":""
+		}
+	]
+}

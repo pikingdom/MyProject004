@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scene_top_menu_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout
+        android:id="@+id/scene_top_menu_layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/common_title_bg"
+        android:paddingLeft="15dip"
+        android:paddingRight="8dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/scene_please_select_your_scene"
+            android:textColor="#1c1c1c" />
+
+        <Button
+            android:id="@+id/scene_top_menu_btn_more"
+            android:layout_width="45dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/scene_top_menu_more_btn_selector"
+            android:paddingTop="2dip"
+            android:text="@string/scene_shop_more"
+            android:textColor="#00bbd5" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/scene_top_menu_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scene_top_menu_layout_top"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:visibility="invisible" >
+
+        <GridView
+            android:id="@+id/scene_top_menu_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:horizontalSpacing="4dip"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:stretchMode="columnWidth" />
+
+        <ImageView
+            android:id="@+id/scene_top_menu_layout_more"
+            android:layout_width="25dp"
+            android:layout_height="12dp"
+            android:gravity="center"
+            android:scaleType="center"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/scene_top_menu_more" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/scene_top_menu_layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/scene_top_menu_scrollview"
+        />
+
+</RelativeLayout>

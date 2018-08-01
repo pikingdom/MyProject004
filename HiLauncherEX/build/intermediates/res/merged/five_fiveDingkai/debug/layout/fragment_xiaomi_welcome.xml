@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_xiaomi_bg">
+
+    <ImageView
+        android:id="@+id/iv_0"
+        android:layout_marginTop="100.7dp"
+        android:layout_width="108.7dp"
+        android:layout_height="183.7dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_xiaomi_welcome"/>
+
+    <TextView
+        android:layout_below="@id/iv_0"
+        android:layout_marginTop="33.7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#555555"
+        android:textSize="27dp"
+        android:text="MIUI8"
+        />
+
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="60dp"
+        android:layout_height="60.3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="95.7dp"
+        android:background="@drawable/btn_xiaomi_next_welcome"/>
+
+
+</RelativeLayout>

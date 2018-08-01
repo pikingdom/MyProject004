@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/bg_samsung_dialog_wlan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="21dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:textColor="#252525"
+            android:textSize="16dp"
+            android:text="智能网络切换"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:textColor="#252525"
+            android:textSize="13dp"
+            android:text="如果智能网络切换启用，则在 WLAN  连接不稳定时，您的设备将自动连接至移动网络。根据您的资费套餐，这可能会产生额外的费用。"/>
+
+        <RadioGroup
+            android:id="@+id/dialog_wlan_rg_enable_switch"
+            android:layout_marginTop="9.5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/dialog_wlan_radio_switch_enable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/radio_samsung"
+                    android:textColor="#252525"
+                    android:padding="15dp"
+                    android:textSize="13dp"
+                    android:text="开"/>
+
+                <RadioButton
+                    android:id="@+id/dialog_wlan_radio_switch_disable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/radio_samsung"
+                    android:checked="true"
+                    android:textColor="#252525"
+                    android:padding="12.5dp"
+                    android:textSize="13dp"
+                    android:text="关"/>
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="52.8dp">
+
+            <TextView
+                android:id="@+id/dialog_wlan_tv_click_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="23dp"
+                android:textColor="#499ebd"
+                android:textSize="13dp"
+                android:text="取消"/>
+
+        </RelativeLayout>
+        
+    </LinearLayout>
+
+</RelativeLayout>

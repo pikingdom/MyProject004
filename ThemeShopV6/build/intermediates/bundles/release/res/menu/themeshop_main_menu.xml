@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nd.hilauncherdev.shop.shop3.ThemeShopV2MainActivity" >
+    <item
+        android:id="@+id/action_addapt"
+        android:orderInCategory="100"
+        android:title="@string/theme_manage_menu_add_theme"/>
+    <item
+        android:id="@+id/action_own"
+        android:orderInCategory="100"
+        android:title="@string/theme_menu_own"/>
+</menu>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:paddingTop="@dimen/status_bar_height" >
+
+    <LinearLayout android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/activity_app_choose_title" >
+
+            <TextView
+                android:id="@+id/app_choose_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="@color/title_main_color_light"
+                android:textSize="@dimen/folder_full_title_size" />
+
+            <LinearLayout
+                android:id="@+id/menu_replace_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:visibility="invisible"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:text="循环"
+                    android:textColor="@color/title_main_color_light"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_replace_mode"
+                    android:layout_marginLeft="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/btn_checkbox"
+                    android:checked="true"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/newfolder_rename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/app_choose_btn_rename"
+                android:clickable="true"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <LinearLayout android:id="@+id/layout_keyword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="5dip"
+                android:paddingBottom="5dip"
+                android:textSize="14sp"
+                android:background="#eef1f6"
+                android:text="@string/icon_keyword"
+                android:textColor="#6d8494" />
+            <RelativeLayout
+                android:id="@+id/layout_show_keyword"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:background="@drawable/myphone_click_item_blue"
+                android:paddingLeft="5dip">
+                <TextView
+                    android:id="@+id/tv_keywords"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip"
+                    android:hint="@string/icon_keyword_add_click_hint"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentLeft="true"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_toLeftOf="@+id/iv_preview_more"
+                    android:textSize="14sp"
+                    android:textColor="#181818" />
+                <ImageView
+                    android:id="@+id/iv_preview_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/match_keyword_pre_more"
+                    android:padding="5dip"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingTop="5dip"
+                android:paddingBottom="5dip"
+                android:textSize="14sp"
+                android:background="#eef1f6"
+                android:text="@string/icon_repalce_select_icon_list"
+                android:textColor="#6d8494" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_layout" >
+
+        <LinearLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/cancel_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/folder_full_btn_cancel_selector"
+                android:gravity="center"
+                android:text="@string/common_button_cancel"
+                android:textColor="@color/standard_dialog_btn_cancel_text"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/confirm_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="17dp"
+                android:layout_weight="1"
+                android:background="@drawable/folder_full_btn_confirm_selector"
+                android:gravity="center"
+                android:text="@string/common_button_confirm"
+                android:textColor="@color/standard_dialog_btn_confirm_text"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/lightbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="8dip"
+            android:layout_above="@id/bottom_layout"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="10dip" >
+
+            <com.nd.hilauncherdev.framework.view.commonsliding.CommonLightbar
+                android:id="@+id/lightbar"
+                android:layout_width="match_parent"
+                android:layout_height="8dip"
+                android:gravity="center" />
+
+            <com.nd.hilauncherdev.framework.view.commonsliding.CommonLightbar
+                android:id="@+id/lightbar_91"
+                android:layout_width="match_parent"
+                android:layout_height="8dip"
+                android:gravity="center" />
+        </FrameLayout>
+
+        <com.nd.hilauncherdev.framework.view.commonview.MyphoneTabContainer
+            android:id="@+id/tab_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/lightbar_layout" />
+    </RelativeLayout>
+
+</RelativeLayout>

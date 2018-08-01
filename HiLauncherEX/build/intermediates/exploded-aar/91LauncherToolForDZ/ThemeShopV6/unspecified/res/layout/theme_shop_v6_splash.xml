@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:id="@+id/loading_container" >
+
+    <ImageView
+        android:id="@+id/loading_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/loading_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+	<TextView 
+	    android:id="@+id/loading_webview_skip"
+	    android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|right"
+        android:layout_margin="15dp"
+        android:text="跳过"
+        android:gravity="center"
+        android:background="@drawable/bg_shop_search" 
+        android:visibility="gone"
+	    />
+    <ImageView
+        android:id="@+id/bottom_logo"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|center_vertical"
+        android:background="@drawable/theme_shop_loading_bottom" />
+</FrameLayout>

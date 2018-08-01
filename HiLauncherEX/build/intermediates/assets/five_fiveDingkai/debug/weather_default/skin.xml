@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Skins Name="moren" Author="pjf" Version="2.5.1" SkinEngineVersion="5">
+    <Resolutions count="11" style-1="4x1" style-2="4x2">
+        <Single Resolution="240*320" />
+        <Single Resolution="240*400" />
+        <Single Resolution="320*480" />
+        <Single Resolution="480*800" />
+        <Single Resolution="480*854" />
+        <Single Resolution="540*960" />
+        <Single Resolution="640*960" />
+        <Single Resolution="720*1184" />
+        <Single Resolution="720*1280" />
+        <Single Resolution="600*1024" />
+        <Single Resolution="800*1280" />
+    </Resolutions>
+    <Skin WidgetType="4x1" Resolution="240*320">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="106" Y="58" Size="10" Color="ffffff" Align="left" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="0" Width="240" Height="74"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="104" Y="8" Width="24" Height="46"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="126" Y="8" Width="24" Height="46"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="160" Y="8" Width="24" Height="46"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="182" Y="8" Width="24" Height="46"/>
+        <SkinDraw Type="ND_TIME_COLON" X="145" Y="11" Width="20" Height="40"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="12" Y="32" Width="92" Height="30"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="14" Y="12" Width="14" Height="14"/>
+    </Skin>
+    <Skin WidgetType="4x1" Resolution="240*400">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="106" Y="58" Size="10" Color="ffffff" Align="left" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="0" Width="240" Height="74"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="104" Y="8" Width="24" Height="46"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="126" Y="8" Width="24" Height="46"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="160" Y="8" Width="24" Height="46"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="182" Y="8" Width="24" Height="46"/>
+        <SkinDraw Type="ND_TIME_COLON" X="145" Y="11" Width="20" Height="40"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="12" Y="32" Width="92" Height="30"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="14" Y="12" Width="14" Height="14"/>
+    </Skin>
+    <Skin WidgetType="4x1" Resolution="320*480">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="141" Y="77" Size="13" Color="ffffff" Align="left" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="0" Width="320" Height="98"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="138" Y="10" Width="32" Height="61"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="168" Y="10" Width="32" Height="61"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="213" Y="10" Width="32" Height="61"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="242" Y="10" Width="32" Height="61"/>
+        <SkinDraw Type="ND_TIME_COLON" X="193" Y="15" Width="26" Height="53"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="16" Y="42" Width="122" Height="40"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="18" Y="16" Width="18" Height="18"/>
+    </Skin>
+    <Skin WidgetType="4x1" Resolution="480*800">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="212" Y="116" Size="20" Color="ffffff" Align="left" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="0" Width="480" Height="148"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="208" Y="16" Width="48" Height="92"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="252" Y="16" Width="48" Height="92"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="320" Y="16" Width="48" Height="92"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="364" Y="16" Width="48" Height="92"/>
+        <SkinDraw Type="ND_TIME_COLON" X="290" Y="23" Width="40" Height="80"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="24" Y="64" Width="184" Height="60"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="28" Y="24" Width="28" Height="28"/>
+    </Skin>
+    <Skin WidgetType="4x1" Resolution="480*854">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="212" Y="116" Size="20" Color="ffffff" Align="left" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="0" Width="480" Height="148"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="208" Y="16" Width="48" Height="92"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="252" Y="16" Width="48" Height="92"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="320" Y="16" Width="48" Height="92"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="364" Y="16" Width="48" Height="92"/>
+        <SkinDraw Type="ND_TIME_COLON" X="290" Y="23" Width="40" Height="80"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="24" Y="64" Width="184" Height="60"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="28" Y="24" Width="28" Height="28"/>
+    </Skin>
+    <Skin WidgetType="4x1" Resolution="540*960">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="238" Y="130" Size="22" Color="ffffff" Align="left" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="0" Width="540" Height="166"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="234" Y="18" Width="54" Height="103"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="283" Y="18" Width="54" Height="103"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="360" Y="18" Width="54" Height="103"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="409" Y="18" Width="54" Height="103"/>
+        <SkinDraw Type="ND_TIME_COLON" X="326" Y="25" Width="45" Height="90"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="27" Y="72" Width="207" Height="67"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="31" Y="27" Width="31" Height="31"/>
+    </Skin>
+    <Skin WidgetType="4x1" Resolution="640*960">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="282" Y="154" Size="26" Color="ffffff" Align="left" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="0" Width="640" Height="197"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="277" Y="21" Width="64" Height="122"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="336" Y="21" Width="64" Height="122"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="426" Y="21" Width="64" Height="122"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="485" Y="21" Width="64" Height="122"/>
+        <SkinDraw Type="ND_TIME_COLON" X="386" Y="30" Width="53" Height="106"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="32" Y="85" Width="245" Height="80"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="37" Y="32" Width="37" Height="37"/>
+    </Skin>
+    <Skin WidgetType="4x1" Resolution="720*1184">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="318" Y="174" Size="30" Color="ffffff" Align="left" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="0" Width="720" Height="222"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="312" Y="24" Width="72" Height="138"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="378" Y="24" Width="72" Height="138"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="480" Y="24" Width="72" Height="138"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="546" Y="24" Width="72" Height="138"/>
+        <SkinDraw Type="ND_TIME_COLON" X="435" Y="34" Width="60" Height="120"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="36" Y="96" Width="276" Height="90"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="42" Y="36" Width="42" Height="42"/>
+    </Skin>
+    <Skin WidgetType="4x1" Resolution="720*1280">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="318" Y="174" Size="30" Color="ffffff" Align="left" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="0" Width="720" Height="222"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="312" Y="24" Width="72" Height="138"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="378" Y="24" Width="72" Height="138"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="480" Y="24" Width="72" Height="138"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="546" Y="24" Width="72" Height="138"/>
+        <SkinDraw Type="ND_TIME_COLON" X="435" Y="34" Width="60" Height="120"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="36" Y="96" Width="276" Height="90"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="42" Y="36" Width="42" Height="42"/>
+    </Skin>
+    <Skin WidgetType="4x1" Resolution="600*1024">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="265" Y="145" Size="25" Color="ffffff" Align="left" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="0" Width="600" Height="185"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="260" Y="20" Width="60" Height="115"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="315" Y="20" Width="60" Height="115"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="400" Y="20" Width="60" Height="115"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="455" Y="20" Width="60" Height="115"/>
+        <SkinDraw Type="ND_TIME_COLON" X="362" Y="28" Width="50" Height="100"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="30" Y="80" Width="230" Height="75"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="35" Y="30" Width="35" Height="35"/>
+    </Skin>
+    <Skin WidgetType="4x1" Resolution="800*1280">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="353" Y="193" Size="33" Color="ffffff" Align="left" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="0" Width="800" Height="246"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="346" Y="26" Width="80" Height="153"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="420" Y="26" Width="80" Height="153"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="533" Y="26" Width="80" Height="153"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="606" Y="26" Width="80" Height="153"/>
+        <SkinDraw Type="ND_TIME_COLON" X="483" Y="38" Width="66" Height="133"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="40" Y="106" Width="306" Height="100"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="46" Y="40" Width="46" Height="46"/>
+    </Skin>
+    <Skin WidgetType="4x2" Resolution="240*320">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="107" Y="87" Size="11" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_short_type_1" X="76" Y="110" Size="10" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_nl" X="138" Y="110" Size="10" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_week" X="192" Y="110" Size="10" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="0" Width="240" Height="138"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="104" Y="23" Width="32" Height="56"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="130" Y="23" Width="32" Height="56"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="168" Y="23" Width="32" Height="56"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="192" Y="23" Width="32" Height="56"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="14" Y="60" Width="92" Height="30"/>
+        <SkinDraw Type="ND_TIME_COLON" X="155" Y="32" Width="20" Height="40"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="18" Y="36" Width="14" Height="14"/>
+        <SkinDraw FileName="5.png" Type="ND_CUSTOM" X="14" Y="94" Width="212" Height="1"/>
+    </Skin>
+    <Skin WidgetType="4x2" Resolution="240*400">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="107" Y="87" Size="11" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_short_type_1" X="76" Y="110" Size="10" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_nl" X="138" Y="110" Size="10" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_week" X="192" Y="110" Size="10" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="0" Width="240" Height="138"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="104" Y="23" Width="32" Height="56"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="130" Y="23" Width="32" Height="56"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="168" Y="23" Width="32" Height="56"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="192" Y="23" Width="32" Height="56"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="14" Y="60" Width="92" Height="30"/>
+        <SkinDraw Type="ND_TIME_COLON" X="155" Y="32" Width="20" Height="40"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="18" Y="36" Width="14" Height="14"/>
+        <SkinDraw FileName="5.png" Type="ND_CUSTOM" X="14" Y="93" Width="212" Height="1"/>
+    </Skin>
+    <Skin WidgetType="4x2" Resolution="320*480">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="142" Y="116" Size="14" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_short_type_1" X="102" Y="147" Size="13" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_nl" X="184" Y="147" Size="13" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_week" X="256" Y="147" Size="13" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="0" Width="320" Height="184"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="138" Y="30" Width="42" Height="74"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="173" Y="30" Width="42" Height="74"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="224" Y="30" Width="42" Height="74"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="256" Y="30" Width="42" Height="74"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="18" Y="80" Width="122" Height="40"/>
+        <SkinDraw Type="ND_TIME_COLON" X="207" Y="42" Width="26" Height="53"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="24" Y="48" Width="18" Height="18"/>
+        <SkinDraw FileName="5.png" Type="ND_CUSTOM" X="18" Y="124" Width="282" Height="1"/>
+    </Skin>
+    <Skin WidgetType="4x2" Resolution="480*800">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="214" Y="174" Size="22" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_short_type_1" X="153" Y="221" Size="20" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_nl" X="277" Y="221" Size="20" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_week" X="384" Y="221" Size="20" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="-1" Width="480" Height="276"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="208" Y="46" Width="64" Height="112"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="260" Y="46" Width="64" Height="112"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="336" Y="46" Width="64" Height="112"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="384" Y="46" Width="64" Height="112"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="28" Y="121" Width="184" Height="60"/>
+        <SkinDraw Type="ND_TIME_COLON" X="311" Y="64" Width="40" Height="80"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="36" Y="72" Width="28" Height="28"/>
+        <SkinDraw FileName="5.png" Type="ND_CUSTOM" X="29" Y="188" Width="424" Height="2"/>
+    </Skin>
+    <Skin WidgetType="4x2" Resolution="480*854">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="214" Y="174" Size="22" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_short_type_1" X="153" Y="221" Size="20" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_nl" X="277" Y="221" Size="20" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_week" X="384" Y="221" Size="20" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="-1" Width="480" Height="276"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="208" Y="46" Width="64" Height="112"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="260" Y="46" Width="64" Height="112"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="336" Y="46" Width="64" Height="112"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="384" Y="46" Width="64" Height="112"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="28" Y="121" Width="184" Height="60"/>
+        <SkinDraw Type="ND_TIME_COLON" X="311" Y="64" Width="40" Height="80"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="36" Y="72" Width="28" Height="28"/>
+        <SkinDraw FileName="5.png" Type="ND_CUSTOM" X="28" Y="186" Width="424" Height="2"/>
+    </Skin>
+    <Skin WidgetType="4x2" Resolution="540*960">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="240" Y="195" Size="24" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_short_type_1" X="172" Y="248" Size="22" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_nl" X="311" Y="248" Size="22" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_week" X="432" Y="248" Size="22" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="-1" Width="540" Height="310"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="234" Y="51" Width="72" Height="126"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="292" Y="51" Width="72" Height="126"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="378" Y="51" Width="72" Height="126"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="432" Y="51" Width="72" Height="126"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="31" Y="136" Width="207" Height="67"/>
+        <SkinDraw Type="ND_TIME_COLON" X="349" Y="72" Width="45" Height="90"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="40" Y="81" Width="31" Height="31"/>
+        <SkinDraw FileName="5.png" Type="ND_CUSTOM" X="31" Y="209" Width="477" Height="2"/>
+    </Skin>
+    <Skin WidgetType="4x2" Resolution="640*960">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="285" Y="232" Size="29" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_short_type_1" X="204" Y="294" Size="26" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_nl" X="369" Y="294" Size="26" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_week" X="512" Y="294" Size="26" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="-1" Width="640" Height="368"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="277" Y="61" Width="85" Height="149"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="346" Y="61" Width="85" Height="149"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="448" Y="61" Width="85" Height="149"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="512" Y="61" Width="85" Height="149"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="37" Y="161" Width="245" Height="80"/>
+        <SkinDraw Type="ND_TIME_COLON" X="414" Y="85" Width="53" Height="106"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="48" Y="96" Width="37" Height="37"/>
+        <SkinDraw FileName="5.png" Type="ND_CUSTOM" X="37" Y="248" Width="565" Height="2"/>
+    </Skin>
+    <Skin WidgetType="4x2" Resolution="720*1184">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="321" Y="261" Size="33" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_short_type_1" X="229" Y="331" Size="30" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_nl" X="415" Y="331" Size="30" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_week" X="576" Y="331" Size="30" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="-1" Width="720" Height="414"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="312" Y="69" Width="96" Height="168"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="390" Y="69" Width="96" Height="168"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="504" Y="69" Width="96" Height="168"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="576" Y="69" Width="96" Height="168"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="42" Y="181" Width="276" Height="90"/>
+        <SkinDraw Type="ND_TIME_COLON" X="466" Y="96" Width="60" Height="120"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="54" Y="108" Width="42" Height="42"/>
+        <SkinDraw FileName="5.png" Type="ND_CUSTOM" X="42" Y="279" Width="636" Height="3"/>
+    </Skin>
+    <Skin WidgetType="4x2" Resolution="720*1280">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="321" Y="261" Size="33" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_short_type_1" X="229" Y="331" Size="30" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_nl" X="415" Y="331" Size="30" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_week" X="576" Y="331" Size="30" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="-1" Width="720" Height="414"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="312" Y="69" Width="96" Height="168"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="390" Y="69" Width="96" Height="168"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="504" Y="69" Width="96" Height="168"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="576" Y="69" Width="96" Height="168"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="42" Y="181" Width="276" Height="90"/>
+        <SkinDraw Type="ND_TIME_COLON" X="466" Y="96" Width="60" Height="120"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="54" Y="108" Width="42" Height="42"/>
+        <SkinDraw FileName="5.png" Type="ND_CUSTOM" X="42" Y="279" Width="636" Height="3"/>
+    </Skin>
+    <Skin WidgetType="4x2" Resolution="600*1024">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="267" Y="217" Size="27" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_short_type_1" X="191" Y="276" Size="25" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_nl" X="346" Y="276" Size="25" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_week" X="480" Y="276" Size="25" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="-1" Width="600" Height="345"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="260" Y="57" Width="80" Height="140"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="325" Y="57" Width="80" Height="140"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="420" Y="57" Width="80" Height="140"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="480" Y="57" Width="80" Height="140"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="35" Y="151" Width="230" Height="75"/>
+        <SkinDraw Type="ND_TIME_COLON" X="388" Y="80" Width="50" Height="100"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="45" Y="90" Width="35" Height="35"/>
+        <SkinDraw FileName="5.png" Type="ND_CUSTOM" X="35" Y="232" Width="530" Height="2"/>
+    </Skin>
+    <Skin WidgetType="4x2" Resolution="800*1280">
+        <SkinText TextKey="请添加城市" HotArea="ND_HOT_CITY" X="356" Y="290" Size="36" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_short_type_1" X="255" Y="368" Size="33" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_date_nl" X="461" Y="368" Size="33" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinText TextKey="$nd_week" X="640" Y="368" Size="33" Color="ffffff" Align="left" UseShadow="True" ShadowColor="a0a0a0" ShadowBlurSize="1" ShadowOffsetX="0" ShadowOffsetY="1" Type="ND_CUSTOM" />
+        <SkinDraw Type="ND_BACKGROUND" X="0" Y="-1" Width="800" Height="460"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_1" X="346" Y="76" Width="106" Height="186"/>
+        <SkinDraw Type="ND_TIME_HOUR_POSITION_2" X="433" Y="76" Width="106" Height="186"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_1" X="560" Y="76" Width="106" Height="186"/>
+        <SkinDraw Type="ND_TIME_MINUTE_POSITION_2" X="640" Y="76" Width="106" Height="186"/>
+        <SkinDraw FileName="6.png" HotArea="ND_HOT_CITY" Type="ND_CUSTOM" X="46" Y="201" Width="306" Height="100"/>
+        <SkinDraw Type="ND_TIME_COLON" X="518" Y="106" Width="66" Height="133"/>
+        <SkinDraw FileName="3.png" Type="ND_CUSTOM" X="60" Y="120" Width="46" Height="46"/>
+        <SkinDraw FileName="5.png" Type="ND_CUSTOM" X="46" Y="310" Width="706" Height="3"/>
+    </Skin>
+</Skins>

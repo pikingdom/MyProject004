@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="download_activity_nodata_btn_margin">20dp</dimen>
+    <dimen name="download_activity_nodata_btn_text">16sp</dimen>
+    <dimen name="download_activity_nodata_btn_width">130dip</dimen>
+</resources>

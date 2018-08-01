@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 匣子搜索热词详情 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navigation_search_bg"
+    android:orientation="vertical" >
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true"/>
+    <ScrollView
+        android:id="@+id/drawer_search_app_detail_scrollview"
+        android:layout_above="@+id/download_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head_view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="vertical">
+
+            <!-- 软件信息布局 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="12dp"
+                android:padding="5dp"
+                android:background="@drawable/navigation_search_input_edit_normal">
+
+                <!-- 图标 -->
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center" 
+                    android:layout_marginRight="15dp">
+
+                    <ImageView
+                        android:id="@+id/drawer_search_app_detail_icon"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:src="@drawable/app_market_default_icon" />
+
+                    <ImageView
+                        android:id="@+id/drawer_search_app_detail_apptype_imageview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/market_ic_app_offical" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical" >
+					<RelativeLayout 
+					    android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+					    android:orientation="horizontal">
+					    <TextView
+	                        android:id="@+id/drawer_search_app_detail_app_title"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:text="@string/application_name"
+	                        android:textColor="@color/black"
+	                        android:textSize="20sp" />
+					    <TextView
+                            android:id="@+id/drawer_search_app_detail_app_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:text="size：12.1MB"
+                            android:textColor="#ff808080"
+                            android:textSize="10sp"
+                            android:visibility="gone"
+                            android:layout_toRightOf="@+id/drawer_search_app_detail_app_title"
+                            android:layout_alignBottom="@+id/drawer_search_app_detail_app_title"/>
+					</RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:orientation="horizontal" 
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp">
+                        <TextView
+                            android:id="@+id/drawer_search_app_detail_app_version"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="3dp"
+                            android:gravity="center_vertical"
+                            android:text="version：6.1"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                        <TextView
+                            android:id="@+id/drawer_search_app_detail_app_downnumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="3dp"
+                            android:gravity="center_vertical"
+                            android:text="version：6.1"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                    <LinearLayout 
+					    android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+	                    <RatingBar
+	                        android:id="@+id/drawer_search_app_detail_ratingBar"
+	                        style="@style/commentRatingBarLittle"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="15dip"
+	                        android:layout_marginBottom="3dp"
+	                        android:layout_marginTop="3dp"
+	                        android:clickable="false"
+	                        android:isIndicator="true"
+	                        android:numStars="5"
+	                        android:rating="5"
+	                        android:stepSize="1" />
+	                    <LinearLayout
+                            android:id="@+id/drawer_search_app_detail_scan_info"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="horizontal"
+                            android:gravity="right">
+
+                            <TextView
+                                android:id="@+id/drawer_search_app_detail_scan_icon_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:drawableLeft="@drawable/market_warn_green"
+                                android:text="no virus"
+                                android:textColor="@color/black"
+                                android:gravity="center"
+                                android:textSize="12sp" />
+
+                            <ImageView
+                                android:id="@+id/drawer_search_app_detail_scan_more_info_btn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@drawable/app_market_detail_security_expand" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!-- 安全监测结果显示页 -->
+            <LinearLayout
+                android:id="@+id/rawer_search_app_detail_market_power"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/navigation_search_input_edit_normal"/>
+
+            <!-- 软件截图显示页 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:background="@drawable/navigation_search_input_edit_normal"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+                <LinearLayout
+                    android:id="@+id/drawer_search_app_detail_network_tips_linearlayout"
+                    android:layout_width="match_parent"
+               		android:layout_height="258dp"
+               		android:orientation="vertical"
+               		android:gravity="center"
+               		android:layout_marginLeft="10dp"
+               		android:layout_marginRight="10dp">
+                    <TextView 
+                        android:layout_width="match_parent"
+               			android:layout_height="wrap_content"
+                        android:text="@string/searchbox_hotword_detail_info_network_tips"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="#ff515151"/>
+                    <Button
+                        android:id="@+id/drawer_search_app_detail_network_tips_btn" 
+                        android:layout_width="wrap_content"
+               			android:layout_height="wrap_content"
+               			android:paddingLeft="15dp"
+               			android:paddingRight="15dp"
+               			android:layout_marginTop="15dp"
+               			android:text="@string/searchbox_hotword_detail_info_network_tips_btn"
+               			android:textColor="@color/white"
+               			android:background="@drawable/common_btn_blue"/>
+                    
+                </LinearLayout>
+	            <com.nd.hilauncherdev.app.HorizontalListView
+                    android:id="@+id/drawer_search_app_detail_app_thumbnail"
+                    android:layout_width="match_parent"
+               		android:layout_height="258dp"
+               		android:paddingLeft="5dp"
+               		android:paddingRight="5dp"
+               		android:visibility="gone"/>
+            </LinearLayout>
+            
+            <!-- 软件详情 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+               	android:layout_height="wrap_content"
+               	android:layout_marginLeft="10dp"
+               	android:layout_marginRight="10dp"
+               	android:layout_marginTop="5dp"
+               	android:orientation="vertical"
+               	android:background="@drawable/navigation_search_input_edit_normal">
+	            <TextView
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	            	android:text="@string/searchbox_hotword_detail_info_products"
+	                android:textColor="@color/black"
+	                android:layout_marginLeft="10dp"
+	                android:layout_marginTop="10dp"
+	                android:textSize="20sp" />
+	            <ImageView
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/app_market_detail_line"
+	                android:layout_marginLeft="7dp"
+	                android:layout_marginRight="7dp"
+	                android:layout_marginBottom="13dp"
+	                android:layout_marginTop="10dp"
+	                />
+                <TextView
+	                android:id="@+id/drawer_search_app_detail_detail_info_content"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:lineSpacingExtra="5.0dip"
+	                android:layout_marginLeft="10dp"
+	               	android:layout_marginRight="10dp"
+	            	android:text=""
+	                android:textColor="@color/black"
+	                android:textSize="15.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <!-- 下载按钮布局 -->
+
+    <LinearLayout
+        android:id="@+id/download_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical" 
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/drawer_search_app_detail_btnDownload"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/navigation_search_orange_btn"
+            android:gravity="center"
+            android:maxLines="8"
+            android:text="@string/searchbox_download"
+            android:textColor="#ff515151"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</RelativeLayout>

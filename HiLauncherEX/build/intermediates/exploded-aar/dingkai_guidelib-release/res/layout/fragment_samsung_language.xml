@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_samsung_bg">
+
+    <TextView
+        android:id="@+id/tv_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90.3dp"
+        android:layout_marginBottom="40.3dp"
+        android:textColor="#fafafa"
+        android:textSize="29dp"
+        android:text="欢迎"/>
+
+    <RelativeLayout
+        android:id="@+id/ll_0"
+        android:layout_width="match_parent"
+        android:layout_height="229.7dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:id="@+id/ll_ll_0"
+                android:layout_width="wrap_content"
+                android:layout_height="17.3dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="40.7dp"
+                android:layout_centerHorizontal="true">
+                
+                <ImageView
+                    android:layout_width="12.3dp"
+                    android:layout_height="17.3dp"
+                    android:layout_marginRight="7.7dp"
+                    android:background="@drawable/ic_samsung_assist"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="#affff5"
+                    android:textSize="11.3dp"
+                    android:text="辅助功能"
+                    android:gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_start"
+                android:layout_below="@id/ll_ll_0"
+                android:layout_marginTop="64.3dp"
+                android:layout_width="206.3dp"
+                android:layout_height="43.7dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_samsung_yellow">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#5ca3b5"
+                        android:textSize="11.7dp"
+                        android:text="开始"/>
+
+                    <ImageView
+                        android:layout_width="7.7dp"
+                        android:layout_height="10.7dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/ic_samsung_arrow"/>
+                    
+                </LinearLayout>
+
+            </RelativeLayout>
+    </RelativeLayout>
+
+    <com.wx.wheelview.widget.WheelView
+        android:id="@+id/picker_view"
+        android:layout_above="@id/ll_0"
+        android:layout_below="@id/tv_0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</RelativeLayout>

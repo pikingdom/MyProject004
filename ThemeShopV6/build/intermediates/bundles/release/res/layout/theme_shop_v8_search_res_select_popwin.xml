@@ -1,0 +1,18 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/theme_shop_v8_search_popup_bg"
+    >
+
+    <ListView
+        android:id="@+id/pop_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@drawable/myphone_click_item_blue"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="0px"
+        android:scrollbars="none" />
+    
+</LinearLayout>

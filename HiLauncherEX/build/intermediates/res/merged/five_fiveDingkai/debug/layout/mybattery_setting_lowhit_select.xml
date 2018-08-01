@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:paddingLeft="20dip" android:paddingRight="20dip" android:layout_gravity="center">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_gravity="center">
+	    <TextView        
+		    android:id="@+id/txtNameLeft"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textColor="@color/myphone_item_text_color"
+		    android:textSize="@dimen/myphone_item_little_text_size" 
+		    android:text="10"
+		    android:layout_alignParentTop="true"
+		    android:layout_alignParentLeft="true" />
+		
+	    <TextView        
+		    android:id="@+id/txtNameRight"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textColor="@color/myphone_item_text_color"
+		    android:textSize="@dimen/myphone_item_little_text_size" 
+		    android:text="50"
+		    android:layout_alignParentTop="true"
+		    android:layout_alignParentRight="true" />
+	        
+		<SeekBar
+		    android:id="@+id/seekbar"
+		    android:layout_below="@+id/txtNameLeft"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="5.0dip"
+		    android:max="100"
+		    android:maxHeight="2.0dip"
+		    android:minHeight="2.0dip"
+		    android:paddingLeft="14.6dip"
+    		android:paddingRight="14.6dip"
+		    android:progressDrawable="@drawable/switch_seekbar_progress"
+		    android:thumb="@drawable/switch_seekbar_thumb"
+		    android:thumbOffset="2.0dip"/>
+	</RelativeLayout>
+</LinearLayout>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/theme_v6_main_bg">
+	<com.nd.hilauncherdev.framework.view.MyPhoneViewPagerTab android:id="@+id/pagertab"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+	<!-- 提示要先安装的说明文字 -->
+	<RelativeLayout
+	    android:id="@+id/theme_shop_v6_theme_func_module_viewpager_tips"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/theme_shop_v6_theme_func_module_viewpager_tips_bg"
+		android:layout_marginTop="6dp"
+		android:layout_marginLeft="6dp"
+		android:layout_marginRight="6dp"
+		android:visibility="gone">
+		<TextView 
+		    android:id="@+id/theme_shop_v6_theme_func_module_viewpager_tips_text"
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="33dp"
+			android:padding="5dp"
+			android:layout_centerInParent="true"
+		    android:layout_alignParentLeft="true"
+		    android:textSize="13sp"
+		    android:textColor="#fff8b64e"/>
+		<ImageView 
+		    android:id="@+id/theme_shop_v6_theme_func_module_viewpager_tips_btn"
+	        android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+	        android:src="@drawable/theme_shop_v6_theme_func_module_viewpager_tips_btn"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="8dp"/>
+	</RelativeLayout>
+	<com.nd.hilauncherdev.shop.shop6.thememodule.ThemeShopV6ModuleTabLazyViewPager android:id="@+id/pager"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:background="@color/theme_shop_v6_tab_bg"/>
+</LinearLayout>

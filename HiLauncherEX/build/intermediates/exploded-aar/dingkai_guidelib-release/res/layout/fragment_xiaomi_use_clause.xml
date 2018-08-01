@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_xiaomi_bg">
+
+    <LinearLayout
+        android:layout_marginTop="148dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textColor="#444444"
+            android:text="使用条款"/>
+
+        <View
+            android:layout_marginTop="29dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#e5e5e5"/>
+        
+        <RelativeLayout
+            android:id="@+id/use_clause_agreement_click_layout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="vertical">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#333333"
+                android:textSize="13dp"
+                android:text="用户协议"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:layout_alignParentBottom="true"
+                android:background="#e5e5e5"/>
+
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="11dp"
+                android:layout_marginRight="18.3dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_xiaomi_use_clause_detail"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/use_clause_policy_click_layout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#333333"
+                android:textSize="13dp"
+                android:text="隐私政策"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:layout_alignParentBottom="true"
+                android:background="#e5e5e5"/>
+            
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="11dp"
+                android:layout_marginRight="18.3dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_xiaomi_use_clause_detail"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="18.3dp"
+            android:layout_marginTop="19dp"
+            android:textColor="#666666"
+            android:textSize="10dp"
+            android:lineSpacingExtra="5dp"
+            android:text="你需要同意小米用户协议与隐私政策才可继续使用MIUI。在激活设备时，小米服务框架、查找手机模块会连接网络"/>
+
+        <CheckBox
+            android:id="@+id/use_clause_agree_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="16.7dp"
+            android:layout_marginTop="24.3dp"
+            android:layout_marginLeft="7dp"
+            android:paddingLeft="7dp"
+            android:button="@drawable/cb_xiaomi_tick"
+            android:checked="true"
+            android:textSize="10dp"
+            android:textColor="#666666"
+            android:text="我已仔细阅读并同意上述条款"
+            />
+
+    </LinearLayout>
+
+
+    <include
+        android:id="@+id/include_bottom"
+        layout="@layout/include_xiaomi_guide_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_xiaomi_include_page_bottom_h"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/theme_shop_v8_main_title_search_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/common_head_bg_without_line"
+	android:paddingRight="@dimen/v8_gap4_12dp"
+    android:gravity="center_vertical" >
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="6dip"
+	    android:layout_marginTop="8dp"
+	    android:layout_marginBottom="8dp"
+	    android:layout_weight="1.0" >
+	
+	    <TextSwitcher
+	        android:id="@+id/search"
+	        android:layout_width="match_parent"
+	        android:layout_height="52dp"
+	        android:background="@drawable/bg_shop_search"
+	        android:focusable="false"
+	        android:paddingLeft="47dip"
+	        android:textColor="#545454"
+	        android:textSize="20sp" />
+	
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="14dp"
+	        android:layout_marginTop="21dp"
+	        android:src="@drawable/icon_shop_search" />
+	
+	</RelativeLayout>
+	<FrameLayout android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+		android:visibility="gone">
+	<ImageView
+	    android:id="@+id/local"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/v8_gap4_12dp"
+	    android:paddingRight="@dimen/v8_gap4_12dp"
+        android:src="@drawable/theme_shop_v8_local_entrance_selector" />
+	<ImageView
+	    android:id="@+id/local_remind_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/v7_gap3_8dp"
+	    android:layout_marginLeft="@dimen/v7_gap3_8dp"
+	    android:layout_gravity="center"
+	    android:visibility="gone"
+        android:src="@drawable/download_remind" />
+	</FrameLayout>
+</LinearLayout>

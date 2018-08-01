@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="57dp"
+  android:minHeight="57dp"
+  android:orientation="horizontal"
+  android:layout_marginBottom="0dp"
+  android:gravity="center_vertical"
+  android:descendantFocusability="blocksDescendants">
+  <RelativeLayout 
+      android:layout_width="wrap_content"
+	  android:layout_height="match_parent">
+	  <ImageView
+		  android:id="@+id/icon"
+		  android:layout_width="48dp"
+		  android:layout_height="48dp"
+		  android:src="@drawable/logo_mini"
+	  	  android:layout_gravity="center_vertical"
+	  	  android:paddingLeft="15dp" />
+	  <ImageView
+		  android:id="@+id/apptype_imageview"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:background="@drawable/market_ic_app_offical"
+	  	  android:layout_gravity="center_vertical"
+	  	  android:layout_marginLeft="5dp"/>
+  </RelativeLayout>  <LinearLayout  
+      android:layout_width="0dip"
+      android:layout_weight="1"
+      android:layout_height="fill_parent"
+      android:layout_gravity="center_vertical"
+      android:layout_marginLeft="12dp"
+      android:gravity="center_vertical"
+      android:orientation="vertical">
+      <LinearLayout 
+          android:layout_width="match_parent"
+		  android:layout_height="wrap_content"
+		  android:orientation="horizontal">
+		  <TextView
+		      android:id="@+id/label"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:singleLine="true"
+		      android:textColor="#67696d"
+		      android:ellipsize="middle" 
+		      android:textSize="15sp"/>
+		   <TextView
+		      android:id="@+id/app_size"
+		      android:layout_width="match_parent"
+		      android:layout_height="wrap_content"
+		      android:layout_marginLeft="10dp"
+		      android:singleLine="true"
+		      android:textColor="#ff808080"
+		      android:ellipsize="end"
+		      android:textSize="10sp"/>
+	  </LinearLayout>
+	  <RatingBar
+          android:id="@+id/ratingBar"
+          style="@style/commentRatingBarLittle"
+          android:layout_width="wrap_content"
+          android:layout_height="15dip"
+          android:clickable="false"
+          android:numStars="5"
+          android:rating="5"
+          android:stepSize="1" 
+          android:isIndicator="true"/>
+	  <TextView
+	      android:id="@+id/app_downnumber"
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:singleLine="true"
+	      android:textColor="#7a7a7a"
+	      android:textSize="10sp" />
+	  
+  </LinearLayout>
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="right|center_vertical"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="15dp"
+      android:textColor="@color/black"
+      android:focusable="false"
+      android:background="@drawable/navigation_search_position_icon"
+      android:visibility="visible" />
+
+</LinearLayout>

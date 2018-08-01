@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="launcher_notification_fistsetting_height">110dip</dimen>
+    <dimen name="launcher_notification_height">70dip</dimen>
+    <dimen name="launcher_notification_image_height">45dip</dimen>
+    <dimen name="personal_center_desc_text_size">14dip</dimen>
+    <dimen name="readme_page1_top">0dip</dimen>
+    <dimen name="readme_page_usernum">80dip</dimen>
+    <dimen name="system_switch_item_text">12dip</dimen>
+    <dimen name="top_menu_boutique_resource_bottom">5dip</dimen>
+    <dimen name="top_menu_boutique_resource_middom">5dip</dimen>
+    <dimen name="top_menu_boutique_resource_top">5dip</dimen>
+</resources>

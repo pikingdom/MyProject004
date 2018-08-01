@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/readme_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/readme_activity_bg" >
+    <include layout="@layout/readme_v7_bg_circles"/>
+    <RelativeLayout 
+        android:id="@+id/readme_change_log_btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+        <ImageView
+      	    android:id="@+id/readme_start"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:layout_centerInParent="true"
+      	    android:src="@drawable/readme_page_btn_go"
+            android:background="@drawable/round_progress_bg"
+            android:scaleType="center" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/readme_page_title_change_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/readme_v7_page2_title_margin_top"
+        android:src="@drawable/readme_page_upgrade_title" />
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dip"
+        android:layout_marginLeft="32dip"
+        android:layout_marginRight="32dip"
+        android:layout_below="@id/readme_page_title_change_log"
+        android:layout_above="@id/readme_change_log_btn_layout" >
+        <TextView
+	        android:id="@+id/readme_pagetwo_txt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:lineSpacingExtra="5dip"
+	        android:textColor="#3e3d46"
+	        android:textSize="14sp" />
+    </ScrollView>
+    
+</RelativeLayout>

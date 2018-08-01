@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loading_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pc_background_drawable" >
+
+    <ImageView
+        android:id="@+id/sohuLogo"
+        android:layout_width="@dimen/splash_logo_width"
+        android:layout_height="@dimen/splash_logo_height"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/splash_logo_margin_left"
+        android:layout_marginBottom="@dimen/splash_logo_margin_bottom"
+        android:contentDescription="@null"
+        android:src="@drawable/sohu_icoloading_logo_v5" />
+
+</FrameLayout>

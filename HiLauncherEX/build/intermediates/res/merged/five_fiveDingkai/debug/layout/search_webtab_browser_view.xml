@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 浏览器展示界面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/launcher_navigation_pandahome_browser_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myphone_common_bg_color"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- 视频搜索和网页搜索 -->
+        <ScrollView
+            android:id="@+id/launcher_navigation_pandahome_browser_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- inapp展示界面 -->
+
+                <LinearLayout
+                    android:id="@+id/launcher_navigation_pandahome_inapp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="40dp"
+                    android:visibility="gone" />
+
+                <!-- 无网络展示界面 -->
+                <LinearLayout
+                    android:id="@+id/launcher_navigation_pandahome_browser_nonetwork"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/launcher_navigation_pandahome_browser"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!-- 视频搜索界面 -->
+
+                    <include
+                        android:id="@+id/launcher_navigation_pandahome_browser_inapp"
+                        layout="@layout/launcher_navigation_pandahome_browser_inappcard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:visibility="gone" />
+
+                    <!-- 网页搜索界面 -->
+
+                    <LinearLayout
+                        android:id="@+id/launcher_navigation_pandahome_browser_web"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/launcher_navigation_pandahome_browser_inapp"
+                        android:orientation="vertical" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+        <!-- 进度条 -->
+
+        <ProgressBar
+            android:id="@+id/launcher_navigation_pandahome_browser_web_progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/webview_progressbar_progress_horizontal1" />
+    </FrameLayout>
+    <!-- 操纵按钮 -->
+
+    <LinearLayout
+        android:id="@+id/launcher_navigation_pandahome_browser_operate_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/navigation_search_bg"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <!-- 后退 -->
+
+        <LinearLayout
+            android:id="@+id/launcher_navigation_pandahome_browser_retreat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/launcher_navigation_pandahome_browser_retreat_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webview_left_button" />
+        </LinearLayout>
+        <!-- 前进 -->
+
+        <LinearLayout
+            android:id="@+id/launcher_navigation_pandahome_browser_advance"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/launcher_navigation_pandahome_browser_advance_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webview_right_button_unclick" />
+        </LinearLayout>
+        <!-- Home按钮 -->
+
+        <LinearLayout
+            android:id="@+id/launcher_navigation_pandahome_browser_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/launcher_navigation_pandahome_browser_home_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webview_back_button" />
+        </LinearLayout>
+        <!-- 浏览器按钮 -->
+
+        <LinearLayout
+            android:id="@+id/launcher_navigation_pandahome_browser_open_browser"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/launcher_navigation_pandahome_browser_open_browser_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webview_browser_button" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

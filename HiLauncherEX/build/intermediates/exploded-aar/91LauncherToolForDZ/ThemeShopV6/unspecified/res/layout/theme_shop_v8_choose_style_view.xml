@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.shop.shop6.v8recommend.ThemeShopV8ChooseStyleThemeView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/online_style_entrance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recommend_bg_card"
+    android:paddingBottom="10dip"
+    android:orientation="vertical" >
+
+    <!-- 标题栏 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginLeft="@dimen/v8_gap1_10dp" >
+
+        <ImageView
+            android:id="@+id/tagtip_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_editor_recommend" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="11dip"
+            android:layout_toRightOf="@+id/tagtip_img"
+            android:singleLine="true"
+            android:text="@string/shop_theme_v8_choose_style"
+            android:textColor="#fb4146"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:singleLine="false"
+            android:text="@string/theme_shop_v6_more"
+            android:textColor="#181818"
+            android:textSize="13sp" />
+    </RelativeLayout>
+</com.nd.hilauncherdev.shop.shop6.v8recommend.ThemeShopV8ChooseStyleThemeView>

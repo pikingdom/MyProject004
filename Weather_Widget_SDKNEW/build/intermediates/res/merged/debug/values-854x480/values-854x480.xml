@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alldayweatherviewheight">180dip</dimen>
+    <dimen name="curve_margin">15dp</dimen>
+    <dimen name="curve_weather_height">85dp</dimen>
+    <dimen name="weather_icon_width">170dp</dimen>
+    <dimen name="widget_city_list_size">10sp</dimen>
+</resources>

@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/theme_shop_theme_daily_recomment_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/recommend_bg_card"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dip">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/v7_gap1_15dp" >
+
+                <ImageView
+                    android:id="@+id/tagtip_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/theme_shop_v6_tagtip_more_red" />
+
+                <TextView android:id="@+id/tag_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/tagtip_img"
+                    android:singleLine="true"
+                    android:text="@string/theme_shop_v6_91_popularity"
+                    style="@style/v7_card_title" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/v7_gap1_15dp" >
+                <TextView
+                    android:id="@+id/time_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/theme_shop_v6_theme_detail_date_bg_red"
+                	android:padding="3dip"
+                	android:text="10月30日"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="@dimen/theme_shop_v6_recomment_text_size" />
+                <TextView
+		            android:id="@+id/tag_more"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentRight="true"
+		            android:layout_centerVertical="true"
+		            android:padding="3dip"
+		            android:singleLine="false"
+		            android:text="@string/theme_shop_v6_more"
+		            android:textColor="#181818"
+		            android:visibility="gone"
+		            android:textSize="13sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/v7_gap1_15dp"
+                android:layout_marginRight="@dimen/v7_gap1_15dp"
+                android:paddingBottom="16dp">
+
+                <LinearLayout
+                    android:id="@+id/firstThemeHead"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginRight="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+                        android:gravity="center_horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+                            <FrameLayout android:id="@+id/imgTheme_bg_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+                                    android:id="@+id/imgTheme_1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+                                <ImageView
+                                    android:id="@+id/imgSeries_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="fitCenter" android:visibility="gone"
+                                    android:src="@drawable/theme_series_mask"
+                                    android:layout_gravity="bottom|right" />
+                                <ImageView
+                                    android:id="@+id/imgMember_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="fitCenter" android:visibility="gone"
+                                    android:layout_marginLeft="5dip"
+                                    android:src="@drawable/pay_theme_mask"
+                                    android:layout_gravity="top|left" />
+                            </FrameLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingTop="@dimen/v7_gap3_8dp"
+                                android:paddingLeft="@dimen/v7_gap3_8dp">
+
+                                <TextView
+                                    android:id="@+id/theme_shop_item_title_1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:marqueeRepeatLimit="marquee_forever"
+                                    android:singleLine="true"
+                                    android:textColor="@color/theme_shop_v6_list_item_title"
+                                    android:textSize="@dimen/theme_shop_v6_list_item_title">
+                                </TextView>
+
+                                <RelativeLayout
+                                    android:id="@+id/theme_shop_item_price_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dip"
+                                    android:gravity="center"
+                                    android:visibility="gone">
+
+                                    <TextView
+                                        android:id="@+id/theme_shop_item_price_old_1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:visibility="gone"
+                                        android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+                                        android:textColor="@color/theme_shop_v8_price_common"
+                                        android:textSize="@dimen/theme_shop_v6_list_item_price" >
+                                    </TextView>
+
+                                    <TextView
+                                        android:id="@+id/theme_shop_item_price_new_1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_toRightOf="@id/theme_shop_item_price_old_1"
+                                        android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+                                        android:textColor="@color/theme_shop_v6_price_new"
+                                        android:textSize="@dimen/theme_shop_v6_list_item_price" >
+                                    </TextView>
+
+                                    <ImageView
+                                        android:id="@+id/theme_shop_item_price_img_1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_alignBottom="@+id/theme_shop_item_price_old_1"
+                                        android:layout_alignLeft="@+id/theme_shop_item_price_old_1"
+                                        android:layout_alignRight="@+id/theme_shop_item_price_old_1"
+                                        android:layout_alignTop="@+id/theme_shop_item_price_old_1"
+                                        android:src="@drawable/theme_shop_item_price_img"
+                                        android:visibility="gone" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="4dip"
+                        android:layout_marginRight="4dip"
+                        android:gravity="center_horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+                            <FrameLayout android:id="@+id/imgTheme_bg_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+                                    android:id="@+id/imgTheme_2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+                                <ImageView
+                                    android:id="@+id/imgSeries_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="fitCenter" android:visibility="gone"
+                                    android:src="@drawable/theme_series_mask"
+                                    android:layout_gravity="bottom|right" />
+                                <ImageView
+                                    android:id="@+id/imgMember_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="fitCenter" android:visibility="gone"
+                                    android:layout_marginLeft="5dip"
+                                    android:src="@drawable/pay_theme_mask"
+                                    android:layout_gravity="top|left" />
+                            </FrameLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingTop="@dimen/v7_gap3_8dp"
+                                android:paddingLeft="@dimen/v7_gap3_8dp" >
+
+                                <TextView
+                                    android:id="@+id/theme_shop_item_title_2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:marqueeRepeatLimit="marquee_forever"
+                                    android:singleLine="true"
+                                    android:textColor="@color/theme_shop_v6_list_item_title"
+                                    android:textSize="@dimen/theme_shop_v6_list_item_title" >
+                                </TextView>
+
+                                <RelativeLayout
+                                    android:id="@+id/theme_shop_item_price_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dip"
+                                    android:gravity="center"
+                                    android:visibility="gone">
+
+                                    <TextView
+                                        android:id="@+id/theme_shop_item_price_old_2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:visibility="gone"
+                                        android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+                                        android:textColor="@color/theme_shop_v8_price_common"
+                                        android:textSize="@dimen/theme_shop_v6_list_item_price" >
+                                    </TextView>
+
+                                    <TextView
+                                        android:id="@+id/theme_shop_item_price_new_2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_toRightOf="@id/theme_shop_item_price_old_2"
+                                        android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+                                        android:textColor="@color/theme_shop_v6_price_new"
+                                        android:textSize="@dimen/theme_shop_v6_list_item_price" >
+                                    </TextView>
+
+                                    <ImageView
+                                        android:id="@+id/theme_shop_item_price_img_2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_alignBottom="@+id/theme_shop_item_price_old_2"
+                                        android:layout_alignLeft="@+id/theme_shop_item_price_old_2"
+                                        android:layout_alignRight="@+id/theme_shop_item_price_old_2"
+                                        android:layout_alignTop="@+id/theme_shop_item_price_old_2"
+                                        android:src="@drawable/theme_shop_item_price_img"
+                                        android:visibility="gone" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+                        android:gravity="center_horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+                            <FrameLayout android:id="@+id/imgTheme_bg_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+                                    android:id="@+id/imgTheme_3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+                                <ImageView
+                                    android:id="@+id/imgSeries_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="fitCenter" android:visibility="gone"
+                                    android:src="@drawable/theme_series_mask"
+                                    android:layout_gravity="bottom|right" />
+                                <ImageView
+                                    android:id="@+id/imgMember_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="fitCenter" android:visibility="gone"
+                                    android:layout_marginLeft="5dip"
+                                    android:src="@drawable/pay_theme_mask"
+                                    android:layout_gravity="top|left" />
+                            </FrameLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingTop="@dimen/v7_gap3_8dp"
+                                android:paddingLeft="@dimen/v7_gap3_8dp">
+
+                                <TextView
+                                    android:id="@+id/theme_shop_item_title_3"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:marqueeRepeatLimit="marquee_forever"
+                                    android:singleLine="true"
+                                    android:textColor="@color/theme_shop_v6_list_item_title"
+                                    android:textSize="@dimen/theme_shop_v6_list_item_title" >
+                                </TextView>
+
+                                <RelativeLayout
+                                    android:id="@+id/theme_shop_item_price_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dip"
+                                    android:gravity="center"
+                                    android:visibility="gone">
+
+                                    <TextView
+                                        android:id="@+id/theme_shop_item_price_old_3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:visibility="gone"
+                                        android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+                                        android:textColor="@color/theme_shop_v8_price_common"
+                                        android:textSize="@dimen/theme_shop_v6_list_item_price" >
+                                    </TextView>
+
+                                    <TextView
+                                        android:id="@+id/theme_shop_item_price_new_3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_toRightOf="@id/theme_shop_item_price_old_3"
+                                        android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+                                        android:textColor="@color/theme_shop_v6_price_new"
+                                        android:textSize="@dimen/theme_shop_v6_list_item_price" >
+                                    </TextView>
+
+                                    <ImageView
+                                        android:id="@+id/theme_shop_item_price_img_3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_alignBottom="@+id/theme_shop_item_price_old_3"
+                                        android:layout_alignLeft="@+id/theme_shop_item_price_old_3"
+                                        android:layout_alignRight="@+id/theme_shop_item_price_old_3"
+                                        android:layout_alignTop="@+id/theme_shop_item_price_old_3"
+                                        android:src="@drawable/theme_shop_item_price_img"
+                                        android:visibility="gone" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/dailyBottom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/firstThemeHead"
+                    android:layout_marginBottom="20dip"
+                    android:layout_marginTop="14dip"
+                    android:weightSum="3"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginRight="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+                        android:gravity="center_horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+                            <FrameLayout android:id="@+id/imgTheme_bg_4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+                                    android:id="@+id/imgTheme_4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+                                <ImageView
+                                    android:id="@+id/imgSeries_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="fitCenter" android:visibility="gone"
+                                    android:src="@drawable/theme_series_mask"
+                                    android:layout_gravity="bottom|right" />
+                                <ImageView
+                                    android:id="@+id/imgMember_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="fitCenter" android:visibility="gone"
+                                    android:layout_marginLeft="5dip"
+                                    android:src="@drawable/pay_theme_mask"
+                                    android:layout_gravity="top|left" />
+                            </FrameLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingTop="@dimen/v7_gap3_8dp"
+                                android:paddingLeft="@dimen/v7_gap3_8dp">
+
+                                <TextView
+                                    android:id="@+id/theme_shop_item_title_4"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:marqueeRepeatLimit="marquee_forever"
+                                    android:singleLine="true"
+                                    android:textColor="@color/theme_shop_v6_list_item_title"
+                                    android:textSize="@dimen/theme_shop_v6_list_item_title" >
+                                </TextView>
+
+                                <RelativeLayout
+                                    android:id="@+id/theme_shop_item_price_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dip"
+                                    android:gravity="center"
+                                    android:visibility="gone">
+
+                                    <TextView
+                                        android:id="@+id/theme_shop_item_price_old_4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:visibility="gone"
+                                        android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+                                        android:textColor="@color/theme_shop_v8_price_common"
+                                        android:textSize="@dimen/theme_shop_v6_list_item_price" >
+                                    </TextView>
+
+                                    <TextView
+                                        android:id="@+id/theme_shop_item_price_new_4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_toRightOf="@id/theme_shop_item_price_old_4"
+                                        android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+                                        android:textColor="@color/theme_shop_v6_price_new"
+                                        android:textSize="@dimen/theme_shop_v6_list_item_price" >
+                                    </TextView>
+
+                                    <ImageView
+                                        android:id="@+id/theme_shop_item_price_img_4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_alignBottom="@+id/theme_shop_item_price_old_4"
+                                        android:layout_alignLeft="@+id/theme_shop_item_price_old_4"
+                                        android:layout_alignRight="@+id/theme_shop_item_price_old_4"
+                                        android:layout_alignTop="@+id/theme_shop_item_price_old_4"
+                                        android:src="@drawable/theme_shop_item_price_img"
+                                        android:visibility="gone" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="4dip"
+                        android:layout_marginRight="4dip"
+                        android:gravity="center_horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+                            <FrameLayout android:id="@+id/imgTheme_bg_5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+                                    android:id="@+id/imgTheme_5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+                                <ImageView
+                                    android:id="@+id/imgSeries_5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="fitCenter" android:visibility="gone"
+                                    android:src="@drawable/theme_series_mask"
+                                    android:layout_gravity="bottom|right" />
+                                <ImageView
+                                    android:id="@+id/imgMember_5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="fitCenter" android:visibility="gone"
+                                    android:layout_marginLeft="5dip"
+                                    android:src="@drawable/pay_theme_mask"
+                                    android:layout_gravity="top|left" />
+                            </FrameLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingTop="@dimen/v7_gap3_8dp"
+                                android:paddingLeft="@dimen/v7_gap3_8dp">
+
+                                <TextView
+                                    android:id="@+id/theme_shop_item_title_5"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:marqueeRepeatLimit="marquee_forever"
+                                    android:singleLine="true"
+                                    android:textColor="@color/theme_shop_v6_list_item_title"
+                                    android:textSize="@dimen/theme_shop_v6_list_item_title" >
+                                </TextView>
+
+                                <RelativeLayout
+                                    android:id="@+id/theme_shop_item_price_5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dip"
+                                    android:gravity="center"
+                                    android:visibility="gone">
+
+                                    <TextView
+                                        android:id="@+id/theme_shop_item_price_old_5"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:visibility="gone"
+                                        android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+                                        android:textColor="@color/theme_shop_v8_price_common"
+                                        android:textSize="@dimen/theme_shop_v6_list_item_price" >
+                                    </TextView>
+
+                                    <TextView
+                                        android:id="@+id/theme_shop_item_price_new_5"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_toRightOf="@id/theme_shop_item_price_old_5"
+                                        android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+                                        android:textColor="@color/theme_shop_v6_price_new"
+                                        android:textSize="@dimen/theme_shop_v6_list_item_price" >
+                                    </TextView>
+
+                                    <ImageView
+                                        android:id="@+id/theme_shop_item_price_img_5"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_alignBottom="@+id/theme_shop_item_price_old_5"
+                                        android:layout_alignLeft="@+id/theme_shop_item_price_old_5"
+                                        android:layout_alignRight="@+id/theme_shop_item_price_old_5"
+                                        android:layout_alignTop="@+id/theme_shop_item_price_old_5"
+                                        android:src="@drawable/theme_shop_item_price_img"
+                                        android:visibility="gone" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+                        android:gravity="center_horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+                            <FrameLayout android:id="@+id/imgTheme_bg_6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+                                    android:id="@+id/imgTheme_6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+                                <ImageView
+                                    android:id="@+id/imgSeries_6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="fitCenter" android:visibility="gone"
+                                    android:src="@drawable/theme_series_mask"
+                                    android:layout_gravity="bottom|right" />
+                                <ImageView
+                                    android:id="@+id/imgMember_6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="fitCenter" android:visibility="gone"
+                                    android:layout_marginLeft="5dip"
+                                    android:src="@drawable/pay_theme_mask"
+                                    android:layout_gravity="top|left" />
+                            </FrameLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingTop="@dimen/v7_gap3_8dp"
+                                android:paddingLeft="@dimen/v7_gap3_8dp">
+
+                                <TextView
+                                    android:id="@+id/theme_shop_item_title_6"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:marqueeRepeatLimit="marquee_forever"
+                                    android:singleLine="true"
+                                    android:textColor="@color/theme_shop_v6_list_item_title"
+                                    android:textSize="@dimen/theme_shop_v6_list_item_title" >
+                                </TextView>
+
+                                <RelativeLayout
+                                    android:id="@+id/theme_shop_item_price_6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dip"
+                                    android:gravity="center"
+                                    android:visibility="gone">
+
+                                    <TextView
+                                        android:id="@+id/theme_shop_item_price_old_6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:visibility="gone"
+                                        android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+                                        android:textColor="@color/theme_shop_v8_price_common"
+                                        android:textSize="@dimen/theme_shop_v6_list_item_price" >
+                                    </TextView>
+
+                                    <TextView
+                                        android:id="@+id/theme_shop_item_price_new_6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_toRightOf="@id/theme_shop_item_price_old_6"
+                                        android:text="@string/theme_shop_v6_func_theme_tab_ranking_free"
+                                        android:textColor="@color/theme_shop_v6_price_new"
+                                        android:textSize="@dimen/theme_shop_v6_list_item_price" >
+                                    </TextView>
+
+                                    <ImageView
+                                        android:id="@+id/theme_shop_item_price_img_6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_alignBottom="@+id/theme_shop_item_price_old_6"
+                                        android:layout_alignLeft="@+id/theme_shop_item_price_old_6"
+                                        android:layout_alignRight="@+id/theme_shop_item_price_old_6"
+                                        android:layout_alignTop="@+id/theme_shop_item_price_old_6"
+                                        android:src="@drawable/theme_shop_item_price_img"
+                                        android:visibility="gone" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+    </LinearLayout>
+
+    <!-- 每日推荐，末尾显示的 banner -->
+    <LinearLayout
+        android:id="@+id/daily_banner_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"        
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <LinearLayout
+         android:id="@+id/hour_banner_layout"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dip"
+         android:orientation="vertical"
+         android:visibility="gone" />
+    
+    <LinearLayout
+         android:id="@+id/youbao_layout"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dip"
+         android:orientation="vertical"
+         android:visibility="gone" />
+    
+    <LinearLayout
+         android:id="@+id/custom_series_layout"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dip"
+         android:orientation="vertical"
+         android:visibility="gone" />
+    
+    <LinearLayout
+         android:id="@+id/online_style_layout"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dip"
+         android:orientation="vertical"
+         android:visibility="gone" />
+
+</LinearLayout>

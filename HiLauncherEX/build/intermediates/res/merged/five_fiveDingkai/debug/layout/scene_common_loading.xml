@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_gravity="center"
+	android:visibility="visible">
+	<ImageView
+	    android:id="@+id/scene_common_loading_img"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:src="@drawable/framwork_viewfactory_load_data_img"
+		android:layout_centerInParent="true"/>
+	<com.nd.hilauncherdev.framework.view.WarningInfoTextView
+		android:id="@+id/scene_top_menu_text_loading"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:paddingTop="5dip" 
+		android:layout_below="@id/scene_common_loading_img"
+		android:textColor="#8d8d8d" 
+		android:textSize="14.7dip"
+		android:text="@string/frame_viewfacotry_data_load_text" />
+</RelativeLayout>

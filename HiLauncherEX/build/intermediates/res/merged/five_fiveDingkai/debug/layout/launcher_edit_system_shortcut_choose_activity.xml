@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/container_layout"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	
+	<RelativeLayout android:id="@+id/top_layout"
+		android:layout_width="match_parent" 
+		android:layout_height="@dimen/dialog_top_layout_height"
+		android:layout_alignParentTop="true"
+		android:background="@drawable/app_choose_top_background">		
+		
+		<TextView android:id="@+id/top_title"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:paddingTop="3dip"
+			android:paddingLeft="10dip"
+			android:gravity="center"
+			android:textSize="20sp" 
+			android:textColor="@color/dialog_title_color"
+			android:text="@string/title_select_shortcut" />
+		
+	</RelativeLayout>
+	
+	<RelativeLayout android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:layout_below="@id/top_layout"
+		android:background="@drawable/app_choose_bottom_background">
+		
+	    <ListView android:id="@+id/content_list"
+		    android:layout_width="match_parent" 
+			android:layout_height="wrap_content"
+			android:cacheColorHint="@android:color/transparent"
+			android:listSelector="@drawable/myphone_click_item_blue" 
+			android:divider="@drawable/myphone_common_split"
+			android:dividerHeight="1dip" />		    
+		    
+	</RelativeLayout>
+	
+</RelativeLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/video_activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000">
+
+
+    <com.nd.hilauncherdev.shop.shop6.videowallpaper.ViewPageGallery
+        android:id="@+id/pageGallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true" />
+
+
+    <!--顶部菜单栏 包括返回键和标题-->
+    <RelativeLayout
+        android:id="@+id/layout_recommend_video_top"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_video_fullscreen_top_bg">
+
+        <RelativeLayout
+            android:id="@+id/topPanel"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+        <ImageView
+            android:id="@+id/goBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/video_go_back" />
+
+
+        <ImageView
+            android:id="@+id/iv_video_sound"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_sound_off_white" />
+
+
+        <TextView
+            android:id="@+id/tv_video_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_video_sound"
+            android:layout_marginLeft="30dp"
+            android:textSize="17sp"
+            android:layout_toRightOf="@id/goBack"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/loadingBar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_play_buffering"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDrawable="@drawable/video_loading_ani"
+        android:indeterminateOnly="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/playButton"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/video_play_button"
+        android:visibility="visible" />
+
+
+    <!--状态栏，显示下载，下载进度，应用桌面等-->
+    <RelativeLayout
+        android:id="@+id/layout_recommend_video_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ic_video_fullscreen_bottom_bg">
+
+        <FrameLayout
+            android:id="@+id/bottomPanel"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="7dp">
+
+            <Button
+                android:id="@+id/download"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/video_recommend_bt_bg"
+                android:text="下载"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/down_progressbar"
+                style="@style/StyleProgressBarMini"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:max="100"
+                android:progress="0"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/progressText"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:max="100"
+                android:progress="0"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+        </FrameLayout>
+
+        <!--信息栏，包括视频文小，是否静音-->
+        <LinearLayout
+            android:id="@+id/info"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bottomPanel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/video_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00ffffff"
+                android:drawableLeft="@drawable/video_size_icon"
+                android:drawablePadding="10dp"
+                android:text="0M"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/video_voice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/theme_shop_v8_video_paper_voice_on"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/lastVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/video_last" />
+
+    <ImageView
+        android:id="@+id/nextVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/video_next" />
+
+    <com.nd.hilauncherdev.shop.widget.LoadingStateView
+        android:id = "@+id/view_loading_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:visibility="gone">
+
+    </com.nd.hilauncherdev.shop.widget.LoadingStateView>
+
+</RelativeLayout>

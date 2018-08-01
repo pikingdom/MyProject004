@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent"
+	android:gravity="center" 
+	android:orientation="vertical"
+	android:paddingTop="@dimen/myfile_top_view_margin">
+
+	<RelativeLayout android:layout_width="48dip"
+		android:layout_height="48dip">
+		<ImageView android:id="@+id/myfile_photo_image"
+			android:scaleType="fitCenter" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_gravity="center"
+			android:layout_centerHorizontal="true" android:src="@drawable/wallpaper_loading" />
+
+		<ImageView android:id="@+id/myfile_check_icon"
+			android:layout_width="16dip" android:layout_height="16dip"
+			android:layout_marginBottom="10dip" android:layout_marginRight="10dip"
+			android:background="@drawable/common_checkbox_uncheck"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true" android:visibility="gone" />
+	</RelativeLayout>
+
+	<TextView android:id="@+id/myfile_photo_text"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center" 
+		android:textSize="@dimen/myphone_item_text_size"
+		android:textColor="@color/myphone_common_text_color"
+		android:ellipsize="middle" 
+		android:layout_gravity="center"
+		android:singleLine="true"
+		android:paddingLeft="2dip" 
+		android:paddingRight="2dip" />
+
+</LinearLayout>

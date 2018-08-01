@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cleanerwidget1x1_percent_tv_size">15px</dimen>
+    <dimen name="launcher_notification_fistsetting_height">120dip</dimen>
+    <dimen name="launcher_notification_height">90dip</dimen>
+    <dimen name="launcher_notification_image_height">60dip</dimen>
+    <dimen name="read_me_bn_margin_bottom">30dip</dimen>
+    <dimen name="readme_page1_top">50dip</dimen>
+    <dimen name="readme_page_usernum">80dip</dimen>
+    <dimen name="top_menu_boutique_resource_bottom">27dip</dimen>
+    <dimen name="top_menu_boutique_resource_middom">14dip</dimen>
+    <dimen name="top_menu_boutique_resource_top">24dip</dimen>
+</resources>

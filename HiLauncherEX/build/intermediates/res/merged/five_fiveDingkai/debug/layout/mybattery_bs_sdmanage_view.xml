@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.myphone.battery.mybattery.view.MyBatteryManageLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mybattery_managelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/mybattery_settings_btn"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:id="@+id/mybattery_dataview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- 圆环部分 -->
+
+            <FrameLayout
+                android:id="@+id/widget_cleaner_1x1_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/mybattery_bs_optimize_margin"
+                android:layout_marginTop="@dimen/mybattery_bs_optimize_margin" >
+
+                <ImageView
+                    android:id="@+id/bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mybattery_bs_optimize_green_circle" />
+
+                <ImageView
+                    android:id="@+id/circle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mybattery_bs_optimize_white_circle" />
+
+                <RelativeLayout
+                    android:id="@+id/scoreLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center" >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" >
+
+                        <LinearLayout
+                            android:id="@+id/battery_score_Layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/battery_score"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/mybattery_bs_optimize"
+                                android:textSize="@dimen/mybattery_bs_optimize_score_font_size" />
+
+                            <TextView
+                                android:id="@+id/battery_score_bg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:background="@drawable/mybattery_bs_optimize_score_green_bg"
+                                android:gravity="center"
+                                android:text="@string/notification_time_min"
+                                android:textColor="@color/white"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/immediately_optimize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/battery_score_Layout"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/mybattery_bs_click_start_bs"
+                            android:textSize="@dimen/mybattery_bs_optimize_message_font_size" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/myphone_vert_shadow_line"
+                android:layout_gravity="center"
+                 />
+            <!-- 下半部分 -->
+
+            <LinearLayout
+                android:id="@+id/layout_battery_image_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/mybattert_bs_optimize_bottom_bg"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_proportion"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="20dip"
+                    android:layout_weight="3"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/v_bs_animationimage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="10dip" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_charging_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dip"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:paddingRight="5dip" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/charging_time"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/mybattery_bs_cd_continuation"
+                            android:textColor="@color/myphone_common_text_color"
+                            android:textSize="20dp" />
+
+                        <RelativeLayout
+                            android:id="@+id/charging_content_hour_min_rl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="44dip"
+                            android:layout_marginTop="10dip" >
+
+                            <ImageView
+                                android:id="@+id/battery_digital_img_1"
+                                android:layout_width="25dip"
+                                android:layout_height="40dip"
+                                android:layout_margin="2dip"
+                                android:background="@drawable/mybattery_digital_0" />
+
+                            <ImageView
+                                android:id="@+id/battery_digital_img_2"
+                                android:layout_width="25dip"
+                                android:layout_height="40dip"
+                                android:layout_margin="2dip"
+                                android:layout_toRightOf="@+id/battery_digital_img_1"
+                                android:background="@drawable/mybattery_digital_0" />
+
+                            <TextView
+                                android:id="@+id/battery_digital_text_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBottom="@+id/battery_digital_img_1"
+                                android:layout_margin="2dip"
+                                android:layout_toRightOf="@+id/battery_digital_img_2"
+                                android:text="@string/mybattery_digital_text_hour"
+                                android:textColor="@color/myphone_common_text_color" />
+
+                            <ImageView
+                                android:id="@+id/battery_digital_img_3"
+                                android:layout_width="25dip"
+                                android:layout_height="40dip"
+                                android:layout_margin="2dip"
+                                android:layout_toRightOf="@+id/battery_digital_text_1"
+                                android:background="@drawable/mybattery_digital_0" />
+
+                            <ImageView
+                                android:id="@+id/battery_digital_img_4"
+                                android:layout_width="25dip"
+                                android:layout_height="40dip"
+                                android:layout_margin="2dip"
+                                android:layout_toRightOf="@+id/battery_digital_img_3"
+                                android:background="@drawable/mybattery_digital_0" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBottom="@+id/battery_digital_img_1"
+                                android:layout_margin="2dip"
+                                android:layout_toRightOf="@+id/battery_digital_img_4"
+                                android:text="@string/mybattery_digital_text_minute"
+                                android:textColor="@color/myphone_common_text_color" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</com.nd.hilauncherdev.myphone.battery.mybattery.view.MyBatteryManageLayout>

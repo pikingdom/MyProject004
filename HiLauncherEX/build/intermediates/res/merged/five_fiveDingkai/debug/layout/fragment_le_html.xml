@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_le_bg">
+
+    <LinearLayout
+        android:id="@+id/ll_0"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="vertical"
+        android:background="@color/guide_le_bg">
+
+        <RelativeLayout
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <ImageButton
+                android:id="@+id/ib_0"
+                android:layout_width="19.81dp"
+                android:layout_height="20.23dp"
+                android:layout_marginTop="34.29dp"
+                android:layout_marginLeft="16dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/btn_le_page_back"/>
+
+            <TextView
+                android:id="@+id/html_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33.9dp"
+                android:layout_marginLeft="25.52dp"
+                android:paddingRight="16dp"
+                android:textSize="19.43dp"
+                android:textColor="@color/guide_le_title_text"
+                android:layout_toRightOf="@id/ib_0"
+                android:text="标题"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:id="@+id/rl_0"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/guide_le_bg">
+
+        <TextView
+            android:id="@+id/btn_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textSize="18.29dp"
+            android:textColor="#228fe2"
+            android:text="完成"/>
+
+    </RelativeLayout>
+    
+    <WebView
+        android:id="@+id/html_content_wv"
+        android:layout_below="@id/ll_0"
+        android:layout_above="@id/rl_0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

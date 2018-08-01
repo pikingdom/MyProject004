@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fffafafa"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/personal_top_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/theme_shop_v6_theme_author_area_view_bg" >
+				<LinearLayout 
+				    android:layout_width="match_parent"
+                	android:layout_height="match_parent"
+                	android:orientation="vertical"
+                	android:gravity="center_horizontal">
+					<!-- 头像 -->
+	                <ImageView
+	                    android:id="@+id/iv_avatar"
+	                    android:layout_width="60dip"
+	                    android:layout_height="60dip"
+	                    android:layout_marginTop="27dp"
+	                    android:src="@drawable/launcher_menu_presonal_user_icon" />		    
+	                <!-- 登陆后布局 -->
+	
+	                <LinearLayout
+	                    android:id="@+id/after_login_layout"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="center"
+	                    android:orientation="vertical">
+	
+	                    <com.nd.hilauncherdev.framework.view.AlwaysMarqueeTextView
+	                        android:id="@+id/tv_username"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:ellipsize="marquee"
+	                        android:gravity="left"
+	                        android:layout_marginTop="4dp"
+	                        android:marqueeRepeatLimit="marquee_forever"
+	                        android:shadowDx="0"
+	                        android:shadowDy="-3"
+	                        android:shadowRadius="3"
+	                        android:singleLine="true"
+	                        android:text="@string/personal_center_welcome"
+	                        android:textColor="@color/white"
+	                        android:textSize="15sp" />
+	                    <LinearLayout 
+	                        android:id="@+id/personal_center_member_validity_layout"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_marginTop="5dp"
+	                        android:gravity="center"
+	                        android:visibility="gone">
+	                        <ImageView
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:scaleType="fitXY"
+	                            android:src="@drawable/personal_center_member_validity" />
+							<TextView
+							    android:id="@+id/personal_center_member_validity"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:singleLine="true"
+	                            android:layout_marginLeft="5dp"
+	                            android:text="2015-12-2"
+	                            android:textColor="@color/black"
+	                            android:textSize="12sp" />
+						</LinearLayout>
+	                    <LinearLayout
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_marginTop="10dp"
+	                        android:gravity="center_vertical"
+	                        android:orientation="horizontal" >
+							<LinearLayout 
+							    android:id="@+id/iv_maozhua_icon"
+							    android:layout_width="wrap_content"
+		                        android:layout_height="wrap_content">
+		                        <ImageView
+		                            android:layout_width="18dp"
+		                            android:layout_height="19dp"
+		                            android:scaleType="fitXY"
+		                            android:src="@drawable/maozhua_icon" />
+		
+		                        <TextView
+		                            android:id="@+id/maozhua_amount"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="3dp"
+		                            android:ellipsize="marquee"
+		                            android:singleLine="true"
+		                            android:text="0"
+		                            android:textColor="@color/white"
+		                            android:textSize="15sp" />
+							</LinearLayout>
+							<LinearLayout 
+							    android:id="@+id/iv_coin_quan"
+							    android:layout_width="wrap_content"
+		                        android:layout_height="wrap_content"
+							    android:background="@drawable/personal_center_top_info_btn"
+							    android:layout_marginLeft="9dp"
+							    android:orientation="horizontal">
+		                        <ImageView
+		                            android:layout_width="18dp"
+		                            android:layout_height="19dp"
+		                            android:layout_marginLeft="10dp"
+		                            android:scaleType="fitXY"
+		                            android:src="@drawable/coin_quan" />
+		
+		                        <TextView
+		                            android:id="@+id/maozhuaquan_amount"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="3dp"
+		                            android:layout_marginRight="10dp"
+		                            android:ellipsize="marquee"
+		                            android:singleLine="true"
+		                            android:text="0"
+		                            android:textColor="@color/white"
+		                            android:textSize="15sp" />
+	                        </LinearLayout>
+	                        <!-- 积分 -->
+							<LinearLayout 
+							    android:id="@+id/iv_integral"
+							    android:layout_width="wrap_content"
+		                        android:layout_height="wrap_content"
+							    android:background="@drawable/personal_center_top_info_btn"
+							    android:layout_marginLeft="9dp"
+							    android:orientation="horizontal">
+		                        <ImageView 
+		                            android:layout_width="18dp"
+		                            android:layout_height="19dp"
+		                            android:layout_marginLeft="10dp"
+		                            android:scaleType="fitXY"
+		                            android:src="@drawable/integral_icon" />
+		
+		                        <TextView
+		                            android:id="@+id/integral_amount"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="3dp"
+		                            android:layout_marginRight="10dp"
+		                            android:ellipsize="marquee"
+		                            android:singleLine="true"
+		                            android:text="0"
+		                            android:textColor="@color/white"
+		                            android:textSize="15sp" />
+	                        </LinearLayout>
+	                    </LinearLayout>
+	                    <!-- 文字滚动条 -->
+	
+	                    <com.nd.hilauncherdev.menu.personal.AutoScrollTextView
+	                        android:id="@+id/TextViewNotice"
+	                        android:layout_width="fill_parent"
+	                        android:layout_height="wrap_content"
+	                        android:layout_gravity="center_horizontal"
+	                        android:inputType="text"
+	                        android:marqueeRepeatLimit="1"
+	                        android:textColor="@color/white"
+	                        android:textSize="16sp"
+	                        android:visibility="gone" >
+	                    </com.nd.hilauncherdev.menu.personal.AutoScrollTextView>
+	                </LinearLayout>
+				</LinearLayout>
+				<!-- 充值按钮 -->
+				<LinearLayout 
+				    android:id="@+id/iv_recharge"
+				    android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:orientation="vertical"
+	                android:layout_alignParentRight="true"
+	                android:layout_marginTop="10dp"
+	                android:layout_marginRight="10dp"
+	                android:gravity="center"
+	                android:visibility="gone">
+	                <Button
+	                    android:id="@+id/iv_recharge_btn"
+	                    android:layout_width="32dp"
+	                    android:layout_height="32dp"
+	                    android:background="@drawable/personal_center_recharge_btn"/>
+	                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.5dp"
+                        android:singleLine="true"
+                        android:text="@string/personal_center_event_recharge"
+                        android:textColor="@color/white"
+                        android:textSize="13sp" />
+				</LinearLayout>
+				<!-- 登录按钮 -->
+				<LinearLayout 
+				    android:id="@+id/before_login_layout"
+				    android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:orientation="vertical"
+	                android:layout_alignParentRight="true"
+	                android:layout_marginTop="10dp"
+	                android:layout_marginRight="10dp"
+	                android:gravity="center">
+	                <Button
+	                    android:id="@+id/btn_login"
+	                    android:layout_width="32dp"
+	                    android:layout_height="32dp"
+	                    android:background="@drawable/personal_center_login"/>
+	                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4.5dp"
+                        android:singleLine="true"
+                        android:text="@string/personal_center_login"
+                        android:textColor="@color/white"
+                        android:textSize="13sp" />
+				</LinearLayout>
+				
+            </RelativeLayout>
+
+            <!-- 下半部 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card"
+                android:orientation="vertical"
+                android:paddingTop="8dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <!-- 每日任务 -->
+
+                    <LinearLayout
+                        android:id="@+id/personal_everyday_task_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#ffffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="8dp" >
+
+                        <ImageView
+                            android:id="@+id/personal_compaign_everyday_task_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/personal_compaign_everyday_task_selector" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:text="@string/member_integral_get_integral_webview_title"
+                            android:textColor="#ff1c1c1c"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <!-- 我的积分 -->
+
+                    <LinearLayout
+                        android:id="@+id/personal_my_integral_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#ffffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="8dp" >
+
+                        <ImageView
+                            android:id="@+id/personal_my_integral_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/personal_compaign_my_integral_selector" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:text="@string/personal_my_integral"
+                            android:textColor="#ff1c1c1c"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <!-- 我的红包 -->
+
+                    <LinearLayout
+                        android:id="@+id/personal_my_redpacket_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#ffffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="8dp" >
+
+                        <ImageView
+                            android:id="@+id/personal_my_redpacket_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/personal_compaign_my_redpacket_selector" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:text="@string/personal_my_redpacket"
+                            android:textColor="#ff1c1c1c"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <!-- 幸运转盘 -->
+
+                    <LinearLayout
+                        android:id="@+id/personal_lucky_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#ffffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="8dp" >
+
+                        <ImageView
+                            android:id="@+id/personal_lucky_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/personal_compaign_lucky_icon_selector" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:text="@string/personal_lucky_title"
+                            android:textColor="#ff1c1c1c"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                    <!-- 每日新鲜事 -->
+
+                    <LinearLayout
+                        android:id="@+id/personal_date_things_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#ffffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="8dp" >
+
+                        <ImageView
+                            android:id="@+id/personal_compaign_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/personal_compaign_news_icon_selector" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:text="@string/personal_compaign"
+                            android:textColor="#ff1c1c1c"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <!-- 消息中心 -->
+
+                    <LinearLayout
+                        android:id="@+id/personal_msg_center_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#ffffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="8dp" >
+
+                        <ImageView
+                            android:id="@+id/personal_message_center_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/personal_compaign_msg_center_icon_selector" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:text="@string/personal_message_center"
+                            android:textColor="#ff1c1c1c"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <!-- 我的助理 -->
+
+                    <LinearLayout
+                        android:id="@+id/personal_assist_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#ffffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="8dp" >
+
+                        <ImageView
+                            android:id="@+id/personal_center_assist_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/personal_compaign_asisst_icon_selector" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:text="@string/personal_center_assist"
+                            android:textColor="#ff1c1c1c"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <!-- 我的下载 -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#ffffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="8dp" >
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+							<LinearLayout 
+							    android:id="@+id/personal_dowload_manager_layout"
+							    android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_centerInParent="true"
+	                            android:gravity="center"
+	                            android:orientation="vertical">
+	                            <ImageView
+	                                android:id="@+id/personal_compaign_download_img"
+	                                android:layout_width="wrap_content"
+	                                android:layout_height="wrap_content"
+	                                android:src="@drawable/personal_compaign_download_icon_selector" />
+	
+	                            <TextView
+	                                android:layout_width="wrap_content"
+	                                android:layout_height="wrap_content"
+	                                android:paddingTop="10dp"
+	                                android:text="@string/personal_center_download_mgr"
+	                                android:textColor="#ff1c1c1c"
+	                                android:textSize="14sp" />
+                            </LinearLayout>
+                            <TextView
+                                android:id="@+id/personal_download_remind"
+                                android:layout_alignRight="@+id/personal_dowload_manager_layout"
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:background="@drawable/download_remind"
+                                android:gravity="center"
+                                android:visibility="gone"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <!-- 我的建议 -->
+
+                    <LinearLayout
+                        android:id="@+id/personal_my_suggest_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#ffffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="9dp"
+                        android:paddingTop="8dp" >
+
+                        <ImageView
+                            android:id="@+id/personal_my_suggest_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/personal_compaign_suggest_icon_selector" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:text="@string/personal_my_suggest"
+                            android:textColor="#ff1c1c1c"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

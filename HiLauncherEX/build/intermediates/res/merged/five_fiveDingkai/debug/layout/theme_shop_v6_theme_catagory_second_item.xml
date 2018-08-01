@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/second_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:singleLine="true"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:background="@drawable/category_item_selector"
+        android:textColor="#99000000"
+        android:textSize="@dimen/theme_shop_v6_theme_category_second_class_item_size"
+        />
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/headerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.nd.hilauncherdev.framework.view.commonview.HeaderView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/myphone_bg_color" >
+
+        <LinearLayout
+            android:id="@+id/theme_shop_comment_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <RatingBar
+                android:id="@+id/theme_shop_comment_content_rating_bar"
+                style="@style/commentRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="24dip"
+                android:layout_marginTop="10dip"
+                android:numStars="5"
+                android:rating="0"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/theme_shop_comment_content_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="15dip"
+                android:text="@string/theme_shop_comment_rating_tip"
+                android:textColor="#696969"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/theme_shop_comment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/theme_shop_comment_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="35dip"
+            android:layout_marginRight="35dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/theme_shop_comment_edit_bg"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:paddingBottom="15dip"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:paddingTop="15dip" >
+        </EditText>
+
+        <Button
+            android:id="@+id/theme_shop_comment_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/theme_shop_comment_content"
+            android:background="@drawable/theme_shop_comment_publish_unable"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="60dip"
+            android:layout_marginRight="60dip"
+            android:layout_marginTop="15dip"
+            android:gravity="center"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:textColor="@color/white"
+            android:text="@string/theme_shop_v2_theme_detail_comment_publish_txt"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>

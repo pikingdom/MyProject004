@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/myphone_common_bg_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- 淘宝单品列表 -->
+
+        <LinearLayout
+            android:id="@+id/widget_taobao_products_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- 淘宝会场列表 -->
+
+            <!--<LinearLayout
+                android:id="@+id/widget_taobao_meetingplace_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/hotword_info_item_btn_normal"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:visibility="gone" />-->
+
+            <com.nd.hilauncherdev.widget.taobao.HeaderGridView
+                android:id="@+id/widget_taobao_gridview"
+                android:layout_weight="1.0"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:stretchMode="columnWidth"
+                android:transcriptMode="disabled"
+                android:cacheColorHint="#00000000"
+                android:listSelector = "@drawable/theme_shop_v6_transparent"
+                android:verticalSpacing="@dimen/theme_shop_v6_ranking_img_margin_verticalSpacing"
+                android:horizontalSpacing="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget_taobao_webview_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <include
+        layout="@layout/theme_shop_v6_loading_style_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <!-- 拨号抢票 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:paddingTop="15dip"
+        android:text="@string/personal_assist_call_btn"
+        android:textColor="@android:color/black"
+        android:textSize="19sp" />
+
+    <!-- 电话号码 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:paddingLeft="25dip"
+        android:paddingRight="25dip" >
+
+        <TextView
+            android:id="@+id/phone_call_name_for_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:gravity="center_vertical"
+            android:text="@string/personal_assist_call_num"
+            android:textColor="@color/myphone_common_title_color"
+            android:textSize="@dimen/myphone_title_bottom_text_size" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/phone_call_name_for_ticket"
+            android:background="@drawable/folder_name_input_edit_bg"
+            android:gravity="center_vertical"
+            android:padding="0dip" >
+
+            <EditText
+                android:id="@+id/phone_num_text_for_ticket"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:numeric="integer"
+                android:paddingLeft="5dip"
+                android:text="@string/personal_assist_call_def_num"
+                android:textColor="@color/myphone_common_title_color"
+                android:textSize="@dimen/myphone_title_bottom_text_size" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <!-- 打通为止 -->
+
+        <RelativeLayout
+            android:id="@+id/phone_call_style_view_for_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="55dip"
+            android:background="@drawable/myphone_click_item_blue" >
+
+            <CheckBox
+                android:id="@+id/phone_calling_checkbox_for_ticket"
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:layout_centerVertical="true"
+                android:background="@drawable/common_checkbox_selector"
+                android:button="@null"
+                android:checked="true"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/phone_calling_style_for_ticket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/phone_calling_checkbox_for_ticket"
+                android:gravity="center_vertical"
+                android:text="@string/personal_assist_call_tong"
+                android:textColor="@color/myphone_common_title_color"
+                android:textSize="@dimen/myphone_title_bottom_text_size" />
+        </RelativeLayout>
+
+        <!-- 接通后打开免提 -->
+
+        <RelativeLayout
+            android:id="@+id/phone_call_openhf_view_for_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="55dip"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/myphone_click_item_blue" >
+
+            <CheckBox
+                android:id="@+id/phone_call_openhf_checkbox_for_ticket"
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:layout_centerVertical="true"
+                android:background="@drawable/common_checkbox_selector"
+                android:button="@null"
+                android:checked="true"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/phone_call_openhf_for_ticket"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:layout_toRightOf="@id/phone_call_openhf_checkbox_for_ticket"
+                android:gravity="center_vertical"
+                android:text="@string/personal_assist_call_openhf"
+                android:textColor="@color/myphone_common_title_color"
+                android:textSize="@dimen/myphone_title_bottom_text_size" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 拨号抢票按钮 -->
+
+    <Button
+        android:id="@+id/phone_call_btn_for_ticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/common_btn_blue_selector"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:text="@string/personal_assist_call_btn"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <!-- 分割线 -->
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/common_title_little_text_color" />
+
+    <!-- 网络抢票 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:text="@string/personal_assist_call_net_ticket"
+        android:textColor="@android:color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="@string/personal_assist_call_net_today"
+        android:textColor="@color/myphone_common_title_color"
+        android:textSize="@dimen/myphone_title_bottom_text_size" />
+
+    <TextView
+        android:id="@+id/tv_net_ticket_presell_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/myphone_common_title_color"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/tv_net_ticket_presell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/myphone_common_title_color"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_net_ticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/common_btn_blue_selector"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:text="@string/personal_assist_call_net_btn"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</LinearLayout>

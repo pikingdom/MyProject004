@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pandawidgets>
+	<pandawidget 
+		packageName="pkg_name"
+		layout="weather_widget_panda_4x1"
+		previewName="widget_weather_preview_4x1"
+		title="sdk_app_name" 
+		spanX="4"
+		spanY="1"/>
+	<pandawidget 
+		packageName="pkg_name"
+		layout="weather_widget_panda_4x2"
+		previewName="widget_weather_preview_4x2"
+		title="sdk_app_name"
+		spanX="4"
+		spanY="2"/>
+</pandawidgets>

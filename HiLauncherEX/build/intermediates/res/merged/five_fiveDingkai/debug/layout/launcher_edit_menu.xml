@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.launcher.menu.editmenu.LauncherEditMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:editmenuitem="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/launcher_edit_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone" >
+
+    <FrameLayout
+        android:id="@+id/finger_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <com.nd.hilauncherdev.launcher.menu.editmenu.FingerOuterView
+            android:id="@+id/finger_circle_outer"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center" />
+
+        <com.nd.hilauncherdev.launcher.menu.editmenu.ProgressAnimationView
+            android:id="@+id/finger_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/edit_menu_finger_circle_inner" />
+
+        <ImageView
+            android:id="@+id/finger_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/edit_menu_finger" />
+    </FrameLayout>
+
+    <com.nd.hilauncherdev.launcher.menu.editmenu.MenuItemsLayout
+        android:id="@+id/items_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:duplicateParentState="false" >
+
+        <com.nd.hilauncherdev.launcher.menu.editmenu.MenuItem
+            android:id="@+id/item_change_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_item_change_theme"
+            editmenuitem:iconNormal="@drawable/edit_menu_item_change_theme_normal"
+            editmenuitem:iconPressed="@drawable/edit_menu_item_change_theme_pressed" />
+
+        <com.nd.hilauncherdev.launcher.menu.editmenu.MenuItem
+            android:id="@+id/item_change_wallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_item_change_wallpaper"
+            editmenuitem:iconNormal="@drawable/edit_menu_item_change_wallpaper_normal"
+            editmenuitem:iconPressed="@drawable/edit_menu_item_change_wallpaper_pressed" />
+
+        <com.nd.hilauncherdev.launcher.menu.editmenu.MenuItem
+            android:id="@+id/item_change_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_item_change_effect"
+            editmenuitem:iconNormal="@drawable/edit_menu_item_change_effect_normal"
+            editmenuitem:iconPressed="@drawable/edit_menu_item_change_effect_pressed" />
+
+        <com.nd.hilauncherdev.launcher.menu.editmenu.MenuItem
+            android:id="@+id/item_add_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_item_add_widget"
+            editmenuitem:iconNormal="@drawable/edit_menu_item_add_widget_normal"
+            editmenuitem:iconPressed="@drawable/edit_menu_item_add_widget_pressed" />
+
+        <com.nd.hilauncherdev.launcher.menu.editmenu.MenuItem
+            android:id="@+id/item_add_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_item_add_app"
+            editmenuitem:iconNormal="@drawable/edit_menu_item_add_app_normal"
+            editmenuitem:iconPressed="@drawable/edit_menu_item_add_app_pressed" />
+    </com.nd.hilauncherdev.launcher.menu.editmenu.MenuItemsLayout>
+
+</com.nd.hilauncherdev.launcher.menu.editmenu.LauncherEditMenu>

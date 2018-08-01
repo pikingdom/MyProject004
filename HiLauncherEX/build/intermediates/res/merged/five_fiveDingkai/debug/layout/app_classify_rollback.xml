@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/app_choose_top_background_new" >
+
+    <RelativeLayout
+        android:id="@+id/common_dialog_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_top_layout_height_40"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/common_dialog_top_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dip" />
+
+        <TextView
+            android:id="@+id/common_dialog_top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/common_dialog_top_icon"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:text="@string/restore_now"
+            android:textColor="@color/dialog_title_color"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/common_dialog_top_layout" >
+
+        <LinearLayout
+            android:id="@+id/common_dialog_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="18.0dip"
+                    android:paddingTop="18.0dip" >
+
+                    <RelativeLayout
+                        android:id="@+id/packageapp_restore_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="60.0dip"
+                        android:paddingLeft="12.0dip"
+                        android:paddingRight="12.0dip" >
+
+                        <CheckBox
+                            android:id="@+id/packageapp_restore_check"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:button="@drawable/btn_checkbox"
+                            android:clickable="false"
+                            android:duplicateParentState="true"
+                            android:focusable="false" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@id/packageapp_restore_check"
+                            android:duplicateParentState="true"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:duplicateParentState="true"
+                                android:text="@string/restore_now"
+                                android:textColor="#ff494949"
+                                android:textSize="15.0sp" />
+
+                            <TextView
+                                android:id="@+id/packageapp_restore_tip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/restore_tip"
+                                android:textColor="#ff888888"
+                                android:textSize="13.0sp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/packageapp_restore_original_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="60.0dip"
+                        android:layout_marginTop="8.0dip"
+                        android:paddingLeft="12.0dip"
+                        android:paddingRight="12.0dip" >
+
+                        <CheckBox
+                            android:id="@+id/packageapp_restore_orginal_check"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                          	android:button="@drawable/btn_checkbox"
+                            android:clickable="false"
+                            android:duplicateParentState="true"
+                            android:focusable="false" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@id/packageapp_restore_orginal_check"
+                            android:duplicateParentState="true"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:duplicateParentState="true"
+                                android:text="@string/restore_original"
+                                android:textColor="#ff494949"
+                                android:textSize="15.0sp" />
+
+                            <TextView
+                                android:id="@+id/packageapp_restore_original_tip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/restore_original_tip"
+                                android:textColor="#ff888888"
+                                android:textSize="13.0sp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/common_dialog_bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_bottom_layout_height_40"
+            android:layout_below="@id/common_dialog_content_layout"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/common_dialog_left_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/app_choose_l_btn"
+                android:gravity="center"
+                android:paddingTop="3dip"
+                android:textColor="@color/common_dialog_text_color_selector"
+                android:text="@string/classify_rollback_ok"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/common_dialog_right_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/app_choose_r_btn"
+                android:gravity="center"
+                android:paddingTop="3dip"
+                android:textColor="@color/common_dialog_text_color_selector"
+                android:text="@string/classify_rollback_cancel"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

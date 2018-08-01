@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#eeeeee">
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:background="@android:color/white"
+                  android:paddingLeft="10dp"
+                  android:paddingRight="10dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_marginTop="5dp"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:orientation="horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="问题一:"
+                    android:textSize="18sp"
+                    android:textColor="#555555"
+                    android:id="@+id/label_one"/>
+
+
+            <com.nd.hilauncherdev.drawer.apphide.MiBaoSpinner
+                    android:id="@+id/questions_one"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/mibao_input"
+                    android:layout_height="40dp"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:layout_marginTop="5dp"
+                      android:paddingLeft="18dp"
+                      android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="答案:"
+                    android:textSize="18sp"
+                    android:textColor="#959595"
+                    android:id="@+id/label_two"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:lines="1"
+                    android:paddingLeft="5dp"
+                    android:textSize="16sp"
+                    android:background="@drawable/mibao_input"
+                    android:inputType="text"
+                    android:maxLength="80"
+                    android:hint="@string/mibao_tip"
+                    android:id="@+id/answer_one"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:background="@android:color/white"
+                  android:paddingLeft="10dp"
+                  android:paddingRight="10dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:layout_marginTop="5dp"
+                      android:gravity="center"
+                      android:orientation="horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="问题二:"
+                    android:textSize="18sp"
+                    android:textColor="#555555"
+                    android:id="@+id/label_three"/>
+
+
+            <com.nd.hilauncherdev.drawer.apphide.MiBaoSpinner
+                    android:id="@+id/questions_two"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/mibao_input"
+                    />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:layout_marginTop="5dp"
+                      android:paddingLeft="18dp"
+                      android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="答案:"
+                    android:textSize="18sp"
+                    android:textColor="#959595"
+                    android:id="@+id/label_four"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:paddingLeft="5dp"
+                    android:id="@+id/answer_two"
+                    android:singleLine="true"
+                    android:hint="@string/mibao_tip"
+                    android:textSize="16sp"
+                    android:maxLength="80"
+                    android:background="@drawable/mibao_input"
+                    android:inputType="text"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:background="@android:color/white"
+                  android:paddingLeft="10dp"
+                  android:paddingRight="10dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:layout_marginTop="5dp"
+                      android:gravity="center"
+                      android:orientation="horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="问题三:"
+                    android:textSize="18sp"
+                    android:textColor="#555555"
+                    android:id="@+id/label_five"/>
+
+
+            <com.nd.hilauncherdev.drawer.apphide.MiBaoSpinner
+                    android:id="@+id/questions_three"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/mibao_input"
+                    android:layout_height="40dp"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:layout_marginTop="5dp"
+                      android:paddingLeft="18dp"
+                      android:orientation="horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="答案:"
+                    android:textSize="18sp"
+                    android:textColor="#959595"
+                    android:id="@+id/label_six"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:paddingLeft="5dp"
+                    android:id="@+id/answer_three"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:background="@drawable/mibao_input"
+                    android:hint="@string/mibao_tip"
+                    android:maxLength="80"
+                    android:inputType="text"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/tv_mibao_tip"
+              android:textColor="#9f9f9f"
+              android:textSize="12sp"
+              android:layout_marginLeft="23dp"
+              android:layout_marginRight="23dp"
+              android:lineSpacingExtra="6dp"
+              android:text="@string/mibao_notice"/>
+</LinearLayout>

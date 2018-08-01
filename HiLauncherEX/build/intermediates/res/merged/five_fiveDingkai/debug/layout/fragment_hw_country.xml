@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_hw_bg">
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_last_step"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="44dp"
+            android:background="@drawable/btn_hw_small_step"
+            android:textColor="@color/guide_hw_next_text"
+            android:text="上一步"/>
+
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="17dp"
+            android:layout_height="44dp"
+            android:background="@drawable/btn_hw_small_step"
+            android:textColor="@color/guide_hw_next_text"
+            android:text="下一步"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_above="@id/ll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="72dp"
+        android:paddingLeft="38dp"
+        android:paddingRight="38dp"
+        android:layout_marginBottom="70dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/guide_hw_title"
+            android:textSize="29dp"
+            android:text="选择国家/地区"/>
+
+        <com.wx.wheelview.widget.WheelView
+            android:id="@+id/picker_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

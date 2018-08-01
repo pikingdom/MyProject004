@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_view">
+
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+            android:id="@+id/headerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           >
+   </com.nd.hilauncherdev.framework.view.commonview.HeaderView>
+
+    <LinearLayout
+        android:id="@+id/ring_main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/headerView"
+        android:orientation="vertical"
+        android:background="@android:color/white" >
+
+        <ListView
+            android:id="@+id/wallpaperList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/myphone_common_bg_color"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/myphone_common_split"
+            android:dividerHeight="1dip"
+            android:listSelector="@drawable/myphone_click_item_blue" />
+    </LinearLayout>
+
+</RelativeLayout>

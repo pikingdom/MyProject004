@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.widget.systemtoggler.view.SystemSwitchMainView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/switch_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/folder_full_sep" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_layout"
+        android:orientation="vertical" >
+
+        <!-- 桌面显示快捷条 -->
+
+        <com.nd.hilauncherdev.widget.systemtoggler.view.SystemSwitchSlidingView
+            android:id="@+id/switch_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_switch_detail_sliding_view_left_margin"
+            android:layout_marginRight="@dimen/activity_switch_detail_sliding_view_left_margin" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            android:layout_marginTop="22dp" >
+
+            <ImageView
+                android:id="@+id/iv_brightness_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/activity_switch_detail_brightness_min" />
+
+            <ImageView
+                android:id="@+id/iv_brightness_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/activity_switch_detail_brightness_max" />
+
+            <SeekBar
+                android:id="@+id/brightness_seekbar"
+                style="@style/SwitchSeekBar"
+                android:layout_toLeftOf="@id/iv_brightness_max"
+                android:layout_toRightOf="@id/iv_brightness_min" />
+        </RelativeLayout>
+
+        <!-- 分割线 -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@drawable/folder_full_sep" />
+
+        <!-- 所有快捷开关 + SeekBar -->
+
+        <com.nd.hilauncherdev.widget.systemtoggler.view.SystemSwitchScrollView
+            android:id="@+id/switcher_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/switcher_space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/switch_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/switcher_setting_hint"
+                    android:textColor="@android:color/white" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <com.nd.hilauncherdev.framework.view.commonsliding.CommonLightbar
+                        android:id="@+id/light_bar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <com.nd.hilauncherdev.widget.systemtoggler.view.SystemSwitchSlidingView
+                    android:id="@+id/switchs_sliding_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="13dp"
+                    android:layout_marginLeft="@dimen/activity_switch_detail_sliding_view_left_margin"
+                    android:layout_marginRight="@dimen/activity_switch_detail_sliding_view_left_margin"
+                    android:layout_marginTop="13dp" />
+
+                <include layout="@layout/activity_switch_detail_seekbar_layout" />
+            </LinearLayout>
+        </com.nd.hilauncherdev.widget.systemtoggler.view.SystemSwitchScrollView>
+    </LinearLayout>
+
+    <com.nd.hilauncherdev.widget.systemtoggler.view.ExchangeAnimationView
+        android:id="@+id/exchange_ani_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</com.nd.hilauncherdev.widget.systemtoggler.view.SystemSwitchMainView>

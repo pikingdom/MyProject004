@@ -1,0 +1,292 @@
+[
+    {
+        "outputFile": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 49,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 66,
+                    "endOffset": 167
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 66,
+                        "endOffset": 117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 172,
+                    "endColumn": 64,
+                    "endOffset": 232
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 122,
+                        "endColumn": 64,
+                        "endOffset": 182
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 237,
+                    "endColumn": 67,
+                    "endOffset": 300
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\CommonLibrary\\unspecified\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 187,
+                        "endColumn": 67,
+                        "endOffset": 250
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 305,
+                    "endColumn": 51,
+                    "endOffset": 352
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\res\\values-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 349,
+                        "endColumn": 51,
+                        "endOffset": 396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 357,
+                    "endColumn": 56,
+                    "endOffset": 409
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\res\\values-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 1,
+                        "startOffset": 291,
+                        "endColumn": 53,
+                        "endOffset": 343
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 414,
+                    "endColumn": 63,
+                    "endOffset": 473
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 63,
+                        "endOffset": 164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 478,
+                    "endColumn": 63,
+                    "endOffset": 537
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\res\\values-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 137,
+                        "endColumn": 63,
+                        "endOffset": 196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 542,
+                    "endColumn": 60,
+                    "endOffset": 598
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 233,
+                        "endColumn": 60,
+                        "endOffset": 289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 603,
+                    "endColumn": 62,
+                    "endOffset": 661
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\res\\values-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 227,
+                        "endColumn": 59,
+                        "endOffset": 285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 666,
+                    "endColumn": 40,
+                    "endOffset": 702
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\res\\values-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 95,
+                        "endColumn": 40,
+                        "endOffset": 131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 707,
+                    "endColumn": 78,
+                    "endOffset": 781
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\res\\values-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 492,
+                        "endColumn": 78,
+                        "endOffset": 566
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 786,
+                    "endColumn": 82,
+                    "endOffset": 864
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\res\\values-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 408,
+                        "endColumn": 82,
+                        "endOffset": 486
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 869,
+                    "endColumn": 52,
+                    "endOffset": 917
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 335,
+                        "endColumn": 52,
+                        "endOffset": 383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 922,
+                    "endColumn": 53,
+                    "endOffset": 971
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\ThemeShopV6\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 388,
+                        "endColumn": 53,
+                        "endOffset": 437
+                    }
+                }
+            }
+        ]
+    }
+]

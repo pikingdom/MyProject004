@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_bar_height">75dip</dimen>
+    <dimen name="launcher_linelight_light_height">20dip</dimen>
+    <dimen name="mybattery_bs_optimize_circle_margin">15dip</dimen>
+    <dimen name="mybattery_bs_optimize_margin">15dip</dimen>
+    <dimen name="mybattery_bs_optimize_message_font_size">12sp</dimen>
+    <dimen name="mybattery_bs_optimize_score_font_size">34sp</dimen>
+    <dimen name="read_me_activity_bg_title_margin_top">60dip</dimen>
+    <dimen name="read_me_bn_margin_bottom">20dip</dimen>
+    <dimen name="readme_page1_top">0dip</dimen>
+    <dimen name="readme_page_usernum">40dip</dimen>
+    <dimen name="readme_v7_gallery_margin">2dip</dimen>
+    <dimen name="readme_v7_page2_title_margin_top">40dip</dimen>
+    <dimen name="search_result_list_margin">0dip</dimen>
+    <dimen name="top_menu_boutique_resource_bottom">5dip</dimen>
+    <dimen name="top_menu_boutique_resource_middom">5dip</dimen>
+    <dimen name="top_menu_boutique_resource_top">5dip</dimen>
+    <dimen name="workspaceEndPadding">95dip</dimen>
+</resources>

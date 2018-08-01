@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 作者专区布局 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+		<ImageView
+		    android:id="@+id/theme_shop_v6_theme_author_area_image_bg"
+		    android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+		    android:background="@drawable/theme_shop_v6_theme_author_area_view_bg"
+		    android:scaleType="fitXY"
+		    />
+		<ImageView
+		    android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+		    android:background="@drawable/theme_shop_v6_theme_author_area_view_bg1"
+		    android:scaleType="fitXY"
+		    android:layout_alignParentBottom="true"
+		    />
+	</RelativeLayout>
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+	    <!-- 头像 -->
+        <ImageView
+            android:id="@+id/theme_shop_v6_theme_author_area_image"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/launcher_menu_presonal_user_icon_bg"
+            android:src="@drawable/launcher_menu_presonal_user_icon"/>
+        <LinearLayout 
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_toRightOf="@+id/theme_shop_v6_theme_author_area_image"
+    		android:layout_alignParentBottom="true"
+    		android:layout_marginBottom="20dp"
+    		android:layout_marginRight="15dp"
+    		android:gravity="left"
+            android:orientation="vertical">
+            <TextView
+                 android:id="@+id/theme_shop_v6_theme_author_area_title"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="TIMO"
+                 android:textColor="#ffffffff"
+                 android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/theme_shop_v6_theme_author_area_signature"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="6dp"
+                 android:text="Personality is an attitude"
+                 android:singleLine="true"
+                 android:ellipsize="end"
+                 android:textColor="#7fffffff"
+                 android:textSize="14sp"/> 
+        </LinearLayout>
+	</RelativeLayout>
+</FrameLayout>

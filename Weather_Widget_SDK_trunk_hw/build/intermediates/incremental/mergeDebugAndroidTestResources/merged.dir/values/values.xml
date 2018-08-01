@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="calendar_class_name">
+        <item>com.android.calendar.LaunchActivity</item>
+        <item>com.lenovo.app.Calendar.MonthActivityNew</item>
+        <item>com.android.calendar.LaunchActivity</item>
+        <item>com.htc.calendar.MonthActivity</item>
+        <item>com.htc.calendar.CalendarActivityMain</item>
+        <item>com.lenovo.app.Calendar.MonthActivity</item>
+        <item>com.bbk.calendar.MainActivity</item>
+        <item>com.yulong.android.calendar.ui.base.LaunchActivity</item>
+        <item>com.android.calendar.AllInOneActivity</item>
+        <item>com.lenovo.android.calendar.SplashActivity</item>
+        <item>cn.nubia.calendar.AllInOneActivity</item>
+        <item>com.zui.calendar.MainActivity</item>
+    </string-array>
+    <string-array name="calendar_package_name">
+        <item>com.android.calendar</item>
+        <item>com.lenovo.app.Calendar</item>
+        <item>com.google.android.calendar</item>
+        <item>com.htc.calendar</item>
+        <item>com.htc.calendar</item>
+        <item>com.lenovo.app.Calendar</item>
+        <item>com.bbk.calendar</item>
+        <item>com.yulong.android.calendar</item>
+        <item>com.asus.calendar</item>
+        <item>com.lenovo.android.calendar</item>
+        <item>cn.nubia.calendar.preset</item>
+        <item>com.zui.calendar</item>
+    </string-array>
+    <string-array name="clock_class_name">
+        <item>com.android.deskclock.ClockActivity</item>
+        <item>com.lenovo.calendar.SplashActivity</item>
+        <item>com.oppo.alarmclock.AlarmClock</item>
+        <item>com.lenovo.clock.Clock</item>
+        <item>com.android.deskclock.AlarmClock</item>
+        <item>com.android.alarmclock.AlarmClock</item>
+        <item>com.android.deskclock.AlarmClock</item>
+        <item>com.htc.android.worldclock.WorldClockTabControl</item>
+        <item>com.motorola.blur.alarmclock.AlarmClock</item>
+        <item>com.sec.android.app.clockpackage.ClockPackage</item>
+        <item>zte.com.cn.alarmclock.AlarmClock</item>
+        <item>com.lenovomobile.clock.Clock</item>
+        <item>com.mstarsemi.clock.stopwatch.TimeClockActivity</item>
+        <item>com.sonyericsson.organizer.Organizer</item>
+        <item>com.android.BBKClock.Timer</item>
+        <item>yulong.xtime.ui.main.XTimeActivity</item>
+        <item>com.android.deskclock.AlarmsMainActivity</item>
+        <item>com.asus.deskclock.DeskClock</item>
+        <item>cn.nubia.deskclock.DeskClock</item>
+        <item>com.zui.deskclock.DeskClock</item>
+    </string-array>
+    <string-array name="clock_package_name">
+        <item>com.android.deskclock</item>
+        <item>com.lenovo.calendar</item>
+        <item>com.oppo.alarmclock</item>
+        <item>com.lenovo.deskclock</item>
+        <item>com.android.deskclock</item>
+        <item>com.android.alarmclock</item>
+        <item>com.google.android.deskclock</item>
+        <item>com.htc.android.worldclock</item>
+        <item>com.motorola.blur.alarmclock</item>
+        <item>com.sec.android.app.clockpackage</item>
+        <item>zte.com.cn.alarmclock</item>
+        <item>com.lenovomobile.deskclock</item>
+        <item>com.mstarsemi.clock.alarm.deskclock</item>
+        <item>com.sonyericsson.organizer</item>
+        <item>com.android.BBKClock</item>
+        <item>com.yulong.android.xtime</item>
+        <item>com.android.deskclock</item>
+        <item>com.asus.deskclock</item>
+        <item>cn.nubia.deskclock.preset</item>
+        <item>com.zui.deskclock</item>
+    </string-array>
+    <string-array name="hot_city_codes">
+        <item>101010100</item>
+        <item>101020100</item>
+        <item>101030100</item>
+        <item>101040100</item>
+        <item>101050101</item>
+        <item>101060101</item>
+        <item>101070101</item>
+        <item>101080101</item>
+        <item>101090101</item>
+        <item>101100101</item>
+        <item>101110101</item>
+        <item>101120101</item>
+        <item>101130101</item>
+        <item>101140101</item>
+        <item>101150101</item>
+        <item>101160101</item>
+        <item>101170101</item>
+        <item>101180101</item>
+        <item>101190101</item>
+        <item>101200101</item>
+        <item>101210101</item>
+        <item>101220101</item>
+        <item>101230101</item>
+        <item>101240101</item>
+        <item>101250101</item>
+        <item>101260101</item>
+        <item>101270101</item>
+        <item>101280101</item>
+        <item>101290101</item>
+        <item>101300101</item>
+        <item>101310101</item>
+        <item>101320101</item>
+        <item>101330101</item>
+        <item>101340101</item>
+    </string-array>
+    <string-array name="hot_city_names">
+        <item>北京</item>
+        <item>上海</item>
+        <item>天津</item>
+        <item>重庆</item>
+        <item>哈尔滨</item>
+        <item>长春</item>
+        <item>沈阳</item>
+        <item>呼和浩特</item>
+        <item>石家庄</item>
+        <item>太原</item>
+        <item>西安</item>
+        <item>济南</item>
+        <item>乌鲁木齐</item>
+        <item>拉萨</item>
+        <item>西宁</item>
+        <item>兰州</item>
+        <item>银川</item>
+        <item>郑州</item>
+        <item>南京</item>
+        <item>武汉</item>
+        <item>杭州</item>
+        <item>合肥</item>
+        <item>福州</item>
+        <item>南昌</item>
+        <item>长沙</item>
+        <item>贵阳</item>
+        <item>成都</item>
+        <item>广州</item>
+        <item>昆明</item>
+        <item>南宁</item>
+        <item>海口</item>
+        <item>香港</item>
+        <item>澳门</item>
+        <item>台北</item>
+    </string-array>
+    <attr name="direction">
+        <!-- Vertical widget. -->
+        <enum name="vertical" value="0"/>
+        <!-- Horizontal widget. -->
+        <enum name="horizontal" value="1"/>
+    </attr>
+    <color name="appwidget_error_color">#FCCC</color>
+    <color name="black">#000000</color>
+    <color name="blue_text">#ffCCCCCC</color>
+    <color name="bright_yellow">#ffef9400</color>
+    <color name="button_text">#00bcd5</color>
+    <color name="button_text_b">#ff5c5c5c</color>
+    <color name="button_text_w">#ffffffff</color>
+    <color name="city_hot_color">#00bcd5</color>
+    <color name="city_list_city">#ff000000</color>
+    <color name="city_list_note">#ff6e6e6e</color>
+    <color name="city_mgr_color">#656565</color>
+    <color name="citytmpe">#f09609</color>
+    <color name="citytmpe1">#fff4f4f1</color>
+    <color name="common_btn_confirm_text_color">#ffffff</color>
+    <color name="common_btn_text_color">#FF5F5F5F</color>
+    <color name="common_dropdown_item_text_color">#4c00bcd5</color>
+    <color name="common_header_title_color">#676b6e</color>
+    <color name="common_little_text_color">#676b6e</color>
+    <color name="common_remind_gray_bg">#ffebebeb</color>
+    <color name="common_remind_orange">#fff78a41</color>
+    <color name="common_text_color">#FF333333</color>
+    <color name="common_title_little_text_color">#00bcd5</color>
+    <color name="dark_gray">#ff494949</color>
+    <color name="date_info_old">#316387</color>
+    <color name="day_temp_color">#FF8C00</color>
+    <color name="default_launcher_icon_text_color">#ffffffff</color>
+    <color name="default_note_explain_detail">#eeeeee</color>
+    <color name="default_note_text">#ff838383</color>
+    <color name="default_note_text_old">#437293</color>
+    <color name="default_text">#ff4b4b4b</color>
+    <color name="default_text_main">#454545</color>
+    <color name="delete_color_filter">#A5FF0000</color>
+    <color name="dialog_content_color">#676b6e</color>
+    <color name="dialog_title_color">#1c1c1c</color>
+    <color name="gray">#ffd4d4d4</color>
+    <color name="icon_color_filter_for_drawer_folder">#a5333333</color>
+    <color name="icon_color_filter_in_move_bar">#a500e3ff</color>
+    <color name="icon_text_color_in_folder_android6">#ff666666</color>
+    <color name="index_ext_text">#ff7eb811</color>
+    <color name="index_ext_title">#ffaaaaaa</color>
+    <color name="line_time_before">#4cffffff</color>
+    <color name="listItemColor">#ff323232</color>
+    <color name="myphone_bottom_blue_bg_text_color">#cdf2ff</color>
+    <color name="myphone_common_bg_color">#f9fafb</color>
+    <color name="myphone_common_dialog_text_color">#1e82dc</color>
+    <color name="myphone_common_little_text_color">#8f8f8f</color>
+    <color name="myphone_common_text_color">#303030</color>
+    <color name="myphone_common_title_color">#7a7a7a</color>
+    <color name="myphone_common_title_color1">@color/title_main_color_light</color>
+    <color name="myphone_item_text_color">#000000</color>
+    <color name="navy">#333333</color>
+    <color name="new_style_bk_color">#B2000000</color>
+    <color name="night_temp_color">#0096E0</color>
+    <color name="notification_background_color">#555555</color>
+    <color name="notification_text_color">#d3d3d3</color>
+    <color name="old_style_bk_color">#B2FFFFFF</color>
+    <color name="paint_before_bg">#0dffffff</color>
+    <color name="paint_later_bg">#19ffffff</color>
+    <color name="paint_weather_color">#ffffff</color>
+    <color name="searchbox_title_text_color">#32B5E5</color>
+    <color name="setbackColor">#B2000000</color>
+    <color name="setting_sync_text_color">#ff4B4B4B</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="solid_red">#f00</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="split_color">#33707070</color>
+    <color name="t_alert_info">#00bcd5</color>
+    <color name="t_alert_title">#ff888888</color>
+    <color name="t_btn_bottom">#fff0f0f0</color>
+    <color name="t_btn_bottom_2">#707070</color>
+    <color name="t_edit_main">#ff000000</color>
+    <color name="t_listmsg_highlight">#ff7eb811</color>
+    <color name="t_listmsg_main">#ffeeeeee</color>
+    <color name="t_subpage_title">#ffffffff</color>
+    <color name="t_switch">#ffaaaaaa</color>
+    <color name="t_v2_almanac_remark">#707070</color>
+    <color name="t_wea_upd_time">#A5A6A8</color>
+    <color name="t_wearef_ref_bad">#d54646</color>
+    <color name="t_wearef_ref_good">#7eb711</color>
+    <color name="temp_color">#666666</color>
+    <color name="temp_line_color">#ebebeb</color>
+    <color name="temp_timeout_color">#ababab</color>
+    <color name="tempinfosize">#CCCCCC</color>
+    <color name="tempsize">#3c3c3c</color>
+    <color name="timeresh">#ff71edf8</color>
+    <color name="title_desc_color">#999999</color>
+    <color name="title_main_color">#676b6e</color>
+    <color name="title_main_color_light">#00bcd5</color>
+    <color name="title_red_color">#de596a</color>
+    <color name="title_red_color_dark">#c92331</color>
+    <color name="title_sub_color">#1c1c1c</color>
+    <color name="title_yellow_color">#ffc52d</color>
+    <color name="tool_text">#ff4b4b4b</color>
+    <color name="tool_text_r">#ffcc3a3a</color>
+    <color name="tool_text_w">#00bcd5</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="v8_settings_color">#eef1f6</color>
+    <color name="v8_settings_launcher_default_color">#34414a</color>
+    <color name="wearef_name">#cccccc</color>
+    <color name="weather_curve_line">#7fffffff</color>
+    <color name="weather_text_color">#ffffff</color>
+    <color name="week_name">#3c3c3c</color>
+    <color name="weekcolor">#CCCCCC</color>
+    <color name="white">#ffffff</color>
+    <color name="window_background">#FF191919</color>
+    <declare-styleable name="DeleteZone"><attr name="direction"/></declare-styleable>
+    <declare-styleable name="LauncherIconView"><attr format="color" name="custom_text_color"/><attr format="color" name="custom_shadow_color"/></declare-styleable>
+    <dimen name="alldayweatherviewheight">175dip</dimen>
+    <dimen name="android_folder_icon_margin">3dip</dimen>
+    <dimen name="app_background_size">57dip</dimen>
+    <dimen name="app_icon_bigsize">52dip</dimen>
+    <dimen name="app_icon_size">48dip</dimen>
+    <dimen name="bottommenu_height">180dip</dimen>
+    <dimen name="btn_padding_left">5dip</dimen>
+    <dimen name="btn_padding_right">4dip</dimen>
+    <dimen name="celllayout_preview_margin">3dip</dimen>
+    <dimen name="city_mgr_top">10dip</dimen>
+    <dimen name="city_name_size">25dip</dimen>
+    <dimen name="city_nav_size">18dip</dimen>
+    <dimen name="citylistsize">18dip</dimen>
+    <dimen name="citynowonthersize">18dip</dimen>
+    <dimen name="citynowweath">14dip</dimen>
+    <dimen name="curve_line_width">1dp</dimen>
+    <dimen name="curve_splite_line_width">1px</dimen>
+    <dimen name="curve_temp_size">15sp</dimen>
+    <dimen name="day_weather_view_icon_width">30dip</dimen>
+    <dimen name="default_launcher_icon_text_size">12sp</dimen>
+    <dimen name="delete_zone_padding">10dip</dimen>
+    <dimen name="dialog_bottom_layout_height">45dip</dimen>
+    <dimen name="dialog_bottom_layout_height_40">36dip</dimen>
+    <dimen name="dialog_top_layout_height">45dip</dimen>
+    <dimen name="dialog_top_layout_height_40">40dip</dimen>
+    <dimen name="download_activity_nodata_btn_margin">30dp</dimen>
+    <dimen name="download_activity_nodata_btn_text">18sp</dimen>
+    <dimen name="download_activity_nodata_btn_width">152dip</dimen>
+    <dimen name="folder_icon_margin">5dip</dimen>
+    <dimen name="frame_viewpager_tab_selected_textsize">17sp</dimen>
+    <dimen name="frame_viewpager_tab_textsize">15sp</dimen>
+    <dimen name="gird_view_vertical_spacing">8dip</dimen>
+    <dimen name="launcher_menu_sys_settings_font_size">14sp</dimen>
+    <dimen name="launcher_menu_sys_settings_icon_bottom_padding">20dip</dimen>
+    <dimen name="launcher_menu_sys_settings_icon_size">40dip</dimen>
+    <dimen name="launcher_menu_sys_settings_icon_top_padding">15dip</dimen>
+    <dimen name="main_tab_height">43dp</dimen>
+    <dimen name="maindock_max_cell_size">57dip</dimen>
+    <dimen name="maindock_min_cell_size">57dip</dimen>
+    <dimen name="min_padding">1dip</dimen>
+    <dimen name="myfile_photo_category_height">105dip</dimen>
+    <dimen name="myfile_photo_category_width">135dip</dimen>
+    <dimen name="myfile_photo_height">100dip</dimen>
+    <dimen name="myfile_photo_width">130dip</dimen>
+    <dimen name="myfile_top_view_margin">10dip</dimen>
+    <dimen name="myphone_bottom_content">60dip</dimen>
+    <dimen name="myphone_common_tab_height">40dip</dimen>
+    <dimen name="myphone_info_view_margin_top">60dip</dimen>
+    <dimen name="myphone_item_icon">50dip</dimen>
+    <dimen name="myphone_item_little_text_size">12sp</dimen>
+    <dimen name="myphone_item_padding">5dip</dimen>
+    <dimen name="myphone_item_text_size">15sp</dimen>
+    <dimen name="myphone_margin_left">10dip</dimen>
+    <dimen name="myphone_title_bottom_text_size">14sp</dimen>
+    <dimen name="myphone_title_bottom_text_size1">15sp</dimen>
+    <dimen name="myphone_title_line">150dip</dimen>
+    <dimen name="myphone_title_line_margin_top">3dip</dimen>
+    <dimen name="myphone_title_margin_top">5dip</dimen>
+    <dimen name="myphone_title_text_size">20sp</dimen>
+    <dimen name="myphone_top_content">52dip</dimen>
+    <dimen name="myphone_top_content1">52dip</dimen>
+    <dimen name="myphone_tv_btn_text_size">14sp</dimen>
+    <dimen name="myphone_wp_crop_select_text_size">13sp</dimen>
+    <dimen name="navigation_favorite_grid_item_bottompadding">4dp</dimen>
+    <dimen name="navigation_favorite_grid_item_height">70dip</dimen>
+    <dimen name="navigation_favorite_grid_item_toppadding">3dip</dimen>
+    <dimen name="normal_app_icon_size">48dip</dimen>
+    <dimen name="popshortcut_menu_height">93dip</dimen>
+    <dimen name="popshortcut_menu_width">56dip</dimen>
+    <dimen name="readme_viewpager_tab_textsize">13sp</dimen>
+    <dimen name="setting_category_title_size">15sp</dimen>
+    <dimen name="setting_summary_size">11sp</dimen>
+    <dimen name="setting_title_size">15sp</dimen>
+    <dimen name="shortcutmenu_offset_screen">21dip</dimen>
+    <dimen name="tempinfosize">12sp</dimen>
+    <dimen name="tempsize">12sp</dimen>
+    <dimen name="text_drawpadding">3dip</dimen>
+    <dimen name="text_size">12sp</dimen>
+    <dimen name="title_texture_width">120px</dimen>
+    <dimen name="toolbarsize">50dip</dimen>
+    <dimen name="toolsize">20sp</dimen>
+    <dimen name="v7_card_header_height">36dp</dimen>
+    <dimen name="v7_card_header_title_size">17dp</dimen>
+    <dimen name="v7_card_item_gap">7.5dp</dimen>
+    <dimen name="v7_card_item_gap2">12.5dp</dimen>
+    <dimen name="v7_card_margin_bottom">16dp</dimen>
+    <dimen name="v7_card_margin_left">15dp</dimen>
+    <dimen name="v7_card_margin_right">15dp</dimen>
+    <dimen name="v7_common_header_button_height">32dp</dimen>
+    <dimen name="v7_common_header_button_size">14dp</dimen>
+    <dimen name="v7_common_header_goback_size">24dp</dimen>
+    <dimen name="v7_common_header_height">48dp</dimen>
+    <dimen name="v7_common_header_title_size">17dp</dimen>
+    <dimen name="v7_common_tab_height">36dp</dimen>
+    <dimen name="v7_common_tab_title_size">12dp</dimen>
+    <dimen name="v7_gap1_15dp">15dp</dimen>
+    <dimen name="v7_gap2_16dp">16dp</dimen>
+    <dimen name="v7_gap3_8dp">8dp</dimen>
+    <dimen name="v7_gap4_13dp">13dp</dimen>
+    <dimen name="v8_gap1_10dp">10dp</dimen>
+    <dimen name="v8_gap1_9dp">9dp</dimen>
+    <dimen name="v8_gap1_neg_10dp">-10dp</dimen>
+    <dimen name="v8_gap3_5dp">5dp</dimen>
+    <dimen name="v8_gap3_6dp">6dp</dimen>
+    <dimen name="v8_gap4_12dp">12dp</dimen>
+    <dimen name="v8_settings_icon_width">24dp</dimen>
+    <dimen name="v8_settings_lift">24dp</dimen>
+    <dimen name="v8_settings_pre_more_hight">16dp</dimen>
+    <dimen name="v8_settings_right">16dp</dimen>
+    <dimen name="v8_settings_summary_top">2dp</dimen>
+    <dimen name="v8_settings_text_lift">8dp</dimen>
+    <dimen name="viewpager_tab_more_item">25dip</dimen>
+    <dimen name="weather_curve_now">12dp</dimen>
+    <dimen name="weather_curve_time">11dp</dimen>
+    <dimen name="weather_curve_weather">11dp</dimen>
+    <dimen name="weather_curve_width">1dp</dimen>
+    <dimen name="weather_icon_width">150dp</dimen>
+    <dimen name="weather_widget_city_mgr_width">306dip</dimen>
+    <dimen name="weathertempsize">66sp</dimen>
+    <dimen name="weathertextsize">15sp</dimen>
+    <dimen name="weeksize">16sp</dimen>
+    <dimen name="widget_city_list_size">10sp</dimen>
+    <dimen name="workspace_spring_lightbar_height">50dip</dimen>
+    <dimen name="workspace_spring_lightbar_toppadding">35dip</dimen>
+    <dimen name="yujibtnsize">18dip</dimen>
+    <dimen name="yujichongsize">13dip</dimen>
+    <drawable name="black">#ff000000</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="drawer_item_bg_color">#e1f4f6</drawable>
+    <drawable name="green">#7700ff00</drawable>
+    <drawable name="myphone_bg_color">#f9fafb</drawable>
+    <drawable name="myphone_bg_color_v8">#eef1f6</drawable>
+    <drawable name="red">#7f00</drawable>
+    <drawable name="screen_background_black">#ff000000</drawable>
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+    <drawable name="v8_settings_list_select_bg">#f8fafa</drawable>
+    <drawable name="white">#FFFFFFFF</drawable>
+    <drawable name="widget_city_item_bg">#e1f5f6</drawable>
+    <drawable name="yellow">#77ffff00</drawable>
+    <item name="common_view_holder" type="id"/>
+    <item name="downloadmanager_adapter_tag_1" type="id"/>
+    <item name="downloadmanager_adapter_tag_2" type="id"/>
+    <item name="downloadmanager_adapter_tag_3" type="id"/>
+    <item name="drager_controller_on_drag_exit_in_action_move" type="id"/>
+    <item name="frame_viewpager_tab_title_item_text" type="id"/>
+    <item name="framework_viewfactory_no_data_img" type="id"/>
+    <item name="framework_viewfactory_no_data_textview" type="id"/>
+    <item name="framework_viewfactory_no_data_title" type="id"/>
+    <item name="hint_error" type="id"/>
+    <item name="system_switcher_holder" type="id"/>
+    <item name="weather_common_view_holder" type="id"/>
+    <integer name="dockbar_cell_counts">5</integer>
+    <integer name="dockbar_default_main_screen">0</integer>
+    <integer name="dockbar_max_screens">1</integer>
+    <integer name="folder_icon_contain_items">-1</integer>
+    <integer name="has_drawer">0</integer>
+    <integer name="has_zero_view">1</integer>
+    <integer name="icon_view_support_shadowlayer">1</integer>
+    <integer name="is_91Launcher">0</integer>
+    <integer name="launcher_appid">20000036</integer>
+    <integer name="show_click_state_on_sliding_screen">1</integer>
+    <integer name="workspace_default_screen">0</integer>
+    <integer name="workspace_default_screen_count">3</integer>
+    <integer name="workspace_max_screens">9</integer>
+    <string name="ACTION_ASK_THEME">com.nd.android.pandahome.ASK_THEME</string>
+    <string name="ACTION_CHANGE_FOLDER_STYLE">nd.panda.action.internal.change.folder.style</string>
+    <string name="ACTION_DAILY_HOT_NEWS_CHANGE">com.nd.pandahome.dailyhotnews.change</string>
+    <string name="ACTION_INSTALL_THEME_SERIES_FAIL">com.nd.android.pandahome.INSTALL_THEME_SERIE_FAIL</string>
+    <string name="ACTION_INSTALL_THEME_SERIES_SUCCESS">com.nd.android.pandahome.INSTALL_THEME_SERIE_SUCCESS</string>
+    <string name="ACTION_INTERNAL_INSTALL_SHORTCUT">com.nd.pandahome.install_shortcut</string>
+    <string name="ACTION_REFRESH_DYNAMIC_ICON">nd.panda.action.internal.refresh.dynamic.icon</string>
+    <string name="ACTION_REFRESH_SEARCH_WIDGET_UI">com.nd.pandahome.internal.refresh.search.widget</string>
+    <string name="ACTION_STOP_FLASH_SWAP_WALLPAPER">nd.panda.action.internal.stopflash.swap.wallpaper</string>
+    <string name="APPLY_OLD_THEME_ACTION">com.nd.pandahome.internal.apply.oldtheme</string>
+    <string name="APP_HINT_FILTER">hilauncherdev.application.hint</string>
+    <string name="APP_NAME" translatable="false">"配置生成器"</string>
+    <string name="APP_STORE_HINT_FILTER">com.wireless.assistant.mobile.market.business.getUpdateBean</string>
+    <string name="INTENT_CURRENT_THEME_INFO">com.nd.android.pandahome.THEME_INFO</string>
+    <string name="INTENT_PANDASPACE_INSTALL_THEME">com.nd.android.pandadesktop2.install_theme</string>
+    <string name="INTENT_THEME_LIST_REFRESH">nd.panda.theme.list.refresh</string>
+    <string name="LAUNCHER_UI_REFRESH_ACTION">nd.pandahome.internal.launcher.refreshUI</string>
+    <string name="MOVE_HOME_ACTION">com.nd.pandahome.internal.move.home</string>
+    <string name="REFRESH_ICON_ACTION">com.nd.pandahome.internal.refresh.icon</string>
+    <string name="SOFT_UPGRADE_ACTION">com.nd.pandahome.internal.soft.upgrade</string>
+    <string name="about">　　91黄历天气是由博远无线研发，除了方便人们查询天气外，还提供了中国传统黄历现代文宜忌功能，例如结合男女生肖的结婚日查询。</string>
+    <string msgid="3571057450431950427" name="activity_not_found">"您的手机上未安装应用程序。"</string>
+    <string name="ad_du_sdk_app_license">9e42375328f4e28b5c6afab486b3b05f</string>
+    <string name="advert_webview_title">精品资源推荐</string>
+    <string name="analytics_weather_click_distribute">62001213</string>
+    <string name="analytics_weather_download_huangli">63001214</string>
+    <string name="analytics_weather_enter_recommend_huangli">70181223</string>
+    <string name="analytics_weather_install_huangli">63101215</string>
+    <string name="app_chl">067QWSGmas3haz+57JZRcn/a83BnzPY5</string>
+    <string name="app_market_app_installed_run_tip">您已经安装了该软件,是否立刻打开?</string>
+    <string name="app_market_install_failed">安装失败</string>
+    <string name="app_market_installing">安装中...</string>
+    <string name="app_name">主题商城</string>
+    <string name="app_pid">6</string>
+    <string name="appinfo_cancel_btn_text">返回 </string>
+    <string msgid="8424725141379931883" name="application_name">@string/APP_NAME</string>
+    <string name="apprunning_first_force_notify_btn">我知道了</string>
+    <string name="apprunning_first_force_notify_static">常驻程序会自动启动,您可以在系统管理中选择强制停止</string>
+    <string name="apprunning_first_force_notify_title">提示</string>
+    <string name="back">返回</string>
+    <string name="calendar_down_hint">使用完整功能，请安装 “91黄历天气” 完整版</string>
+    <string name="cancel">取消</string>
+    <string name="city">城市</string>
+    <string name="cityaddedithit">搜索全球城市(中文/拼音)</string>
+    <string name="cityaddtitle">添加城市</string>
+    <string name="cityseletitle">选择城市</string>
+    <string name="cityset">城市管理</string>
+    <string name="citysetMgr">管理</string>
+    <string name="citysetadd">添加</string>
+    <string name="cleaner_tip">开启百度卫士，彻底清理隐藏进程</string>
+    <string name="close">关闭</string>
+    <string name="common_alert">警告</string>
+    <string name="common_button_add">新增</string>
+    <string name="common_button_addto">添加</string>
+    <string name="common_button_apply">应用</string>
+    <string name="common_button_apply_paper">设为壁纸</string>
+    <string name="common_button_back_to_home">主页</string>
+    <string name="common_button_cancel">取消</string>
+    <string name="common_button_clear">清除</string>
+    <string name="common_button_close">关闭</string>
+    <string name="common_button_closed">关闭</string>
+    <string name="common_button_commit">提交</string>
+    <string name="common_button_complate">完成</string>
+    <string name="common_button_confirm">确定</string>
+    <string name="common_button_continue">继续</string>
+    <string name="common_button_create_multi">双开</string>
+    <string name="common_button_default">默认</string>
+    <string name="common_button_delete">删除</string>
+    <string name="common_button_discard">丢弃</string>
+    <string name="common_button_download">下载</string>
+    <string name="common_button_download_more">下载更多</string>
+    <string name="common_button_download_skin">下载皮肤</string>
+    <string name="common_button_downloading">下载中</string>
+    <string name="common_button_edit">修改</string>
+    <string name="common_button_editable">编辑</string>
+    <string name="common_button_enabled">开启</string>
+    <string name="common_button_enter">进入</string>
+    <string name="common_button_i_know">我知道了</string>
+    <string name="common_button_ignore">忽略</string>
+    <string name="common_button_install">安装</string>
+    <string name="common_button_manager">管理</string>
+    <string name="common_button_modify">更改</string>
+    <string name="common_button_open">打开</string>
+    <string name="common_button_open_now">立即开启</string>
+    <string name="common_button_preview">预览</string>
+    <string name="common_button_recover">恢复</string>
+    <string name="common_button_redownload">重新下载</string>
+    <string name="common_button_refresh">刷新</string>
+    <string name="common_button_restart_now">立即重启</string>
+    <string name="common_button_return">返回</string>
+    <string name="common_button_save">保存</string>
+    <string name="common_button_search">搜索</string>
+    <string name="common_button_set">设置</string>
+    <string name="common_button_share">分享</string>
+    <string name="common_button_uninstall">卸载</string>
+    <string name="common_button_uninstall_hint">系统应用，不可卸载</string>
+    <string name="common_button_update">更新</string>
+    <string name="common_button_use">启用</string>
+    <string name="common_button_use_now">立即使用</string>
+    <string name="common_button_used">已启用</string>
+    <string name="common_button_view_detail">详情</string>
+    <string name="common_checkbox_not_alert">不再提醒</string>
+    <string name="common_download_ended">下载完成</string>
+    <string name="common_download_failed">下载失败</string>
+    <string name="common_download_now">立即下载</string>
+    <string name="common_download_success">下载成功</string>
+    <string name="common_downloading">正在下载..</string>
+    <string name="common_install_now">立即安装</string>
+    <string name="common_installed">已安装</string>
+    <string name="common_loading">加载中...</string>
+    <string name="common_refresh">刷　　新</string>
+    <string name="common_refresh_failed">更新失败</string>
+    <string name="common_tip">提示</string>
+    <string name="common_uninstalled">未安装</string>
+    <string name="copyright">（C）1999-2013\n博远无线  版权所有</string>
+    <string name="default_set_controller_select_pic">图标选择</string>
+    <string name="default_skin_path">"weather_skin2/"</string>
+    <string name="delete_city_hint">选择相应城市后点击</string>
+    <string name="delete_tip_title">确定删除？</string>
+    <string name="dockbar_allow">无法放入底部托盘</string>
+    <string name="dockbar_dock_browser">浏览器</string>
+    <string name="dockbar_dock_contacts">联系人</string>
+    <string name="dockbar_dock_dial">拨号</string>
+    <string name="dockbar_dock_sms">信息</string>
+    <string name="dockbar_null_intent">数据异常</string>
+    <string name="download_baidu_sjws">上网无负担，更快更安全。\n是否立即下载百度卫士?</string>
+    <string name="download_cleaner_tip">下载百度卫士，彻底清理隐藏进程</string>
+    <string name="download_delete_msg">确定要删除选中的"%1$s\个文件吗？</string>
+    <string name="download_delete_title">提示</string>
+    <string name="download_error_apk_btn_install">尝试安装</string>
+    <string name="download_error_apk_content">桌面发现您下载的软件出现异常，继续安装可能导致安装失败！</string>
+    <string name="download_error_apk_title">提示</string>
+    <string name="download_finished">已完成下载</string>
+    <string name="download_install_error">找不到安装包,请重新下载！</string>
+    <string name="download_manage">下载管理</string>
+    <string name="download_manage_clear">清除所有下载任务</string>
+    <string name="download_not_wifi_alert">当前未开启wifi，是否继续下载？</string>
+    <string name="download_notify_click_and_look">点击查看</string>
+    <string name="download_notify_error">出错%1$s个，</string>
+    <string name="download_notify_failed">下载失败</string>
+    <string name="download_notify_failed_sdcard_noexist">下载失败，SD卡不存在</string>
+    <string name="download_notify_finish">下载完成</string>
+    <string name="download_notify_finished">已完成%1$s个，</string>
+    <string name="download_notify_in_queue">进行中%1$s个，</string>
+    <string name="download_notify_installed">安装完成</string>
+    <string name="download_notify_start">开始下载</string>
+    <string name="download_notify_stop">停止下载</string>
+    <string name="download_notify_task">下载任务：</string>
+    <string name="download_task_clear">确认清除所有的下载任务(同时删除缓存文件)</string>
+    <string name="download_waiting">等待</string>
+    <string name="downloadmanager_apply">应用</string>
+    <string name="downloadmanager_batch_delete">批量删除</string>
+    <string name="downloadmanager_batch_download">批量下载</string>
+    <string name="downloadmanager_batch_download_tip">可能是你更换了sd卡或做了深度清理，资源被删除鸟，需要重新下载</string>
+    <string name="downloadmanager_cancel_sel_all">取消全选</string>
+    <string name="downloadmanager_cannot_apply_theme_on_scene">情景模式下无法应用主题</string>
+    <string name="downloadmanager_font_tab_title">字体</string>
+    <string name="downloadmanager_icon_tab_title">图标</string>
+    <string name="downloadmanager_input_tab_title">输入法</string>
+    <string name="downloadmanager_inuse">已应用</string>
+    <string name="downloadmanager_lock_tab_title">锁屏</string>
+    <string name="downloadmanager_preview">预览</string>
+    <string name="downloadmanager_prompt_no_data">您还没有下载任何内容</string>
+    <string name="downloadmanager_prompt_to_store">去商城看看，有惊喜哦</string>
+    <string name="downloadmanager_prompt_to_store_2">下点好看主题</string>
+    <string name="downloadmanager_prompt_to_store_3">找些新奇应用</string>
+    <string name="downloadmanager_ring_tab_title">铃声</string>
+    <string name="downloadmanager_sel_all">全选</string>
+    <string name="downloadmanager_sms_tab_title">通讯录</string>
+    <string name="downloadmanager_soft_tab_title">软件</string>
+    <string name="downloadmanager_theme_tab_title">主题</string>
+    <string name="downloadmanager_title">下载管理</string>
+    <string name="downloadmanager_unzip">解压中</string>
+    <string name="downloadmanager_wallpaper_tab_title">壁纸</string>
+    <string name="downloadmanager_weather_tab_title">时钟天气</string>
+    <string name="dyanmic_plugin_err_activity_not_found">无法找到Activity,请确认Intent信息!</string>
+    <string name="dyanmic_plugin_err_coding_wrong">此插件未按照动态插件标准开发,不符合规范,无法加载!</string>
+    <string name="dyanmic_plugin_err_service_not_found">无法找到Service,请确认Intent信息!</string>
+    <string name="dyanmic_plugin_repair">插件损坏,正在修复</string>
+    <string name="dyanmic_plugin_repair_redownload">插件损坏,请重新下载</string>
+    <string name="dyanmic_plugin_repair_suc">插件修复成功</string>
+    <string name="edit_lock_toast_lock">编辑功能已锁定</string>
+    <string name="file_browser_dialog_file_select">文件选择</string>
+    <string name="finish_text">完成</string>
+    <string name="flurry_id">"F7ZMVD7YPRWS5CDBFZNX"</string>
+    <string name="folder_drag_out_error">屏幕空间不足,请到其他屏幕添加</string>
+    <string name="frame_listview_catch_limit">达到限制，无法选择更多程序</string>
+    <string name="frame_listview_choose_title">请选择应用程序</string>
+    <string name="frame_listview_data_init_error">应用程序信息还未初始化，请退出后重试</string>
+    <string name="frame_viewfacotry_data_load_text">正在很努力地很努力地加载中</string>
+    <string name="frame_viewfacotry_download_null">没有搜索到你的下载记录</string>
+    <string name="frame_viewfacotry_err_info_text">出错啦!</string>
+    <string name="frame_viewfacotry_net_break_btn">网络设置</string>
+    <string name="frame_viewfacotry_net_break_text">加载失败，网络连接好像出了点问题哦</string>
+    <string name="frame_viewfacotry_net_slowly_reflesh_btn">刷新</string>
+    <string name="frame_viewfacotry_net_slowly_text">网络不给力,先休息下,稍后再试</string>
+    <string name="frame_viewfacotry_search_null">没有搜索到相关内容,请试试别的吧</string>
+    <string name="frame_viewfacotry_show_netsetting_err">打开网络设置失败</string>
+    <string name="frame_viewfactory_cancle">取消操作</string>
+    <string name="frame_viewfactory_del_error_widget_1">您可以尝试恢复初始化来修复这一问题, 是否立即恢复初始？</string>
+    <string name="frame_viewfactory_del_error_widget_2">使用恢复初始后，将会删除您桌面上的小部件，确保您能正常使用桌面。确定恢复初始吗？</string>
+    <string name="frame_viewfactory_dialog_title">桌面提示</string>
+    <string name="frame_viewfactory_err_content_downgrade">不好意思，由于您的手机不支持APP降级使用，需要重置桌面数据来修复此问题。</string>
+    <string name="frame_viewfactory_err_content_text">亲，动手指把问题反馈给我们，让桌面变得更好用吧</string>
+    <string name="frame_viewfactory_err_content_text_widget">不好意思，小部件“%1$s”有点小问题，我们会把它从屏幕上移除后重启桌面，若您需要再次使用，可进入应用列表-小部件页面找到。</string>
+    <string name="frame_viewfactory_err_content_upgrade">机智的程序小哥说升级到新版本可以解决问题，快去试一试吧！</string>
+    <string name="frame_viewfactory_err_title">啊哦！桌面运行出了点小问题</string>
+    <string name="frame_viewfactory_next_time">下次再说</string>
+    <string name="frame_viewfactory_restore">恢复初始</string>
+    <string name="frame_viewfactory_send_failed">抱歉，您的手机未绑定Gmail账号，无法发送</string>
+    <string name="frame_viewfactory_tell_us">发送反馈</string>
+    <string name="frame_viewfactory_upgrade_now">马上升级</string>
+    <string msgid="8359351016167075858" name="gadget_error_text">"载入窗口小部件时出现问题"</string>
+    <string name="hint_installing">正在安装...</string>
+    <string name="hint_sdcard_available">SD程序加载成功，将立即重新刷新桌面图标</string>
+    <string name="index_wrong_time_msg">系统时间错误\n请修正后，再点击刷新</string>
+    <string name="install">安装</string>
+    <string name="install_91_flashlight_plugin_first">请先安装桌面增强插件!</string>
+    <string name="launcher_appkey">59fb3e01b3e14cd1b0e117cd7a9a498d</string>
+    <string name="launcher_pid">20000036</string>
+    <string name="launcher_pkg_name">#pkg_name#</string>
+    <string name="loadingTxt">正在加载....</string>
+    <string name="loadingview_text_1">在桌面主屏幕上，试试手势上滑，可弹出桌面菜单哦~</string>
+    <string name="loadingview_text_10">把两个图标相叠，可生成新文件夹~</string>
+    <string name="loadingview_text_11">长按桌面屏幕空白区域，有更多添加/更换功能哦~</string>
+    <string name="loadingview_text_12">点击桌面上一键清理插件右侧的“…”按钮，可进入更全面的一键清理界面~</string>
+    <string name="loadingview_text_13">点击应用列表tab区域，可直达应用列表首页或尾页~</string>
+    <string name="loadingview_text_14">新安装的应用在应用列表中会显示在最后哦~</string>
+    <string name="loadingview_text_15">桌面托盘区域可左右滑动，添加更多快捷功能~</string>
+    <string name="loadingview_text_16">在桌面屏幕上，试试双指“捏”手势，可进入屏幕预览九宫格界面~</string>
+    <string name="loadingview_text_2">在桌面屏幕上，试试手势下滑，可弹出快捷菜单哦~</string>
+    <string name="loadingview_text_3">在快速搜索屏，本机搜索支持应用、联系人和短信搜索~</string>
+    <string name="loadingview_text_4">应用列表中点击左下角搜索按钮，可快速搜索应用~</string>
+    <string name="loadingview_text_5">在桌面主屏幕，按返回键可直达快速搜索屏~</string>
+    <string name="loadingview_text_6">桌面菜单中的“编辑锁定”功能，可以保持桌面布局不被修改~</string>
+    <string name="loadingview_text_7">长按桌面图标，向上甩动，可卸载或删除该图标~</string>
+    <string name="loadingview_text_8">桌面菜单中“我的”页面，有很多精彩活动等你参加哦~</string>
+    <string name="loadingview_text_9">应用列表中长按图标后，可进入图标多选模式~</string>
+    <string name="localing_text">定位中...</string>
+    <string name="main_desktop_menu">桌面菜单</string>
+    <string name="main_dock_drawer_myphone">我的手机</string>
+    <string name="main_dock_notification_disable_hint">通知栏已关闭，请先打开通知栏</string>
+    <string name="message_preview_cannot_delete_screen">不能删除最后一个屏幕</string>
+    <string name="message_preview_delete_screen">删除屏幕及屏幕上的所有内容?</string>
+    <string name="message_preview_delete_screen_not_allow">屏幕上有\"应用列表\"图标，无法删除</string>
+    <string name="message_preview_fail_drag_to_screen">图标移动失败</string>
+    <string name="message_preview_out_of_screen">屏幕空间不足，请选择其他屏幕</string>
+    <string name="message_preview_set_default_screen">设为默认屏幕</string>
+    <string name="more_weather">查看更多天气详情 >></string>
+    <string name="mybattery_clean_lock_title">设置应用白名单</string>
+    <string name="mybattery_time_picker_title">时间设置</string>
+    <string name="mycleaner_clean_finish_text">清理完成</string>
+    <string name="mycleaner_memory_depth_clean">深度清理</string>
+    <string name="mycleaner_no_data_clean">没有东西可清理</string>
+    <string name="mycleaner_no_data_selected">没有选择清理项</string>
+    <string name="mycleaner_title">手机加速</string>
+    <string name="mycleaner_title_name">手机加速</string>
+    <string name="myflow_monitoring">流量监控</string>
+    <string name="myhone_backup_edit">编辑</string>
+    <string name="myphone_app_search">应用搜索</string>
+    <string name="myphone_app_store">应用商店</string>
+    <string name="myphone_backup">我的备份</string>
+    <string name="myphone_delete">删除</string>
+    <string name="myphone_download_parse">暂停</string>
+    <string name="myphone_faq">帮助手册</string>
+    <string name="myphone_hint_loading">数据加载中...</string>
+    <string name="myphone_pet_float">魔力球</string>
+    <string name="myphone_power">我的电池</string>
+    <string name="myphone_ring">我的铃声</string>
+    <string name="myphone_root_fail_desc">桌面无法获取ROOT权限，请在SuperUser KingUser等授权管理软件中允许ROOT权限</string>
+    <string name="myphone_root_fail_title">获取ROOT权限失败</string>
+    <string name="myphone_safecenter">安全中心</string>
+    <string name="myphone_sd">我的文件</string>
+    <string name="myphone_sd_isnot_exsit_text">小贴士:若当前已开启USB模式,您可以关闭USB模式</string>
+    <string name="myphone_sd_isnot_exsit_title">SD卡不存在或当前已开启USB模式,SD卡文件暂时不可查</string>
+    <string name="myphone_wallpaper_set_success">设置壁纸成功</string>
+    <string name="no">否</string>
+    <string name="no_net_to_local_text">未连接网络，无法定位</string>
+    <string name="none_city_data_hint">请添加城市!</string>
+    <string name="now_weather_info">当日天气</string>
+    <string name="obtain_integral_fail_tips1">已到达设备的获取总积分上限</string>
+    <string name="obtain_integral_fail_tips2">已到达每天账号的获取总积分上限</string>
+    <string name="obtain_integral_remind">任务完成,获得</string>
+    <string name="obtain_integral_remind01">搜索一下</string>
+    <string name="obtain_integral_remind02">下载推荐游戏</string>
+    <string name="obtain_integral_remind03">点击搜索热门图标</string>
+    <string name="obtain_integral_remind04">点击浏览热点</string>
+    <string name="obtain_integral_remind05">欣赏广告</string>
+    <string name="obtain_integral_remind06">下载推荐应用</string>
+    <string name="obtain_integral_remind07">欣赏开机大屏页面</string>
+    <string name="obtain_integral_remind08">分享</string>
+    <string name="obtain_integral_remind09">设置默认桌面</string>
+    <string name="obtain_integral_remind1">积分</string>
+    <string name="obtain_integral_remind10">个性化资源下载</string>
+    <string name="obtain_integral_remind11">桌面美化</string>
+    <string name="obtain_integral_remind12">参与活动</string>
+    <string name="ok">确认</string>
+    <string msgid="8365249326091984698" name="out_of_space">"此屏幕上空间不足"</string>
+    <string name="panda_widget_confirm_install">是否安装%s?</string>
+    <string name="panda_widget_flashlight">手电筒</string>
+    <string name="panda_widget_offscreen">一键关屏</string>
+    <string msgid="7429365847558984148" name="permdesc_install_shortcut">"允许应用程序在没有用户介入的情况下添加快捷方式。"</string>
+    <string msgid="8377434937176025492" name="permdesc_read_settings">"允许应用程序读取主屏幕的设置和快捷方式。"</string>
+    <string msgid="959972195916090900" name="permdesc_uninstall_shortcut">"允许应用程序在没有用户介入的情况下删除快捷方式。"</string>
+    <string msgid="1098648778383349818" name="permdesc_write_settings">"允许应用程序更改主屏幕的设置和快捷方式。"</string>
+    <string msgid="1201690825493376489" name="permlab_install_shortcut">"安装快捷方式"</string>
+    <string msgid="3452408290738106747" name="permlab_read_settings">"读取主屏幕的设置和快捷方式"</string>
+    <string msgid="7696645932555926449" name="permlab_uninstall_shortcut">"卸载快捷方式"</string>
+    <string msgid="1360567537236705628" name="permlab_write_settings">"写入主屏幕的设置和快捷方式"</string>
+    <string name="pkg_base_dir">#pkg_base_dir#</string>
+    <string name="pkg_content_uri_authority">#pkg_name#.settings</string>
+    <string name="pkg_content_uri_authority_sub">#pkg_name#</string>
+    <string name="privatezone">隐私空间</string>
+    <string name="privatezone_pretend_title_7">隐形</string>
+    <string name="product_id">6</string>
+    <string name="provider_process">"com.nd.weather.widget.provider"</string>
+    <string name="rom_app_chl">067QWSGmas2r7BVXp0En5HWkw8ZUDqLCwMo9qafLKA4=</string>
+    <string name="safe_notify_no_info">无</string>
+    <string name="save_mode_suc">保存成功</string>
+    <string name="scene_effect_support">情景模式下仅支持默认特效</string>
+    <string name="scene_mask_support">该功能情景模式下不可用</string>
+    <string name="sdk_app_name">黄历天气</string>
+    <string name="select_third_icons">第三方图标</string>
+    <string name="set_default_home_goodandcoming">好,来了</string>
+    <string name="set_default_home_goodandcoming_tips1">最美好的事情，莫过于陪在你身边</string>
+    <string name="set_default_home_goodandcoming_tips2">回到91桌面，手机日日美如初见</string>
+    <string name="set_default_home_mostbeautiful_tips1">设置91桌面为默认桌面</string>
+    <string name="set_default_home_mostbeautiful_tips2">使用颜值最高的手机系统</string>
+    <string name="settings_about_no_market_title">您的手机未安装电子市场</string>
+    <string name="settings_advanced_silent_install">静默安装</string>
+    <string name="settings_advanced_silent_install_open_failed">开启失败，请确认您的手机是否已获取root权限了</string>
+    <string name="settings_advanced_silent_install_open_now">立即开启</string>
+    <string name="settings_advanced_silent_install_request">软件下载完成后，可以省去手动安装步骤，为您自动安装。是否立即开启？开启后若想关闭此功能，可以在桌面设置-辅助功能中找到</string>
+    <string name="settings_home_apps_shared_copy">复制链接</string>
+    <string name="settings_home_apps_shared_copy_tip">已经复制到剪贴板</string>
+    <string name="settings_home_apps_shared_email">邮件</string>
+    <string name="settings_home_apps_shared_mobile_qq">QQ好友</string>
+    <string name="settings_home_apps_shared_mobile_qq_name">QQ</string>
+    <string name="settings_home_apps_shared_not_install">您未安装%1$s，请先安装</string>
+    <string name="settings_home_apps_shared_pic_not_exist">图片不存在</string>
+    <string name="settings_home_apps_shared_pic_title">#桌面发现最美图片#</string>
+    <string name="settings_home_apps_shared_qzone">QQ空间</string>
+    <string name="settings_home_apps_shared_sina_weibo">新浪微博</string>
+    <string name="settings_home_apps_shared_wx_friend">微信好友</string>
+    <string name="settings_home_apps_shared_wx_friends">微信朋友圈</string>
+    <string name="settings_home_apps_shared_wx_name">微信</string>
+    <string msgid="4757756326465060694" name="shortcut_duplicate">
+		""
+		<ns1:g id="NAME">%s</ns1:g>
+		"快捷方式已存在。"
+	</string>
+    <string msgid="7071557296331322355" name="shortcut_installed">
+		"已创建"
+		<ns1:g id="NAME">%s</ns1:g>
+		"快捷方式。"
+	</string>
+    <string name="shortcut_toolong">非法字符，无法添加</string>
+    <string msgid="2129499669449749995" name="shortcut_uninstalled">
+		"已删除"
+		<ns1:g id="NAME">%s</ns1:g>
+		"快捷方式。"
+	</string>
+    <string name="skin_path">"PandaHome2/91clockandweather/skins/"</string>
+    <string name="sort_city_hint">点击相应城市拖动</string>
+    <string name="sp_widget_recommend_app">12</string>
+    <string name="spring_add_app_from_drawer_reset">无法移动到该位置</string>
+    <string name="storage_come_sdcard">进入SD卡</string>
+    <string name="storage_sd_no_found_err">SD卡未找到</string>
+    <string name="tab1_select_file">选择文件</string>
+    <string name="tab_calendar">万年历</string>
+    <string name="tab_huli_info">黄历</string>
+    <string name="tab_more">设置</string>
+    <string name="tab_weather">天气</string>
+    <string name="text_warning">预警</string>
+    <string name="theme_app_select_activity">com.nd.hilauncherdev.app.activity.AppResolverSelectActivity</string>
+    <string name="thenme_ask_action">"com.nd.android.pandahome.ASK_THEME"</string>
+    <string name="thenme_change_action">"com.nd.android.pandahome.THEME_INFO"</string>
+    <string name="tomorrow">明天</string>
+    <string name="uninstallapp_no_this_appinfo">无此应用信息，卸载失败</string>
+    <string name="wallpaper_apply">应用壁纸</string>
+    <string name="wallpaper_apply_loading">应用壁纸中，请稍候...</string>
+    <string name="wallpaper_crop">裁剪</string>
+    <string name="wallpaper_editor">壁纸编辑</string>
+    <string name="wallpaper_editor_hint">应用壁纸前，是否需要编辑壁纸?</string>
+    <string name="wallpaper_editor_label">桌面壁纸</string>
+    <string name="wallpaper_editor_not_allow">当前为动态壁纸，无法编辑</string>
+    <string name="wallpaper_editor_size">(宽: %1$s  高: %2$s)</string>
+    <string name="wallpaper_liveWp_noCroll">当前为动态壁纸,无法设置成单屏模式</string>
+    <string name="wallpaper_not_scroll">单屏模式</string>
+    <string name="wallpaper_not_scroll_description">滑动屏幕时，壁纸不滚动，请选择壁纸显示区域</string>
+    <string name="wallpaper_rotate">旋转</string>
+    <string name="wallpaper_save_loading">保存壁纸中，请稍候...</string>
+    <string name="wallpaper_scroll">滚屏模式</string>
+    <string name="waring_wrong_time_msg">系统时间错误，无法获取预警信息，请修正后重试</string>
+    <string name="weather_detail_ad_cv_page_id">96090001</string>
+    <string name="weather_detail_ad_cv_pos_id">96090101</string>
+    <string name="weather_detail_bottom_banner_cv_pos_id">96090201</string>
+    <string name="weather_wrong_time_msg">系统时间错误，请修正后再更新</string>
+    <string name="widget_manage_panda_widget_more_parse_failed_tips">解析安装包错误，请重新下载</string>
+    <string name="widget_process">"com.nd.weather.widget.WidgetService"</string>
+    <string name="wifi_set">选择Wifi</string>
+    <string name="yes">是</string>
+    <style name="CustomListSeparator">
+        <item name="android:background">@drawable/app_running_process_tab_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">25dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">5sp</item>
+    </style>
+    <style name="CustomWindowTitleText">
+        <item name="android:textSize">@dimen/myphone_title_text_size</item>
+        <item name="android:textColor">#ff948DF0</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:drawablePadding">@dimen/myphone_margin_left</item>
+        <item name="android:layout_height">@dimen/myphone_top_content</item>
+    </style>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style mce_bogus="1" name="DrawerMenuPopupAnimation" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popup_drawer_menu_enter</item>
+		<item name="android:windowExitAnimation">@anim/popup_drawer_menu_exit</item>
+	</style>
+    <style name="Fullscreen" parent="android:Theme.Wallpaper">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="PerferencesCustomWindowTitleBackground">
+        <item name="android:background">@drawable/common_title_bg</item>
+    </style>
+    <style name="PopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/pop_win_in_up</item>
+        <item name="android:windowExitAnimation">@anim/pop_win_out_down</item>
+    </style>
+    <style mce_bogus="1" name="PopupWarningAni" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popup_warning_enter</item>
+		<item name="android:windowExitAnimation">@anim/popup_warning_exit</item>
+	</style>
+    <style mce_bogus="1" name="SamsungDrawerMenuPopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/samsung_popup_drawer_menu_enter</item>
+        <item name="android:windowExitAnimation">@anim/samsung_popup_drawer_menu_exit</item>
+    </style>
+    <style name="SettingCustomStyle" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:textColorPrimaryInverse">@android:color/black</item>
+        <item name="android:windowBackground">@color/myphone_common_bg_color</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleSize">42.0dip</item>
+        <item name="android:windowTitleStyle">@style/CustomWindowTitleText</item>
+        <item name="android:windowTitleBackgroundStyle">@style/PerferencesCustomWindowTitleBackground</item>
+        <item name="android:listViewStyle">@style/customListView</item>
+        <item name="android:listSeparatorTextViewStyle">@style/customListHeader</item>
+    </style>
+    <style name="SharedAnimation">  
+        <item name="android:windowEnterAnimation">@anim/shared_fade_in</item>  
+        <item name="android:windowExitAnimation">@anim/shared_fade_out</item>  
+    </style>
+    <style mce_bogus="1" name="ShortCutMenuGrowFromBottom" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popshortcutmenu_grow_from_bottom</item>
+		<item name="android:windowExitAnimation">@anim/popshortcutmenu_shrink_from_top</item>
+	</style>
+    <style mce_bogus="1" name="ShortCutMenuGrowFromBottomLeftToTopRight" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popshortcutmenu_grow_from_bottomleft_to_topright
+		</item>
+		<item name="android:windowExitAnimation">@anim/popshortcutmenu_shrink_from_topright_to_bottomleft
+		</item>
+	</style>
+    <style mce_bogus="1" name="ShortCutMenuGrowFromBottomRightToTopLeft" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popshortcutmenu_grow_from_bottomright_to_topleft
+		</item>
+		<item name="android:windowExitAnimation">@anim/popshortcutmenu_shrink_from_topleft_to_bottomright
+		</item>
+	</style>
+    <style mce_bogus="1" name="ShortCutMenuGrowFromTop" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popshortcutmenu_grow_from_top</item>
+		<item name="android:windowExitAnimation">@anim/popshortcutmenu_shrink_from_bottom</item>
+	</style>
+    <style mce_bogus="1" name="ShortCutMenuGrowFromTopLeftToBottomRight" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popshortcutmenu_grow_from_topleft_to_bottomright
+		</item>
+		<item name="android:windowExitAnimation">@anim/popshortcutmenu_shrink_from_bottomright_to_topleft
+		</item>
+	</style>
+    <style mce_bogus="1" name="ShortCutMenuGrowFromTopRightToBottomLeft" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/popshortcutmenu_grow_from_topright_to_bottomleft
+		</item>
+		<item name="android:windowExitAnimation">@anim/popshortcutmenu_shrink_from_bottomleft_to_topright
+		</item>
+	</style>
+    <style name="Theme.CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Theme.NoBackground" parent="android:Theme">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="TitleStyle" parent="@android:style/TextAppearance.DialogWindowTitle">
+        <item name="android:textAppearance">@style/TitleText</item>
+    </style>
+    <style name="TitleText" parent="@android:style/TextAppearance.DialogWindowTitle">
+
+        <!-- 设置Dialog标题栏文字颜色。 -->
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="TopMenuAnimation">
+        <item name="android:windowEnterAnimation">@anim/pop_win_top_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_win_top_out</item>
+    </style>
+    <style name="WorkspaceIconMaskTextView">
+		<item name="android:layout_marginLeft">3dip</item>
+		<item name="android:layout_marginRight">3dip</item>
+		<item name="android:layout_marginTop">5dip</item>
+		<item name="android:layout_marginBottom">5dip</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:paddingLeft">2dip</item>
+		<item name="android:paddingRight">2dip</item>
+	</style>
+    <style name="backButton" parent="titleButton">
+        <item name="android:layout_marginLeft">6.3dip</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/weather_btn_back_selector</item>
+        <item name="android:text">@string/back</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+    <style name="city_radio_group_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/weather_city_indct_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:drawableBottom">@drawable/weather_indicator_bottom</item>
+    </style>
+    <style name="city_topcenter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.8</item>
+        <item name="android:shadowColor">#69565d68</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="customListHeader" parent="@style/CustomListSeparator">
+       <item name="android:layout_width">match_parent</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:paddingLeft">10dip</item>
+	   <item name="android:background">@drawable/app_running_process_tab_bg</item>
+	</style>
+    <style name="customListView" parent="@android:style/Widget.ListView">
+		<item name="android:scrollbarSize">5.0dip</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scrollbarThumbVertical">@drawable/pre_scrollbar_handle_vertical</item>
+        <item name="android:listSelector">@drawable/myphone_click_item_blue</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@drawable/preference_divline</item>
+    </style>
+    <style name="dateButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/weather_btn_blue_selector</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="day_weather_image_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginTop">5dp</item>:
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="day_weather_info_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/tempsize</item>
+        <item name="android:textSize">@dimen/tempsize</item>
+        <item name="android:lines">2</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="menuAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/popupmenu_in</item>   
+        <item name="android:windowExitAnimation">@anim/popupmenu_out</item>   
+    </style>
+    <style name="moreButton">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="more_weather_text_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#83565d68</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.8</item>
+    </style>
+    <style name="rightButton" parent="titleButton">
+        <item name="android:layout_marginRight">6.3dip</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="setting_catalog_title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dip</item>
+        <item name="android:layout_marginBottom">-2dip</item>
+        <item name="android:textColor">#767676</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="setting_item_divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">#c3dcf2</item>
+    </style>
+    <style name="setting_item_multiple_ll">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dip</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/weather_shape_list_bk</item>
+    </style>
+    <style name="setting_item_open_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">5dip</item>
+        <item name="android:src">@drawable/open_1</item>
+    </style>
+    <style name="setting_item_single_ll" parent="setting_item_multiple_ll">
+        <item name="android:layout_height">45dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="setting_item_state_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">3dip</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:layout_marginTop">-1dip</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#00bcd5</item>
+    </style>
+    <style name="setting_item_sub_ll">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_margin">2dip</item>
+    </style>
+    <style name="setting_item_title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="setting_item_title_textview">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#454545</item>
+    </style>
+    <style name="shadow_black">
+        <item name="android:shadowColor">#00000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="shadow_gray">
+        <item name="android:shadowColor">#00000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="titleButton">
+        <item name="android:layout_width">60dip</item>
+        <item name="android:layout_height">29dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/weather_btn_stand_selector</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="titleDivider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@drawable/line_for_mask_topbar</item>
+    </style>
+    <style name="titleText_w">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/tool_text_w</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">@dimen/toolsize</item>
+    </style>
+    <style name="weather_change_view_type">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/weather_change_view_type_selector</item>
+        <item name="android:layout_width">45dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="weather_date_topleft">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lines">2</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.8</item>
+        <item name="android:shadowColor">#69565d68</item>
+    </style>
+    <style name="weather_exponent_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ccffffff</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="weather_temp_cicle_style">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#59565d68</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">0.8</item>
+    </style>
+    <style name="weather_temp_txt_style">
+        <item name="android:textSize">70sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#59565d68</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">0.8</item>
+    </style>
+    <style name="yujichong_txt_style">
+        <item name="android:textSize">14sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#83565d68</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.8</item>
+    </style>
+    <style name="yujichong_txt_style_new">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#83565d68</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.8</item>
+        <item name="android:textSize">@dimen/yujichongsize</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+</resources>

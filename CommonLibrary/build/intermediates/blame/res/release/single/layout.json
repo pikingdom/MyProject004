@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\framework_viewfactory_info_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\framework_viewfactory_info_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\maindock_celllayout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\maindock_celllayout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\myphone_iknow_dialog_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\myphone_iknow_dialog_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\dialog_view_checkbox_alert.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\dialog_view_checkbox_alert.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\mycleaner_memory_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\mycleaner_memory_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\apply_confirm_dialog_layout_v8.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\apply_confirm_dialog_layout_v8.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\shared_pop_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\shared_pop_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\shared_pop_main.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\shared_pop_main.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\widget_download_complete_notify.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\widget_download_complete_notify.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\appwidget_error.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\appwidget_error.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\preferences_checkbox.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\preferences_checkbox.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\widget_download_progress_notify.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\widget_download_progress_notify.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\file_browser_list.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\file_browser_list.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\myphone_common_time_picker.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\myphone_common_time_picker.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\single_btn_dialog_layout_v8.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\single_btn_dialog_layout_v8.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\framework_viewfactory_err_info_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\framework_viewfactory_err_info_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\downloadmanager_common_view.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\downloadmanager_common_view.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\preview_workspace.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\preview_workspace.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\activity_advert_sdk_browser.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\activity_advert_sdk_browser.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\customprogressdialog.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\customprogressdialog.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\downloadmanager_list_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\downloadmanager_list_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\common_dialog_layout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\common_dialog_layout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\integral_submit_layout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\integral_submit_layout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\preference_activity_title.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\preference_activity_title.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\widget_download_notify.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\widget_download_notify.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\file_browser_list_item_icon_text.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\file_browser_list_item_icon_text.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\single_btn_dialog_layout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\single_btn_dialog_layout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\bottom_edit_box_layout.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\bottom_edit_box_layout.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\preview_cell_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\preview_cell_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\downloadmanager_container.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\downloadmanager_container.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\myfile_photo_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\myfile_photo_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\myfile_photo_catgory_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\myfile_photo_catgory_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\common_dialog_layout_ex.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\common_dialog_layout_ex.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\framework_viewpager_tab_title_item.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\framework_viewpager_tab_title_item.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\framework_viewfactory_data_error.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\layout\\framework_viewfactory_data_error.xml"
+    },
+    {
+        "merged": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\build\\intermediates\\res\\merged\\release\\layout\\file_browser_icon.xml",
+        "source": "F:\\new\\newline\\91LauncherToolForDZ\\CommonLibrary\\res\\layout\\file_browser_icon.xml"
+    }
+]

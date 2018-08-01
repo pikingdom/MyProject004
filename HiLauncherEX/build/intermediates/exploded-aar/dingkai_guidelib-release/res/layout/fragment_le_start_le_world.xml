@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guide_le_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180.29dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/guide_le_title_text"
+        android:textSize="30.86dp"
+        android:text="共享生态世界"/>
+
+
+    <include
+        layout="@layout/include_le_guide_page_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/guide_le_include_page_bottom_h"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

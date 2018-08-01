@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mdpi-480x320-v4\\values-mdpi-480x320-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-mdpi-480x320-v4\\values-mdpi-480x320-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 49,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 63,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-mdpi-480x320-v4\\values-mdpi-480x320-v4.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 63,
+                        "endOffset": 164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 51,
+                    "endOffset": 216
+                },
+                "from": {
+                    "file": "F:\\new\\newline\\91LauncherToolForDZ\\Weather_Widget_SDK_trunk_hw\\build\\intermediates\\exploded-aar\\91LauncherToolForDZ\\coreSourceDZ\\unspecified\\res\\values-mdpi-480x320-v4\\values-mdpi-480x320-v4.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 169,
+                        "endColumn": 51,
+                        "endOffset": 216
+                    }
+                }
+            }
+        ]
+    }
+]

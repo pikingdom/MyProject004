@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.shop.shop6.themedetail.SubScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:id="@+id/subScrollViewCommentList">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/theme_shop_commentDetail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:orientation="vertical" >
+        </LinearLayout>
+        
+       <!--  <com.nd.hilauncherdev.shop.shop6.themedetail.ScrollListView
+            android:id="@+id/theme_shop_theme_comment_list"
+            android:layout_width="fill_parent"
+            android:layout_height="350dip"
+            android:layout_weight="1.0"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/theme_shop_v6_grid_item_line"
+            android:dividerHeight="2dip"
+            android:fadingEdge="none"
+            android:gravity="center"
+            android:transcriptMode="disabled" 
+            android:layout_marginTop="2dip">
+        </com.nd.hilauncherdev.shop.shop6.themedetail.ScrollListView> -->
+
+        <LinearLayout
+            android:id="@+id/wait_layout_comment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ProgressBar
+                android:id="@+id/progress_small_title"
+                style="?android:attr/progressBarStyleSmallInverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/theme_fetch_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dip"
+                android:text="@string/txt_loading"
+                android:textColor="@color/black" >
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/theme_shop_view_morecomment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="right"
+            android:paddingBottom="20dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="5dip"
+            android:paddingTop="10dip"
+            android:text="@string/theme_more_comment"
+            android:textColor="#FF000000"
+            android:textSize="18dip"
+            android:typeface="monospace"
+            android:visibility="gone" >
+        </TextView>
+    </LinearLayout>
+
+</com.nd.hilauncherdev.shop.shop6.themedetail.SubScrollView>

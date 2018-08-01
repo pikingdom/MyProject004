@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/theme_v6_main_bg"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:orientation="vertical" >
+    
+    <include
+        android:id="@+id/main_header_search"
+        layout="@layout/theme_shop_v6_main_header_search"/>
+
+    <include
+        android:id="@+id/baidu_main_header"
+        layout="@layout/theme_shop_v6_theme_baidu_main_header"/>
+
+    <include
+        android:id="@+id/baidu_common_header"
+        layout="@layout/theme_shop_v6_theme_baidu_common_header"/>
+
+
+    <FrameLayout
+        android:id="@+id/contentFrame"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/funcList"
+        android:layout_width="fill_parent"
+        android:layout_height="52dip"
+        android:background="@drawable/theme_shop_v6_main_fun_band"
+        android:gravity="center" >
+
+        <RelativeLayout
+            android:id="@+id/themeButton"
+           style="@style/theme_shop_bottom_tab_layout">
+
+            <View android:id="@+id/placeholder"
+                  android:layout_width="0dp"
+                  android:layout_height="0dp"
+                  android:layout_centerInParent="true"/>
+
+
+            <ImageView
+                android:id="@+id/themeButtonImg"
+                android:background="@drawable/theme_shop_v6_bottomtool_src_theme_page"
+                style="@style/theme_shop_bottom_tab_up_img" />
+
+
+            <ImageView
+                android:id="@+id/theme_shop_bottom_tab_bottom_img"
+                style="@style/theme_shop_bottom_tab_bottom_img"/>
+
+            <TextView
+                android:layout_toRightOf="@id/themeButtonImg"
+                android:text="@string/theme_shop_v6_func_recommend"
+                style="@style/theme_shop_bottom_tab_bottom_txt"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/moduleButton"
+            style="@style/theme_shop_bottom_tab_layout" >
+
+            <View android:id="@id/placeholder"
+                  android:layout_width="0dp"
+                  android:layout_height="0dp"
+                  android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/moduleButtonImg"
+                android:background="@drawable/theme_shop_v6_bottomtool_src_module_page"
+                style="@style/theme_shop_bottom_tab_up_img" />
+
+            <ImageView
+                android:id="@id/theme_shop_bottom_tab_bottom_img"
+                style="@style/theme_shop_bottom_tab_bottom_img"/>
+
+            <TextView
+                android:text="@string/theme_shop_v6_func_module"
+                android:layout_toRightOf="@id/moduleButtonImg"
+                style="@style/theme_shop_bottom_tab_bottom_txt"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/searchButton"
+            android:visibility="gone"
+            style="@style/theme_shop_bottom_tab_layout">
+
+
+            <View android:id="@id/placeholder"
+                  android:layout_width="0dp"
+                  android:layout_height="0dp"
+                  android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/searchButtonImg"
+                android:background="@drawable/theme_shop_v6_bottomtool_src_search_page"
+                style="@style/theme_shop_bottom_tab_up_img" />
+
+            <ImageView
+                android:id="@id/theme_shop_bottom_tab_bottom_img"
+                style="@style/theme_shop_bottom_tab_bottom_img"/>
+
+            <TextView
+                android:text="@string/theme_shop_v6_func_search"
+                android:layout_toRightOf="@id/searchButtonImg"
+                style="@style/theme_shop_bottom_tab_bottom_txt"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/diyButton"
+            style="@style/theme_shop_bottom_tab_layout" >
+
+          <ImageView
+              android:id="@+id/ivNotifyTip"
+              android:layout_marginTop="8dp"
+              android:layout_centerHorizontal="true"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:visibility="gone"
+              android:src="@drawable/feed_notice_bg"/>
+
+
+            <View android:id="@id/placeholder"
+                  android:layout_width="0dp"
+                  android:layout_height="0dp"
+                  android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/diyButtonImg"
+                android:background="@drawable/theme_shop_v6_bottomtool_src_diy_page"
+                style="@style/theme_shop_bottom_tab_up_img"/>
+
+            <ImageView
+                android:id="@id/theme_shop_bottom_tab_bottom_img"
+                style="@style/theme_shop_bottom_tab_bottom_img"/>
+
+            <TextView
+                android:layout_toRightOf="@id/diyButtonImg"
+                android:text="@string/theme_shop_v6_func_discovery"
+                style="@style/theme_shop_bottom_tab_bottom_txt"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ownerButton"
+            style="@style/theme_shop_bottom_tab_layout" >
+
+
+            <View android:id="@id/placeholder"
+                  android:layout_width="0dp"
+                  android:layout_height="0dp"
+                  android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/ownerButtonImg"
+                android:background="@drawable/theme_shop_v6_bottomtool_src_owner_page"
+                style="@style/theme_shop_bottom_tab_up_img"/>
+
+            <ImageView
+                android:id="@id/theme_shop_bottom_tab_bottom_img"
+                style="@style/theme_shop_bottom_tab_bottom_img"/>
+
+            <TextView
+                android:layout_toRightOf="@id/ownerButtonImg"
+                android:text="@string/theme_shop_v6_func_owner"
+                style="@style/theme_shop_bottom_tab_bottom_txt"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

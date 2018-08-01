@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/themedetailContent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/theme_shop_v6_detail_bg"
+    android:orientation="vertical" >
+
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/headerView"
+        android:layout_gravity="top"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipToPadding="false">
+
+        <com.nd.hilauncherdev.shop.shop6.themedetail.MainScrollView
+            android:id="@+id/detailScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/bottomLayout"
+            android:scrollbars="none"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!-- 主题详情 -->
+
+                <com.nd.hilauncherdev.shop.widget.ThemeDetailInfoLayout
+                    android:id="@+id/theme_detail_info_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="15dp" >
+                </com.nd.hilauncherdev.shop.widget.ThemeDetailInfoLayout>
+
+                <!-- 图片预览    指示灯  start -->
+
+                <include
+                    android:id="@+id/themePreviewLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    layout="@layout/theme_shop_v6_detail_activity_preview" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp" >
+					<!-- 设置默认桌面banner -->
+					<com.nd.hilauncherdev.shop.shop6.guidesetlauncher.GuideSetLauncherBannerView 
+					    android:layout_width="match_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"/>
+					
+                    <!--主题活动Banner-->
+		            <include
+		                android:id="@+id/theme_campaign_banner_layout"
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content"
+		                layout="@layout/theme_shop_v6_theme_campaign_banner"
+		                android:visibility="gone" />
+		            
+                    <!-- 推广Banner -->
+					<include
+                        android:id="@+id/promotion_banner_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/theme_shop_v6_promotion_banner"
+                        android:visibility="gone" />
+					<!-- 积分墙Banner -->
+                    <include
+                        android:id="@+id/themedetail_banner_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/theme_shop_v6_theme_detail_banner"
+                        android:visibility="gone" />
+
+                    <!--游戏主题推荐游戏app-->
+                    <LinearLayout
+                        android:id="@+id/themedetail_game_theme_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone" />
+                    
+                    <!-- 主题描述 -->
+
+                    <com.nd.hilauncherdev.shop.widget.MoreDescribTxtView
+                        android:id="@+id/themedetail_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/theme_detail_item_bg_color"
+                        android:paddingLeft="14dp"
+                        android:paddingRight="14dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:visibility="gone" >
+                    </com.nd.hilauncherdev.shop.widget.MoreDescribTxtView>
+
+                     <!-- 其它活动主题推荐 -->
+                    <com.nd.hilauncherdev.shop.widget.RelateThemeView
+                        android:id="@+id/theme_detail_campaign_relate_theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="-10dip"
+                        android:background="@drawable/recommend_bg_card"
+                        android:visibility="gone" >
+                    </com.nd.hilauncherdev.shop.widget.RelateThemeView>
+                    
+                    <!-- 主题相关应用 -->
+
+                    <com.nd.hilauncherdev.shop.shop3.appsoft.ThemeAppSoftsView
+                        android:id="@+id/theme_app_soft"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="14dp"
+                        android:paddingRight="22dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="-10dip"
+                        android:background="@drawable/recommend_bg_card"
+                        android:visibility="gone" >
+                    </com.nd.hilauncherdev.shop.shop3.appsoft.ThemeAppSoftsView>
+
+                    <!-- 评论 -->
+
+                    <RelativeLayout
+                        android:id="@+id/theme_detail_comment_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="14dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="14dp"
+                        android:paddingTop="14dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/theme_detail_item_bg_color"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/theme_detail_comment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:text="@string/theme_shop_v6_detail_comment"
+                            android:textColor="#595959"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/theme_detail_comment_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="13dp"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/theme_detail_comment"
+                            android:textColor="#ffaa1f"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:id="@+id/theme_detail_comment_go"
+                            android:layout_width="@dimen/theme_shop_v6_theme_detail_go_width"
+                            android:layout_height="@dimen/theme_shop_v6_theme_detail_go_height"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/theme_detail_go" />
+                    </RelativeLayout>
+                    
+                    <!-- 淘宝广告 -->
+                    <FrameLayout 
+                        android:id="@+id/taobao_ads_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        >
+                        <com.nd.hilauncherdev.shop.shop6.AdImageView
+                            android:id="@+id/taobao_ads_image"
+                            android:layout_width="match_parent"
+                        	android:layout_height="100dp"
+                        	android:scaleType="fitXY"
+                            />
+                    </FrameLayout>
+
+                    <!-- 相关视频壁纸推荐 -->
+                    <com.nd.hilauncherdev.shop.widget.adapter.RelateVideoPaperView
+                        android:id="@+id/relate_video_paper"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="6dp"
+                        android:layout_marginTop="-10dip"
+                        android:background="@drawable/recommend_bg_card"
+                        android:visibility="gone" />
+
+                    <!-- 作者相关主题 -->
+
+                    <com.nd.hilauncherdev.shop.widget.RelateThemeView
+                        android:id="@+id/theme_detail_relate_author_theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="6dp"
+                        android:layout_marginTop="-10dip"
+                        android:background="@drawable/recommend_bg_card"
+                        android:visibility="gone" >
+                    </com.nd.hilauncherdev.shop.widget.RelateThemeView>
+                    
+                    
+                    <!-- 相关主题推荐 -->
+                    <com.nd.hilauncherdev.shop.widget.RelateThemeView
+                        android:id="@+id/theme_detail_relate_theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="6dp"
+                        android:layout_marginTop="-10dip"
+                        android:background="@drawable/recommend_bg_card"
+                        android:visibility="gone" >
+                    </com.nd.hilauncherdev.shop.widget.RelateThemeView>
+                    
+                    
+                    <!-- 推荐应用 -->
+
+                    <com.nd.hilauncherdev.shop.widget.RecommendApps
+                        android:id="@+id/theme_detail_recomment_apps"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="6dp"
+                        android:layout_marginTop="-10dip"
+                        android:background="@drawable/recommend_bg_card"
+                        android:visibility="gone" >
+                    </com.nd.hilauncherdev.shop.widget.RecommendApps>
+                    
+                </LinearLayout>
+            </LinearLayout>
+        </com.nd.hilauncherdev.shop.shop6.themedetail.MainScrollView>
+        <!-- 下载模块 start -->
+
+        <include
+            android:id="@+id/bottomLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:layout_alignParentBottom="true"
+            layout="@layout/theme_shop_v6_detail_activity_bottom"
+            android:background="@drawable/theme_shop_v6_manage_downtask_title_bg" />
+        <!-- 下载模块 end -->
+
+
+        <!-- Loading模块 -->
+
+        <com.nd.hilauncherdev.shop.widget.LoadingStateView
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/myphone_bg_color" >
+        </com.nd.hilauncherdev.shop.widget.LoadingStateView>
+    </RelativeLayout>
+
+</LinearLayout>

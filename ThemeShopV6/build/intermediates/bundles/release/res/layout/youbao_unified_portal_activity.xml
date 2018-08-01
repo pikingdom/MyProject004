@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 有宝统一推荐入口页面 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffeeeeee">
+    <!-- 无网络页面 -->
+    <LinearLayout 
+        android:id="@+id/youbao_unified_portal_nonetwork"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"/>
+    <!-- 有宝介绍页 -->
+	<WebView 
+	    android:id="@+id/youbao_unified_portal_webview"
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:scrollbars="none"/>
+</FrameLayout>

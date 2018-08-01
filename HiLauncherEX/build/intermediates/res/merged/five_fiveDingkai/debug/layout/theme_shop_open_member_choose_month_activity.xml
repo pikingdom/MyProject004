@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 开通会员选择月份界面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffffff"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="#ffeef2f6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/theme_shop_member_buy_member_choose_month"
+                android:textColor="#ff6c8692"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/member_choose_month_close_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:padding="10dp"
+                android:src="@drawable/theme_shop_open_member_choose_month_activity_close_btn" />
+        </RelativeLayout>
+        <!--直接选月份-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/member_choose_month_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/open_member_choose_btn_pressed"
+                android:gravity="center"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="@string/theme_shop_member_buy_member_choose_month_12"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/member_choose_month_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/open_member_choose_btn_normal"
+                android:gravity="center"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="@string/theme_shop_member_buy_member_choose_month_6"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/member_choose_month_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/open_member_choose_btn_normal"
+                android:gravity="center"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="@string/theme_shop_member_buy_member_choose_month_1"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/theme_shop_member_buy_member_choose_month_1_txt"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:gravity="center|right"
+                android:text="@string/theme_shop_member_buy_member_choose_month_1"
+                android:textColor="#fffeb52b"
+                android:textSize="11sp" />
+            <!--滚动条选择月份-->
+            <LinearLayout
+                android:id="@+id/theme_shop_open_member_choose_month_progress_layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_toLeftOf="@+id/theme_shop_member_buy_member_choose_month_12_txt"
+                android:layout_toRightOf="@+id/theme_shop_member_buy_member_choose_month_1_txt"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/theme_shop_open_member_choose_month_progress_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/open_member_choose_bar_bg"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="2dp"
+                    android:text="@string/theme_shop_member_buy_member_choose_month_12"
+                    android:textColor="#ffffffff"
+                    android:textSize="7sp" />
+
+                <SeekBar
+                    android:id="@+id/theme_shop_open_member_choose_month_progress_seekbar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:focusable="false"
+                    android:max="17"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:progress="12"
+                    android:progressDrawable="@drawable/theme_shop_open_member_choose_month_progress_horizontal"
+                    android:thumb="@android:color/transparent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/theme_shop_member_buy_member_choose_month_12_txt"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center|left"
+                android:text="@string/theme_shop_member_buy_member_choose_month_18"
+                android:textColor="#ff999999"
+                android:textSize="11sp" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/buy_member_choose_month_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="16dp"
+            android:text="@string/theme_shop_member_buy_member_choose_month_18"
+            android:textColor="#ff000000"
+            android:textSize="16sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="45dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/buy_member_choose_month_tips1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/theme_shop_member_buy_member_choose_month_tips1"
+                android:textColor="#ff999999"
+                android:textSize="11sp" />
+            <TextView
+                android:id="@+id/buy_member_choose_month_tips2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/theme_shop_member_buy_member_choose_month_tips2"
+                android:textColor="#fffeb52b"
+                android:textSize="11sp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/buy_member_choose_month_affirm_btn"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="@string/theme_shop_member_buy_member_choose_month_affirm"
+            android:textColor="#ffffffff"
+            android:textSize="14sp"
+            android:background="@drawable/common_btn_blue"/>
+    </LinearLayout>
+</RelativeLayout>

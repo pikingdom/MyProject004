@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.shop.shop6.discovery.DiscoveryComicView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/theme_shop_discovery_comic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recommend_bg_card"
+    android:paddingBottom="@dimen/v8_gap1_10dp"
+    android:orientation="vertical" >
+
+    <!-- 标题栏 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="@dimen/v8_gap1_10dp" >
+
+        <ImageView
+            android:id="@+id/tagtip_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_discovery_comic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="11dip"
+            android:layout_toRightOf="@+id/tagtip_img"
+            android:singleLine="true"
+            android:text="@string/discovery_title_comic"
+            android:textColor="#0192e5"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/comic_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:singleLine="false"
+            android:text="@string/theme_shop_v6_more"
+            android:textColor="#181818"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/v7_gap1_15dp"
+        android:layout_marginLeft="@dimen/v7_gap1_15dp"
+        android:layout_marginRight="@dimen/v7_gap1_15dp"
+        android:layout_marginTop="@dimen/v8_gap3_5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/imgComic_bg_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.nd.hilauncherdev.shop.widget.RoundCornerImageView
+                    android:id="@+id/imgComic_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/theme_shop_item_title_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/v7_gap3_8dp"
+                android:layout_marginTop="@dimen/v7_gap3_8dp"
+                android:ellipsize="end"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="@color/theme_shop_v6_list_item_title"
+                android:textSize="@dimen/theme_shop_v6_list_item_title" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+            android:layout_marginRight="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/imgComic_bg_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+                    android:id="@+id/imgComic_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/theme_shop_item_title_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/v7_gap3_8dp"
+                android:layout_marginTop="@dimen/v7_gap3_8dp"
+                android:ellipsize="end"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="@color/theme_shop_v6_list_item_title"
+                android:textSize="@dimen/theme_shop_v6_list_item_title" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/imgComic_bg_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.nd.hilauncherdev.shop.widget.ImageViewForTheme
+                    android:id="@+id/imgComic_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/theme_shop_v6_theme_no_find_small" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/theme_shop_item_title_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/v7_gap3_8dp"
+                android:layout_marginTop="@dimen/v7_gap3_8dp"
+                android:ellipsize="end"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="@color/theme_shop_v6_list_item_title"
+                android:textSize="@dimen/theme_shop_v6_list_item_title" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</com.nd.hilauncherdev.shop.shop6.discovery.DiscoveryComicView>

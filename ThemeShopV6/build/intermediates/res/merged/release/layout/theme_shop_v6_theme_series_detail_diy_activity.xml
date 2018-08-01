@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/theme_shop_v6_tab_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/shop_theme_series_detail_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+           style="@style/v7_common_header_layout">
+
+            <LinearLayout
+                android:layout_width="60dip"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/v7_gap1_15dp">
+                <ImageView
+                    android:id="@+id/back"
+                   style="@style/v7_common_header_goback" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/shop_theme_series_detail_title"
+                style="@style/v7_common_header_title"
+                android:text="@string/theme_series_detail_title"
+                 />
+
+            <ImageView
+                android:id="@+id/help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/v7_gap1_15dp"
+                android:src="@drawable/theme_shop_pay_help" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipToPadding="false">
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/bottomLayout"
+            android:layout_weight="1.0">
+
+            <LinearLayout
+                android:id="@+id/theme_series_detail_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/theme_series_mark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dip"
+                    android:layout_marginTop="8dip"
+                    android:background="@drawable/theme_series_mark_bg"
+                    android:gravity="center"
+                    android:paddingBottom="5dip"
+                    android:paddingLeft="8dip"
+                    android:paddingRight="8dip"
+                    android:paddingTop="5dip"
+                    android:text="我的可爱第1天"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <com.nd.hilauncherdev.framework.view.commonview.ViewPageCascade
+                    android:id="@+id/shop_theme_gallery"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:id="@+id/theme_series_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dip"
+                    android:padding="10dip"
+
+                    android:textColor="#707070"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/myphone_bottom_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/theme_shop_v6_manage_downtask_title_bg">
+
+            <ImageButton
+                android:id="@+id/theme_shop_gallary_delete_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingRight="20dip"
+                android:background="@drawable/theme_detail_btn_delete_normal"/>
+
+            <TextView
+                android:id="@+id/theme_shop_item_price_old"
+                android:layout_width="222dip"
+                android:layout_height="37dip"
+                android:layout_centerInParent="true"
+                android:background="@drawable/common_btn_red_selector"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"></TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

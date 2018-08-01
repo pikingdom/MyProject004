@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="myphone_info_view_image_size">100dip</dimen>
+    <dimen name="myphone_info_view_margin_top">30dip</dimen>
+    <dimen name="personal_center_desc_text_size">14dip</dimen>
+    <dimen name="text_size">13sp</dimen>
+    <dimen name="theme_shop_v6_theme_category_dropdown_item_size">14px</dimen>
+    <dimen name="theme_shop_v6_theme_category_second_class_item_size">10sp</dimen>
+    <dimen name="workspaceEndPadding">70dip</dimen>
+    <dimen name="workspaceStartPadding">25dip</dimen>
+</resources>

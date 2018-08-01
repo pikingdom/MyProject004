@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="198dp"
+    android:layout_marginLeft="7.3dp"
+    android:layout_marginRight="7.3dp"
+    android:background="@drawable/bg_xiaomi_wlan_dialog">
+
+    <TextView
+        android:id="@+id/dialog_wlan_ssid_tv"
+        android:layout_marginTop="33dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="12dp"
+        android:textColor="#0a0a0a"
+        android:text="ssid"/>
+
+    <RelativeLayout
+        android:layout_below="@id/dialog_wlan_ssid_tv"
+        android:layout_width="match_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="34.3dp"
+        android:background="@drawable/bg_xiaomi_wlan_dialog_et">
+
+        <RelativeLayout
+            android:id="@+id/dialog_wlan_visible_password_click_layout"
+            android:layout_width="36.4dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <View
+                android:layout_width="0.7dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="35.7dp"
+                android:background="#c4c4c4"
+                />
+
+            <ImageView
+                android:id="@+id/dialog_wlan_visible_password_iv"
+                android:layout_width="17dp"
+                android:layout_height="11.7dp"
+                android:background="@drawable/bg_xiaomi_wlan_dialog_et_hide_password"
+                android:layout_marginRight="9.3dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <EditText
+			android:id="@+id/dialog_wlan_password_et"
+            android:layout_width="match_parent"
+            android:layout_height="20.7dp"
+            android:layout_toLeftOf="@id/dialog_wlan_visible_password_click_layout"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:inputType="textPassword"
+            android:paddingLeft="4.3dp"
+            android:textColorHint="#888888"
+            android:textSize="14dp"
+            android:hint="密码"/>
+        
+        
+    </RelativeLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47.7dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/dialog_wlan_cancel_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_xiaomi_wlan_dialog_left"
+            android:textColor="@color/guide_xiaomi_dialog_wlan_conn_disable"
+            android:textSize="10dp"
+            android:text="取消"/>
+
+
+        <Button
+            android:id="@+id/dialog_wlan_conn_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_xiaomi_wlan_dialog_right"
+            android:enabled="false"
+            android:textColor="@color/guide_xiaomi_dialog_wlan_conn_disable"
+            android:textSize="10dp"
+            android:text="连接"/>
+
+
+    </LinearLayout>
+    
+</RelativeLayout>

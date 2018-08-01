@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/panda_widget_4x2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:descendantFocusability="beforeDescendants" >
+
+    <ImageView
+        android:id="@+id/IdImageViewBk"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/loading_bg4x2" />
+
+    <TextView
+        android:id="@+id/TextViewMessage"
+        style="@style/shadow_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="12dip"
+        android:text="载入皮肤中,请稍候..."
+        android:textColor="#ffffffff"
+        android:textSize="16.0sp" />
+
+</merge>

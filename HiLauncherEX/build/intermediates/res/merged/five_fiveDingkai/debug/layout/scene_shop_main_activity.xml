@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/myphone_bg_color" >
+
+    <com.nd.hilauncherdev.framework.view.commonview.HeaderView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+     <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp" 
+            android:paddingRight="15dp" 
+            android:paddingTop="8dp" 
+            android:paddingBottom="10dp" 
+            >
+
+            <TextView
+                android:id="@+id/launcher_popular_gridview_title"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center"
+                android:textColor="#656c6f"
+                android:text="品牌定制"
+                android:drawableLeft="@drawable/scene_shop_title_index"
+                android:drawablePadding="3dp"/>
+
+            <GridView
+                android:id="@+id/launcher_popular_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:horizontalSpacing="4dip"
+                android:listSelector="@android:color/transparent"
+                android:stretchMode="columnWidth"
+                android:numColumns="3"
+                android:verticalSpacing="4dip" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center"
+                android:textColor="#656c6f"
+                android:text="桌面系列" 
+                android:drawableLeft="@drawable/scene_shop_title_index"
+                android:drawablePadding="3dp"/>
+
+            <GridView
+                android:id="@+id/launcher_default_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:horizontalSpacing="4dip"
+                android:listSelector="@android:color/transparent"
+                android:stretchMode="columnWidth"
+                android:numColumns="3"
+                android:verticalSpacing="4dip" />
+            
+            <TextView
+                android:id="@+id/launcher_v5_style_gridview_title"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center"
+                android:textColor="#656c6f"
+                android:text="自由格调" 
+                android:drawableLeft="@drawable/scene_shop_title_index"
+                android:drawablePadding="3dp"/>
+
+            <GridView
+                android:id="@+id/launcher_v5_style_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:horizontalSpacing="4dip"
+                android:listSelector="@android:color/transparent"
+                android:stretchMode="columnWidth"
+                android:numColumns="3"
+                android:verticalSpacing="4dip" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

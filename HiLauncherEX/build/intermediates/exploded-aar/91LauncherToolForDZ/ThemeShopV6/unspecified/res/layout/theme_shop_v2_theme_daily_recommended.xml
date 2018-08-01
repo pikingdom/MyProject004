@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/theme_shop_v6_loading_style_mid" />
+
+    <com.nd.hilauncherdev.shop.shop3.customview.NetErrorAndSettingView
+        android:id="@+id/neterror_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <com.nd.hilauncherdev.shop.widget.GridViewWithHeaderAndFooter
+            android:id="@+id/theme_shop_theme_list_daily"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/transparent_background"
+            android:dividerHeight="0dip"
+            android:fadingEdge="none"
+            android:gravity="center"
+            android:numColumns="1"
+            android:listSelector="@drawable/transparent_background"
+            android:transcriptMode="disabled" />
+
+        <com.nd.hilauncherdev.shop.widget.HeaderGridView
+            android:visibility="gone"
+            android:id="@+id/baidu_theme_shop_theme_list_daily"
+            android:layout_weight="1.0"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchMode="columnWidth"
+            android:transcriptMode="disabled"
+            android:cacheColorHint="#00000000"
+            android:listSelector = "@drawable/theme_shop_v6_transparent"
+            android:verticalSpacing="0dip"
+            android:horizontalSpacing="-14dp"/>
+
+        <include layout="@layout/theme_shop_v6_loading_style_bottom" />
+    </LinearLayout>
+
+</LinearLayout>

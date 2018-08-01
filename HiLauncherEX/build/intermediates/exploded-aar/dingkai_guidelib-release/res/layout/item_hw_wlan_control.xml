@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="47dp"
+    android:background="@color/guide_hw_bg">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="15.5dp"
+        android:layout_height="11.5dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_hw_wlan_control_left"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16.5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#262626"
+        android:text="WLAN"/>
+
+    <Switch
+        android:id="@+id/item_switch_wlan"
+        android:layout_width="46dp"
+        android:layout_height="22.6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:textOn=""
+        android:textOff=""
+        android:track="@drawable/switch_hw_wlan_track"
+        android:thumb="@drawable/switch_hw_wlan_thumb"/>
+
+</RelativeLayout>

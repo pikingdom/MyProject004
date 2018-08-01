@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nd.hilauncherdev.widget.shop.view.WidgetShopUpdateItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/installed_widget_layout"
+            android:layout_width="match_parent"
+            android:layout_height="158dip"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/widget_shop_grid_item_bg"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp" >
+
+            <ImageView
+                android:id="@+id/Installed_widget_Icon"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/widget_shop_widget_bg"
+                android:paddingBottom="16dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="16dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/appwidget_loading" />
+
+            <ImageView
+                android:id="@+id/Installed_widget_delete_Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/Installed_widget_Icon"
+                android:layout_alignTop="@+id/Installed_widget_Icon"
+                android:src="@drawable/widget_shop_item_update" 
+                android:visibility="gone"/>
+
+            <RelativeLayout
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/Installed_widget_Icon"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/Installed_widget_Icon"
+                android:layout_below="@+id/Installed_widget_Icon"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/Installed_widget_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/widget_update_percent"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="item"
+                    android:textColor="#999999" />
+
+                <TextView
+                    android:id="@+id/widget_update_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text=""
+                    android:textColor="#ffffff"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <ImageView 
+		    android:id="@+id/widget_new_tip"
+		    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+		    android:src="@drawable/drawer_widget_new"
+		    android:visibility="gone"/>
+    </RelativeLayout>
+
+</com.nd.hilauncherdev.widget.shop.view.WidgetShopUpdateItemView>

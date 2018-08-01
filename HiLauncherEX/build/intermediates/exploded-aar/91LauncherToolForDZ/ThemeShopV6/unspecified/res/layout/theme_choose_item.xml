@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+        <ImageView android:id="@+id/theme_thumb"
+                   android:layout_gravity="center"
+                   android:layout_width="match_parent"
+                   android:layout_height="@dimen/theme_shop_v6_recomment_new_img_height"
+                   android:scaleType="fitXY"/>
+
+
+        <ImageView android:id="@+id/theme_deledit_mask" android:layout_gravity="center"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:scaleType="fitXY"
+                   android:visibility="gone"
+                   android:background="#7F000000"
+                />
+        <ImageView android:layout_gravity="top|left|center"
+                   android:id="@+id/theme_deledit_unchecked" android:visibility="gone"
+                   android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+                   android:layout_marginLeft="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+                   android:src="@drawable/local_theme_batch_del_unchecked"/>
+        <ImageView android:layout_gravity="top|left|center"
+                   android:id="@+id/theme_deledit_checked" android:visibility="gone"
+                   android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+                   android:layout_marginLeft="@dimen/theme_shop_v6_recomment_taghot_img_margin_4"
+                   android:src="@drawable/local_theme_batch_del_checked"/>
+    </FrameLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:paddingTop="5dip">
+
+        <com.nd.hilauncherdev.framework.view.AlwaysMarqueeTextView
+                android:id="@+id/theme_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="@color/theme_shop_v6_list_item_title"
+                android:textSize="@dimen/theme_shop_v6_list_item_title"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

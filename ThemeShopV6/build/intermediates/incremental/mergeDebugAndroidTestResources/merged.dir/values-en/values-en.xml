@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <item name="common_view_holder" type="id"/>
+    <item name="drager_controller_on_drag_exit_in_action_move" type="id"/>
+    <string msgid="3571057450431950427" name="activity_not_found">No app installed on your phone.</string>
+    <string name="common_alert">Note</string>
+    <string name="common_button_add">New</string>
+    <string name="common_button_addto">Add</string>
+    <string name="common_button_apply">Apply</string>
+    <string name="common_button_back_to_home">Home</string>
+    <string name="common_button_cancel">Cancel</string>
+    <string name="common_button_clear">Clear</string>
+    <string name="common_button_close">Close</string>
+    <string name="common_button_closed">Disable</string>
+    <string name="common_button_commit">Submit</string>
+    <string name="common_button_complate">Finish</string>
+    <string name="common_button_confirm">OK</string>
+    <string name="common_button_continue">Continue</string>
+    <string name="common_button_default">Default</string>
+    <string name="common_button_delete">Delete</string>
+    <string name="common_button_discard">Discard</string>
+    <string name="common_button_download">Download</string>
+    <string name="common_button_download_more">Download More</string>
+    <string name="common_button_download_skin">Download Skin</string>
+    <string name="common_button_downloading">Downloading</string>
+    <string name="common_button_edit">Edit</string>
+    <string name="common_button_editable">Edit</string>
+    <string name="common_button_enabled">Enable</string>
+    <string name="common_button_enter">Start</string>
+    <string name="common_button_i_know">OK</string>
+    <string name="common_button_ignore">Ignore</string>
+    <string name="common_button_install">Install</string>
+    <string name="common_button_manager">Manager</string>
+    <string name="common_button_modify">Modify</string>
+    <string name="common_button_no">No</string>
+    <string name="common_button_open">Open</string>
+    <string name="common_button_open_now">Enable now</string>
+    <string name="common_button_preview">Preview</string>
+    <string name="common_button_recover">Recover</string>
+    <string name="common_button_redownload">Download again</string>
+    <string name="common_button_refresh">Refresh</string>
+    <string name="common_button_restart_now">Restart now</string>
+    <string name="common_button_return">Back</string>
+    <string name="common_button_save">Save</string>
+    <string name="common_button_search">Search</string>
+    <string name="common_button_set">Settings</string>
+    <string name="common_button_share">Share</string>
+    <string name="common_button_uninstall">Uninstall</string>
+    <string name="common_button_update">Update</string>
+    <string name="common_button_use">Enable</string>
+    <string name="common_button_use_now">Use now</string>
+    <string name="common_button_used">Enabled</string>
+    <string name="common_button_view_detail">Details</string>
+    <string name="common_button_yes">Yes</string>
+    <string name="common_checkbox_not_alert">Don\'t show this again</string>
+    <string name="common_download_ended">Downloaded</string>
+    <string name="common_download_failed">Download failed</string>
+    <string name="common_download_now">Download now</string>
+    <string name="common_download_success">Download succeeded</string>
+    <string name="common_downloading">Downloading...</string>
+    <string name="common_install_now">Install now</string>
+    <string name="common_installed">Installed</string>
+    <string name="common_loading">Loading...</string>
+    <string name="common_refresh">Refresh</string>
+    <string name="common_refresh_failed">Refresh failed</string>
+    <string name="common_tip">Tips</string>
+    <string name="common_uninstalled">Not installed</string>
+    <string name="dockbar_allow">Cannot drag to Dock Bar</string>
+    <string name="dockbar_dock_browser">Browser</string>
+    <string name="dockbar_dock_contacts">Contacts</string>
+    <string name="dockbar_dock_dial">Dial</string>
+    <string name="dockbar_dock_sms">Messages</string>
+    <string name="dockbar_null_intent">Abnormal data</string>
+    <string name="edit_lock_toast_lock">Edit feature is locked</string>
+    <string name="folder_drag_out_error">Insufficient space on this screen. Please add to another screen.</string>
+    <string name="frame_viewfacotry_data_load_text">Data loading slowly</string>
+    <string name="frame_viewfacotry_download_null">Nothing here. Add some content now!</string>
+    <string name="frame_viewfacotry_err_info_text">Error!</string>
+    <string name="frame_viewfacotry_net_break_btn">Open Settings</string>
+    <string name="frame_viewfacotry_net_break_text">Download failed. Network switch is off.</string>
+    <string name="frame_viewfacotry_net_slowly_reflesh_btn">Refresh</string>
+    <string name="frame_viewfacotry_net_slowly_text">Download failed. Something is wrong with the network connection.</string>
+    <string name="frame_viewfacotry_search_null">No relevant content found. Please try something else.</string>
+    <string name="frame_viewfacotry_show_netsetting_err">Opening Network Settings failed</string>
+    <string name="frame_viewfactory_cancle">Cancel</string>
+    <string name="frame_viewfactory_del_error_widget_1">A Home Screen issue may affect normal use. Sorry for any inconvenience. You can choose to Reset to initial settings to fix this problem. Recover original settings now?</string>
+    <string name="frame_viewfactory_del_error_widget_2">After reset, widgets on the Home Screen will be deleted to make sure you can use the Home Screen normally. Are you sure you want to reset?</string>
+    <string name="frame_viewfactory_dialog_title">Home tips</string>
+    <string name="frame_viewfactory_err_content_downgrade">Your phone does not support APP downgrading. Reset the Home Screen to fix the problem.</string>
+    <string name="frame_viewfactory_err_content_text">Sorry. There is an error. We need your feedback to help us fix the problem as soon as possible. We wil collect only error information. We will not collect your personal information.</string>
+    <string name="frame_viewfactory_err_content_text_widget">Widget %1$s has a small problem. We will remove it from the Home Screen and restart. If you need to use it again, you can find it at App List -> Widgets.</string>
+    <string name="frame_viewfactory_err_content_upgrade">Uh-oh! Home Screen has a little problem! Learned from wise programmers: updating to the latest version can fix it. Go ahead and try!</string>
+    <string name="frame_viewfactory_err_title">Error!</string>
+    <string name="frame_viewfactory_next_time">Ask me next time</string>
+    <string name="frame_viewfactory_restore">Reset</string>
+    <string name="frame_viewfactory_send_failed">Your phone has no binding Gmail account. Message cannot be sent.</string>
+    <string name="frame_viewfactory_tell_us">Tell us</string>
+    <string name="frame_viewfactory_upgrade_now">Update now</string>
+    <string msgid="8359351016167075858" name="gadget_error_text">There is a problem when loading the widgets</string>
+    <string name="hint_sdcard_available">SD Card loaded. It will refresh the Home Screen icon now.</string>
+    <string name="main_dock_notification_disable_hint">Notification Toolbar is closed. Open Notification Toolbar first.</string>
+    <string name="message_preview_cannot_delete_screen">Cannot delete the last screen</string>
+    <string name="message_preview_delete_screen">Delete screen and all its content?</string>
+    <string name="message_preview_delete_screen_not_allow">App List icon cannot be deleted.</string>
+    <string name="message_preview_fail_drag_to_screen">Failed to move the icon</string>
+    <string name="message_preview_out_of_screen">Insufficient space on this screen. Please add to another screen.</string>
+    <string name="message_preview_set_default_screen">Set as default screen</string>
+    <string name="myphone_root_fail_desc">Home was unable to access ROOT privileges. Please allow ROOT privileges in management app such as SuperUser KingUser.</string>
+    <string name="myphone_root_fail_title">Access ROOT privileges failed</string>
+    <string msgid="8365249326091984698" name="out_of_space">Insufficient space on the screen</string>
+    <string name="settings_about_no_market_title">App Store is not installed on your phone.</string>
+    <string msgid="4757756326465060694" name="shortcut_duplicate">
+		<ns1:g id="NAME">%s</ns1:g> shortcut already exists.
+	</string>
+    <string msgid="7071557296331322355" name="shortcut_installed">
+		<ns1:g id="NAME">%s</ns1:g> shortcut created.
+	</string>
+    <string name="shortcut_toolong">Invalid character. Unable to add.</string>
+    <string msgid="2129499669449749995" name="shortcut_uninstalled">
+		<ns1:g id="NAME">%s</ns1:g> shortcut deleted.
+	</string>
+    <string name="spring_add_app_from_drawer_reset">Unable to move to this location</string>
+    <string name="uninstallapp_no_this_appinfo">No info found about this app. Uninstall failed.</string>
+</resources>
